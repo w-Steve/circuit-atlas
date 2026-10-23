@@ -1,0 +1,644 @@
+{
+  "miami": {
+    "openingReference": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+    "osm": {},
+    "diagram": {
+      "url": "https://s40320.pcdn.co/wp-content/uploads/2025/10/F1_-Interactive-Map_Updated_Discovery_2-scaled-e1779901726996.jpg",
+      "year": "undated current organizer diagram; 2026 names checked separately",
+      "controls": {
+        "1": [
+          1300,
+          445
+        ],
+        "2": [
+          1270,
+          492
+        ],
+        "3": [
+          1209,
+          652
+        ],
+        "6": [
+          490,
+          537
+        ],
+        "7": [
+          263,
+          602
+        ],
+        "8": [
+          278,
+          704
+        ],
+        "11": [
+          1848,
+          500
+        ],
+        "12": [
+          1774,
+          393
+        ],
+        "17": [
+          426,
+          164
+        ],
+        "18": [
+          556,
+          251
+        ],
+        "19": [
+          723,
+          185
+        ]
+      },
+      "rectangles": [
+        [
+          "Start Finish",
+          1065,
+          251,
+          308,
+          35,
+          29,
+          19,
+          1
+        ],
+        [
+          "Turn 1 North",
+          1329,
+          398,
+          172,
+          28,
+          29,
+          19,
+          1
+        ],
+        [
+          "Turn 18 West",
+          452,
+          282,
+          149,
+          27,
+          31,
+          17,
+          18
+        ],
+        [
+          "Turn 18 East",
+          610,
+          319,
+          147,
+          27,
+          -7,
+          18,
+          19
+        ],
+        [
+          "Marina North",
+          179,
+          519,
+          72,
+          30,
+          30,
+          6,
+          7
+        ],
+        [
+          "Marina Central",
+          152,
+          601,
+          72,
+          30,
+          90,
+          7,
+          8
+        ],
+        [
+          "Marina South",
+          173,
+          690,
+          73,
+          30,
+          70,
+          7,
+          8
+        ],
+        [
+          "North Beach West",
+          1729,
+          416,
+          161,
+          26,
+          90,
+          11,
+          12
+        ],
+        [
+          "North Beach Crest",
+          1800,
+          304,
+          130,
+          25,
+          -4,
+          11,
+          12
+        ],
+        [
+          "South Beach",
+          1861,
+          577,
+          134,
+          28,
+          -30,
+          11,
+          12
+        ]
+      ]
+    },
+    "candidateZones": 10,
+    "notes": ""
+  },
+  "montreal": {
+    "openingReference": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+    "osm": {
+      "Grandstand 11": [
+        1243714699
+      ],
+      "Grandstand 12": [
+        1381122382
+      ],
+      "Grandstand 15": [
+        1243714698
+      ],
+      "Lance Stroll 24": [
+        1243714697
+      ],
+      "Grandstand 46": [
+        1243714696
+      ]
+    },
+    "diagram": {
+      "url": "https://raceexperiences.com/wp-content/uploads/2026/04/F1-Ticket-tips-Canada.pdf",
+      "year": 2026,
+      "controls": {
+        "1": [
+          940,
+          1002
+        ],
+        "2": [
+          976,
+          1013
+        ],
+        "3": [
+          857,
+          1080
+        ],
+        "4": [
+          830,
+          1087
+        ],
+        "5": [
+          747,
+          1092
+        ],
+        "6": [
+          650,
+          1048
+        ],
+        "7": [
+          616,
+          1081
+        ],
+        "8": [
+          414,
+          938
+        ],
+        "9": [
+          424,
+          911
+        ],
+        "10": [
+          229,
+          759
+        ],
+        "11": [
+          258,
+          767
+        ],
+        "12": [
+          402,
+          790
+        ],
+        "13": [
+          692,
+          885
+        ],
+        "14": [
+          697,
+          907
+        ]
+      },
+      "rectangles": [
+        [
+          "Grandstand 1",
+          796,
+          952,
+          87,
+          18,
+          17,
+          14,
+          1
+        ],
+        [
+          "Grandstand 16",
+          752,
+          938,
+          84,
+          18,
+          17,
+          14,
+          1
+        ],
+        [
+          "Platine",
+          918,
+          1018,
+          54,
+          18,
+          40,
+          1,
+          2
+        ],
+        [
+          "Grandstand 10",
+          940,
+          1076,
+          66,
+          18,
+          -32,
+          2,
+          3
+        ],
+        [
+          "Grandstand 21",
+          248,
+          787,
+          87,
+          20,
+          18,
+          10,
+          9
+        ],
+        [
+          "Grandstand 34",
+          322,
+          785,
+          18,
+          18,
+          15,
+          10,
+          12
+        ],
+        [
+          "Grandstand 47",
+          348,
+          791,
+          61,
+          18,
+          10,
+          10,
+          12
+        ],
+        [
+          "Grandstand 31",
+          407,
+          928,
+          47,
+          18,
+          -72,
+          8,
+          9
+        ],
+        [
+          "Grandstand 32",
+          671,
+          1043,
+          49,
+          17,
+          17,
+          6,
+          7
+        ],
+        [
+          "Grandstand 33",
+          625,
+          1054,
+          54,
+          18,
+          -60,
+          6,
+          7
+        ]
+      ]
+    },
+    "candidateZones": 15,
+    "notes": ""
+  },
+  "austin": {
+    "openingReference": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+    "osm": {
+      "Main": [
+        460658889
+      ],
+      "Turn 1": [
+        460658890
+      ],
+      "Turn 15 North": [
+        460658891
+      ],
+      "Turn 15 South": [
+        460658892
+      ],
+      "Turn 12": [
+        460683347,
+        1183793500
+      ],
+      "Turn 19": [
+        1183793497
+      ]
+    },
+    "diagram": {
+      "url": "https://f1destinations.com/wp-content/uploads/2025/10/2025-United-States-GP-COTA-Spectator-Map.pdf",
+      "year": 2025,
+      "controls": {
+        "3": [
+          797,
+          578
+        ],
+        "4": [
+          849,
+          514
+        ],
+        "5": [
+          870,
+          473
+        ],
+        "9": [
+          1114,
+          449
+        ],
+        "10": [
+          1264,
+          429
+        ]
+      },
+      "rectangles": [
+        [
+          "Turn 4",
+          868,
+          542,
+          73,
+          23,
+          -51,
+          3,
+          4
+        ],
+        [
+          "Turn 9",
+          1193,
+          472,
+          89,
+          23,
+          -11,
+          9,
+          10
+        ]
+      ]
+    },
+    "candidateZones": 8,
+    "notes": ""
+  },
+  "mexico": {
+    "openingReference": "https://www.mexicogp.mx/boletos-generales/",
+    "osm": {
+      "Grada 1": [
+        377679571
+      ],
+      "Grada 2": [
+        377679572
+      ],
+      "Grada 2A": [
+        1212660336,
+        1212660337
+      ],
+      "Grada 3A": [
+        1191967004
+      ],
+      "Grada 4": [
+        605366589
+      ],
+      "Grada 5": [
+        605366588
+      ],
+      "Grada 5A": [
+        1191525031
+      ],
+      "Grada 6": [
+        605366586
+      ],
+      "Grada 6B": [
+        1162963329
+      ],
+      "Grada 14 Sur": [
+        1315400018
+      ],
+      "Grada 15 Norte": [
+        377679562
+      ]
+    },
+    "diagram": null,
+    "candidateZones": 11,
+    "notes": ""
+  },
+  "interlagos": {
+    "openingReference": "https://f1saopaulo.com.br/arquibancadas/",
+    "osm": {
+      "Setor M": [
+        138420844
+      ],
+      "Setor B": [
+        138420848
+      ],
+      "Pit Stop Club": [
+        138550780
+      ],
+      "Setor A": [
+        189535474
+      ]
+    },
+    "diagram": null,
+    "candidateZones": 8,
+    "notes": "Interlagos temporary sector GIS picks are explicit in build-americas-spectators.py; no automatic shifts or surveyed dimensions claimed."
+  },
+  "las-vegas": {
+    "openingReference": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+    "osm": {},
+    "diagram": {
+      "url": "https://www.f1lasvegasgp.com/app/uploads/2026/07/Website-Maps_2_MAINGRANDSTAND-1-scaled.jpg",
+      "year": 2026,
+      "controls": {
+        "1": [
+          1371,
+          144
+        ],
+        "2": [
+          1340,
+          185
+        ],
+        "3": [
+          1396,
+          300
+        ],
+        "4": [
+          1374,
+          365
+        ],
+        "5": [
+          750,
+          379
+        ],
+        "6": [
+          721,
+          219
+        ],
+        "7": [
+          638,
+          139
+        ],
+        "8": [
+          615,
+          151
+        ],
+        "9": [
+          505,
+          157
+        ],
+        "10": [
+          466,
+          493
+        ],
+        "16": [
+          1589,
+          860
+        ],
+        "17": [
+          1573,
+          350
+        ]
+      },
+      "rectangles": [
+        [
+          "Main",
+          1496,
+          181,
+          183,
+          24,
+          42,
+          1,
+          17
+        ],
+        [
+          "Turn 3",
+          1418,
+          350,
+          47,
+          20,
+          -57,
+          3,
+          4
+        ],
+        [
+          "Heineken West",
+          1141,
+          418,
+          135,
+          30,
+          0,
+          4,
+          5
+        ],
+        [
+          "Heineken East",
+          1294,
+          418,
+          87,
+          30,
+          0,
+          4,
+          5
+        ],
+        [
+          "Lewis Hamilton",
+          1548,
+          422,
+          61,
+          23,
+          90,
+          17,
+          16
+        ],
+        [
+          "T-Mobile Turn 5",
+          777,
+          301,
+          111,
+          23,
+          90,
+          5,
+          6
+        ],
+        [
+          "T-Mobile Turn 6",
+          698,
+          123,
+          43,
+          21,
+          29,
+          6,
+          7
+        ],
+        [
+          "T-Mobile Turn 7",
+          660,
+          112,
+          37,
+          21,
+          10,
+          6,
+          7
+        ],
+        [
+          "T-Mobile Turn 8",
+          612,
+          115,
+          47,
+          18,
+          0,
+          7,
+          8
+        ],
+        [
+          "T-Mobile Turn 9",
+          570,
+          130,
+          34,
+          22,
+          90,
+          8,
+          9
+        ]
+      ]
+    },
+    "candidateZones": 10,
+    "notes": ""
+  }
+}

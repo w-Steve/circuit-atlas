@@ -1,0 +1,1224 @@
+[
+  {
+    "circuitId": "melbourne",
+    "zoneId": "fangio",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "fangio-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.79,
+        "frontReference": [
+          144.96996353510846,
+          -37.850816623005954
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "piastri",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "piastri-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.1,
+        "frontReference": [
+          144.96844962703474,
+          -37.849603792182386
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "jones",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "jones-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 42.66,
+        "frontReference": [
+          144.966223779394,
+          -37.84663055984266
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "moss",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "moss-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.82,
+        "frontReference": [
+          144.96655321193057,
+          -37.84810060357992
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "brabham",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "brabham-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 7.36,
+        "frontReference": [
+          144.96616717944767,
+          -37.84728067425678
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "hill",
+    "availability": "preparing",
+    "issues": [
+      "hill-1: no road across either seating face"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "hill-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 36.89,
+        "frontReference": null
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "ricciardo",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "ricciardo-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.55,
+        "frontReference": [
+          144.9633979186674,
+          -37.84191803844718
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "american-express",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "american-express-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.49,
+        "frontReference": [
+          144.96288870707315,
+          -37.841998637603275
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "stewart",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "stewart-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.18,
+        "frontReference": [
+          144.96559564664568,
+          -37.838798862958555
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "button",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "button-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 7.1,
+        "frontReference": [
+          144.97114941203466,
+          -37.83931631445346
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "clark",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "clark-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 7.68,
+        "frontReference": [
+          144.9716156900794,
+          -37.842049592630524
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "waite",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "waite-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 7.73,
+        "frontReference": [
+          144.97484689544237,
+          -37.848125968141034
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "vettel",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "vettel-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.39,
+        "frontReference": [
+          144.9784095779672,
+          -37.852447245304056
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "webber",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "webber-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.17,
+        "frontReference": [
+          144.97767547528238,
+          -37.853436488286576
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "schumacher",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "schumacher-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 11.9,
+        "frontReference": [
+          144.97330854423393,
+          -37.852703920286295
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "lauda",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "lauda-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 22.19,
+        "frontReference": [
+          144.97533026921494,
+          -37.85360691482352
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "senna",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "senna-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.82,
+        "frontReference": [
+          144.9716128863863,
+          -37.85215000538698
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "melbourne",
+    "zoneId": "prost",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "prost-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 12.53,
+        "frontReference": [
+          144.9723766822934,
+          -37.8527611051213
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "v1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "v1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.16,
+        "frontReference": [
+          136.53999556086555,
+          34.84363173758256
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "v2",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "v2-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.57,
+        "frontReference": [
+          136.5393135136127,
+          34.84431992470777
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "a1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "a1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.14,
+        "frontReference": [
+          136.5416394381892,
+          34.84200366616818
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "b1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "b1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.74,
+        "frontReference": [
+          136.542808280805,
+          34.838970600604554
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "b2",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "b2-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.03,
+        "frontReference": [
+          136.54298073574122,
+          34.839029755427
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "c",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "c-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 15.05,
+        "frontReference": [
+          136.54192040734117,
+          34.83944332796858
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "d1-d4",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "d1-d4-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.35,
+        "frontReference": [
+          136.537554162622,
+          34.84236512027148
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "d5",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "d5-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.36,
+        "frontReference": [
+          136.53932320232974,
+          34.84155908007387
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "e",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "e-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 52.84,
+        "frontReference": [
+          136.5372466183798,
+          34.84447281547172
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "g",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "g-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 4.72,
+        "frontReference": [
+          136.53042441566504,
+          34.84473527841574
+        ]
+      },
+      {
+        "surfaceId": "g-2",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.27,
+        "frontReference": [
+          136.53043227120273,
+          34.84469719015838
+        ]
+      },
+      {
+        "surfaceId": "g-3",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.64,
+        "frontReference": [
+          136.5320416731697,
+          34.84406233860686
+        ]
+      },
+      {
+        "surfaceId": "g-4",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.85,
+        "frontReference": [
+          136.5319891561758,
+          34.84404366864798
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "l",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "l-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.9,
+        "frontReference": [
+          136.52384448533908,
+          34.84802286797452
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "m",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "m-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.11,
+        "frontReference": [
+          136.52199667737048,
+          34.848006373542965
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "n",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "n-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 16.75,
+        "frontReference": [
+          136.52199085595322,
+          34.84750531314529
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "o",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "o-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.15,
+        "frontReference": [
+          136.5277586178231,
+          34.84478579452082
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "p",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "p-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 4.44,
+        "frontReference": [
+          136.5333091831945,
+          34.84479834318536
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "q1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "q1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.36,
+        "frontReference": [
+          136.53624580643958,
+          34.84606605384302
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "q2",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "q2-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 24.9,
+        "frontReference": [
+          136.53567371307432,
+          34.845768875565916
+        ]
+      },
+      {
+        "surfaceId": "q2-2",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 36.1,
+        "frontReference": [
+          136.53533559611844,
+          34.845661586144935
+        ]
+      },
+      {
+        "surfaceId": "q2-3",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 9.63,
+        "frontReference": [
+          136.53608109145242,
+          34.84601714208358
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "zoneId": "r",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "r-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.35,
+        "frontReference": [
+          136.53722016213678,
+          34.84597669504514
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "baku",
+    "zoneId": "absheron-a",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "absheron-a-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.6,
+        "frontReference": [
+          49.850981124176926,
+          40.37196438637491
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "baku",
+    "zoneId": "absheron-b",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "absheron-b-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.89,
+        "frontReference": [
+          49.85178557364606,
+          40.372222973755505
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "baku",
+    "zoneId": "absheron-c",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "absheron-c-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.98,
+        "frontReference": [
+          49.85261405564044,
+          40.372485801682316
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "baku",
+    "zoneId": "absheron-d",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "absheron-d-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.02,
+        "frontReference": [
+          49.853441655254265,
+          40.37275016890987
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "baku",
+    "zoneId": "absheron-e",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "absheron-e-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.98,
+        "frontReference": [
+          49.85427123206993,
+          40.373011086935996
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "baku",
+    "zoneId": "bulvar",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "bulvar-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 4.84,
+        "frontReference": [
+          49.840754747361224,
+          40.36837326114782
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "baku",
+    "zoneId": "azneft",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "azneft-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.2,
+        "frontReference": [
+          49.83501711687266,
+          40.362778112006644
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "baku",
+    "zoneId": "khazar",
+    "availability": "preparing",
+    "issues": [
+      "khazar-1: road intersection 263.9747 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "khazar-1",
+        "roadOverlapSquareMetres": 263.975,
+        "nearestRoadObliquityDegrees": 6.12,
+        "frontReference": [
+          49.84108439601141,
+          40.36856567397031
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "baku",
+    "zoneId": "sahil",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "sahil-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.99,
+        "frontReference": [
+          49.84036870758672,
+          40.36814570920647
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "baku",
+    "zoneId": "mugham",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "mugham-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 32.72,
+        "frontReference": [
+          49.83845536160013,
+          40.36699872659314
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "sepang",
+    "zoneId": "k1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "k1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.21,
+        "frontReference": [
+          101.73258585570346,
+          2.7607099049852715
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "sepang",
+    "zoneId": "f",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "f-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 8.08,
+        "frontReference": [
+          101.74273286830193,
+          2.761080137357103
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "sepang",
+    "zoneId": "main-north",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "main-north-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.68,
+        "frontReference": [
+          101.73657921053692,
+          2.76060779130638
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "sepang",
+    "zoneId": "main-south",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "main-south-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.62,
+        "frontReference": [
+          101.73738186496259,
+          2.759583566413161
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "singapore",
+    "zoneId": "pit",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "pit-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.48,
+        "frontReference": [
+          103.86420408665208,
+          1.2912808130364908
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "singapore",
+    "zoneId": "turn-1",
+    "availability": "preparing",
+    "issues": [
+      "turn-1-1: road intersection 28.7140 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "turn-1-1",
+        "roadOverlapSquareMetres": 28.714,
+        "nearestRoadObliquityDegrees": 20.84,
+        "frontReference": [
+          103.86379495904693,
+          1.2943609733966113
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "singapore",
+    "zoneId": "turn-2",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "turn-2-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 12.9,
+        "frontReference": [
+          103.86378373500635,
+          1.2943723365183266
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "singapore",
+    "zoneId": "padang",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "padang-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.56,
+        "frontReference": [
+          103.85202253648755,
+          1.2901730678766963
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "singapore",
+    "zoneId": "stamford",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "stamford-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.54,
+        "frontReference": [
+          103.85548633881375,
+          1.2924932440904624
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "singapore",
+    "zoneId": "connaught",
+    "availability": "preparing",
+    "issues": [
+      "connaught-1: road intersection 762.4437 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "connaught-1",
+        "roadOverlapSquareMetres": 762.444,
+        "nearestRoadObliquityDegrees": 5.09,
+        "frontReference": [
+          103.85263649318185,
+          1.2912750475034231
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "singapore",
+    "zoneId": "empress",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "empress-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 16.29,
+        "frontReference": [
+          103.85257614837235,
+          1.2876872446265804
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "singapore",
+    "zoneId": "bayfront",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "bayfront-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 14.78,
+        "frontReference": [
+          103.86139726105633,
+          1.2889374188367744
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "singapore",
+    "zoneId": "promenade",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "promenade-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.21,
+        "frontReference": [
+          103.86252647481056,
+          1.2887655194647591
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "singapore",
+    "zoneId": "skyline",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "skyline-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.21,
+        "frontReference": [
+          103.86238143234937,
+          1.2887791241653908
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "lusail",
+    "zoneId": "main",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "main-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.7,
+        "frontReference": [
+          51.45012802007647,
+          25.488329911568254
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "lusail",
+    "zoneId": "north",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "north-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.12,
+        "frontReference": [
+          51.44857965447674,
+          25.49089749389453
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "lusail",
+    "zoneId": "t3",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "t3-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.86,
+        "frontReference": [
+          51.4518984154984,
+          25.49573425404915
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "lusail",
+    "zoneId": "t16",
+    "availability": "preparing",
+    "issues": [
+      "t16-1: no road across either seating face"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "t16-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 46.88,
+        "frontReference": null
+      }
+    ]
+  },
+  {
+    "circuitId": "yas-marina",
+    "zoneId": "main",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "main-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.54,
+        "frontReference": [
+          54.605514058553425,
+          24.469976442661853
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "yas-marina",
+    "zoneId": "south",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "south-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.34,
+        "frontReference": [
+          54.60845507033526,
+          24.46327176916364
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "yas-marina",
+    "zoneId": "north-west",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "north-west-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.01,
+        "frontReference": [
+          54.60490846422082,
+          24.478068478321443
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "yas-marina",
+    "zoneId": "north-crown",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "north-crown-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.09,
+        "frontReference": [
+          54.60542393525983,
+          24.47864223573103
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "yas-marina",
+    "zoneId": "north-east",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "north-east-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.13,
+        "frontReference": [
+          54.605775775250244,
+          24.478090162662458
+        ]
+      }
+    ]
+  }
+]

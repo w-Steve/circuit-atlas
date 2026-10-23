@@ -1,0 +1,1217 @@
+{
+  "monaco": {
+    "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+    "osm": {},
+    "imageControls": {
+      "1": [
+        541,
+        238
+      ],
+      "2": [
+        735,
+        374
+      ],
+      "3": [
+        948,
+        449
+      ],
+      "4": [
+        984,
+        362
+      ],
+      "5": [
+        1178,
+        326
+      ],
+      "6": [
+        1170,
+        420
+      ],
+      "7": [
+        1188,
+        380
+      ],
+      "8": [
+        1244,
+        409
+      ],
+      "9": [
+        1046,
+        541
+      ],
+      "10": [
+        765,
+        448
+      ],
+      "11": [
+        733,
+        438
+      ],
+      "12": [
+        535,
+        290
+      ],
+      "13": [
+        449,
+        379
+      ],
+      "14": [
+        456,
+        407
+      ],
+      "15": [
+        392,
+        478
+      ],
+      "16": [
+        357,
+        467
+      ],
+      "17": [
+        315,
+        587
+      ],
+      "18": [
+        332,
+        619
+      ],
+      "19": [
+        272,
+        594
+      ]
+    },
+    "manual": [
+      {
+        "name": "A · Sainte Devote",
+        "pixelRectangle": [
+          538,
+          260,
+          32,
+          13,
+          0
+        ],
+        "worldOverride": [
+          -429,
+          295,
+          25,
+          9,
+          5
+        ]
+      },
+      {
+        "name": "B · Casino",
+        "pixelRectangle": [
+          997,
+          338,
+          33,
+          14,
+          -5
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "K · Tabac",
+        "pixelRectangle": [
+          471,
+          300,
+          90,
+          15,
+          -36
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Z · Quai Kennedy",
+        "pixelRectangle": [
+          585,
+          287,
+          63,
+          14,
+          34
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "E · Chicane",
+        "pixelRectangle": [
+          422,
+          398,
+          18,
+          11,
+          35
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "L · Piscine",
+        "pixelRectangle": [
+          375,
+          454,
+          32,
+          16,
+          35
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "M · Piscine",
+        "pixelRectangle": [
+          459,
+          412,
+          50,
+          14,
+          -57
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "N · Piscine",
+        "pixelRectangle": [
+          433,
+          457,
+          32,
+          13,
+          -56
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "O · Piscine",
+        "pixelRectangle": [
+          411,
+          484,
+          30,
+          13,
+          -57
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "P · Piscine",
+        "pixelRectangle": [
+          398,
+          509,
+          35,
+          14,
+          -57
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "T · Rascasse",
+        "pixelRectangle": [
+          344,
+          538,
+          100,
+          20,
+          -77
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "V · Anthony Noghes",
+        "pixelRectangle": [
+          268,
+          607,
+          33,
+          16,
+          28
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "X1 · Quai Albert",
+        "pixelRectangle": [
+          279,
+          540,
+          30,
+          14,
+          -73
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "X2 · Quai Albert",
+        "pixelRectangle": [
+          291,
+          508,
+          30,
+          14,
+          -73
+        ],
+        "worldOverride": null
+      }
+    ],
+    "zones": 14
+  },
+  "barcelona": {
+    "source": "https://www.circuitcat.com/es/abonados-modalidades/",
+    "osm": {
+      "Principal": [
+        33742643
+      ],
+      "A": [
+        1427281575
+      ],
+      "B": [
+        33744188,
+        152007366,
+        152007371
+      ],
+      "C": [
+        152007375,
+        152007378
+      ],
+      "E": [
+        151594582
+      ],
+      "F": [
+        151594584
+      ],
+      "G": [
+        152007381
+      ],
+      "H": [
+        725695175
+      ],
+      "J": [
+        151594586
+      ],
+      "K": [
+        151594579
+      ],
+      "L": [
+        235224640
+      ],
+      "M": [
+        235224642
+      ],
+      "N": [
+        152015333
+      ],
+      "T1": [
+        1427279730
+      ],
+      "T10": [
+        151609927
+      ]
+    },
+    "imageControls": {},
+    "manual": [],
+    "zones": 15
+  },
+  "spielberg": {
+    "source": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+    "osm": {
+      "Start / Ziel": [
+        312030921
+      ],
+      "Steiermark": [
+        312030917
+      ],
+      "Red Bull": [
+        118364945,
+        604402038
+      ],
+      "Nord / T4": [
+        565072384
+      ],
+      "Mitte": [
+        1077517159
+      ],
+      "Ost / T8": [
+        1077423719
+      ],
+      "T10": [
+        1077423720
+      ]
+    },
+    "imageControls": {},
+    "manual": [
+      {
+        "name": "T3",
+        "worldRectangle": [
+          -860,
+          -750,
+          120,
+          22,
+          10
+        ]
+      }
+    ],
+    "zones": 8
+  },
+  "silverstone": {
+    "source": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+    "osm": {
+      "Copse A": [
+        227342440
+      ],
+      "Copse B": [
+        227342441
+      ],
+      "Copse C": [
+        227342444
+      ],
+      "Copse D": [
+        1560504713
+      ],
+      "Becketts": [
+        227342446
+      ],
+      "Village B": [
+        227342447
+      ],
+      "Farm Curve": [
+        227342449
+      ],
+      "Woodcote A": [
+        227342450
+      ],
+      "Woodcote B": [
+        227342459
+      ],
+      "National Pit Straight": [
+        227342452
+      ],
+      "Luffield": [
+        227342456
+      ],
+      "Abbey A": [
+        227342458
+      ],
+      "Hamilton Straight A": [
+        1387956625
+      ],
+      "Chapel": [
+        1430486596
+      ],
+      "Luffield Corner": [
+        1560504709
+      ],
+      "Stirling A": [
+        1560504712
+      ],
+      "Stirling B": [
+        1560504711
+      ]
+    },
+    "imageControls": {},
+    "manual": [
+      {
+        "name": "Hamilton Straight B",
+        "worldRectangle": [
+          -473,
+          1020,
+          105,
+          24,
+          -48
+        ]
+      },
+      {
+        "name": "Abbey B",
+        "worldRectangle": [
+          -365,
+          776,
+          65,
+          21,
+          -48
+        ]
+      },
+      {
+        "name": "Village A",
+        "worldRectangle": [
+          191,
+          627,
+          82,
+          23,
+          -37
+        ]
+      },
+      {
+        "name": "The Loop",
+        "worldRectangle": [
+          185,
+          725,
+          70,
+          22,
+          85
+        ]
+      },
+      {
+        "name": "Woodcote C",
+        "worldRectangle": [
+          -284,
+          40,
+          65,
+          20,
+          -17
+        ]
+      },
+      {
+        "name": "Club Corner A",
+        "worldRectangle": [
+          -546,
+          1350,
+          65,
+          20,
+          -55
+        ]
+      },
+      {
+        "name": "Club Corner B",
+        "worldRectangle": [
+          -498,
+          1390,
+          70,
+          23,
+          -30
+        ]
+      },
+      {
+        "name": "Club Corner C",
+        "worldRectangle": [
+          -424,
+          1396,
+          70,
+          23,
+          5
+        ]
+      },
+      {
+        "name": "Vale",
+        "worldRectangle": [
+          -369,
+          1410,
+          50,
+          18,
+          48
+        ]
+      },
+      {
+        "name": "Landostand · Stowe",
+        "worldRectangle": [
+          -134,
+          1747,
+          190,
+          29,
+          0
+        ]
+      },
+      {
+        "name": "Boxpark · Hangar",
+        "worldRectangle": [
+          278,
+          1406,
+          100,
+          20,
+          -58
+        ]
+      }
+    ],
+    "zones": 28
+  },
+  "spa": {
+    "source": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+    "osm": {
+      "Gold 1 · Pit": [
+        174882363
+      ],
+      "Gold 2 · GP2": [
+        1353159436
+      ],
+      "Gold 3 · Raidillon": [
+        1134053908
+      ],
+      "Silver 1 · Francorchamps": [
+        1353159437
+      ]
+    },
+    "imageControls": {},
+    "manual": [
+      {
+        "name": "Gold 7 · La Source",
+        "worldRectangle": [
+          -160,
+          -279,
+          70,
+          22,
+          -7
+        ]
+      },
+      {
+        "name": "Gold 8 · Source Start",
+        "worldRectangle": [
+          -101,
+          -265,
+          55,
+          20,
+          45
+        ]
+      },
+      {
+        "name": "Gold 9 · Pole Position",
+        "worldRectangle": [
+          -20,
+          20,
+          90,
+          24,
+          60
+        ]
+      },
+      {
+        "name": "Gold 6 · Chicane",
+        "worldRectangle": [
+          119,
+          258,
+          77,
+          24,
+          18
+        ]
+      },
+      {
+        "name": "Gold 11 · Chicane",
+        "worldRectangle": [
+          74,
+          320,
+          70,
+          24,
+          0
+        ]
+      },
+      {
+        "name": "Silver 3 · Double Gauche",
+        "worldRectangle": [
+          225,
+          1430,
+          100,
+          20,
+          -40
+        ]
+      },
+      {
+        "name": "Silver 4 · Bruxelles",
+        "worldRectangle": [
+          594,
+          1720,
+          80,
+          20,
+          45
+        ]
+      },
+      {
+        "name": "Combes",
+        "worldRectangle": [
+          930,
+          1460,
+          95,
+          24,
+          80
+        ]
+      },
+      {
+        "name": "Speed Corner",
+        "worldRectangle": [
+          252,
+          1130,
+          75,
+          18,
+          -40
+        ]
+      }
+    ],
+    "zones": 13
+  },
+  "hungaroring": {
+    "source": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+    "osm": {
+      "Hungaroring": [
+        230979479
+      ],
+      "T1": [
+        230979487
+      ],
+      "Grand Prix 1": [
+        230979489
+      ],
+      "Grand Prix 2": [
+        230979482
+      ],
+      "Apex 1": [
+        230979493
+      ],
+      "Apex 2": [
+        230979476
+      ],
+      "Grid 1": [
+        1085151668
+      ],
+      "Grid 2": [
+        1085151669
+      ],
+      "Grid 3": [
+        230979498
+      ],
+      "Pit Exit 1": [
+        658606806
+      ],
+      "Pit Exit 2": [
+        1412550387
+      ],
+      "Podium": [
+        1085151661
+      ],
+      "Chicane 1": [
+        231059800
+      ],
+      "Chicane 2": [
+        231059801
+      ],
+      "Chicane 3": [
+        231059802
+      ]
+    },
+    "imageControls": {},
+    "manual": [],
+    "zones": 15
+  },
+  "zandvoort": {
+    "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+    "osm": {
+      "Main Grandstand": [
+        52473180
+      ]
+    },
+    "imageControls": {
+      "1": [
+        1184,
+        260
+      ],
+      "2": [
+        1148,
+        494
+      ],
+      "3": [
+        1080,
+        553
+      ],
+      "4": [
+        1196,
+        529
+      ],
+      "5": [
+        1337,
+        536
+      ],
+      "6": [
+        1493,
+        496
+      ],
+      "7": [
+        1691,
+        571
+      ],
+      "8": [
+        1588,
+        774
+      ],
+      "9": [
+        1456,
+        749
+      ],
+      "10": [
+        1591,
+        613
+      ],
+      "11": [
+        1168,
+        645
+      ],
+      "12": [
+        1124,
+        614
+      ],
+      "13": [
+        1132,
+        874
+      ],
+      "14": [
+        940,
+        820
+      ]
+    },
+    "manual": [
+      {
+        "name": "Tarzan-In",
+        "pixelRectangle": [
+          1117,
+          294,
+          52,
+          17,
+          -68
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Pit Grandstand",
+        "pixelRectangle": [
+          1076,
+          407,
+          120,
+          17,
+          -68
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Ben Pon",
+        "pixelRectangle": [
+          992,
+          587,
+          97,
+          16,
+          -69
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Arena-Out",
+        "pixelRectangle": [
+          1106,
+          791,
+          54,
+          14,
+          80
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Arena Gold / Silver",
+        "pixelRectangle": [
+          1093,
+          686,
+          75,
+          20,
+          83
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Arena Gold / Silver Nord",
+        "pixelRectangle": [
+          1136,
+          592,
+          40,
+          10,
+          18
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Arena-In",
+        "pixelRectangle": [
+          1233,
+          607,
+          75,
+          17,
+          -16
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Eastside 1",
+        "pixelRectangle": [
+          1336,
+          624,
+          60,
+          17,
+          -13
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Eastside 2",
+        "pixelRectangle": [
+          1280,
+          650,
+          70,
+          15,
+          -17
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Eastside 3",
+        "pixelRectangle": [
+          1184,
+          683,
+          55,
+          18,
+          -25
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Eastside 4",
+        "pixelRectangle": [
+          1140,
+          737,
+          55,
+          14,
+          78
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Hairpin",
+        "pixelRectangle": [
+          1539,
+          605,
+          53,
+          18,
+          5
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Hairpin Sud",
+        "pixelRectangle": [
+          1540,
+          649,
+          53,
+          18,
+          -12
+        ],
+        "worldOverride": null
+      }
+    ],
+    "zones": 14
+  },
+  "monza": {
+    "source": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+    "osm": {
+      "Centrale": [
+        193647796
+      ],
+      "Laterale Sinistra": [
+        193647795
+      ],
+      "Laterale Destra": [
+        34404645
+      ],
+      "Alta Velocita": [
+        231026018,
+        231026024,
+        231026025
+      ],
+      "Prima Variante Esterna": [
+        231026019
+      ],
+      "Seconda Variante": [
+        231265139
+      ],
+      "Roggia": [
+        231265140
+      ],
+      "Ascari": [
+        231260684
+      ],
+      "Ascari Uno": [
+        194457685
+      ],
+      "Ascari Due": [
+        194457674
+      ],
+      "Ascari Tre": [
+        231026027
+      ],
+      "Uscita Ascari A": [
+        194457688
+      ],
+      "Uscita Ascari B": [
+        194457680
+      ],
+      "Parabolica": [
+        179794158
+      ],
+      "Laterale Parabolica": [
+        194457667,
+        194457672,
+        194457675,
+        194457679,
+        194457692
+      ],
+      "Parabolica Interna": [
+        194457681,
+        194457691
+      ],
+      "Vedano": [
+        231026020
+      ],
+      "Piscina": [
+        231257063
+      ]
+    },
+    "imageControls": {},
+    "manual": [],
+    "zones": 18
+  },
+  "madrid": {
+    "source": "https://www.madring.com/en/press-releases/mobility-plan",
+    "osm": {},
+    "imageControls": {
+      "1": [
+        187,
+        423
+      ],
+      "2": [
+        163,
+        417
+      ],
+      "3": [
+        155,
+        366
+      ],
+      "4": [
+        448,
+        183
+      ],
+      "5": [
+        574,
+        211
+      ],
+      "6": [
+        603,
+        211
+      ],
+      "7": [
+        756,
+        159
+      ],
+      "8": [
+        783,
+        178
+      ],
+      "9": [
+        828,
+        158
+      ],
+      "10": [
+        921,
+        165
+      ],
+      "11": [
+        954,
+        203
+      ],
+      "12": [
+        1103,
+        222
+      ],
+      "13": [
+        848,
+        198
+      ],
+      "14": [
+        778,
+        259
+      ],
+      "15": [
+        676,
+        270
+      ],
+      "16": [
+        653,
+        388
+      ],
+      "17": [
+        665,
+        418
+      ],
+      "18": [
+        561,
+        491
+      ],
+      "19": [
+        567,
+        554
+      ],
+      "20": [
+        385,
+        625
+      ],
+      "22": [
+        244,
+        731
+      ]
+    },
+    "manual": [
+      {
+        "name": "主直道南段",
+        "pixelRectangle": [
+          213,
+          662,
+          90,
+          18,
+          80
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "主直道中段",
+        "pixelRectangle": [
+          193,
+          541,
+          80,
+          20,
+          80
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "主直道北段",
+        "pixelRectangle": [
+          180,
+          455,
+          57,
+          20,
+          80
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "T1–T3 看台",
+        "pixelRectangle": [
+          143,
+          392,
+          48,
+          16,
+          -80
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "高速弯看台",
+        "pixelRectangle": [
+          269,
+          270,
+          150,
+          20,
+          -28
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "T4–T5 看台",
+        "pixelRectangle": [
+          525,
+          183,
+          94,
+          17,
+          17
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "北区入口看台",
+        "pixelRectangle": [
+          689,
+          214,
+          115,
+          18,
+          -40
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "北区组合弯看台",
+        "pixelRectangle": [
+          777,
+          151,
+          74,
+          16,
+          -23
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "T9–T10 看台",
+        "pixelRectangle": [
+          874,
+          151,
+          78,
+          17,
+          7
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "T11 内侧看台",
+        "pixelRectangle": [
+          926,
+          205,
+          55,
+          17,
+          30
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Monumental 外侧看台",
+        "pixelRectangle": [
+          1107,
+          228,
+          100,
+          20,
+          85
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "Monumental 内侧看台",
+        "pixelRectangle": [
+          1048,
+          231,
+          86,
+          18,
+          80
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "T13–T14 看台",
+        "pixelRectangle": [
+          807,
+          239,
+          75,
+          19,
+          -62
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "T14–T15 看台",
+        "pixelRectangle": [
+          742,
+          281,
+          75,
+          19,
+          -7
+        ],
+        "worldOverride": null
+      },
+      {
+        "name": "T15–T16 看台",
+        "pixelRectangle": [
+          680,
+          347,
+          99,
+          20,
+          93
+        ],
+        "worldOverride": null
+      }
+    ],
+    "zones": 15
+  }
+}

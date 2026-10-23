@@ -1,0 +1,2550 @@
+[
+  {
+    "circuitId": "monaco",
+    "zoneId": "a-sainte-devote",
+    "availability": "preparing",
+    "issues": [
+      "a-sainte-devote-1: unresolved diagram bearing (68.7 degrees)"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "a-sainte-devote-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 68.75,
+        "frontReference": [
+          7.421888149788158,
+          43.73701103204384
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "zoneId": "b-casino",
+    "availability": "preparing",
+    "issues": [
+      "b-casino-1: road intersection 14.4728 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "b-casino-1",
+        "roadOverlapSquareMetres": 14.473,
+        "nearestRoadObliquityDegrees": 14.78,
+        "frontReference": [
+          7.427227707890281,
+          43.73962450322103
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "zoneId": "k-tabac",
+    "availability": "preparing",
+    "issues": [
+      "k-tabac-1: road intersection 693.6206 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "k-tabac-1",
+        "roadOverlapSquareMetres": 693.621,
+        "nearestRoadObliquityDegrees": 23.34,
+        "frontReference": [
+          7.4212213329656045,
+          43.735831048520986
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "zoneId": "z-quai-kennedy",
+    "availability": "preparing",
+    "issues": [
+      "z-quai-kennedy-1: road intersection 1021.1817 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "z-quai-kennedy-1",
+        "roadOverlapSquareMetres": 1021.182,
+        "nearestRoadObliquityDegrees": 3.15,
+        "frontReference": [
+          7.4229270478773515,
+          43.736856310392476
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "zoneId": "e-chicane",
+    "availability": "preparing",
+    "issues": [
+      "e-chicane-1: diagram footprint too shallow for configured rows (2.18m depth)"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "e-chicane-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 9.18,
+        "frontReference": [
+          7.422231144204329,
+          43.73506767494248
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "zoneId": "l-piscine",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "l-piscine-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 36.94,
+        "frontReference": [
+          7.4223914080039215,
+          43.7343739116075
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "zoneId": "m-piscine",
+    "availability": "preparing",
+    "issues": [
+      "m-piscine-1: road intersection 578.0105 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "m-piscine-1",
+        "roadOverlapSquareMetres": 578.01,
+        "nearestRoadObliquityDegrees": 18.25,
+        "frontReference": [
+          7.421267708757423,
+          43.734991089354395
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "zoneId": "n-piscine",
+    "availability": "preparing",
+    "issues": [
+      "n-piscine-1: road intersection 10.3686 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "n-piscine-1",
+        "roadOverlapSquareMetres": 10.369,
+        "nearestRoadObliquityDegrees": 10.27,
+        "frontReference": [
+          7.422352697605641,
+          43.73452790086086
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "zoneId": "o-piscine",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "o-piscine-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.3,
+        "frontReference": [
+          7.422473295977099,
+          43.73411319595507
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "zoneId": "p-piscine",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "p-piscine-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 50.08,
+        "frontReference": [
+          7.422239608591227,
+          43.73373750808697
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "zoneId": "t-rascasse",
+    "availability": "preparing",
+    "issues": [
+      "t-rascasse-1: road intersection 87.1824 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "t-rascasse-1",
+        "roadOverlapSquareMetres": 87.182,
+        "nearestRoadObliquityDegrees": 0.75,
+        "frontReference": [
+          7.42231786418439,
+          43.733577883168465
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "zoneId": "v-anthony-noghes",
+    "availability": "preparing",
+    "issues": [
+      "v-anthony-noghes-1: no road across either seating face"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "v-anthony-noghes-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 55.51,
+        "frontReference": null
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "zoneId": "x1-quai-albert",
+    "availability": "preparing",
+    "issues": [
+      "x1-quai-albert-1: road intersection 115.1969 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "x1-quai-albert-1",
+        "roadOverlapSquareMetres": 115.197,
+        "nearestRoadObliquityDegrees": 13.36,
+        "frontReference": [
+          7.42341625200925,
+          43.73246892401214
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "zoneId": "x2-quai-albert",
+    "availability": "preparing",
+    "issues": [
+      "x2-quai-albert-1: road intersection 123.5379 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "x2-quai-albert-1",
+        "roadOverlapSquareMetres": 123.538,
+        "nearestRoadObliquityDegrees": 18.16,
+        "frontReference": [
+          7.423448307098579,
+          43.732662849184806
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "principal",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "principal-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.15,
+        "frontReference": [
+          2.261283304101534,
+          41.57010769838959
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "a",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "a-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 40.63,
+        "frontReference": [
+          2.2548369942949766,
+          41.564665870768934
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "b",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "b-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.73,
+        "frontReference": [
+          2.2589261323957794,
+          41.57317878792138
+        ]
+      },
+      {
+        "surfaceId": "b-2",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 13.75,
+        "frontReference": [
+          2.2595485340509756,
+          41.57285572297547
+        ]
+      },
+      {
+        "surfaceId": "b-3",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.37,
+        "frontReference": [
+          2.2591724954203722,
+          41.57294776562107
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "c",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "c-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 40.89,
+        "frontReference": [
+          2.260023291750933,
+          41.57433586528416
+        ]
+      },
+      {
+        "surfaceId": "c-2",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 31.05,
+        "frontReference": [
+          2.260306829908124,
+          41.574508896651515
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "e",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "e-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.16,
+        "frontReference": [
+          2.2576188151007623,
+          41.56574093362583
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "f",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "f-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.81,
+        "frontReference": [
+          2.257027321915233,
+          41.56502690032845
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "g",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "g-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.42,
+        "frontReference": [
+          2.259160326012699,
+          41.57380420826213
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "h",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "h-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 9.98,
+        "frontReference": [
+          2.2626899496035953,
+          41.57410124587072
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "j",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "j-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.13,
+        "frontReference": [
+          2.2590256838257434,
+          41.56741328870246
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "k",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "k-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.29,
+        "frontReference": [
+          2.2581706093125,
+          41.566401749354256
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "l",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "l-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 74.45,
+        "frontReference": [
+          2.2546705476077924,
+          41.56457002190572
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "m",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "m-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 29.73,
+        "frontReference": [
+          2.2523363402868766,
+          41.56612898625759
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "n",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "n-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 8.65,
+        "frontReference": [
+          2.255989140724058,
+          41.570115180211396
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "t1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "t1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 15.06,
+        "frontReference": [
+          2.2559643758803682,
+          41.56476580457859
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "zoneId": "t10",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "t10-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 30.88,
+        "frontReference": [
+          2.2627926157112364,
+          41.57187296226423
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spielberg",
+    "zoneId": "start-ziel",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "start-ziel-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.8,
+        "frontReference": [
+          14.765402855202924,
+          47.22007474108565
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spielberg",
+    "zoneId": "steiermark",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "steiermark-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 15.11,
+        "frontReference": [
+          14.760880785809674,
+          47.21931688908359
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spielberg",
+    "zoneId": "red-bull",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "red-bull-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.02,
+        "frontReference": [
+          14.75955698292126,
+          47.22062280099642
+        ]
+      },
+      {
+        "surfaceId": "red-bull-2",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.34,
+        "frontReference": [
+          14.75787695288772,
+          47.22249635323459
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spielberg",
+    "zoneId": "nord-t4",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "nord-t4-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 7.07,
+        "frontReference": [
+          14.764623599528774,
+          47.22536373941024
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spielberg",
+    "zoneId": "mitte",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "mitte-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.8,
+        "frontReference": [
+          14.759461284320942,
+          47.222659166172086
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spielberg",
+    "zoneId": "ost-t8",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "ost-t8-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 14.57,
+        "frontReference": [
+          14.770177339436838,
+          47.222554242921
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spielberg",
+    "zoneId": "t10",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "t10-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 12.91,
+        "frontReference": [
+          14.770552400820943,
+          47.22169161544602
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spielberg",
+    "zoneId": "t3",
+    "availability": "preparing",
+    "issues": [
+      "t3-1: no road across either seating face"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "t3-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 37.21,
+        "frontReference": null
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "copse-a",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "copse-a-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 18.22,
+        "frontReference": [
+          -1.0116267421409693,
+          52.0787946334255
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "copse-b",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "copse-b-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.42,
+        "frontReference": [
+          -1.0112660940515148,
+          52.07856921835138
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "copse-c",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "copse-c-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.06,
+        "frontReference": [
+          -1.0110588820572155,
+          52.07832024922838
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "copse-d",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "copse-d-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 19.36,
+        "frontReference": [
+          -1.0108219845289108,
+          52.077824463192044
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "becketts",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "becketts-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 25.53,
+        "frontReference": [
+          -1.0097785178113625,
+          52.071614571446695
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "village-b",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "village-b-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 39.78,
+        "frontReference": [
+          -1.0116491037628834,
+          52.07191823980352
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "farm-curve",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "farm-curve-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 21.83,
+        "frontReference": [
+          -1.0153830973362725,
+          52.07160469791732
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "woodcote-a",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "woodcote-a-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.63,
+        "frontReference": [
+          -1.0205300229967522,
+          52.077760561239515
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "woodcote-b",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "woodcote-b-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.06,
+        "frontReference": [
+          -1.0193285522218452,
+          52.07842115674222
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "national-pit-straight",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "national-pit-straight-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.83,
+        "frontReference": [
+          -1.0174703877074553,
+          52.07867255339489
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "luffield",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "luffield-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.3,
+        "frontReference": [
+          -1.0214133518299437,
+          52.07671375196008
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "abbey-a",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "abbey-a-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.77,
+        "frontReference": [
+          -1.0203395251322216,
+          52.070766117664235
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "hamilton-straight-a",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "hamilton-straight-a-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.22,
+        "frontReference": [
+          -1.0233512966252294,
+          52.06836869708342
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "chapel",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "chapel-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 15.12,
+        "frontReference": [
+          -1.0098577777190871,
+          52.070369787975594
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "luffield-corner",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "luffield-corner-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 12.91,
+        "frontReference": [
+          -1.0212186977351005,
+          52.07582235994319
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "stirling-a",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "stirling-a-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 4.04,
+        "frontReference": [
+          -1.013433779744541,
+          52.07890362528078
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "stirling-b",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "stirling-b-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.12,
+        "frontReference": [
+          -1.0127286052876747,
+          52.07893419698639
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "hamilton-straight-b",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "hamilton-straight-b-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 4.24,
+        "frontReference": [
+          -1.0219750763829598,
+          52.06946805622628
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "abbey-b",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "abbey-b-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 7.14,
+        "frontReference": [
+          -1.0196504841857337,
+          52.071247131352564
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "village-a",
+    "availability": "preparing",
+    "issues": [
+      "village-a-1: road intersection 40.2970 m2",
+      "village-a-1: unresolved diagram bearing (80.4 degrees)"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "village-a-1",
+        "roadOverlapSquareMetres": 40.297,
+        "nearestRoadObliquityDegrees": 80.39,
+        "frontReference": [
+          -1.0114690627253504,
+          52.072270131831836
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "the-loop",
+    "availability": "preparing",
+    "issues": [
+      "the-loop-1: road intersection 85.8467 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "the-loop-1",
+        "roadOverlapSquareMetres": 85.847,
+        "nearestRoadObliquityDegrees": 10.71,
+        "frontReference": [
+          -1.0129183755556037,
+          52.07226253983587
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "woodcote-c",
+    "availability": "preparing",
+    "issues": [
+      "woodcote-c-1: road intersection 562.7452 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "woodcote-c-1",
+        "roadOverlapSquareMetres": 562.745,
+        "nearestRoadObliquityDegrees": 16.84,
+        "frontReference": [
+          -1.0194688927716484,
+          52.078367838176014
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "club-corner-a",
+    "availability": "preparing",
+    "issues": [
+      "club-corner-a-1: road intersection 236.8163 m2",
+      "club-corner-a-1: unresolved diagram bearing (75.4 degrees)"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "club-corner-a-1",
+        "roadOverlapSquareMetres": 236.816,
+        "nearestRoadObliquityDegrees": 75.38,
+        "frontReference": [
+          -1.0226176503786966,
+          52.066356366088286
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "club-corner-b",
+    "availability": "preparing",
+    "issues": [
+      "club-corner-b-1: road intersection 856.5018 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "club-corner-b-1",
+        "roadOverlapSquareMetres": 856.502,
+        "nearestRoadObliquityDegrees": 13.89,
+        "frontReference": [
+          -1.0240324988571647,
+          52.06779839269073
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "club-corner-c",
+    "availability": "preparing",
+    "issues": [
+      "club-corner-c-1: road intersection 449.5877 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "club-corner-c-1",
+        "roadOverlapSquareMetres": 449.588,
+        "nearestRoadObliquityDegrees": 45.96,
+        "frontReference": [
+          -1.0209755973535715,
+          52.07025993068155
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "vale",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "vale-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.9,
+        "frontReference": [
+          -1.0211454231404296,
+          52.06590088892068
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "landostand-stowe",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "landostand-stowe-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 12.52,
+        "frontReference": [
+          -1.0173076422145502,
+          52.06355204752101
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "zoneId": "boxpark-hangar",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "boxpark-hangar-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.75,
+        "frontReference": [
+          -1.0135792054789707,
+          52.067040579208516
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "zoneId": "gold-1-pit",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "gold-1-pit-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.04,
+        "frontReference": [
+          5.965634068348554,
+          50.44356038780415
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "zoneId": "gold-2-gp2",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "gold-2-gp2-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.8,
+        "frontReference": [
+          5.967765939233503,
+          50.444543298962394
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "zoneId": "gold-3-raidillon",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "gold-3-raidillon-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.17,
+        "frontReference": [
+          5.972037936706007,
+          50.441000630871834
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "zoneId": "silver-1-francorchamps",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "silver-1-francorchamps-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.63,
+        "frontReference": [
+          5.966652559553195,
+          50.44518121584681
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "zoneId": "gold-7-la-source",
+    "availability": "preparing",
+    "issues": [
+      "gold-7-la-source-1: no road across either seating face"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "gold-7-la-source-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 30.81,
+        "frontReference": null
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "zoneId": "gold-8-source-start",
+    "availability": "preparing",
+    "issues": [
+      "gold-8-source-start-1: no road across either seating face"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "gold-8-source-start-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 47.49,
+        "frontReference": null
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "zoneId": "gold-9-pole-position",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "gold-9-pole-position-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.34,
+        "frontReference": [
+          5.965071151154741,
+          50.444193872714955
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "zoneId": "gold-6-chicane",
+    "availability": "preparing",
+    "issues": [
+      "gold-6-chicane-1: road intersection 210.5617 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "gold-6-chicane-1",
+        "roadOverlapSquareMetres": 210.562,
+        "nearestRoadObliquityDegrees": 39.84,
+        "frontReference": [
+          5.966850214918008,
+          50.44223048631405
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "zoneId": "gold-11-chicane",
+    "availability": "preparing",
+    "issues": [
+      "gold-11-chicane-1: road intersection 338.8055 m2",
+      "gold-11-chicane-1: unresolved diagram bearing (89.7 degrees)"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "gold-11-chicane-1",
+        "roadOverlapSquareMetres": 338.806,
+        "nearestRoadObliquityDegrees": 89.74,
+        "frontReference": [
+          5.966063844689131,
+          50.44307675318084
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "zoneId": "silver-3-double-gauche",
+    "availability": "preparing",
+    "issues": [
+      "silver-3-double-gauche-1: road intersection 0.0013 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "silver-3-double-gauche-1",
+        "roadOverlapSquareMetres": 0.001,
+        "nearestRoadObliquityDegrees": 28.71,
+        "frontReference": [
+          5.967783990843651,
+          50.43171621148706
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "zoneId": "silver-4-bruxelles",
+    "availability": "preparing",
+    "issues": [
+      "silver-4-bruxelles-1: road intersection 289.0097 m2",
+      "silver-4-bruxelles-1: unresolved diagram bearing (75.6 degrees)"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "silver-4-bruxelles-1",
+        "roadOverlapSquareMetres": 289.01,
+        "nearestRoadObliquityDegrees": 75.62,
+        "frontReference": [
+          5.9735397721994845,
+          50.428889714971824
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "zoneId": "combes",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "combes-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 34.38,
+        "frontReference": [
+          5.9769286256416585,
+          50.43099978999595
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "zoneId": "speed-corner",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "speed-corner-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 10.03,
+        "frontReference": [
+          5.9691063386587135,
+          50.433696611222366
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "hungaroring",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "hungaroring-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.37,
+        "frontReference": [
+          19.247316156242967,
+          47.57949088917599
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "t1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "t1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.46,
+        "frontReference": [
+          19.242989547814805,
+          47.581817971762455
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "grand-prix-1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grand-prix-1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 7.08,
+        "frontReference": [
+          19.250896561086098,
+          47.577612369565536
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "grand-prix-2",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grand-prix-2-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 7.36,
+        "frontReference": [
+          19.251123857890136,
+          47.577574504151926
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "apex-1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "apex-1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 10.88,
+        "frontReference": [
+          19.25137015251051,
+          47.577581557850515
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "apex-2",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "apex-2-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.89,
+        "frontReference": [
+          19.251670926571364,
+          47.57766347685286
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "grid-1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grid-1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.29,
+        "frontReference": [
+          19.249329384752112,
+          47.57840841755222
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "grid-2",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grid-2-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.22,
+        "frontReference": [
+          19.24977376391034,
+          47.5781709692954
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "grid-3",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grid-3-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.69,
+        "frontReference": [
+          19.250378571035796,
+          47.5778508265419
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "pit-exit-1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "pit-exit-1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.95,
+        "frontReference": [
+          19.244100170247425,
+          47.581225539673646
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "pit-exit-2",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "pit-exit-2-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.81,
+        "frontReference": [
+          19.24497542391748,
+          47.58075210841972
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "podium",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "podium-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.45,
+        "frontReference": [
+          19.250387072167047,
+          47.57784638100852
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "chicane-1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "chicane-1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.46,
+        "frontReference": [
+          19.253503254943986,
+          47.58698118896007
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "chicane-2",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "chicane-2-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.09,
+        "frontReference": [
+          19.25235519280777,
+          47.58781604724437
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "zoneId": "chicane-3",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "chicane-3-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.12,
+        "frontReference": [
+          19.253366397036423,
+          47.58709293799207
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "main-grandstand",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "main-grandstand-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.54,
+        "frontReference": [
+          4.540850207420753,
+          52.38893759181003
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "tarzan-in",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "tarzan-in-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 4.47,
+        "frontReference": [
+          4.5422445859793505,
+          52.39099678225334
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "pit-grandstand",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "pit-grandstand-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.02,
+        "frontReference": [
+          4.541351220804053,
+          52.38967987620723
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "ben-pon",
+    "availability": "preparing",
+    "issues": [
+      "ben-pon-1: road intersection 690.1339 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "ben-pon-1",
+        "roadOverlapSquareMetres": 690.134,
+        "nearestRoadObliquityDegrees": 2.24,
+        "frontReference": [
+          4.540119633101771,
+          52.38787446884689
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "arena-out",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "arena-out-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.42,
+        "frontReference": [
+          4.542412690065623,
+          52.38554371901706
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "arena-gold-silver",
+    "availability": "preparing",
+    "issues": [
+      "arena-gold-silver-1: road intersection 2.3859 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "arena-gold-silver-1",
+        "roadOverlapSquareMetres": 2.386,
+        "nearestRoadObliquityDegrees": 17.0,
+        "frontReference": [
+          4.542068427735784,
+          52.3867331086613
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "arena-gold-silver-nord",
+    "availability": "preparing",
+    "issues": [
+      "arena-gold-silver-nord-1: road intersection 146.9043 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "arena-gold-silver-nord-1",
+        "roadOverlapSquareMetres": 146.904,
+        "nearestRoadObliquityDegrees": 29.18,
+        "frontReference": [
+          4.542317698889782,
+          52.387456135819605
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "arena-in",
+    "availability": "preparing",
+    "issues": [
+      "arena-in-1: road intersection 973.0240 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "arena-in-1",
+        "roadOverlapSquareMetres": 973.024,
+        "nearestRoadObliquityDegrees": 5.7,
+        "frontReference": [
+          4.544119188060748,
+          52.38847193810978
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "eastside-1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "eastside-1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.34,
+        "frontReference": [
+          4.546335010882356,
+          52.38785177659231
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "eastside-2",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "eastside-2-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 4.05,
+        "frontReference": [
+          4.545066584988604,
+          52.387605339953495
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "eastside-3",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "eastside-3-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 21.75,
+        "frontReference": [
+          4.542646303181735,
+          52.38746290048747
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "eastside-4",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "eastside-4-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.27,
+        "frontReference": [
+          4.542263622777968,
+          52.386061634227325
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "hairpin",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "hairpin-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.89,
+        "frontReference": [
+          4.55011520999605,
+          52.38801370869041
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "zoneId": "hairpin-sud",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "hairpin-sud-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 16.28,
+        "frontReference": [
+          4.550054574586773,
+          52.3870144062617
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "centrale",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "centrale-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.48,
+        "frontReference": [
+          9.281220605993386,
+          45.61895901318984
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "laterale-sinistra",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "laterale-sinistra-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.18,
+        "frontReference": [
+          9.28132230285466,
+          45.619721259662704
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "laterale-destra",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "laterale-destra-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.02,
+        "frontReference": [
+          9.280982267051106,
+          45.61754031169371
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "alta-velocita",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "alta-velocita-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.31,
+        "frontReference": [
+          9.281649411772024,
+          45.62248696218838
+        ]
+      },
+      {
+        "surfaceId": "alta-velocita-2",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 10.14,
+        "frontReference": [
+          9.281761603686787,
+          45.623396288547816
+        ]
+      },
+      {
+        "surfaceId": "alta-velocita-3",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 18.28,
+        "frontReference": [
+          9.281856657346044,
+          45.6241512453131
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "prima-variante-esterna",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "prima-variante-esterna-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 20.81,
+        "frontReference": [
+          9.282306854698765,
+          45.62517839440203
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "seconda-variante",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "seconda-variante-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 52.06,
+        "frontReference": [
+          9.29162759867015,
+          45.63053465656018
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "roggia",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "roggia-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 11.05,
+        "frontReference": [
+          9.292731102706645,
+          45.63072702577669
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "ascari",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "ascari-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 11.98,
+        "frontReference": [
+          9.285061966291606,
+          45.621136973821976
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "ascari-uno",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "ascari-uno-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 35.99,
+        "frontReference": [
+          9.285527937067641,
+          45.621455204061114
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "ascari-due",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "ascari-due-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 8.86,
+        "frontReference": [
+          9.285901202078922,
+          45.62191204636994
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "ascari-tre",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "ascari-tre-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.08,
+        "frontReference": [
+          9.285962657777048,
+          45.62273641761283
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "uscita-ascari-a",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "uscita-ascari-a-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.54,
+        "frontReference": [
+          9.284788291785688,
+          45.619778897535994
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "uscita-ascari-b",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "uscita-ascari-b-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.0,
+        "frontReference": [
+          9.28471693509768,
+          45.61933827675603
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "parabolica",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "parabolica-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 31.6,
+        "frontReference": [
+          9.283339254600028,
+          45.612031032699925
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "laterale-parabolica",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "laterale-parabolica-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.08,
+        "frontReference": [
+          9.283901389817045,
+          45.61379914443949
+        ]
+      },
+      {
+        "surfaceId": "laterale-parabolica-2",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.54,
+        "frontReference": [
+          9.283784877700572,
+          45.61301165238788
+        ]
+      },
+      {
+        "surfaceId": "laterale-parabolica-3",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.07,
+        "frontReference": [
+          9.283839066391064,
+          45.61337600923506
+        ]
+      },
+      {
+        "surfaceId": "laterale-parabolica-4",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.47,
+        "frontReference": [
+          9.283990128315537,
+          45.61440496330222
+        ]
+      },
+      {
+        "surfaceId": "laterale-parabolica-5",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.59,
+        "frontReference": [
+          9.283728125028075,
+          45.61264156162733
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "parabolica-interna",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "parabolica-interna-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.0,
+        "frontReference": [
+          9.280723386223388,
+          45.61427955160987
+        ]
+      },
+      {
+        "surfaceId": "parabolica-interna-2",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.85,
+        "frontReference": [
+          9.280705652251955,
+          45.614763928463425
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "vedano",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "vedano-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.9,
+        "frontReference": [
+          9.28069768878087,
+          45.615024146459376
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "zoneId": "piscina",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "piscina-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.05,
+        "frontReference": [
+          9.281446549123126,
+          45.620757638432096
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "stand-1",
+    "availability": "preparing",
+    "issues": [
+      "stand-1-1: road intersection 2447.2286 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "stand-1-1",
+        "roadOverlapSquareMetres": 2447.229,
+        "nearestRoadObliquityDegrees": 2.75,
+        "frontReference": [
+          -3.6143919663153907,
+          40.468289076079316
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "stand-2",
+    "availability": "preparing",
+    "issues": [
+      "stand-2-1: road intersection 1294.0869 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "stand-2-1",
+        "roadOverlapSquareMetres": 1294.087,
+        "nearestRoadObliquityDegrees": 3.0,
+        "frontReference": [
+          -3.61643642127131,
+          40.465237893689086
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "stand-3",
+    "availability": "preparing",
+    "issues": [
+      "stand-3-1: road intersection 302.2644 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "stand-3-1",
+        "roadOverlapSquareMetres": 302.264,
+        "nearestRoadObliquityDegrees": 3.65,
+        "frontReference": [
+          -3.618439128054731,
+          40.46498893341378
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "t1t3",
+    "availability": "preparing",
+    "issues": [
+      "t1t3-1: road intersection 367.2324 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "t1t3-1",
+        "roadOverlapSquareMetres": 367.232,
+        "nearestRoadObliquityDegrees": 20.82,
+        "frontReference": [
+          -3.619825361703895,
+          40.46430554059539
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "stand-5",
+    "availability": "preparing",
+    "issues": [
+      "stand-5-1: road intersection 4096.0387 m2",
+      "stand-5-1: no road across either seating face"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "stand-5-1",
+        "roadOverlapSquareMetres": 4096.039,
+        "nearestRoadObliquityDegrees": 6.63,
+        "frontReference": null
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "t4t5",
+    "availability": "preparing",
+    "issues": [
+      "t4t5-1: road intersection 402.8182 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "t4t5-1",
+        "roadOverlapSquareMetres": 402.818,
+        "nearestRoadObliquityDegrees": 0.78,
+        "frontReference": [
+          -3.6244398345179585,
+          40.471006826892314
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "stand-7",
+    "availability": "preparing",
+    "issues": [
+      "stand-7-1: road intersection 97.0749 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "stand-7-1",
+        "roadOverlapSquareMetres": 97.075,
+        "nearestRoadObliquityDegrees": 9.95,
+        "frontReference": [
+          -3.624472159398612,
+          40.47312100000965
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "stand-8",
+    "availability": "preparing",
+    "issues": [
+      "stand-8-1: road intersection 788.1877 m2",
+      "stand-8-1: unresolved diagram bearing (78.4 degrees)"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "stand-8-1",
+        "roadOverlapSquareMetres": 788.188,
+        "nearestRoadObliquityDegrees": 78.39,
+        "frontReference": [
+          -3.6248465899734876,
+          40.47527455109373
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "t9t10",
+    "availability": "preparing",
+    "issues": [
+      "t9t10-1: road intersection 769.2338 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "t9t10-1",
+        "roadOverlapSquareMetres": 769.234,
+        "nearestRoadObliquityDegrees": 2.39,
+        "frontReference": [
+          -3.625344260882149,
+          40.476617272069845
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "t11",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "t11-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 16.64,
+        "frontReference": [
+          -3.62469121906467,
+          40.47791171873346
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "monumental",
+    "availability": "preparing",
+    "issues": [
+      "monumental-1: road intersection 1152.0422 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "monumental-1",
+        "roadOverlapSquareMetres": 1152.042,
+        "nearestRoadObliquityDegrees": 35.95,
+        "frontReference": [
+          -3.6234440919068347,
+          40.48064129058149
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "monumental-12",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "monumental-12-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 40.94,
+        "frontReference": [
+          -3.623666269174451,
+          40.480643312924144
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "t13t14",
+    "availability": "preparing",
+    "issues": [
+      "t13t14-1: road intersection 1631.8348 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "t13t14-1",
+        "roadOverlapSquareMetres": 1631.835,
+        "nearestRoadObliquityDegrees": 19.3,
+        "frontReference": [
+          -3.6245359051928543,
+          40.47319238843052
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "t14t15",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "t14t15-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 15.59,
+        "frontReference": [
+          -3.622902843448852,
+          40.47451241808169
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "zoneId": "t15t16",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "t15t16-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.66,
+        "frontReference": [
+          -3.621031646985877,
+          40.4729515835558
+        ]
+      }
+    ]
+  }
+]

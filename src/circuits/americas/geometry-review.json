@@ -1,0 +1,1116 @@
+[
+  {
+    "circuitId": "miami",
+    "zoneId": "start-finish",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "start-finish-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.75,
+        "frontReference": [
+          -80.23742882485399,
+          25.959124519594038
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "miami",
+    "zoneId": "turn-1-north",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "turn-1-north-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 8.63,
+        "frontReference": [
+          -80.23530567261783,
+          25.95792362320907
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "miami",
+    "zoneId": "turn-18-west",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "turn-18-west-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.37,
+        "frontReference": [
+          -80.24250821931729,
+          25.959974449127486
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "miami",
+    "zoneId": "turn-18-east",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "turn-18-east-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 13.81,
+        "frontReference": [
+          -80.24140510743831,
+          25.959820968689176
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "miami",
+    "zoneId": "marina-north",
+    "availability": "preparing",
+    "issues": [
+      "marina-north-1: unresolved diagram bearing (79.7 degrees)",
+      "marina-north-1: no road across either seating face"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "marina-north-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 79.67,
+        "frontReference": null
+      }
+    ]
+  },
+  {
+    "circuitId": "miami",
+    "zoneId": "marina-central",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "marina-central-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 15.39,
+        "frontReference": [
+          -80.24469600119212,
+          25.956899278488383
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "miami",
+    "zoneId": "marina-south",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "marina-south-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.86,
+        "frontReference": [
+          -80.24477278808143,
+          25.956399893328594
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "miami",
+    "zoneId": "north-beach-west",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "north-beach-west-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.91,
+        "frontReference": [
+          -80.23128106661217,
+          25.957966999788336
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "miami",
+    "zoneId": "north-beach-crest",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "north-beach-crest-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 7.5,
+        "frontReference": [
+          -80.23101225224475,
+          25.958464257125158
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "miami",
+    "zoneId": "south-beach",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "south-beach-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.09,
+        "frontReference": [
+          -80.23080075144375,
+          25.95712873046904
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "grandstand-11",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grandstand-11-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 24.77,
+        "frontReference": [
+          -73.52232453045947,
+          45.49706323113749
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "grandstand-12",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grandstand-12-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.48,
+        "frontReference": [
+          -73.52198757518781,
+          45.4972497887496
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "grandstand-15",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grandstand-15-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 9.02,
+        "frontReference": [
+          -73.52727895539435,
+          45.51422791955516
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "lance-stroll-24",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "lance-stroll-24-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.41,
+        "frontReference": [
+          -73.52722400745944,
+          45.51404096874181
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "grandstand-46",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grandstand-46-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.58,
+        "frontReference": [
+          -73.52638876744645,
+          45.51218952412141
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "grandstand-1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grandstand-1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.93,
+        "frontReference": [
+          -73.52311406062913,
+          45.501382316386575
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "grandstand-16",
+    "availability": "preparing",
+    "issues": [
+      "grandstand-16-1: road intersection 120.9669 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "grandstand-16-1",
+        "roadOverlapSquareMetres": 120.967,
+        "nearestRoadObliquityDegrees": 2.38,
+        "frontReference": [
+          -73.52341812116555,
+          45.502405824735305
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "platine",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "platine-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 29.72,
+        "frontReference": [
+          -73.52272490371419,
+          45.49829317261663
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "grandstand-10",
+    "availability": "preparing",
+    "issues": [
+      "grandstand-10-1: road intersection 2141.6438 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "grandstand-10-1",
+        "roadOverlapSquareMetres": 2141.644,
+        "nearestRoadObliquityDegrees": 5.79,
+        "frontReference": [
+          -73.52262089671903,
+          45.4997210103946
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "grandstand-21",
+    "availability": "preparing",
+    "issues": [
+      "grandstand-21-1: road intersection 833.3315 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "grandstand-21-1",
+        "roadOverlapSquareMetres": 833.332,
+        "nearestRoadObliquityDegrees": 5.36,
+        "frontReference": [
+          -73.52756060215432,
+          45.51364169853858
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "grandstand-34",
+    "availability": "preparing",
+    "issues": [
+      "grandstand-34-1: road intersection 401.8367 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "grandstand-34-1",
+        "roadOverlapSquareMetres": 401.837,
+        "nearestRoadObliquityDegrees": 1.31,
+        "frontReference": [
+          -73.5263587794214,
+          45.51213704085423
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "grandstand-47",
+    "availability": "preparing",
+    "issues": [
+      "grandstand-47-1: road intersection 907.4610 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "grandstand-47-1",
+        "roadOverlapSquareMetres": 907.461,
+        "nearestRoadObliquityDegrees": 0.52,
+        "frontReference": [
+          -73.52602834966423,
+          45.51154435197795
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "grandstand-31",
+    "availability": "preparing",
+    "issues": [
+      "grandstand-31-1: road intersection 242.6468 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "grandstand-31-1",
+        "roadOverlapSquareMetres": 242.647,
+        "nearestRoadObliquityDegrees": 27.73,
+        "frontReference": [
+          -73.5287349553471,
+          45.508719164551714
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "grandstand-32",
+    "availability": "preparing",
+    "issues": [
+      "grandstand-32-1: road intersection 45.9250 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "grandstand-32-1",
+        "roadOverlapSquareMetres": 45.925,
+        "nearestRoadObliquityDegrees": 25.58,
+        "frontReference": [
+          -73.52808391327619,
+          45.502304760683614
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "zoneId": "grandstand-33",
+    "availability": "preparing",
+    "issues": [
+      "grandstand-33-1: road intersection 634.7199 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "grandstand-33-1",
+        "roadOverlapSquareMetres": 634.72,
+        "nearestRoadObliquityDegrees": 11.93,
+        "frontReference": [
+          -73.52854938393155,
+          45.502793486219055
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "austin",
+    "zoneId": "main",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "main-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.65,
+        "frontReference": [
+          -97.64130962295854,
+          30.13288027567984
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "austin",
+    "zoneId": "turn-1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "turn-1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.44,
+        "frontReference": [
+          -97.63686295028155,
+          30.13003535400675
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "austin",
+    "zoneId": "turn-15-north",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "turn-15-north-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 20.02,
+        "frontReference": [
+          -97.63614922372912,
+          30.13672499098156
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "austin",
+    "zoneId": "turn-15-south",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "turn-15-south-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 4.32,
+        "frontReference": [
+          -97.63740874507674,
+          30.13587352135115
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "austin",
+    "zoneId": "turn-12",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "turn-12-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.69,
+        "frontReference": [
+          -97.63559033466764,
+          30.137480056192857
+        ]
+      },
+      {
+        "surfaceId": "turn-12-2",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 63.31,
+        "frontReference": [
+          -97.6376144017878,
+          30.136600988335342
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "austin",
+    "zoneId": "turn-19",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "turn-19-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 13.09,
+        "frontReference": [
+          -97.64125859735739,
+          30.135391425000662
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "austin",
+    "zoneId": "turn-4",
+    "availability": "preparing",
+    "issues": [
+      "turn-4-1: road intersection 0.0242 m2"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "turn-4-1",
+        "roadOverlapSquareMetres": 0.024,
+        "nearestRoadObliquityDegrees": 10.23,
+        "frontReference": [
+          -97.63474678592888,
+          30.13426727169871
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "austin",
+    "zoneId": "turn-9",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "turn-9-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 4.28,
+        "frontReference": [
+          -97.62797612561738,
+          30.136336026433288
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "mexico",
+    "zoneId": "grada-1",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grada-1-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.21,
+        "frontReference": [
+          -99.0937793432703,
+          19.406151214147496
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "mexico",
+    "zoneId": "grada-2",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grada-2-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.52,
+        "frontReference": [
+          -99.09239243146808,
+          19.405968782598663
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "mexico",
+    "zoneId": "grada-2a",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grada-2a-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.25,
+        "frontReference": [
+          -99.0882497005843,
+          19.405497068554446
+        ]
+      },
+      {
+        "surfaceId": "grada-2a-2",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.52,
+        "frontReference": [
+          -99.08740011168095,
+          19.405386964900558
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "mexico",
+    "zoneId": "grada-3a",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grada-3a-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.37,
+        "frontReference": [
+          -99.0842397872174,
+          19.404950259460307
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "mexico",
+    "zoneId": "grada-4",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grada-4-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 52.94,
+        "frontReference": [
+          -99.08327745206853,
+          19.403848217564008
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "mexico",
+    "zoneId": "grada-5",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grada-5-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 49.0,
+        "frontReference": [
+          -99.08346245239886,
+          19.404415509574257
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "mexico",
+    "zoneId": "grada-5a",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grada-5a-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.73,
+        "frontReference": [
+          -99.08351898484511,
+          19.40409037158847
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "mexico",
+    "zoneId": "grada-6",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grada-6-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 14.62,
+        "frontReference": [
+          -99.08310024588859,
+          19.403607855921038
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "mexico",
+    "zoneId": "grada-6b",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grada-6b-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 32.55,
+        "frontReference": [
+          -99.08309425773176,
+          19.40367072984216
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "mexico",
+    "zoneId": "grada-14-sur",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grada-14-sur-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 83.07,
+        "frontReference": [
+          -99.09509175136972,
+          19.404706365161065
+        ]
+      },
+      {
+        "surfaceId": "grada-14-sur-2",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 14.8,
+        "frontReference": [
+          -99.09568181020246,
+          19.405063311517527
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "mexico",
+    "zoneId": "grada-15-norte",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "grada-15-norte-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 24.96,
+        "frontReference": [
+          -99.09672743461286,
+          19.405784058066047
+        ]
+      },
+      {
+        "surfaceId": "grada-15-norte-2",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.33,
+        "frontReference": [
+          -99.09580398601089,
+          19.40641200278427
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "interlagos",
+    "zoneId": "setor-m",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "setor-m-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.34,
+        "frontReference": [
+          -46.69947743415095,
+          -23.70526151166639
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "interlagos",
+    "zoneId": "setor-b",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "setor-b-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.5,
+        "frontReference": [
+          -46.69977919940209,
+          -23.704194225878034
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "interlagos",
+    "zoneId": "pit-stop-club",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "pit-stop-club-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.1,
+        "frontReference": [
+          -46.700044066868394,
+          -23.703228759339712
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "interlagos",
+    "zoneId": "setor-a",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "setor-a-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.75,
+        "frontReference": [
+          -46.70018404082968,
+          -23.69940688215208
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "interlagos",
+    "zoneId": "setor-d",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "setor-d-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 18.16,
+        "frontReference": [
+          -46.69890494948364,
+          -23.706401110294745
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "interlagos",
+    "zoneId": "setor-h",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "setor-h-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 24.85,
+        "frontReference": [
+          -46.69774662715181,
+          -23.706062279291288
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "interlagos",
+    "zoneId": "setor-r",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "setor-r-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 4.23,
+        "frontReference": [
+          -46.695623560545876,
+          -23.7053861519376
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "interlagos",
+    "zoneId": "setor-g",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "setor-g-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.24,
+        "frontReference": [
+          -46.6948360020681,
+          -23.702694063744648
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "las-vegas",
+    "zoneId": "main",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "main-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.28,
+        "frontReference": [
+          -115.16154089704004,
+          36.10959280201856
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "las-vegas",
+    "zoneId": "turn-3",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "turn-3-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 5.19,
+        "frontReference": [
+          -115.16366286886905,
+          36.110783778923114
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "las-vegas",
+    "zoneId": "heineken-west",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "heineken-west-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 1.52,
+        "frontReference": [
+          -115.16414334294218,
+          36.11413289558785
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "las-vegas",
+    "zoneId": "heineken-east",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "heineken-east-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 2.94,
+        "frontReference": [
+          -115.16408584019354,
+          36.112242824610526
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "las-vegas",
+    "zoneId": "lewis-hamilton",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "lewis-hamilton-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 6.12,
+        "frontReference": [
+          -115.16487721678519,
+          36.10794991229406
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "las-vegas",
+    "zoneId": "t-mobile-turn-5",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "t-mobile-turn-5-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.66,
+        "frontReference": [
+          -115.16266203232576,
+          36.11920520792775
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "las-vegas",
+    "zoneId": "t-mobile-turn-6",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "t-mobile-turn-6-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 0.05,
+        "frontReference": [
+          -115.16017997678462,
+          36.12019116123035
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "las-vegas",
+    "zoneId": "t-mobile-turn-7",
+    "availability": "available",
+    "issues": [],
+    "surfaces": [
+      {
+        "surfaceId": "t-mobile-turn-7-1",
+        "roadOverlapSquareMetres": 0.0,
+        "nearestRoadObliquityDegrees": 3.24,
+        "frontReference": [
+          -115.16010383079272,
+          36.120673496376774
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "las-vegas",
+    "zoneId": "t-mobile-turn-8",
+    "availability": "preparing",
+    "issues": [
+      "t-mobile-turn-8-1: road intersection 184.0905 m2",
+      "t-mobile-turn-8-1: unresolved diagram bearing (71.3 degrees)"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "t-mobile-turn-8-1",
+        "roadOverlapSquareMetres": 184.091,
+        "nearestRoadObliquityDegrees": 71.28,
+        "frontReference": [
+          -115.16065975086039,
+          36.12096174711571
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "las-vegas",
+    "zoneId": "t-mobile-turn-9",
+    "availability": "preparing",
+    "issues": [
+      "t-mobile-turn-9-1: road intersection 43.6535 m2",
+      "t-mobile-turn-9-1: unresolved diagram bearing (76.3 degrees)"
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "t-mobile-turn-9-1",
+        "roadOverlapSquareMetres": 43.654,
+        "nearestRoadObliquityDegrees": 76.3,
+        "frontReference": [
+          -115.16053959665754,
+          36.120871498843286
+        ]
+      }
+    ]
+  }
+]

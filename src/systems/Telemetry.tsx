@@ -1,0 +1,155 @@
+import {circuitRuntime} from "../circuits/runtime";
+import { useEffect, useState } from "react";
+import { Vector3 } from "three";
+import { observer } from "./GrandstandGeometry";
+import { at } from "./CircuitGeometry";
+import { simulation, cockpitAt } from "./VehicleSimulation";
+import { useApp } from "../store";
+import { facilities as f, local } from "../data/config";
+import { carObject } from "./Vehicle";
+import { activeCamera } from "./ObserverCamera";
+import { projectVehicle } from "./Projection";
+import { angularVelocity } from "./MeasurementSystem";
+import { prepareLocalPass } from "./PassController";
+export function Telemetry() {
+  const [tick, setTick] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setTick((x) => x + 1), 100);
+    return () => clearInterval(id);
+  }, []);
+  const s = useApp();
+  const eye = observer(s.selection),
+    car = cockpitAt(simulation.distance),
+    projection =
+      carObject.current && activeCamera.current
+        ? projectVehicle(carObject.current, activeCamera.current)
+        : null;
+  const dist = eye.distanceTo(car),
+    omega = angularVelocity(
+      eye,
+      car,
+      cockpitAt(simulation.distance + 0.05)
+        .sub(cockpitAt(simulation.distance - 0.05))
+        .multiplyScalar(
+          simulation.status === "running" ? simulation.speed / 3.6 / 0.1 : 0,
+        ),
+    );
+  const pit = new Vector3(...local(0, 3, f.pit.offset + f.pit.width / 2));
+  return (
+    <section className="telemetry" data-tick={tick} aria-label="赛车控制">
+      <div className="readings">
+        <div>
+          <small>距离 · 约</small>
+          <strong data-testid="car-distance">
+            {dist.toFixed(1)}
+            <em>m</em>
+          </strong>
+        </div>
+        <div>
+          <small>当前速度</small>
+          <strong>
+            {simulation.status === "running" ? simulation.speed : 0}
+            <em>km/h</em>
+          </strong>
+        </div>
+      </div>
+      <div className="play-controls">
+        <button
+          className="primary play-main"
+          disabled={simulation.status === "ended"}
+          onClick={() => {
+            prepareLocalPass(s.selection);
+            simulation.status === "running"
+              ? simulation.pause()
+              : simulation.play();
+            setTick((x) => x + 1);
+          }}
+        >
+          {simulation.status === "running"
+            ? "暂停"
+            : simulation.status === "paused"
+              ? "继续"
+              : "播放赛车经过"}
+        </button>
+        <button
+          className="replay-control"
+          aria-label="重置 / 重播"
+          title="重置 / 重播"
+          onClick={() => {
+            simulation.replay();
+            prepareLocalPass(s.selection);
+            setTick((x) => x + 1);
+          }}
+        >
+          ↺
+        </button>
+        <details className="speed-menu">
+          <summary aria-label="播放设置">
+            {simulation.speed} <small>km/h</small>⌄
+          </summary>
+          <div className="control-popover">
+            <label htmlFor="speed">
+              演示速度 <b>{simulation.speed} km/h</b>
+            </label>
+            <input
+              id="speed"
+              type="range"
+              min="80"
+              max="340"
+              value={simulation.speed}
+              onChange={(e) => {
+                simulation.setSpeed(+e.target.value);
+                setTick((x) => x + 1);
+              }}
+            />
+          </div>
+        </details>
+        <details className="measure-menu">
+          <summary>测量</summary>
+          <div className="control-popover">
+            <h3>当前位置的视野</h3>
+            <dl>
+              <div>
+                <dt>赛车视角 / 横向占比</dt>
+                <dd>
+                  {projection?.angularWidth.toFixed(1)}° /{" "}
+                  {projection?.widthPercent.toFixed(1)}%
+                </dd>
+              </div>
+              <div>
+                <dt>视线角速度</dt>
+                <dd>{omega.toFixed(1)} °/s</dd>
+              </div>
+              {!circuitRuntime.current&&<><div>
+                <dt>P 房 · 建筑前沿中心</dt>
+                <dd>约 {eye.distanceTo(pit).toFixed(0)} m</dd>
+              </div>
+              <div>
+                <dt>发车线中心</dt>
+                <dd>约 {eye.distanceTo(at(f.start.distance)).toFixed(0)} m</dd>
+              </div>
+              <div>
+                <dt>计时线中心</dt>
+                <dd>约 {eye.distanceTo(at(f.finish.distance)).toFixed(0)} m</dd>
+              </div></>}
+            </dl>
+          </div>
+        </details>
+      </div>
+      <p className="sr-only" aria-live="polite" data-testid="sim-status">
+        {
+          {
+            ready: "就绪 · 上游起点",
+            running: "正在经过",
+            paused: "已暂停",
+            ended: "演示结束 · 请重置",
+          }[simulation.status]
+        }
+      </p>
+      <output hidden data-testid="car-position">
+        驾驶舱 X {car.x.toFixed(1)} · Y {car.y.toFixed(2)} · Z{" "}
+        {car.z.toFixed(1)} m
+      </output>
+    </section>
+  );
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "upperIndex": 137,
+    "lowerIndex": 68,
+    "halfSpan": 7,
+    "separationMetres": 7,
+    "source": {
+      "url": "https://supergt.net/en/circuit/suzuka",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "立交上下关系来自官方线路；7m路面间距与渐变引桥为可配置示意估计，非实测净空。"
+    }
+  }
+]
