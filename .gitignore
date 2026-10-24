@@ -4,3 +4,9 @@ dist/
 *.tsbuildinfo
 .env
 .env.*
+test-results/
+playwright-report/
+research/
+artifacts/goal-review/
+artifacts/local-polish/
+artifacts/selection-facing-review/

@@ -1,3 +1,82 @@
+## FIA计时资料与新加坡连通水面（2026-10-24）
+
+- `src/circuits/timing/*.json`：23站逐站FIA场地图，保存精确URL、源PDF SHA256、页码、赛季、角标与提取日期。`scripts/extract-circuit-timing.py`需要本地research原PDF；运行产品只需派生JSON。18份2026文件；mexico/interlagos/las-vegas/lusail/yas-marina为2025参考，档案中明确说明。只分发事实坐标/数值，不分发FIA图稿、字体或Logo。
+- 发车/计时旗标位置人工核对PDF后取图上中心点，以官方弯号标签和现有GIS弯点拟合二维相似变换、吸附真实道路。配准RMS约20–57m，反映示意图和GIS误差，不能标作测绘精度。S1/S2使用文件给出的弯道前后距离；Sepang的Entry T10保留入口语义，以S2图上位置近似定位，不冒充弯心。原始公布分段长度另存。
+- Spielberg FIA2026表格三段总长4326m，与保留F1长度4318m相差8m；保留两者，不拉伸物理路面。Austin按公布分段长度从估计控制线推进与局部弯点可差约330m，故地图采用明确的局部弯前/后锚点，未声称高精度复现每段长度。
+- 新加坡OSM水域relations9542146、9569901保持原岸线/孔洞。原来各自DEM中位数造成相连水域约4m台阶，遮住Esplanade Bridge。`scripts/build-water.py`改为连通区域合并采样1160点的原生GEDTM30中位数1.249m绝对高程，仍为估计水位。PUB说明滨海堤坝隔绝潮汐、维持库区水位：https://www.pub.gov.sg/public/places-of-interest/marina-barrage 。该资料并未提供本项目的数值水尺，1.249m不是现场实测。道路/赛车/观察者高度未改。
+
+## 2026-10-24：上海实际接入地形
+
+- 缺失原因：旧World仍渲染零高度平面，CircuitGeometry未传高程，17×17 SRTM只留元数据。此次迁移明确接入共享Terrain、上海道路与观众/设施统一高度基准；旧A层高、车体尺寸、速度和投影公式保留。
+- 新源为 GEDTM30 v1.2.0：<https://zenodo.org/records/18887460>，CC BY 4.0；按已有上海边界提取原生约30m网格为65×65，4225值、绝对值约0.37–12.54m，保留原像元窗口SHA与取样记录。ground_elevation.py --apply --only shanghai可从保留JSON重放，不访问网络；覆盖表23站现均runtimeApplied，原SRTM摘要保留。
+- 原DTM直接当赛车路面会产生约16.5%的短陡坡。只对估算路面做周期高斯距离平滑（sigma45m，截断3sigma），不截坡度、不缩放/拟合高差；原地面网格完全不变。2000点数值检查得到估算路面相对范围1.624–7.016m、最大切线竖分量0.0389；这不是官方精确坡度。局部路堤用估算路面与原地面衔接，防止平滑后悬空，地基只在既有设施包络裁切。
+- 查阅黄绍铭、岳建勇、黄煜挺《采用减沉路堤桩处理大面积地面堆载下软土地基的设计与实践》，岩土工程学报35(7)，2013，1228–1238，第4.1节/图15：<https://cgejournal.com/cn/article/pdf/preview/15108.pdf>。原文确认堆筑赛道、近8m路面落差、原自然地面3.4–3.6m；其吴淞口基准与GEDTM正高基准不能混用。仅作历史背景核对，未复制图像/等高线，未把历史标高冒充2026实测。原PDF与检查图仅在本地research/artifacts。
+- 赛车实体位置、俯仰与驾驶舱锚点现在统一采用三维路面；拍照仍借用/恢复真实实体，不改模拟时间。非A区域基准取原地面；A与P房保留相对高度并锚到主直道同一水平基础。标线保留与路面的高度差；围网与支持墙不再留在旧零高度。
+
+## 2026-10-24：赞德沃特 GA1 / GA2
+
+- 官方2026荷兰站场馆图 https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf 明确标注 General Admission1–2。重新下载仍HTTP200，与本地690,774字节PDF完全一致，SHA256 `4803c1842b95c99abe39bad0ffde8566328427e29d90e3088f979b17fefe00d6`；图面及元数据为2026，未借用2027地图。原PDF只留本地研究，未打包。
+- `zandvoort-general-admission.json`保留来源、原图事实性轮廓、地理配准边界、剔除面积及可重放区域。提取紫色GA1描边和GA2填充，按既有14弯道控制点局部仿射配准；控制点凸包外用全局仿射数学延拓保持连续，**不是新增实测地理控制点**。场馆示意图不是测绘图，地理边界低置信度近似。
+- 排除已知路面+0.75m、看台/建筑/pit/水域+0.5m后，约3.09万m² GA1、4664m² GA2进入模型；以100m网格分成27+4块仅用于连续选点与局部观察，不表示真实票区分隔。轮廓简化容差0.1m，<4m²碎片未纳入；未移动看台、赛道或水体来清空检查。原始配准范围和去除面积保留，可在后续更精确场地图取得后重做。
+- 新的显式 `terrainFollow` 表面读取原GEDTM30地面，按最长边8m细分，绝不凭空指定草坡rise或夸张高差。4cm渲染间隔用于避免与基础地形争深度，眼高仍1.2m（坐地观众）；插值曲面与原数据约0.2m数值预算不是源DTM的实测精度。未改赛车速度/尺寸、道路高程或手机投影。无排线地面默认看向当前点最近的实际道路，不强套整块区域的PCA座席朝向。
+- 围网仅在近路、近似沿道路的公共区域边界生成，避开内部选点分块线；仍为估计屏障，不冒充现场屏障测绘。新增平面审计拒绝地面观赛区互相重叠或进入水域，保留岛屿孔洞。
+- 211项单测与生产构建通过；新区域三端实际200km/h经过、可见红色赛车像素、1600px PNG下载及英语入口通过。上海A全流程与暂停车拍照不旋转三端回归也通过。区域边界/地面源仍有不确定性，不等同全23站看台及GA清单完成。
+- 新发现：墨尔本两个官方2026 Visitor Map PDF地址当前404，虽搜索缓存仍有摘要，也不能据此直接新建精确GA边界，未用当前2027票务网页替代其2026场地图。
+
+## 2026-10-24 后续：匈牙利主看台普通座席与建筑分离
+
+- 设计方 DVM Group 的已建项目页 https://www.dvmgroup.com/en/references/projects/hungaroring 及其 project-hungaroring-01/02/06/08/09/10.jpg 实景明确展示普通下部坡面、后方Platinum阳台、屋顶，不能把整栋建筑全部作为32排座席。主办方2025-06-19落成报道 https://hungaroring.hu/site/en/media/news/hungaroring-the-future-has-begun 交叉确认新结构于2025投入使用。研究用照片只留本地，未随网站打包。
+- 本轮在原OSM建筑内配置独立普通座席条带：前沿从建筑朝路一侧退6m（估计范围4–8m），17排×0.85m踏面深度（估计范围0.70–1.00m），深14.45m；阶梯riser仍估计0.4m、rise6.4m。尺寸是照片辅助的低置信度模型参数，**不是从建筑师平剖面图测得，也不是现场测绘**。纵向端部暂随原建筑，不表示每段楼梯和座位边界均准确。完整原建筑边界保留于seatFootprint.sourceBuildingBoundary；Platinum尚未另行开放，未混作普通层。
+- `groundReference`显式将普通层前排楼面锚到座席前沿中点的原GEDTM30地面，而非上坡侧整栋屋顶的中心。原2.2m楼面离地估计及1.2m眼高不变；地面、路面和赛车没有被抬高/缩放。该改动仅用于有独立源配置的表面，其他站点仍保留旧基准。约30m源网格不能测出基础、纵向地面细节。
+- 取得源配置后重跑实际主看台阶梯/支持墙射线，9个选点对赛车参考点均无自身实体遮挡；全站53/1953仍需核验（匈牙利21/135）。三端真实200km/h经过、3倍手机取景、暂停拍照均取得可见赛车像素和1600px PNG下载，保留真实围网遮挡。此结果不是全站票区或真实座席测绘验收。
+
+## 2026-10-24：匈牙利普通座席排数复核（部分）
+
+- `europe/hungaroring-structural-datums.json`：11处普通看台改用独立观赛指南 Oversteer48 的座席图及文字排数，均保留逐区URL、中置信度与检查日期：T1 26、Grand Prix 1 29、Grand Prix 2 16、Apex 2 33、Grid 1/2/3为25/29/25、Pit Exit 1/2为12/13、Podium16、Chicane 3为17。图面已实际查看，GP2最后排16来自配套文字，未冒充图面标签。不是主办方测绘或完整2026售票清单。
+- 主看台普通层17排来自座席图，但OSM边界是整栋建筑。实际应用后截图和实体射线发现新前缘遮挡，已撤回该处模型变更；排数证据仅存unappliedEvidence，须先分离普通层/屋顶/Platinum边界。原32排/16m估计暂保留，不冒充已完成校正。
+- 每级0.4m（范围0.3–0.5m）仍为低置信度假设；rise=(rows-1)*0.4。只更改原先由轮廓深度猜测的排数/阶梯总升高，不改变地面、前排楼面、眼高、边界、车辆或真实障碍。主看台Platinum五排上层与Pit Exit1无障碍平台未混入普通排面；Apex1的分段25/33排需要拆分后再配置，未将最大排数强加全部区域。Chicane1来源本身写“I believe”，未提升为已核实排数；Chicane2页面404。
+- 主办方2026交通页 https://hungaroring.hu/site/en/races/2026-formula-1-aws-magyar-nagydij/travel-2026 保留带24–26 July 2026日期的交通图，图面只用于整体位置交叉检查，不提供精确楼层高程。官方2026 FAQ明确GA存在且Gate8仅对看台票开放；不能据此臆造整片GA可达边界。Media Kit页面有标题但无实际PDF，猜测PDF地址返回普通HTML，不作有效证据。
+- 现有23/135条匈牙利实体视线仍需核验（全站55/1953），包括前排看台、坡面与粗DEM基准误差。GP2前排实际可能被前方看台遮挡，独立指南及官方票务描述支持其观赛布局，未为射线通过而抬高后排或删掉实体。不能将平面0相交等同所有座席无遮挡。
+
+## 2026-10-24：铃鹿永久座席与年度来源分离
+
+- 主办方座席PDF：`https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_b1.pdf`、`f1_b2.pdf`、`f1_q1.pdf`、`f1_q2.pdf`分别标有最大9、22、12、15排。用于已有永久结构的行数上限，不声称合并分面各座位都具有相同排数。链接由当前2027详情页提供、图本身未标年，**不能证明2026售票状态**。
+- 原先以弧形footprint的PCA包围盒深度乘坡度推导行数/高度，B1被推到10.47m、B2达16m。现在按源最大行数建阶梯，riser采用0.40m估计（范围0.30–0.50m），所以rise分别3.2/8.4/4.4/5.6m；每级高度不是实测。配置与来源在 `asia/suzuka-structural-datums.json`，通过 `apply-spectator-datums.py` 进入源包。
+- B2/B1、Q2/Q1按主办方详细位置图、座席照片和Q2需爬楼的说明建立后排关联：上部前沿=下部后沿+2m估计连接高差（范围1–3m）。这是固定结构近似，不从射线结果求高度；原footprint、眼高1.2m、赛车尺寸/车速/投影不变。
+- B1/B2/R可跟随源弯曲排线的局部法线作为默认观察方向；其他区域保持原法线规则。B2前沿绿色护栏在主办方照片 https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/b2/img_b2_02.jpg 中可见，独立建模在上层楼面前缘（估计高1.1m、金属杆截面40mm），没有在抬高楼面后顺便删除真实遮挡。它与地面赛道catch fence分开，参与实际渲染及照片深度遮挡。
+- S家庭看台新增：OSM way183394069虽然带有冲突的big_wheel标签，但其六节点长条轮廓经2026场馆图和主办方S位置/座席图确认，不能只凭标签认定。2026图的镜像URL https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf 于本次重新下载，与本地保留的1,392,541字节PDF的SHA256完全一致；元数据标题2026_F1_Japan_WayfindingMap_Positive_VISUAL，创建2026-03-04，图面明确2026。来源是镜像，未冒充主办方域名。S最大23排来自现有座席图，riser0.4m为估计；不将S-BOX包厢一起冒充完成。
+- 再次确认来源会滚动：搜索摘要标为2026的主办方zh-tw/f1/ticket/pdf/sheet.pdf实际已替换为2027票务文件；旧today.pdf与Mobilityland媒体55469地址404。不把这些内容用于2026票区证明，也未拿2027临时H/I/A2布局直接开放2026模型。
+
+## 2026-10-24：水域、地面与维修通道复核
+
+- 22个共享赛道的65×65地面网格为 GEDTM30 v1.2.0（https://zenodo.org/records/18887460，CC BY 4.0）。原发布端TLS证书失效时使用 OpenTopography 官方公共镜像 https://opentopography.s3.sdsc.edu/raster/GEDTM30/GEDTM30_be/gedtm_rf_m_30m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif；摩纳哥/新加坡原生窗口SHA与已保留发布端数据一致。未关闭TLS校验。
+- 19站水域来自已保留 OSM 原始岸线/水域，逐特征保留 way/relation URL、检查日期与水位来源。海岸线按陆左水右规则构面并裁切到地形范围，完整岛屿作为孔洞；新加坡 Marina Reservoir 9542146、Singapore River 9569901 与蒙特利尔 Saint Lawrence 1775822 另取 OSM `/api/0.6/relation/{id}/full` 补齐局部提取缺失的成员。
+- 里海不能用海洋零米或原DEM的约+1m海上填充值：巴库采用俄罗斯科学院海洋研究所2026-08-13发布的2025盆地水位-29.4m（https://www.ocean.ru/en/index.php/novosti-instituta/1268-caspian-sea-day-why-the-unique-body-of-water-is-drying-up）。这是可视化近似基准，不是2026巴库实测水位；海岸线年代和垂直基准仍有不确定性。其他内陆水面用水域内源网格中位数估算，海洋用0m显示基准。只裁切地形显示，不改原DEM/路面/座席/车辆。
+- 雪邦：FIA 2026 Bahrain GP in Malaysia场地图与pit lane drawing（https://www.fia.com/system/files/decision-document/2026_bahrain_grand_prix_in_malaysia_-_competition_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_and_red_zone.pdf）显示T15内侧进站。使用 OSM way23410526 接主维修通道 way144359483；剔除误入的南短赛道备用pit lane way107364027，未编造两条线之间的连接。原始图面仅留本地研究，不随产品分发。
+- 5处低置信度边界矫正在 `src/circuits/season-review/footprint-constraints.json` 明列。优先保留OSM建筑或维修通道，裁掉人工估计边界相交的角部，并留0.6–0.75m建模间隔；没有平移真实看台、抬高眼位或声称测绘精度。全部22站236个可用分面完成独立平面相交与pit端点/方向检查。
+- 雪邦与银石的7m估计pit lane宽度包络局部进入车库footprint；改为按原建筑边界裁切显示路面，留0.15m建模间隔，源道路中心线和建筑不动。裁切轮廓随facility构建脚本生成并在实际网格回归中检查，不代表获取了真实逐段道路宽度。
+- 围网：原先每片看台向赛道统一推出4m的逻辑删除。共享模型使用实际路面/维修通道净距限制估计前沿围网，逐段检查曲面弦线；高度取当前位置地面，不从上层楼面减固定值生成悬浮网。结构关联的上层不再重复生成赛道catch fence。围网仍是估计模型，不代表已取得真实赛道屏障测绘。
+
+## 铃鹿永久上层结构（2026-10-24）
+
+V1下层/V2上层关系来源主办方 https://www.suzukacircuit.jp/eng/f1/ticket/seat_v2.html 和对应V1页面。当前售票页面已切换2027，因此这里只提取永久结构关系，不据此确认2026票区总表。上层前排以现有下层后排+2m连接高度估计（可能范围1–3m）；不是实测高度，source confidence=low。关系JSON及重建脚本独立留存，模型/眼位/地面修切共享相同基准。B2/Q2不自动套用此关系。
+
+世界地图新增定位及云层动效仍使用现有Natural Earth边界与F1DB经纬度；云层为本项目CSS绘制，无新增外部素材。
+
+---
+
+## GEDTM30 地面高程更新（2026-10-24）
+
+新加坡与摩纳哥采用 Ho、Hengl / OpenGeoHub 发布的 GEDTM30 v1.2.0（2026-03-06），来源 https://zenodo.org/records/18887460 ，方法论文 https://doi.org/10.7717/peerj.19673 ，CC BY 4.0。两站局部原生1角秒（约30m）COG窗口双线性抽取65×65点，完整来源、坐标窗口、原生Float32数据SHA256与网格保存在 `src/circuits/elevation-source/ground-grids/`；`ground_elevation.py --fetch singapore monaco --apply` 可获取，`--apply` 可离线重建。获取依赖rasterio/numpy，前端不依赖它们或在线服务。
+
+v1.2发布元数据明确Float32、米、scale=1；COG仍留有旧整数版本的0.1 scale标签。存储数值已经是米，未再乘0.1；人工源像素复核（勃朗峰6.8652/45.8326约4795.7m，摩纳哥7.4205/43.7312约66.5m）与版本说明一致。保留这一差异，不应把真实高差缩小10倍。未进行平滑、削峰、随意海平面替换或高度放大。
+
+新加坡网格范围-4.845..34.991m、摩纳哥0..201.468m（以实际JSON为准）；旧SRTM响应哈希仍保存在coverage的srtmBaseline。此DTM为区域地面预测，不证明实测赛道路面/看台/桥隧。署名随生产构建输出 `/licenses/GEDTM30-CC-BY-4.0.txt`。
+
+赛季资料注意：新加坡官网 `/web/2026/circuit-park-map/` 当前图内标题已为2027，虽印制日期为2026-10-15，仍不能作为2026票区清单证据。不得仅凭URL年份认定赛季。仅保留研究，不分发原图，不据此新增2026票区。
+
+---
+
 # 历史地点图鉴资料（2026-10-23）
 
 - 用户确定首批范围：1950 年以来实际举办过 F1 世界锦标赛正赛的地点，包含当时计入锦标赛的 1950–1960 Indianapolis 500，不包含非锦标赛、冲刺赛或只提出但未举办的地点。
@@ -159,3 +238,23 @@ OSM事实包`src/circuits/americas/osm`（保留way ID/tags），人工匹配与
 - Natural Earth 1:110m陆地海岸线： https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_land.geojson 。公共领域许可说明 https://www.naturalearthdata.com/about/terms-of-use/ 。裁剪至南纬60°/北纬82°、0.16°保形简化，输出119个离线SVG路径，约36KB；等距圆柱投影，不显示行政边界。生成器`scripts/build-world-map.py`，资产`src/assets/world-land.json`，许可随构建复制`licenses/world-Natural-Earth.txt`。
 - 23个赛道锚点取已核验赛道包中心线第一个地理点，不用城市中心或猜测位置。`src/circuits/season2026.json`只保留锚点和周末日期，首页不需要加载23个3D赛道包。
 - 比赛日期重新核对 https://www.formula1.com/en/racing/2026 ，仍为有效23轮快照：巴库9月24–26日、雪邦10月2–4日，墨西哥10月30日–11月1日，拉斯维加斯11月19–21日；季前测试不作为比赛卡片。不包含胜负/排名/实时赛事状态。
+
+
+## 2026-10-24 本地打磨资料
+
+- 历史概念图：F1DB v2026.17.0，固定提交 `3c980fd510ef97ea0de577aff7ecee193869de65` 的 `src/assets/circuits/white/`。来源：https://github.com/f1db/f1db/tree/3c980fd510ef97ea0de577aff7ecee193869de65/src/assets/circuits 。78 张原始 SVG 随 `public/atlas-layouts/` 自托管；每张取该地点最后已举行正赛的布局，不宣称全部为现今线路。F1DB / Jules Roy 与贡献者，CC BY 4.0；许可见同目录 ATTRIBUTION.txt 和 public/licenses/F1DB-CC-BY-4.0.txt。`src/atlas/layout-provenance.json` 保存 Git blob 哈希，生成脚本逐张校验。介绍按原始类型、方向、首次日期、比赛数及布局版本数整理，不增补无来源轶事。
+- P 房与维修通道：22 站独立数据位于 `src/circuits/facilities/`，各特征保留 OSM way URL。2026-10-23 核对；20 站确认建筑平面，摩纳哥/马德里仅有通道。采用 ODbL，见 src/data/LICENSE-facilities.md。建筑高度优先 OSM height 标签，其余显式 heightEstimated；通道宽度估计为 7m，立面车库数量为示意重复。
+- 银石采用国际赛道 Wing（way 227332429）与国际维修通道（227902927），未用国家赛道旧维修区。斯帕采用 Stand F1（77352246）及 F1 通道（323851541），未用耐力赛维修区。卢赛尔采用 F1 入口（1037707300），排除 MotoGP 入口（1004121314）。亚斯 way 176695255 原始 layer=-1，保留 underground 标记，不作为地表通道绘制。
+- 上海继续使用原独立设施；未用此轮通用 OSM P 房替换旧上海模型、物理或投影。
+- DEM 视觉修补只向下切除粗网格遮住路缘的地面，未提高/夸张地形，未修改车辆路径或桥面高程。标签、俯瞰相机变化均为产品交互，不是新增测绘数据。
+
+
+## 2026-10-24 高程与完整票区二次核对
+
+全部23站区域网格来自 https://www.opentopodata.org/datasets/srtm/ 的SRTM v3 90m数据；每站17×17点，原响应在本地research/elevation缓存，导出heights与来源保存在独立赛道包。src/circuits/elevation-source/coverage.json记录采样数、绝对范围及每份响应SHA256。289点是项目查询网格，不能把查询点间距当成90m原生采样精度；网格间采用双线性插值。原生SRTM是区域表面高程，会受树木、建筑影响；不能据此声称地下/看台/道路测绘准确。八站原网格保留，十五站新增。
+
+再次查看官方2026赛历 https://www.formula1.com/en/racing/2026 ，仍23站，包含马来西亚雪邦举办的Bahrain Grand Prix；不恢复已取消的其他地点。此轮不改已举行统计截至日。
+
+ACM 2026票务说明 https://acm.mc/epreuves/formula-1-grand-prix-de-monaco/infos-pratiques/informations-liees-a-lachat-de-billet-ou-de-package/ 明确区分座席与Z、Rocher站立区域。该证据仅确认票区类型/年份，不确认其地理边界。FIA 2026摩纳哥媒体资料 https://www.fia.com/sites/default/files/media_kit_2026_gb_03.06_1.pdf 下载校核为63 PDF页，交通及媒体限制区不能替代完整普通观众售票地图。上述原图仅本地研究，不打包进产品。
+
+双语英文地点和原始赛事名称使用现有F1DB别名/逐场资料；界面翻译为本项目原创，赛事/看台专名保留，不更改source ID、坐标、日期或几何。完整票区核对记录在src/circuits/season-review，未核实项目不计为完成。

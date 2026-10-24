@@ -1,7 +1,11 @@
 import { at, tangent, length } from "../systems/CircuitGeometry";
+import {shanghaiTiming} from '../circuits/shanghai/timing';
 // Main straight local frame; positive offset points towards grandstand A.
 export const straight = at(length - 220);
-export const along = tangent(length - 220);
+export const along = tangent(length - 220).setY(0).normalize();
+// One level engineering foundation for the existing A stand and pit building.
+// All original tier dimensions remain relative to this road datum.
+export const foundationAltitude = straight.y;
 export const outward = { x: along.z, z: -along.x };
 export const facilities = {
   roadWidth: 14,
@@ -21,8 +25,8 @@ export const facilities = {
     roofOffset: 67,
   },
   pit: { length: 340, offset: -42, width: 24, height: 15 },
-  start: { distance: length - 180 },
-  finish: { distance: length - 245 },
+  start: { distance: shanghaiTiming.start },
+  finish: { distance: shanghaiTiming.control },
   fence: { offset: 13, height: 3.5 },
   tyres: {
     start: -256,
@@ -47,7 +51,7 @@ export const facilities = {
 export function local(x: number, y: number, z: number) {
   return [
     straight.x + along.x * x + outward.x * z,
-    y,
+    y + foundationAltitude,
     straight.z + along.z * x + outward.z * z,
   ] as [number, number, number];
 }

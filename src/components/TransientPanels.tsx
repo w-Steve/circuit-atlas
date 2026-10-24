@@ -13,6 +13,11 @@ export function useDismissPanel(open:boolean,close:()=>void,selector:string){
 export function TransientPanels(){
   const mode=useApp(s=>s.mode);
   useEffect(()=>{
+    const prevent=(e:Event)=>{if(e.target instanceof Element&&e.target.closest('.world,#scene-labels,.phone-controls,.experience-header'))e.preventDefault()};
+    document.addEventListener('contextmenu',prevent);document.addEventListener('dragstart',prevent);
+    return()=>{document.removeEventListener('contextmenu',prevent);document.removeEventListener('dragstart',prevent)};
+  },[]);
+  useEffect(()=>{
     const all=()=>Array.from(document.querySelectorAll<HTMLDetailsElement>('.speed-menu,.measure-menu,.phone-settings'));
     all().forEach(d=>d.open=false);
     const pointer=(e:PointerEvent)=>all().forEach(d=>{if(!d.contains(e.target as Node))d.open=false});

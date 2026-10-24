@@ -5,9 +5,9 @@ import { createCircuitGeometry } from "../src/circuits/geometry";
 for(const id of ['spa','suzuka','austin','interlagos','spielberg','hungaroring','silverstone','zandvoort']) it(`${id}: sourced grid has complete finite heights and preserves true vertical metres`,async()=>{
   const data=await loadCircuit(id),grid=data.elevation.grid!;
   expect(data.elevation.status).toBe('partial');
-  expect(grid.heights.length).toBe(289);
+  expect(grid.heights.length).toBe(4225);
   expect(grid.heights.every(Number.isFinite)).toBe(true);
-  expect(data.elevation.source?.url).toBe('https://www.opentopodata.org/datasets/srtm/');
+  expect(data.elevation.source?.url).toBe('https://zenodo.org/records/18887460');
   const geometry=createCircuitGeometry(data.trackGeometry.coordinates,data.lengthMetres,data.elevation);
   expect(geometry.length).toBeCloseTo(data.lengthMetres,3);
 });

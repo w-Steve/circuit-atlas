@@ -1,0 +1,118 @@
+{
+  "circuitId": "suzuka",
+  "season": 2026,
+  "checkedAt": "2026-10-24",
+  "scope": "S permanent family seating footprint only; other missing areas and roaming grass remain separate work.",
+  "areas": [
+    {
+      "zoneId": "s",
+      "name": "S 家庭看台",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          136.5380089,
+          34.846191
+        ],
+        [
+          136.5384452,
+          34.8458035
+        ],
+        [
+          136.5385061,
+          34.8457429
+        ],
+        [
+          136.5383698,
+          34.8456401
+        ],
+        [
+          136.5378796,
+          34.8460728
+        ],
+        [
+          136.5380089,
+          34.846191
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 8.8,
+        "depth": 19,
+        "eyeHeight": 1.2
+      },
+      "supportToTerrain": true,
+      "surfaces": [
+        {
+          "surfaceId": "s-1",
+          "boundary": [
+            [
+              136.5380089,
+              34.846191
+            ],
+            [
+              136.5384452,
+              34.8458035
+            ],
+            [
+              136.5385061,
+              34.8457429
+            ],
+            [
+              136.5383698,
+              34.8456401
+            ],
+            [
+              136.5378796,
+              34.8460728
+            ],
+            [
+              136.5380089,
+              34.846191
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 8.8,
+          "eyeHeight": 1.2,
+          "rows": 23,
+          "rowRiserMetres": 0.4,
+          "rowCountSource": {
+            "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_s.pdf",
+            "checkedAt": "2026-10-24",
+            "method": "published",
+            "confidence": "high",
+            "notes": "Maximum numbered row23 on the permanent S seating chart. Chart undated, currently served on 2027 page; used for existing structure, not 2026 ticket availability. Combined footprint has variable row lengths."
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.openstreetmap.org/way/183394069",
+        "checkedAt": "2026-10-24",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM S long seating strip beside final-corner exit. Original way also carries a conflicting big_wheel tag; this is not treated as proof of seating. The elongated six-node footprint is separately matched to the S stand on the retained dated 2026 F1 venue map and organizer S location/chart; nearby Ferris wheel is a separate attraction. No wheel model or guessed circular footprint used."
+      },
+      "openingSource": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "checkedAt": "2026-10-24",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "Retained original-artwork venue map titled 2026_F1_Japan_WayfindingMap_Positive_VISUAL, created2026-03-04, visibly Japanese GP2026; S is marked beside final-corner exit. Mirror publisher, not a claim that the organizer live ticket page still serves2026. Family-only use is described by the organizer, and is not a universal admission guarantee. Mirror re-downloaded2026-10-24: SHA256 identical to the retained1,392,541-byte2026 PDF."
+      },
+      "surfaceSource": {
+        "url": "https://www.suzukacircuit.jp/eng/f1/ticket/family-seat.html",
+        "checkedAt": "2026-10-24",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Permanent S maximum23 rows from organizer chart. Riser0.4m assumed (range0.3-0.5m), total22*0.4=8.8m. Source footprint is a simplified combined stand, not individual family seats or S-BOX cabins. Base clearance2.2m estimated; original DEM and eye1.2m rule retained."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-24",
+        "issues": [
+          "New source footprint requires rendered road/face screening"
+        ],
+        "method": "Source-matched supplemental footprint; not enabled until shared geometry screening passes."
+      }
+    }
+  ]
+}

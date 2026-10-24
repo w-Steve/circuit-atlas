@@ -1,3 +1,4 @@
+import {t} from "../i18n";
 import { useMemo, useLayoutEffect, useRef } from "react";
 import {
   BufferGeometry,
@@ -7,7 +8,6 @@ import {
 } from "three";
 import { Html, Line } from "@react-three/drei";
 import { facilities as f, local, along } from "../data/config";
-import { at, length, tangent } from "./CircuitGeometry";
 import { standGeometry, tierData } from "./GrandstandGeometry";
 import { useApp } from "../store";
 const rotation = Math.atan2(-along.z, along.x);
@@ -147,16 +147,6 @@ export function TrackFacilities() {
           color="#eeeeeb"
         />
       ))}
-      {[f.start.distance, f.finish.distance].map((s, i) => (
-        <mesh
-          key={s}
-          position={at(s).setY(0.25)}
-          rotation={[0, Math.atan2(tangent(s).x, tangent(s).z), 0]}
-        >
-          <boxGeometry args={[f.roadWidth, 0.02, i === 0 ? 0.35 : 0.65]} />
-          <meshBasicMaterial color={i === 0 ? "#eeeeec" : "#edcf77"} />
-        </mesh>
-      ))}
       <Fence />
       <Tyres />
     </>
@@ -248,9 +238,7 @@ export function Markers() {
         center
       >
         <div>
-          <button className="marker" data-zone="a" onClick={() => {useApp.getState().chooseZone('a');setMode("select")}}>
-            A 主看台 ↗
-          </button>
+          <button className="marker" data-zone="a" onClick={() => {useApp.getState().chooseZone('a');setMode("select")}}> {t("A 主看台 ↗")} </button>
         </div>
       </Html>
       <Html
@@ -258,21 +246,7 @@ export function Markers() {
         position={local(0, 23, -65)}
         center
       >
-        <div className="marker">P 房 / PIT</div>
-      </Html>
-      <Html
-        portal={{ current: document.getElementById("scene-labels")! }}
-        position={at(f.start.distance).setY(5)}
-        center
-      >
-        <div className="marker subtle">发车线</div>
-      </Html>
-      <Html
-        portal={{ current: document.getElementById("scene-labels")! }}
-        position={at(f.finish.distance).setY(5)}
-        center
-      >
-        <div className="marker subtle">计时线</div>
+        <div className="marker">{t("P 房 / PIT")}</div>
       </Html>
     </>
   );

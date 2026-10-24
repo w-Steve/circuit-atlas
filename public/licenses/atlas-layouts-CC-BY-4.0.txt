@@ -1,0 +1,4 @@
+Circuit layout artwork: F1DB contributors, Jules Roy and contributors. CC BY 4.0.
+Source: https://github.com/f1db/f1db/tree/3c980fd510ef97ea0de577aff7ecee193869de65/src/assets/circuits
+License: https://creativecommons.org/licenses/by/4.0/
+Original SVG geometry retained; displayed on a dark background.

@@ -1,0 +1,3 @@
+# Source response SHA-256 covers the original bytes, including its final CRLF.
+# Preserve them on Linux and Windows; do not normalize this evidence.
+src/circuits/elevation-source/ground-grids/*.json -text whitespace=cr-at-eol

@@ -1,0 +1,11 @@
+{
+  "checkedAt":"2026-10-24",
+  "method":"Constrain only low-confidence diagram estimates against adjacent retained footprints. Never translate a stand or change eye height. Removed corners remain outside selectable space; no claim of surveyed boundaries.",
+  "constraints":[
+    {"circuitId":"zandvoort","zoneId":"pit-grandstand","keepZoneId":"main-grandstand","gapMetres":0.6,"reason":"2026 organizer map shows separate Main 28 and Pit 27; preserve OSM Main footprint and trim the overlapping end of the estimated Pit polygon."},
+    {"circuitId":"zandvoort","zoneId":"eastside-2","keepZoneId":"eastside-1","gapMetres":0.6,"reason":"Separate adjacent ticket stands on the 2026 organizer map; remove shared estimated corner."},
+    {"circuitId":"spa","zoneId":"gold-9-pole-position","keepZoneId":"gold-1-pit","gapMetres":0.6,"reason":"Preserve OSM Gold 1 building; remove the intersecting end of the low-confidence Gold 9 diagram estimate."},
+    {"circuitId":"las-vegas","zoneId":"t-mobile-turn-7","keepZoneId":"t-mobile-turn-6","gapMetres":0.6,"reason":"2026 T-Mobile map has separate seating blocks around the bend; the two-point affine estimates must not intersect."},
+    {"circuitId":"silverstone","zoneId":"vale","keepPitLaneId":"227902927","gapMetres":0.75,"reason":"Preserve OSM International pit lane; the low-confidence Vale estimate cannot include the entry lane."}
+  ]
+}

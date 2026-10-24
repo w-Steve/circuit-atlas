@@ -1,3 +1,4 @@
+import {t} from "./i18n";
 import { ErrorScreen } from "./systems/ErrorBoundary";
 import { simulation } from "./systems/VehicleSimulation";
 import { useMemo, useEffect, useLayoutEffect, useState, useRef } from "react";
@@ -24,6 +25,10 @@ import { useApp } from "./store";
 import { SpectatorAreas } from "./systems/SpectatorAreas";
 import {ShanghaiLabelLayout} from "./components/ShanghaiLabelLayout";
 import {ExposurePreview} from './camera/ExposurePreview';
+import {Terrain} from './components/Terrain';
+import {shanghaiFoundations} from './circuits/shanghai/terrain';
+import {TimingLayer} from './components/TimingLayer';
+import {shanghaiTimingSource} from './circuits/shanghai/timing';
 function Sun(){
   const selection=useApp(s=>s.selection),point=observer(selection);
   const target=useMemo(()=>new Object3D(),[]);
@@ -32,18 +37,19 @@ function Sun(){
 }
 
 function Scene({ active = true }: { active?: boolean }) {
-  const mode=useApp(s=>s.mode);
+  const mode=useApp(s=>s.mode),colored=useApp(s=>s.terrainColored);
   const road = useMemo(() => ribbon(f.roadWidth, 0.2), []);
   const verge = useMemo(() => ribbon(f.roadWidth + 4, 0.1), []);
   return (
     <>
-      <color attach="background" args={["#a7b2b0"]} />
+      <color attach="background" args={[mode==='eye'||mode==='phone'?'#a7b2b0':'#161b20']} />
       <ambientLight intensity={1.6} />
       <Sun/>
-      <mesh receiveShadow rotation={[-Math.PI / 2, 0, 0]} position={[300, -0.1, -400]}>
+      {(mode==='eye'||mode==='phone')&&<mesh receiveShadow rotation={[-Math.PI / 2, 0, 0]} position={[300, -1, -400]}>
         <planeGeometry args={[12000, 12000]} />
         <meshStandardMaterial color="#3e4b43" />
-      </mesh>
+      </mesh>}
+      <Terrain data={shanghaiData as unknown as CircuitPackage} geometry={shanghaiGeometry} foundations={shanghaiFoundations} colored={mode==='overview'&&colored}/>
       <mesh receiveShadow geometry={verge}>
         <meshStandardMaterial
           color="#b6b7ac"
@@ -65,6 +71,7 @@ function Scene({ active = true }: { active?: boolean }) {
       <Grandstand />
       <SpectatorAreas active={active}/>
       <TrackFacilities />
+      <TimingLayer data={shanghaiData as unknown as CircuitPackage} geometry={shanghaiGeometry} source={shanghaiTimingSource}/>
       <Markers />
       <ShanghaiLabelLayout/>
       {active && mode==='overview' && <CornerMarkers data={shanghaiData as unknown as CircuitPackage} geometry={shanghaiGeometry}/>}
@@ -98,8 +105,8 @@ export default function World({ active = true }: { active?: boolean }) {
       </Canvas>
       {lost && (
         <ErrorScreen
-          title="WebGL 画面已中断"
-          message="赛车已暂停，可以重新加载场景恢复。"
+          title={t("WebGL 画面已中断")}
+          message={t("赛车已暂停，可以重新加载场景恢复。")}
         />
       )}
     </>

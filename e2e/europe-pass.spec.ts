@@ -1,0 +1,40 @@
+import {test,expect} from '@playwright/test';
+import {readFileSync,writeFileSync} from 'node:fs';
+const ids=process.env.SPECTATOR_REGION==='americas'?['miami','montreal','austin','mexico','interlagos','las-vegas']:process.env.SPECTATOR_REGION==='asia'?['melbourne','suzuka','baku','sepang','singapore','lusail','yas-marina']:['monaco','barcelona','spielberg','silverstone','spa','hungaroring','zandvoort','monza','madrid'];
+for(const id of ids)test(`${id}: a real running car is visible in the temporal photograph`,async({page},info)=>{
+  test.setTimeout(90000);page.setDefaultTimeout(12000);
+  const data=JSON.parse(readFileSync(new URL(`../src/circuits/generated/${id}.json`,import.meta.url),'utf8'));
+  await page.goto(`/#/circuits/${id}/map`);
+  await page.getByRole('button',{name:'选择观察位置 ↗',exact:true}).click();
+  await page.getByTestId(`zone-option-${data.spectatorZones.filter((z:any)=>z.availability==='available')[0].zoneId}`).click();
+  await page.getByRole('button',{name:'进入此处视野 ↗'}).click();
+  await expect(page.locator('canvas')).toHaveAttribute('data-camera-ready','true');
+  await page.getByLabel('播放设置',{exact:true}).click();
+  await page.getByRole('slider',{name:'演示速度'}).fill('340');
+  await page.getByLabel('播放设置',{exact:true}).click();
+  await page.getByRole('button',{name:'打开手机相机'}).click();
+  await page.getByRole('button',{name:'3×',exact:true}).click();
+  await page.getByRole('combobox',{name:'快门速度'}).selectOption('60');
+  await page.getByRole('button',{name:'理想跟拍',exact:true}).click();
+  await expect(page.locator('canvas')).toHaveAttribute('data-camera-ready','true');
+  await page.getByRole('button',{name:'播放赛车',exact:true}).click();
+  await page.evaluate(async()=>{
+    await new Promise<void>(resolve=>{const tick=()=>{if(Number(document.querySelector('canvas')?.dataset.exposurePreviewTime)>=3.68)resolve();else requestAnimationFrame(tick)};requestAnimationFrame(tick)});
+    (document.querySelector('button[aria-label=拍照]') as HTMLButtonElement).click();
+  });
+  const photo=page.getByRole('dialog',{name:'照片预览'}),image=photo.locator('img');
+  await expect(image).toBeVisible({timeout:30000});
+  const metadata=JSON.parse((await image.getAttribute('data-exposure'))!);
+  expect(metadata.velocity).toBeCloseTo(340/3.6,6);expect(metadata.samples).toBeGreaterThan(1);
+  expect(metadata.zoneId).toBe(data.spectatorZones.filter((z:any)=>z.availability==='available')[0].zoneId);
+  const red=await image.evaluate((img:HTMLImageElement)=>{
+    const c=document.createElement('canvas');c.width=img.naturalWidth;c.height=img.naturalHeight;const ctx=c.getContext('2d')!;ctx.drawImage(img,0,0);
+    const pixels=ctx.getImageData(0,0,c.width,c.height).data;let count=0;
+    for(let i=0;i<pixels.length;i+=4)if(pixels[i]>90&&pixels[i]>pixels[i+1]*1.3&&pixels[i]>pixels[i+2]*1.3)count++;
+    return count;
+  });
+  expect(red).toBeGreaterThan(100);
+  const download=page.waitForEvent('download');await photo.getByRole('link',{name:'保存 PNG ↓'}).click();
+  await (await download).saveAs(info.outputPath(`${id}-running.png`));
+  writeFileSync(info.outputPath('exposure.json'),JSON.stringify({...metadata,redPixels:red},null,2));
+});

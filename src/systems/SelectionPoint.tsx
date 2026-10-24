@@ -1,3 +1,5 @@
+import {zoneName} from '../i18n/data';
+import {t,tr} from "../i18n";
 import {circuitRuntime} from "../circuits/runtime";
 import {Html} from '@react-three/drei';
 import {useThree} from '@react-three/fiber';
@@ -12,7 +14,7 @@ import {local,along,facilities} from '../data/config';
 export function SelectionPoint(){
   const s=useApp(),{camera,gl,scene}=useThree(),id=s.selection.zoneId??'a';
   const runtime=circuitRuntime.current;
-  const name=runtime?`${runtime.spectators.zoneById(id)?.name}选点`:id==='a'?(s.selection.tier==='upper'?'上层看台选点':s.selection.tier==='platinum'?'铂金区域选点':'下层看台选点'):`${id.toUpperCase()} ${['c','f','j'].includes(id)?'草地':'看台'}选点`;
+  const name=runtime?tr`${zoneName(runtime.spectators.zoneById(id)?.name??'')}选点`:id==='a'?(s.selection.tier==='upper'?t("上层看台选点"):s.selection.tier==='platinum'?t("铂金区域选点"):t("下层看台选点")):tr`${id.toUpperCase()} ${['c','f','j'].includes(id)?t("草地"):t("看台")}选点`;
   const drag=(x:number,y:number)=>{
     const r=gl.domElement.getBoundingClientRect(),ray=new Raycaster();
     ray.setFromCamera(new Vector2((x-r.left)/r.width*2-1,1-(y-r.top)/r.height*2),camera);
@@ -44,5 +46,5 @@ export function SelectionPoint(){
     onPointerMove={e=>{if(e.currentTarget.hasPointerCapture(e.pointerId)){e.stopPropagation();drag(e.clientX,e.clientY)}}}
     onPointerUp={e=>{if(e.currentTarget.hasPointerCapture(e.pointerId))e.currentTarget.releasePointerCapture(e.pointerId)}}
     onKeyDown={e=>{if(e.key.startsWith('Arrow')){e.preventDefault();s.select({...s.selection,u:s.selection.u+(e.key==='ArrowRight'?.02:e.key==='ArrowLeft'?-.02:0),v:s.selection.v+(e.key==='ArrowUp'?.05:e.key==='ArrowDown'?-.05:0)})}}}
-  ><i/><span>拖动选点</span></div></Html>;
+  ><i/><span>{t("拖动选点")}</span></div></Html>;
 }

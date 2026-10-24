@@ -1,0 +1,398 @@
+{
+  "circuitId": "hungaroring",
+  "checkedAt": "2026-10-24",
+  "scope": "Partial source review of twelve ordinary seating banks. Main ordinary bank separated approximately from OSM roof using designer photographs; numerical risers, treads and inset are estimates. Does not certify complete 2026 inventory, Platinum, accessible platforms, Fan areas or GA.",
+  "areas": [
+    {
+      "zoneId": "hungaroring",
+      "surfaceId": "hungaroring-1",
+      "rowProfile": {
+        "rows": 17,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://oversteer48.com/hungaroring-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "medium",
+          "notes": "Independent visitor guide seating chart maximum row label; not an organizer survey or 2026 ticket inventory certification. Ordinary main seating bank only; separate five-row Platinum upper product is not modeled by this profile. Existing OSM building footprint remains approximate for usable seats."
+        },
+        "riseSource": {
+          "url": "https://oversteer48.com/hungaroring-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "17 ordinary rows from the independent chart, applied only after separating an approximate ordinary seating strip from the building roof. Riser 0.4m (0.3–0.5m range), total rise6.4m is estimated; tread0.85m and front inset6m are separately documented photo-informed estimates. Platinum balcony remains separate and unmodeled. This configuration is defined from seating evidence, never optimized for raycast clearance."
+        }
+      },
+      "seatFootprint": {
+        "boundary": [
+          [
+            19.248578888763184,
+            47.57861719250245
+          ],
+          [
+            19.248459606086044,
+            47.57851509359704
+          ],
+          [
+            19.245642411744996,
+            47.5800127945595
+          ],
+          [
+            19.245761677773594,
+            47.58011490231575
+          ],
+          [
+            19.248578888763184,
+            47.57861719250245
+          ]
+        ],
+        "depthMetres": 14.45,
+        "sourceBuildingBoundary": [
+          [
+            19.2486282,
+            47.5786594
+          ],
+          [
+            19.2483311,
+            47.5784051
+          ],
+          [
+            19.2455137,
+            47.5799026
+          ],
+          [
+            19.2458112,
+            47.5801573
+          ],
+          [
+            19.2486282,
+            47.5786594
+          ]
+        ],
+        "sourceBuildingUrl": "https://www.openstreetmap.org/way/230979479",
+        "frontInsetMetres": 6,
+        "frontInsetRangeMetres": [
+          4,
+          8
+        ],
+        "rowTreadMetres": 0.85,
+        "rowTreadRangeMetres": [
+          0.7,
+          1
+        ],
+        "source": {
+          "url": "https://www.dvmgroup.com/en/references/projects/hungaroring",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Designer photographs of the completed 2025 main grandstand, especially project-hungaroring-01/02/08/10.jpg, distinguish the ordinary sloping bank from the roof and rear Platinum balcony. Existing OSM building is NOT usable seating. Ordinary bank is an explicit approximate strip: 6m behind the track-facing building edge (plausible 4–8m), 17 rows x 0.85m assumed tread depth (plausible 0.70–1.00m), total 14.45m. Longitudinal ends follow the source building. These dimensions are photo-informed modeling estimates, not a survey or digitized architect plan; aisles and irregular block ends omitted. The full source building boundary is retained separately; no primary photographs are bundled."
+        }
+      },
+      "groundReference": {
+        "coordinate": [
+          19.247170284555185,
+          47.579366046725
+        ],
+        "source": {
+          "url": "https://www.dvmgroup.com/en/references/projects/hungaroring",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Ground datum sampled from the unchanged GEDTM30 grid at the ordinary bank front midpoint. The front-floor base remains the existing estimated 2.2m above this ground, rather than above the uphill roof/building centroid. Does not change DEM, road elevation, eye height or vehicle physics; 30m grid cannot resolve the foundation or front longitudinal grade."
+        }
+      }
+    },
+    {
+      "zoneId": "grand-prix-2",
+      "surfaceId": "grand-prix-2-1",
+      "rowProfile": {
+        "rows": 16,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://oversteer48.com/hungaroring-grand-prix-2-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "medium",
+          "notes": "Independent visitor guide explicitly describes rows 1–16; its schematic omits the last-row label. Not an organizer survey or 2026 inventory certification."
+        },
+        "riseSource": {
+          "url": "https://oversteer48.com/hungaroring-grand-prix-2-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "16 rows from the independent guide. Riser assumed 0.40m (range 0.30–0.50m); total rise (16-1)*0.40m. Replaces bounding-box inferred rows/rise. Ground datum, front floor, footprint and all real obstacles remain unchanged. No height is chosen to pass a raycast. "
+        }
+      }
+    },
+    {
+      "zoneId": "podium",
+      "surfaceId": "podium-1",
+      "rowProfile": {
+        "rows": 16,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://oversteer48.com/hungaroring-podium-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "medium",
+          "notes": "Independent visitor guide seating chart maximum row label; not an organizer survey or 2026 ticket inventory certification."
+        },
+        "riseSource": {
+          "url": "https://oversteer48.com/hungaroring-podium-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "16 rows from the independent guide. Riser assumed 0.40m (range 0.30–0.50m); total rise (16-1)*0.40m. Replaces bounding-box inferred rows/rise. Ground datum, front floor, footprint and all real obstacles remain unchanged. No height is chosen to pass a raycast. "
+        }
+      }
+    },
+    {
+      "zoneId": "chicane-3",
+      "surfaceId": "chicane-3-1",
+      "rowProfile": {
+        "rows": 17,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://oversteer48.com/hungaroring-chicane-3-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "medium",
+          "notes": "Independent visitor guide seating chart maximum row label; not an organizer survey or 2026 ticket inventory certification."
+        },
+        "riseSource": {
+          "url": "https://oversteer48.com/hungaroring-chicane-3-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "17 rows from the independent guide. Riser assumed 0.40m (range 0.30–0.50m); total rise (17-1)*0.40m. Replaces bounding-box inferred rows/rise. Ground datum, front floor, footprint and all real obstacles remain unchanged. No height is chosen to pass a raycast. "
+        }
+      }
+    },
+    {
+      "zoneId": "t1",
+      "surfaceId": "t1-1",
+      "rowProfile": {
+        "rows": 26,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://oversteer48.com/hungaroring-t1-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "medium",
+          "notes": "Independent visitor guide seating chart visibly labels last numbered row 26. Secondary source; not an organizer survey or certification of 2026 public ticket inventory."
+        },
+        "riseSource": {
+          "url": "https://oversteer48.com/hungaroring-t1-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "26 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (26-1)*0.40m. Replaces footprint-depth inference. Original ground datum, front floor, footprint and eye height remain unchanged. Not optimized for raycast clearance."
+        }
+      }
+    },
+    {
+      "zoneId": "grand-prix-1",
+      "surfaceId": "grand-prix-1-1",
+      "rowProfile": {
+        "rows": 29,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://oversteer48.com/hungaroring-grand-prix-1-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "medium",
+          "notes": "Independent visitor guide seating chart visibly labels last numbered row 29. Secondary source; not an organizer survey or certification of 2026 public ticket inventory."
+        },
+        "riseSource": {
+          "url": "https://oversteer48.com/hungaroring-grand-prix-1-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "29 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (29-1)*0.40m. Replaces footprint-depth inference. Original ground datum, front floor, footprint and eye height remain unchanged. Not optimized for raycast clearance."
+        }
+      }
+    },
+    {
+      "zoneId": "apex-2",
+      "surfaceId": "apex-2-1",
+      "rowProfile": {
+        "rows": 33,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://oversteer48.com/hungaroring-apex-2-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "medium",
+          "notes": "Independent visitor guide seating chart visibly labels last numbered row 33. Secondary source; not an organizer survey or certification of 2026 public ticket inventory."
+        },
+        "riseSource": {
+          "url": "https://oversteer48.com/hungaroring-apex-2-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "33 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (33-1)*0.40m. Replaces footprint-depth inference. Original ground datum, front floor, footprint and eye height remain unchanged. Not optimized for raycast clearance."
+        }
+      }
+    },
+    {
+      "zoneId": "grid-1",
+      "surfaceId": "grid-1-1",
+      "rowProfile": {
+        "rows": 25,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://oversteer48.com/hungaroring-grid-1-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "medium",
+          "notes": "Independent visitor guide seating chart visibly labels last numbered row 25. Secondary source; not an organizer survey or certification of 2026 public ticket inventory."
+        },
+        "riseSource": {
+          "url": "https://oversteer48.com/hungaroring-grid-1-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "25 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (25-1)*0.40m. Replaces footprint-depth inference. Original ground datum, front floor, footprint and eye height remain unchanged. Not optimized for raycast clearance."
+        }
+      }
+    },
+    {
+      "zoneId": "grid-2",
+      "surfaceId": "grid-2-1",
+      "rowProfile": {
+        "rows": 29,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://oversteer48.com/hungaroring-grid-2-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "medium",
+          "notes": "Independent visitor guide seating chart visibly labels last numbered row 29. Secondary source; not an organizer survey or certification of 2026 public ticket inventory."
+        },
+        "riseSource": {
+          "url": "https://oversteer48.com/hungaroring-grid-2-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "29 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (29-1)*0.40m. Replaces footprint-depth inference. Original ground datum, front floor, footprint and eye height remain unchanged. Not optimized for raycast clearance."
+        }
+      }
+    },
+    {
+      "zoneId": "grid-3",
+      "surfaceId": "grid-3-1",
+      "rowProfile": {
+        "rows": 25,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://oversteer48.com/hungaroring-grid-3-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "medium",
+          "notes": "Independent visitor guide seating chart visibly labels last numbered row 25. Secondary source; not an organizer survey or certification of 2026 public ticket inventory."
+        },
+        "riseSource": {
+          "url": "https://oversteer48.com/hungaroring-grid-3-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "25 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (25-1)*0.40m. Replaces footprint-depth inference. Original ground datum, front floor, footprint and eye height remain unchanged. Not optimized for raycast clearance."
+        }
+      }
+    },
+    {
+      "zoneId": "pit-exit-1",
+      "surfaceId": "pit-exit-1-1",
+      "rowProfile": {
+        "rows": 12,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://oversteer48.com/hungaroring-pit-exit-1-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "medium",
+          "notes": "Independent visitor guide seating chart visibly labels last numbered row 12. Secondary source; not an organizer survey or certification of 2026 public ticket inventory. Additional accessible platform described by the guide is not included in the ordinary 12-row bank."
+        },
+        "riseSource": {
+          "url": "https://oversteer48.com/hungaroring-pit-exit-1-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "12 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (12-1)*0.40m. Replaces footprint-depth inference. Original ground datum, front floor, footprint and eye height remain unchanged. Not optimized for raycast clearance."
+        }
+      }
+    },
+    {
+      "zoneId": "pit-exit-2",
+      "surfaceId": "pit-exit-2-1",
+      "rowProfile": {
+        "rows": 13,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://oversteer48.com/hungaroring-pit-exit-2-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "medium",
+          "notes": "Independent visitor guide seating chart visibly labels last numbered row 13. Secondary source; not an organizer survey or certification of 2026 public ticket inventory."
+        },
+        "riseSource": {
+          "url": "https://oversteer48.com/hungaroring-pit-exit-2-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "13 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (13-1)*0.40m. Replaces footprint-depth inference. Original ground datum, front floor, footprint and eye height remain unchanged. Not optimized for raycast clearance."
+        }
+      }
+    }
+  ],
+  "unappliedEvidence": []
+}

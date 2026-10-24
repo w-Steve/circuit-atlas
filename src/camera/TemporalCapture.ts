@@ -1,3 +1,4 @@
+import {t} from '../i18n';
 import { PerspectiveCamera, type Object3D, type Scene, Vector4, type WebGLRenderer } from "three";
 import { exposureQuaternion, linearByte, sampleCount, sampleDistance, sampleTimes, srgbToLinear, withVehicleSample, type ExposureMoment } from "./Exposure";
 import { focalToFov } from "../systems/PhoneCamera";
@@ -6,14 +7,14 @@ export interface PhotoResult { url:string; metadata?:{shutter:number;pan:string;
 export async function temporalCapture(gl:WebGLRenderer,scene:Scene,liveCamera:PerspectiveCamera,vehicle:Object3D,moment:ExposureMoment,focal:number,alive:()=>boolean):Promise<PhotoResult>{
   const started=performance.now(),width=1600,height=1200;
   const photo=document.createElement('canvas');photo.width=width;photo.height=height;
-  const ctx=photo.getContext('2d',{willReadFrequently:true});if(!ctx)throw Error('无法创建照片');
+  const ctx=photo.getContext('2d',{willReadFrequently:true});if(!ctx)throw Error(t('无法创建照片'));
   const camera=liveCamera.clone();camera.position.copy(moment.position);camera.quaternion.copy(moment.quaternion);camera.fov=focalToFov(focal);camera.aspect=4/3;camera.updateProjectionMatrix();camera.updateMatrixWorld(true);
   const coarse=matchMedia('(pointer:coarse)').matches;
   const maximum=navigator.hardwareConcurrency<=4?16:coarse?24:48;
   const count=sampleCount(moment,camera,height,maximum),sum=new Float32Array(width*height*4);
   for(const time of sampleTimes(moment.seconds,count)){
-    if(!alive())throw Error('拍摄已取消');
-    if(gl.getContext().isContextLost())throw Error('WebGL 已中断，请恢复场景后重拍');
+    if(!alive())throw Error(t('拍摄已取消'));
+    if(gl.getContext().isContextLost())throw Error(t('WebGL 已中断，请恢复场景后重拍'));
     const target=gl.getRenderTarget(),viewport=gl.getViewport(new Vector4()),scissor=gl.getScissor(new Vector4()),scissorTest=gl.getScissorTest();
     try {
       camera.quaternion.copy(exposureQuaternion(moment,time));camera.updateMatrixWorld(true);

@@ -5,6 +5,16 @@ and OSM-derived boundaries in src/circuits/generated are available under ODbL:
 https://opendatacommons.org/licenses/odbl/1-0/
 Attribution: https://www.openstreetmap.org/copyright
 Original OSM way IDs, tags and source dates are retained.
+Supplemental Suzuka S boundaries in suzuka-supplemental-zones.json are also
+OSM-derived under ODbL. The conflicting attraction tag is resolved using the
+dated 2026 venue map and organizer seating/location references, not by deleting
+source evidence. Source artwork and photographs remain local research only.
+
+Permanent maximum seating-row counts are factual observations of the organizer
+seating charts. Those live charts are undated and currently linked from 2027
+pages; they are not used as proof of 2026 ticket sales. The estimated 0.4m riser,
+2m structural connection and B2 front safety-rail dimensions are original model
+assumptions explicitly separated from the published row counts.
 
 Temporary grandstand footprints are approximate factual interpretations of
 publicly available venue diagrams. Sources, diagram years, control pairs and

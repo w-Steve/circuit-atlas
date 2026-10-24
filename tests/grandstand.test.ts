@@ -4,7 +4,7 @@ import {
   validSelection,
   tierData,
 } from "../src/systems/GrandstandGeometry";
-import { facilities as f, local } from "../src/data/config";
+import { facilities as f, local,foundationAltitude } from "../src/data/config";
 import { useApp } from "../src/store";
 describe("A grandstand and camera mapping", () => {
   it("rejects gap/out-of-range/nonfinite selections", () => {
@@ -21,8 +21,8 @@ describe("A grandstand and camera mapping", () => {
       const t = tierData(tier);
       for (const v of [0, 0.25, 1]) {
         const p = observer({ tier, u: 0.5, v });
-        expect(p.y).toBeCloseTo(t.base + t.rise * v + f.stand.eyeHeight);
-        const q = local(0, p.y, t.offset + t.depth * v);
+        expect(p.y).toBeCloseTo(foundationAltitude + t.base + t.rise * v + f.stand.eyeHeight);
+        const q = local(0, p.y-foundationAltitude, t.offset + t.depth * v);
         expect(p.toArray()).toEqual(q);
       }
     }

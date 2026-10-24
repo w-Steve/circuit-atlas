@@ -6,6 +6,7 @@ import {
 } from "three";
 import type { Elevation } from "./types";
 import { terrainHeight } from "./elevation";
+import {smoothRoadHeights} from './roadElevation';
 export function createCircuitGeometry(
   coords: readonly number[][],
   publishedLength: number,
@@ -71,6 +72,10 @@ export function createCircuitGeometry(
       for(const bridge of bridgeLifts){const delta=Math.abs(u*geoPoints.length-bridge.index);if(delta<bridge.span)p.y+=bridge.lift*(1+Math.cos(Math.PI*delta/bridge.span))/2}
       return p;
     });
+    if(elevation.roadModel){
+      const heights=smoothRoadHeights(points,elevation.roadModel.smoothingSigmaMetres);
+      points.forEach((p,i)=>{p.y=heights[i]});
+    }
     track=new CatmullRomCurve3(points,true,'centripetal');track.arcLengthDivisions=20000;
     for(let i=0;i<6;i++){
       track.updateArcLengths();const ratio=publishedLength/track.getLength();
@@ -116,5 +121,6 @@ export function createCircuitGeometry(
     at,
     tangent,
     ribbon,
+    groundAt:(x:number,z:number)=>terrainHeight(elevation,origin[0]+x/(111320*Math.cos(origin[1]*Math.PI/180)*horizontalCalibration),origin[1]-z/(111320*horizontalCalibration)),
   };
 }

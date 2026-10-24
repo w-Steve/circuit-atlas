@@ -20,7 +20,7 @@ for(const id of europeanCircuits)it(id+': all spectator surfaces select finite c
  expect(data.simulationAvailability).toBe('available');expect(data.spectatorZones.length).toBeGreaterThan(5);
  expect(new Set(data.spectatorZones.map(z=>z.zoneId)).size).toBe(data.spectatorZones.length);
  for(const zone of data.spectatorZones){
-  expect(zone.source.url).toMatch(/^https:/);expect(zone.source.checkedAt).toBe('2026-10-23');expect(zone.surfaceSource?.confidence).toBe('low');
+  expect(zone.source.url).toMatch(/^https:/);expect(['2026-10-23','2026-10-24']).toContain(zone.source.checkedAt);expect(zone.surfaceSource?.confidence).toBe('low');
   if(zone.availability!=='available'){
    expect(zone.geometryReview?.issues.length).toBeGreaterThan(0);
    expect(model.zoneSurfaces.has(zone.zoneId)).toBe(false);

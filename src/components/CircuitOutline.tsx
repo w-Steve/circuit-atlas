@@ -1,3 +1,4 @@
+import {tr} from "../i18n";
 import outlines from "../circuits/generated/outlines.json";
 export function CircuitOutline({ className = "", circuitId = "shanghai" }: { className?: string; circuitId?: string }) {
   const outline = (outlines as Record<string, {path: string; start: number[]}>)[circuitId];
@@ -7,7 +8,7 @@ export function CircuitOutline({ className = "", circuitId = "shanghai" }: { cla
       className={className}
       viewBox="0 0 400 280"
       fill="none"
-      aria-label={`${circuitId}赛道轮廓`}
+      aria-label={tr`${circuitId}赛道轮廓`}
       role="img"
     >
       <path

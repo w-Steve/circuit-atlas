@@ -1,0 +1,3036 @@
+[
+  {
+    "circuitId": "melbourne",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 17,
+    "withheldCount": 1,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "fangio",
+        "name": "Fangio",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "piastri",
+        "name": "Piastri",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "jones",
+        "name": "Jones",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "moss",
+        "name": "Moss",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "brabham",
+        "name": "Brabham",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "hill",
+        "name": "Hill",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": [
+          "hill-1: no road across either seating face"
+        ]
+      },
+      {
+        "zoneId": "ricciardo",
+        "name": "Ricciardo",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "american-express",
+        "name": "American Express",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "stewart",
+        "name": "Stewart",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "button",
+        "name": "Button",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "clark",
+        "name": "Clark",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "waite",
+        "name": "Waite",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "vettel",
+        "name": "Vettel",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "webber",
+        "name": "Webber",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "schumacher",
+        "name": "Schumacher",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "lauda",
+        "name": "Lauda",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "senna",
+        "name": "Senna",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "prost",
+        "name": "Prost",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://oversteer48.com/wp-content/uploads/2023/12/Australian-Grand-Prix-Grandstand-map-2026.jpg",
+        "openingSource": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "shanghai",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 8,
+    "withheldCount": 0,
+    "nonGrandstandCount": 3,
+    "inventoryComplete": true,
+    "requiredWork": [],
+    "areas": [
+      {
+        "zoneId": "a",
+        "name": "A 主看台",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/107371135",
+        "openingSource": "https://www.shanghai.gov.cn/nw17239/20251209/b2b6c8cdfe014ce181304a4459664eb8.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "b",
+        "name": "B 看台",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/156341844",
+        "openingSource": "https://www.shanghai.gov.cn/nw17239/20251209/b2b6c8cdfe014ce181304a4459664eb8.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "e",
+        "name": "E 看台",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/156974489",
+        "openingSource": "https://www.shanghai.gov.cn/nw17239/20251209/b2b6c8cdfe014ce181304a4459664eb8.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "h",
+        "name": "H 看台",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1372223261",
+        "openingSource": "https://www.shanghai.gov.cn/nw17239/20251209/b2b6c8cdfe014ce181304a4459664eb8.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "k",
+        "name": "K 看台",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1372223262",
+        "openingSource": "https://www.shanghai.gov.cn/nw17239/20251209/b2b6c8cdfe014ce181304a4459664eb8.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "c",
+        "name": "C 草地",
+        "kind": "grass",
+        "availability": "available",
+        "source": "https://english.shanghai.gov.cn/en-SportsEvents/20260311/933bcc13c7c44363a04a036b4888a7de.html",
+        "openingSource": "https://www.shanghai.gov.cn/nw17239/20251209/b2b6c8cdfe014ce181304a4459664eb8.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "f",
+        "name": "F 草地",
+        "kind": "grass",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/485553716",
+        "openingSource": "https://www.shanghai.gov.cn/nw17239/20251209/b2b6c8cdfe014ce181304a4459664eb8.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "j",
+        "name": "J 草地",
+        "kind": "grass",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/485553709",
+        "openingSource": "https://www.shanghai.gov.cn/nw17239/20251209/b2b6c8cdfe014ce181304a4459664eb8.html",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "suzuka",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 19,
+    "withheldCount": 0,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded."
+    ],
+    "areas": [
+      {
+        "zoneId": "v1",
+        "name": "V1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/184107052",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "v2",
+        "name": "V2",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/183394522",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "a1",
+        "name": "A1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/184120096",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "b1",
+        "name": "B1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/184143131",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "b2",
+        "name": "B2",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/184143132",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "c",
+        "name": "C",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/184143133",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "d1-d4",
+        "name": "D1–D4",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/469368057",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "d5",
+        "name": "D5",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/469395390",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "e",
+        "name": "E",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/467982372",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "g",
+        "name": "G",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/184102012",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "l",
+        "name": "L",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/184104828",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "m",
+        "name": "M",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/183953761",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "n",
+        "name": "N",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/183953758",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "o",
+        "name": "O",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/184415310",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "p",
+        "name": "P",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/184419745",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "q1",
+        "name": "Q1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/183393132",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "q2",
+        "name": "Q2",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/183393101",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "r",
+        "name": "R",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/183393129",
+        "openingSource": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "s",
+        "name": "S 家庭看台",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/183394069",
+        "openingSource": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "miami",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 9,
+    "withheldCount": 1,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "start-finish",
+        "name": "Start Finish",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://s40320.pcdn.co/wp-content/uploads/2025/10/F1_-Interactive-Map_Updated_Discovery_2-scaled-e1779901726996.jpg",
+        "openingSource": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "turn-1-north",
+        "name": "Turn 1 North",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://s40320.pcdn.co/wp-content/uploads/2025/10/F1_-Interactive-Map_Updated_Discovery_2-scaled-e1779901726996.jpg",
+        "openingSource": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "turn-18-west",
+        "name": "Turn 18 West",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://s40320.pcdn.co/wp-content/uploads/2025/10/F1_-Interactive-Map_Updated_Discovery_2-scaled-e1779901726996.jpg",
+        "openingSource": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "turn-18-east",
+        "name": "Turn 18 East",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://s40320.pcdn.co/wp-content/uploads/2025/10/F1_-Interactive-Map_Updated_Discovery_2-scaled-e1779901726996.jpg",
+        "openingSource": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "marina-north",
+        "name": "Marina North",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://s40320.pcdn.co/wp-content/uploads/2025/10/F1_-Interactive-Map_Updated_Discovery_2-scaled-e1779901726996.jpg",
+        "openingSource": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+        "geometryIssues": [
+          "marina-north-1: unresolved diagram bearing (79.7 degrees)",
+          "marina-north-1: no road across either seating face"
+        ]
+      },
+      {
+        "zoneId": "marina-central",
+        "name": "Marina Central",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://s40320.pcdn.co/wp-content/uploads/2025/10/F1_-Interactive-Map_Updated_Discovery_2-scaled-e1779901726996.jpg",
+        "openingSource": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "marina-south",
+        "name": "Marina South",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://s40320.pcdn.co/wp-content/uploads/2025/10/F1_-Interactive-Map_Updated_Discovery_2-scaled-e1779901726996.jpg",
+        "openingSource": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "north-beach-west",
+        "name": "North Beach West",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://s40320.pcdn.co/wp-content/uploads/2025/10/F1_-Interactive-Map_Updated_Discovery_2-scaled-e1779901726996.jpg",
+        "openingSource": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "north-beach-crest",
+        "name": "North Beach Crest",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://s40320.pcdn.co/wp-content/uploads/2025/10/F1_-Interactive-Map_Updated_Discovery_2-scaled-e1779901726996.jpg",
+        "openingSource": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "south-beach",
+        "name": "South Beach",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://s40320.pcdn.co/wp-content/uploads/2025/10/F1_-Interactive-Map_Updated_Discovery_2-scaled-e1779901726996.jpg",
+        "openingSource": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "montreal",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 7,
+    "withheldCount": 8,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "grandstand-11",
+        "name": "Grandstand 11",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1243714699",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grandstand-12",
+        "name": "Grandstand 12",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1381122382",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grandstand-15",
+        "name": "Grandstand 15",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1243714698",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "lance-stroll-24",
+        "name": "Lance Stroll 24",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1243714697",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grandstand-46",
+        "name": "Grandstand 46",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1243714696",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grandstand-1",
+        "name": "Grandstand 1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://raceexperiences.com/wp-content/uploads/2026/04/F1-Ticket-tips-Canada.pdf",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grandstand-16",
+        "name": "Grandstand 16",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://raceexperiences.com/wp-content/uploads/2026/04/F1-Ticket-tips-Canada.pdf",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": [
+          "grandstand-16-1: road intersection 120.9669 m2"
+        ]
+      },
+      {
+        "zoneId": "platine",
+        "name": "Platine",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://raceexperiences.com/wp-content/uploads/2026/04/F1-Ticket-tips-Canada.pdf",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grandstand-10",
+        "name": "Grandstand 10",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://raceexperiences.com/wp-content/uploads/2026/04/F1-Ticket-tips-Canada.pdf",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": [
+          "grandstand-10-1: road intersection 2141.6438 m2"
+        ]
+      },
+      {
+        "zoneId": "grandstand-21",
+        "name": "Grandstand 21",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://raceexperiences.com/wp-content/uploads/2026/04/F1-Ticket-tips-Canada.pdf",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": [
+          "grandstand-21-1: road intersection 833.3315 m2"
+        ]
+      },
+      {
+        "zoneId": "grandstand-34",
+        "name": "Grandstand 34",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://raceexperiences.com/wp-content/uploads/2026/04/F1-Ticket-tips-Canada.pdf",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": [
+          "grandstand-34-1: road intersection 401.8367 m2"
+        ]
+      },
+      {
+        "zoneId": "grandstand-47",
+        "name": "Grandstand 47",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://raceexperiences.com/wp-content/uploads/2026/04/F1-Ticket-tips-Canada.pdf",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": [
+          "grandstand-47-1: road intersection 907.4610 m2"
+        ]
+      },
+      {
+        "zoneId": "grandstand-31",
+        "name": "Grandstand 31",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://raceexperiences.com/wp-content/uploads/2026/04/F1-Ticket-tips-Canada.pdf",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": [
+          "grandstand-31-1: road intersection 242.6468 m2"
+        ]
+      },
+      {
+        "zoneId": "grandstand-32",
+        "name": "Grandstand 32",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://raceexperiences.com/wp-content/uploads/2026/04/F1-Ticket-tips-Canada.pdf",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": [
+          "grandstand-32-1: road intersection 45.9250 m2"
+        ]
+      },
+      {
+        "zoneId": "grandstand-33",
+        "name": "Grandstand 33",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://raceexperiences.com/wp-content/uploads/2026/04/F1-Ticket-tips-Canada.pdf",
+        "openingSource": "https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf",
+        "geometryIssues": [
+          "grandstand-33-1: road intersection 634.7199 m2"
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "monaco",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 4,
+    "withheldCount": 10,
+    "nonGrandstandCount": 1,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "a-sainte-devote",
+        "name": "A · Sainte Devote",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "geometryIssues": [
+          "a-sainte-devote-1: unresolved diagram bearing (68.7 degrees)"
+        ]
+      },
+      {
+        "zoneId": "b-casino",
+        "name": "B · Casino",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "geometryIssues": [
+          "b-casino-1: road intersection 14.4728 m2"
+        ]
+      },
+      {
+        "zoneId": "k-tabac",
+        "name": "K · Tabac",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "geometryIssues": [
+          "k-tabac-1: road intersection 693.6206 m2"
+        ]
+      },
+      {
+        "zoneId": "z-quai-kennedy",
+        "name": "Z · Quai Kennedy",
+        "kind": "general-admission",
+        "availability": "preparing",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/epreuves/formula-1-grand-prix-de-monaco/infos-pratiques/informations-liees-a-lachat-de-billet-ou-de-package/",
+        "geometryIssues": [
+          "z-quai-kennedy-1: road intersection 1021.1817 m2"
+        ]
+      },
+      {
+        "zoneId": "e-chicane",
+        "name": "E · Chicane",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "geometryIssues": [
+          "e-chicane-1: diagram footprint too shallow for configured rows (2.18m depth)"
+        ]
+      },
+      {
+        "zoneId": "l-piscine",
+        "name": "L · Piscine",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "m-piscine",
+        "name": "M · Piscine",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "geometryIssues": [
+          "m-piscine-1: road intersection 578.0105 m2"
+        ]
+      },
+      {
+        "zoneId": "n-piscine",
+        "name": "N · Piscine",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "o-piscine",
+        "name": "O · Piscine",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "p-piscine",
+        "name": "P · Piscine",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t-rascasse",
+        "name": "T · Rascasse",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "geometryIssues": [
+          "t-rascasse-1: road intersection 87.1824 m2"
+        ]
+      },
+      {
+        "zoneId": "v-anthony-noghes",
+        "name": "V · Anthony Noghes",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "geometryIssues": [
+          "v-anthony-noghes-1: no road across either seating face"
+        ]
+      },
+      {
+        "zoneId": "x1-quai-albert",
+        "name": "X1 · Quai Albert",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "geometryIssues": [
+          "x1-quai-albert-1: road intersection 115.1969 m2"
+        ]
+      },
+      {
+        "zoneId": "x2-quai-albert",
+        "name": "X2 · Quai Albert",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "openingSource": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "geometryIssues": [
+          "x2-quai-albert-1: road intersection 123.5379 m2"
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "barcelona",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 15,
+    "withheldCount": 0,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded."
+    ],
+    "areas": [
+      {
+        "zoneId": "principal",
+        "name": "Principal",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/33742643",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "a",
+        "name": "A",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1427281575",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "b",
+        "name": "B",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/33744188",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "c",
+        "name": "C",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/152007375",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "e",
+        "name": "E",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/151594582",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "f",
+        "name": "F",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/151594584",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "g",
+        "name": "G",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/152007381",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "h",
+        "name": "H",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/725695175",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "j",
+        "name": "J",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/151594586",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "k",
+        "name": "K",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/151594579",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "l",
+        "name": "L",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/235224640",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "m",
+        "name": "M",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/235224642",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "n",
+        "name": "N",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/152015333",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t1",
+        "name": "T1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1427279730",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t10",
+        "name": "T10",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/151609927",
+        "openingSource": "https://www.circuitcat.com/es/abonados-modalidades/",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "spielberg",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 7,
+    "withheldCount": 1,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "start-ziel",
+        "name": "Start / Ziel",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/312030921",
+        "openingSource": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "steiermark",
+        "name": "Steiermark",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/312030917",
+        "openingSource": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "red-bull",
+        "name": "Red Bull",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/118364945",
+        "openingSource": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "nord-t4",
+        "name": "Nord / T4",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/565072384",
+        "openingSource": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "mitte",
+        "name": "Mitte",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1077517159",
+        "openingSource": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "ost-t8",
+        "name": "Ost / T8",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1077423719",
+        "openingSource": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t10",
+        "name": "T10",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1077423720",
+        "openingSource": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t3",
+        "name": "T3",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+        "openingSource": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+        "geometryIssues": [
+          "t3-1: no road across either seating face"
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "silverstone",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 22,
+    "withheldCount": 6,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "copse-a",
+        "name": "Copse A",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/227342440",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "copse-b",
+        "name": "Copse B",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/227342441",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "copse-c",
+        "name": "Copse C",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/227342444",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "copse-d",
+        "name": "Copse D",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1560504713",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "becketts",
+        "name": "Becketts",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/227342446",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "village-b",
+        "name": "Village B",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/227342447",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "farm-curve",
+        "name": "Farm Curve",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/227342449",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "woodcote-a",
+        "name": "Woodcote A",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/227342450",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "woodcote-b",
+        "name": "Woodcote B",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/227342459",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "national-pit-straight",
+        "name": "National Pit Straight",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/227342452",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "luffield",
+        "name": "Luffield",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/227342456",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "abbey-a",
+        "name": "Abbey A",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/227342458",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "hamilton-straight-a",
+        "name": "Hamilton Straight A",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1387956625",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "chapel",
+        "name": "Chapel",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1430486596",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "luffield-corner",
+        "name": "Luffield Corner",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1560504709",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "stirling-a",
+        "name": "Stirling A",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1560504712",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "stirling-b",
+        "name": "Stirling B",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1560504711",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "hamilton-straight-b",
+        "name": "Hamilton Straight B",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "abbey-b",
+        "name": "Abbey B",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "village-a",
+        "name": "Village A",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": [
+          "village-a-1: road intersection 40.2970 m2",
+          "village-a-1: unresolved diagram bearing (80.4 degrees)"
+        ]
+      },
+      {
+        "zoneId": "the-loop",
+        "name": "The Loop",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": [
+          "the-loop-1: road intersection 85.8467 m2"
+        ]
+      },
+      {
+        "zoneId": "woodcote-c",
+        "name": "Woodcote C",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": [
+          "woodcote-c-1: road intersection 562.7452 m2"
+        ]
+      },
+      {
+        "zoneId": "club-corner-a",
+        "name": "Club Corner A",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": [
+          "club-corner-a-1: road intersection 236.8163 m2",
+          "club-corner-a-1: unresolved diagram bearing (75.4 degrees)"
+        ]
+      },
+      {
+        "zoneId": "club-corner-b",
+        "name": "Club Corner B",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": [
+          "club-corner-b-1: road intersection 856.5018 m2"
+        ]
+      },
+      {
+        "zoneId": "club-corner-c",
+        "name": "Club Corner C",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": [
+          "club-corner-c-1: road intersection 449.5877 m2"
+        ]
+      },
+      {
+        "zoneId": "vale",
+        "name": "Vale",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "landostand-stowe",
+        "name": "Landostand · Stowe",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "boxpark-hangar",
+        "name": "Boxpark · Hangar",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "openingSource": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "spa",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 7,
+    "withheldCount": 6,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "gold-1-pit",
+        "name": "Gold 1 · Pit",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/174882363",
+        "openingSource": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "gold-2-gp2",
+        "name": "Gold 2 · GP2",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1353159436",
+        "openingSource": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "gold-3-raidillon",
+        "name": "Gold 3 · Raidillon",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1134053908",
+        "openingSource": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "silver-1-francorchamps",
+        "name": "Silver 1 · Francorchamps",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1353159437",
+        "openingSource": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "gold-7-la-source",
+        "name": "Gold 7 · La Source",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "openingSource": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "geometryIssues": [
+          "gold-7-la-source-1: no road across either seating face"
+        ]
+      },
+      {
+        "zoneId": "gold-8-source-start",
+        "name": "Gold 8 · Source Start",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "openingSource": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "geometryIssues": [
+          "gold-8-source-start-1: no road across either seating face"
+        ]
+      },
+      {
+        "zoneId": "gold-9-pole-position",
+        "name": "Gold 9 · Pole Position",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "openingSource": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "gold-6-chicane",
+        "name": "Gold 6 · Chicane",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "openingSource": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "geometryIssues": [
+          "gold-6-chicane-1: road intersection 210.5617 m2"
+        ]
+      },
+      {
+        "zoneId": "gold-11-chicane",
+        "name": "Gold 11 · Chicane",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "openingSource": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "geometryIssues": [
+          "gold-11-chicane-1: road intersection 338.8055 m2",
+          "gold-11-chicane-1: unresolved diagram bearing (89.7 degrees)"
+        ]
+      },
+      {
+        "zoneId": "silver-3-double-gauche",
+        "name": "Silver 3 · Double Gauche",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "openingSource": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "geometryIssues": [
+          "silver-3-double-gauche-1: road intersection 0.0013 m2"
+        ]
+      },
+      {
+        "zoneId": "silver-4-bruxelles",
+        "name": "Silver 4 · Bruxelles",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "openingSource": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "geometryIssues": [
+          "silver-4-bruxelles-1: road intersection 289.0097 m2",
+          "silver-4-bruxelles-1: unresolved diagram bearing (75.6 degrees)"
+        ]
+      },
+      {
+        "zoneId": "combes",
+        "name": "Combes",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "openingSource": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "speed-corner",
+        "name": "Speed Corner",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "openingSource": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "hungaroring",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 15,
+    "withheldCount": 0,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded."
+    ],
+    "areas": [
+      {
+        "zoneId": "hungaroring",
+        "name": "Hungaroring",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.dvmgroup.com/en/references/projects/hungaroring",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t1",
+        "name": "T1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/230979487",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grand-prix-1",
+        "name": "Grand Prix 1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/230979489",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grand-prix-2",
+        "name": "Grand Prix 2",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/230979482",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "apex-1",
+        "name": "Apex 1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/230979493",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "apex-2",
+        "name": "Apex 2",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/230979476",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grid-1",
+        "name": "Grid 1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1085151668",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grid-2",
+        "name": "Grid 2",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1085151669",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grid-3",
+        "name": "Grid 3",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/230979498",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "pit-exit-1",
+        "name": "Pit Exit 1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/658606806",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "pit-exit-2",
+        "name": "Pit Exit 2",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1412550387",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "podium",
+        "name": "Podium",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1085151661",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "chicane-1",
+        "name": "Chicane 1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/231059800",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "chicane-2",
+        "name": "Chicane 2",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/231059801",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "chicane-3",
+        "name": "Chicane 3",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/231059802",
+        "openingSource": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "zandvoort",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 12,
+    "withheldCount": 4,
+    "nonGrandstandCount": 2,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "main-grandstand",
+        "name": "Main Grandstand",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/52473180",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "tarzan-in",
+        "name": "Tarzan-In",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "pit-grandstand",
+        "name": "Pit Grandstand",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "ben-pon",
+        "name": "Ben Pon",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": [
+          "ben-pon-1: road intersection 690.0485 m2"
+        ]
+      },
+      {
+        "zoneId": "arena-out",
+        "name": "Arena-Out",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "arena-gold-silver",
+        "name": "Arena Gold / Silver",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": [
+          "arena-gold-silver-1: road intersection 2.3901 m2"
+        ]
+      },
+      {
+        "zoneId": "arena-gold-silver-nord",
+        "name": "Arena Gold / Silver Nord",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": [
+          "arena-gold-silver-nord-1: road intersection 146.8844 m2"
+        ]
+      },
+      {
+        "zoneId": "arena-in",
+        "name": "Arena-In",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": [
+          "arena-in-1: road intersection 972.8190 m2"
+        ]
+      },
+      {
+        "zoneId": "eastside-1",
+        "name": "Eastside 1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "eastside-2",
+        "name": "Eastside 2",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "eastside-3",
+        "name": "Eastside 3",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "eastside-4",
+        "name": "Eastside 4",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "hairpin",
+        "name": "Hairpin",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "hairpin-sud",
+        "name": "Hairpin Sud",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "ga1",
+        "name": "GA1 普通观赛区",
+        "kind": "general-admission",
+        "availability": "available",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "ga2",
+        "name": "GA2 普通观赛区",
+        "kind": "general-admission",
+        "availability": "available",
+        "source": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "openingSource": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "monza",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 18,
+    "withheldCount": 0,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded."
+    ],
+    "areas": [
+      {
+        "zoneId": "centrale",
+        "name": "Centrale",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/193647796",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "laterale-sinistra",
+        "name": "Laterale Sinistra",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/193647795",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "laterale-destra",
+        "name": "Laterale Destra",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/34404645",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "alta-velocita",
+        "name": "Alta Velocita",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/231026018",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "prima-variante-esterna",
+        "name": "Prima Variante Esterna",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/231026019",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "seconda-variante",
+        "name": "Seconda Variante",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/231265139",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "roggia",
+        "name": "Roggia",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/231265140",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "ascari",
+        "name": "Ascari",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/231260684",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "ascari-uno",
+        "name": "Ascari Uno",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/194457685",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "ascari-due",
+        "name": "Ascari Due",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/194457674",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "ascari-tre",
+        "name": "Ascari Tre",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/231026027",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "uscita-ascari-a",
+        "name": "Uscita Ascari A",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/194457688",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "uscita-ascari-b",
+        "name": "Uscita Ascari B",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/194457680",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "parabolica",
+        "name": "Parabolica",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/179794158",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "laterale-parabolica",
+        "name": "Laterale Parabolica",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/194457667",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "parabolica-interna",
+        "name": "Parabolica Interna",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/194457681",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "vedano",
+        "name": "Vedano",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/231026020",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "piscina",
+        "name": "Piscina",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/231257063",
+        "openingSource": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "madrid",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 4,
+    "withheldCount": 11,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "stand-1",
+        "name": "主直道南段",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": [
+          "stand-1-1: road intersection 2447.2286 m2"
+        ]
+      },
+      {
+        "zoneId": "stand-2",
+        "name": "主直道中段",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": [
+          "stand-2-1: road intersection 1294.0869 m2"
+        ]
+      },
+      {
+        "zoneId": "stand-3",
+        "name": "主直道北段",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": [
+          "stand-3-1: road intersection 302.2644 m2"
+        ]
+      },
+      {
+        "zoneId": "t1t3",
+        "name": "T1–T3 看台",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": [
+          "t1t3-1: road intersection 367.2324 m2"
+        ]
+      },
+      {
+        "zoneId": "stand-5",
+        "name": "高速弯看台",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": [
+          "stand-5-1: road intersection 4096.0387 m2",
+          "stand-5-1: no road across either seating face"
+        ]
+      },
+      {
+        "zoneId": "t4t5",
+        "name": "T4–T5 看台",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": [
+          "t4t5-1: road intersection 402.8182 m2"
+        ]
+      },
+      {
+        "zoneId": "stand-7",
+        "name": "北区入口看台",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": [
+          "stand-7-1: road intersection 97.0749 m2"
+        ]
+      },
+      {
+        "zoneId": "stand-8",
+        "name": "北区组合弯看台",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": [
+          "stand-8-1: road intersection 788.1877 m2",
+          "stand-8-1: unresolved diagram bearing (78.4 degrees)"
+        ]
+      },
+      {
+        "zoneId": "t9t10",
+        "name": "T9–T10 看台",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": [
+          "t9t10-1: road intersection 769.2338 m2"
+        ]
+      },
+      {
+        "zoneId": "t11",
+        "name": "T11 内侧看台",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "monumental",
+        "name": "Monumental 外侧看台",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": [
+          "monumental-1: road intersection 1152.0422 m2"
+        ]
+      },
+      {
+        "zoneId": "monumental-12",
+        "name": "Monumental 内侧看台",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t13t14",
+        "name": "T13–T14 看台",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": [
+          "t13t14-1: road intersection 1631.8348 m2"
+        ]
+      },
+      {
+        "zoneId": "t14t15",
+        "name": "T14–T15 看台",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t15t16",
+        "name": "T15–T16 看台",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.madring.com/en/press-releases/mobility-plan",
+        "openingSource": "https://www.madring.com/en/press-releases/mobility-plan",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "baku",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 9,
+    "withheldCount": 1,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "absheron-a",
+        "name": "Absheron A",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1destinations.com/wp-content/uploads/2025/09/2025_F1-Wayfinding-Map_Positive_Azerbaijan_VISUAL.pdf",
+        "openingSource": "https://www.bakucitycircuit.com/buy-now",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "absheron-b",
+        "name": "Absheron B",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1destinations.com/wp-content/uploads/2025/09/2025_F1-Wayfinding-Map_Positive_Azerbaijan_VISUAL.pdf",
+        "openingSource": "https://www.bakucitycircuit.com/buy-now",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "absheron-c",
+        "name": "Absheron C",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1destinations.com/wp-content/uploads/2025/09/2025_F1-Wayfinding-Map_Positive_Azerbaijan_VISUAL.pdf",
+        "openingSource": "https://www.bakucitycircuit.com/buy-now",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "absheron-d",
+        "name": "Absheron D",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1destinations.com/wp-content/uploads/2025/09/2025_F1-Wayfinding-Map_Positive_Azerbaijan_VISUAL.pdf",
+        "openingSource": "https://www.bakucitycircuit.com/buy-now",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "absheron-e",
+        "name": "Absheron E",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1destinations.com/wp-content/uploads/2025/09/2025_F1-Wayfinding-Map_Positive_Azerbaijan_VISUAL.pdf",
+        "openingSource": "https://www.bakucitycircuit.com/buy-now",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "bulvar",
+        "name": "Bulvar",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1destinations.com/wp-content/uploads/2025/09/2025_F1-Wayfinding-Map_Positive_Azerbaijan_VISUAL.pdf",
+        "openingSource": "https://www.bakucitycircuit.com/buy-now",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "azneft",
+        "name": "Azneft",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1destinations.com/wp-content/uploads/2025/09/2025_F1-Wayfinding-Map_Positive_Azerbaijan_VISUAL.pdf",
+        "openingSource": "https://www.bakucitycircuit.com/buy-now",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "khazar",
+        "name": "Khazar",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://f1destinations.com/wp-content/uploads/2025/09/2025_F1-Wayfinding-Map_Positive_Azerbaijan_VISUAL.pdf",
+        "openingSource": "https://www.bakucitycircuit.com/buy-now",
+        "geometryIssues": [
+          "khazar-1: road intersection 263.9747 m2"
+        ]
+      },
+      {
+        "zoneId": "sahil",
+        "name": "Sahil",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1destinations.com/wp-content/uploads/2025/09/2025_F1-Wayfinding-Map_Positive_Azerbaijan_VISUAL.pdf",
+        "openingSource": "https://www.bakucitycircuit.com/buy-now",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "mugham",
+        "name": "Mugham",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1destinations.com/wp-content/uploads/2025/09/2025_F1-Wayfinding-Map_Positive_Azerbaijan_VISUAL.pdf",
+        "openingSource": "https://www.bakucitycircuit.com/buy-now",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "sepang",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 4,
+    "withheldCount": 0,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded."
+    ],
+    "areas": [
+      {
+        "zoneId": "k1",
+        "name": "K1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/107364100",
+        "openingSource": "https://www.bahraingp.com/blog/events/venue-map/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "f",
+        "name": "F",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/107364038",
+        "openingSource": "https://www.bahraingp.com/blog/events/venue-map/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "main-north",
+        "name": "Main North",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/144247993",
+        "openingSource": "https://www.bahraingp.com/blog/events/venue-map/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "main-south",
+        "name": "Main South",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/144247993",
+        "openingSource": "https://www.bahraingp.com/blog/events/venue-map/",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "singapore",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 8,
+    "withheldCount": 2,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "pit",
+        "name": "Pit",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "openingSource": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "turn-1",
+        "name": "Turn 1",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "openingSource": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "geometryIssues": [
+          "turn-1-1: road intersection 28.7140 m2"
+        ]
+      },
+      {
+        "zoneId": "turn-2",
+        "name": "Turn 2",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "openingSource": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "padang",
+        "name": "Padang",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "openingSource": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "stamford",
+        "name": "Stamford",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "openingSource": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "connaught",
+        "name": "Connaught",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "openingSource": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "geometryIssues": [
+          "connaught-1: road intersection 762.4437 m2"
+        ]
+      },
+      {
+        "zoneId": "empress",
+        "name": "Empress",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "openingSource": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "bayfront",
+        "name": "Bayfront",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "openingSource": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "promenade",
+        "name": "Promenade",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "openingSource": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "skyline",
+        "name": "Skyline",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "openingSource": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "austin",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 7,
+    "withheldCount": 1,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "main",
+        "name": "Main",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/460658889",
+        "openingSource": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "turn-1",
+        "name": "Turn 1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/460658890",
+        "openingSource": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "turn-15-north",
+        "name": "Turn 15 North",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/460658891",
+        "openingSource": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "turn-15-south",
+        "name": "Turn 15 South",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/460658892",
+        "openingSource": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "turn-12",
+        "name": "Turn 12",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/460683347",
+        "openingSource": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "turn-19",
+        "name": "Turn 19",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1183793497",
+        "openingSource": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "turn-4",
+        "name": "Turn 4",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://f1destinations.com/wp-content/uploads/2025/10/2025-United-States-GP-COTA-Spectator-Map.pdf",
+        "openingSource": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "geometryIssues": [
+          "turn-4-1: road intersection 0.0242 m2"
+        ]
+      },
+      {
+        "zoneId": "turn-9",
+        "name": "Turn 9",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1destinations.com/wp-content/uploads/2025/10/2025-United-States-GP-COTA-Spectator-Map.pdf",
+        "openingSource": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "mexico",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 11,
+    "withheldCount": 0,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded."
+    ],
+    "areas": [
+      {
+        "zoneId": "grada-1",
+        "name": "Grada 1",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/377679571",
+        "openingSource": "https://www.mexicogp.mx/boletos-generales/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grada-2",
+        "name": "Grada 2",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/377679572",
+        "openingSource": "https://www.mexicogp.mx/boletos-generales/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grada-2a",
+        "name": "Grada 2A",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1212660336",
+        "openingSource": "https://www.mexicogp.mx/boletos-generales/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grada-3a",
+        "name": "Grada 3A",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1191967004",
+        "openingSource": "https://www.mexicogp.mx/boletos-generales/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grada-4",
+        "name": "Grada 4",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/605366589",
+        "openingSource": "https://www.mexicogp.mx/boletos-generales/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grada-5",
+        "name": "Grada 5",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/605366588",
+        "openingSource": "https://www.mexicogp.mx/boletos-generales/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grada-5a",
+        "name": "Grada 5A",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1191525031",
+        "openingSource": "https://www.mexicogp.mx/boletos-generales/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grada-6",
+        "name": "Grada 6",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/605366586",
+        "openingSource": "https://www.mexicogp.mx/boletos-generales/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grada-6b",
+        "name": "Grada 6B",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1162963329",
+        "openingSource": "https://www.mexicogp.mx/boletos-generales/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grada-14-sur",
+        "name": "Grada 14 Sur",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1315400018",
+        "openingSource": "https://www.mexicogp.mx/boletos-generales/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "grada-15-norte",
+        "name": "Grada 15 Norte",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/377679562",
+        "openingSource": "https://www.mexicogp.mx/boletos-generales/",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "interlagos",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 8,
+    "withheldCount": 0,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded."
+    ],
+    "areas": [
+      {
+        "zoneId": "setor-m",
+        "name": "Setor M",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/138420844",
+        "openingSource": "https://f1saopaulo.com.br/arquibancadas/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "setor-b",
+        "name": "Setor B",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/138420848",
+        "openingSource": "https://f1saopaulo.com.br/arquibancadas/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "pit-stop-club",
+        "name": "Pit Stop Club",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/138550780",
+        "openingSource": "https://f1saopaulo.com.br/arquibancadas/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "setor-a",
+        "name": "Setor A",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/189535474",
+        "openingSource": "https://f1saopaulo.com.br/arquibancadas/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "setor-d",
+        "name": "Setor D",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1saopaulo.com.br/wp-content/uploads/2026/08/Mapa-completo.webp",
+        "openingSource": "https://f1saopaulo.com.br/arquibancadas/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "setor-h",
+        "name": "Setor H",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1saopaulo.com.br/wp-content/uploads/2026/08/Mapa-completo.webp",
+        "openingSource": "https://f1saopaulo.com.br/arquibancadas/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "setor-r",
+        "name": "Setor R",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1saopaulo.com.br/wp-content/uploads/2026/08/Mapa-completo.webp",
+        "openingSource": "https://f1saopaulo.com.br/arquibancadas/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "setor-g",
+        "name": "Setor G",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://f1saopaulo.com.br/wp-content/uploads/2026/08/Mapa-completo.webp",
+        "openingSource": "https://f1saopaulo.com.br/arquibancadas/",
+        "geometryIssues": []
+      }
+    ]
+  },
+  {
+    "circuitId": "las-vegas",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 8,
+    "withheldCount": 2,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "main",
+        "name": "Main",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.f1lasvegasgp.com/app/uploads/2026/07/Website-Maps_2_MAINGRANDSTAND-1-scaled.jpg",
+        "openingSource": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "turn-3",
+        "name": "Turn 3",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.f1lasvegasgp.com/app/uploads/2026/07/Website-Maps_2_TURN3GRANDSTAND-1-scaled.jpg",
+        "openingSource": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "heineken-west",
+        "name": "Heineken West",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.f1lasvegasgp.com/app/uploads/2026/07/Website-Maps_WH-ZONE_HEINEKENGS-1-scaled.jpg",
+        "openingSource": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "heineken-east",
+        "name": "Heineken East",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.f1lasvegasgp.com/app/uploads/2026/07/Website-Maps_WH-ZONE_HEINEKENGS-1-scaled.jpg",
+        "openingSource": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "lewis-hamilton",
+        "name": "Lewis Hamilton",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.f1lasvegasgp.com/app/uploads/2026/07/Website-Maps_WH-ZONE_Lewis-Hamilton-Grandstand-Package-2-scaled.jpg",
+        "openingSource": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t-mobile-turn-5",
+        "name": "T-Mobile Turn 5",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+        "openingSource": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t-mobile-turn-6",
+        "name": "T-Mobile Turn 6",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+        "openingSource": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t-mobile-turn-7",
+        "name": "T-Mobile Turn 7",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+        "openingSource": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t-mobile-turn-8",
+        "name": "T-Mobile Turn 8",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+        "openingSource": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "geometryIssues": [
+          "t-mobile-turn-8-1: road intersection 184.0905 m2",
+          "t-mobile-turn-8-1: unresolved diagram bearing (71.3 degrees)"
+        ]
+      },
+      {
+        "zoneId": "t-mobile-turn-9",
+        "name": "T-Mobile Turn 9",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+        "openingSource": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "geometryIssues": [
+          "t-mobile-turn-9-1: road intersection 43.6535 m2",
+          "t-mobile-turn-9-1: unresolved diagram bearing (76.3 degrees)"
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "lusail",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 3,
+    "withheldCount": 1,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded.",
+      "Re-digitize or reject withheld source polygons based on 2026 evidence, not mechanical relocation."
+    ],
+    "areas": [
+      {
+        "zoneId": "main",
+        "name": "Main",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/152483596",
+        "openingSource": "https://www.lcsc.qa/faq/formula-1r-qatar-airways-qatar-grand-prix-2026",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "north",
+        "name": "North",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1567982803",
+        "openingSource": "https://www.lcsc.qa/faq/formula-1r-qatar-airways-qatar-grand-prix-2026",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t3",
+        "name": "T3",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/1316027537",
+        "openingSource": "https://www.lcsc.qa/faq/formula-1r-qatar-airways-qatar-grand-prix-2026",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "t16",
+        "name": "T16",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "source": "https://www.openstreetmap.org/way/1568200891",
+        "openingSource": "https://www.lcsc.qa/faq/formula-1r-qatar-airways-qatar-grand-prix-2026",
+        "geometryIssues": [
+          "t16-1: no road across either seating face"
+        ]
+      }
+    ]
+  },
+  {
+    "circuitId": "yas-marina",
+    "season": 2026,
+    "calendarCheckedAt": "2026-10-24",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "modeledAvailableCount": 5,
+    "withheldCount": 0,
+    "nonGrandstandCount": 0,
+    "inventoryComplete": false,
+    "requiredWork": [
+      "Reconcile all public 2026 grandstands and general-admission areas against a complete organizer map.",
+      "Verify missing grass/general-admission inventory; no such areas are currently recorded."
+    ],
+    "areas": [
+      {
+        "zoneId": "main",
+        "name": "Main",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/188731381",
+        "openingSource": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "south",
+        "name": "South",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/133907081",
+        "openingSource": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "north-west",
+        "name": "North West",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/168411369",
+        "openingSource": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "north-crown",
+        "name": "North Crown",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/168411369",
+        "openingSource": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+        "geometryIssues": []
+      },
+      {
+        "zoneId": "north-east",
+        "name": "North East",
+        "kind": "grandstand",
+        "availability": "available",
+        "source": "https://www.openstreetmap.org/way/168411369",
+        "openingSource": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+        "geometryIssues": []
+      }
+    ]
+  }
+]

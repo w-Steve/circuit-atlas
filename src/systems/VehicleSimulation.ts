@@ -5,23 +5,18 @@ import {Euler,Vector3,type Object3D} from "three";
 export function placeVehicle(vehicle:Object3D,distance:number){
   const path=circuitRuntime.current?.geometry;
   vehicle.position.copy((path?.at??at)(distance));
-  vehicle.position.y=(path?vehicle.position.y:0)+.22;
+  vehicle.position.y+=.22;
   const direction=(circuitRuntime.current?.geometry.tangent??tangent)(distance);
   // Quaternion restoration can produce an equivalent Euler representation with
   // nonzero X/Z (especially beyond +/-90 degrees yaw). Set the whole rotation,
   // otherwise writing only Y on the next paused frame changes the car's heading.
-  vehicle.rotation.set(circuitRuntime.current?-Math.asin(Math.max(-1,Math.min(1,direction.y))):0,Math.atan2(direction.x,direction.z),0,circuitRuntime.current?"YXZ":"XYZ");
+  vehicle.rotation.set(-Math.asin(Math.max(-1,Math.min(1,direction.y))),Math.atan2(direction.x,direction.z),0,"YXZ");
   vehicle.updateMatrixWorld(true);
 }
 export function cockpitAt(distance: number) {
   const path=circuitRuntime.current?.geometry;
-  if(path){
-    const direction=path.tangent(distance),orientation=new Euler(-Math.asin(Math.max(-1,Math.min(1,direction.y))),Math.atan2(direction.x,direction.z),0,'YXZ');
-    return new Vector3(0,facilities.car.cockpitHeight,facilities.car.cockpitOffset).applyEuler(orientation).add(path.at(distance)).add(new Vector3(0,.22,0));
-  }
-  const p=at(distance).addScaledVector(tangent(distance),facilities.car.cockpitOffset);
-  p.y=(path?p.y:0)+.22+facilities.car.cockpitHeight;
-  return p;
+  const direction=(path?.tangent??tangent)(distance),orientation=new Euler(-Math.asin(Math.max(-1,Math.min(1,direction.y))),Math.atan2(direction.x,direction.z),0,'YXZ');
+  return new Vector3(0,facilities.car.cockpitHeight,facilities.car.cockpitOffset).applyEuler(orientation).add((path?.at??at)(distance)).add(new Vector3(0,.22,0));
 }
 export const passStart = length - 620,
   passEnd = length + 100;

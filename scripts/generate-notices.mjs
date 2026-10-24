@@ -30,5 +30,10 @@ await copyFile('src/data/LICENSE-asia.md',join(destination,'asia-zones-ODbL.txt'
 await copyFile('src/data/LICENSE-americas.md',join(destination,'americas-zones-ODbL.txt'));
 await copyFile('src/data/LICENSE-world.md',join(destination,'world-Natural-Earth.txt'));
 await copyFile('src/data/LICENSE-atlas.md',join(destination,'atlas-F1DB.txt'));
+await copyFile('src/data/LICENSE-facilities.md',join(destination,'facilities-ODbL.txt'));
+await copyFile('src/data/LICENSE-water.md',join(destination,'water-ODbL.txt'));
+await copyFile('src/data/LICENSE-elevation.md',join(destination,'GEDTM30-CC-BY-4.0.txt'));
+await copyFile('src/data/NOTICE-timing.md',join(destination,'timing-reference.txt'));
+await copyFile('public/atlas-layouts/ATTRIBUTION.txt',join(destination,'atlas-layouts-CC-BY-4.0.txt'));
 await copyFile('artifacts/atlas-source/LICENSE.txt',join(destination,'F1DB-CC-BY-4.0.txt'));
 console.log(`Retained notices for ${packages.length} installed production packages, font and geographic data.`);

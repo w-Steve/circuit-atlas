@@ -1,0 +1,21 @@
+{
+  "circuitId": "monaco",
+  "season": 2026,
+  "checkedAt": "2026-10-24",
+  "source": "https://acm.mc/epreuves/formula-1-grand-prix-de-monaco/infos-pratiques/informations-liees-a-lachat-de-billet-ou-de-package/",
+  "evidence": "Organizer explicitly distinguishes seated tickets from standing places in sectors Z and Rocher.",
+  "confirmedStandingAreas": [
+    {
+      "name": "Z",
+      "zoneId": "z-quai-kennedy",
+      "modelClassification": "general-admission",
+      "geometryResolved": false
+    },
+    {
+      "name": "Secteur Rocher",
+      "zoneId": null,
+      "modelPresent": false
+    }
+  ],
+  "scope": "Confirms ticket class and season, not geographic boundaries. Hospitality map alone is not a complete public ticket inventory."
+}

@@ -1,0 +1,27 @@
+.world-flight{position:fixed;inset:0;z-index:2000;overflow:hidden;isolation:isolate;--cloud:#d1dad5;pointer-events:auto;animation:flight-appear .2s both}
+.flight-vignette{position:absolute;inset:0;background:radial-gradient(ellipse at var(--flight-x) var(--flight-y),transparent 5%,#101a1880 80%);animation:flight-darken .65s both}
+.flight-cloud{position:absolute;inset:-12%;opacity:0;will-change:transform,opacity;pointer-events:none;background:radial-gradient(ellipse at 25% 38%,#d8e1dc 0 12%,#cad6d0e8 20%,transparent 37%),radial-gradient(ellipse at 68% 54%,#e1e7e1 0 13%,#bacac1f5 24%,transparent 42%),radial-gradient(ellipse at 44% 78%,#bacac2 0 11%,#b7c9bfdd 22%,transparent 39%);transform-origin:var(--flight-x) var(--flight-y)}
+.cloud-far{animation:cloud-arrive .65s cubic-bezier(.3,0,.6,1) both}
+.cloud-near{background-position:25vw -35vh;animation:cloud-arrive .65s .06s cubic-bezier(.3,0,.6,1) both}
+.cloud-low{background-position:-25vw 20vh;animation:cloud-arrive .6s .1s both}
+.flight-clouds{background:#c8d4ce}.flight-clouds .flight-cloud{opacity:1;animation:cloud-drift 5s ease-in-out infinite alternate}
+.flight-clouds .cloud-near{animation-delay:-2s}.flight-clouds .cloud-low{animation-delay:-4s}
+.flight-destination{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);display:grid;justify-items:center;gap:12px;color:#222f28;text-align:center;max-width:calc(100% - 48px);opacity:0;animation:destination-lock .45s .4s both}
+.flight-destination strong{font:600 clamp(24px,4vw,50px)/1.2 var(--font-display);letter-spacing:.03em}.flight-destination>span:last-child{font:500 12px/1.5 var(--font-body);font-variant-numeric:tabular-nums;letter-spacing:.08em;white-space:nowrap}.flight-destination i{font-style:normal;color:#aa493c;margin:0 10px}.flight-cross{font-size:32px;color:#c7392e}
+.flight-skip{position:absolute;right:28px;bottom:28px;min-height:44px;padding:8px 16px;background:#17251ed9;color:#f2f1e9;border:1px solid #ffffff40;border-radius:3px;cursor:pointer;font-size:13px}.flight-skip span{margin-left:12px;color:#aebeb2;font-size:11px}
+.flight-reveal .flight-cloud{opacity:1;animation:cloud-clear .75s cubic-bezier(.2,.6,.2,1) both}.flight-reveal .cloud-near{--clear-x:32%;--clear-y:-38%;animation-delay:.04s}.flight-reveal .cloud-low{--clear-x:-32%;--clear-y:38%;animation-delay:.02s}
+.flight-reveal .flight-vignette{animation:veil-clear .55s both}.flight-reveal .flight-destination,.flight-reveal .flight-skip{animation:veil-clear .2s both}
+@keyframes flight-appear{from{opacity:0}to{opacity:1}}@keyframes flight-darken{from{opacity:0}to{opacity:1}}
+@keyframes cloud-arrive{from{opacity:0;transform:scale(.55) translate(-12%,12%)}to{opacity:1;transform:scale(1.1) translate(0,0)}}
+@keyframes cloud-drift{from{transform:scale(1.1) translate(-2%,1%)}to{transform:scale(1.18) translate(2%,-1%)}}
+@keyframes destination-lock{from{opacity:0;transform:translate(-50%,-40%)}to{opacity:1;transform:translate(-50%,-50%)}}
+@keyframes cloud-clear{from{opacity:1;transform:scale(1.1)}to{opacity:0;transform:translate(var(--clear-x,-22%),var(--clear-y,-30%)) scale(2)}}
+@keyframes veil-clear{from{opacity:1}to{opacity:0}}
+@media(max-width:650px){.flight-destination>span:last-child{font-size:10px;letter-spacing:0}.flight-skip{right:16px;bottom:max(16px,env(safe-area-inset-bottom))}}
+@media(prefers-reduced-motion:reduce){.world-flight{display:none}.world-flight *{animation:none!important}}
+
+/* Two bounded raster layers avoid oversized blend surfaces during WebGL init. */
+.cloud-low{display:none}.flight-cloud{backface-visibility:hidden}.flight-destination{will-change:opacity,transform}
+@keyframes cloud-arrive{from{opacity:0;transform:translate3d(-4%,4%,0) scale(.98)}to{opacity:1;transform:translate3d(0,0,0) scale(1.03)}}
+@keyframes cloud-drift{from{transform:translate3d(-1%,1%,0) scale(1.03)}to{transform:translate3d(1%,-1%,0) scale(1.06)}}
+@keyframes cloud-clear{from{opacity:1;transform:scale(1.03)}to{opacity:0;transform:translate3d(var(--clear-x,-8%),var(--clear-y,-10%),0) scale(1.2)}}

@@ -1,0 +1,554 @@
+[
+  {
+    "circuitId": "melbourne",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 0.0,
+    "maxMetres": 29.497,
+    "responseSha256": [
+      "1ac5e3af29b44715e653a162bcffdfedadbb97b50055ae8d71079a13c1e31680"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 0.0,
+      "maxMetres": 41.0,
+      "responseSha256": [
+        "21fd150c88169e31715699b916077351805311926b7408c4ad652a67785f7147",
+        "c422360bffdcc9e4a7fa7b709fa8a962dfea094ed8b53749fccd3dff12b28c5a",
+        "dce193f3898c255b4906af5da9d399b29972ecd62ae5a279c223f775da9f50f9"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "shanghai",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 0.369,
+    "maxMetres": 12.544,
+    "responseSha256": [
+      "4f3f6548d81c3f086f9080083af20d3fb04d80548c2cd9c7d94ec7b372a38ee1"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 1.0,
+      "maxMetres": 9.0,
+      "responseSha256": [
+        "7b5e7779e5204bca18f9e2a4169f97238f55701ab74f0ee9589ed95806936fcf",
+        "a6df5f06a8111bea93d49096c66ebc30e3961d3861679566c50f80bea3c2273a",
+        "7c992db001d9da39882c0346c8e057e239b5a7669703be7e9de3322083386191"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "suzuka",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 6.995,
+    "maxMetres": 72.997,
+    "responseSha256": [
+      "ed4cb3995c596960116ff66760825c025c98e4496bf1389e18e26da3c8ded86e"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 11.0,
+      "maxMetres": 69.0,
+      "responseSha256": [
+        "536d52ae161537001557b268404b173ea45ef8f070ddcbeed5a11658d7537264",
+        "ea136d187bc5a9906ca56d80529008435cc2a1f939ab01248f8c6f274105d7fd",
+        "40140e7e3af9c13a7fd658cd604ca77abcb79878604586fe7d4bad68a52635ba"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "miami",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": -1.57,
+    "maxMetres": 23.271,
+    "responseSha256": [
+      "d08d0b303a58e7165c1ac72e6316496a659d3491368ccf64736e3423dd212908"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 3.0,
+      "maxMetres": 17.0,
+      "responseSha256": [
+        "38f46f8c1376143074b99f645fc644e59751ef7ffebf33dc8ed2cc1d76466035",
+        "a59239650cae7a5602953ef0d49e8dae5fe463014d1f55dbe4f52d16e6d480b3",
+        "9a27667a210f56e8c7d9858a4cf58b274ab0bb4d58d76a4144ea1ae1991ac790"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "montreal",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 2.542,
+    "maxMetres": 23.367,
+    "responseSha256": [
+      "a6be1be15c55eb9622b29e751b96a7fcc7311046de2a55ac9f2291da9f1babe4"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 4.0,
+      "maxMetres": 27.0,
+      "responseSha256": [
+        "7c80fb568987a29f050b5282d306725092d55c6e6ca71bf12e8ba9454b1fd3f2",
+        "8d9ea9b4bb52a075cbeadcdc16c0b74ff0c3d4b3d0031a55999aa8664799b029",
+        "04c4204ffa7ab1f4aadf181f2644f34ff35bb1f6affa4f8957b705d190763d48"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "monaco",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 0.0,
+    "maxMetres": 201.468,
+    "responseSha256": [
+      "631ac07727fca4cb6403f8da13ee4e7d1ff6ef1b26b9e1da36166989c8bdb357"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": -1.0,
+      "maxMetres": 200.0,
+      "responseSha256": [
+        "ca303db82c53ff4569259c4174b868e29d8356d5559727caedeb7c9ba673e24d",
+        "d1c62d01e9ffab6cdd66f4b133808e34fb9f2c860aa9468404c6073434a8025d",
+        "905d805e80a2f8a89d6ef6f984297ae70feb4289462e7e4c4f41ea2fe34e4315"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "barcelona",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 82.598,
+    "maxMetres": 154.014,
+    "responseSha256": [
+      "6a12c64a06bb9c86e91a28c9c795db86c24b435b331a3c98046f98eae77e1297"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 83.0,
+      "maxMetres": 150.0,
+      "responseSha256": [
+        "d91351898b745f828508e0f68d51e344955f2ef1d0fa28d1716b809361010d60",
+        "52aa718a99963dbf8ea8f1bf131a1aead8b415a20ac2ac4814fff700a620ee58",
+        "74f47fc3409f59b208654fde74d3649148aed02bd549a929bc583421502441a0"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "spielberg",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 668.568,
+    "maxMetres": 811.849,
+    "responseSha256": [
+      "e096461e6ac1c5165d803a0a2dc0cf2e7ea424934f62121d7eadda263e33b192"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 669.0,
+      "maxMetres": 823.0,
+      "responseSha256": [
+        "e2a535bf90bb89c588b839105e778beb5b51e5d77a33485fc2c8a1bf30f97786",
+        "86eda1008c3b7c0fd8b0c57013769f28311a5619d4fbdc97e1c095f95a3a6d1e",
+        "dde135602e2abb15b546889ab0df9b91df2dc58aa7b80792cec6c24afb962604"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "silverstone",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 128.296,
+    "maxMetres": 161.268,
+    "responseSha256": [
+      "a70e3f7831f47c34b2ecb85279745823770936f7997d2c03713f1a4bd68c1a01"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 131.0,
+      "maxMetres": 165.0,
+      "responseSha256": [
+        "19cf5fb9975684007139af2082783b9b1faeff70fa02c3bb0d0413321408b2f5",
+        "f139b73444922ffbe92d647ea34762acbc83975a4d69965f2e85227ae45787bb",
+        "bebc79f30eb5ca2c99b1d29bad3f07c6f0114969c1ecce9b6d7f36c91c5c2950"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "spa",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 348.811,
+    "maxMetres": 518.499,
+    "responseSha256": [
+      "df65b605c4314f94e66661471c9368495277f2c56b53576a9dc98f6fc87db9f4"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 363.0,
+      "maxMetres": 523.0,
+      "responseSha256": [
+        "05b7b86041f3341dfd5da5d4bfc8991930e7ce924d6e2df7886a048d0e096502",
+        "1d3342c43b2f0dbbb13aaa3deaa0c4a15992db1abddaf131749dc6d06775c5c0",
+        "fb5c63411a859450d6531d335474d2ab5cb0ce7c20e1662e8e9bd4676627b875"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "hungaroring",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 178.672,
+    "maxMetres": 302.214,
+    "responseSha256": [
+      "a4c6202ce9f20e916f93e12d55046545d86568e1558d58a1f0d813692e6059fb"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 177.0,
+      "maxMetres": 297.0,
+      "responseSha256": [
+        "4882811c0768d09a14bb2bd700d3a7cbc935ee70864d16b4725e34e9b6855505",
+        "04e40f5ed76c0f697af23e794cad3e0443c52bcc2a7a6c72f94dfa38d744d85e",
+        "281168cbe550149a29fa29e1b0a5be03b5a72497f89fd43f313e3325229e42eb"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "zandvoort",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 1.1,
+    "maxMetres": 19.409,
+    "responseSha256": [
+      "5b2fee0e33512b3c0805e0ba07ae9efcc176aca3195719b7e6a0b20303457db3"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 1.0,
+      "maxMetres": 16.0,
+      "responseSha256": [
+        "c8d4281715790708a3907329ff1599d3d67d62dd5bc5261f3aa8c2a28049d0fa",
+        "36e5c8e3945d9d2938147143ccb05749df31d4878e1174cd42f2c93870f1a503",
+        "73055cdb25c56f55a1492ca74a23a7c5a13e79e5ab0a56fb4afff0f4ed2d8e09"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "monza",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 161.372,
+    "maxMetres": 203.491,
+    "responseSha256": [
+      "c1d44f735d847ef382acb9dfe0d3b18d1b0bc4de08d0eaac84f9def395cb00c0"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 168.0,
+      "maxMetres": 205.0,
+      "responseSha256": [
+        "c35a6e2cd418b8f6d7b6027a94cfda633a7acdce0c8c9672c6aa83d539a49e45",
+        "d5455a291a8f107ad6c3baf475a5779f24b1f756cabd74d56e61cbdc7f3f0b09",
+        "5e239d7495a8f175d451338d90fea98cfb288655e11186304f52707b864ead67"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "madrid",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 648.056,
+    "maxMetres": 701.132,
+    "responseSha256": [
+      "7acf2682f1f59f4e038fec895a2f2f62399bc835399a6ea9c6996f565ec8d3dc"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 649.0,
+      "maxMetres": 702.0,
+      "responseSha256": [
+        "41a7c57b6512ea520f329c683f702900ff5d77cb199f1d69524c1c43ddef852c",
+        "4abd9282258ed196e618b859019928f10a7e598abd4ffe036dc47cd63f6cbcfa",
+        "1eff998cddf0bb720af725d85d402d7a7b478a2cbf32daef3c13572eab5bf969"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "baku",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": -29.204,
+    "maxMetres": 41.797,
+    "responseSha256": [
+      "e3bfb1778f6c3a8a84d3a7a9fe68ac380627c3f15422c1a54bd87d93da0f505d"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": -29.0,
+      "maxMetres": 46.0,
+      "responseSha256": [
+        "8ed886b0e2adf2fbdd2c31b1c27ec488934c33901cb8c4990a9cc5884d5c42dd",
+        "5655b12f939bba6413c929d97c4eedaa0947ed02bbeb16fad0e705db87d0e3ef",
+        "33eb4f1da80578d3f8f98fa76a4cb25da759cffcdb6d3b55d58d7227e11859e3"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "sepang",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 16.102,
+    "maxMetres": 72.681,
+    "responseSha256": [
+      "fd8f5af88ee6a98684d619403e9a38242ea36de320310b6ea837a14ddd157269"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 22.0,
+      "maxMetres": 72.0,
+      "responseSha256": [
+        "a3125f1f921a7b44a9f320a62f5d27c481c5d3020e8064fe2f4a99ff873bc4e8",
+        "f1de5f3dbb2516763443acbd9d1c6f63ca26abfafb94e048cd65425688e6107b",
+        "cd89bc883574db8458bb9b6d04c3ad166a2c88d4e4db058dbd2c60bb437d1ac9"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "singapore",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": -4.845,
+    "maxMetres": 34.991,
+    "responseSha256": [
+      "d6c8a3bab7f5e890c5ca6bb3203bb39c2890a2e6863730c7cb614af0abeb7cc9"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": -1.0,
+      "maxMetres": 68.0,
+      "responseSha256": [
+        "fa960b7010a4f48a57d4c463fd5a00f342bb8c3946209b277fcf28cfbd45b58e",
+        "cbccb48b07a63d5097c3c8c5f5d656d71b761054cb4ef9e8ac80764feec2cb49",
+        "75ca252f32c66432a9c2a29fbf9649ee4c86828a6a0cb4c8f9423e21cbfab1ab"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "austin",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 144.421,
+    "maxMetres": 192.254,
+    "responseSha256": [
+      "ae0fc6daf3ab86e074c0b31ba25284d57a1a1108df04d1853c1e07f23443eed4"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 147.0,
+      "maxMetres": 194.0,
+      "responseSha256": [
+        "b62222897ef266c48449fb3358b32233688c788ac5e9e25d6ebb33aff196263a",
+        "ccb28b53871e290c142f8fd8feb374719e93f7ba5daaff78ba244bc92f1471c2",
+        "12081d447c4cd57d6902d653ad792a9943ec958c483cddadea63e1d97b34a153"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "mexico",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 2222.897,
+    "maxMetres": 2242.176,
+    "responseSha256": [
+      "fdf2f7ac143499d3c516d14314e56fcaa2df022cdf645eda5b972a6cffaa902f"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 2225.0,
+      "maxMetres": 2247.0,
+      "responseSha256": [
+        "e9d3a8f015ae8635ed777daecf9c921d519a761e87efcc1b5401ee05d9afbdc3",
+        "4b3b125bdf33a490b29007a0479c19185b71f2b3f174950568455271a812dd2c",
+        "eef3bd1db027603f7bbf472f838482993fce92b490e996b7c3bc05897e3e7e8f"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "interlagos",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 729.381,
+    "maxMetres": 793.73,
+    "responseSha256": [
+      "cbbf68e0a671c25502a6e693baa2cc7cddcb4eecc76f8b2391009fa84b4b72ed"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 735.0,
+      "maxMetres": 796.0,
+      "responseSha256": [
+        "5885d1d71a43a5075cf681d51a3d84f57b1d2083803cd36833f3bd96ae4c6955",
+        "21265b2df09988116a97710955379ceac5810e5b5c734585e5a3c773d526b5cf",
+        "ec6acc469a45ec9609840320c110fca459de347c38335ac0c32eed29305ed93a"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "las-vegas",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 620.931,
+    "maxMetres": 669.73,
+    "responseSha256": [
+      "230b2d1b488b8a3464dabed548300e436d33113ca0f581f87511997cd12f0ee8"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 609.0,
+      "maxMetres": 668.0,
+      "responseSha256": [
+        "7cdec42b0d8a197cf6357bbe0db52bf6a8100dd02a98398a68e1fcecaf1e1052",
+        "8de0bd9a133b8b91ef033a804ce3f7d0b7d650225675b9a984b7b098588fd076",
+        "298a3d20b8fc5872db9f795486836314673a11f62acb3fcf7edd42ad27ccab2c"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "lusail",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 4.066,
+    "maxMetres": 16.218,
+    "responseSha256": [
+      "b3eba44fbb9b850c4e5ecaa7ee7e3dd2a1ce237a737b56462a401fbb616de643"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": 6.0,
+      "maxMetres": 16.0,
+      "responseSha256": [
+        "2d39ae693afd3ad84d7c14975cdce0430207c8c3ef03886b532e6157f4a54472",
+        "eb79b32fb5d67c3e11a399a0dd3a0f938a7b90f58dccade37eece66779656642",
+        "3a26e23459caccf8b6bf85d6cb6e36f98994c27df5b16415bcde1bc01d485606"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  },
+  {
+    "circuitId": "yas-marina",
+    "dataset": "GEDTM30-v1.2",
+    "sampleCount": 4225,
+    "minMetres": 0.0,
+    "maxMetres": 17.702,
+    "responseSha256": [
+      "00b19fd50d061e813e84e52eaad48cfa060eeef20578ff4ba6d6f7738350e245"
+    ],
+    "runtimeApplied": true,
+    "checkedAt": "2026-10-24",
+    "source": "https://zenodo.org/records/18887460",
+    "srtmBaseline": {
+      "sampleCount": 289,
+      "minMetres": -5.0,
+      "maxMetres": 5.0,
+      "responseSha256": [
+        "0472c9d55464137ab41df0ffe8091886d84fb53eb2fbdc051f000ad6a5660623",
+        "9491c7568dca50df4e5556aa49e516fab41d59a67c4d43c0c0c10f2c20e1ddac",
+        "a76ad89b7b968c21386a08e7315ce72f72539f32d0a50caec0f89543cb44ba4f"
+      ],
+      "source": "https://www.opentopodata.org/datasets/srtm/"
+    }
+  }
+]

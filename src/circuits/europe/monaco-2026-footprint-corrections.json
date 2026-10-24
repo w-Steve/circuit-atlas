@@ -1,0 +1,110 @@
+{
+  "circuitId": "monaco",
+  "season": 2026,
+  "checkedAt": "2026-10-24",
+  "source": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+  "sourcePdfPage": 2,
+  "method": "Original filled vector footprints from the official 2026 venue map; diagram corner controls projected onto the diagram road centerline before local affine registration to existing geographic corners. No post-registration translation or road-subtraction clipping.",
+  "precision": "Diagram registration is approximate, not surveyed seating. Heights and rows remain estimates.",
+  "areas": [
+    {
+      "zoneId": "n-piscine",
+      "sourcePathIndex": 5584,
+      "boundary": [
+        [
+          7.422196612850831,
+          43.73571125617212
+        ],
+        [
+          7.422444453526733,
+          43.73504180344864
+        ],
+        [
+          7.422639110034121,
+          43.73498428023713
+        ],
+        [
+          7.422348745818195,
+          43.73576854442302
+        ],
+        [
+          7.422196612850831,
+          43.73571125617212
+        ]
+      ],
+      "frontReference": [
+        7.422031582606357,
+        43.73530181518331
+      ],
+      "depth": 13.991509913547603,
+      "obliquity": 25.22964247753167,
+      "roadOverlapSquareMetres": 0.0
+    },
+    {
+      "zoneId": "o-piscine",
+      "sourcePathIndex": 5580,
+      "boundary": [
+        [
+          7.422525388816021,
+          43.73478426141934
+        ],
+        [
+          7.422623673269634,
+          43.73451784811546
+        ],
+        [
+          7.422818329777021,
+          43.73446032490395
+        ],
+        [
+          7.4226775217833865,
+          43.73484154967024
+        ],
+        [
+          7.422525388816021,
+          43.73478426141934
+        ]
+      ],
+      "frontReference": [
+        7.422340176082374,
+        43.73457950878799
+      ],
+      "depth": 14.706143076500235,
+      "obliquity": 7.3235239094064415,
+      "roadOverlapSquareMetres": 0.0
+    },
+    {
+      "zoneId": "p-piscine",
+      "sourcePathIndex": 5576,
+      "boundary": [
+        [
+          7.4227171935806595,
+          43.7342934386617
+        ],
+        [
+          7.422907904190207,
+          43.73379999483248
+        ],
+        [
+          7.423085602177448,
+          43.733794706198886
+        ],
+        [
+          7.422862173153608,
+          43.7343727456024
+        ],
+        [
+          7.4227171935806595,
+          43.7342934386617
+        ]
+      ],
+      "frontReference": [
+        7.422214141967499,
+        43.73392914870184
+      ],
+      "depth": 13.672365035115199,
+      "obliquity": 19.685483611554325,
+      "roadOverlapSquareMetres": 0.0
+    }
+  ]
+}

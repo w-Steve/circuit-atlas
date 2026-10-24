@@ -53,7 +53,7 @@ export function lookTarget(s:Selection){
     const u=s.tier==='platinum'?.35+s.u*.3:s.u;
     return new Vector3(...local((u-.5)*f.stand.length,4,0));
   }
-  return nearestTrack(observer(s)).point.setY(.9);
+  return nearestTrack(observer(s)).point.add(new Vector3(0,.9,0));
 }
 export function standGeometry(tier: Selection["tier"]) {
   const t = tierData(tier);

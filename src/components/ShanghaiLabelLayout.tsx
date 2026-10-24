@@ -1,15 +1,23 @@
-import {useFrame} from '@react-three/fiber';
+import {useFrame,useThree} from '@react-three/fiber';
 import {useApp} from '../store';
+import {activeMapControls} from '../systems/ObserverCamera';
 
 export function ShanghaiLabelLayout(){
+  const {camera,size}=useThree();
   useFrame(()=>{
     const labels=Array.from(document.querySelectorAll<HTMLElement>('#scene-labels .marker'));
     if(useApp.getState().mode!=='overview'){labels.forEach(l=>l.style.visibility='');return}
-    const blocked=Array.from(document.querySelectorAll('.experience-header,.map-heading,.zone-preview,.map-tools,.terrain-toggle')).map(n=>n.getBoundingClientRect());
+    const controls=activeMapControls.current;
+    const mpp=controls?2*camera.position.distanceTo(controls.target)*Math.tan((camera as import('three').PerspectiveCamera).fov*Math.PI/360)/size.height:0;
+    // Normal overview still needs readable destinations. Only a genuinely
+    // distant view collapses them; timing annotations never decide this state.
+    const compact=String(mpp>8);
+    labels.filter(l=>l.matches('button')).forEach(l=>{if(l.dataset.compact!==compact)l.dataset.compact=compact;l.title=l.textContent??''});
+    const blocked=Array.from(document.querySelectorAll('.experience-header,.map-heading,.zone-preview,.map-tools,.terrain-toggle,.map-orientation')).map(n=>n.getBoundingClientRect());
     const occupied:DOMRect[]=[];
     // Retain the current area's entry at crowded mobile zoom levels.
     const selected=useApp.getState().selection.zoneId??'a';
-    const priority=(label:HTMLElement)=>Number(label.matches('button'))+2*Number(label.dataset.zone===selected);
+    const priority=(label:HTMLElement)=>Number(label.matches('button'))+2*Number(label.dataset.zone===selected)+4*Number(label.matches(':hover,:focus-visible'));
     labels.sort((a,b)=>priority(b)-priority(a));
     for(const label of labels){
       const r=label.getBoundingClientRect();

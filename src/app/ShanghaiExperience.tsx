@@ -1,3 +1,4 @@
+import {t} from "../i18n";
 import { navigate } from "./navigation";
 import { lazy, Suspense,useEffect,useRef } from "react";
 import { simulation,passStart,passEnd } from "../systems/VehicleSimulation";
@@ -28,9 +29,7 @@ export function ShanghaiExperience({ active = true }: { active?: boolean }) {
         <ErrorBoundary>
           <Suspense
             fallback={
-              <div className="loading" role="status">
-                正在建立米制三维场景…
-              </div>
+              <div className="loading" role="status"> {t("正在建立米制三维场景…")} </div>
             }
           >
             <World active={active} />

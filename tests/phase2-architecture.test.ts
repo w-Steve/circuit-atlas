@@ -21,13 +21,16 @@ describe("Phase 2 navigation and data compatibility", () => {
       });
     expect(parseRoute("#/invalid")).toEqual({ level: "not-found" });
   });
-  it("loads a data package without UI and preserves all legacy Shanghai positions", async () => {
+  it("loads a data package without UI and shares the explicitly migrated Shanghai terrain", async () => {
     const data = await loadCircuit("shanghai");
     expect(data.season).toBe(2026);
-    expect(data.elevation.status).toBe("unavailable");
+    expect(data.elevation.status).toBe("partial");
+    expect(data.elevation.grid?.heights).toHaveLength(4225);
+    // The compatibility facade and package must use the identical road estimate.
     const generic = createCircuitGeometry(
       data.trackGeometry.coordinates,
       data.lengthMetres,
+      data.elevation,
     );
     expect(generic.length).toBe(length);
     for (const s of [0, 1, 50, 1000, 5000])

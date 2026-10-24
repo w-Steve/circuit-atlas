@@ -24,6 +24,7 @@ export function ExposurePreview({active}:{active:boolean}){
   useEffect(()=>()=>{resources.sample.dispose();resources.sum.dispose();resources.accumulate.dispose();resources.display.dispose();resources.quad.geometry.dispose()},[resources]);
   useFrame(({scene,camera})=>{
     if(!active)return;
+    if(gl.domElement.dataset.gpuReady==='false')return;
     const settings=useApp.getState(),vehicle=carObject.current;
     if(settings.mode!=='phone'||!vehicle||shutter.busy||simulation.status!=='running'){
       gl.domElement.dataset.exposurePreviewSamples='1';

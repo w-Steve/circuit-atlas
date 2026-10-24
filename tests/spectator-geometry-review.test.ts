@@ -31,11 +31,13 @@ for(const id of [...americanCircuits,...europeanCircuits,...asiaPacificCircuits.
   const x=(ref[0]-g.origin[0])*111320*Math.cos(g.origin[1]*Math.PI/180)*g.calibration;
   const z=-(ref[1]-g.origin[1])*111320*g.calibration;
   expect((front.x-back.x)*(x-surface.center.x)+(front.z-back.z)*(z-surface.center.y)).toBeGreaterThan(0);
-  expect(back.y).toBeGreaterThan(front.y);
+  if(surface.definition.rows>0)expect(back.y).toBeGreaterThan(front.y);
+  else expect(surface.definition.terrainFollow).toBe(true);
   for(const u of [.1,.5,.9]){
    const selected=model.selectionAt(surface,model.surfacePoint(surface,u,.8));
    const eye=model.zonePoint(selected.zoneId,selected.u,selected.v),target=model.facingTarget(selected.zoneId,selected.u,selected.v);
-   expect(((target.x-eye.x)*surface.normal.x+(target.z-eye.z)*surface.normal.y)*surface.frontSign,surface.definition.surfaceId+' default view faces seating front').toBeGreaterThan(0);
+   if(surface.definition.terrainFollow)expect(target.distanceTo(model.nearestTrack(eye).point),surface.definition.surfaceId+' unseated ground faces its local road').toBeLessThan(.001);
+   else expect(((target.x-eye.x)*surface.normal.x+(target.z-eye.z)*surface.normal.y)*surface.frontSign,surface.definition.surfaceId+' default view faces seating front').toBeGreaterThan(0);
   }
  }
  expect(data.spectatorZoneIds).toEqual(model.spectatorZones.map(z=>z.zoneId));

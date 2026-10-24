@@ -1,5 +1,7 @@
+import {t} from "../i18n";
 import {circuitRuntime} from "../circuits/runtime";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
+import {buildingReference} from '../circuits/facilityGeometry';
 import { Vector3 } from "three";
 import { observer } from "./GrandstandGeometry";
 import { at } from "./CircuitGeometry";
@@ -34,19 +36,21 @@ export function Telemetry() {
           simulation.status === "running" ? simulation.speed / 3.6 / 0.1 : 0,
         ),
     );
-  const pit = new Vector3(...local(0, 3, f.pit.offset + f.pit.width / 2));
+  const runtime=circuitRuntime.current;
+  const facilityPit=useMemo(()=>{const building=runtime?.data.facilities?.buildings[0];return runtime&&building?buildingReference(runtime.data,runtime.geometry,building):null},[runtime]);
+  const pit = facilityPit??new Vector3(...local(0, 3, f.pit.offset + f.pit.width / 2));
   return (
-    <section className="telemetry" data-tick={tick} aria-label="赛车控制">
+    <section className="telemetry" data-tick={tick} aria-label={t("赛车控制")}>
       <div className="readings">
         <div>
-          <small>距离 · 约</small>
+          <small>{t("距离 · 约")}</small>
           <strong data-testid="car-distance">
             {dist.toFixed(1)}
             <em>m</em>
           </strong>
         </div>
         <div>
-          <small>当前速度</small>
+          <small>{t("当前速度")}</small>
           <strong>
             {simulation.status === "running" ? simulation.speed : 0}
             <em>km/h</em>
@@ -66,15 +70,15 @@ export function Telemetry() {
           }}
         >
           {simulation.status === "running"
-            ? "暂停"
+            ? t("暂停")
             : simulation.status === "paused"
-              ? "继续"
-              : "播放赛车经过"}
+              ? t("继续")
+              : t("播放赛车经过")}
         </button>
         <button
           className="replay-control"
-          aria-label="重置 / 重播"
-          title="重置 / 重播"
+          aria-label={t("重置 / 重播")}
+          title={t("重置 / 重播")}
           onClick={() => {
             simulation.replay();
             prepareLocalPass(s.selection);
@@ -84,12 +88,11 @@ export function Telemetry() {
           ↺
         </button>
         <details className="speed-menu">
-          <summary aria-label="播放设置">
+          <summary aria-label={t("播放设置")}>
             {simulation.speed} <small>km/h</small>⌄
           </summary>
           <div className="control-popover">
-            <label htmlFor="speed">
-              演示速度 <b>{simulation.speed} km/h</b>
+            <label htmlFor="speed"> {t("演示速度")} <b>{simulation.speed} km/h</b>
             </label>
             <input
               id="speed"
@@ -105,32 +108,33 @@ export function Telemetry() {
           </div>
         </details>
         <details className="measure-menu">
-          <summary>测量</summary>
+          <summary>{t("测量")}</summary>
           <div className="control-popover">
-            <h3>当前位置的视野</h3>
+            <h3>{t("当前位置的视野")}</h3>
             <dl>
               <div>
-                <dt>赛车视角 / 横向占比</dt>
+                <dt>{t("赛车视角 / 横向占比")}</dt>
                 <dd>
                   {projection?.angularWidth.toFixed(1)}° /{" "}
                   {projection?.widthPercent.toFixed(1)}%
                 </dd>
               </div>
               <div>
-                <dt>视线角速度</dt>
+                <dt>{t("视线角速度")}</dt>
                 <dd>{omega.toFixed(1)} °/s</dd>
               </div>
+              {facilityPit&&<div><dt>{t("P 房 · 建筑中心")}</dt><dd>{t("约")} {eye.distanceTo(pit).toFixed(0)} m</dd></div>}
               {!circuitRuntime.current&&<><div>
-                <dt>P 房 · 建筑前沿中心</dt>
-                <dd>约 {eye.distanceTo(pit).toFixed(0)} m</dd>
+                <dt>{t("P 房 · 建筑前沿中心")}</dt>
+                <dd>{t("约")} {eye.distanceTo(pit).toFixed(0)} m</dd>
               </div>
               <div>
-                <dt>发车线中心</dt>
-                <dd>约 {eye.distanceTo(at(f.start.distance)).toFixed(0)} m</dd>
+                <dt>{t("发车线中心")}</dt>
+                <dd>{t("约")} {eye.distanceTo(at(f.start.distance)).toFixed(0)} m</dd>
               </div>
               <div>
-                <dt>计时线中心</dt>
-                <dd>约 {eye.distanceTo(at(f.finish.distance)).toFixed(0)} m</dd>
+                <dt>{t("计时线中心")}</dt>
+                <dd>{t("约")} {eye.distanceTo(at(f.finish.distance)).toFixed(0)} m</dd>
               </div></>}
             </dl>
           </div>
@@ -139,15 +143,14 @@ export function Telemetry() {
       <p className="sr-only" aria-live="polite" data-testid="sim-status">
         {
           {
-            ready: "就绪 · 上游起点",
-            running: "正在经过",
-            paused: "已暂停",
-            ended: "演示结束 · 请重置",
+            ready: t("就绪 · 上游起点"),
+            running: t("正在经过"),
+            paused: t("已暂停"),
+            ended: t("演示结束 · 请重置"),
           }[simulation.status]
         }
       </p>
-      <output hidden data-testid="car-position">
-        驾驶舱 X {car.x.toFixed(1)} · Y {car.y.toFixed(2)} · Z{" "}
+      <output hidden data-testid="car-position"> {t("驾驶舱 X")} {car.x.toFixed(1)} · Y {car.y.toFixed(2)} · Z{" "}
         {car.z.toFixed(1)} m
       </output>
     </section>

@@ -4,6 +4,10 @@ import type { PanMode } from "./camera/Exposure";
 export type Mode = "overview" | "select" | "eye" | "phone";
 export type Selection = { tier: "lower" | "upper" | "platinum"; u: number; v: number;zoneId?:string };
 interface State {
+  timingVisible:boolean;
+  setTimingVisible:(value:boolean)=>void;
+  terrainColored:boolean;
+  setTerrainColored:(value:boolean)=>void;
   circuitId:string;
   activateCircuit:(id:string,defaultZone?:string)=>void;
   shutterSpeed:number;
@@ -26,6 +30,10 @@ interface State {
 const rememberedZones = new Map<string,{selection:Selection;heading:number;pitch:number}>();
 const rememberedCircuits=new Map<string,{selection:Selection;heading:number;pitch:number;zoom:number;shutterSpeed:number;panMode:PanMode}>();
 export const useApp = create<State>((set,get) => ({
+  timingVisible:true,
+  setTimingVisible:timingVisible=>set({timingVisible}),
+  terrainColored:true,
+  setTerrainColored:terrainColored=>set({terrainColored}),
   circuitId:'shanghai',
   activateCircuit:(circuitId,defaultZone='a')=>{
     const previous=get();if(previous.circuitId===circuitId)return;

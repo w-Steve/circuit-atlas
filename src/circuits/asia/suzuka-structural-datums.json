@@ -1,0 +1,245 @@
+{
+  "circuitId": "suzuka",
+  "checkedAt": "2026-10-24",
+  "scope": "Permanent grandstand structure only; does not certify the complete 2026 ticket inventory or surveyed heights.",
+  "areas": [
+    {
+      "zoneId": "v2",
+      "surfaceId": "v2-1",
+      "baseReference": {
+        "zoneId": "v1",
+        "surfaceId": "v1-1",
+        "offsetMetres": 2,
+        "source": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/seat_v2.html",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "The organizer identifies V2 as Grandstand Upper Tier and V1 as Lower Tier. The live page now concerns 2027; used here only for the existing permanent structural relationship, not 2026 ticket availability. Upper front floor is estimated 2m above the lower back floor (plausible landing/structure gap 1–3m), not a surveyed height. Existing lower/upper rises remain separate estimates. This datum is defined independently of raycast visibility; do not optimize height to pass a sightline test."
+        }
+      }
+    },
+    {
+      "zoneId": "b1",
+      "surfaceId": "b1-1",
+      "rowProfile": {
+        "rows": 9,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_b1.pdf",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Organizer permanent seating chart maximum numbered row: 9. The current link is served by the 2027 page, chart itself is undated; used only for existing seating structure also located on the retained 2026 venue map. Blocks can have fewer rows; the combined surface uses this maximum, not a seat-level inventory."
+        },
+        "riseSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/seat_b1.html",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "9 maximum rows from the organizer seating PDF. Riser assumed 0.40m (plausible 0.30–0.50m), giving (9-1)*0.40m total rise. No surveyed stair height is available. Replaces PCA bounding-box depth, which overestimated the height of curved footprints. Not optimized for raycast clearance or screen size."
+        }
+      },
+      "rowBearing": "local-normal"
+    },
+    {
+      "zoneId": "b2",
+      "surfaceId": "b2-1",
+      "rowProfile": {
+        "rows": 22,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_b2.pdf",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Organizer permanent seating chart maximum numbered row: 22. The current link is served by the 2027 page, chart itself is undated; used only for existing seating structure also located on the retained 2026 venue map. Blocks can have fewer rows; the combined surface uses this maximum, not a seat-level inventory."
+        },
+        "riseSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/seat_b2.html",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "22 maximum rows from the organizer seating PDF. Riser assumed 0.40m (plausible 0.30–0.50m), giving (22-1)*0.40m total rise. No surveyed stair height is available. Replaces PCA bounding-box depth, which overestimated the height of curved footprints. Not optimized for raycast clearance or screen size."
+        }
+      },
+      "baseReference": {
+        "zoneId": "b1",
+        "surfaceId": "b1-1",
+        "offsetMetres": 2,
+        "source": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/seat_b2.html",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Organizer detailed map and seat views place B2 on the raised rear bank behind B1; Q2 access description explicitly requires climbing stairs. Existing permanent layout corroborated by the retained 2026 venue map; current detailed page is 2027, not evidence of 2026 ticket sales. Model upper front floor as lower back floor +2m landing/structure estimate (range1–3m), not a surveyed height. This fixed structural rule is independent of visibility tests; no footprint, car or eye-height change."
+        }
+      },
+      "rowBearing": "local-normal",
+      "frontRailing": {
+        "heightMetres": 1.1,
+        "source": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/b2/img_b2_02.jpg",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Organizer B2 seat photograph shows green horizontal safety rail at the elevated front edge. Height1.1m and40mm member thickness are modeling estimates, not a survey. Rail follows the existing upper front floor, never offset toward the raceway or grounded below it. Retained as real 3D occlusion, separately from the B1 ground catch fence."
+        }
+      }
+    },
+    {
+      "zoneId": "q1",
+      "surfaceId": "q1-1",
+      "rowProfile": {
+        "rows": 12,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_q1.pdf",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Organizer permanent seating chart maximum numbered row: 12. The current link is served by the 2027 page, chart itself is undated; used only for existing seating structure also located on the retained 2026 venue map. Blocks can have fewer rows; the combined surface uses this maximum, not a seat-level inventory."
+        },
+        "riseSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/seat_q1.html",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "12 maximum rows from the organizer seating PDF. Riser assumed 0.40m (plausible 0.30–0.50m), giving (12-1)*0.40m total rise. No surveyed stair height is available. Replaces PCA bounding-box depth, which overestimated the height of curved footprints. Not optimized for raycast clearance or screen size."
+        }
+      }
+    },
+    {
+      "zoneId": "q2",
+      "surfaceId": "q2-1",
+      "rowProfile": {
+        "rows": 15,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_q2.pdf",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Organizer permanent seating chart maximum numbered row: 15. The current link is served by the 2027 page, chart itself is undated; used only for existing seating structure also located on the retained 2026 venue map. Blocks can have fewer rows; the combined surface uses this maximum, not a seat-level inventory."
+        },
+        "riseSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/seat_q2.html",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "15 maximum rows from the organizer seating PDF. Riser assumed 0.40m (plausible 0.30–0.50m), giving (15-1)*0.40m total rise. No surveyed stair height is available. Replaces PCA bounding-box depth, which overestimated the height of curved footprints. Not optimized for raycast clearance or screen size."
+        }
+      },
+      "baseReference": {
+        "zoneId": "q1",
+        "surfaceId": "q1-1",
+        "offsetMetres": 2,
+        "source": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/seat_q2.html",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Organizer detailed map and seat views place Q2 on the raised rear bank behind Q1; Q2 access description explicitly requires climbing stairs. Existing permanent layout corroborated by the retained 2026 venue map; current detailed page is 2027, not evidence of 2026 ticket sales. Model upper front floor as lower back floor +2m landing/structure estimate (range1–3m), not a surveyed height. This fixed structural rule is independent of visibility tests; no footprint, car or eye-height change."
+        }
+      }
+    },
+    {
+      "zoneId": "q2",
+      "surfaceId": "q2-2",
+      "rowProfile": {
+        "rows": 15,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_q2.pdf",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Organizer permanent seating chart maximum numbered row: 15. The current link is served by the 2027 page, chart itself is undated; used only for existing seating structure also located on the retained 2026 venue map. Blocks can have fewer rows; the combined surface uses this maximum, not a seat-level inventory."
+        },
+        "riseSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/seat_q2.html",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "15 maximum rows from the organizer seating PDF. Riser assumed 0.40m (plausible 0.30–0.50m), giving (15-1)*0.40m total rise. No surveyed stair height is available. Replaces PCA bounding-box depth, which overestimated the height of curved footprints. Not optimized for raycast clearance or screen size."
+        }
+      },
+      "baseReference": {
+        "zoneId": "q1",
+        "surfaceId": "q1-1",
+        "offsetMetres": 2,
+        "source": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/seat_q2.html",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Organizer detailed map and seat views place Q2 on the raised rear bank behind Q1; Q2 access description explicitly requires climbing stairs. Existing permanent layout corroborated by the retained 2026 venue map; current detailed page is 2027, not evidence of 2026 ticket sales. Model upper front floor as lower back floor +2m landing/structure estimate (range1–3m), not a surveyed height. This fixed structural rule is independent of visibility tests; no footprint, car or eye-height change."
+        }
+      }
+    },
+    {
+      "zoneId": "q2",
+      "surfaceId": "q2-3",
+      "rowProfile": {
+        "rows": 15,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_q2.pdf",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Organizer permanent seating chart maximum numbered row: 15. The current link is served by the 2027 page, chart itself is undated; used only for existing seating structure also located on the retained 2026 venue map. Blocks can have fewer rows; the combined surface uses this maximum, not a seat-level inventory."
+        },
+        "riseSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/seat_q2.html",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "15 maximum rows from the organizer seating PDF. Riser assumed 0.40m (plausible 0.30–0.50m), giving (15-1)*0.40m total rise. No surveyed stair height is available. Replaces PCA bounding-box depth, which overestimated the height of curved footprints. Not optimized for raycast clearance or screen size."
+        }
+      },
+      "baseReference": {
+        "zoneId": "q1",
+        "surfaceId": "q1-1",
+        "offsetMetres": 2,
+        "source": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/seat_q2.html",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Organizer detailed map and seat views place Q2 on the raised rear bank behind Q1; Q2 access description explicitly requires climbing stairs. Existing permanent layout corroborated by the retained 2026 venue map; current detailed page is 2027, not evidence of 2026 ticket sales. Model upper front floor as lower back floor +2m landing/structure estimate (range1–3m), not a surveyed height. This fixed structural rule is independent of visibility tests; no footprint, car or eye-height change."
+        }
+      }
+    },
+    {
+      "zoneId": "r",
+      "surfaceId": "r-1",
+      "rowBearing": "local-normal",
+      "notes": "Curved permanent R seating follows its source OSM polygon. Default gaze uses the local modeled row tangent, without changing any floor, eye or obstacle geometry."
+    }
+  ]
+}

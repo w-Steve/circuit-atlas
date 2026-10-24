@@ -43,12 +43,13 @@ it('borrows the real vehicle pose and always restores live geometry, including r
   const vehicle=new Group();vehicle.position.set(9,2,5);vehicle.rotation.set(.1,.2,.3);vehicle.scale.set(1.1,1.2,1.3);
   const position=vehicle.position.clone(),q=vehicle.quaternion.clone(),scale=vehicle.scale.clone();
   expect(()=>withVehicleSample(vehicle,100,()=>{
-    const expected=at(100).setY(.22);expect(vehicle.position.distanceTo(expected)).toBeLessThan(1e-8);
+    const expected=at(100).add(new Vector3(0,.22,0));expect(vehicle.position.distanceTo(expected)).toBeLessThan(1e-8);
     expect(vehicle.rotation.y).toBeCloseTo(Math.atan2(tangent(100).x,tangent(100).z),9);
+    expect(vehicle.rotation.x).toBeCloseTo(-Math.asin(tangent(100).y),9);
     throw Error('readback failed');
   })).toThrow('readback failed');
   expect(vehicle.position.equals(position)).toBe(true);expect(vehicle.quaternion.equals(q)).toBe(true);expect(vehicle.scale.equals(scale)).toBe(true);
-  const actual=new Group();placeVehicle(actual,100);expect(actual.position.distanceTo(at(100).setY(.22))).toBe(0);
+  const actual=new Group();placeVehicle(actual,100);expect(actual.position.distanceTo(at(100).add(new Vector3(0,.22,0)))).toBe(0);
 });
 it('averages linear light rather than sRGB bytes and preserves static colors',()=>{
   expect(linearByte((srgbToLinear[0]+srgbToLinear[255])/2)).toBe(188);

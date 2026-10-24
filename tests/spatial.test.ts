@@ -12,10 +12,12 @@ import {
 import { observer, standGeometry } from "../src/systems/GrandstandGeometry";
 import { facilities as f, local } from "../src/data/config";
 import { cockpitAt } from "../src/systems/VehicleSimulation";
-import { length } from "../src/systems/CircuitGeometry";
+import { length,at,tangent } from "../src/systems/CircuitGeometry";
 it("uses the configured local cockpit anchor in metre world space", () => {
   const a = cockpitAt(length - 220);
-  expect(a.y).toBeCloseTo(0.22 + f.car.cockpitHeight, 8);
+  const road=at(length-220),vertical=tangent(length-220).y;
+  expect(a.y).toBeCloseTo(road.y+.22+f.car.cockpitHeight*Math.sqrt(1-vertical*vertical)+f.car.cockpitOffset*vertical,8);
+  expect(a.distanceTo(road.add(new Vector3(0,.22,0)))).toBeCloseTo(Math.hypot(f.car.cockpitHeight,f.car.cockpitOffset),8);
 });
 it("physical tyre cylinders obscure a low sightline and clear a high one", () => {
   const t = f.tyres,

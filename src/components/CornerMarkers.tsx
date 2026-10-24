@@ -24,7 +24,7 @@ export function CornerMarkers({ data, geometry, heightScale=1 }: {data: CircuitP
   useFrame(()=>{
     camera.updateMatrixWorld(true);
     const rect=gl.domElement.getBoundingClientRect(), occupied:{x:number;y:number}[]=[];
-    const obstacles=Array.from(document.querySelectorAll('#scene-labels .marker,.experience-header,.mode-nav,.map-heading,.zone-preview,.map-tools,.terrain-toggle,.explorer-title,.explorer-nav,.explorer-tools,.map-info'))
+    const obstacles=Array.from(document.querySelectorAll('#scene-labels .marker,#scene-labels .timing-tag,.experience-header,.mode-nav,.map-heading,.zone-preview,.map-tools,.terrain-toggle,.explorer-title,.explorer-nav,.explorer-tools,.map-info,.map-orientation'))
       .filter(node=>getComputedStyle(node).visibility!=="hidden").map(node=>node.getBoundingClientRect()).filter(r=>r.width>0&&r.height>0);
     points.forEach((point,i)=>{
       const label=labels.current[i];if(!label)return;

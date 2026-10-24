@@ -1,3 +1,4 @@
+import {t} from "../i18n";
 import { Component, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 export function ErrorScreen({
@@ -11,7 +12,7 @@ export function ErrorScreen({
     <div className="error-panel" role="alert">
       <h2>{title}</h2>
       <p>{message}</p>
-      <button onClick={() => location.reload()}>重新加载场景</button>
+      <button onClick={() => location.reload()}>{t("重新加载场景")}</button>
     </div>,
     document.body,
   );
@@ -27,8 +28,8 @@ export class ErrorBoundary extends Component<
   render() {
     return this.state.error ? (
       <ErrorScreen
-        title="场景加载失败"
-        message="请检查网络与浏览器 WebGL 支持，然后重新加载。"
+        title={t("场景加载失败")}
+        message={t("请检查网络与浏览器 WebGL 支持，然后重新加载。")}
       />
     ) : (
       this.props.children

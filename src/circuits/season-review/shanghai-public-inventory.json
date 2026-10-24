@@ -1,0 +1,74 @@
+{
+  "circuitId": "shanghai",
+  "season": 2026,
+  "inventoryCheckedAt": "2026-10-24",
+  "scope": "Ordinary public grandstand and grass ticket families; hospitality products are separate. This verifies the product inventory, not surveyed geometry.",
+  "sources": [
+    {
+      "url": "https://english.shanghai.gov.cn/en-SportsEvents/20260311/933bcc13c7c44363a04a036b4888a7de.html",
+      "liveCheckedAt": "2026-10-24",
+      "evidence": "2026 spectator entry guidance lists A, B, C, E, F, H, J and K; hospitality clubs are separately described."
+    },
+    {
+      "url": "https://www.shanghai.gov.cn/nw17239/20251209/b2b6c8cdfe014ce181304a4459664eb8.html",
+      "cacheCheckedAt": "2026-10-23",
+      "cacheReadAt": "2026-10-24",
+      "sha256": "ee8d7f92d35553815dde68e3c610aab7734280e9ff32e9b442ff64101c0e31aa",
+      "evidence": "Official 2026 sale announcement explicitly lists A platinum, E, C/F/J grass and the remaining A/B/H/K public ticket families."
+    }
+  ],
+  "inventoryComplete": true,
+  "areas": [
+    {
+      "zoneId": "a",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "b",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "e",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "h",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "k",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "c",
+      "kind": "grass"
+    },
+    {
+      "zoneId": "f",
+      "kind": "grass"
+    },
+    {
+      "zoneId": "j",
+      "kind": "grass"
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Grandstand Club",
+      "reason": "Hospitality club, not an additional ordinary stand or grass family."
+    },
+    {
+      "name": "T1 Club",
+      "reason": "Hospitality club, not an additional ordinary stand or grass family."
+    },
+    {
+      "name": "T16 Club",
+      "reason": "Hospitality club, not an additional ordinary stand or grass family."
+    },
+    {
+      "name": "Paddock Club",
+      "reason": "Hospitality club, not an additional ordinary stand or grass family."
+    }
+  ],
+  "geometryPrecision": "Source footprints and estimated slopes remain explicitly approximate; inventory completeness does not certify seat-level visibility."
+}
