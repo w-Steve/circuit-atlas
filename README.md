@@ -28,7 +28,7 @@ npm run preview
 ```
 
 React + TypeScript + Vite + Three.js / React Three Fiber + Zustand。
-241 项单测覆盖赛道、区域、物理、投影、曝光与历史资料完整性。
+242 项单测覆盖赛道、区域、物理、投影、曝光与历史资料完整性。
 纯前端，无用户系统、API Key 或运行时地图服务。
 
 ## 部署

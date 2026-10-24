@@ -34,4 +34,6 @@ it('seating platforms and public-ground viewpoints stay above the rendered terra
    }
   }
  }
-});
+// This scans terrain cells around every platform across 22 complete circuits.
+// CI runners are slower than the local workstation; geometry limits stay exact.
+},15000);

@@ -1,3 +1,5 @@
-# Source response SHA-256 covers the original bytes, including its final CRLF.
-# Preserve them on Linux and Windows; do not normalize this evidence.
+# Preserve upstream SVG bytes for retained Git blob provenance checks.
+public/atlas-layouts/*.svg -text
+
+# Source response hashes cover original bytes, including the final CRLF.
 src/circuits/elevation-source/ground-grids/*.json -text whitespace=cr-at-eol

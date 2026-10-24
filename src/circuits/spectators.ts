@@ -52,7 +52,9 @@ function groundTrianglesAt(surface:SpectatorSurface,p:Vector2){
   buckets=new Map();
   for(const triangle of triangles){
    const xs=triangle.map(p=>p.x),zs=triangle.map(p=>p.z);
-   for(let x=Math.floor(Math.min(...xs)/24);x<=Math.floor(Math.max(...xs)/24);x++)for(let z=Math.floor(Math.min(...zs)/24);z<=Math.floor(Math.max(...zs)/24);z++){
+   // Retain shared boundary edges in both spatial buckets despite sub-micron
+   // differences between the polygon section and the clipped mesh.
+   for(let x=Math.floor((Math.min(...xs)-1e-6)/24);x<=Math.floor((Math.max(...xs)+1e-6)/24);x++)for(let z=Math.floor((Math.min(...zs)-1e-6)/24);z<=Math.floor((Math.max(...zs)+1e-6)/24);z++){
     const key=`${x},${z}`,list=buckets.get(key)??[];list.push(triangle);buckets.set(key,list);
    }
   }
@@ -85,13 +87,27 @@ function fractionAt(surface:SpectatorSurface,p:Vector2){const r=rowDistance(surf
 function floorHeight(surface:SpectatorSurface,p:Vector2){
   const {baseHeight,rise,rows}=surface.definition,ratio=fractionAt(surface,p);
   if(!rows){
+    let edgeHeight:number|undefined,edgeDistance=1e-12;
     for(const [a,b,c] of groundTrianglesAt(surface,p)){
-      const denominator=(b.z-c.z)*(a.x-c.x)+(c.x-b.x)*(a.z-c.z);if(Math.abs(denominator)<1e-10)continue;
-      const u=((b.z-c.z)*(p.x-c.x)+(c.x-b.x)*(p.y-c.z))/denominator;
-      const v=((c.z-a.z)*(p.x-c.x)+(a.x-c.x)*(p.y-c.z))/denominator;
-      if(u>=-1e-7&&v>=-1e-7&&u+v<=1+1e-7)return u*a.y+v*b.y+(1-u-v)*c.y;
+      const denominator=(b.z-c.z)*(a.x-c.x)+(c.x-b.x)*(a.z-c.z);
+      if(Math.abs(denominator)>=1e-10){
+       const u=((b.z-c.z)*(p.x-c.x)+(c.x-b.x)*(p.y-c.z))/denominator;
+       const v=((c.z-a.z)*(p.x-c.x)+(a.x-c.x)*(p.y-c.z))/denominator;
+       if(u>=0&&v>=0&&u+v<=1)return u*a.y+v*b.y+(1-u-v)*c.y;
+      }
+      // Dimensionless barycentric epsilons fail on narrow clipped triangles:
+      // the same nanometre error can look enormous in triangle coordinates.
+      // Interpolate the actual mesh edge within ONE MICROMETRE in world space.
+      // Never move the selected point, widen the polygon or flatten its terrain.
+      for(const [from,to] of [[a,b],[b,c],[c,a]]){
+       const dx=to.x-from.x,dz=to.z-from.z,length=dx*dx+dz*dz;
+       const t=length?Math.max(0,Math.min(1,((p.x-from.x)*dx+(p.y-from.z)*dz)/length)):0;
+       const distance=(p.x-from.x-t*dx)**2+(p.y-from.z-t*dz)**2;
+       if(distance<=edgeDistance){edgeDistance=distance;edgeHeight=from.y+t*(to.y-from.y)}
+      }
     }
-    if(surface.definition.terrainFollow)throw Error('Viewpoint lies outside the public-ground mesh');
+    if(edgeHeight!==undefined)return edgeHeight;
+    if(surface.definition.terrainFollow)throw Error(`Viewpoint lies outside the public-ground mesh: ${surface.definition.surfaceId} (${p.x}, ${p.y})`);
   }
   return baseHeight+(rows>1?Math.min(rows-1,Math.floor((ratio+1e-9)*rows))/(rows-1):rows===1?0:ratio)*rise;
 }
