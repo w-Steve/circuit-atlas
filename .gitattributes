@@ -4,3 +4,7 @@ public/atlas-layouts/*.svg -text
 # Source response hashes cover original bytes, including the final CRLF.
 src/circuits/elevation-source/ground-grids/*.json -text whitespace=cr-at-eol
 src/circuits/elevation-source/regional-grids/*.json -text whitespace=cr-at-eol
+
+# Audit records bind these files to their exact source bytes.
+src/circuits/generated/spa.json -text whitespace=cr-at-eol
+src/circuits/europe/monaco-rocher-controls-2026.json -text whitespace=cr-at-eol
