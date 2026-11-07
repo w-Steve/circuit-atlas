@@ -2,7 +2,7 @@
 OSM footprints are allowlisted; temporary stands are manually digitized from organizer maps.
 Rectangle vertices and slope estimates are schematic; original event images are not shipped.
 """
-import json,math,re,unicodedata
+import json,math,re,unicodedata,hashlib
 from pathlib import Path
 import numpy as np
 from scipy.spatial import Delaunay
@@ -112,13 +112,123 @@ for id,url in sources.items():
    return (origin+world/factor).tolist()
   for name,x,y,w,d,angle in image_rects.get(id,[]):
    boundary=register(rect(x,y,w,d,angle))
-   if id=='monaco' and name.startswith('A '):boundary=(origin+np.array(rect(-429,295,25,9,5))/factor).tolist()
    add(name,[boundary],source(url,'estimated','low','2026主办方示意图人工选取边界，以弯道地理控制点作局部仿射配准；临时看台位置与尺寸为近似，不能用于具体座位购票。'))
-   records.append(dict(name=name,pixelRectangle=[x,y,w,d,angle],worldOverride=[-429,295,25,9,5] if id=='monaco' and name.startswith('A ') else None))
+   records.append(dict(name=name,pixelRectangle=[x,y,w,d,angle],worldOverride=None))
  for name,x,y,w,d,angle in world_rects.get(id,[]):
   boundary=(origin+np.array(rect(x,y,w,d,angle))/factor).tolist();add(name,[boundary],source(url,'estimated','low','根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。'))
   records.append(dict(name=name,worldRectangle=[x,y,w,d,angle]))
- data['spectatorZones']=zones;data['spectatorZoneIds']=[z['zoneId'] for z in zones];data['simulationAvailability']='available'
+ if id=='monaco':
+  for bank in ['k','a','v','t']:
+   reviewedPath=f'src/circuits/europe/monaco-{bank}-2026.json'
+   if not (root/reviewedPath).exists():continue
+   reviewed=read(reviewedPath)
+   assert reviewed['circuitId']==data['circuitId']=='monaco' and reviewed['season']==data['season']==2026,'Monaco source season mismatch'
+   fingerprint=hashlib.sha256(json.dumps({k:data[k] for k in ['trackGeometry','corners','elevation']},sort_keys=True,separators=(',',':')).encode()).hexdigest()
+   assert fingerprint==reviewed['geometryFingerprint'],'Rebuild Monaco stand after road/terrain changes'
+   assert reviewed['zone']['availability']=='available' and reviewed.get('sceneAcceptance',{}).get('accepted'),'Do not regenerate an unaccepted Monaco scene'
+   slot=next(i for i,z in enumerate(zones) if z['zoneId']==reviewed['zone']['zoneId'])
+   zones[slot]=reviewed['zone']
+ if id=='madrid':
+  for reviewedPath in ['src/circuits/europe/madrid-ga1-2026.json','src/circuits/europe/madrid-gb1-2026.json','src/circuits/europe/madrid-gb2-2026.json','src/circuits/europe/madrid-c-2026.json','src/circuits/europe/madrid-gc3-2026.json','src/circuits/europe/madrid-ge24-2026.json','src/circuits/europe/madrid-gk-2026.json','src/circuits/europe/madrid-ge1-2026.json','src/circuits/europe/madrid-ge7-2026.json','src/circuits/europe/madrid-inner-2026.json','src/circuits/europe/madrid-ge18-2026.json','src/circuits/europe/madrid-ge20-2026.json','src/circuits/europe/madrid-ge23-2026.json']:
+   if not (root/reviewedPath).exists():continue
+   reviewed=read(reviewedPath)
+   fingerprint=hashlib.sha256(json.dumps({k:data[k] for k in ['trackGeometry','corners','elevation']},sort_keys=True,separators=(',',':')).encode()).hexdigest()
+   assert fingerprint==reviewed['geometryFingerprint'],'Rebuild reviewed Madrid source for changed road/terrain'
+   for entry in reviewed.get('banks',[reviewed]):
+    zone=entry['zone']
+    if zone['availability']=='available':assert entry.get('sceneAcceptance',{}).get('accepted'),'Do not regenerate an unaccepted available Madrid bank'
+    slot=next((i for i,z in enumerate(zones) if z['zoneId']==zone['zoneId']),None)
+    if slot is None:
+     assert entry.get('oldZone') is None,'Missing legacy Madrid bank'
+     zones.append(zone)
+    else:zones[slot]=zone
+ if id=='madrid' and (root/'src/circuits/season-review/madrid-withdrawn-public-models.json').exists():
+  withdrawn=read('src/circuits/season-review/madrid-withdrawn-public-models.json')['withdrawn']
+  for entry in withdrawn:
+   current=next((z for z in zones if z['zoneId']==entry['zoneId']),None)
+   assert current is None or current['name']==entry['originalZone']['name'],'Do not withdraw a newly reidentified public bank'
+  zones=[z for z in zones if z['zoneId'] not in {e['zoneId'] for e in withdrawn}]
+ if id=='silverstone':
+  reviewed=read('src/circuits/europe/silverstone-village-a-2026.json')
+  assert reviewed['circuitId']==id and reviewed['season']==data['season']==2026
+  fingerprint=hashlib.sha256(json.dumps({k:data[k] for k in ['trackGeometry','corners','elevation']},sort_keys=True,separators=(',',':')).encode()).hexdigest()
+  assert fingerprint==reviewed['geometryFingerprint'],'Rebuild Village A after road/terrain changes'
+  assert reviewed.get('sceneAcceptance',{}).get('accepted') and reviewed['zone']['availability']=='available','Do not regenerate an unaccepted Village A'
+  assert reviewed['roadIntersectionMetres2']<1e-6 and not reviewed['otherIntersections']
+  zones[next(i for i,z in enumerate(zones) if z['zoneId']=='village-a')]=reviewed['zone']
+  for area in read('src/circuits/europe/silverstone-boxpark-2026.json')['areas']:
+   assert not area['geometryAccepted'] and area['newMetadata']['availability']=='preparing'
+   next(z for z in zones if z['zoneId']==area['zoneId']).update(area['newMetadata'])
+  club_path=root/'src/circuits/europe/silverstone-club-2026.json'
+  if club_path.exists():
+   from importlib.util import spec_from_file_location,module_from_spec
+   spec=spec_from_file_location('reviewed_club',root/'scripts/apply-silverstone-club.py');module=module_from_spec(spec);spec.loader.exec_module(module)
+   club=read(str(club_path.relative_to(root)));desired=module.reviewed(data,club);retired={z['zoneId'] for z in club['oldZones']+desired}
+   zones=[z for z in zones if z['zoneId'] not in retired]+desired;data['spectatorZoneAliases']={**data.get('spectatorZoneAliases',{}),**club['aliases']}
+  ga_path=root/'src/circuits/europe/silverstone-national-ga-2026.json'
+  if ga_path.exists() and read(str(ga_path.relative_to(root)))['sceneAcceptance'].get('accepted'):
+   from importlib.util import spec_from_file_location,module_from_spec
+   spec=spec_from_file_location('reviewed_nps_ga',root/'scripts/apply-silverstone-national-ga.py');module=module_from_spec(spec);spec.loader.exec_module(module)
+   zone,stand,layer=module.reviewed(data,read(str(ga_path.relative_to(root))))
+   zones=[stand if z['zoneId']==stand['zoneId'] else z for z in zones if z['zoneId']!=zone['zoneId']]+[zone]
+   assert read('src/circuits/barriers/silverstone.json')==layer,'Restore required accepted GA barriers before regenerating'
+  vale_path=root/'src/circuits/europe/silverstone-vale-2026.json'
+  if vale_path.exists() and read(str(vale_path.relative_to(root)))['sceneAcceptance'].get('accepted'):
+   from importlib.util import spec_from_file_location,module_from_spec
+   spec=spec_from_file_location('reviewed_vale',root/'scripts/apply-silverstone-vale.py');module=module_from_spec(spec);spec.loader.exec_module(module)
+   zone,layer=module.reviewed(data,read(str(vale_path.relative_to(root))))
+   zones=[zone if z['zoneId']=='vale' else z for z in zones]
+   assert read('src/circuits/barriers/silverstone-vale.json')==layer,'Restore required Vale barriers before regenerating'
+  vale_ga_path=root/'src/circuits/europe/silverstone-vale-ga-2026.json'
+  if vale_ga_path.exists() and read(str(vale_ga_path.relative_to(root)))['sceneAcceptance'].get('accepted'):
+   from importlib.util import spec_from_file_location,module_from_spec
+   spec=spec_from_file_location('reviewed_vale_ga',root/'scripts/apply-silverstone-vale-ga.py');module=module_from_spec(spec);spec.loader.exec_module(module)
+   zone=module.reviewed({**data,'spectatorZones':zones},read(str(vale_ga_path.relative_to(root))))
+   zones=[z for z in zones if z['zoneId']!=zone['zoneId']]+[zone]
+  farm_ga_path=root/'src/circuits/europe/silverstone-farm-ga-2026.json'
+  if farm_ga_path.exists() and read(str(farm_ga_path.relative_to(root)))['sceneAcceptance'].get('accepted'):
+   from importlib.util import spec_from_file_location,module_from_spec
+   spec=spec_from_file_location('reviewed_farm_ga',root/'scripts/apply-silverstone-farm-ga.py');module=module_from_spec(spec);spec.loader.exec_module(module)
+   zone,stand,layer=module.reviewed(data,read(str(farm_ga_path.relative_to(root))))
+   zones=[stand if z['zoneId']=='farm-curve' else z for z in zones if z['zoneId']!=zone['zoneId']]+[zone]
+   assert read('src/circuits/barriers/silverstone-farm.json')==layer,'Restore accepted Farm native fences before regenerating'
+ if id=='spielberg' and (root/'src/circuits/europe/spielberg-t3-2026.json').exists() and read('src/circuits/europe/spielberg-t3-2026.json')['sceneAcceptance']['accepted']:
+  from importlib.util import spec_from_file_location,module_from_spec
+  spec=spec_from_file_location('reviewed_t3',root/'scripts/apply-spielberg-t3.py');module=module_from_spec(spec);spec.loader.exec_module(module)
+  zone=module.reviewed(data,read('src/circuits/europe/spielberg-t3-2026.json'))
+  zones=[zone if z['zoneId']=='t3' else z for z in zones]
+ if id=='spielberg' and (root/'src/circuits/europe/spielberg-t9-identity-2026.json').exists():
+  from importlib.util import spec_from_file_location,module_from_spec
+  spec=spec_from_file_location('reviewed_t9',root/'scripts/apply-spielberg-t9-identity.py');module=module_from_spec(spec);spec.loader.exec_module(module)
+  record=read('src/circuits/europe/spielberg-t9-identity-2026.json');zone=module.reviewed(data,record)
+  zones=[zone if z['zoneId'] in ['ost-t8','t9'] else z for z in zones]
+  data['spectatorZoneAliases']={**data.get('spectatorZoneAliases',{}),**record['aliases']}
+ if id=='spa' and (root/'src/circuits/europe/spa-gold7-2026.json').exists():
+  from importlib.util import spec_from_file_location,module_from_spec
+  spec=spec_from_file_location('reviewed_spa_gold7',root/'scripts/apply-spa-gold7.py');module=module_from_spec(spec);spec.loader.exec_module(module)
+  zone,layer=module.reviewed(data,read('src/circuits/europe/spa-gold7-2026.json'))
+  assert read('src/circuits/barriers/spa-gold7.json')==layer,'Restore accepted Gold7 barriers before regenerating'
+  zones=[zone if z['zoneId']==zone['zoneId'] else z for z in zones]
+ if id=='spa' and (root/'src/circuits/europe/spa-gold8-2026.json').exists():
+  from importlib.util import spec_from_file_location,module_from_spec
+  spec=spec_from_file_location('reviewed_spa_gold8',root/'scripts/apply-spa-gold7.py');module=module_from_spec(spec);spec.loader.exec_module(module)
+  zone,layer=module.reviewed(data,read('src/circuits/europe/spa-gold8-2026.json'),'Gold8')
+  assert read('src/circuits/barriers/spa-gold7.json')==layer,'Restore shared La Source barriers before regenerating'
+  zones=[zone if z['zoneId']==zone['zoneId'] else z for z in zones]
+ if id=='spa' and (root/'src/circuits/europe/spa-gold7-bis-2026.json').exists():
+  from importlib.util import spec_from_file_location,module_from_spec
+  spec=spec_from_file_location('reviewed_spa_bis',root/'scripts/apply-spa-gold7.py');module=module_from_spec(spec);spec.loader.exec_module(module)
+  zone,layer=module.reviewed(data,read('src/circuits/europe/spa-gold7-bis-2026.json'),'Bis')
+  assert read('src/circuits/barriers/spa-gold7.json')==layer,'Restore shared La Source barriers before regenerating'
+  zones=[z for z in zones if z['zoneId']!=zone['zoneId']]+[zone]
+ if cid=='barcelona':
+  import importlib.util
+  spec=importlib.util.spec_from_file_location('barcelona_bank',root/'scripts/apply-barcelona-n-bank.py')
+  module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+  accepted=module.reviewed_zones(data,read('src/circuits/europe/barcelona-n-bank-2026.json'))
+  ids={z['zoneId'] for z in accepted}
+  zones=[z for z in zones if z['zoneId'] not in ids]+accepted
+ data['spectatorZones']=zones;data['spectatorZoneIds']=[z['zoneId'] for z in zones if z['availability']=='available'];data['simulationAvailability']='available'
  (root/f'src/circuits/generated/{id}.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf8')
  manifest[id]=dict(source=url,osm=osm.get(id,{}),imageControls=controls.get(id,{}),manual=records,zones=len(zones))
  print(id,len(zones),flush=True)
@@ -137,3 +247,89 @@ subprocess.run([__import__("sys").executable,"scripts/apply-zandvoort-ga.py"],cw
 subprocess.run(["node", "node_modules/vite-node/vite-node.mjs", "scripts/export-spectator-audit.ts"], cwd=root, check=True)
 subprocess.run([__import__("sys").executable, "scripts/audit-europe-spectators.py"], cwd=root, check=True)
 subprocess.run([__import__("sys").executable, "scripts/constrain-spectator-footprints.py"], cwd=root, check=True)
+subprocess.run([__import__("sys").executable, "scripts/apply-silverstone-boxpark-review.py"], cwd=root, check=True)
+
+subprocess.run([sys.executable,'scripts/apply-spielberg-supplement.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-hungaroring-supplement.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-barcelona-supplement.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-monaco-rocher.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-spa-ter.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-spa-repairs.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-zandvoort-repairs.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-silverstone-supplement.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-silverstone-ga-plus.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-silverstone-remaining-ga.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-hungaroring-fan2.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-hungaroring-ga-bands.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-monaco-b.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-barcelona-jove.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-madrid-c-ground.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-spielberg-ga-west.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-monaco-e.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-monaco-x.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-madrid-remaining-approx.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-barcelona-common-pelouse.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-barcelona-pelouse-north.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-barcelona-pelouse-t8.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-spa-bronze.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-barcelona-pelouse-privilege.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-monaco-o-tiers.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-monaco-t-tiers.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-monaco-m-withdrawal.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-madrid-gd12-approx.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-silverstone-accessible.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-silverstone-inside-nine.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-madrid-outer-supplement.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-monza-supplement.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-spa-annual-supplement.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)

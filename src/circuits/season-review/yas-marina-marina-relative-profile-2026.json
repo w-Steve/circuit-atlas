@@ -1,0 +1,64 @@
+{
+  "circuitId": "yas-marina",
+  "season": 2026,
+  "checkedAt": "2026-10-30",
+  "sectionId": "MR04",
+  "points": [
+    {
+      "seatId": "S_MR04-A-46",
+      "position": [
+        511.3679,
+        14.039,
+        -118.6401
+      ],
+      "sha256": "be6561ca431d8e01f22d9e4e03537588812d0cea75155f4d95379e7bb337f07a",
+      "sourceUrl": "https://resources-contentdistribution.3ddvapis.com/v2-resources-eu-west-1/as-ae-00002/default/circuit/default/viewer3d/panos/v1.2/S_MR04-A-46/config.json?v=1.7.1"
+    },
+    {
+      "seatId": "S_MR04-A-47",
+      "position": [
+        511.0609,
+        14.039,
+        -119.0351
+      ],
+      "sha256": "b83690824b7a22232d65f516f7fb008ff674cb8383c0366361795481c245a7b6",
+      "sourceUrl": "https://resources-contentdistribution.3ddvapis.com/v2-resources-eu-west-1/as-ae-00002/default/circuit/default/viewer3d/panos/v1.2/S_MR04-A-47/config.json?v=1.7.1"
+    },
+    {
+      "seatId": "S_MR04-R-47",
+      "position": [
+        521.467,
+        22.429,
+        -127.1654
+      ],
+      "sha256": "a2b501229f56196c0b88c165fb499e56cc9034a9bd9fe72f9b35e9524a6ca6b1",
+      "sourceUrl": "https://resources-contentdistribution.3ddvapis.com/v2-resources-eu-west-1/as-ae-00002/default/circuit/default/viewer3d/panos/v1.2/S_MR04-R-47/config.json?v=1.7.1"
+    }
+  ],
+  "sourceAcquisition": "Normal configured public viewer UI; each selected seat identity verified from actual loaded panorama config. No login, purchase or credential replay.",
+  "nativeModelUnits": "Unspecified by source config. Recorded values are NOT automatically metres or orthometric altitude.",
+  "relativeGeometry": {
+    "adjacentHeightDifference": 0.0,
+    "adjacentSpacingModelUnits": 0.5002739249651204,
+    "frontRearHorizontalRunModelUnits": 13.205631196576697,
+    "frontRearRiseModelUnits": 8.389999999999999,
+    "viewpointGradeRatio": 0.6353350229995022,
+    "viewpointGradeDegrees": 32.429224747107035,
+    "numberedRowIntervals": 15,
+    "lateralDriftModelUnits": 0.03357320692054099
+  },
+  "visualCheck": "FrontA46 and rearR47 configured rendered panoramas actually viewed; rear includes close canopy/bracing over sightline, front rail visible. Preserve these structural constraints, do not move roof to clear view.",
+  "limits": [
+    "Slope ratio is invariant to a common uniform XYZ scale and vertical translation; a nonuniform vendor scale would need further validation.",
+    "This is a viewpoint gradient from a configured render, not an independently surveyed seating floor; equal camera-eye offsets between rows are an unverified assumption.",
+    "MR04 only: do not silently apply the cross-section to other six blocks merely because each has16 row labels.",
+    "Absolute garage floor, vertical datum and geographic front/back registration remain unresolved; model not published."
+  ],
+  "runtimeApplied": false,
+  "coordinateUnitReview": {
+    "url": "https://docs.3ddvapis.com/js/dvm/modules/3d_viewer/api/",
+    "checkedAt": "2026-10-30",
+    "finding": "lookAt documents venue vs panorama-local coordinates. No explicit metre-unit or datum statement found in the inspected API page; bounded inspection is not proof no unit documentation exists elsewhere.",
+    "action": "Do not repeat source point acquisition or declare absolute height from this API page. Preserve relative facts; keep metre/floor calibration unresolved."
+  }
+}

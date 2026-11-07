@@ -1,0 +1,102 @@
+{
+  "circuitId": "barcelona",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "pelouse-jove",
+      "name": "Pelouse Jove · T4",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          2.254826576755059,
+          41.56824159413328
+        ],
+        [
+          2.255148125214008,
+          41.56775927144486
+        ],
+        [
+          2.2549332281271,
+          41.567679083130116
+        ],
+        [
+          2.2546116796681503,
+          41.56816140581854
+        ],
+        [
+          2.254826576755059,
+          41.56824159413328
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 20,
+        "eyeHeight": 1.65
+      },
+      "surfaces": [
+        {
+          "surfaceId": "pelouse-jove-1",
+          "boundary": [
+            [
+              2.254826576755059,
+              41.56824159413328
+            ],
+            [
+              2.255148125214008,
+              41.56775927144486
+            ],
+            [
+              2.2549332281271,
+              41.567679083130116
+            ],
+            [
+              2.2546116796681503,
+              41.56816140581854
+            ],
+            [
+              2.254826576755059,
+              41.56824159413328
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4
+        }
+      ],
+      "source": {
+        "url": "https://www.circuitcat.com/en/news/formula-1/the-barcelona-catalunya-gp-increases-its-focus-on-entertainment/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026-06-05 F1 event article locates Pelouse Jove atTurn4; final2026 wayfinding shows distinct inside-turn area, separate from Privilege and reserved M. Author approximate60x20m ground,24m offset inside/right of T4 exit. No surveyed ticket boundary or constructed terrace elevation. Source DEM standing1.65m."
+      },
+      "surfaceSource": {
+        "url": "https://www.circuitcat.com/en/news/formula-1/the-barcelona-catalunya-gp-increases-its-focus-on-entertainment/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026-06-05 F1 event article locates Pelouse Jove atTurn4; final2026 wayfinding shows distinct inside-turn area, separate from Privilege and reserved M. Author approximate60x20m ground,24m offset inside/right of T4 exit. No surveyed ticket boundary or constructed terrace elevation. Source DEM standing1.65m."
+      },
+      "openingSource": {
+        "url": "https://www.circuitcat.com/en/news/formula-1/the-barcelona-catalunya-gp-increases-its-focus-on-entertainment/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter2026-06-05 F1 event article locates Pelouse Jove atTurn4; final2026 wayfinding shows distinct inside-turn area, separate from Privilege and reserved M. Author approximate60x20m ground,24m offset inside/right of T4 exit. No surveyed ticket boundary or constructed terrace elevation. Source DEM standing1.65m."
+      },
+      "description": "T4 Jove草地近似范围；地形及围网可能遮挡视线。",
+      "admissionNote": "Jove专属区域，按当年对应票种及准入要求使用；不含Privilege和相邻M看台。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Promoter annual named T4 sector and explicit approximate inside-turn ground envelope."
+      }
+    }
+  ],
+  "beforeZones": []
+}

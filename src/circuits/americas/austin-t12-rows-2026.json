@@ -1,0 +1,316 @@
+{
+  "circuitId": "austin",
+  "season": 2026,
+  "source": {
+    "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+    "checkedAt": "2026-11-07",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "Organizer 2026 article gives Turn12 maximum numbered row37. Apply that maximum to the main long bank as an approximation, retain original footprint/base/total rise. The disconnected short western bank is not proven to share the full37-row extent; retain its18 estimated render steps, not sum18+37 into a ticket row count."
+  },
+  "beforeZones": [
+    {
+      "zoneId": "turn-12",
+      "name": "Turn 12",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -97.6365079,
+          30.1379136
+        ],
+        [
+          -97.6351995,
+          30.1380134
+        ],
+        [
+          -97.6351606,
+          30.1380163
+        ],
+        [
+          -97.6351389,
+          30.1378039
+        ],
+        [
+          -97.6353101,
+          30.1377909
+        ],
+        [
+          -97.6364862,
+          30.1377011
+        ],
+        [
+          -97.6365079,
+          30.1379136
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "turn-12-1",
+          "boundary": [
+            [
+              -97.6365079,
+              30.1379136
+            ],
+            [
+              -97.6351995,
+              30.1380134
+            ],
+            [
+              -97.6351606,
+              30.1380163
+            ],
+            [
+              -97.6351389,
+              30.1378039
+            ],
+            [
+              -97.6353101,
+              30.1377909
+            ],
+            [
+              -97.6364862,
+              30.1377011
+            ],
+            [
+              -97.6365079,
+              30.1379136
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.12,
+          "eyeHeight": 1.2,
+          "rows": 22,
+          "frontReference": [
+            -97.63559033466764,
+            30.137480056192857
+          ]
+        },
+        {
+          "surfaceId": "turn-12-2",
+          "boundary": [
+            [
+              -97.6379827,
+              30.137744
+            ],
+            [
+              -97.6379576,
+              30.1375649
+            ],
+            [
+              -97.6375471,
+              30.1376079
+            ],
+            [
+              -97.6375722,
+              30.137787
+            ],
+            [
+              -97.6379827,
+              30.137744
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 9.04,
+          "eyeHeight": 1.2,
+          "rows": 18,
+          "frontReference": [
+            -97.6376144017878,
+            30.136600988335342
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.12,
+        "depth": 24.72,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.openstreetmap.org/way/460683347",
+        "checkedAt": "2026-10-23",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM看台建筑与公开场馆图匹配；way/460683347,1183793500。非座椅测绘/票务边界。"
+      },
+      "openingSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+      },
+      "surfaceSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "座席带、高度、坡度、阶梯行数和围网均为估计；不能保证真实座位的遮挡和距离。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    }
+  ],
+  "zones": [
+    {
+      "zoneId": "turn-12",
+      "name": "Turn 12",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -97.6365079,
+          30.1379136
+        ],
+        [
+          -97.6351995,
+          30.1380134
+        ],
+        [
+          -97.6351606,
+          30.1380163
+        ],
+        [
+          -97.6351389,
+          30.1378039
+        ],
+        [
+          -97.6353101,
+          30.1377909
+        ],
+        [
+          -97.6364862,
+          30.1377011
+        ],
+        [
+          -97.6365079,
+          30.1379136
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "turn-12-1",
+          "boundary": [
+            [
+              -97.6365079,
+              30.1379136
+            ],
+            [
+              -97.6351995,
+              30.1380134
+            ],
+            [
+              -97.6351606,
+              30.1380163
+            ],
+            [
+              -97.6351389,
+              30.1378039
+            ],
+            [
+              -97.6353101,
+              30.1377909
+            ],
+            [
+              -97.6364862,
+              30.1377011
+            ],
+            [
+              -97.6365079,
+              30.1379136
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.12,
+          "eyeHeight": 1.2,
+          "rows": 37,
+          "frontReference": [
+            -97.63559033466764,
+            30.137480056192857
+          ],
+          "rowRiserMetres": 0.3088888888888889,
+          "rowCountSource": {
+            "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+            "checkedAt": "2026-11-07",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Organizer 2026 article gives Turn12 maximum numbered row37. Apply that maximum to the main long bank as an approximation, retain original footprint/base/total rise. The disconnected short western bank is not proven to share the full37-row extent; retain its18 estimated render steps, not sum18+37 into a ticket row count."
+          }
+        },
+        {
+          "surfaceId": "turn-12-2",
+          "boundary": [
+            [
+              -97.6379827,
+              30.137744
+            ],
+            [
+              -97.6379576,
+              30.1375649
+            ],
+            [
+              -97.6375471,
+              30.1376079
+            ],
+            [
+              -97.6375722,
+              30.137787
+            ],
+            [
+              -97.6379827,
+              30.137744
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 9.04,
+          "eyeHeight": 1.2,
+          "rows": 18,
+          "frontReference": [
+            -97.6376144017878,
+            30.136600988335342
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.12,
+        "depth": 24.72,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.openstreetmap.org/way/460683347",
+        "checkedAt": "2026-10-23",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM看台建筑与公开场馆图匹配；way/460683347,1183793500。非座椅测绘/票务边界。"
+      },
+      "openingSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+      },
+      "surfaceSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer 2026 article gives Turn12 maximum numbered row37. Apply that maximum to the main long bank as an approximation, retain original footprint/base/total rise. The disconnected short western bank is not proven to share the full37-row extent; retain its18 estimated render steps, not sum18+37 into a ticket row count."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      },
+      "admissionNote": "主座席带按最高37排近似；西侧短座席带仍为估计，不合并计算排号。"
+    }
+  ],
+  "regions": [],
+  "unresolved": "Disconnected west-bank identity and exact per-section extent; ADA platform below row1 still missing."
+}

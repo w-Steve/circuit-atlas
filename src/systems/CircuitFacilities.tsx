@@ -6,13 +6,21 @@ import {Line3,Vector3} from 'three';
 import type {CircuitPackage} from '../circuits/types';
 import type {createCircuitGeometry} from '../circuits/geometry';
 import {buildingModel,pitLaneModel} from '../circuits/facilityGeometry';
-import {useApp} from '../store';
+import {createPitRoadJoin} from '../circuits/pitRoadJoin';
+import type {BufferGeometry} from 'three';
+import {useCircuit,useCircuitStore} from '../app/CircuitContext';
 type Geometry=ReturnType<typeof createCircuitGeometry>;
-export function CircuitFacilities({data,geometry}:{data:CircuitPackage;geometry:Geometry}){
+export function CircuitFacilities({data,geometry,road,verge}:{data:CircuitPackage;geometry:Geometry;road:BufferGeometry;verge:BufferGeometry}){
+  const useApp=useCircuitStore();
  const mode=useApp(s=>s.mode);
  const {gl}=useThree();
- const models=useMemo(()=>({buildings:(data.facilities?.buildings??[]).map(b=>({...buildingModel(data,geometry,b),id:b.id})),lanes:(data.facilities?.pitLanes??[]).filter(l=>!l.underground).map(l=>pitLaneModel(data,geometry,l))}),[data,geometry]);
- useEffect(()=>{gl.domElement.dataset.facilityBuildings=String(models.buildings.length);gl.domElement.dataset.facilityLanes=String(models.lanes.length)},[gl,models]);
+ const models=useMemo(()=>{
+  const join=createPitRoadJoin(road,verge);
+  return {buildings:(data.facilities?.buildings??[]).map(b=>({...buildingModel(data,geometry,b),id:b.id})),lanes:(data.facilities?.pitLanes??[]).filter(l=>!l.underground).map(l=>{
+   const model=pitLaneModel(data,geometry,l),joined=join(model.geometry);model.geometry.dispose();return {...model,geometry:joined};
+  })};
+ },[data,geometry,road,verge]);
+ useEffect(()=>{gl.domElement.dataset.facilityBuildings=String(models.buildings.length);gl.domElement.dataset.facilityLanes=String(models.lanes.length);gl.domElement.dataset.facilityTriangles=String(models.lanes.reduce((n,l)=>n+l.geometry.getAttribute('position').count/3,0))},[gl,models]);
  useEffect(()=>()=>{models.buildings.forEach(b=>{b.walls.dispose();b.roof.dispose()});models.lanes.forEach(l=>l.geometry.dispose())},[models]);
  const panels=useMemo(()=>{
   const segments=models.lanes.flatMap(l=>l.points.slice(0,-1).map((p,i)=>new Line3(p,l.points[i+1])));

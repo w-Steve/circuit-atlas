@@ -1,0 +1,64 @@
+{
+  "circuitId": "monaco",
+  "season": 2026,
+  "checkedAt": "2026-10-26",
+  "product": "Secteur Rocher",
+  "sourceUrl": "https://acm.mc/wp-content/uploads/2025/05/Plan_Circuit_GPF12026_1920x1800-4-scaled.jpg",
+  "sourceSha256": "3d40d544403b11b070e28840079b7117ace6fe6cd2f553ffb8699ac98c3d887d",
+  "basisPdfSha256": "cb99a81467c6327ccd5fa34426ef0921c4a4957f648f8d3255466b3d094066ee",
+  "method": "Exact source-image similarity and21 normalized source-road samples per named-turn interval, matching build-monaco-standing-world.py. Convex support only; no geographic extrapolation.",
+  "controlCount": 399,
+  "parts": [
+    {
+      "part": 1,
+      "vertexCount": 27,
+      "unsupportedVertexCount": 27,
+      "outsideSupportAreaFraction": 1.0,
+      "minimumSupportDistanceBasisPixels": 55.382
+    },
+    {
+      "part": 2,
+      "vertexCount": 189,
+      "unsupportedVertexCount": 189,
+      "outsideSupportAreaFraction": 1.0,
+      "minimumSupportDistanceBasisPixels": 25.335
+    },
+    {
+      "part": 3,
+      "vertexCount": 73,
+      "unsupportedVertexCount": 73,
+      "outsideSupportAreaFraction": 1.0,
+      "minimumSupportDistanceBasisPixels": 77.362
+    },
+    {
+      "part": 4,
+      "vertexCount": 81,
+      "unsupportedVertexCount": 81,
+      "outsideSupportAreaFraction": 1.0,
+      "minimumSupportDistanceBasisPixels": 67.779
+    }
+  ],
+  "decision": "No geographic model generated. Independent matched street/landmark controls are required outside the racing-line support.",
+  "missingEvidence": [
+    "Identifiable image locations with independent geographic coordinates surrounding the entire Rocher outline.",
+    "Local footpaths/platform/retaining-wall geometry for reliable standing-eye simulation."
+  ],
+  "excludedShortcuts": [
+    "Nearby OSM forest parcels are not2026 ticket-access boundaries.",
+    "Street names alone do not identify an exact corresponding image/GPS control point.",
+    "A new terrain grid supplies heights, not ticket-area georeferencing."
+  ],
+  "supplementaryRetrievals": [
+    {
+      "url": "https://www.fia.com/sites/default/files/media_kit_2026_gb_03.06_1.pdf",
+      "status": 404,
+      "decision": "Not acquired; search metadata is not downloaded source evidence."
+    },
+    {
+      "url": "https://www.fia.com/sites/default/files/guide_media_2026_2_0.pdf",
+      "status": 404,
+      "decision": "Not acquired; search metadata is not downloaded source evidence."
+    }
+  ],
+  "limitation": "Distances are in source artwork pixels, not metres or surveyed error. This report does not certify public access, model accuracy or visibility."
+}

@@ -18,6 +18,8 @@ metric_records=read(f'{destination}/metric-geometry.json')
 if only and only not in {r['id'] for r in metric_records}:raise ValueError(f'Unknown circuit audit target: {only}')
 report=[]
 names={}
+boxparkReviewPath=root/'src/circuits/europe/silverstone-boxpark-2026.json'
+boxparkHolds={a['zoneId']:a['newMetadata']['geometryReview']['issues'] for a in read(str(boxparkReviewPath.relative_to(root)))['areas'] if not a['geometryAccepted']} if boxparkReviewPath.exists() else {}
 for record in metric_records:
     cid=record['id']; data=read(f'src/circuits/generated/{cid}.json')
     if only and cid!=only:continue
@@ -47,16 +49,28 @@ for record in metric_records:
             crossing=line.intersection(LineString([center-normal*450,center+normal*450]))
             candidates=[g for g in getattr(crossing,'geoms',[crossing]) if g.geom_type=='Point']
             candidates=[p for p in candidates if p.distance(Point(center))>data['trackGeometry']['widthMetres']/2]
-            if surface.get('terrainFollow'):
-                # An unseated public bank has no row bearing. Its real closest
-                # road is the default view, not a partition's PCA normal.
-                surface['frontReference']=(origin+nearest/factor).tolist()
+            if surface.get('rowStrip') or surface.get('rowFrontEdge'):
+                # Source-authored fronts can be curved or skew. Do not replace
+                # their reviewed road reference with a whole-building PCA ray.
+                ref=surface.get('frontReference')
+                if not ref or len(ref)!=2 or not np.isfinite(ref).all():issues.append(f"{surface['surfaceId']}: invalid authored front reference")
+            elif surface.get('terrainFollow'):
+                # Public ground already defaults to the nearest road in the
+                # shared runtime. Audit, rather than invent/overwrite, a source
+                # reference; GA has no seating face requiring a PCA direction.
+                ref=surface.get('frontReference')
+                if ref is not None and (len(ref)!=2 or not np.isfinite(ref).all()):issues.append(f"{surface['surfaceId']}: invalid ground view reference")
             elif candidates:
                 target=np.array(min(candidates,key=lambda p:p.distance(Point(center))).coords[0])
-                surface['frontReference']=(origin+target/factor).tolist()
+                reference=(origin+target/factor).tolist()
+                previous=surface.get('frontReference')
+                # Keep an equivalent authored value across Float32 audit
+                # exports (0.1mm), without accepting a changed bearing.
+                if previous is None or np.linalg.norm((np.array(previous)-reference)*factor)>1e-4:surface['frontReference']=reference
             else:
                 issues.append(f"{surface['surfaceId']}: no road across either seating face")
             details.append(dict(surfaceId=surface['surfaceId'],roadOverlapSquareMetres=round(area,3),nearestRoadObliquityDegrees=round(angle,2),frontReference=surface.get('frontReference')))
+        if cid=='silverstone':issues+=boxparkHolds.get(zone['zoneId'],[])
         zone['availability']='preparing' if issues else 'available'
         zone['geometryReview']={'checkedAt':'2026-10-23','issues':issues,'method':'Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates.'}
         report.append(dict(circuitId=cid,zoneId=zone['zoneId'],availability=zone['availability'],issues=issues,surfaces=details))

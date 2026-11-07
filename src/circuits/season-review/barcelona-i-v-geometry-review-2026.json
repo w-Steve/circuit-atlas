@@ -1,0 +1,103 @@
+{
+  "circuitId": "barcelona",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "annualIdentitySource": "src/circuits/season-review/barcelona-public-map-identity-review.json",
+  "runtimeApplied": false,
+  "areas": [
+    {
+      "productId": "i",
+      "imagery": {
+        "requestUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=2.2615%2C41.5715%2C2.266%2C41.576&bboxSR=4326&imageSR=4326&size=1200%2C1200&format=png&f=json",
+        "extent": {
+          "xmin": 2.2615000000000007,
+          "ymin": 41.57150000000003,
+          "xmax": 2.266000000000001,
+          "ymax": 41.57600000000003,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "sha256": "e5248fa27f9d71645e12e6d86d8e19a7b369ddb65b1fdd03b2011439243648a7",
+        "metadataUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/identify?f=json&geometry=2.264%2C41.573&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=2.2615%2C41.5715%2C2.266%2C41.576&imageDisplay=1200%2C1200%2C96&returnGeometry=false",
+        "captureDate": "20251122",
+        "resolutionMetres": 0.5,
+        "reportedAccuracyMetres": 8.47
+      },
+      "observation": "Curved temporary structure outside the final turn is distinguishable, but completed seating extent and canopy are not independently established. No spectator footprint or roof inferred from bare framework.",
+      "nativeSnapshot": {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=2.2628,41.5724,2.265,41.5747",
+        "sha256": "7da5ab698f7dd125e195cb7612e00876d77a4782ae74151c0374aa7c3e71ecc0",
+        "checkedAt": "2026-10-29"
+      },
+      "nativeFinding": "No separately named I grandstand in bounded live source. GardenClub1427281567 is explicitly a bar/hospitality building, not evidence of ordinary I seating.",
+      "nextAction": "Obtain an installed-seat and canopy reference tied to the physical site, or a locatable installation plan."
+    },
+    {
+      "productId": "v",
+      "imagery": {
+        "requestUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=2.2585%2C41.5665%2C2.2625%2C41.5705&bboxSR=4326&imageSR=4326&size=1200%2C1200&format=png&f=json",
+        "extent": {
+          "xmin": 2.2584999999999984,
+          "ymin": 41.566500000000005,
+          "xmax": 2.2625000000000033,
+          "ymax": 41.57050000000001,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "sha256": "68b7b214706bda85e11481594180db042a92d6d2e66b39a913d5f82db6d91b6e",
+        "metadataUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/identify?f=json&geometry=2.2602%2C41.5682&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=2.2585%2C41.5665%2C2.2625%2C41.5705&imageDisplay=1200%2C1200%2C96&returnGeometry=false",
+        "captureDate": "20251122",
+        "resolutionMetres": 0.5,
+        "reportedAccuracyMetres": 8.47
+      },
+      "observation": "Gap between existing J and Principal contains distinguishable temporary framework, not enough evidence for a complete seat envelope. Existing Principal polygon alone does not establish V coverage.",
+      "existingBounds": {
+        "j": [
+          2.2588142,
+          41.5667288,
+          2.2598363,
+          41.5678179
+        ],
+        "principal": [
+          2.2605478,
+          41.5688006,
+          2.2626497,
+          41.5711175
+        ]
+      },
+      "cachedNativeSource": {
+        "path": "research/local-polish/barcelona-osm.xml",
+        "sha256": "fc71c173e33d088524f7bb710283400c3d08438c9fe7ee799fc7ab7e1cd28bd5"
+      },
+      "excludedAssociations": [
+        {
+          "wayId": 151594583,
+          "tags": {
+            "building": "yes",
+            "building:levels": "1"
+          },
+          "reason": "Small unnamed one-level building alone does not establish the separate V seating extent."
+        },
+        {
+          "wayId": 1427366799,
+          "name": "Pit Lane Lounge",
+          "reason": "Named hospitality building does not establish ordinary V ticket seating."
+        }
+      ],
+      "nextAction": "Recover V installed seating limits and structural profile in the J–Principal interval; do not copy Principal or the nearby service/hospitality buildings."
+    }
+  ],
+  "officialTicketEntry": {
+    "source": "https://www.circuitcat.com/es/noticias/formula-1/el-circuit-pone-a-la-venta-alonso-land-un-nuevo-producto-para-los-fans-de-fernando-alonso/",
+    "context": "Body link explicitly labelled2026 Formula1 Barcelona-Catalunya, not a global header ticket link.",
+    "url": "https://tickets.oneboxtds.com/tickets/events/44705?hl=es-ES",
+    "checkedAt": "2026-10-29",
+    "httpStatus": 403,
+    "result": "No event or seat data obtained; did not attempt to bypass access restriction."
+  },
+  "limits": "Historical guides retaining16-turn numbering or another championship/year are not accepted as2026 installation proof. Current off-event framework visibility does not imply cancellation. Raw imagery/HTML/XML remain private research, not distributed."
+}

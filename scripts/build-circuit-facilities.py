@@ -83,6 +83,11 @@ for cid,(buildings,lanes,height) in selection.items():
  if cid=='lusail':result['notes']+=' 采用 F1 专用进站支路，不把 MotoGP 旧入口混入 F1。'
  if cid=='sepang':result['notes']+=' 2026 FIA 场地图核对：使用T15内侧进站 way23410526 接主维修通道 way144359483；不把南短赛道备用维修通道 way107364027 混入 F1。'
  if cid=='yas-marina':result['notes']+=' 地下出站段保留隧道属性，不绘成地表道路；地下净空与坡道高程未核实，暂不建模地下体积。'
+ if cid=='silverstone':
+  from uk_ea_elevation import OUT as ea_path,read as read_ea,configure_facilities
+  if ea_path.exists():
+   ea=read_ea(ea_path)
+   if ea.get('runtimeApplied') and ea['sceneAcceptance'].get('accepted'):result=configure_facilities(result,ea)
  (destination/(cid+'.json')).write_text(json.dumps(result,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
  report.append({'circuitId':cid,'buildingWays':buildings,'pitLaneWays':lanes,'buildingStatus':'approximate' if buildings else 'unverified','laneStatus':'approximate' if lanes else 'unverified'})
 (root/'artifacts/local-polish').mkdir(parents=True,exist_ok=True)

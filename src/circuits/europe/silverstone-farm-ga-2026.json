@@ -1,0 +1,887 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "geometryFingerprint": "d7ef5dc09484539661b05bbf9b5712883d40fab708740602e0879e82fb698354",
+  "nativeSnapshot": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.019,52.0705,-1.013,52.0733",
+    "status": 200,
+    "sha256": "505458a9876d13e192526e0deb875154d7cd7766f82ccfbffabdd34b21f83f7a",
+    "checkedAt": "2026-10-28"
+  },
+  "nativeStandWay": 227342449,
+  "nativeFenceWays": [
+    359218995,
+    359218997,
+    359218994,
+    359218998
+  ],
+  "mapDrawingIndex": 40,
+  "annualMap": {
+    "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+    "publisher": "Silverstone",
+    "sha256": "3516fbf5bdab374c4a4f53b8a975cbd9ea0714408bd11f6be3c198f05f3e336c",
+    "page": 1
+  },
+  "sourceConnections": {
+    "995to997": "3639746105",
+    "997to994": "3643380799",
+    "995to998": "3639746107"
+  },
+  "previousQueryWasIncomplete": true,
+  "ticketEnvelopeGeo": [
+    [
+      -1.0171168,
+      52.0719171
+    ],
+    [
+      -1.016151,
+      52.0720931
+    ],
+    [
+      -1.015631,
+      52.0721841
+    ],
+    [
+      -1.0156524,
+      52.0722323
+    ],
+    [
+      -1.0148562,
+      52.0723755
+    ],
+    [
+      -1.014802157723253,
+      52.072261988606414
+    ],
+    [
+      -1.0148061,
+      52.0722601
+    ],
+    [
+      -1.0150548,
+      52.0721769
+    ],
+    [
+      -1.0152404,
+      52.0721244
+    ],
+    [
+      -1.0154838,
+      52.0720605
+    ],
+    [
+      -1.01576,
+      52.0719983
+    ],
+    [
+      -1.015926,
+      52.0719708
+    ],
+    [
+      -1.016158,
+      52.0719335
+    ],
+    [
+      -1.016135,
+      52.0718863
+    ],
+    [
+      -1.016135,
+      52.0718863
+    ],
+    [
+      -1.0162665,
+      52.0718695
+    ],
+    [
+      -1.0165019,
+      52.071848
+    ],
+    [
+      -1.0167389,
+      52.0718343
+    ],
+    [
+      -1.017085,
+      52.0718527
+    ],
+    [
+      -1.017085,
+      52.0718527
+    ],
+    [
+      -1.0170821,
+      52.071877
+    ],
+    [
+      -1.0171168,
+      52.0719171
+    ],
+    [
+      -1.0171168,
+      52.0719171
+    ]
+  ],
+  "envelopeAreaMetres2": 2846.2701681333965,
+  "selectionAreaMetres2": 2738.543959148464,
+  "bodyClearanceMetres": 0.3,
+  "oldStand": {
+    "zoneId": "farm-curve",
+    "name": "Farm Curve",
+    "kind": "grandstand",
+    "availability": "available",
+    "boundary": [
+      [
+        -1.0149018,
+        52.0724713
+      ],
+      [
+        -1.0148562,
+        52.0723755
+      ],
+      [
+        -1.0156524,
+        52.0722323
+      ],
+      [
+        -1.017149,
+        52.0719632
+      ],
+      [
+        -1.0171947,
+        52.0720593
+      ],
+      [
+        -1.0152815,
+        52.072403
+      ],
+      [
+        -1.0150118,
+        52.0724515
+      ],
+      [
+        -1.0149018,
+        52.0724713
+      ]
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 6.44,
+      "depth": 13.43,
+      "eyeHeight": 1.2
+    },
+    "surfaces": [
+      {
+        "surfaceId": "farm-curve-1",
+        "boundary": [
+          [
+            -1.0149018,
+            52.0724713
+          ],
+          [
+            -1.0148562,
+            52.0723755
+          ],
+          [
+            -1.0156524,
+            52.0722323
+          ],
+          [
+            -1.017149,
+            52.0719632
+          ],
+          [
+            -1.0171947,
+            52.0720593
+          ],
+          [
+            -1.0152815,
+            52.072403
+          ],
+          [
+            -1.0150118,
+            52.0724515
+          ],
+          [
+            -1.0149018,
+            52.0724713
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 6.44,
+        "eyeHeight": 1.2,
+        "rows": 13,
+        "frontReference": [
+          -1.0153830973362725,
+          52.07160469791732
+        ]
+      }
+    ],
+    "source": {
+      "url": "https://www.openstreetmap.org/way/227342449",
+      "checkedAt": "2026-10-23",
+      "method": "extracted",
+      "confidence": "medium",
+      "notes": "OSM建筑平面轮廓；way/227342449。位置未经现场测绘；看台售票分区可能与建筑边界不同。"
+    },
+    "openingSource": {
+      "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+    },
+    "surfaceSource": {
+      "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-23",
+      "issues": [],
+      "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+    }
+  },
+  "stand": {
+    "zoneId": "farm-curve",
+    "name": "Farm Curve",
+    "kind": "grandstand",
+    "availability": "available",
+    "boundary": [
+      [
+        -1.0149018,
+        52.0724713
+      ],
+      [
+        -1.0148562,
+        52.0723755
+      ],
+      [
+        -1.0156524,
+        52.0722323
+      ],
+      [
+        -1.017149,
+        52.0719632
+      ],
+      [
+        -1.0171947,
+        52.0720593
+      ],
+      [
+        -1.0152815,
+        52.072403
+      ],
+      [
+        -1.0150118,
+        52.0724515
+      ],
+      [
+        -1.0149018,
+        52.0724713
+      ]
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 6.44,
+      "depth": 13.43,
+      "eyeHeight": 1.2
+    },
+    "surfaces": [
+      {
+        "surfaceId": "farm-curve-1",
+        "boundary": [
+          [
+            -1.0149018,
+            52.0724713
+          ],
+          [
+            -1.0148562,
+            52.0723755
+          ],
+          [
+            -1.0156524,
+            52.0722323
+          ],
+          [
+            -1.017149,
+            52.0719632
+          ],
+          [
+            -1.0171947,
+            52.0720593
+          ],
+          [
+            -1.0152815,
+            52.072403
+          ],
+          [
+            -1.0150118,
+            52.0724515
+          ],
+          [
+            -1.0149018,
+            52.0724713
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 6.44,
+        "eyeHeight": 1.2,
+        "rows": 13,
+        "frontReference": [
+          -1.0153830973362725,
+          52.07160469791732
+        ],
+        "fenceMode": "authored"
+      }
+    ],
+    "source": {
+      "url": "https://www.openstreetmap.org/way/227342449",
+      "checkedAt": "2026-10-23",
+      "method": "extracted",
+      "confidence": "medium",
+      "notes": "OSM建筑平面轮廓；way/227342449。位置未经现场测绘；看台售票分区可能与建筑边界不同。"
+    },
+    "openingSource": {
+      "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+    },
+    "surfaceSource": {
+      "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-23",
+      "issues": [],
+      "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+    },
+    "requiredBarrierIds": [
+      "farm-fence-359218994",
+      "farm-fence-359218997",
+      "farm-fence-359218998",
+      "farm-fence-359218995"
+    ]
+  },
+  "zone": {
+    "zoneId": "ga-farm-curve",
+    "name": "Farm Curve · GA",
+    "kind": "general-admission",
+    "availability": "available",
+    "boundary": [
+      [
+        -1.0171104093440404,
+        52.07191545387635
+      ],
+      [
+        -1.017077634468209,
+        52.07187757858757
+      ],
+      [
+        -1.0170803104757036,
+        52.07185515549028
+      ],
+      [
+        -1.0167389164922853,
+        52.07183700568012
+      ],
+      [
+        -1.016502427955071,
+        52.07185067611456
+      ],
+      [
+        -1.0162672691069579,
+        52.07187215408921
+      ],
+      [
+        -1.016140571446332,
+        52.07188834055841
+      ],
+      [
+        -1.0161635032616865,
+        52.07193540063165
+      ],
+      [
+        -1.0159271254657667,
+        52.07197340447557
+      ],
+      [
+        -1.0157613274556747,
+        52.07200087101338
+      ],
+      [
+        -1.0154854166367258,
+        52.07206300589006
+      ],
+      [
+        -1.0152421781935141,
+        52.07212686347643
+      ],
+      [
+        -1.0150567670014963,
+        52.072179310069
+      ],
+      [
+        -1.0148085121014496,
+        52.072262361165436
+      ],
+      [
+        -1.0148072023670984,
+        52.07226298861319
+      ],
+      [
+        -1.014859176878394,
+        52.072372156834135
+      ],
+      [
+        -1.0156470366716586,
+        52.072230456856246
+      ],
+      [
+        -1.0156256283779825,
+        52.0721822381761
+      ],
+      [
+        -1.0161497763139924,
+        52.07209051228729
+      ],
+      [
+        -1.0171104093440404,
+        52.07191545387635
+      ]
+    ],
+    "surface": {
+      "baseHeight": 0,
+      "rise": 0,
+      "depth": 16.754637372405004,
+      "eyeHeight": 1.65
+    },
+    "surfaces": [
+      {
+        "surfaceId": "ga-farm-curve-ground",
+        "boundary": [
+          [
+            -1.0171104093440404,
+            52.07191545387635
+          ],
+          [
+            -1.017077634468209,
+            52.07187757858757
+          ],
+          [
+            -1.0170803104757036,
+            52.07185515549028
+          ],
+          [
+            -1.0167389164922853,
+            52.07183700568012
+          ],
+          [
+            -1.016502427955071,
+            52.07185067611456
+          ],
+          [
+            -1.0162672691069579,
+            52.07187215408921
+          ],
+          [
+            -1.016140571446332,
+            52.07188834055841
+          ],
+          [
+            -1.0161635032616865,
+            52.07193540063165
+          ],
+          [
+            -1.0159271254657667,
+            52.07197340447557
+          ],
+          [
+            -1.0157613274556747,
+            52.07200087101338
+          ],
+          [
+            -1.0154854166367258,
+            52.07206300589006
+          ],
+          [
+            -1.0152421781935141,
+            52.07212686347643
+          ],
+          [
+            -1.0150567670014963,
+            52.072179310069
+          ],
+          [
+            -1.0148085121014496,
+            52.072262361165436
+          ],
+          [
+            -1.0148072023670984,
+            52.07226298861319
+          ],
+          [
+            -1.014859176878394,
+            52.072372156834135
+          ],
+          [
+            -1.0156470366716586,
+            52.072230456856246
+          ],
+          [
+            -1.0156256283779825,
+            52.0721822381761
+          ],
+          [
+            -1.0161497763139924,
+            52.07209051228729
+          ],
+          [
+            -1.0171104093440404,
+            52.07191545387635
+          ]
+        ],
+        "baseHeight": 0,
+        "rise": 0,
+        "rows": 0,
+        "eyeHeight": 1.65,
+        "terrainFollow": true,
+        "terrainMeshSpacingMetres": 1,
+        "fenceMode": "authored",
+        "frontReference": [
+          -1.0153830973362725,
+          52.07160469791732
+        ]
+      }
+    ],
+    "requiredBarrierIds": [
+      "farm-fence-359218994",
+      "farm-fence-359218997",
+      "farm-fence-359218998",
+      "farm-fence-359218995"
+    ],
+    "source": {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.019,52.0705,-1.013,52.0733",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Approximate interpretation of2026 positive Farm Curve GA band drawing40. Expanded native snapshot supplies995/997/994/998 connected foreground fence edges; east end is cut at the stand endpoint and0.3m body clearance is assumed. Not a surveyed ticket boundary; no rear/inside-track grass parcel is granted admission. Surface cover is not verified as grass."
+    },
+    "boundarySource": {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.019,52.0705,-1.013,52.0733",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Approximate interpretation of2026 positive Farm Curve GA band drawing40. Expanded native snapshot supplies995/997/994/998 connected foreground fence edges; east end is cut at the stand endpoint and0.3m body clearance is assumed. Not a surveyed ticket boundary; no rear/inside-track grass parcel is granted admission. Surface cover is not verified as grass."
+    },
+    "surfaceSource": {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.019,52.0705,-1.013,52.0733",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Approximate interpretation of2026 positive Farm Curve GA band drawing40. Expanded native snapshot supplies995/997/994/998 connected foreground fence edges; east end is cut at the stand endpoint and0.3m body clearance is assumed. Not a surveyed ticket boundary; no rear/inside-track grass parcel is granted admission. Surface cover is not verified as grass."
+    },
+    "openingSource": {
+      "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+      "checkedAt": "2026-10-28",
+      "method": "published",
+      "confidence": "medium",
+      "notes": "Final2026 Silverstone-authored map drawing40 positively marks GA in front of Farm Curve. Map position and2026 ordinary-GA/no-grandstand admission guide do not measure the exact perimeter."
+    },
+    "admissionNote": "普通GA · 近似范围 · 不含看台准入",
+    "geometryReview": {
+      "checkedAt": "2026-10-28",
+      "issues": [],
+      "method": "Expanded native connected995/997/994/998 fence foreground; east cap/body clearance explicitly interpreted.441 actual-ground samples, full road/pit/building/neighbor plan audit, three-device viewing/capture and mandatory-fence failure checks passed."
+    }
+  },
+  "barrierLayer": {
+    "circuitId": "silverstone",
+    "availability": "available",
+    "barriers": [
+      {
+        "id": "farm-fence-359218994",
+        "kind": "chain-link",
+        "coordinates": [
+          [
+            -1.016135,
+            52.0718863
+          ],
+          [
+            -1.016158,
+            52.0719335
+          ],
+          [
+            -1.015926,
+            52.0719708
+          ],
+          [
+            -1.01576,
+            52.0719983
+          ],
+          [
+            -1.0154838,
+            52.0720605
+          ],
+          [
+            -1.0152404,
+            52.0721244
+          ],
+          [
+            -1.0150548,
+            52.0721769
+          ],
+          [
+            -1.0148061,
+            52.0722601
+          ],
+          [
+            -1.0147445213449844,
+            52.072289600172134
+          ]
+        ],
+        "heightMetres": 3.5,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/359218994",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Native outer fence plan. No height/type tag: outer3.5m and perimeter2m mesh heights are estimates based on modeled roles, not measurements or visibility adjustments. Excerpt endpoints limit context, not actual fence termini."
+        }
+      },
+      {
+        "id": "farm-fence-359218997",
+        "kind": "chain-link",
+        "coordinates": [
+          [
+            -1.017085,
+            52.0718527
+          ],
+          [
+            -1.0167389,
+            52.0718343
+          ],
+          [
+            -1.0165019,
+            52.071848
+          ],
+          [
+            -1.0162665,
+            52.0718695
+          ],
+          [
+            -1.016135,
+            52.0718863
+          ],
+          [
+            -1.0160292,
+            52.0719053
+          ]
+        ],
+        "heightMetres": 3.5,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/359218997",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Native outer-west fence plan. No height/type tag: outer3.5m and perimeter2m mesh heights are estimates based on modeled roles, not measurements or visibility adjustments. Excerpt endpoints limit context, not actual fence termini."
+        }
+      },
+      {
+        "id": "farm-fence-359218998",
+        "kind": "chain-link",
+        "coordinates": [
+          [
+            -1.0171168,
+            52.0719171
+          ],
+          [
+            -1.016151,
+            52.0720931
+          ],
+          [
+            -1.015631,
+            52.0721841
+          ],
+          [
+            -1.0156524,
+            52.0722323
+          ],
+          [
+            -1.0148562,
+            52.0723755
+          ],
+          [
+            -1.0149018,
+            52.0724713
+          ],
+          [
+            -1.0150118,
+            52.0724515
+          ],
+          [
+            -1.0150641,
+            52.0724874
+          ]
+        ],
+        "heightMetres": 2.0,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/359218998",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Native stand-perimeter fence plan. No height/type tag: outer3.5m and perimeter2m mesh heights are estimates based on modeled roles, not measurements or visibility adjustments. Excerpt endpoints limit context, not actual fence termini."
+        }
+      },
+      {
+        "id": "farm-fence-359218995",
+        "kind": "chain-link",
+        "coordinates": [
+          [
+            -1.017149,
+            52.0719632
+          ],
+          [
+            -1.0171168,
+            52.0719171
+          ],
+          [
+            -1.0170821,
+            52.071877
+          ],
+          [
+            -1.017085,
+            52.0718527
+          ]
+        ],
+        "heightMetres": 2.0,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/359218995",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Native west-perimeter fence plan. No height/type tag: outer3.5m and perimeter2m mesh heights are estimates based on modeled roles, not measurements or visibility adjustments. Excerpt endpoints limit context, not actual fence termini."
+        }
+      }
+    ],
+    "notes": "Farm foreground native fence graph from expanded2026-10-28 OSM snapshot; role-dependent heights estimated. Mandatory for Farm seating and GA, no duplicate synthetic fences."
+  },
+  "sceneAcceptance": {
+    "accepted": true,
+    "checkedAt": "2026-10-28",
+    "candidateDeviceCases": 12,
+    "candidatePhotosReviewed": 3,
+    "terrainMeshSpacingMetres": 1,
+    "maxSampledGroundInterpolationErrorMetres": 0.02393859078393845,
+    "surfaceTriangles": 27381,
+    "modelSha256": "1071e0290e09caac7f359affd388a6b70ffbbd4689d43758b4079c869d1c490d",
+    "limits": "Fence heights2m/3.5m, eastern endpoint cut and body clearance remain estimates.1m mesh is render interpolation, not a new centimetre-accuracy terrain survey.",
+    "formalDeviceCases": 24,
+    "formalMobilePhotoReviewed": true,
+    "formalMobileSelectionReviewed": true,
+    "overviewChooserCases": 3,
+    "coarse8mObservedSampleErrorMetres": 0.27538471533461717,
+    "localEmulationPerformance": {
+      "desktop": {
+        "readyMilliseconds": 1416,
+        "frameMedianMilliseconds": 8,
+        "frameP95Milliseconds": 8.399999999999864
+      },
+      "mobile": {
+        "readyMilliseconds": 1416,
+        "frameMedianMilliseconds": 8,
+        "frameP95Milliseconds": 8.199999999999818
+      },
+      "tablet": {
+        "readyMilliseconds": 989,
+        "frameMedianMilliseconds": 7.900000000000091,
+        "frameP95Milliseconds": 8.100000000000136
+      }
+    }
+  },
+  "limits": "Approximate Farm stand-front GA envelope, not full ordinary-GA ticket GIS. West/front/rear use native lines; east cap and body clearance interpreted. Standing1.65m/seated1.2m, estimated fence heights and actual terrain retained.",
+  "footprintAudit": {
+    "zoneId": "ga-farm-curve",
+    "areaMetres2": 2738.543959164934,
+    "samples": 441,
+    "minEyeAboveFloor": 1.6499999999999986,
+    "minFloorAboveUncutDEM": -0.02393859078393845,
+    "maxFloorMeshMismatch": 4.387378753190063e-06,
+    "groundNote": "Standing follows the actual triangulated public-ground mesh. The coarser terrain is cut within this exact source footprint; uncut bilinear DEM differences are reported, not corrected by lifting visitors.",
+    "barriers": [
+      {
+        "id": "vale-trackside-fence",
+        "standingClearanceMetres": 750.1370102660308,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      },
+      {
+        "id": "nps-ga-catch-fence",
+        "standingClearanceMetres": 770.3429185894042,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      },
+      {
+        "id": "nps-ga-concrete-wall",
+        "standingClearanceMetres": 769.3100839863611,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      },
+      {
+        "id": "farm-fence-359218994",
+        "standingClearanceMetres": 0.2999999998256074,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      },
+      {
+        "id": "farm-fence-359218997",
+        "standingClearanceMetres": 0.299999999838136,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      },
+      {
+        "id": "farm-fence-359218998",
+        "standingClearanceMetres": 0.2999999996872185,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      },
+      {
+        "id": "farm-fence-359218995",
+        "standingClearanceMetres": 0.2999999999768299,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      }
+    ],
+    "issues": [],
+    "maxFloorAboveUncutDEM": 0.007922627364173707
+  },
+  "runtimeApplied": true
+}

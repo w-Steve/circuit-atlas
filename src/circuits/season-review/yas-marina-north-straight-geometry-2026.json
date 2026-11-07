@@ -1,0 +1,45 @@
+{
+  "circuitId": "yas-marina",
+  "season": 2026,
+  "checkedAt": "2026-10-30",
+  "productId": "north-straight",
+  "sourceUrl": "https://www.abudhabigp.com/en/web/abu-dhabi-grand-prix/formula1/tickets-2026/north-straight-grandstand-4day",
+  "sourceSha256": "ef015714a45f2fffd49061d0a5242b0cbbcfd5c0491a7934b2cbd8603c90826d",
+  "media": [
+    {
+      "url": "https://www.abudhabigp.com/documents/75946/3089657/F1-Digital-Maps-NorthStraightGS.png/caa9db67-c32a-27a5-943e-e4b72434c2cb?version=2.0&t=1740589373624",
+      "sha256": "68c941d9e6519ff9eb5c0d41eb0c4d706a2509712c5e67506ca4442865646c93",
+      "viewed": true
+    },
+    {
+      "url": "https://www.abudhabigp.com/documents/d/abu-dhabi-grand-prix/adgp24_north-straight-grandstand_cards-500x400px-01-1-",
+      "sha256": "ad9d06647b390cdfaafc7c4ec8e9ab8e5f4af8df0e8a37783650e60dd6043cb9",
+      "viewed": true
+    }
+  ],
+  "annualIdentity": "Product body explicitly2026, reserved seats, betweenTurns5–6. Colored product-specific map highlights North Straight independently from North Grandstand.",
+  "pageInconsistencies": [
+    "Some duplicated highlights mention grassy hill and pit/start-grid, inconsistent with North Straight. Do not use these as actual seat/slope specification.",
+    "Map alt text says West Straight, but downloaded image visibly highlights NORTH STRAIGHT; actual asset and image content used instead of erroneous alt text."
+  ],
+  "physicalReview": {
+    "nativeSnapshot": "https://api.openstreetmap.org/api/0.6/map?bbox=54.6005,24.4705,54.609,24.4798",
+    "nativeSha256": "b1619f2a12a18886da70e29b3ff27ba180a0ac4fd610284e4efdd7b5812e1c8d",
+    "rejectedNativeWays": [
+      "1455866662",
+      "1455866663",
+      "1455866664"
+    ],
+    "reason": "Building:part grandstand height6.5m shapes at54.604365–54.604505,24.477745–24.477806 overlay the end canopy of permanent North Grandstand. Not the separately highlighted long-straight temporary product; height describes structure/roof, not seat-eye or bank rise.",
+    "imageryCaptureDate": "2025-10-18",
+    "provider": "Vantor / Esri World Imagery",
+    "resolutionMetres": 0.46,
+    "reportedAccuracyMetres": 8.47,
+    "mosaicSha256": "3ee7fdd161d11561a6b9968150e223836911b79a7a6026dd6a47409ec96aac13",
+    "imageryFinding": "Existing North canopy and long straight are visible. Proposed product corridor southwest of North is staging/paving; complete separate installed North Straight seating footprint not established.",
+    "photoFinding": "Official product photo has trackside covered occupied bleachers and permanent straight landmarks, but near/right end is cropped. No independently registered complete seat perimeter or vertical profile derived."
+  },
+  "runtimeApplied": false,
+  "geographicBoundaryVerified": false,
+  "nextAction": "Need installation-period geographic image or registered complete structural/seat plan for separate North Straight. Do not reuse permanent North canopy parts, extend cropped photo, or repeat this bare2025-10-18 source as installed geometry."
+}

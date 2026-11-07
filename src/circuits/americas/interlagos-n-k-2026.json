@@ -1,0 +1,223 @@
+{
+  "circuitId": "interlagos",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "setor-n",
+      "name": "Setor N",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -46.69658707090487,
+          -23.706573168480624
+        ],
+        [
+          -46.696264015392266,
+          -23.70646661090317
+        ],
+        [
+          -46.69622411524249,
+          -23.706568028513228
+        ],
+        [
+          -46.69654717075509,
+          -23.706674586090685
+        ],
+        [
+          -46.69658707090487,
+          -23.706573168480624
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "setor-n-1",
+          "boundary": [
+            [
+              -46.69658707090487,
+              -23.706573168480624
+            ],
+            [
+              -46.696264015392266,
+              -23.70646661090317
+            ],
+            [
+              -46.69622411524249,
+              -23.706568028513228
+            ],
+            [
+              -46.69654717075509,
+              -23.706674586090685
+            ],
+            [
+              -46.69658707090487,
+              -23.706573168480624
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 5.4,
+          "rows": 12,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -46.69654191858544,
+            -23.706224088329225
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 5.4,
+        "depth": 12,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://f1destinations.com/wp-content/uploads/2025/10/2025_F1-Wayfinding-Map_Positive_Brazil_VISUAL.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2025 wayfinding map: N between R/H beforeT3, K between H/D betweenT1/T2. 2026 promoter news names N/K ticket holders and2026 SPTrans page repeats their gate groups; no exact2026 installation continuity asserted. Author 35x12m seat bank atT3-35m,35–47m driver-right, base2.2m/rise5.4m/12estimated render rows, seated eye1.2m. Full footprint, roofing, actual rows and2026 ticket allocation unverified."
+      },
+      "surfaceSource": {
+        "url": "https://f1destinations.com/wp-content/uploads/2025/10/2025_F1-Wayfinding-Map_Positive_Brazil_VISUAL.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2025 wayfinding map: N between R/H beforeT3, K between H/D betweenT1/T2. 2026 promoter news names N/K ticket holders and2026 SPTrans page repeats their gate groups; no exact2026 installation continuity asserted. Author 35x12m seat bank atT3-35m,35–47m driver-right, base2.2m/rise5.4m/12estimated render rows, seated eye1.2m. Full footprint, roofing, actual rows and2026 ticket allocation unverified."
+      },
+      "openingSource": {
+        "url": "https://f1saopaulo.com.br/noticias/gp-sao-paulo-de-f1-amplia-experiencia-do-publico-com-shows-e-diversidade-musical/",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter2026-11-02 annual news explicitly identifies N/K ticket holders; Fanzone admission eligibility does not grant access to another stand. Approximate race-view placement separately references2025 organizer wayfinding, not a newly verified2026 seat installation."
+      },
+      "admissionNote": "按N/K对应票区入场；位置参考上一年导览图，2026边界、排数及高度为近似。",
+      "description": "赛道外侧的近似坐席，坐姿眼高1.2米；保留遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "2026 named sector and prior organizer map relation; author estimate screened against roads, neighbors and registered facilities."
+      }
+    },
+    {
+      "zoneId": "setor-k",
+      "name": "Setor K",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -46.69862095219827,
+          -23.706707995460867
+        ],
+        [
+          -46.6983605989741,
+          -23.70658230769748
+        ],
+        [
+          -46.6983056916884,
+          -23.706677663245344
+        ],
+        [
+          -46.69856604491257,
+          -23.70680335100873
+        ],
+        [
+          -46.69862095219827,
+          -23.706707995460867
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "setor-k-1",
+          "boundary": [
+            [
+              -46.69862095219827,
+              -23.706707995460867
+            ],
+            [
+              -46.6983605989741,
+              -23.70658230769748
+            ],
+            [
+              -46.6983056916884,
+              -23.706677663245344
+            ],
+            [
+              -46.69856604491257,
+              -23.70680335100873
+            ],
+            [
+              -46.69862095219827,
+              -23.706707995460867
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 5.4,
+          "rows": 12,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -46.698650921836155,
+            -23.706367031231245
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 5.4,
+        "depth": 12,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://f1destinations.com/wp-content/uploads/2025/10/2025_F1-Wayfinding-Map_Positive_Brazil_VISUAL.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2025 wayfinding map: N between R/H beforeT3, K between H/D betweenT1/T2. 2026 promoter news names N/K ticket holders and2026 SPTrans page repeats their gate groups; no exact2026 installation continuity asserted. Author 30x12m seat bank atT2-85m,35–47m driver-right, base2.2m/rise5.4m/12estimated render rows, seated eye1.2m. Full footprint, roofing, actual rows and2026 ticket allocation unverified."
+      },
+      "surfaceSource": {
+        "url": "https://f1destinations.com/wp-content/uploads/2025/10/2025_F1-Wayfinding-Map_Positive_Brazil_VISUAL.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2025 wayfinding map: N between R/H beforeT3, K between H/D betweenT1/T2. 2026 promoter news names N/K ticket holders and2026 SPTrans page repeats their gate groups; no exact2026 installation continuity asserted. Author 30x12m seat bank atT2-85m,35–47m driver-right, base2.2m/rise5.4m/12estimated render rows, seated eye1.2m. Full footprint, roofing, actual rows and2026 ticket allocation unverified."
+      },
+      "openingSource": {
+        "url": "https://f1saopaulo.com.br/noticias/gp-sao-paulo-de-f1-amplia-experiencia-do-publico-com-shows-e-diversidade-musical/",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter2026-11-02 annual news explicitly identifies N/K ticket holders; Fanzone admission eligibility does not grant access to another stand. Approximate race-view placement separately references2025 organizer wayfinding, not a newly verified2026 seat installation."
+      },
+      "admissionNote": "按N/K对应票区入场；位置参考上一年导览图，2026边界、排数及高度为近似。",
+      "description": "赛道外侧的近似坐席，坐姿眼高1.2米；保留遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "2026 named sector and prior organizer map relation; author estimate screened against roads, neighbors and registered facilities."
+      }
+    }
+  ],
+  "beforeZones": [],
+  "sourceMap": {
+    "url": "https://f1destinations.com/wp-content/uploads/2025/10/2025_F1-Wayfinding-Map_Positive_Brazil_VISUAL.pdf",
+    "layoutYear": 2025,
+    "sha256": "7b2ecc46e62b895f8947ee9a848ad01a07c81015382a156178841c35dbe13c47",
+    "actuallyViewed": true
+  },
+  "annualSources": [
+    {
+      "url": "https://f1saopaulo.com.br/noticias/gp-sao-paulo-de-f1-amplia-experiencia-do-publico-com-shows-e-diversidade-musical/",
+      "role": "2026 named N/K ticket holders, dated November2"
+    },
+    {
+      "url": "https://www.sptrans.com.br/f1",
+      "role": "2026 gate/sector groups E/H/N and K/R,K/9; not seat boundaries"
+    }
+  ],
+  "approximationAccepted": true,
+  "final2026InstallationVerified": false,
+  "rejectedCandidate": "K initially placedT2-45m overlapped existing H84.65m2; prior map shows K onT1–T2 side before H. Corrected bend association toT2-85m, without modifyingH/D, clipping or road changes.",
+  "coverage": "Independent approximate N/K seat banks using2026 identity and2025 geographic relation. Does not claim final2026 installation, exact roof/seat entitlement, or Fanzone race view."
+}

@@ -1,0 +1,45 @@
+{
+  "circuitId": "interlagos",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "runtimeApplied": true,
+  "scope": "T,N,K source-associated approximate physical viewpoints accepted. N/K geography references2025 organizer wayfinding; final2026 installation, exact ticket allocation and surveyed boundaries not claimed.",
+  "currentEvidence": {
+    "cashlessReview": "src/circuits/season-review/interlagos-public-map-identity-review.json",
+    "fact": "Explicit2026 cashless terms nameT andN; current official schematic separately labels ArquibancadaT. This does not by itself establish ordinary public-ticket eligibility, exact footprint, or alias relationship."
+  },
+  "faqChecks": [
+    {
+      "query": "\"Arquibancada T\"",
+      "resultCount": 0
+    },
+    {
+      "query": "\"Setor N\"",
+      "resultCount": 0
+    }
+  ],
+  "faqLimit": "Zero results in two exact public help-center searches is not proof the sector does not exist or was cancelled.",
+  "permitLanding": {
+    "url": "https://f1saopaulo.com.br/alvara/",
+    "sha256": "117f6544e8556f1b96ac522865f8e76d68b3b495df0b5ea58843718ee210ac3e",
+    "observed": "Current official navigation still links prior-year2025 event/fire PDFs. Navigation or copyright date does not make them2026 documents."
+  },
+  "excludedPermit": {
+    "url": "https://f1saopaulo.com.br/wp-content/uploads/2025/11/ALVARA-DE-AUTORIZACAO-FORMULA-1-GRANDE-PREMIO-DE-SAO-PAULO-1.pdf",
+    "sha256": "da615de6002c183e429c143cd9e1c3acbc6bade790dcaeb537d513160a79a185",
+    "pages": 4,
+    "printedValidity": "2025-11-07/2025-11-09",
+    "visualStatus": "CANCELADO watermark actually viewed on rendered first page.",
+    "decision": "Not accepted as operative2025 permission or as2026 admission/capacity/geometry evidence. It mentions N/T historically, but their mention is not proof they operate or sell public tickets2026. No old capacities imported."
+  },
+  "excludedSearchHit": {
+    "url": "https://legislacao.prefeitura.sp.gov.br/portaria-secretaria-municipal-de-mobilidade-urbana-e-transporte-smt-semtra-31-de-27-de-outubro-de-2026",
+    "reason": "2026 charter-vehicle parking ordinance, not venue seating authorization or public-seat boundary; no geometry derived."
+  },
+  "nextAction": "T,N,K source-associated approximate viewpoints now available; exact2026 ticket allocation and installation remain refinements. See interlagos-n-k-2026.json; Fanzone remains LED-only, not a track viewpoint.",
+  "approximateTModelAvailable": true,
+  "approximateTModelReview": "src/circuits/americas/interlagos-t-approx-2026.json",
+  "ordinaryTAccessVerified": false,
+  "additionalAnnualSourceReview": "src/circuits/season-review/interlagos-club-fanzone-access-2026.json",
+  "approximateNKModelReview": "src/circuits/americas/interlagos-n-k-2026.json"
+}

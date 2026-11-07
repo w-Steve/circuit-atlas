@@ -10,15 +10,17 @@ export function MapKeyboard({controls, enabled=true}:{controls:RefObject<OrbitCo
   useEffect(()=>{
     if(!enabled)return;
     const clear=()=>held.current.clear();
+    const editing='input,textarea,select,[contenteditable="true"],[role="slider"]';
+    const focus=(e:FocusEvent)=>{if(e.target instanceof Element&&e.target.closest(`${editing},[role="dialog"][aria-modal="true"]`))clear()};
     const down=(e:KeyboardEvent)=>{
       if(e.ctrlKey||e.altKey||e.metaKey||!(e.code==='KeyW'||e.code==='KeyA'||e.code==='KeyS'||e.code==='KeyD'))return;
       if(!gl.domElement.getClientRects().length||document.querySelector('[role="dialog"][aria-modal="true"]'))return;
-      if(e.target instanceof Element&&e.target.closest('input,textarea,select,[contenteditable="true"],[role="slider"]'))return;
+      if(e.target instanceof Element&&e.target.closest(editing)){clear();return}
       e.preventDefault();held.current.add(e.code);invalidate();
     };
     const up=(e:KeyboardEvent)=>held.current.delete(e.code);
-    window.addEventListener('keydown',down);window.addEventListener('keyup',up);window.addEventListener('blur',clear);document.addEventListener('visibilitychange',clear);
-    return()=>{clear();window.removeEventListener('keydown',down);window.removeEventListener('keyup',up);window.removeEventListener('blur',clear);document.removeEventListener('visibilitychange',clear)};
+    window.addEventListener('keydown',down);window.addEventListener('keyup',up);window.addEventListener('blur',clear);document.addEventListener('visibilitychange',clear);document.addEventListener('focusin',focus);
+    return()=>{clear();window.removeEventListener('keydown',down);window.removeEventListener('keyup',up);window.removeEventListener('blur',clear);document.removeEventListener('visibilitychange',clear);document.removeEventListener('focusin',focus)};
   },[enabled,invalidate,gl]);
   useFrame((_,dt)=>{
     const c=controls.current;if(!enabled||!c?.enabled||!held.current.size)return;

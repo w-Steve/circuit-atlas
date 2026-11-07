@@ -1,0 +1,470 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "geometryFingerprint": "d7ef5dc09484539661b05bbf9b5712883d40fab708740602e0879e82fb698354",
+  "osmSnapshot": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.028,52.0625,-1.017,52.0695",
+    "status": 200,
+    "sha256": "fae7e4355ed199ea7e486e981fbe9fc39b1df9bfe070f238994fe0a4647f55db",
+    "checkedAt": "2026-10-28"
+  },
+  "nativeStandWay": 227342453,
+  "nativeGroundWay": 605892812,
+  "nativeFenceWay": 359370784,
+  "groundSharedStandNodeIds": [
+    "2360432044",
+    "2360432064",
+    "5745581294"
+  ],
+  "oldZone": {
+    "zoneId": "vale",
+    "name": "Vale",
+    "kind": "grandstand",
+    "availability": "available",
+    "boundary": [
+      [
+        -1.0204003007269558,
+        52.06601101648239
+      ],
+      [
+        -1.0205958230171102,
+        52.06590282073218
+      ],
+      [
+        -1.0208260554025401,
+        52.06605996750484
+      ],
+      [
+        -1.021026563105786,
+        52.066257976979905
+      ],
+      [
+        -1.021026613469314,
+        52.0662580266184
+      ],
+      [
+        -1.0210336436883005,
+        52.0662649433059
+      ],
+      [
+        -1.0208893258958593,
+        52.066344804133074
+      ],
+      [
+        -1.0204003007269558,
+        52.06601101648239
+      ]
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 8.64,
+      "depth": 18.0,
+      "eyeHeight": 1.2
+    },
+    "surfaces": [
+      {
+        "surfaceId": "vale-1",
+        "boundary": [
+          [
+            -1.0204003007269558,
+            52.06601101648239
+          ],
+          [
+            -1.0205958230171102,
+            52.06590282073218
+          ],
+          [
+            -1.0208260554025401,
+            52.06605996750484
+          ],
+          [
+            -1.021026563105786,
+            52.066257976979905
+          ],
+          [
+            -1.021026613469314,
+            52.0662580266184
+          ],
+          [
+            -1.0210336436883005,
+            52.0662649433059
+          ],
+          [
+            -1.0208893258958593,
+            52.066344804133074
+          ],
+          [
+            -1.0204003007269558,
+            52.06601101648239
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 8.64,
+        "eyeHeight": 1.2,
+        "rows": 17,
+        "frontReference": [
+          -1.0211454231404296,
+          52.06590088892068
+        ]
+      }
+    ],
+    "source": {
+      "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。 Boundary constrained 2026-10-24: Preserve OSM International pit lane; the low-confidence Vale estimate cannot include the entry lane. Approximate boundary; no seat translation or eye-height changes."
+    },
+    "openingSource": {
+      "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+    },
+    "surfaceSource": {
+      "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-24",
+      "issues": [],
+      "method": "Constrain only low-confidence diagram estimates against adjacent retained footprints. Never translate a stand or change eye height. Removed corners remain outside selectable space; no claim of surveyed boundaries. Preserve OSM International pit lane; the low-confidence Vale estimate cannot include the entry lane."
+    }
+  },
+  "zone": {
+    "zoneId": "vale",
+    "name": "Vale",
+    "kind": "grandstand",
+    "availability": "available",
+    "boundary": [
+      [
+        -1.0229143,
+        52.0653902
+      ],
+      [
+        -1.021334,
+        52.0644703
+      ],
+      [
+        -1.0211548,
+        52.064579
+      ],
+      [
+        -1.022748,
+        52.0654958
+      ],
+      [
+        -1.0227576,
+        52.0654897
+      ],
+      [
+        -1.0228322,
+        52.0654423
+      ],
+      [
+        -1.0229143,
+        52.0653902
+      ]
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 8.64,
+      "depth": 18.0,
+      "eyeHeight": 1.2
+    },
+    "surfaces": [
+      {
+        "surfaceId": "vale-1",
+        "boundary": [
+          [
+            -1.0229143,
+            52.0653902
+          ],
+          [
+            -1.021334,
+            52.0644703
+          ],
+          [
+            -1.0211548,
+            52.064579
+          ],
+          [
+            -1.022748,
+            52.0654958
+          ],
+          [
+            -1.0227576,
+            52.0654897
+          ],
+          [
+            -1.0228322,
+            52.0654423
+          ],
+          [
+            -1.0229143,
+            52.0653902
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 8.64,
+        "eyeHeight": 1.2,
+        "rows": 17,
+        "frontReference": [
+          -1.0211454231404296,
+          52.06590088892068
+        ],
+        "rowFrontEdge": {
+          "coordinates": [
+            [
+              -1.0211548,
+              52.064579
+            ],
+            [
+              -1.022748,
+              52.0654958
+            ]
+          ]
+        },
+        "rowPitch": {
+          "treadMetres": 1.02,
+          "riserMetres": 0.54
+        },
+        "groundReference": [
+          -1.0219513999999998,
+          52.0650374
+        ],
+        "fenceMode": "authored"
+      }
+    ],
+    "source": {
+      "url": "https://www.openstreetmap.org/way/227342453",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Full native named Vale building plan, cross-checked with2026 organizer map relative to Club A and Vale curve. Existing17rows/8.64m rise/2.2m base retained as estimates, seated eyes1.2m. Front edge2-3; estimated1.02m treads/0.54m risers within the source footprint, including its millimetre-scale side bends; no ticket-seat survey or invented GA admission."
+    },
+    "openingSource": {
+      "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+    },
+    "surfaceSource": {
+      "url": "https://www.openstreetmap.org/way/227342453",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Full native named Vale building plan, cross-checked with2026 organizer map relative to Club A and Vale curve. Existing17rows/8.64m rise/2.2m base retained as estimates, seated eyes1.2m. Front edge2-3; estimated1.02m treads/0.54m risers within the source footprint, including its millimetre-scale side bends; no ticket-seat survey or invented GA admission."
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-28",
+      "issues": [],
+      "method": "Full named native Vale footprint, source front edge, estimated metric steps; actual mesh441 samples and road/pit/building/neighbor intersections checked. Native fence retained; no GA admission inferred."
+    },
+    "requiredBarrierIds": [
+      "vale-trackside-fence"
+    ],
+    "boundarySource": {
+      "url": "https://www.openstreetmap.org/way/227342453",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Full native named Vale building plan, cross-checked with2026 organizer map relative to Club A and Vale curve. Existing17rows/8.64m rise/2.2m base retained as estimates, seated eyes1.2m. Front edge2-3; estimated1.02m treads/0.54m risers within the source footprint, including its millimetre-scale side bends; no ticket-seat survey or invented GA admission."
+    }
+  },
+  "barrierLayer": {
+    "circuitId": "silverstone",
+    "availability": "available",
+    "barriers": [
+      {
+        "id": "vale-trackside-fence",
+        "kind": "chain-link",
+        "coordinates": [
+          [
+            -1.0216192,
+            52.0656814
+          ],
+          [
+            -1.0215604,
+            52.0657053
+          ],
+          [
+            -1.0212538,
+            52.0654672
+          ],
+          [
+            -1.0209576,
+            52.0652106
+          ],
+          [
+            -1.0209017,
+            52.0652322
+          ],
+          [
+            -1.0207462,
+            52.06508
+          ],
+          [
+            -1.0207117,
+            52.0650463
+          ],
+          [
+            -1.0206095,
+            52.064877
+          ],
+          [
+            -1.02058,
+            52.0648281
+          ]
+        ],
+        "heightMetres": 3.5,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/359370784",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Native fence plan excerpt along the ground in front of Vale; height3.5m estimated, not measured. Excerpt limits modeled context, not actual fence termini."
+        }
+      }
+    ],
+    "notes": "Native Vale foreground catch fence; height estimated. Required for Vale views."
+  },
+  "gaEvidence": {
+    "mapDrawingIndex": 41,
+    "nativeGroundBoundary": [
+      [
+        -1.0211548,
+        52.064579
+      ],
+      [
+        -1.0211448,
+        52.0645711
+      ],
+      [
+        -1.0206095,
+        52.064877
+      ],
+      [
+        -1.0207117,
+        52.0650463
+      ],
+      [
+        -1.0207462,
+        52.06508
+      ],
+      [
+        -1.0209017,
+        52.0652322
+      ],
+      [
+        -1.0209576,
+        52.0652106
+      ],
+      [
+        -1.0212538,
+        52.0654672
+      ],
+      [
+        -1.0215604,
+        52.0657053
+      ],
+      [
+        -1.0216192,
+        52.0656814
+      ],
+      [
+        -1.0219571,
+        52.0658432
+      ],
+      [
+        -1.0223577,
+        52.0658805
+      ],
+      [
+        -1.0228795,
+        52.0655611
+      ],
+      [
+        -1.0227576,
+        52.0654897
+      ],
+      [
+        -1.022748,
+        52.0654958
+      ],
+      [
+        -1.0211548,
+        52.064579
+      ]
+    ],
+    "runtimeGAAdded": false,
+    "limits": "Native grass shares the source stand front. The diagram confirms a GA band in this vicinity, but does not establish that every part of this landuse polygon is ordinary GA."
+  },
+  "sceneAcceptance": {
+    "accepted": true,
+    "checkedAt": "2026-10-28",
+    "candidateDeviceTests": 3,
+    "candidatePhotosReviewed": 3,
+    "testedZoom": 3,
+    "oneTimesPhotosAlsoReviewed": 3,
+    "limits": "1x car is physically small and partly fence-occluded; do not enlarge it or raise viewers to satisfy a pixel threshold. Estimated vertical profile, not seat survey.",
+    "modelSha256": "82aa600785c597d22a6a9626952416660947fddec89f18a898be3af8d020aec9",
+    "formalDeviceCases": 24,
+    "formalResult": "21passed plus3English cases passed after correcting the test selector; no production translation change",
+    "formalPhotosReviewed": 3,
+    "mobileSelectionReviewed": true
+  },
+  "limits": "Native plan and2026 relative-map check do not measure platform/roof heights. Existing estimated vertical profile retained; explicit physical and device review required.",
+  "footprintAudit": {
+    "zoneId": "vale",
+    "areaMetres2": 2503.4300237611487,
+    "samples": 441,
+    "minEyeAboveFloor": 1.1999999999999993,
+    "minFloorAboveUncutDEM": 1.8258600239102911,
+    "maxFloorMeshMismatch": 1.6122135846341479e-06,
+    "groundNote": "Seating uses the actual native stand mesh.",
+    "barriers": [
+      {
+        "id": "nps-ga-catch-fence",
+        "standingClearanceMetres": 1547.7971633035315,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      },
+      {
+        "id": "nps-ga-concrete-wall",
+        "standingClearanceMetres": 1547.6929733416544,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      },
+      {
+        "id": "vale-trackside-fence",
+        "standingClearanceMetres": 48.12187625147259,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      }
+    ],
+    "issues": []
+  },
+  "runtimeApplied": true,
+  "oldToNativeVertexMeanMetres": 150.69792456608155,
+  "annualMap": {
+    "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+    "publisher": "Silverstone",
+    "sha256": "3516fbf5bdab374c4a4f53b8a975cbd9ea0714408bd11f6be3c198f05f3e336c",
+    "page": 1
+  }
+}

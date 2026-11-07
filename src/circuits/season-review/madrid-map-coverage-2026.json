@@ -1,0 +1,150 @@
+{
+  "circuitId": "madrid",
+  "season": 2026,
+  "checkedAt": "2026-11-07",
+  "sourceUrl": "https://www.madring.com/img/xl/mapa-madring/mapa_web_11_8_26_ing.webp",
+  "sourceSha256": "99ac1e3d5f822f0b650da0f727956c7f8c7d64c9616327f4cfc0cedebacaf241",
+  "sourcePrintedDates": "11–13September2026",
+  "scope": "All46 named grandstand codes in the annual organizer overview mapped to16 physical model groups. This is grouped approximate family coverage, not individually surveyed seat/block geometry or ticket entitlement.",
+  "approximateFamilyCoverageAccepted": true,
+  "individualBlockGeometryVerified": false,
+  "ticketAllocationVerified": false,
+  "families": [
+    {
+      "modelZoneId": "stand-1",
+      "mapCodes": [
+        "GA1"
+      ]
+    },
+    {
+      "modelZoneId": "stand-2",
+      "mapCodes": [
+        "GB1"
+      ]
+    },
+    {
+      "modelZoneId": "t1t3",
+      "mapCodes": [
+        "GB2"
+      ]
+    },
+    {
+      "modelZoneId": "stand-5",
+      "mapCodes": [
+        "GC1",
+        "GC2"
+      ]
+    },
+    {
+      "modelZoneId": "t4t5",
+      "mapCodes": [
+        "GC3",
+        "GC4",
+        "GC5"
+      ]
+    },
+    {
+      "modelZoneId": "stand-8",
+      "mapCodes": [
+        "GK1",
+        "GK2"
+      ]
+    },
+    {
+      "modelZoneId": "t11",
+      "mapCodes": [
+        "GE1",
+        "GE2",
+        "GE3"
+      ]
+    },
+    {
+      "modelZoneId": "ge4-ge6",
+      "mapCodes": [
+        "GE4",
+        "GE5",
+        "GE6"
+      ]
+    },
+    {
+      "modelZoneId": "monumental",
+      "mapCodes": [
+        "GE7",
+        "GE8",
+        "GE9",
+        "GE10",
+        "GE11",
+        "GE12",
+        "GE13"
+      ]
+    },
+    {
+      "modelZoneId": "ge14-ge17",
+      "mapCodes": [
+        "GE14",
+        "GE15",
+        "GE16",
+        "GE17"
+      ]
+    },
+    {
+      "modelZoneId": "t14t15",
+      "mapCodes": [
+        "GE18",
+        "GE19"
+      ]
+    },
+    {
+      "modelZoneId": "t15t16",
+      "mapCodes": [
+        "GE20",
+        "GE21",
+        "GE22"
+      ]
+    },
+    {
+      "modelZoneId": "t13t14",
+      "mapCodes": [
+        "GE23"
+      ]
+    },
+    {
+      "modelZoneId": "stand-7",
+      "mapCodes": [
+        "GE24"
+      ]
+    },
+    {
+      "modelZoneId": "monumental-12",
+      "mapCodes": [
+        "GD1",
+        "GD2",
+        "GD3",
+        "GD4",
+        "GD5",
+        "GD6",
+        "GD7",
+        "GD8",
+        "GD9",
+        "GD10",
+        "GD11"
+      ]
+    },
+    {
+      "modelZoneId": "gd12",
+      "mapCodes": [
+        "GD12"
+      ]
+    }
+  ],
+  "groundArea": {
+    "modelZoneId": "ga-c-straight",
+    "review": "src/circuits/europe/madrid-c-ground-2026.json",
+    "scope": "Existing approximate public ground sector; not full legal admission perimeter."
+  },
+  "limits": [
+    "GE23/GD11/GD12 ordinary/hospitality allocation remains unverified.",
+    "Grouped bank representative geometry does not guarantee every printed block is physically reproduced.",
+    "No ticket can be assumed to permit access across banks."
+  ]
+}

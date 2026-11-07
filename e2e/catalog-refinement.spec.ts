@@ -10,7 +10,10 @@ test('catalog keeps the map clear and language choices truthful at each screen s
   await expect(page.locator('.world-mouse-hint,.world-touch-hint,.world-map-foot')).toHaveCount(0);
   await expect(page.locator('.circuit-card')).toHaveCount(23);
   const trigger=page.locator('.language-trigger');await expect(trigger.locator('svg')).toHaveCount(1);await trigger.click();
+  const triggerBox=(await trigger.boundingBox())!;expect(triggerBox.width).toBeGreaterThanOrEqual(44);expect(triggerBox.height).toBeGreaterThanOrEqual(44);
+  expect(triggerBox.x+triggerBox.width).toBeLessThanOrEqual(width);
   const menu=page.getByRole('menu');const choices=await menu.getByRole('menuitemradio').evaluateAll(nodes=>nodes.map(n=>({text:n.textContent?.trim(),disabled:(n as HTMLButtonElement).disabled})));
+  const menuBox=(await menu.boundingBox())!;expect(menuBox.x).toBeGreaterThanOrEqual(0);expect(menuBox.x+menuBox.width).toBeLessThanOrEqual(width);expect(menuBox.y+menuBox.height).toBeLessThanOrEqual(height);
   expect(choices.filter(c=>!c.disabled).map(c=>c.text)).toEqual(['简体中文','English']);expect(choices.filter(c=>c.disabled).length).toBeGreaterThanOrEqual(8);
   await menu.getByRole('menuitemradio',{name:'简体中文',exact:true}).click();await expect(menu).toHaveCount(0);
   await trigger.click();await expect(menu.getByRole('menuitemradio',{name:'简体中文',exact:true})).toHaveAttribute('aria-checked','true');
@@ -29,6 +32,13 @@ test('catalog keeps the map clear and language choices truthful at each screen s
   await page.reload();await trigger.click();await expect(menu.getByRole('menuitemradio',{name:'English',exact:true})).toHaveAttribute('aria-checked','true');
   await page.screenshot({path:info.outputPath(`language-${width}.png`)});await page.keyboard.press('Escape');
   await page.screenshot({path:info.outputPath(`catalog-${width}.png`)});
+  await page.locator('.atlas-tabs').scrollIntoViewIfNeeded();
+  const clearTabs=await page.locator('.atlas-tabs [role="tab"]').evaluateAll(nodes=>nodes.every(node=>{
+   const r=node.getBoundingClientRect();return node.contains(document.elementFromPoint(r.x+r.width/2,r.y+r.height/2));
+  }));expect(clearTabs).toBe(true);
+  await page.locator('#tab-atlas').click();await expect(page.locator('.atlas-card')).toHaveCount(78);
+  await page.locator('#tab-calendar').click();await expect(page.locator('.circuit-card')).toHaveCount(23);
+  await page.screenshot({path:info.outputPath(`calendar-clear-${width}.png`)});
  }
  expect(errors).toEqual([]);
 });

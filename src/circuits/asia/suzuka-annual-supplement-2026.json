@@ -1,0 +1,1656 @@
+{
+  "circuitId": "suzuka",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "a2",
+      "name": "A2",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          136.54268886649578,
+          34.84130309031374
+        ],
+        [
+          136.54339157706065,
+          34.840594185166076
+        ],
+        [
+          136.5435525016296,
+          34.84068747060489
+        ],
+        [
+          136.54284151437918,
+          34.84140531719001
+        ],
+        [
+          136.54268886649578,
+          34.84130309031374
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "a2-1",
+          "boundary": [
+            [
+              136.54268886649578,
+              34.84130309031374
+            ],
+            [
+              136.54339157706065,
+              34.840594185166076
+            ],
+            [
+              136.5435525016296,
+              34.84068747060489
+            ],
+            [
+              136.54284151437918,
+              34.84140531719001
+            ],
+            [
+              136.54268886649578,
+              34.84130309031374
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 8.1,
+          "rows": 18,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            136.54282884257088,
+            34.84080707903896
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                136.54268886649578,
+                34.84130309031374
+              ],
+              [
+                136.54339157706065,
+                34.840594185166076
+              ]
+            ],
+            "back": [
+              [
+                136.54284151437918,
+                34.84140531719001
+              ],
+              [
+                136.5435525016296,
+                34.84068747060489
+              ]
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsA2. Author representative road-associated100x18m bank at arc365m, offset25m driver-left, base2.2m/rise8.1m/18render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported."
+            }
+          },
+          "rowDirection": [
+            0.6310810662753623,
+            0.7757168863630286
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 8.1,
+        "depth": 18,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2026 map separately labelsA2. Author representative road-associated100x18m bank at arc365m, offset25m driver-left, base2.2m/rise8.1m/18render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported."
+      },
+      "surfaceSource": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2026 map separately labelsA2. Author representative road-associated100x18m bank at arc365m, offset25m driver-left, base2.2m/rise8.1m/18render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported."
+      },
+      "openingSource": {
+        "url": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Annual2026 promoter ticket announcement and retained2026 wayfinding separately identify A2,H,I,RBOX,SBOX,GRANVIEW. Use matching ticket/party qualification; general ticket does not grant access to private boxes. Current2027 structural descriptions are not2026 admission evidence."
+      },
+      "admissionNote": "2026具名区域的近似视点；范围、排数与楼面高度为估计，请按实际票区及资格入场。",
+      "description": "坐姿眼高1.2米；保留真实地形与场景遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Named2026 map relation and explicit author approximation; road16m/neighbor/registered facility exclusions checked."
+      }
+    },
+    {
+      "zoneId": "h",
+      "name": "H",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          136.530570719534,
+          34.84618074860193
+        ],
+        [
+          136.5307131881459,
+          34.84645912173835
+        ],
+        [
+          136.53085365353576,
+          34.846408857931706
+        ],
+        [
+          136.53071385488465,
+          34.84613584408102
+        ],
+        [
+          136.530570719534,
+          34.84618074860193
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "h-1",
+          "boundary": [
+            [
+              136.530570719534,
+              34.84618074860193
+            ],
+            [
+              136.5307131881459,
+              34.84645912173835
+            ],
+            [
+              136.53085365353576,
+              34.846408857931706
+            ],
+            [
+              136.53071385488465,
+              34.84613584408102
+            ],
+            [
+              136.530570719534,
+              34.84618074860193
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            136.5303386757916,
+            34.846428415451705
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                136.530570719534,
+                34.84618074860193
+              ],
+              [
+                136.5307131881459,
+                34.84645912173835
+              ]
+            ],
+            "back": [
+              [
+                136.53071385488465,
+                34.84613584408102
+              ],
+              [
+                136.53085365353576,
+                34.846408857931706
+              ]
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsH. Author representative road-associated35x14m bank at arc2603m, offset30m driver-right, base2.2m/rise6.3m/14render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported."
+            }
+          },
+          "rowDirection": [
+            0.38725987065567485,
+            -0.9219706028826244
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 6.3,
+        "depth": 14,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2026 map separately labelsH. Author representative road-associated35x14m bank at arc2603m, offset30m driver-right, base2.2m/rise6.3m/14render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported."
+      },
+      "surfaceSource": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2026 map separately labelsH. Author representative road-associated35x14m bank at arc2603m, offset30m driver-right, base2.2m/rise6.3m/14render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported."
+      },
+      "openingSource": {
+        "url": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Annual2026 promoter ticket announcement and retained2026 wayfinding separately identify A2,H,I,RBOX,SBOX,GRANVIEW. Use matching ticket/party qualification; general ticket does not grant access to private boxes. Current2027 structural descriptions are not2026 admission evidence."
+      },
+      "admissionNote": "2026具名区域的近似视点；范围、排数与楼面高度为估计，请按实际票区及资格入场。",
+      "description": "坐姿眼高1.2米；保留真实地形与场景遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Named2026 map relation and explicit author approximation; road16m/neighbor/registered facility exclusions checked."
+      }
+    },
+    {
+      "zoneId": "i",
+      "name": "I",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          136.53082911382864,
+          34.84667733478817
+        ],
+        [
+          136.53084879932192,
+          34.84671438983437
+        ],
+        [
+          136.53086848481522,
+          34.84675144488056
+        ],
+        [
+          136.53088817030851,
+          34.84678849992676
+        ],
+        [
+          136.5309078558018,
+          34.84682555497295
+        ],
+        [
+          136.53104832119163,
+          34.84677529116631
+        ],
+        [
+          136.53102863569836,
+          34.84673823612012
+        ],
+        [
+          136.53100895020506,
+          34.84670118107392
+        ],
+        [
+          136.53098926471176,
+          34.846664126027726
+        ],
+        [
+          136.5309695792185,
+          34.846627070981526
+        ],
+        [
+          136.53082911382864,
+          34.84667733478817
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "i-approx-1",
+          "boundary": [
+            [
+              136.53082911382864,
+              34.84667733478817
+            ],
+            [
+              136.53084879932192,
+              34.84671438983437
+            ],
+            [
+              136.53086848481522,
+              34.84675144488056
+            ],
+            [
+              136.53088817030851,
+              34.84678849992676
+            ],
+            [
+              136.5309078558018,
+              34.84682555497295
+            ],
+            [
+              136.53104832119163,
+              34.84677529116631
+            ],
+            [
+              136.53102863569836,
+              34.84673823612012
+            ],
+            [
+              136.53100895020506,
+              34.84670118107392
+            ],
+            [
+              136.53098926471176,
+              34.846664126027726
+            ],
+            [
+              136.5309695792185,
+              34.846627070981526
+            ],
+            [
+              136.53082911382864,
+              34.84667733478817
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.2,
+          "rows": 16,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            136.53056748755125,
+            34.846859153037656
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                136.53082911382864,
+                34.84667733478817
+              ],
+              [
+                136.53084879932192,
+                34.84671438983437
+              ],
+              [
+                136.53086848481522,
+                34.84675144488056
+              ],
+              [
+                136.53088817030851,
+                34.84678849992676
+              ],
+              [
+                136.5309078558018,
+                34.84682555497295
+              ]
+            ],
+            "back": [
+              [
+                136.5309695792185,
+                34.846627070981526
+              ],
+              [
+                136.53098926471176,
+                34.846664126027726
+              ],
+              [
+                136.53100895020506,
+                34.84670118107392
+              ],
+              [
+                136.53102863569836,
+                34.84673823612012
+              ],
+              [
+                136.53104832119163,
+                34.84677529116631
+              ]
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer-branded2026 map independently labels I. Representative six separate approximate14m-deep banks centered at source road arcs2656/2682/2708/2734/2760/2796m, lengths18/18/18/18/18/40m, driver-right30m. Estimated2.2m support/7.2m rise/16rows, fixed seated eye1.2m. Local source-ground datums retained; block IDs are author estimates, not official ticket-block names or surveyed installation."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              136.5310441727598,
+              34.84676779702271
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Temporary support-floor datum uses highest source GSI ground sample on21x21 local bank grid plus authored2.2m frame clearance; seated eye1.2m unchanged. Not surveyed seating floor or ticket-block geometry."
+            }
+          },
+          "rowDirection": [
+            0.39966906814264175,
+            -0.9166594983798468
+          ]
+        },
+        {
+          "surfaceId": "i-approx-2",
+          "boundary": [
+            [
+              136.5309503285965,
+              34.846924204620414
+            ],
+            [
+              136.53096098719504,
+              34.84710149012069
+            ],
+            [
+              136.530949742493,
+              34.84714084657787
+            ],
+            [
+              136.5308846997846,
+              34.84725959554816
+            ],
+            [
+              136.53081062260037,
+              34.84734117002575
+            ],
+            [
+              136.53091783953508,
+              34.8474310220809
+            ],
+            [
+              136.53101395583116,
+              34.84732714510324
+            ],
+            [
+              136.53109893189279,
+              34.84716955815349
+            ],
+            [
+              136.53111017659484,
+              34.8471302016963
+            ],
+            [
+              136.53109720846692,
+              34.84688835865325
+            ],
+            [
+              136.5309503285965,
+              34.846924204620414
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.2,
+          "rows": 16,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            136.530627,
+            34.84709
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                136.5309503285965,
+                34.846924204620414
+              ],
+              [
+                136.53096098719504,
+                34.84710149012069
+              ],
+              [
+                136.530949742493,
+                34.84714084657787
+              ],
+              [
+                136.5308846997846,
+                34.84725959554816
+              ],
+              [
+                136.53081062260037,
+                34.84734117002575
+              ]
+            ],
+            "back": [
+              [
+                136.53109720846692,
+                34.84688835865325
+              ],
+              [
+                136.53111017659484,
+                34.8471302016963
+              ],
+              [
+                136.53109893189279,
+                34.84716955815349
+              ],
+              [
+                136.53101395583116,
+                34.84732714510324
+              ],
+              [
+                136.53091783953508,
+                34.8474310220809
+              ]
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer-branded2026 map independently labels I. Representative six separate approximate14m-deep banks centered at source road arcs2656/2682/2708/2734/2760/2796m, lengths18/18/18/18/18/40m, driver-right30m. Estimated2.2m support/7.2m rise/16rows, fixed seated eye1.2m. Local source-ground datums retained; block IDs are author estimates, not official ticket-block names or surveyed installation."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              136.53110693289761,
+              34.8470724685351
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Temporary support-floor datum uses highest source GSI ground sample on21x21 local bank grid plus authored2.2m frame clearance; seated eye1.2m unchanged. Not surveyed seating floor or ticket-block geometry."
+            }
+          },
+          "rowDirection": [
+            -0.2651427926101079,
+            -0.964209157562255
+          ]
+        },
+        {
+          "surfaceId": "i-approx-3",
+          "boundary": [
+            [
+              136.53066814608678,
+              34.84742454568526
+            ],
+            [
+              136.53056065325742,
+              34.84745915536233
+            ],
+            [
+              136.53044775489946,
+              34.847482092206384
+            ],
+            [
+              136.5303426736721,
+              34.84747990554596
+            ],
+            [
+              136.5301359345376,
+              34.847426664308614
+            ],
+            [
+              136.53005051894033,
+              34.84753107779616
+            ],
+            [
+              136.53033184557094,
+              34.84760535473399
+            ],
+            [
+              136.53046303673668,
+              34.84760722881456
+            ],
+            [
+              136.53060667650587,
+              34.8475791126241
+            ],
+            [
+              136.5307426578874,
+              34.84753444004463
+            ],
+            [
+              136.53066814608678,
+              34.84742454568526
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.2,
+          "rows": 16,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            136.530416,
+            34.847214
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                136.53066814608678,
+                34.84742454568526
+              ],
+              [
+                136.53056065325742,
+                34.84745915536233
+              ],
+              [
+                136.53044775489946,
+                34.847482092206384
+              ],
+              [
+                136.5303426736721,
+                34.84747990554596
+              ],
+              [
+                136.5301359345376,
+                34.847426664308614
+              ]
+            ],
+            "back": [
+              [
+                136.5307426578874,
+                34.84753444004463
+              ],
+              [
+                136.53060667650587,
+                34.8475791126241
+              ],
+              [
+                136.53046303673668,
+                34.84760722881456
+              ],
+              [
+                136.53033184557094,
+                34.84760535473399
+              ],
+              [
+                136.53005051894033,
+                34.84753107779616
+              ]
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer-branded2026 map independently labels I. Representative six separate approximate14m-deep banks centered at source road arcs2656/2682/2708/2734/2760/2796m, lengths18/18/18/18/18/40m, driver-right30m. Estimated2.2m support/7.2m rise/16rows, fixed seated eye1.2m. Local source-ground datums retained; block IDs are author estimates, not official ticket-block names or surveyed installation."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              136.53005132289687,
+              34.84753116309118
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Temporary support-floor datum uses highest source GSI ground sample on21x21 local bank grid plus authored2.2m frame clearance; seated eye1.2m unchanged. Not surveyed seating floor or ticket-block geometry."
+            }
+          },
+          "rowDirection": [
+            -0.9999882371066426,
+            -0.004850324561203558
+          ]
+        },
+        {
+          "surfaceId": "i-approx-4",
+          "boundary": [
+            [
+              136.53006323611274,
+              34.84738660599286
+            ],
+            [
+              136.5299437880921,
+              34.847286787365995
+            ],
+            [
+              136.52991574722793,
+              34.84725355374922
+            ],
+            [
+              136.52988770636378,
+              34.84722032013245
+            ],
+            [
+              136.52984800018862,
+              34.8471673336698
+            ],
+            [
+              136.52971537935937,
+              34.84723033695786
+            ],
+            [
+              136.52976172695165,
+              34.84729191806263
+            ],
+            [
+              136.52978976781583,
+              34.8473251516794
+            ],
+            [
+              136.52981780867998,
+              34.847358385296175
+            ],
+            [
+              136.52997782051546,
+              34.84749101948041
+            ],
+            [
+              136.53006323611274,
+              34.84738660599286
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.2,
+          "rows": 16,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            136.53019621363975,
+            34.847112586536
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                136.53006323611274,
+                34.84738660599286
+              ],
+              [
+                136.5299437880921,
+                34.847286787365995
+              ],
+              [
+                136.52991574722793,
+                34.84725355374922
+              ],
+              [
+                136.52988770636378,
+                34.84722032013245
+              ],
+              [
+                136.52984800018862,
+                34.8471673336698
+              ]
+            ],
+            "back": [
+              [
+                136.52997782051546,
+                34.84749101948041
+              ],
+              [
+                136.52981780867998,
+                34.847358385296175
+              ],
+              [
+                136.52978976781583,
+                34.8473251516794
+              ],
+              [
+                136.52976172695165,
+                34.84729191806263
+              ],
+              [
+                136.52971537935937,
+                34.84723033695786
+              ]
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer-branded2026 map independently labels I. Representative six separate approximate14m-deep banks centered at source road arcs2656/2682/2708/2734/2760/2796m, lengths18/18/18/18/18/40m, driver-right30m. Estimated2.2m support/7.2m rise/16rows, fixed seated eye1.2m. Local source-ground datums retained; block IDs are author estimates, not official ticket-block names or surveyed installation."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              136.52981684370667,
+              34.84735702071723
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Temporary support-floor datum uses highest source GSI ground sample on21x21 local bank grid plus authored2.2m frame clearance; seated eye1.2m unchanged. Not surveyed seating floor or ticket-block geometry."
+            }
+          },
+          "rowDirection": [
+            -0.6273549391179462,
+            0.7787334462859021
+          ]
+        },
+        {
+          "surfaceId": "i-approx-5",
+          "boundary": [
+            [
+              136.529804133827,
+              34.84710513698415
+            ],
+            [
+              136.5297794589986,
+              34.84707015134847
+            ],
+            [
+              136.52975478417017,
+              34.84703516571279
+            ],
+            [
+              136.52973010934176,
+              34.84700018007711
+            ],
+            [
+              136.52970543451335,
+              34.84696519444143
+            ],
+            [
+              136.5295728136841,
+              34.847028197729486
+            ],
+            [
+              136.5295974885125,
+              34.847063183365165
+            ],
+            [
+              136.52962216334092,
+              34.847098169000844
+            ],
+            [
+              136.52964683816933,
+              34.84713315463652
+            ],
+            [
+              136.52967151299774,
+              34.8471681402722
+            ],
+            [
+              136.529804133827,
+              34.84710513698415
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.2,
+          "rows": 16,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            136.53003897166144,
+            34.846900158666955
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                136.529804133827,
+                34.84710513698415
+              ],
+              [
+                136.5297794589986,
+                34.84707015134847
+              ],
+              [
+                136.52975478417017,
+                34.84703516571279
+              ],
+              [
+                136.52973010934176,
+                34.84700018007711
+              ],
+              [
+                136.52970543451335,
+                34.84696519444143
+              ]
+            ],
+            "back": [
+              [
+                136.52967151299774,
+                34.8471681402722
+              ],
+              [
+                136.52964683816933,
+                34.84713315463652
+              ],
+              [
+                136.52962216334092,
+                34.847098169000844
+              ],
+              [
+                136.5295974885125,
+                34.847063183365165
+              ],
+              [
+                136.5295728136841,
+                34.847028197729486
+              ]
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer-branded2026 map independently labels I. Representative six separate approximate14m-deep banks centered at source road arcs2656/2682/2708/2734/2760/2796m, lengths18/18/18/18/18/40m, driver-right30m. Estimated2.2m support/7.2m rise/16rows, fixed seated eye1.2m. Local source-ground datums retained; block IDs are author estimates, not official ticket-block names or surveyed installation."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              136.52967154691925,
+              34.847167937326375
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Temporary support-floor datum uses highest source GSI ground sample on21x21 local bank grid plus authored2.2m frame clearance; seated eye1.2m unchanged. Not surveyed seating floor or ticket-block geometry."
+            }
+          },
+          "rowDirection": [
+            -0.5009661447791162,
+            0.865466880813558
+          ]
+        },
+        {
+          "surfaceId": "i-approx-6",
+          "boundary": [
+            [
+              136.52966705144692,
+              34.84691077234149
+            ],
+            [
+              136.5296122184949,
+              34.846833026484425
+            ],
+            [
+              136.52955738554286,
+              34.84675528062736
+            ],
+            [
+              136.52950716692786,
+              34.846685648460344
+            ],
+            [
+              136.52944923412207,
+              34.84660943189671
+            ],
+            [
+              136.52931922199983,
+              34.84667599692952
+            ],
+            [
+              136.52937715480562,
+              34.846752213493154
+            ],
+            [
+              136.5294247647136,
+              34.84681828391542
+            ],
+            [
+              136.52947959766564,
+              34.84689602977248
+            ],
+            [
+              136.52953443061767,
+              34.84697377562954
+            ],
+            [
+              136.52966705144692,
+              34.84691077234149
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.2,
+          "rows": 16,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            136.52984375676445,
+            34.84662336982163
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                136.52966705144692,
+                34.84691077234149
+              ],
+              [
+                136.5296122184949,
+                34.846833026484425
+              ],
+              [
+                136.52955738554286,
+                34.84675528062736
+              ],
+              [
+                136.52950716692786,
+                34.846685648460344
+              ],
+              [
+                136.52944923412207,
+                34.84660943189671
+              ]
+            ],
+            "back": [
+              [
+                136.52953443061767,
+                34.84697377562954
+              ],
+              [
+                136.52947959766564,
+                34.84689602977248
+              ],
+              [
+                136.5294247647136,
+                34.84681828391542
+              ],
+              [
+                136.52937715480562,
+                34.846752213493154
+              ],
+              [
+                136.52931922199983,
+                34.84667599692952
+              ]
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer-branded2026 map independently labels I. Representative six separate approximate14m-deep banks centered at source road arcs2656/2682/2708/2734/2760/2796m, lengths18/18/18/18/18/40m, driver-right30m. Estimated2.2m support/7.2m rise/16rows, fixed seated eye1.2m. Local source-ground datums retained; block IDs are author estimates, not official ticket-block names or surveyed installation."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              136.52953434934872,
+              34.84697340935889
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Temporary support-floor datum uses highest source GSI ground sample on21x21 local bank grid plus authored2.2m frame clearance; seated eye1.2m unchanged. Not surveyed seating floor or ticket-block geometry."
+            }
+          },
+          "rowDirection": [
+            -0.5102127880296032,
+            0.8600482026788145
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 7.2,
+        "depth": 14,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-branded2026 map independently labels I. Representative six separate approximate14m-deep banks centered at source road arcs2656/2682/2708/2734/2760/2796m, lengths18/18/18/18/18/40m, driver-right30m. Estimated2.2m support/7.2m rise/16rows, fixed seated eye1.2m. Local source-ground datums retained; block IDs are author estimates, not official ticket-block names or surveyed installation."
+      },
+      "surfaceSource": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-branded2026 map independently labels I. Representative six separate approximate14m-deep banks centered at source road arcs2656/2682/2708/2734/2760/2796m, lengths18/18/18/18/18/40m, driver-right30m. Estimated2.2m support/7.2m rise/16rows, fixed seated eye1.2m. Local source-ground datums retained; block IDs are author estimates, not official ticket-block names or surveyed installation."
+      },
+      "openingSource": {
+        "url": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Annual2026 promoter ticket announcement and retained2026 wayfinding separately identify A2,H,I,RBOX,SBOX,GRANVIEW. Use matching ticket/party qualification; general ticket does not grant access to private boxes. Current2027 structural descriptions are not2026 admission evidence."
+      },
+      "admissionNote": "2026具名区域的近似视点；范围、排数与楼面高度为估计，请按实际票区及资格入场。",
+      "description": "坐姿眼高1.2米；保留真实地形与场景遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Named2026 map relation and explicit author approximation; road16m/neighbor/registered facility exclusions checked."
+      }
+    },
+    {
+      "zoneId": "r-box",
+      "name": "R-BOX",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": false,
+      "boundary": [
+        [
+          136.53706112847078,
+          34.846574774794206
+        ],
+        [
+          136.53747951481796,
+          34.84646859626625
+        ],
+        [
+          136.53750338081466,
+          34.84651880987911
+        ],
+        [
+          136.53707437858506,
+          34.8466275650378
+        ],
+        [
+          136.53706112847078,
+          34.846574774794206
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "r-box-1",
+          "boundary": [
+            [
+              136.53706112847078,
+              34.846574774794206
+            ],
+            [
+              136.53747951481796,
+              34.84646859626625
+            ],
+            [
+              136.53750338081466,
+              34.84651880987911
+            ],
+            [
+              136.53707437858506,
+              34.8466275650378
+            ],
+            [
+              136.53706112847078,
+              34.846574774794206
+            ]
+          ],
+          "baseHeight": 9.7,
+          "rise": 0,
+          "rows": 1,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            136.537058,
+            34.846025
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                136.53706112847078,
+                34.846574774794206
+              ],
+              [
+                136.53747951481796,
+                34.84646859626625
+              ]
+            ],
+            "back": [
+              [
+                136.53707437858506,
+                34.8466275650378
+              ],
+              [
+                136.53750338081466,
+                34.84651880987911
+              ]
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsR-BOX. Author representative road-associated30x6m bank at arc5396m, offset60m driver-left, base9.7m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+            }
+          },
+          "baseReference": {
+            "zoneId": "r",
+            "surfaceId": "r-1",
+            "offsetMetres": 0.3,
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsR-BOX. Author representative road-associated30x6m bank at arc5396m, offset60m driver-left, base9.7m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+            }
+          },
+          "viewRoadReference": {
+            "coordinate": [
+              136.53708789835468,
+              34.84601542822458
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsR-BOX. Author representative road-associated30x6m bank at arc5396m, offset60m driver-left, base9.7m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+            }
+          },
+          "fenceMode": "authored",
+          "frontRailing": {
+            "heightMetres": 1.1,
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsR-BOX. Author representative road-associated30x6m bank at arc5396m, offset60m driver-left, base9.7m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+            }
+          },
+          "rowDirection": [
+            0.9553682095735215,
+            0.29541764357648626
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 9.7,
+        "rise": 0,
+        "depth": 6,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2026 map separately labelsR-BOX. Author representative road-associated30x6m bank at arc5396m, offset60m driver-left, base9.7m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+      },
+      "surfaceSource": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2026 map separately labelsR-BOX. Author representative road-associated30x6m bank at arc5396m, offset60m driver-left, base9.7m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+      },
+      "openingSource": {
+        "url": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Annual2026 promoter ticket announcement and retained2026 wayfinding separately identify A2,H,I,RBOX,SBOX,GRANVIEW. Use matching ticket/party qualification; general ticket does not grant access to private boxes. Current2027 structural descriptions are not2026 admission evidence."
+      },
+      "admissionNote": "2026具名区域的近似视点；范围、排数与楼面高度为估计，请按实际票区及资格入场。",
+      "description": "坐姿眼高1.2米；保留真实地形与场景遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Named2026 map relation and explicit author approximation; road16m/neighbor/registered facility exclusions checked."
+      }
+    },
+    {
+      "zoneId": "s-box",
+      "name": "S-BOX",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": false,
+      "boundary": [
+        [
+          136.53816056856905,
+          34.84616646607785
+        ],
+        [
+          136.53844794322666,
+          34.84597141041733
+        ],
+        [
+          136.53849266369812,
+          34.846010881503396
+        ],
+        [
+          136.5381974672885,
+          34.84621105286361
+        ],
+        [
+          136.53816056856905,
+          34.84616646607785
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "s-box-1",
+          "boundary": [
+            [
+              136.53816056856905,
+              34.84616646607785
+            ],
+            [
+              136.53844794322666,
+              34.84597141041733
+            ],
+            [
+              136.53849266369812,
+              34.846010881503396
+            ],
+            [
+              136.5381974672885,
+              34.84621105286361
+            ],
+            [
+              136.53816056856905,
+              34.84616646607785
+            ]
+          ],
+          "baseHeight": 11.3,
+          "rise": 0,
+          "rows": 1,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            136.537868,
+            34.845678
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                136.53816056856905,
+                34.84616646607785
+              ],
+              [
+                136.53844794322666,
+                34.84597141041733
+              ]
+            ],
+            "back": [
+              [
+                136.5381974672885,
+                34.84621105286361
+              ],
+              [
+                136.53849266369812,
+                34.846010881503396
+              ]
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsS-BOX. Author representative road-associated25x6m bank at arc5481m, offset60m driver-left, base11.3m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+            }
+          },
+          "baseReference": {
+            "zoneId": "s",
+            "surfaceId": "s-1",
+            "offsetMetres": 0.3,
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsS-BOX. Author representative road-associated25x6m bank at arc5481m, offset60m driver-left, base11.3m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+            }
+          },
+          "viewRoadReference": {
+            "coordinate": [
+              136.5379005439186,
+              34.8456531638516
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsS-BOX. Author representative road-associated25x6m bank at arc5481m, offset60m driver-left, base11.3m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+            }
+          },
+          "fenceMode": "authored",
+          "frontRailing": {
+            "heightMetres": 1.1,
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsS-BOX. Author representative road-associated25x6m bank at arc5481m, offset60m driver-left, base11.3m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+            }
+          },
+          "rowDirection": [
+            0.7706082108352882,
+            0.6373091756700481
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 11.3,
+        "rise": 0,
+        "depth": 6,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2026 map separately labelsS-BOX. Author representative road-associated25x6m bank at arc5481m, offset60m driver-left, base11.3m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+      },
+      "surfaceSource": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2026 map separately labelsS-BOX. Author representative road-associated25x6m bank at arc5481m, offset60m driver-left, base11.3m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+      },
+      "openingSource": {
+        "url": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Annual2026 promoter ticket announcement and retained2026 wayfinding separately identify A2,H,I,RBOX,SBOX,GRANVIEW. Use matching ticket/party qualification; general ticket does not grant access to private boxes. Current2027 structural descriptions are not2026 admission evidence."
+      },
+      "admissionNote": "2026具名区域的近似视点；范围、排数与楼面高度为估计，请按实际票区及资格入场。",
+      "description": "坐姿眼高1.2米；保留真实地形与场景遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Named2026 map relation and explicit author approximation; road16m/neighbor/registered facility exclusions checked."
+      }
+    },
+    {
+      "zoneId": "gran-view",
+      "name": "GRAN VIEW",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": false,
+      "boundary": [
+        [
+          136.5377709509456,
+          34.846561796467405
+        ],
+        [
+          136.5380798395095,
+          34.846428651502876
+        ],
+        [
+          136.5381290378021,
+          34.84648810055055
+        ],
+        [
+          136.5378088520589,
+          34.84662658052201
+        ],
+        [
+          136.5377709509456,
+          34.846561796467405
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "gran-view-1",
+          "boundary": [
+            [
+              136.5377709509456,
+              34.846561796467405
+            ],
+            [
+              136.5380798395095,
+              34.846428651502876
+            ],
+            [
+              136.5381290378021,
+              34.84648810055055
+            ],
+            [
+              136.5378088520589,
+              34.84662658052201
+            ],
+            [
+              136.5377709509456,
+              34.846561796467405
+            ]
+          ],
+          "baseHeight": 12.7,
+          "rise": 0,
+          "rows": 1,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            136.53754909925797,
+            34.845852024444966
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                136.5377709509456,
+                34.846561796467405
+              ],
+              [
+                136.5380798395095,
+                34.846428651502876
+              ]
+            ],
+            "back": [
+              [
+                136.5378088520589,
+                34.84662658052201
+              ],
+              [
+                136.5381290378021,
+                34.84648810055055
+              ]
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsGRAN VIEW. Author representative road-associated20x8m bank at arc5436m, offset80m driver-left, base12.7m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+            }
+          },
+          "baseReference": {
+            "zoneId": "r",
+            "surfaceId": "r-1",
+            "offsetMetres": 3.3,
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsGRAN VIEW. Author representative road-associated20x8m bank at arc5436m, offset80m driver-left, base12.7m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+            }
+          },
+          "viewRoadReference": {
+            "coordinate": [
+              136.53749060968957,
+              34.8458750733003
+            ],
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsGRAN VIEW. Author representative road-associated20x8m bank at arc5436m, offset80m driver-left, base12.7m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+            }
+          },
+          "fenceMode": "authored",
+          "frontRailing": {
+            "heightMetres": 1.1,
+            "source": {
+              "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Actually viewed organizer-branded2026 map separately labelsGRAN VIEW. Author representative road-associated20x8m bank at arc5436m, offset80m driver-left, base12.7m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+            }
+          },
+          "rowDirection": [
+            0.8853229703435167,
+            0.4649765996070474
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 12.7,
+        "rise": 0,
+        "depth": 8,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2026 map separately labelsGRAN VIEW. Author representative road-associated20x8m bank at arc5436m, offset80m driver-left, base12.7m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+      },
+      "surfaceSource": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually viewed organizer-branded2026 map separately labelsGRAN VIEW. Author representative road-associated20x8m bank at arc5436m, offset80m driver-left, base12.7m/rise0m/1render rows estimated; seated eye1.2m. Exact event footprint, temporary block divisions, room interiors and ticket entitlement unverified. No2027 prices or admission rules imported. Upper-box/terrace floor is tied to source-associated parent-bank top with estimated offset; not a surveyed building floor. GRANVIEW is one representative dining terrace, not full multi-floor/interior reconstruction."
+      },
+      "openingSource": {
+        "url": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Annual2026 promoter ticket announcement and retained2026 wayfinding separately identify A2,H,I,RBOX,SBOX,GRANVIEW. Use matching ticket/party qualification; general ticket does not grant access to private boxes. Current2027 structural descriptions are not2026 admission evidence."
+      },
+      "admissionNote": "2026具名区域的近似视点；范围、排数与楼面高度为估计，请按实际票区及资格入场。",
+      "description": "坐姿眼高1.2米；保留真实地形与场景遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Named2026 map relation and explicit author approximation; road16m/neighbor/registered facility exclusions checked."
+      }
+    }
+  ],
+  "beforeZones": [],
+  "sourceMap": {
+    "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+    "sha256": "67961c12903c56f65fbaddfd737b0606b060f957f2673ed91ce5be38eb9abca9",
+    "printedSeason": 2026,
+    "actuallyViewed": true
+  },
+  "structuralContext": [
+    {
+      "url": "https://www.suzukacircuit.jp/f1/ticket/r-box.html",
+      "role": "RBOX above R stand; page now2027, physical reference only, not annual pricing/access."
+    },
+    {
+      "url": "https://www.suzukacircuit.jp/f1/ticket/family-seat.html",
+      "role": "SBOX above S family seats; page now2027, physical reference only."
+    },
+    {
+      "url": "https://www.suzukacircuit.jp/eng/superbike_s/ticket/gran-view/",
+      "role": "Facility terrace context at final corner; not F1 ticket benefits or measured event floor."
+    }
+  ],
+  "coverage": "Six source-named families; I uses six independent approximate support banks; Box/GranView representative terraces. Exact blocks, room interiors and final annual installation not reconstructed.",
+  "geographicBoundaryVerified": false,
+  "approximationAccepted": true,
+  "terrainCorrection": "I is six separate local banks rather than one long flat slab across steep source terrain; eye1.2m and source DEM unchanged."
+}

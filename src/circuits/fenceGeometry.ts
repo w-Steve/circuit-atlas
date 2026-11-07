@@ -4,6 +4,7 @@ import type {CircuitPackage} from './types';
 import type {createCircuitGeometry} from './geometry';
 import {geographicPoint} from './facilityGeometry';
 import {terrainHeight} from './elevation';
+import {circuitBarriers} from './barrierGeometry';
 
 type Geometry=ReturnType<typeof createCircuitGeometry>;
 type Segment={a:Vector3;b:Vector3;width:number};
@@ -35,6 +36,17 @@ export function roadClearance(data:CircuitPackage,g:Geometry){
  * A conflicting source footprint is an audit issue, never a reason to move eyes.
  */
 export function spectatorFence(surface:SpectatorSurface,model:Pick<SpectatorModel,'surfacePoint'>,data:CircuitPackage,g:Geometry,clearance:ReturnType<typeof roadClearance>){
+ // A source fence owns its corridor. The old front-edge proxy may be offset
+ // by up to 4m; it must not create a second fictitious fence beside that source.
+ // Never clip or move the sourced polyline itself, or depend on a camera/ray.
+ const known=circuitBarriers(data).flatMap(f=>{
+  const p=f.coordinates.map(c=>geographicPoint(g,c));return p.slice(0,-1).map((a,i)=>({a,b:p[i+1]}));
+ });
+ const isProxyDuplicate=(p:Vector3)=>known.some(({a,b})=>{
+  const dx=b.x-a.x,dz=b.z-a.z,t=Math.max(0,Math.min(1,((p.x-a.x)*dx+(p.z-a.z)*dz)/(dx*dx+dz*dz||1)));
+  return Math.hypot(p.x-a.x-t*dx,p.z-a.z-t*dz)<=4;
+ });
+ const unique=(segments:[Vector3,Vector3][])=>known.length?segments.filter(([a,b])=>![a,b,a.clone().lerp(b,.5)].some(isProxyDuplicate)):segments;
  // An upper deck is not another trackside catch fence.
  if(surface.definition.baseReference)return [];
  if(surface.definition.terrainFollow){
@@ -50,7 +62,7 @@ export function spectatorFence(surface:SpectatorSurface,model:Pick<SpectatorMode
     for(const point of [a,b])point.y=g.groundAt(point.x,point.z)+.1;
     segments.push([a,b]);
    }
-  });return segments;
+  });return unique(segments);
  }
  const count=Math.max(24,Math.ceil((surface.max-surface.min)/2)),points:(Vector3|null)[]=[];
  for(let i=0;i<=count;i++){
@@ -69,5 +81,5 @@ export function spectatorFence(surface:SpectatorSurface,model:Pick<SpectatorMode
   for(let j=0;j<=n;j++)if(clearance(a.clone().lerp(b,j/n))<.7)return;
   segments.push([a,b]);
  });
- return segments;
+ return unique(segments);
 }

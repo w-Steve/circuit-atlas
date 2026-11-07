@@ -1,0 +1,155 @@
+{
+  "circuitId": "interlagos",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "grand-prix-club",
+      "name": "Grand Prix Club · VIP",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -46.69714556976422,
+          -23.70262684978826
+        ],
+        [
+          -46.69786185735598,
+          -23.70292062751238
+        ],
+        [
+          -46.697821751678134,
+          -23.703002609879746
+        ],
+        [
+          -46.69710546408637,
+          -23.702708832155626
+        ],
+        [
+          -46.69714556976422,
+          -23.70262684978826
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "grand-prix-club-1",
+          "boundary": [
+            [
+              -46.69714556976422,
+              -23.70262684978826
+            ],
+            [
+              -46.69786185735598,
+              -23.70292062751238
+            ],
+            [
+              -46.697821751678134,
+              -23.703002609879746
+            ],
+            [
+              -46.69710546408637,
+              -23.702708832155626
+            ],
+            [
+              -46.69714556976422,
+              -23.70262684978826
+            ]
+          ],
+          "baseHeight": 2,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "frontReference": [
+            -46.69991350892734,
+            -23.700640782734457
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2,
+        "rise": 0,
+        "depth": 10,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Approximate Club viewing-front subset centered on official schematic grey Club marker[770,362]. Local affine interpolation fromG/OrangeTree/PitStop mapped anchors, all barycentric weights positive. Existing anchor footprints and schematic projection are themselves approximate, not geographic survey. Author80x10m deck,2m height, standing1.65m; complete lounge/roof, exact footprint and height not reproduced. VIP admission separate from ordinary stands, Village and Fanzone."
+      },
+      "surfaceSource": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Approximate Club viewing-front subset centered on official schematic grey Club marker[770,362]. Local affine interpolation fromG/OrangeTree/PitStop mapped anchors, all barycentric weights positive. Existing anchor footprints and schematic projection are themselves approximate, not geographic survey. Author80x10m deck,2m height, standing1.65m; complete lounge/roof, exact footprint and height not reproduced. VIP admission separate from ordinary stands, Village and Fanzone."
+      },
+      "openingSource": {
+        "url": "https://f1saopaulo.com.br/noticias/gp-sao-paulo-de-f1-amplia-experiencia-do-publico-com-shows-e-diversidade-musical/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Organizer article dated2026-11-02 confirms annualVIPClub; organizer stands description identifies Pinheirinho/BicoDePato/Laranjinha circuit views. Not ordinary GA or Fanzone entitlement."
+      },
+      "description": "内场VIP区观赛前沿的近似站立平台，保留自然遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Positive official Club marker, local approximate anchor interpolation; registered road/seat/water/building/pit exclusions."
+      },
+      "admissionNote": "仅限 Grand Prix Club VIP 产品；不含普通看台、Village 或 Fanzone 门票。平台位置、范围及高度为近似。"
+    }
+  ],
+  "beforeZones": [],
+  "anchorReview": {
+    "anchorIds": [
+      "setor-g",
+      "orange-tree-club",
+      "pit-stop-club"
+    ],
+    "pixels": [
+      [
+        575.0,
+        215.0
+      ],
+      [
+        865.0,
+        477.0
+      ],
+      [
+        995.0,
+        435.0
+      ]
+    ],
+    "world": [
+      [
+        -46.693841934453715,
+        -23.703025351060013
+      ],
+      [
+        -46.699888402223294,
+        -23.70235304864437
+      ],
+      [
+        -46.70028141079278,
+        -23.703371338296428
+      ]
+    ],
+    "clubPixel": [
+      770,
+      362
+    ],
+    "clubCoordinate": [
+      -46.697483660721176,
+      -23.702814729834003
+    ],
+    "weights": [
+      0.4096020761245672,
+      0.40743944636678203,
+      0.1829584775086506
+    ]
+  },
+  "geographicBoundaryVerified": false,
+  "completeLoungeModeled": false
+}

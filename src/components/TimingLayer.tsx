@@ -1,15 +1,17 @@
-import {useEffect,useMemo} from 'react';
+import {timingDetailVisible} from '../camera/mapDetail';
+import {useEffect,useMemo,useRef,useState} from 'react';
 import {Html,Line} from '@react-three/drei';
-import {addAfterEffect,useThree} from '@react-three/fiber';
+import {addAfterEffect,useFrame,useThree} from '@react-three/fiber';
 import {BufferGeometry,Float32BufferAttribute,Color,Vector3} from 'three';
 import type {CircuitPackage,CircuitTiming} from '../circuits/types';
 import type {createCircuitGeometry} from '../circuits/geometry';
 import {resolveTiming} from '../circuits/timingGeometry';
-import {useApp} from '../store';
+import {useCircuit,useCircuitStore} from '../app/CircuitContext';
 import {t} from '../i18n';
 import './TimingLayer.css';
 export const sectorColors=['#d9ac61','#65ada9','#d47772'];
 export function TimingLegend(){
+  const useApp=useCircuitStore();
  const show=useApp(s=>s.timingVisible),toggle=useApp(s=>s.setTimingVisible);
  return <button className="timing-toggle" aria-label={t('显示计时分段')} aria-pressed={show} onClick={()=>toggle(!show)}>{sectorColors.map((color,i)=><span key={color}><i style={{background:color}}/>S{i+1}</span>)}</button>;
 }
@@ -45,17 +47,21 @@ function TimingTag({point,label,kind}:{point:Vector3;label:string;kind:string}){
  return <Html center portal={host?{current:host}:undefined} position={point}><span className={`timing-tag timing-${kind}`} data-timing-mark={kind}>{label}</span></Html>;
 }
 export function TimingLayer({data,geometry,source=data.timing,widths,roadSurfaceOffset=.2}:{data:CircuitPackage;geometry:ReturnType<typeof createCircuitGeometry>;source?:CircuitTiming;widths?:readonly number[];roadSurfaceOffset?:number}){
+  const useApp=useCircuitStore();
  const mode=useApp(s=>s.mode),show=useApp(s=>s.timingVisible),overview=mode==='overview'&&show;
- const {gl}=useThree();
+ const {gl,camera,size}=useThree(),runtime=useCircuit();
+ const [detail,setDetail]=useState(false),previousDetail=useRef(false);
+ useFrame(()=>{const next=timingDetailVisible(camera as import('three').PerspectiveCamera,runtime.controls.current?.target??runtime.mapCenter,size.height);if(next!==previousDetail.current){previousDetail.current=next;setDetail(next)}});
  const model=useMemo(()=>{
   if(!source)return null;
+  if(source===runtime.data.timing&&geometry===runtime.geometry)return runtime.timing;
   try{return resolveTiming(data,geometry,source)}catch{return null}
  },[data,geometry,source]);
  useEffect(()=>{
-  gl.domElement.dataset.timingSectorsVisible=String(overview);
+  gl.domElement.dataset.timingSectorsVisible=String(overview&&detail);
   if(model)gl.domElement.dataset.timingMarks=JSON.stringify({start:model.start,control:model.control,splits:model.splits,sourceSeason:model.source.sourceSeason,registrationRmsMetres:model.registrationRmsMetres});
   else delete gl.domElement.dataset.timingMarks;
- },[gl,model,overview]);
+ },[gl,model,overview,detail]);
  const meshes=useMemo(()=>{
   if(!model)return null;const points:Vector3[]=[],colors:Color[]=[],lineVertices:number[]=[],lineColors:number[]=[];
   const emit=(out:number[],col:number[],a:Vector3,b:Vector3,c:Vector3,color:Color)=>{for(const p of [a,b,c]){out.push(p.x,p.y,p.z);col.push(color.r,color.g,color.b)}};
@@ -83,8 +89,8 @@ export function TimingLayer({data,geometry,source=data.timing,widths,roadSurface
  const tag=(s:number,side:number)=>{const p=geometry.at(s),n=geometry.tangent(s);return p.add(new Vector3(-n.z*side,14,n.x*side))};
  const separation=Math.min(Math.abs(model.start-model.control),geometry.length-Math.abs(model.start-model.control));
  return <group name="circuit-timing" userData={{sourceSeason:source!.sourceSeason}}>
-  <mesh geometry={meshes.lines}><meshBasicMaterial vertexColors side={2} polygonOffset polygonOffsetFactor={-5} polygonOffsetUnits={-5}/></mesh>
-  {overview&&<><TimingLabelLayout/><Line points={meshes.points} vertexColors={meshes.colors} lineWidth={1.8} transparent opacity={.95} depthWrite={false} polygonOffset polygonOffsetFactor={-4} polygonOffsetUnits={-4}/>
+  <mesh visible={mode!=='overview'||detail} geometry={meshes.lines}><meshBasicMaterial vertexColors side={2} polygonOffset polygonOffsetFactor={-5} polygonOffsetUnits={-5}/></mesh>
+  {overview&&detail&&<><TimingLabelLayout/><Line points={meshes.points} vertexColors={meshes.colors} lineWidth={1.8} transparent opacity={.95} depthWrite={false} polygonOffset polygonOffsetFactor={-4} polygonOffsetUnits={-4}/>
    {separation<20?<TimingTag point={tag(model.control,22)} label={t('发车 / 计时线')} kind="start-control"/>:<><TimingTag point={tag(model.start,-22)} label={t('发车线')} kind="start"/><TimingTag point={tag(model.control,22)} label={t('计时线')} kind="control"/></>}
    <TimingTag point={tag(model.splits[0],20)} label="S1 → S2" kind="split-1"/><TimingTag point={tag(model.splits[1],20)} label="S2 → S3" kind="split-2"/>
   </>}

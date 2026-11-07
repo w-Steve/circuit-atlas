@@ -1,0 +1,31 @@
+{
+  "circuitId": "madrid",
+  "zoneId": "ga-c-straight",
+  "packageSha256": "7396b74ca0fb1286a7cb843daea14b7d0e979387e1b819b71ff6ccb7d576c337",
+  "observerPosition": [
+    -522.1258702334071,
+    25.070767462075846,
+    -134.16579275060937
+  ],
+  "cockpitPosition": [
+    -493.8350877341832,
+    28.90490561105006,
+    -151.26027819328567
+  ],
+  "distanceMetres": 33.27597364937177,
+  "observerGroundMetres": 23.380902544139076,
+  "roadCentreGroundMetres": 27.940542091557656,
+  "intersections": [
+    {
+      "object": "road",
+      "distanceMetres": 26.59105571334305,
+      "point": [
+        -499.51851450167976,
+        28.13465320156801,
+        -147.82611174192817
+      ]
+    }
+  ],
+  "conclusion": "The current road mesh obstructs this saved cockpit ray. This proves model occlusion only; it does not validate the real 2026 ground profile.",
+  "nextSource": "Check local IGN/PNOA terrain acquisition date against 2026 circuit construction before migration."
+}

@@ -1,0 +1,206 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "checkedAt": "2026-11-05",
+  "zones": [
+    {
+      "zoneId": "walkabout-esplanade",
+      "name": "Zone 4 Walkabout · Esplanade",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.85245149740108,
+          1.28865119048903
+        ],
+        [
+          103.85260450956888,
+          1.2885988004533149
+        ],
+        [
+          103.85262197733118,
+          1.2886497916119082
+        ],
+        [
+          103.85246896516337,
+          1.2887021816476234
+        ],
+        [
+          103.85245149740108,
+          1.28865119048903
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-esplanade-1",
+          "boundary": [
+            [
+              103.85245149740108,
+              1.28865119048903
+            ],
+            [
+              103.85260450956888,
+              1.2885988004533149
+            ],
+            [
+              103.85262197733118,
+              1.2886497916119082
+            ],
+            [
+              103.85246896516337,
+              1.2887021816476234
+            ],
+            [
+              103.85245149740108,
+              1.28865119048903
+            ]
+          ],
+          "baseHeight": 1.0,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.852334,
+            1.28853
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.0,
+        "rise": 0,
+        "depth": 6,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter confirms standing platforms and access scope; park map supplies Esplanade/T5 context. This particular footprint and1.0m deck are author estimates accepted under practical accuracy; not an installation survey or full public-zone boundary."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Explicit named2026 ordinary reserved-seat product; catalogue snapshot retained in annual-access review. No live availability claim."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter confirms standing platforms and access scope; park map supplies Esplanade/T5 context. This particular footprint and1.0m deck are author estimates accepted under practical accuracy; not an installation survey or full public-zone boundary."
+      },
+      "description": "独立近似站立平台，范围和平台高度为估计。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Discrete approximate standing platform; race road, water, facilities and neighboring zones screened."
+      },
+      "admissionNote": "Zone 4 Walkabout与Premier Walkabout可进入；范围与平台高度为估计。"
+    },
+    {
+      "zoneId": "walkabout-t5",
+      "name": "Premier Walkabout · T5",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.86224797904796,
+          1.2914303516040162
+        ],
+        [
+          103.86206858314821,
+          1.2914409333303767
+        ],
+        [
+          103.86207175847247,
+          1.2914947384334585
+        ],
+        [
+          103.86225115437222,
+          1.2914841567070983
+        ],
+        [
+          103.86224797904796,
+          1.2914303516040162
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-t5-1",
+          "boundary": [
+            [
+              103.86224797904796,
+              1.2914303516040162
+            ],
+            [
+              103.86206858314821,
+              1.2914409333303767
+            ],
+            [
+              103.86207175847247,
+              1.2914947384334585
+            ],
+            [
+              103.86225115437222,
+              1.2914841567070983
+            ],
+            [
+              103.86224797904796,
+              1.2914303516040162
+            ]
+          ],
+          "baseHeight": 1.4,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.862373,
+            1.291261
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.4,
+        "rise": 0,
+        "depth": 6,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter confirms standing platforms and access scope; park map supplies Esplanade/T5 context. This particular footprint and1.4m deck are author estimates accepted under practical accuracy; not an installation survey or full public-zone boundary."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Explicit named2026 ordinary reserved-seat product; catalogue snapshot retained in annual-access review. No live availability claim."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter confirms standing platforms and access scope; park map supplies Esplanade/T5 context. This particular footprint and1.4m deck are author estimates accepted under practical accuracy; not an installation survey or full public-zone boundary."
+      },
+      "description": "独立近似站立平台，范围和平台高度为估计。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Discrete approximate standing platform; race road, water, facilities and neighboring zones screened."
+      },
+      "admissionNote": "Premier Walkabout可进入；Zone 4单区票不含此处。范围与平台高度为估计。"
+    }
+  ],
+  "accuracy": "User-approved practical approximation, no installation survey claim.",
+  "remaining": "Additional Premier opening/final corner and pit-entry/exit platform groups remain.",
+  "registeredWaterPitBuildingOverlapM2": 0
+}

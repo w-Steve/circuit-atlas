@@ -1,0 +1,282 @@
+{
+  "circuitId": "mexico",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "sky-boxes-grada-1",
+      "name": "Sky Boxes Grada 1",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -99.09399980380478,
+          19.406596213118497
+        ],
+        [
+          -99.09343423316348,
+          19.40651907752528
+        ],
+        [
+          -99.09342878103651,
+          19.406554640100392
+        ],
+        [
+          -99.0939943516778,
+          19.406631775693608
+        ],
+        [
+          -99.09399980380478,
+          19.406596213118497
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "sky-boxes-grada-1-1",
+          "boundary": [
+            [
+              -99.09399980380478,
+              19.406596213118497
+            ],
+            [
+              -99.09343423316348,
+              19.40651907752528
+            ],
+            [
+              -99.09342878103651,
+              19.406554640100392
+            ],
+            [
+              -99.0939943516778,
+              19.406631775693608
+            ],
+            [
+              -99.09399980380478,
+              19.406596213118497
+            ]
+          ],
+          "baseHeight": 10.12,
+          "baseReference": {
+            "zoneId": "grada-1",
+            "surfaceId": "grada-1-1",
+            "offsetMetres": 0.4,
+            "source": {
+              "url": "https://www.mexicogp.mx/boleto/sky-box-mgs1/",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer identifies private roofed seated boxes in upper part of grada-1. Author approximation: 60x4m subset immediately behind existing bank rear, floor0.4m above its estimated top, seated eye1.2m. Extent, count, partitions, floor offset and canopy dimensions estimated, not surveyed. Annual2026 identity is linked separately by the2026 sale announcement; current pricing not imported."
+            }
+          },
+          "rise": 0,
+          "eyeHeight": 1.2,
+          "rows": 1,
+          "frontReference": [
+            -99.0937793432703,
+            19.406151214147496
+          ],
+          "fenceMode": "authored",
+          "canopy": {
+            "rearClearanceMetres": 2.5,
+            "crownMetres": 0.3,
+            "postWidthMetres": 0.12,
+            "supportU": [
+              0,
+              1
+            ],
+            "supportEdges": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "source": {
+              "url": "https://www.mexicogp.mx/boleto/sky-box-mgs1/",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer identifies private roofed seated boxes in upper part of grada-1. Author approximation: 60x4m subset immediately behind existing bank rear, floor0.4m above its estimated top, seated eye1.2m. Extent, count, partitions, floor offset and canopy dimensions estimated, not surveyed. Annual2026 identity is linked separately by the2026 sale announcement; current pricing not imported."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 10.12,
+        "rise": 0,
+        "depth": 4,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.mexicogp.mx/boleto/sky-box-mgs1/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer identifies private roofed seated boxes in upper part of grada-1. Author approximation: 60x4m subset immediately behind existing bank rear, floor0.4m above its estimated top, seated eye1.2m. Extent, count, partitions, floor offset and canopy dimensions estimated, not surveyed. Annual2026 identity is linked separately by the2026 sale announcement; current pricing not imported."
+      },
+      "surfaceSource": {
+        "url": "https://www.mexicogp.mx/boleto/sky-box-mgs1/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer identifies private roofed seated boxes in upper part of grada-1. Author approximation: 60x4m subset immediately behind existing bank rear, floor0.4m above its estimated top, seated eye1.2m. Extent, count, partitions, floor offset and canopy dimensions estimated, not surveyed. Annual2026 identity is linked separately by the2026 sale announcement; current pricing not imported."
+      },
+      "openingSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-venta-general-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 public sale lists Box Main Grandstand+Speed Lounge Verde and Box Grada11+Speed Lounge Amarillo separately from ordinary seats. Corresponding organizer SkyBoxes product identifies private roofed upper-bank seating. Admission requires matching Box credential, not an ordinary stand ticket."
+      },
+      "admissionNote": "专属包厢票区；按票入场，非普通看台通用。范围、高度及顶棚为近似。",
+      "description": "看台上部的近似带顶棚坐席，坐姿眼高1.2米。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Source-associated upper-bank approximation; no ordinary seat geometry altered."
+      }
+    },
+    {
+      "zoneId": "sky-boxes-grada-11",
+      "name": "Sky Boxes Grada 11",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -99.08711635050165,
+          19.397562574801007
+        ],
+        [
+          -99.0870914082869,
+          19.397921128341647
+        ],
+        [
+          -99.08712942341099,
+          19.397923480857816
+        ],
+        [
+          -99.08715436562574,
+          19.397564927317177
+        ],
+        [
+          -99.08711635050165,
+          19.397562574801007
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "sky-boxes-grada-11-1",
+          "boundary": [
+            [
+              -99.08711635050165,
+              19.397562574801007
+            ],
+            [
+              -99.0870914082869,
+              19.397921128341647
+            ],
+            [
+              -99.08712942341099,
+              19.397923480857816
+            ],
+            [
+              -99.08715436562574,
+              19.397564927317177
+            ],
+            [
+              -99.08711635050165,
+              19.397562574801007
+            ]
+          ],
+          "baseHeight": 12.9,
+          "baseReference": {
+            "zoneId": "grada-11",
+            "surfaceId": "grada-11-1",
+            "offsetMetres": 0.4,
+            "source": {
+              "url": "https://www.mexicogp.mx/boleto/corporativos-sky-boxes-11/",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer identifies private roofed seated boxes in upper part of grada-11. Author approximation: 40x4m subset immediately behind existing bank rear, floor0.4m above its estimated top, seated eye1.2m. Extent, count, partitions, floor offset and canopy dimensions estimated, not surveyed. Annual2026 identity is linked separately by the2026 sale announcement; current pricing not imported."
+            }
+          },
+          "rise": 0,
+          "eyeHeight": 1.2,
+          "rows": 1,
+          "frontReference": [
+            -99.08669048638745,
+            19.397716266640764
+          ],
+          "fenceMode": "authored",
+          "canopy": {
+            "rearClearanceMetres": 2.5,
+            "crownMetres": 0.3,
+            "postWidthMetres": 0.12,
+            "supportU": [
+              0,
+              1
+            ],
+            "supportEdges": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "source": {
+              "url": "https://www.mexicogp.mx/boleto/corporativos-sky-boxes-11/",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer identifies private roofed seated boxes in upper part of grada-11. Author approximation: 40x4m subset immediately behind existing bank rear, floor0.4m above its estimated top, seated eye1.2m. Extent, count, partitions, floor offset and canopy dimensions estimated, not surveyed. Annual2026 identity is linked separately by the2026 sale announcement; current pricing not imported."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 12.9,
+        "rise": 0,
+        "depth": 4,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.mexicogp.mx/boleto/corporativos-sky-boxes-11/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer identifies private roofed seated boxes in upper part of grada-11. Author approximation: 40x4m subset immediately behind existing bank rear, floor0.4m above its estimated top, seated eye1.2m. Extent, count, partitions, floor offset and canopy dimensions estimated, not surveyed. Annual2026 identity is linked separately by the2026 sale announcement; current pricing not imported."
+      },
+      "surfaceSource": {
+        "url": "https://www.mexicogp.mx/boleto/corporativos-sky-boxes-11/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer identifies private roofed seated boxes in upper part of grada-11. Author approximation: 40x4m subset immediately behind existing bank rear, floor0.4m above its estimated top, seated eye1.2m. Extent, count, partitions, floor offset and canopy dimensions estimated, not surveyed. Annual2026 identity is linked separately by the2026 sale announcement; current pricing not imported."
+      },
+      "openingSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-venta-general-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 public sale lists Box Main Grandstand+Speed Lounge Verde and Box Grada11+Speed Lounge Amarillo separately from ordinary seats. Corresponding organizer SkyBoxes product identifies private roofed upper-bank seating. Admission requires matching Box credential, not an ordinary stand ticket."
+      },
+      "admissionNote": "专属包厢票区；按票入场，非普通看台通用。范围、高度及顶棚为近似。",
+      "description": "看台上部的近似带顶棚坐席，坐姿眼高1.2米。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Source-associated upper-bank approximation; no ordinary seat geometry altered."
+      }
+    }
+  ],
+  "beforeZones": [],
+  "coverage": "Source-associated approximate upper SkyBoxes subsets at stands1/11. Lounge interiors, suite partitions, exact seat allocations and full building footprints unmodeled."
+}

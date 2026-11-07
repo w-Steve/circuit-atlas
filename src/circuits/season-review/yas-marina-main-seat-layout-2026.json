@@ -1,0 +1,280 @@
+{
+  "circuitId": "yas-marina",
+  "season": 2026,
+  "checkedAt": "2026-10-30",
+  "sourceUrl": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+  "method": "Normal public viewer UI openedM03, navigated each ordinaryM00–M09 section with explicit loaded-map identity waits, parsed actual rendered seat IDs. M03 and endpointM09 images actually inspected. Only factual section/row counts retained, not proprietary graphics.",
+  "annualScope": "Configured viewer undated; organizer2026 Main product establishes current product family, not complete annual seat-by-seat availability.",
+  "sections": [
+    {
+      "sectionId": "S_M00",
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "rowCount": 8,
+      "renderedSeatCount": 80,
+      "perRowSeatCounts": {
+        "A": 10,
+        "B": 10,
+        "C": 10,
+        "D": 10,
+        "E": 10,
+        "F": 10,
+        "G": 10,
+        "H": 10
+      },
+      "snapshotSha256": "d8c403f7fbd309fbd00a343eebaca3c7724e55461a71879fa28f8c6cdc1a5f47"
+    },
+    {
+      "sectionId": "S_M01",
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "rowCount": 8,
+      "renderedSeatCount": 384,
+      "perRowSeatCounts": {
+        "A": 48,
+        "B": 48,
+        "C": 48,
+        "D": 48,
+        "E": 48,
+        "F": 48,
+        "G": 48,
+        "H": 48
+      },
+      "snapshotSha256": "09a3e323da5623342412694886b0ed745720eaa6c9a56ca1e9483fc0f6ccd98b"
+    },
+    {
+      "sectionId": "S_M02",
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "rowCount": 8,
+      "renderedSeatCount": 680,
+      "perRowSeatCounts": {
+        "A": 85,
+        "B": 85,
+        "C": 85,
+        "D": 85,
+        "E": 85,
+        "F": 85,
+        "G": 85,
+        "H": 85
+      },
+      "snapshotSha256": "e935f50a4c5d8751f75c78fe32026cab81558c216b28adca7edfe51db0fb9df1"
+    },
+    {
+      "sectionId": "S_M03",
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "rowCount": 8,
+      "renderedSeatCount": 544,
+      "perRowSeatCounts": {
+        "A": 68,
+        "B": 68,
+        "C": 68,
+        "D": 68,
+        "E": 68,
+        "F": 68,
+        "G": 68,
+        "H": 68
+      },
+      "snapshotSha256": "b09cbb3ee3b90bf195ddcea6241abffb93f969a39b17e383835c04a756ac5b19"
+    },
+    {
+      "sectionId": "S_M04",
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "rowCount": 8,
+      "renderedSeatCount": 544,
+      "perRowSeatCounts": {
+        "A": 68,
+        "B": 68,
+        "C": 68,
+        "D": 68,
+        "E": 68,
+        "F": 68,
+        "G": 68,
+        "H": 68
+      },
+      "snapshotSha256": "d03a8d999e525da8e27d75dea42a27bc2d2273ba61a936f7aabf854b0f95afc8"
+    },
+    {
+      "sectionId": "S_M05",
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "rowCount": 8,
+      "renderedSeatCount": 544,
+      "perRowSeatCounts": {
+        "A": 68,
+        "B": 68,
+        "C": 68,
+        "D": 68,
+        "E": 68,
+        "F": 68,
+        "G": 68,
+        "H": 68
+      },
+      "snapshotSha256": "5abd41497b0ab7512e7f3c5cec39031f1389b0d9bada36ad4ddda4fa084be771"
+    },
+    {
+      "sectionId": "S_M06",
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "rowCount": 8,
+      "renderedSeatCount": 544,
+      "perRowSeatCounts": {
+        "A": 68,
+        "B": 68,
+        "C": 68,
+        "D": 68,
+        "E": 68,
+        "F": 68,
+        "G": 68,
+        "H": 68
+      },
+      "snapshotSha256": "ceae947a5b82ce2ad612206957f1f51e15dd96c99c274003631008274eaca1b7"
+    },
+    {
+      "sectionId": "S_M07",
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "rowCount": 8,
+      "renderedSeatCount": 544,
+      "perRowSeatCounts": {
+        "A": 68,
+        "B": 68,
+        "C": 68,
+        "D": 68,
+        "E": 68,
+        "F": 68,
+        "G": 68,
+        "H": 68
+      },
+      "snapshotSha256": "79c966b0ed3766e3e72cb75d7c870267b80a7c96c8b98b26d232132820c082a1"
+    },
+    {
+      "sectionId": "S_M08",
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "rowCount": 8,
+      "renderedSeatCount": 544,
+      "perRowSeatCounts": {
+        "A": 68,
+        "B": 68,
+        "C": 68,
+        "D": 68,
+        "E": 68,
+        "F": 68,
+        "G": 68,
+        "H": 68
+      },
+      "snapshotSha256": "45b15993b042ead7fc27f6cca22b29348b73cf282cc044bd44e3486d7c984c07"
+    },
+    {
+      "sectionId": "S_M09",
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "rowCount": 6,
+      "renderedSeatCount": 252,
+      "perRowSeatCounts": {
+        "A": 42,
+        "B": 42,
+        "C": 42,
+        "D": 42,
+        "E": 42,
+        "F": 42
+      },
+      "snapshotSha256": "1c5c06c3cc135bba3528f5de1bfbc842cbb1659e4f64fef89d2900c1d7a4daa6"
+    }
+  ],
+  "totalRenderedOrdinarySeats": 4660,
+  "findings": [
+    "M00–M08 each8 rowsA–H; M09 has6 selectable ordinary rowsA–F. Do not use a uniform8-row bank for all sections.",
+    "M00 is a narrow10-seat-per-row end block; do not assign every section equal physical width.",
+    "Rear facade/other rows shown in source image are not included in ordinary block seat IDs. Do not merge rear layers into ordinary floor.",
+    "No rowG ordinary seat IDs inM09. Separate accessible platform needs positive primary admission/geometry, not invented seats or inference from absent IDs."
+  ],
+  "geometryLimit": {
+    "wholeBuildingOrientedLengthMetres": 380.7,
+    "wholeBuildingOrientedDepthMetres": 24.5,
+    "note": "Whole native building envelope only; not lower-seat setback, floor or ordinary seat depth. No geometry reduced by seat-count proportional clipping."
+  },
+  "runtimeApplied": false,
+  "nextAction": "Reconstruct actual ordinary front/back line and individual end widths, then separate any admitted upper/platform areas with their own sources. Existing22row whole-building bank stays closed until physical layers and eye heights validated."
+}

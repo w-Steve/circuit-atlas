@@ -1,0 +1,294 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "checkedAt": "2026-10-30",
+  "sourceUrl": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+  "annualEvidence": {
+    "access": "2026 promoter catalogue as retained in search index; current live listing has changed season. Cross-check with publisher-authored2026 map, not URL directory year. Search snapshots are evidence of named2026 sale, not a surveyed installation or final full inventory.",
+    "catalogueSeasonEvidence": "Explicit2026 ticket catalogue text; dates28May2026/05Oct2026 and2026 performer lineup. Separate named products and prices retained as facts, not availability guarantees.",
+    "namedProductFacts": [
+      {
+        "name": "Marina Bay Grandstand",
+        "threeDaySGD": 1798
+      },
+      {
+        "name": "Chicane @ Turn 2 Grandstand",
+        "threeDaySGD": 1798
+      },
+      {
+        "name": "Pit Exit Grandstand",
+        "threeDaySGD": 1698
+      },
+      {
+        "name": "Raffles Grandstand",
+        "threeDaySGD": 1208
+      },
+      {
+        "name": "Republic Grandstand",
+        "threeDaySGD": 988
+      }
+    ],
+    "walkaboutScope": {
+      "premier": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "zone4": [
+        "4"
+      ],
+      "viewerPosture": "standing",
+      "eyeHeightMetres": 1.65
+    },
+    "earlyPromoterMap": "singapore-connaught-source-review-2026.json#promoterMap"
+  },
+  "confirmedMissingProducts": [],
+  "runtimeApplied": true,
+  "geographicBoundaryVerified": false,
+  "inventoryComplete": false,
+  "additionalCoverageQuestions": [
+    {
+      "topic": "Chicane @ Turn1 early diagram",
+      "reason": "Early2026 promoter diagram independently labels and points to shortChicaneTurn1 bank, separatePitExit. Approximate physical bank now modeled; final ticket-name allocation remains unverified and not claimed.",
+      "modelZoneId": "chicane-turn-1",
+      "approximateExperienceAccepted": true,
+      "finalTicketAllocationVerified": false,
+      "completionRequired": false,
+      "sourceReview": "src/circuits/asia/singapore-chicane-turn-1-2026.json"
+    }
+  ],
+  "nextAction": "Major source-icon viewing sectors now approximated; refine exact temporary installations, bridge structure, fence locations and remaining named stand layer questions separately.",
+  "limitations": [
+    "2026 early map is not to scale and not proof of final installed boundary.",
+    "Walkabout admission areas include amenities and walking routes; do not open all colored zone ground.",
+    "No broad substring alias may turn Pit into PitExit or Turn2 into ChicaneTurn2."
+  ],
+  "modeledProducts": [
+    {
+      "productId": "republic",
+      "mapLabel": "Republic Grandstand",
+      "ticketClass": "grandstand",
+      "modelZoneId": "republic",
+      "sourceUrl": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/republic-grandstand/",
+      "reason": "Separately named2026 promoter catalogue product and separately drawn early2026 map bank; current ten modeled zone IDs do not contain this physical family. Source geometry still missing.",
+      "modelReview": "src/circuits/asia/singapore-republic-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "raffles",
+      "mapLabel": "Raffles Grandstand",
+      "ticketClass": "grandstand",
+      "modelZoneId": "raffles",
+      "sourceUrl": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/raffles-grandstand/",
+      "reason": "Separately named2026 promoter catalogue product and separately drawn early2026 map bank; current ten modeled zone IDs do not contain this physical family. Source geometry still missing.",
+      "modelReview": "src/circuits/asia/singapore-raffles-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "pit-exit",
+      "mapLabel": "Pit Exit Grandstand",
+      "ticketClass": "grandstand",
+      "modelZoneId": "pit-exit",
+      "sourceUrl": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/pit-exit-grandstand/",
+      "reason": "Separately named2026 promoter catalogue product and separately drawn early2026 map bank; current ten modeled zone IDs do not contain this physical family. Source geometry still missing.",
+      "modelReview": "src/circuits/asia/singapore-pit-exit-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "marina-bay",
+      "mapLabel": "Marina Bay Grandstand",
+      "ticketClass": "grandstand",
+      "modelZoneId": "marina-bay",
+      "sourceUrl": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/marina-bay-grandstand/",
+      "reason": "Separately named2026 promoter catalogue product and separately drawn early2026 map bank; current ten modeled zone IDs do not contain this physical family. Source geometry still missing.",
+      "modelReview": "src/circuits/asia/singapore-marina-bay-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "chicane-turn-2",
+      "mapLabel": "Chicane @ Turn 2 Grandstand",
+      "ticketClass": "grandstand",
+      "modelZoneId": "chicane-turn-2",
+      "sourceUrl": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/chicane-grandstand-turn-2/",
+      "reason": "Separately named2026 promoter catalogue product and separately drawn early2026 map bank; current ten modeled zone IDs do not contain this physical family. Source geometry still missing.",
+      "modelReview": "src/circuits/asia/singapore-chicane-turn-2-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "walkabout-platforms",
+      "mapLabel": "Walkabout major platform sectors",
+      "modelZoneIds": [
+        "walkabout-padang",
+        "walkabout-esplanade",
+        "walkabout-t5",
+        "walkabout-pit-exit",
+        "walkabout-final",
+        "walkabout-t2-t3",
+        "walkabout-t17",
+        "walkabout-stamford",
+        "walkabout-empress",
+        "walkabout-stamford-inner",
+        "walkabout-connaught-east",
+        "walkabout-t18",
+        "walkabout-fullerton",
+        "walkabout-jubilee",
+        "walkabout-connaught-west",
+        "walkabout-t1-outer",
+        "walkabout-t5-inner",
+        "walkabout-bridge-south",
+        "walkabout-bridge-mid"
+      ],
+      "accuracy": "approximate",
+      "admission": "Zone4-only versus Premier entitlement remains per-zone; no entire colored amenity zones made selectable."
+    }
+  ],
+  "runtimeCoverage": "approximate-nineteen-platform-groups",
+  "platformIconCoverageReview": {
+    "checkedAt": "2026-11-06",
+    "source": "research/season-review/singapore-2026/promoter-2026-early-map.png",
+    "addedModelZoneIds": [
+      "walkabout-fullerton",
+      "walkabout-bridge-south",
+      "walkabout-bridge-mid",
+      "walkabout-jubilee",
+      "walkabout-connaught-west",
+      "walkabout-t1-outer",
+      "walkabout-t5-inner"
+    ],
+    "unresolved": [],
+    "precision": "2026 illustrative early map, not-to-scale; individual dimensions and deck heights estimated.",
+    "resolution": "Fullerton corrected toT12 itself; incomingT5 driver-left, T1 platform upstream ofTurn1 seats. Esplanade/Jubilee bridge-side icons mapped to four separate fixed decks along actual bridge, using adjacent road terrain datum instead of water-floor datum. Geometry not surveyed."
+  },
+  "practicalCoverageReview": {
+    "accepted": true,
+    "checkedAt": "2026-11-06",
+    "basis": "Visually rechecked every major viewing-platform region on explicit2026 promoter illustrative map, plus previously published annual product access. Approximate per-region decks accepted under user requested practical accuracy, not a temporary installation survey.",
+    "sectors": [
+      {
+        "modelZoneId": "walkabout-padang",
+        "annualMapSector": "Zone 4 Walkabout · Padang"
+      },
+      {
+        "modelZoneId": "walkabout-esplanade",
+        "annualMapSector": "Zone 4 Walkabout · Esplanade"
+      },
+      {
+        "modelZoneId": "walkabout-t5",
+        "annualMapSector": "Premier Walkabout · T5"
+      },
+      {
+        "modelZoneId": "walkabout-pit-exit",
+        "annualMapSector": "Premier Walkabout · Pit Exit"
+      },
+      {
+        "modelZoneId": "walkabout-final",
+        "annualMapSector": "Premier Walkabout · T19"
+      },
+      {
+        "modelZoneId": "walkabout-t2-t3",
+        "annualMapSector": "Premier Walkabout · T2–T3"
+      },
+      {
+        "modelZoneId": "walkabout-t17",
+        "annualMapSector": "Premier Walkabout · T17 出弯"
+      },
+      {
+        "modelZoneId": "walkabout-stamford",
+        "annualMapSector": "Zone 4 Walkabout · Stamford"
+      },
+      {
+        "modelZoneId": "walkabout-empress",
+        "annualMapSector": "Zone 4 Walkabout · Empress"
+      },
+      {
+        "modelZoneId": "walkabout-stamford-inner",
+        "annualMapSector": "Zone 4 Walkabout · Stamford 内侧"
+      },
+      {
+        "modelZoneId": "walkabout-connaught-east",
+        "annualMapSector": "Zone 4 Walkabout · Connaught 东侧"
+      },
+      {
+        "modelZoneId": "walkabout-t18",
+        "annualMapSector": "Premier Walkabout · T18 入弯"
+      },
+      {
+        "modelZoneId": "walkabout-fullerton",
+        "annualMapSector": "Zone 4 Walkabout · Fullerton"
+      },
+      {
+        "modelZoneId": "walkabout-jubilee",
+        "annualMapSector": "Zone 4 Walkabout · Jubilee"
+      },
+      {
+        "modelZoneId": "walkabout-connaught-west",
+        "annualMapSector": "Zone 4 Walkabout · Connaught 西侧"
+      },
+      {
+        "modelZoneId": "walkabout-t1-outer",
+        "annualMapSector": "Premier Walkabout · T1 外侧"
+      },
+      {
+        "modelZoneId": "walkabout-t5-inner",
+        "annualMapSector": "Premier Walkabout · T5 内侧"
+      },
+      {
+        "modelZoneId": "walkabout-bridge-south",
+        "annualMapSector": "Zone 4 Walkabout · Esplanade 桥南端"
+      },
+      {
+        "modelZoneId": "walkabout-bridge-mid",
+        "annualMapSector": "Zone 4 Walkabout · Esplanade 桥中段"
+      }
+    ],
+    "limits": "Not surveyed individual installation edges, precise platform heights, final-event layout or every small icon as an independently ticketed structure; bridge bodies, local canopies/fences and numbered-seat subdivisions remain refinements."
+  },
+  "modeledGrandstandProducts": [
+    {
+      "productId": "padang-ab",
+      "mapLabel": "Padang A / B",
+      "modelZoneIds": [
+        "padang-a",
+        "padang"
+      ],
+      "accuracy": "approximate",
+      "modelReview": "src/circuits/asia/singapore-padang-ab-2026.json",
+      "limits": "Early2026 official illustrative map, not final installation survey. Retained B geography and legacy ID; independent A nearT9. Heights, rows and footprints estimated."
+    },
+    {
+      "productId": "pit-super-pit",
+      "mapLabel": "Pit / Super Pit",
+      "modelZoneIds": [
+        "pit"
+      ],
+      "modelReview": "src/circuits/asia/singapore-super-pit-2026.json",
+      "accuracy": "approximate",
+      "relationship": "One physical bank; SuperPit upper selected subset. No duplicate venue or extra floor."
+    },
+    {
+      "productId": "wheelchair-platforms",
+      "mapLabel": "Empress / Turn1 Wheelchair Accessible Platforms",
+      "modelZoneIds": [
+        "empress-accessible",
+        "turn-1-accessible"
+      ],
+      "modelReview": "src/circuits/asia/singapore-accessible-2026.json",
+      "accuracy": "approximate",
+      "admission": "EmpressZone4;Turn1Zones1–4; wheelchair and approved companions require matching tickets.",
+      "limits": "2026 primary platform pages/early map establish two products and general location.8x6m floors,0.5m center-relative deck height approximate; precise ramps/railings and slots not modeled.",
+      "visualLimitations": "Empress default bearing and approximate bank position corrected against primary photograph; car visible in exported capture. Precise river bank/bridge, catch fence and platform structures remain unmodeled/inaccurate."
+    },
+    {
+      "productId": "chicane-turn-1-early",
+      "mapLabel": "Chicane @ Turn1",
+      "modelZoneIds": [
+        "chicane-turn-1"
+      ],
+      "modelReview": "src/circuits/asia/singapore-chicane-turn-1-2026.json",
+      "accuracy": "approximate",
+      "finalTicketAllocationVerified": false,
+      "admission": "Early2026 map identity; ticket governs final product and entry. NoPitExit alias or shared admission."
+    }
+  ]
+}

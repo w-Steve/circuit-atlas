@@ -1,0 +1,225 @@
+{
+  "circuitId": "mexico",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "box-oro-norte",
+      "name": "Box Oro Norte",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -99.09589258935657,
+          19.406180452327554
+        ],
+        [
+          -99.09570217540269,
+          19.40618533473663
+        ],
+        [
+          -99.09570088127667,
+          19.406140435766176
+        ],
+        [
+          -99.09589129523054,
+          19.4061355533571
+        ],
+        [
+          -99.09589258935657,
+          19.406180452327554
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "box-oro-norte-1",
+          "boundary": [
+            [
+              -99.09589258935657,
+              19.406180452327554
+            ],
+            [
+              -99.09570217540269,
+              19.40618533473663
+            ],
+            [
+              -99.09570088127667,
+              19.406140435766176
+            ],
+            [
+              -99.09589129523054,
+              19.4061355533571
+            ],
+            [
+              -99.09589258935657,
+              19.406180452327554
+            ]
+          ],
+          "baseHeight": 0.4,
+          "rise": 1.2,
+          "rows": 3,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -99.09580385300974,
+            19.406407388384366
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.4,
+        "rise": 1.2,
+        "depth": 5,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.mexicogp.mx/boleto/boxes-oro-norte/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer identifies Box Oro Norte in stadium North/Cafe or South/Gris district. Retained2026 ticket-map marker has same y as grada-15-norte,0.020width eastward. District association is not a surveyed footprint. Author representative20x5m seated bank 25–30m inside actual road, opposite associated native bank; north is behind the mapped pit-entry corridor. Base0.4m/rise1.2m/3render rows estimated. Exact installation/seat entitlement unverified. Promotional reference photos not used as georeferenced2026 proof; current pricing not imported."
+      },
+      "surfaceSource": {
+        "url": "https://www.mexicogp.mx/boleto/boxes-oro-norte/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer identifies Box Oro Norte in stadium North/Cafe or South/Gris district. Retained2026 ticket-map marker has same y as grada-15-norte,0.020width eastward. District association is not a surveyed footprint. Author representative20x5m seated bank 25–30m inside actual road, opposite associated native bank; north is behind the mapped pit-entry corridor. Base0.4m/rise1.2m/3render rows estimated. Exact installation/seat entitlement unverified. Promotional reference photos not used as georeferenced2026 proof; current pricing not imported."
+      },
+      "openingSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-venta-general-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 sale announcement names BoxOroNorte and BoxOroSur in Tour daily assignments; retained July2026 ticket-list separately offers both. Distinct Box admission, no ordinary stand access inference."
+      },
+      "admissionNote": "Oro包厢专属票区；位置、范围及高度为片区级近似，非具体座位还原。",
+      "description": "体育场区域的近似坐席，坐姿眼高1.2米；按实际票种入场。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Source district association and explicit author approximation; road/neighbor/registered facility exclusions checked."
+      }
+    },
+    {
+      "zoneId": "box-oro-sur",
+      "name": "Box Oro Sur",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -99.09552569334056,
+          19.404931104536058
+        ],
+        [
+          -99.09570342589676,
+          19.40486647451562
+        ],
+        [
+          -99.09568629513407,
+          19.40482456577612
+        ],
+        [
+          -99.09550856257786,
+          19.404889195796557
+        ],
+        [
+          -99.09552569334056,
+          19.404931104536058
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "box-oro-sur-1",
+          "boundary": [
+            [
+              -99.09552569334056,
+              19.404931104536058
+            ],
+            [
+              -99.09570342589676,
+              19.40486647451562
+            ],
+            [
+              -99.09568629513407,
+              19.40482456577612
+            ],
+            [
+              -99.09550856257786,
+              19.404889195796557
+            ],
+            [
+              -99.09552569334056,
+              19.404931104536058
+            ]
+          ],
+          "baseHeight": 0.4,
+          "rise": 1.2,
+          "rows": 3,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -99.09568308266944,
+            19.405066424483838
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.4,
+        "rise": 1.2,
+        "depth": 5,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.mexicogp.mx/boleto/boxes-oro-sur/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer identifies Box Oro Sur in stadium North/Cafe or South/Gris district. Retained2026 ticket-map marker has same y as grada-14-sur,0.020width eastward. District association is not a surveyed footprint. Author representative20x5m seated bank 20–25m inside actual road, opposite associated native bank; north is behind the mapped pit-entry corridor. Base0.4m/rise1.2m/3render rows estimated. Exact installation/seat entitlement unverified. Promotional reference photos not used as georeferenced2026 proof; current pricing not imported."
+      },
+      "surfaceSource": {
+        "url": "https://www.mexicogp.mx/boleto/boxes-oro-sur/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer identifies Box Oro Sur in stadium North/Cafe or South/Gris district. Retained2026 ticket-map marker has same y as grada-14-sur,0.020width eastward. District association is not a surveyed footprint. Author representative20x5m seated bank 20–25m inside actual road, opposite associated native bank; north is behind the mapped pit-entry corridor. Base0.4m/rise1.2m/3render rows estimated. Exact installation/seat entitlement unverified. Promotional reference photos not used as georeferenced2026 proof; current pricing not imported."
+      },
+      "openingSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-venta-general-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 sale announcement names BoxOroNorte and BoxOroSur in Tour daily assignments; retained July2026 ticket-list separately offers both. Distinct Box admission, no ordinary stand access inference."
+      },
+      "admissionNote": "Oro包厢专属票区；位置、范围及高度为片区级近似，非具体座位还原。",
+      "description": "体育场区域的近似坐席，坐姿眼高1.2米；按实际票种入场。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Source district association and explicit author approximation; road/neighbor/registered facility exclusions checked."
+      }
+    }
+  ],
+  "beforeZones": [],
+  "approximationAccepted": true,
+  "annualTicketListSha256": "d920b1e0effb5bc05f875dfe6b0fb6c1b8e86aa8a4e82d04370d3b85c4d35cbf",
+  "ticketMapMarkers": [
+    {
+      "product": "Box Oro Norte",
+      "x": 0.395,
+      "y": 0.15,
+      "associatedStand": "15",
+      "associatedX": 0.375,
+      "associatedY": 0.15
+    },
+    {
+      "product": "Box Oro Sur",
+      "x": 0.395,
+      "y": 0.2,
+      "associatedStand": "14",
+      "associatedX": 0.375,
+      "associatedY": 0.2
+    }
+  ],
+  "rejectedCandidate": "North20–25m trial touched mapped pit entry1.50m2. Source-district estimate revised to behind pit corridor25–30m. Pit and ordinary banks unchanged; no clipping of final footprint.",
+  "coverage": "Representative district-associated Box viewing subsets; exact installation boundaries and advertised seat views unverified."
+}

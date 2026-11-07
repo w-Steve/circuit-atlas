@@ -1,0 +1,761 @@
+{
+  "scope": "Current23-venue backlog; recorded metadata only, not whole-scene acceptance. All stations still require cross-device and facility acceptance.",
+  "rows": [
+    {
+      "circuitId": "austin",
+      "name": "奥斯汀",
+      "priority": 3,
+      "generatedSha256": "a7b23a2d7baa20817fdf7f3ac244ddfdc7ed311c5ffba040bcc420cfb326c2e0",
+      "available": 20,
+      "withheld": 0,
+      "gaRegions": 8,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "sectionProfileQuestions": [],
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "baku",
+      "name": "巴库",
+      "priority": 3,
+      "generatedSha256": "d41a4b10e14cb85e7e405b61e8f5982a46962b4011900952a2c4d998c7217ae9",
+      "available": 18,
+      "withheld": 0,
+      "gaRegions": 1,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "layerCoverageQuestions": [],
+      "annualTicketSourceReview": "src/circuits/season-review/baku-annual-access-2026.json",
+      "additionalCoverageQuestions": [
+        {
+          "productId": "general-admission",
+          "question": "Three approximate Boulevard ground patches represent roaming; exact2026 standing platforms, enclosing perimeter and continuity with prior wayfinding remain unverified.",
+          "completionRequired": true
+        }
+      ],
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "barcelona",
+      "name": "蒙特梅洛",
+      "priority": 3,
+      "generatedSha256": "153d3d46b8cfac4443e830c3608cadda889e2ce56d0fb678d9049f8c6667039c",
+      "available": 24,
+      "withheld": 0,
+      "gaRegions": 7,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "annualIdentityQuestions": [],
+      "confirmedMissingProducts": [],
+      "identitySourceReview": "src/circuits/season-review/barcelona-public-map-identity-review.json",
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "hungaroring",
+      "name": "莫焦罗德",
+      "priority": 3,
+      "generatedSha256": "cbbcd37eda422da9c64170879e6462f8eb1844a524df2f0fe480855dca20add7",
+      "available": 20,
+      "withheld": 0,
+      "gaRegions": 3,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "annualTicketSourceReview": "src/circuits/season-review/hungaroring-ga-access-2026.json",
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "interlagos",
+      "name": "圣保罗",
+      "priority": 3,
+      "generatedSha256": "3ea93a4032938c40618d11dffa52288ba577d29470e041417b57a903fdfea9d6",
+      "available": 19,
+      "withheld": 0,
+      "gaRegions": 6,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "annualIdentityQuestions": [],
+      "confirmedMissingProducts": [],
+      "identitySourceReview": "src/circuits/season-review/interlagos-public-map-identity-review.json",
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "las-vegas",
+      "name": "拉斯维加斯",
+      "priority": 3,
+      "generatedSha256": "c89980be7b3269bb610a4aa856bc2182012df2d20eb3537328b46b4a84c358fe",
+      "available": 12,
+      "withheld": 0,
+      "gaRegions": 2,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "annualTicketSourceReview": "src/circuits/season-review/las-vegas-annual-access-2026.json",
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "lusail",
+      "name": "卢赛尔",
+      "priority": 3,
+      "generatedSha256": "d60c3d38f7e32f68825c6817bf5c1fe21acd1355a765c220caf4abae776f0d5a",
+      "available": 6,
+      "withheld": 0,
+      "gaRegions": 1,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "annualIdentityQuestions": [],
+      "confirmedMissingProducts": [],
+      "identitySourceReview": "src/circuits/season-review/lusail-public-map-identity-review.json",
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "madrid",
+      "name": "马德里",
+      "priority": 3,
+      "generatedSha256": "294755d8286a2a93715536055d96ba178dacf1223f7227f8a14c0de26c53ca66",
+      "available": 17,
+      "withheld": 0,
+      "gaRegions": 1,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "withdrawnPublicModelCount": 2,
+      "withdrawalFollowupCount": 1,
+      "withdrawalFollowups": [
+        {
+          "withdrawnZoneId": "t9t10",
+          "venueLabel": "GD12",
+          "sourceLabelPixel": [
+            874,
+            182
+          ],
+          "status": "Independent approximate GD12 viewpoint now available nearT13 under gd12; detailed SVG, Section8 ticket crosswalk and exact seat outline remain unverified.",
+          "sourceReview": "src/circuits/season-review/madrid-gd12-source-review.json",
+          "approximateModelZoneId": "gd12",
+          "approximateModelReview": "src/circuits/europe/madrid-gd12-approx-2026.json"
+        }
+      ],
+      "resolvedWithdrawalFollowupCount": 1,
+      "resolvedWithdrawalFollowups": [
+        {
+          "withdrawnZoneId": "t9t10",
+          "venueLabel": "GE1–GE3",
+          "sourceLabelPixel": [
+            966,
+            185
+          ],
+          "status": "Rebuilt as the explicit GE1–GE3 source envelope under legacy t11 ID; mesh, road, source association and three-viewport checks accepted.",
+          "resolved": true,
+          "checkedAt": "2026-10-27",
+          "modelZoneId": "t11",
+          "modelSource": "src/circuits/europe/madrid-ge1-2026.json",
+          "scope": "Ordinary seated envelope only; individual accessible platform remains unmodeled."
+        }
+      ],
+      "publicAccessQuestions": [
+        {
+          "zoneId": "t13t14",
+          "mapLabel": "GE23",
+          "sourceReview": "src/circuits/season-review/madrid-public-access-review.json",
+          "nextAction": "Refine ordinary/hospitality ticket allocation and source occluded edges; explicit approximate viewpoint is available with admission note."
+        },
+        {
+          "zoneId": "gd12",
+          "mapLabel": "GD12",
+          "sourceReview": "src/circuits/season-review/madrid-public-access-review.json",
+          "nextAction": "Approximate annual-map viewpoint available; refine ordinary/hospitality ticket allocation and exact boundary."
+        },
+        {
+          "zoneId": "monumental-12",
+          "mapLabel": "GD11",
+          "sourceReview": "src/circuits/season-review/madrid-inner-public-access-review.json",
+          "nextAction": "Refine ordinary/hospitality ticket allocation and source occluded edges; explicit approximate viewpoint is available with admission note."
+        }
+      ],
+      "confirmedMissingProducts": [],
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "melbourne",
+      "name": "墨尔本",
+      "priority": 3,
+      "generatedSha256": "5285091aabd0f483bcd5b4f40832e72ee14af9c2b2720c1e8a6e818cf5e6185b",
+      "available": 27,
+      "withheld": 0,
+      "gaRegions": 5,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": {
+        "status": "current",
+        "source": "https://web.archive.org/web/20260304152734id_/https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+        "comparedZones": 19,
+        "triageOffsetMetres": 50,
+        "largeOffsetZones": [],
+        "registeredSourceFootprintsIntersectingRoad": []
+      },
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "mexico",
+      "name": "墨西哥城",
+      "priority": 3,
+      "generatedSha256": "12d20008c32f08119618b5690eec25cf06b44cde9e1ed80b7bacaa87360f98b8",
+      "available": 24,
+      "withheld": 0,
+      "gaRegions": 0,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "annualIdentityQuestions": [],
+      "confirmedMissingProducts": [],
+      "identitySourceReview": "src/circuits/season-review/mexico-public-map-identity-review.json",
+      "generalAdmissionReview": {
+        "checkedAt": "2026-11-06",
+        "status": "not-listed-in-2026-public-sale-table",
+        "sourceUrl": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "ordinaryGrandstandCount": 18,
+        "accessiblePlatformCount": 2,
+        "unpublishedAbsenceProven": false,
+        "terminology": "BoletosGenerales denotes ordinary ticket products, not evidence of a grass/standing GA product. The actual2026 table lists grandstands, accessible space, upgrades and stand tours; no GA/grass category. Historical2015/2016 General references and generic reseller GrandstandsAndGA boilerplate are excluded.",
+        "scope": "Reconciles published ordinary inventory only; do not fabricate a GA polygon or assert that no late/unpublished product could ever exist.",
+        "modeledHospitalityCount": 4
+      },
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "miami",
+      "name": "迈阿密",
+      "priority": 3,
+      "generatedSha256": "1814ab86d0c855ff2725e33da9416378383a794341c1b37fae3f0df797272f0d",
+      "available": 17,
+      "withheld": 0,
+      "gaRegions": 7,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "annualTicketSourceReview": "src/circuits/season-review/miami-annual-access-2026.json",
+      "additionalCoverageQuestions": [],
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "monaco",
+      "name": "蒙特卡洛",
+      "priority": 3,
+      "generatedSha256": "573df80ca334efd5da34a855df715898e96507d83be7a37dd47ba58733a524d1",
+      "available": 14,
+      "withheld": 0,
+      "gaRegions": 2,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "IGN-RGE-ALTI-2026-10-26",
+        "runtimeApplied": true,
+        "source": "https://www.data.gouv.fr/datasets/rge-alti-r"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "withdrawnPublicModelCount": 1,
+      "annualIdentityQuestions": [],
+      "confirmedMissingProducts": [],
+      "identitySourceReview": "src/circuits/season-review/monaco-public-map-identity-review.json",
+      "layerCoverageQuestions": [],
+      "annualTicketSourceReview": "src/circuits/season-review/monaco-annual-ticket-source-review.json",
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "montreal",
+      "name": "蒙特利尔",
+      "priority": 3,
+      "generatedSha256": "b46e41e04489858760147058a7c0ae9002cfeaa33e837bf07e3f6d41ae436259",
+      "available": 23,
+      "withheld": 0,
+      "gaRegions": 5,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "annualIdentityQuestions": [],
+      "confirmedMissingProducts": [],
+      "identitySourceReview": "src/circuits/season-review/montreal-public-map-identity-review.json",
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "monza",
+      "name": "蒙扎",
+      "priority": 3,
+      "generatedSha256": "1ad5f3b2223f30ce07f342c9ef32b5552992bb32337309dc36be589aa95f99a0",
+      "available": 38,
+      "withheld": 0,
+      "gaRegions": 6,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "TINITALY-1.1",
+        "runtimeApplied": true,
+        "source": "https://doi.org/10.13127/tinitaly/1.1"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "sepang",
+      "name": "雪邦",
+      "priority": 3,
+      "generatedSha256": "6033614f9625f2b511c5188a6bcca76f73b5e19a8e2d8248665e823d7bb7cccd",
+      "available": 8,
+      "withheld": 0,
+      "gaRegions": 4,
+      "annualInventoryComplete": true,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": "src/circuits/season-review/sepang-public-inventory.json",
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "shanghai",
+      "name": "上海",
+      "priority": 3,
+      "generatedSha256": "cb9b954adcaa2026e089178d1aa8928ba670d1efb5ecf0c7afdf44bda14425ee",
+      "available": 8,
+      "withheld": 0,
+      "gaRegions": 3,
+      "annualInventoryComplete": true,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "silverstone",
+      "name": "银石",
+      "priority": 3,
+      "generatedSha256": "f116dadcd9da51c1556b22153a14b5e1276720e1d1073c9be82dcf93a0dc9de6",
+      "available": 40,
+      "withheld": 0,
+      "gaRegions": 12,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "EA-LIDAR-COMPOSITE-DTM-1m",
+        "runtimeApplied": true,
+        "source": "https://environment.data.gov.uk/dataset/13787b9a-26a4-4775-8523-806d13af58fc"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。 外侧GA带39已定位，NPS、Vale和Farm前方已接入；源围界/平台精度限制仍独立保留。",
+      "confirmedMissingProducts": [],
+      "modelRepresentationQuestions": [],
+      "boxparkSourceReview": "src/circuits/europe/silverstone-boxpark-2026.json",
+      "geometryEvidenceQuestions": [
+        {
+          "zoneId": "woodcote-c",
+          "completionRequired": false,
+          "sourceReview": "src/circuits/europe/silverstone-woodcote-c-review-2026.json",
+          "externalErrorMetres": 22.02391763795412,
+          "geometryAccepted": false
+        }
+      ],
+      "partialStandingProducts": [
+        {
+          "productId": "general-admission",
+          "modelZoneIds": [
+            "ga-national-pit-straight",
+            "ga-farm-curve",
+            "ga-vale",
+            "ga-copse-becketts-hangar",
+            "ga-brooklands-luffield"
+          ],
+          "modeledDrawingIndices": [
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "remainingDrawingIndices": [],
+          "complete": false,
+          "partialDrawingIndices": [
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "standingSourceReview": "src/circuits/season-review/silverstone-ga-access-2026.json",
+      "standingCoverageQuestions": [],
+      "standingGeometryReview": "src/circuits/season-review/silverstone-brooklands-ga-2026.json",
+      "geographicSourceGaps": [
+        {
+          "circuitId": "silverstone",
+          "checkedAt": "2026-11-06",
+          "zoneIds": [],
+          "issue": "Final2026 organizer map confirms ordinary-GA viewing bands and five GA+ locations. Expanded Farm native query now closes its physical foreground with997 plus one interpreted east cap; other full ticket geography remains missing.",
+          "requiredEvidence": "Annual positive viewing areas tied to independently validated geographic boundaries; resolve native ground/fence closure or obtain an official geographic layer.",
+          "status": "geographic-boundaries-missing",
+          "scope": "All five positive ordinary-GA map bands have interpreted trackside subsets. Bands37/39 added with source terrain and retained Brooklands fence. Complete ticket boundaries, accessible-platform65 and full coverage remain unverified.",
+          "replacementEvidence": "src/circuits/season-review/silverstone-ga-access-2026.json",
+          "modeledPartialZoneIds": [
+            "ga-national-pit-straight",
+            "ga-vale",
+            "ga-farm-curve"
+          ]
+        }
+      ],
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "singapore",
+      "name": "新加坡",
+      "priority": 3,
+      "generatedSha256": "afd5d6d880aefddc0b17bcc83c5f179cf13d35a11d144407b9f3e1b9d685a4f0",
+      "available": 38,
+      "withheld": 0,
+      "gaRegions": 19,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "annualTicketSourceReview": "src/circuits/season-review/singapore-annual-access-2026.json",
+      "additionalCoverageQuestions": [
+        {
+          "topic": "Chicane @ Turn1 early diagram",
+          "reason": "Early2026 promoter diagram independently labels and points to shortChicaneTurn1 bank, separatePitExit. Approximate physical bank now modeled; final ticket-name allocation remains unverified and not claimed.",
+          "modelZoneId": "chicane-turn-1",
+          "approximateExperienceAccepted": true,
+          "finalTicketAllocationVerified": false,
+          "completionRequired": false,
+          "sourceReview": "src/circuits/asia/singapore-chicane-turn-1-2026.json"
+        }
+      ],
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "spa",
+      "name": "斯帕",
+      "priority": 3,
+      "generatedSha256": "81151b045179520ab9750ef587a4a0cc834c096d79bc99df73dfd14aaeb51f56",
+      "available": 27,
+      "withheld": 0,
+      "gaRegions": 6,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "annualTicketSourceReview": "src/circuits/season-review/spa-la-source-2026.json",
+      "candidateReview": "src/circuits/europe/spa-gold7-candidate.json",
+      "acceptedGold7Review": "src/circuits/europe/spa-gold7-2026.json",
+      "acceptedGold8Review": "src/circuits/europe/spa-gold8-2026.json",
+      "standingSourceReview": "src/circuits/season-review/spa-bronze-access-2026.json",
+      "standingCoverageQuestions": [],
+      "standingGeometryReview": null,
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "source-associated-approximate-models-regression-passed"
+      }
+    },
+    {
+      "circuitId": "spielberg",
+      "name": "施皮尔贝格",
+      "priority": 3,
+      "generatedSha256": "15a03f6b7a5015cd5b66b5eefadcecd4f4f06fdc692e051792bea9246a6bc432",
+      "available": 12,
+      "withheld": 0,
+      "gaRegions": 2,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "annualIdentityQuestions": [],
+      "confirmedMissingProducts": [],
+      "identitySourceReview": "src/circuits/season-review/spielberg-public-map-identity-review.json",
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "suzuka",
+      "name": "铃鹿",
+      "priority": 3,
+      "generatedSha256": "8fe9cf2f94f65ad863f12f07059720796e5871832f2f92f6c1ac9962bfcb9084",
+      "available": 31,
+      "withheld": 0,
+      "gaRegions": 6,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GSI-DEM5A-10B",
+        "runtimeApplied": true,
+        "source": "https://maps.gsi.go.jp/development/ichiran.html"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "source-associated-approximate-models-regression-passed"
+      }
+    },
+    {
+      "circuitId": "yas-marina",
+      "name": "阿布扎比",
+      "priority": 3,
+      "generatedSha256": "675f0c76f9ea2c19e2f050a9dc5f356321fbeaff2a9c8bf04cc258e92ff94a4f",
+      "available": 11,
+      "withheld": 0,
+      "gaRegions": 2,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "annualTicketSourceReview": "src/circuits/season-review/yas-marina-annual-access-2026.json",
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    },
+    {
+      "circuitId": "zandvoort",
+      "name": "赞德沃特",
+      "priority": 3,
+      "generatedSha256": "3fb37fe84ace5632b241b5b6394735dd0420005f802b1b4e406a3d65ccdff450",
+      "available": 16,
+      "withheld": 0,
+      "gaRegions": 2,
+      "annualInventoryComplete": false,
+      "recordedGeometryProblems": [],
+      "sourceGaps": [],
+      "elevation": {
+        "dataset": "GEDTM30-v1.2",
+        "runtimeApplied": true,
+        "source": "https://zenodo.org/records/18887460"
+      },
+      "inventoryEvidence": null,
+      "nextAction": "本轮年度来源对照的具名看台/站立家族已有近似模型或显式关联；具体测绘边界、设施与票权限制见SEASON_COVERAGE_AUDIT.md及各站source review，不把历史批次待办继续算作未建区域。",
+      "confirmedMissingProducts": [],
+      "sourceCoverageAudit": {
+        "sourceReview": "src/circuits/season-review/coverage-audit-2026.json",
+        "confirmedMissingGroups": 0,
+        "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources"
+      }
+    }
+  ]
+}

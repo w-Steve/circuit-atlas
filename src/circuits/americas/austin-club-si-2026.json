@@ -1,0 +1,398 @@
+{
+  "circuitId": "austin",
+  "season": 2026,
+  "source": {
+    "url": "https://circuitoftheamericas.com/event/f1/know-before-you-go-club-si/",
+    "checkedAt": "2026-11-07",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "2026 official organizer-linkedPAM loc290480 ClubSI footprint fully covers formerT12-west surface, while loc290685 ordinaryT12 covers0%. Retained existing seat footprint/base/rise/18 estimated rows, not actual row-number proof. Hospitality requiresClubSI credential. Full two-story lounge, upper seating and roof not reconstructed."
+  },
+  "beforeZones": [
+    {
+      "zoneId": "turn-12",
+      "name": "Turn 12",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -97.6365079,
+          30.1379136
+        ],
+        [
+          -97.6351995,
+          30.1380134
+        ],
+        [
+          -97.6351606,
+          30.1380163
+        ],
+        [
+          -97.6351389,
+          30.1378039
+        ],
+        [
+          -97.6353101,
+          30.1377909
+        ],
+        [
+          -97.6364862,
+          30.1377011
+        ],
+        [
+          -97.6365079,
+          30.1379136
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "turn-12-1",
+          "boundary": [
+            [
+              -97.6365079,
+              30.1379136
+            ],
+            [
+              -97.6351995,
+              30.1380134
+            ],
+            [
+              -97.6351606,
+              30.1380163
+            ],
+            [
+              -97.6351389,
+              30.1378039
+            ],
+            [
+              -97.6353101,
+              30.1377909
+            ],
+            [
+              -97.6364862,
+              30.1377011
+            ],
+            [
+              -97.6365079,
+              30.1379136
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.12,
+          "eyeHeight": 1.2,
+          "rows": 37,
+          "frontReference": [
+            -97.63559033466764,
+            30.137480056192857
+          ],
+          "rowRiserMetres": 0.3088888888888889,
+          "rowCountSource": {
+            "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+            "checkedAt": "2026-11-07",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Organizer 2026 article gives Turn12 maximum numbered row37. Apply that maximum to the main long bank as an approximation, retain original footprint/base/total rise. The disconnected short western bank is not proven to share the full37-row extent; retain its18 estimated render steps, not sum18+37 into a ticket row count."
+          }
+        },
+        {
+          "surfaceId": "turn-12-2",
+          "boundary": [
+            [
+              -97.6379827,
+              30.137744
+            ],
+            [
+              -97.6379576,
+              30.1375649
+            ],
+            [
+              -97.6375471,
+              30.1376079
+            ],
+            [
+              -97.6375722,
+              30.137787
+            ],
+            [
+              -97.6379827,
+              30.137744
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 9.04,
+          "eyeHeight": 1.2,
+          "rows": 18,
+          "frontReference": [
+            -97.6376144017878,
+            30.136600988335342
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.12,
+        "depth": 24.72,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.openstreetmap.org/way/460683347",
+        "checkedAt": "2026-10-23",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM看台建筑与公开场馆图匹配；way/460683347,1183793500。非座椅测绘/票务边界。"
+      },
+      "openingSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+      },
+      "surfaceSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer 2026 article gives Turn12 maximum numbered row37. Apply that maximum to the main long bank as an approximation, retain original footprint/base/total rise. The disconnected short western bank is not proven to share the full37-row extent; retain its18 estimated render steps, not sum18+37 into a ticket row count."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      },
+      "admissionNote": "主座席带按最高37排近似；西侧短座席带仍为估计，不合并计算排号。"
+    }
+  ],
+  "zones": [
+    {
+      "zoneId": "turn-12",
+      "name": "Turn 12",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -97.6365079,
+          30.1379136
+        ],
+        [
+          -97.6351995,
+          30.1380134
+        ],
+        [
+          -97.6351606,
+          30.1380163
+        ],
+        [
+          -97.6351389,
+          30.1378039
+        ],
+        [
+          -97.6353101,
+          30.1377909
+        ],
+        [
+          -97.6364862,
+          30.1377011
+        ],
+        [
+          -97.6365079,
+          30.1379136
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "turn-12-1",
+          "boundary": [
+            [
+              -97.6365079,
+              30.1379136
+            ],
+            [
+              -97.6351995,
+              30.1380134
+            ],
+            [
+              -97.6351606,
+              30.1380163
+            ],
+            [
+              -97.6351389,
+              30.1378039
+            ],
+            [
+              -97.6353101,
+              30.1377909
+            ],
+            [
+              -97.6364862,
+              30.1377011
+            ],
+            [
+              -97.6365079,
+              30.1379136
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.12,
+          "eyeHeight": 1.2,
+          "rows": 37,
+          "frontReference": [
+            -97.63559033466764,
+            30.137480056192857
+          ],
+          "rowRiserMetres": 0.3088888888888889,
+          "rowCountSource": {
+            "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+            "checkedAt": "2026-11-07",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Organizer 2026 article gives Turn12 maximum numbered row37. Apply that maximum to the main long bank as an approximation, retain original footprint/base/total rise. The disconnected short western bank is not proven to share the full37-row extent; retain its18 estimated render steps, not sum18+37 into a ticket row count."
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.12,
+        "depth": 24.72,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.openstreetmap.org/way/460683347",
+        "checkedAt": "2026-10-23",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM看台建筑与公开场馆图匹配；way/460683347,1183793500。非座椅测绘/票务边界。"
+      },
+      "openingSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+      },
+      "surfaceSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer 2026 article gives Turn12 maximum numbered row37. Apply that maximum to the main long bank as an approximation, retain original footprint/base/total rise. The disconnected short western bank is not proven to share the full37-row extent; retain its18 estimated render steps, not sum18+37 into a ticket row count."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      },
+      "admissionNote": "T12普通座席按最高37排近似；西侧原误归座席已独立标为Club SI。"
+    },
+    {
+      "zoneId": "club-si",
+      "name": "Club SI",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -97.6379827,
+          30.137744
+        ],
+        [
+          -97.6379576,
+          30.1375649
+        ],
+        [
+          -97.6375471,
+          30.1376079
+        ],
+        [
+          -97.6375722,
+          30.137787
+        ],
+        [
+          -97.6379827,
+          30.137744
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "turn-12-2",
+          "boundary": [
+            [
+              -97.6379827,
+              30.137744
+            ],
+            [
+              -97.6379576,
+              30.1375649
+            ],
+            [
+              -97.6375471,
+              30.1376079
+            ],
+            [
+              -97.6375722,
+              30.137787
+            ],
+            [
+              -97.6379827,
+              30.137744
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 9.04,
+          "eyeHeight": 1.2,
+          "rows": 18,
+          "frontReference": [
+            -97.6376144017878,
+            30.136600988335342
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 9.04,
+        "depth": 20,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://circuitoftheamericas.com/event/f1/know-before-you-go-club-si/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 official organizer-linkedPAM loc290480 ClubSI footprint fully covers formerT12-west surface, while loc290685 ordinaryT12 covers0%. Retained existing seat footprint/base/rise/18 estimated rows, not actual row-number proof. Hospitality requiresClubSI credential. Full two-story lounge, upper seating and roof not reconstructed."
+      },
+      "openingSource": {
+        "url": "https://circuitoftheamericas.com/event/f1/know-before-you-go-club-si/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 official organizer-linkedPAM loc290480 ClubSI footprint fully covers formerT12-west surface, while loc290685 ordinaryT12 covers0%. Retained existing seat footprint/base/rise/18 estimated rows, not actual row-number proof. Hospitality requiresClubSI credential. Full two-story lounge, upper seating and roof not reconstructed."
+      },
+      "surfaceSource": {
+        "url": "https://circuitoftheamericas.com/event/f1/know-before-you-go-club-si/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 official organizer-linkedPAM loc290480 ClubSI footprint fully covers formerT12-west surface, while loc290685 ordinaryT12 covers0%. Retained existing seat footprint/base/rise/18 estimated rows, not actual row-number proof. Hospitality requiresClubSI credential. Full two-story lounge, upper seating and roof not reconstructed."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      },
+      "admissionNote": "Club SI贵宾票专属近似座席；不属于T12普通看台，范围与楼层为估计。"
+    }
+  ],
+  "evidence": {
+    "publicMapUrl": "https://connect.us.app.pam.co/?navmapId=1163fb45-8879-4e4f-807b-2eb2e1b3f98f",
+    "sourceSha256": "771571f0d2e67f3b5e2985c60f9fc638ce639fce986d1166c29f67096e4cc90b",
+    "clubLocationId": 290480,
+    "clubFeatureId": "76b54c70-d7f4-49f3-bc7d-7a27e91d66f6",
+    "ordinaryT12LocationId": 290685,
+    "ordinaryT12FeatureId": "6ea37241-78b3-4b3a-a416-d51f6c43ae4c",
+    "shortBankWithinClubRatio": 1,
+    "shortBankWithinOrdinaryT12Ratio": 0
+  },
+  "scope": "Retained approximate front seat strip only; no assertion of complete ClubSI multi-floor geometry."
+}

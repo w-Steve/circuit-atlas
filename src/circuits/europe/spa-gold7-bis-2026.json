@@ -1,0 +1,513 @@
+{
+  "circuitId": "spa",
+  "season": 2026,
+  "nativeStandWay": 1366085154,
+  "oldZone": null,
+  "zone": {
+    "zoneId": "gold-7-bis-source",
+    "name": "Gold 7 Bis · Source",
+    "kind": "grandstand",
+    "availability": "available",
+    "boundary": [
+      [
+        5.9635681,
+        50.4468377
+      ],
+      [
+        5.9633411,
+        50.4468729
+      ],
+      [
+        5.9633052,
+        50.446779
+      ],
+      [
+        5.9635322,
+        50.4467438
+      ],
+      [
+        5.9635681,
+        50.4468377
+      ]
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 6.72,
+      "depth": 10.759093599198344,
+      "eyeHeight": 1.2
+    },
+    "surfaces": [
+      {
+        "surfaceId": "gold-7-bis-source-1",
+        "boundary": [
+          [
+            5.9635681,
+            50.4468377
+          ],
+          [
+            5.9633411,
+            50.4468729
+          ],
+          [
+            5.9633052,
+            50.446779
+          ],
+          [
+            5.9635322,
+            50.4467438
+          ],
+          [
+            5.9635681,
+            50.4468377
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 6.72,
+        "rows": 15,
+        "eyeHeight": 1.2,
+        "rowFrontEdge": {
+          "coordinates": [
+            [
+              5.9633052,
+              50.446779
+            ],
+            [
+              5.9635322,
+              50.4467438
+            ]
+          ]
+        },
+        "groundReference": [
+          5.9634187,
+          50.4467614
+        ],
+        "frontReference": [
+          5.963579017638339,
+          50.446277533774456
+        ],
+        "fenceMode": "authored",
+        "frontRailing": {
+          "heightMetres": 1.0,
+          "source": {
+            "url": "https://www.spagrandprix.com/assets/bacd92b0-ddae-4bc6-af8f-674fa1a0f576/360-gold-7-bis.jpg",
+            "checkedAt": "2026-10-28",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Official Bis panorama places the uncovered bank between the two covered stands.15 rows,6.72m rise,2.2m base and1m front railing are simplified estimates, not a structural or seat survey. Native building plan approximates the seating footprint; stairs/aisles are simplified."
+          }
+        },
+        "rowStrip": {
+          "front": [
+            [
+              5.9633052,
+              50.446779
+            ],
+            [
+              5.9635322,
+              50.4467438
+            ]
+          ],
+          "back": [
+            [
+              5.9633411,
+              50.4468729
+            ],
+            [
+              5.9635681,
+              50.4468377
+            ]
+          ],
+          "source": {
+            "url": "https://www.spagrandprix.com/assets/bacd92b0-ddae-4bc6-af8f-674fa1a0f576/360-gold-7-bis.jpg",
+            "checkedAt": "2026-10-28",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Official Bis panorama places the uncovered bank between the two covered stands.15 rows,6.72m rise,2.2m base and1m front railing are simplified estimates, not a structural or seat survey. Native building plan approximates the seating footprint; stairs/aisles are simplified."
+          }
+        },
+        "rowBearing": "local-normal"
+      }
+    ],
+    "source": {
+      "url": "https://www.openstreetmap.org/way/1366085154",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "Independently labelled official Bis panorama shows this uncovered bank between Gold7 and Gold8 roofs; cross-checked against SPW2023. Physical association, not surveyed2026 ticket geography."
+    },
+    "openingSource": {
+      "url": "https://web.archive.org/web/20260114011554id_/https://www.spagrandprix.com/en/tickets-gold-7-bis",
+      "checkedAt": "2026-10-28",
+      "method": "published",
+      "confidence": "high",
+      "notes": "Dated organizer2026 page explicitly names Gold7 Bis Source Weekend as Uncovered. Hospitality package wording is not used to override this primary product description."
+    },
+    "surfaceSource": {
+      "url": "https://www.spagrandprix.com/assets/bacd92b0-ddae-4bc6-af8f-674fa1a0f576/360-gold-7-bis.jpg",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Official Bis panorama places the uncovered bank between the two covered stands.15 rows,6.72m rise,2.2m base and1m front railing are simplified estimates, not a structural or seat survey. Native building plan approximates the seating footprint; stairs/aisles are simplified."
+    },
+    "requiredBarrierIds": [
+      "spa-gold7-126871627",
+      "spa-gold7-175691647",
+      "spa-gold7-1134053911",
+      "spa-gold7-1366085142"
+    ],
+    "geometryReview": {
+      "checkedAt": "2026-10-28",
+      "issues": [],
+      "method": "Independent Bis panorama and explicit2026 uncovered product; native plan/front edge; zero current road, pit, building or other-zone plane overlap. Heights estimated."
+    }
+  },
+  "barrierLayer": {
+    "circuitId": "spa",
+    "availability": "available",
+    "barriers": [
+      {
+        "id": "spa-gold7-126871627",
+        "kind": "concrete-wall",
+        "coordinates": [
+          [
+            5.9627218,
+            50.4466036
+          ],
+          [
+            5.9631979,
+            50.4466364
+          ],
+          [
+            5.963307,
+            50.446639
+          ],
+          [
+            5.9634125,
+            50.4466375
+          ],
+          [
+            5.9635369,
+            50.4466181
+          ],
+          [
+            5.9636447,
+            50.4465891
+          ],
+          [
+            5.9637722,
+            50.4465447
+          ],
+          [
+            5.9648135,
+            50.4461996
+          ]
+        ],
+        "heightMetres": 1.0,
+        "widthMetres": 0.25,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/126871627",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Full native plan; trackside wall interpreted from ordered stand/fence/wall/road relationships and organizer panorama. Height1.0m estimated, not measured. Not surveyed2026 barrier geometry."
+        }
+      },
+      {
+        "id": "spa-gold7-175691647",
+        "kind": "chain-link",
+        "coordinates": [
+          [
+            5.9624888,
+            50.4466779
+          ],
+          [
+            5.9625254,
+            50.4467117
+          ],
+          [
+            5.9626887,
+            50.4466352
+          ],
+          [
+            5.9627052,
+            50.4466486
+          ],
+          [
+            5.9631844,
+            50.4466801
+          ],
+          [
+            5.9633364,
+            50.4466855
+          ],
+          [
+            5.9634203,
+            50.4466837
+          ],
+          [
+            5.9635164,
+            50.446673
+          ],
+          [
+            5.9636068,
+            50.4466534
+          ],
+          [
+            5.9637439,
+            50.4466089
+          ],
+          [
+            5.9644459,
+            50.4463755
+          ],
+          [
+            5.9645886,
+            50.4463369
+          ],
+          [
+            5.9646958,
+            50.4463138
+          ],
+          [
+            5.9648562,
+            50.4462865
+          ],
+          [
+            5.9649149,
+            50.4462728
+          ],
+          [
+            5.9649807,
+            50.4462418
+          ],
+          [
+            5.9649915,
+            50.4462213
+          ],
+          [
+            5.9649924,
+            50.4462013
+          ],
+          [
+            5.9654466,
+            50.4460414
+          ],
+          [
+            5.9656709,
+            50.4459634
+          ],
+          [
+            5.965731,
+            50.4460176
+          ],
+          [
+            5.9656351,
+            50.4460725
+          ],
+          [
+            5.9655474,
+            50.4461455
+          ],
+          [
+            5.9654011,
+            50.4464228
+          ]
+        ],
+        "heightMetres": 3.5,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/175691647",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Full native plan; outer trackside fence interpreted from ordered stand/fence/wall/road relationships and organizer panorama. Height3.5m estimated, not measured. Not surveyed2026 barrier geometry."
+        }
+      },
+      {
+        "id": "spa-gold7-1134053911",
+        "kind": "chain-link",
+        "coordinates": [
+          [
+            5.9648318,
+            50.4466148
+          ],
+          [
+            5.9645141,
+            50.4468784
+          ],
+          [
+            5.9643908,
+            50.4470403
+          ],
+          [
+            5.9643073,
+            50.4470831
+          ],
+          [
+            5.964174,
+            50.4469869
+          ],
+          [
+            5.9640354,
+            50.4469601
+          ],
+          [
+            5.963207,
+            50.4469051
+          ],
+          [
+            5.9631908,
+            50.4469693
+          ],
+          [
+            5.9625927,
+            50.4468958
+          ],
+          [
+            5.9626252,
+            50.4467964
+          ]
+        ],
+        "heightMetres": 2.0,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/1134053911",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Full native plan; rear perimeter interpreted from ordered stand/fence/wall/road relationships and organizer panorama. Height2.0m estimated, not measured. Not surveyed2026 barrier geometry."
+        }
+      },
+      {
+        "id": "spa-gold7-1366085142",
+        "kind": "chain-link",
+        "coordinates": [
+          [
+            5.9653418,
+            50.4464182
+          ],
+          [
+            5.9654442,
+            50.446192
+          ],
+          [
+            5.9654531,
+            50.4461413
+          ],
+          [
+            5.965432,
+            50.4461129
+          ],
+          [
+            5.965367,
+            50.4461061
+          ],
+          [
+            5.9651484,
+            50.4461925
+          ],
+          [
+            5.9649924,
+            50.4462769
+          ],
+          [
+            5.9648298,
+            50.446323
+          ],
+          [
+            5.9646819,
+            50.4463421
+          ],
+          [
+            5.9644487,
+            50.4464001
+          ],
+          [
+            5.9637198,
+            50.4466448
+          ],
+          [
+            5.9635012,
+            50.4467012
+          ],
+          [
+            5.9633573,
+            50.4467178
+          ],
+          [
+            5.9627162,
+            50.4466785
+          ],
+          [
+            5.9624651,
+            50.4467941
+          ]
+        ],
+        "heightMetres": 2.0,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/1366085142",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Full native plan; stand-side perimeter interpreted from ordered stand/fence/wall/road relationships and organizer panorama. Height2.0m estimated, not measured. Not surveyed2026 barrier geometry."
+        }
+      }
+    ]
+  },
+  "covered": false,
+  "identityAccepted": true,
+  "runtimeApplied": true,
+  "sceneAcceptance": {
+    "accepted": true,
+    "accuracy": "Independent source-associated approximate uncovered stand; not surveyed2026 seat geometry",
+    "modelSha256": "78b8f23c0056b94ea9f8461c7eb3b49889dc522639c7be0fbe623e16bcb85c7a",
+    "evidence": [
+      "441 actual seated floor rays and18 endpoint rays passed after source-paired row correction",
+      "Six three-device paired-row preview flows passed with car PNG export",
+      "Explicit dated2026 official Uncovered product and independent labelled panorama"
+    ],
+    "limitations": [
+      "15-row profile, base, rise and front rail height estimated.",
+      "Simplified aisles; full-seat unobstructed vision not guaranteed."
+    ]
+  },
+  "geometryFingerprint": "a8e03883bb88db12632578eb1214d87f2a237c3e64e0ed7093893fdfbadfaea8",
+  "neighborFingerprint": "0d27677e512238419f40034a3732742ab2ee9978f2df2aa1e712ce4fbaaa9676",
+  "facilitiesFingerprint": "97090e5de908ede91cc5c9a1070a28b5725692f2220c47a79db75ef9053cb226",
+  "roadIntersectionMetres2": 0,
+  "otherZoneIntersections": [],
+  "facilityReview": {
+    "renderedPitOverlapMetres2": 0,
+    "buildingPlanOverlapMetres2": 0
+  },
+  "evidence": {
+    "annualPage": {
+      "url": "https://web.archive.org/web/20260114011554id_/https://www.spagrandprix.com/en/tickets-gold-7-bis",
+      "checkedAt": "2026-10-28",
+      "method": "published",
+      "confidence": "high",
+      "notes": "Dated organizer2026 page explicitly names Gold7 Bis Source Weekend as Uncovered. Hospitality package wording is not used to override this primary product description.",
+      "sha256": "97d6e9cc2d365b3a13b915039c79a1ef694ac0fd04725ae5bfca68ff4f3c6098",
+      "capturedAt": "2026-01-14T01:15:54Z",
+      "ticketName": "Gold 7 Bis : Source (Weekend) - Uncovered",
+      "ticketId": "526"
+    },
+    "panorama": {
+      "page": "https://www.spagrandprix.com/en/gold-7-bis",
+      "url": "https://www.spagrandprix.com/assets/bacd92b0-ddae-4bc6-af8f-674fa1a0f576/360-gold-7-bis.jpg",
+      "pageSha256": "e6b8e47fa6c654d4c15b7567470d2edc24535c519e5a50929fdfeade3e7c6a96",
+      "sha256": "189b6d8c32e6e6932c09aff47d9408bf1788214c1b5eb7d1dff7c277c542c54e",
+      "dimensions": [
+        8192,
+        4096
+      ],
+      "reviewedVisually": true,
+      "captureDateVerified": false,
+      "shipped": false
+    },
+    "excludedConflict": {
+      "url": "https://hospitalityf1.com/en/packages/sunday-vip-pass-for-the-2026-belgian-f1-grand-prix-source-of-gold-7-bis/",
+      "claim": "Covered Gold7bis grandstand seat",
+      "resolution": "Prefer the explicit, dated organizer Uncovered product name; retain this conflict rather than invent a roof."
+    }
+  },
+  "limits": "Independent approximate Bis model, not part of Gold7/Gold8 or Ter. Annual uncovered status documented; seat/railing heights and footprint precision remain estimated. No full aisle or seat reconstruction."
+}

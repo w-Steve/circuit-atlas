@@ -1,0 +1,38 @@
+{
+  "circuitId": "monaco",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "zoneId": "b-casino",
+  "profileVerified": false,
+  "runtimeGeometryChanged": true,
+  "sources": {
+    "osmSnapshot": {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=7.4262,43.7390,7.4282,43.7405",
+      "sha256": "74231c9015bb02009cd7b31cfe1d063e18a515600727a49773146ea4b3d5584a",
+      "mappedObjects": 1653,
+      "identifiedStandMatches": [],
+      "limitation": "Current mapped tags in this bbox only; not proof a temporary2026 stand was absent, and no unlabeled building is substituted."
+    },
+    "overpass": {
+      "url": "https://overpass-api.de/api/interpreter",
+      "postStatus": 406,
+      "getStatus": 406,
+      "limitation": "406 is a fetch failure, not an empty dataset."
+    },
+    "storyWebmap": {
+      "url": "https://www.arcgis.com/sharing/rest/content/items/6ddb2d0081f34d47a719dcb86680e6b3/data?f=json",
+      "sha256": "65915fb331b297e9907690d5a715a75062b6dc04c3bae84bfdae5fc17e705d5c",
+      "errorCode": 400,
+      "limitation": "Missing or inaccessible; no seat/height data obtained. StoryMap owner name alone does not certify an official2026 stand section."
+    },
+    "secondarySeatPlanLead": {
+      "url": "https://oversteer48.com/grandstand-b-monaco-grand-prix/",
+      "sha256": "35628125f163968b0b93b7598c5ebf24a1674577cd44a33a7c77b18588c3687f",
+      "assetPath": "/wp-content/uploads/2025/01/Grandstand-B-seating-plan.jpg",
+      "acceptedFor2026Profile": false,
+      "limitation": "Upload path is not capture/applicability date. No authenticated2026 row count, metric riser, tread or platform height."
+    }
+  },
+  "nextAction": "Source-traced2026 trapezoid now admitted as explicit approximation; profile remains unverified and default self-occlusion evidence retained. Refine section/foundation when evidence improves.",
+  "approximateModelApplied": true
+}

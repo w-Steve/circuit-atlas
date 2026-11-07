@@ -1,0 +1,216 @@
+{
+  "circuitId": "suzuka",
+  "season": 2026,
+  "zoneId": "west-j",
+  "checkedAt": "2026-11-06",
+  "generatedSha256": "5d59cee94577578d0dd944b89dac6ec5f56b579f4070fe3bcb590699698bb9d8",
+  "orthophoto": {
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/17/115244/51986.jpg",
+    "sha256": "eceded07717736cf6545270700a4521e90a3f577c8a7db25585a291dc57cfec6",
+    "zoom": 17,
+    "tile": [
+      115244,
+      51986
+    ],
+    "checkedAt": "2026-10-29",
+    "exactAcquisitionDateVerified": false,
+    "reviewedVisually": true,
+    "scope": "Source imagery shows roads, earth banks and vegetation at this location; not a2026 ticket boundary."
+  },
+  "groundDiagnostic": {
+    "script": "scripts/review-suzuka-j.ts",
+    "sampleCount": 15,
+    "sourceGroundBlockedCount": 6,
+    "standingHeightMetres": 1.65,
+    "deepestPenetrationMetres": 4.151358912063472,
+    "roadCorridorExclusion": "Samples within source road half-width+2m of1800 centerline samples excluded; underlying road-cut terrain is not counted as a bank.",
+    "limits": "Sparse source-ground line sampling to the initial road target, not rendered-mesh ray tracing, all-direction view certification or independent elevation validation."
+  },
+  "runtimeApplied": true,
+  "acceptance": true,
+  "nextAction": "Refine source-map alignment and constructed terraces when evidence improves. Preserve source ground and1.65m eyes; natural occlusion remains possible.",
+  "legacyHeldZone": {
+    "zoneId": "west-j",
+    "name": "西区 · J 坡地",
+    "kind": "general-admission",
+    "availability": "preparing",
+    "boundary": [
+      [
+        136.52802328963813,
+        34.84519357396167
+      ],
+      [
+        136.52809873898013,
+        34.84511735542007
+      ],
+      [
+        136.52810105579468,
+        34.84509920474189
+      ],
+      [
+        136.52814788013418,
+        34.84507561839809
+      ],
+      [
+        136.52884541707414,
+        34.84489900971975
+      ],
+      [
+        136.52884541707414,
+        34.8451542318575
+      ],
+      [
+        136.52802328963813,
+        34.84519357396167
+      ]
+    ],
+    "surface": {
+      "baseHeight": 0.04,
+      "rise": 0,
+      "depth": 0,
+      "eyeHeight": 1.65
+    },
+    "surfaces": [
+      {
+        "surfaceId": "west-j-1",
+        "boundary": [
+          [
+            136.52802328963813,
+            34.84519357396167
+          ],
+          [
+            136.52809873898013,
+            34.84511735542007
+          ],
+          [
+            136.52810105579468,
+            34.84509920474189
+          ],
+          [
+            136.52814788013418,
+            34.84507561839809
+          ],
+          [
+            136.52884541707414,
+            34.84489900971975
+          ],
+          [
+            136.52884541707414,
+            34.8451542318575
+          ],
+          [
+            136.52802328963813,
+            34.84519357396167
+          ]
+        ],
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "rows": 0,
+        "terrainFollow": true,
+        "frontReference": [
+          136.52841347591465,
+          34.84544120760021
+        ]
+      },
+      {
+        "surfaceId": "west-j-2",
+        "boundary": [
+          [
+            136.5292862926509,
+            34.845134287442605
+          ],
+          [
+            136.52914221626835,
+            34.845146928127036
+          ],
+          [
+            136.52912805937612,
+            34.84514102172981
+          ],
+          [
+            136.52897088514064,
+            34.84515481156737
+          ],
+          [
+            136.5289567282484,
+            34.84514890517015
+          ],
+          [
+            136.52884541707414,
+            34.8451542318575
+          ],
+          [
+            136.52884541707414,
+            34.84489900971975
+          ],
+          [
+            136.52913385306044,
+            34.84482598090162
+          ],
+          [
+            136.52929833146462,
+            34.84512608273912
+          ],
+          [
+            136.5292862926509,
+            34.845134287442605
+          ]
+        ],
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "rows": 0,
+        "terrainFollow": true,
+        "frontReference": [
+          136.52871079172647,
+          34.84553479934119
+        ]
+      }
+    ],
+    "defaultViewpoint": {
+      "surfaceId": "west-j-1",
+      "coordinate": [
+        136.52867103283916,
+        34.84498731405892
+      ],
+      "source": {
+        "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/west_seat/img_west_map.png",
+        "checkedAt": "2026-10-25",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Initial point is the interior representative point of the largest source-derived patch, not selected by sightline optimization. User selections remain continuous and take priority."
+      }
+    },
+    "source": {
+      "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/west_seat/img_west_map.png",
+      "checkedAt": "2026-10-25",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Factual green viewing ribbons traced from the organizer detailed west map; blue reserved stands, yellow photographer-only areas, white ground and roads are not interpreted as public grass. Source is undated and linked from a later-season page: only families corroborated by the dated2026 promoter release are used; not an exact2026 access-boundary survey. Approximate seven-turn piecewise-affine registration with global-affine continuation. Excludes actual rendered road+0.75m and retained stands/buildings/pit/water+0.5m. No translations or fabricated patches. Computational80m patches are not ticket subdivisions."
+    },
+    "openingSource": {
+      "url": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+      "checkedAt": "2026-10-25",
+      "method": "published",
+      "confidence": "high",
+      "notes": "Promoter release dated2025-08-28 explicitly identifies2026 Japanese GP and distinguishes green West Area J/L/M/N/O/P from blue reserved seats, including newly added temporary M/O/P stands. One West Area ticket, six geographic portions; no2027 G/H/I expansion imported. Not current ticket stock or complete2026 boundary certification."
+    },
+    "surfaceSource": {
+      "url": "https://maps.gsi.go.jp/development/ichiran.html",
+      "checkedAt": "2026-10-25",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Unseated ground follows current GSI DEM5A/DEM10B at real vertical scale, subdivided into <=8m triangles;0.04m mesh clearance, standing eye1.65m. No invented rows, flattened hillside or visibility-fitted eye height. Regional ground and inferred catch fences do not reproduce every constructed terrace/retaining wall."
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-25",
+      "issues": [
+        "J boundary registration and the intervening earth-bank profile still need an independent source cross-check. A blocked photograph alone does not prove a model error; no artificial clearance or eye-height optimization is allowed."
+      ],
+      "method": "Source-plan exclusion and source-ground mesh/eye compatibility; actual desktop pass/photo evidence. Full seasonal boundary accuracy is not certified; J remains withheld."
+    }
+  },
+  "acceptanceScope": "Approximate footprint/standing ground, not independently certified map registration or all-point visibility. Existing sparse diagnostic6/15 blocked rays retained.",
+  "legacyGeneratedSha256": "98a50cec6088c195f6b6c1f11aebf5190c33a932404470d25e1e72eb2d4a45bd"
+}

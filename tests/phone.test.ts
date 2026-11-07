@@ -2,7 +2,8 @@ import { it, expect } from "vitest";
 import { PerspectiveCamera, Mesh, BoxGeometry } from "three";
 import { focalToFov, zoomToFov, phoneSensor } from "../src/systems/PhoneCamera";
 import { projectVehicle } from "../src/systems/Projection";
-import {useApp} from '../src/store';
+import {createAppStore} from '../src/store';
+const useApp=createAppStore();
 it('permits telephoto zoom through 30x with finite projection',()=>{
   useApp.getState().setZoom(20);expect(useApp.getState().zoom).toBe(20);
   useApp.getState().setZoom(30);expect(useApp.getState().zoom).toBe(30);

@@ -1,0 +1,811 @@
+{
+  "circuitId": "lusail",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "source": {
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "checkedAt": "2026-10-29",
+    "method": "estimated",
+    "confidence": "medium",
+    "notes": "Georeferenced image reference: Vantor Vivid Advanced, capture2025-09-24, 0.34m source resolution and reported8.47m accuracy. Visible seating front/back manually interpreted; no imagery shipped. Promoter2026 map and annual launch distinguish T2/T3; boundary is a physical approximation, not a2026 surveyed ticket limit."
+  },
+  "imagery": {
+    "requestUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=51.449%2C25.4915%2C51.453%2C25.4962&bboxSR=4326&imageSR=4326&size=1200%2C1200&format=png&f=json",
+    "extent": {
+      "xmin": 51.44865,
+      "ymin": 25.491500000000002,
+      "xmax": 51.45335,
+      "ymax": 25.496200000000005,
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      }
+    },
+    "size": [
+      1200,
+      1200
+    ],
+    "sha256": "95d2f7bd77139ad90a88eb52f4f7457898505b79ddb955297a55f9f5c662fd73",
+    "metadata": {
+      "OBJECTID": "6042886",
+      "Shape": "Polygon",
+      "DATE (YYYYMMDD)": "20250924",
+      "RESOLUTION (M)": "0.34",
+      "ACCURACY (M)": "8.47",
+      "DESCRIPTION": "LG04",
+      "SOURCE_INFO": "Vivid Advanced",
+      "SOURCE": "Vantor",
+      "SRC_DATE2": "9/24/2025",
+      "MinMapLevel": "12",
+      "MaxMapLevel": "19",
+      "DrawOrder": "80",
+      "BlockName": "DYNAMIC_ESRI_Doha_26Q1",
+      "ReleaseName": "Raster Basemaps 2026.R03"
+    },
+    "metadataRequestUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/identify?f=json&geometry=51.4503%2C25.4936&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=51.44865%2C25.4915%2C51.45335%2C25.4962&imageDisplay=1200%2C1200%2C96&returnGeometry=false",
+    "termsSource": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "assetDistribution": "No raster/tile/third-party mesh included in runtime or repository."
+  },
+  "pixelInterpretation": {
+    "t2": {
+      "front": [
+        [
+          456,
+          671
+        ],
+        [
+          458,
+          815
+        ],
+        [
+          454,
+          832
+        ],
+        [
+          438,
+          850
+        ],
+        [
+          417,
+          865
+        ],
+        [
+          390,
+          872
+        ],
+        [
+          368,
+          870
+        ],
+        [
+          348,
+          859
+        ],
+        [
+          326,
+          839
+        ],
+        [
+          280,
+          795
+        ]
+      ],
+      "back": [
+        [
+          414,
+          672
+        ],
+        [
+          416,
+          810
+        ],
+        [
+          411,
+          811
+        ],
+        [
+          404,
+          819
+        ],
+        [
+          398,
+          824
+        ],
+        [
+          391,
+          827
+        ],
+        [
+          385,
+          825
+        ],
+        [
+          374,
+          820
+        ],
+        [
+          353,
+          808
+        ],
+        [
+          312,
+          777
+        ]
+      ]
+    },
+    "t3": {
+      "front": [
+        [
+          425,
+          359
+        ],
+        [
+          425,
+          642
+        ]
+      ],
+      "back": [
+        [
+          384,
+          359
+        ],
+        [
+          384,
+          642
+        ]
+      ]
+    }
+  },
+  "oldZones": [
+    {
+      "zoneId": "t3",
+      "name": "T3",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          51.452409,
+          25.495849
+        ],
+        [
+          51.4522014,
+          25.4956387
+        ],
+        [
+          51.4522265,
+          25.4956185
+        ],
+        [
+          51.4520221,
+          25.4954114
+        ],
+        [
+          51.4519944,
+          25.4954337
+        ],
+        [
+          51.4517401,
+          25.4951761
+        ],
+        [
+          51.4518934,
+          25.4950528
+        ],
+        [
+          51.4522681,
+          25.4954324
+        ],
+        [
+          51.4522421,
+          25.4954533
+        ],
+        [
+          51.4523237,
+          25.495536
+        ],
+        [
+          51.452353,
+          25.4955124
+        ],
+        [
+          51.452563,
+          25.4957251
+        ],
+        [
+          51.452409,
+          25.495849
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "t3-1",
+          "boundary": [
+            [
+              51.452409,
+              25.495849
+            ],
+            [
+              51.4522014,
+              25.4956387
+            ],
+            [
+              51.4522265,
+              25.4956185
+            ],
+            [
+              51.4520221,
+              25.4954114
+            ],
+            [
+              51.4519944,
+              25.4954337
+            ],
+            [
+              51.4517401,
+              25.4951761
+            ],
+            [
+              51.4518934,
+              25.4950528
+            ],
+            [
+              51.4522681,
+              25.4954324
+            ],
+            [
+              51.4522421,
+              25.4954533
+            ],
+            [
+              51.4523237,
+              25.495536
+            ],
+            [
+              51.452353,
+              25.4955124
+            ],
+            [
+              51.452563,
+              25.4957251
+            ],
+            [
+              51.452409,
+              25.495849
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 10.63,
+          "eyeHeight": 1.2,
+          "rows": 21,
+          "frontReference": [
+            51.4518984154984,
+            25.49573425404915
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 10.63,
+        "depth": 23.62,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.openstreetmap.org/way/1316027537",
+        "checkedAt": "2026-10-23",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "具名/对照场馆图确认的OSM看台建筑轮廓；way/1316027537。非精确售票边界。"
+      },
+      "openingSource": {
+        "url": "https://www.lcsc.qa/faq/formula-1r-qatar-airways-qatar-grand-prix-2026",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+      },
+      "surfaceSource": {
+        "url": "https://www.lcsc.qa/faq/formula-1r-qatar-airways-qatar-grand-prix-2026",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    }
+  ],
+  "zones": [
+    {
+      "zoneId": "t2",
+      "name": "T2",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          51.450436,
+          25.49357191666667
+        ],
+        [
+          51.45044383333333,
+          25.49300791666667
+        ],
+        [
+          51.45042816666667,
+          25.492941333333338
+        ],
+        [
+          51.450365500000004,
+          25.492870833333335
+        ],
+        [
+          51.45028325,
+          25.492812083333337
+        ],
+        [
+          51.4501775,
+          25.49278466666667
+        ],
+        [
+          51.45009133333333,
+          25.492792500000004
+        ],
+        [
+          51.450013,
+          25.492835583333335
+        ],
+        [
+          51.449926833333336,
+          25.49291391666667
+        ],
+        [
+          51.44974666666667,
+          25.493086250000005
+        ],
+        [
+          51.449872,
+          25.493156750000004
+        ],
+        [
+          51.45003258333333,
+          25.493035333333335
+        ],
+        [
+          51.45011483333333,
+          25.492988333333336
+        ],
+        [
+          51.45015791666667,
+          25.492968750000003
+        ],
+        [
+          51.450181416666666,
+          25.492960916666668
+        ],
+        [
+          51.450208833333335,
+          25.49297266666667
+        ],
+        [
+          51.45023233333333,
+          25.492992250000004
+        ],
+        [
+          51.45025975,
+          25.493023583333336
+        ],
+        [
+          51.450279333333334,
+          25.493027500000004
+        ],
+        [
+          51.4502715,
+          25.493568000000003
+        ],
+        [
+          51.450436,
+          25.49357191666667
+        ]
+      ],
+      "surface": {
+        "baseHeight": 1.2,
+        "rise": 7.65,
+        "depth": 18,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "t2-1",
+          "boundary": [
+            [
+              51.450436,
+              25.49357191666667
+            ],
+            [
+              51.45044383333333,
+              25.49300791666667
+            ],
+            [
+              51.45042816666667,
+              25.492941333333338
+            ],
+            [
+              51.450365500000004,
+              25.492870833333335
+            ],
+            [
+              51.45028325,
+              25.492812083333337
+            ],
+            [
+              51.4501775,
+              25.49278466666667
+            ],
+            [
+              51.45009133333333,
+              25.492792500000004
+            ],
+            [
+              51.450013,
+              25.492835583333335
+            ],
+            [
+              51.449926833333336,
+              25.49291391666667
+            ],
+            [
+              51.44974666666667,
+              25.493086250000005
+            ],
+            [
+              51.449872,
+              25.493156750000004
+            ],
+            [
+              51.45003258333333,
+              25.493035333333335
+            ],
+            [
+              51.45011483333333,
+              25.492988333333336
+            ],
+            [
+              51.45015791666667,
+              25.492968750000003
+            ],
+            [
+              51.450181416666666,
+              25.492960916666668
+            ],
+            [
+              51.450208833333335,
+              25.49297266666667
+            ],
+            [
+              51.45023233333333,
+              25.492992250000004
+            ],
+            [
+              51.45025975,
+              25.493023583333336
+            ],
+            [
+              51.450279333333334,
+              25.493027500000004
+            ],
+            [
+              51.4502715,
+              25.493568000000003
+            ],
+            [
+              51.450436,
+              25.49357191666667
+            ]
+          ],
+          "baseHeight": 1.2,
+          "rise": 7.65,
+          "eyeHeight": 1.2,
+          "rows": 18,
+          "frontReference": [
+            51.450470698537416,
+            25.492559967653815
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                51.450436,
+                25.49357191666667
+              ],
+              [
+                51.45044383333333,
+                25.49300791666667
+              ],
+              [
+                51.45042816666667,
+                25.492941333333338
+              ],
+              [
+                51.450365500000004,
+                25.492870833333335
+              ],
+              [
+                51.45028325,
+                25.492812083333337
+              ],
+              [
+                51.4501775,
+                25.49278466666667
+              ],
+              [
+                51.45009133333333,
+                25.492792500000004
+              ],
+              [
+                51.450013,
+                25.492835583333335
+              ],
+              [
+                51.449926833333336,
+                25.49291391666667
+              ],
+              [
+                51.44974666666667,
+                25.493086250000005
+              ]
+            ],
+            "back": [
+              [
+                51.4502715,
+                25.493568000000003
+              ],
+              [
+                51.450279333333334,
+                25.493027500000004
+              ],
+              [
+                51.45025975,
+                25.493023583333336
+              ],
+              [
+                51.45023233333333,
+                25.492992250000004
+              ],
+              [
+                51.450208833333335,
+                25.49297266666667
+              ],
+              [
+                51.450181416666666,
+                25.492960916666668
+              ],
+              [
+                51.45015791666667,
+                25.492968750000003
+              ],
+              [
+                51.45011483333333,
+                25.492988333333336
+              ],
+              [
+                51.45003258333333,
+                25.493035333333335
+              ],
+              [
+                51.449872,
+                25.493156750000004
+              ]
+            ],
+            "source": {
+              "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+              "checkedAt": "2026-10-29",
+              "method": "estimated",
+              "confidence": "medium",
+              "notes": "Georeferenced image reference: Vantor Vivid Advanced, capture2025-09-24, 0.34m source resolution and reported8.47m accuracy. Visible seating front/back manually interpreted; no imagery shipped. Promoter2026 map and annual launch distinguish T2/T3; boundary is a physical approximation, not a2026 surveyed ticket limit."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+        "checkedAt": "2026-10-29",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "Georeferenced image reference: Vantor Vivid Advanced, capture2025-09-24, 0.34m source resolution and reported8.47m accuracy. Visible seating front/back manually interpreted; no imagery shipped. Promoter2026 map and annual launch distinguish T2/T3; boundary is a physical approximation, not a2026 surveyed ticket limit."
+      },
+      "openingSource": {
+        "url": "https://www.lcsc.qa/news/formula-1r-qatar-airways-qatar-grand-prix-2026-show-car-revealed-ticket-sales-launch",
+        "checkedAt": "2026-10-29",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 annual launch separately lists T2, T3 and T16."
+      },
+      "surfaceSource": {
+        "url": "https://www.lcsc.qa/sites/default/files/2026-08/eventmap.png",
+        "checkedAt": "2026-10-29",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Seat rows/base/rise are configurable structural estimates, not measured from imagery. T3 retains prior21rows/2.2m base/10.63m rise; T2 uses independent18rows/1.2m base/7.65m rise. Seated eye1.2m. No roof inferred."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-29",
+        "issues": [],
+        "method": "Current rendered road triangles / full physical footprint, neighboring zones, building and buffered pit-plan screening; paired image-interpreted fronts. Explicit approximate structural profile; not surveyed seats or 2026 ticket limits."
+      }
+    },
+    {
+      "zoneId": "t3",
+      "name": "T3",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          51.45031458333333,
+          25.49479391666667
+        ],
+        [
+          51.45031458333333,
+          25.493685500000005
+        ],
+        [
+          51.450154,
+          25.493685500000005
+        ],
+        [
+          51.450154,
+          25.49479391666667
+        ],
+        [
+          51.45031458333333,
+          25.49479391666667
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 10.63,
+        "depth": 18,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "t3-1",
+          "boundary": [
+            [
+              51.45031458333333,
+              25.49479391666667
+            ],
+            [
+              51.45031458333333,
+              25.493685500000005
+            ],
+            [
+              51.450154,
+              25.493685500000005
+            ],
+            [
+              51.450154,
+              25.49479391666667
+            ],
+            [
+              51.45031458333333,
+              25.49479391666667
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 10.63,
+          "eyeHeight": 1.2,
+          "rows": 21,
+          "frontReference": [
+            51.450759015048526,
+            25.494491057034377
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                51.45031458333333,
+                25.49479391666667
+              ],
+              [
+                51.45031458333333,
+                25.493685500000005
+              ]
+            ],
+            "back": [
+              [
+                51.450154,
+                25.49479391666667
+              ],
+              [
+                51.450154,
+                25.493685500000005
+              ]
+            ],
+            "source": {
+              "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+              "checkedAt": "2026-10-29",
+              "method": "estimated",
+              "confidence": "medium",
+              "notes": "Georeferenced image reference: Vantor Vivid Advanced, capture2025-09-24, 0.34m source resolution and reported8.47m accuracy. Visible seating front/back manually interpreted; no imagery shipped. Promoter2026 map and annual launch distinguish T2/T3; boundary is a physical approximation, not a2026 surveyed ticket limit."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+        "checkedAt": "2026-10-29",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "Georeferenced image reference: Vantor Vivid Advanced, capture2025-09-24, 0.34m source resolution and reported8.47m accuracy. Visible seating front/back manually interpreted; no imagery shipped. Promoter2026 map and annual launch distinguish T2/T3; boundary is a physical approximation, not a2026 surveyed ticket limit."
+      },
+      "openingSource": {
+        "url": "https://www.lcsc.qa/news/formula-1r-qatar-airways-qatar-grand-prix-2026-show-car-revealed-ticket-sales-launch",
+        "checkedAt": "2026-10-29",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 annual launch separately lists T2, T3 and T16."
+      },
+      "surfaceSource": {
+        "url": "https://www.lcsc.qa/sites/default/files/2026-08/eventmap.png",
+        "checkedAt": "2026-10-29",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Seat rows/base/rise are configurable structural estimates, not measured from imagery. T3 retains prior21rows/2.2m base/10.63m rise; T2 uses independent18rows/1.2m base/7.65m rise. Seated eye1.2m. No roof inferred."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-29",
+        "issues": [],
+        "method": "Current rendered road triangles / full physical footprint, neighboring zones, building and buffered pit-plan screening; paired image-interpreted fronts. Explicit approximate structural profile; not surveyed seats or 2026 ticket limits."
+      }
+    }
+  ],
+  "geometryFingerprint": "e641591db1be30475c4626b7baa65d9b7935a75683b7dea424cb9fab2201dd3b",
+  "neighborFingerprint": "14ac440a2930ff19fab3e30d2908548da3183a24e07957f3a6a29b1e4ec20a25",
+  "sceneAcceptance": {
+    "accepted": true,
+    "modelSha256": "58924348b2be4dab4f536918a5ac82198fafc2512e76fb5d921648552b1e759a",
+    "validation": {
+      "unitTests": 470,
+      "seatedPointSamples": 882,
+      "deviceFlows": 6,
+      "devices": "Desktop, tablet and phone viewports in local Edge; not physical-device or Safari certification.",
+      "flows": "Continuous selection, eye view, car playback, camera, visible sampled car photograph, PNG download.",
+      "logs": [
+        "artifacts/goal-review/lusail-seating-unit-final.log",
+        "artifacts/goal-review/lusail-seating-final.log"
+      ],
+      "migrationAssertions": 8
+    }
+  },
+  "runtimeApplied": true,
+  "limitations": "Physical footprints interpreted from dated2025 imagery, with annual2026 relative-position corroboration. Reported8.47m imagery accuracy plus manual interpretation does not provide seat-level or ticket-boundary accuracy. Do not claim surveyed slopes or all seats unobstructed.",
+  "planarReview": {
+    "method": "Current rendered road triangles; other region footprints; building footprints and pit centerline buffered by half configured width. Not three-dimensional clearance.",
+    "areas": [
+      {
+        "zoneId": "t2",
+        "roadIntersectionMetres2": 0.0,
+        "otherIntersections": [],
+        "depthRangeMetres": [
+          14.797819120688295,
+          20.671668696064742
+        ]
+      },
+      {
+        "zoneId": "t3",
+        "roadIntersectionMetres2": 0.0,
+        "otherIntersections": [],
+        "depthRangeMetres": [
+          16.091140465291765,
+          16.091140465291765
+        ]
+      }
+    ],
+    "mutualIntersectionMetres2": 0
+  }
+}

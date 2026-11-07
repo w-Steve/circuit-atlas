@@ -5,7 +5,11 @@ test('single camera with persistent shutter and continuous zoom beyond 5x',async
   await expect(page.getByRole('button',{name:'PRO',exact:true})).toHaveCount(0);
   await expect(page.getByLabel('快门速度',{exact:true})).toBeInViewport();
   await page.getByRole('button',{name:'10×',exact:true}).click();await expect(page.getByText('240 mm',{exact:true})).toBeVisible();
+  await expect(page.getByRole('button',{name:'10×',exact:true})).toHaveAttribute('aria-pressed','true');await expect(page.locator('.zoom-presets button[aria-pressed="true"]')).toHaveCount(1);
+  const zoom=page.getByRole('slider',{name:'连续变焦'});await zoom.fill('7.25');await expect(page.getByText('174 mm',{exact:true})).toBeVisible();await expect(zoom).toHaveAttribute('aria-valuetext','7.25× · 174 mm');await expect(page.locator('.zoom-presets button[aria-pressed="true"]')).toHaveCount(0);
+  await zoom.focus();await zoom.press('ArrowRight');await expect(zoom).toHaveValue('7.26');await expect(zoom).toHaveAttribute('aria-valuetext','7.26× · 174 mm');
   await page.getByRole('slider',{name:'连续变焦'}).fill('30');await expect(page.getByText('720 mm',{exact:true})).toBeVisible();
+  await expect(page.locator('.zoom-presets button[aria-pressed="true"]')).toHaveCount(0);
   await page.getByLabel('快门速度',{exact:true}).selectOption('60');await page.getByRole('button',{name:'理想跟拍',exact:true}).click();
   await expect(page.locator('canvas')).toHaveAttribute('data-camera-ready','true');
   await page.getByRole('button',{name:'拍照',exact:true}).click();const photo=page.getByRole('img',{name:'上海赛车场模拟照片'});await expect(photo).toBeVisible();

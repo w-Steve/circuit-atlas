@@ -1,0 +1,154 @@
+{
+  "circuitId": "yas-marina",
+  "season": 2026,
+  "zoneId": "west-grandstand",
+  "checkedAt": "2026-11-05",
+  "zone": {
+    "zoneId": "west-grandstand",
+    "name": "West Grandstand",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        54.601426691105644,
+        24.46897960834807
+      ],
+      [
+        54.60116304054882,
+        24.46825473287174
+      ],
+      [
+        54.601893856867406,
+        24.468034523794163
+      ],
+      [
+        54.60183182144227,
+        24.467863964858555
+      ],
+      [
+        54.60091361632404,
+        24.468140637802176
+      ],
+      [
+        54.601239302306006,
+        24.469036072214116
+      ],
+      [
+        54.601426691105644,
+        24.46897960834807
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "west-grandstand-1",
+        "boundary": [
+          [
+            54.601426691105644,
+            24.46897960834807
+          ],
+          [
+            54.60116304054882,
+            24.46825473287174
+          ],
+          [
+            54.601893856867406,
+            24.468034523794163
+          ],
+          [
+            54.60183182144227,
+            24.467863964858555
+          ],
+          [
+            54.60091361632404,
+            24.468140637802176
+          ],
+          [
+            54.601239302306006,
+            24.469036072214116
+          ],
+          [
+            54.601426691105644,
+            24.46897960834807
+          ]
+        ],
+        "baseHeight": 3,
+        "rise": 10.2,
+        "rows": 22,
+        "eyeHeight": 1.2,
+        "rowStrip": {
+          "front": [
+            [
+              54.601426691105644,
+              24.46897960834807
+            ],
+            [
+              54.60116304054882,
+              24.46825473287174
+            ],
+            [
+              54.601893856867406,
+              24.468034523794163
+            ]
+          ],
+          "back": [
+            [
+              54.601239302306006,
+              24.469036072214116
+            ],
+            [
+              54.60091361632404,
+              24.468140637802176
+            ],
+            [
+              54.60183182144227,
+              24.467863964858555
+            ]
+          ],
+          "source": {
+            "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-grandstand-grandstand-4day",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "2026 promoter independently colored West locator identifies L-shaped reserved seating outsideT6/T7. Author approximate paired L-shaped front/rear rows:85m approach arm and78m cross arm,20m depth,28m approach offset,22rows,3m first platform/10.2m rise. Not a measured installation or Club lounge boundary."
+          }
+        }
+      }
+    ],
+    "surface": {
+      "baseHeight": 3,
+      "rise": 10.2,
+      "eyeHeight": 1.2,
+      "depth": 20
+    },
+    "source": {
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-grandstand-grandstand-4day",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "2026 promoter independently colored West locator identifies L-shaped reserved seating outsideT6/T7. Author approximate paired L-shaped front/rear rows:85m approach arm and78m cross arm,20m depth,28m approach offset,22rows,3m first platform/10.2m rise. Not a measured installation or Club lounge boundary."
+    },
+    "openingSource": {
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-grandstand-grandstand-4day",
+      "checkedAt": "2026-11-05",
+      "method": "published",
+      "confidence": "high",
+      "notes": "2026 ordinary West reserved seat family; Club uses this physical stand, not a second overlapping structure."
+    },
+    "surfaceSource": {
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-grandstand-grandstand-4day",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "2026 promoter independently colored West locator identifies L-shaped reserved seating outsideT6/T7. Author approximate paired L-shaped front/rear rows:85m approach arm and78m cross arm,20m depth,28m approach offset,22rows,3m first platform/10.2m rise. Not a measured installation or Club lounge boundary."
+    },
+    "description": "六至七号弯外侧L形近似看台；座席范围、排数及高度为估计，Club共用此实体。",
+    "geometryReview": {
+      "checkedAt": "2026-11-05",
+      "issues": [],
+      "method": "Independent approximate L-shaped bank outsideT6/T7; source locator is not georeferenced. Default bearing targets nearest actual road, avoiding a perpendicular intersection on the distant opposite branch at the L bend."
+    }
+  },
+  "sourceReview": "src/circuits/season-review/yas-marina-west-product-families-2026.json",
+  "accuracy": "User-approved approximate seat boundary and structural heights; not survey."
+}

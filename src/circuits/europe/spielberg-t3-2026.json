@@ -1,0 +1,299 @@
+{
+  "circuitId": "spielberg",
+  "season": 2026,
+  "oldZone": {
+    "zoneId": "t3",
+    "name": "T3",
+    "kind": "grandstand",
+    "availability": "preparing",
+    "boundary": [
+      [
+        14.752988111771609,
+        47.226951240890614
+      ],
+      [
+        14.754551156905068,
+        47.226764052772396
+      ],
+      [
+        14.754500628949735,
+        47.22656942673425
+      ],
+      [
+        14.752937583816276,
+        47.22675661485247
+      ],
+      [
+        14.752988111771609,
+        47.226951240890614
+      ]
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 10.56,
+      "depth": 22.0,
+      "eyeHeight": 1.2
+    },
+    "surfaces": [
+      {
+        "surfaceId": "t3-1",
+        "boundary": [
+          [
+            14.752988111771609,
+            47.226951240890614
+          ],
+          [
+            14.754551156905068,
+            47.226764052772396
+          ],
+          [
+            14.754500628949735,
+            47.22656942673425
+          ],
+          [
+            14.752937583816276,
+            47.22675661485247
+          ],
+          [
+            14.752988111771609,
+            47.226951240890614
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 10.56,
+        "eyeHeight": 1.2,
+        "rows": 21
+      }
+    ],
+    "source": {
+      "url": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。"
+    },
+    "openingSource": {
+      "url": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+    },
+    "surfaceSource": {
+      "url": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-23",
+      "issues": [
+        "t3-1: no road across either seating face"
+      ],
+      "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+    }
+  },
+  "zone": {
+    "zoneId": "t3",
+    "name": "T3",
+    "kind": "grandstand",
+    "availability": "available",
+    "boundary": [
+      [
+        14.7535559,
+        47.2274155
+      ],
+      [
+        14.7536261,
+        47.2269532
+      ],
+      [
+        14.7547934,
+        47.2270349
+      ],
+      [
+        14.7547232,
+        47.2274972
+      ],
+      [
+        14.7535559,
+        47.2274155
+      ]
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 10.56,
+      "depth": 22.0,
+      "eyeHeight": 1.2
+    },
+    "surfaces": [
+      {
+        "surfaceId": "t3-1",
+        "boundary": [
+          [
+            14.7535559,
+            47.2274155
+          ],
+          [
+            14.7536261,
+            47.2269532
+          ],
+          [
+            14.7547934,
+            47.2270349
+          ],
+          [
+            14.7547232,
+            47.2274972
+          ],
+          [
+            14.7535559,
+            47.2274155
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 10.56,
+        "eyeHeight": 1.2,
+        "rows": 21,
+        "rowFrontEdge": {
+          "coordinates": [
+            [
+              14.7536261,
+              47.2269532
+            ],
+            [
+              14.7547934,
+              47.2270349
+            ]
+          ]
+        },
+        "rowStrip": {
+          "front": [
+            [
+              14.7536261,
+              47.2269532
+            ],
+            [
+              14.7547934,
+              47.2270349
+            ]
+          ],
+          "back": [
+            [
+              14.7535559,
+              47.2274155
+            ],
+            [
+              14.7547232,
+              47.2274972
+            ]
+          ],
+          "source": {
+            "url": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+            "checkedAt": "2026-10-23",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+          }
+        },
+        "rowBearing": "local-normal",
+        "groundReference": [
+          14.754209750000001,
+          47.22699405
+        ],
+        "frontReference": [
+          14.754337561070159,
+          47.22636901132947
+        ]
+      }
+    ],
+    "source": {
+      "url": "https://www.openstreetmap.org/way/1228485529",
+      "checkedAt": "2026-10-29",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "Native object named Tribune13 north of hairpinT3; associated with annual T3 by position and organizer diagram, not literal name equivalence or surveyed2026 seats.21 rows/base2.2m/rise10.56m retained as estimates."
+    },
+    "openingSource": {
+      "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+      "checkedAt": "2026-10-29",
+      "method": "published",
+      "confidence": "high",
+      "notes": "Official ticket document generated2026-03-06 namesT3 in2026 product list and map. Not a seat-boundary survey."
+    },
+    "surfaceSource": {
+      "url": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-29",
+      "issues": [],
+      "method": "Native northern grandstand plan, explicit paired front/back edges facingT3; annual identity interpreted from dated official map. Heights estimated; road/neighbor overlaps zero."
+    }
+  },
+  "nativeWay": {
+    "type": "way",
+    "id": 1228485529,
+    "bounds": {
+      "minlat": 47.2269532,
+      "minlon": 14.7535559,
+      "maxlat": 47.2274972,
+      "maxlon": 14.7547934
+    },
+    "geometry": [
+      {
+        "lat": 47.2274155,
+        "lon": 14.7535559
+      },
+      {
+        "lat": 47.2269532,
+        "lon": 14.7536261
+      },
+      {
+        "lat": 47.2270349,
+        "lon": 14.7547934
+      },
+      {
+        "lat": 47.2274972,
+        "lon": 14.7547232
+      },
+      {
+        "lat": 47.2274155,
+        "lon": 14.7535559
+      }
+    ],
+    "tags": {
+      "building": "grandstand",
+      "name": "Tribüne 13"
+    }
+  },
+  "roadIntersectionMetres2": 0.0,
+  "otherIntersections": [],
+  "sceneAcceptance": {
+    "accepted": true,
+    "accuracy": "Source-associated approximate footprint and retained estimated row profile, not surveyed2026 seats",
+    "modelSha256": "471e2efccfbf4f6b5e663bb5c2819ab05f22d4b7269074c32c45200ce6b1b0e7",
+    "evidence": [
+      "Dated official2026 T3 ticket/map at north hairpin",
+      "Local native named grandstand plan; zero current road/neighbor intersections",
+      "441 seated-floor samples and18 endpoint self-wall rays passed",
+      "Full middle-eye to initial road-target mesh ray verified clear; foreground platform in screenshot is below the visible road target, not proof of self occlusion."
+    ]
+  },
+  "runtimeApplied": true,
+  "sourcePackageSha256": "993201d3e20602a4d024db165a63d52f3652c5842845952ef036810638334cc6",
+  "sourceNativeSha256": "1f3124eaa132a4daa94731b091fb86e8375a12e97a6b1bef047eaba6be02e1b0",
+  "geometryFingerprint": "872d797b0b67a5d94bdb7aea23922a97c2637f960b6196bfc8c0f0e65230db9c",
+  "neighborFingerprint": "21c465cfc8e2ea40cf5ef60a1090f6b82ba7944a3ef40acd0dade3e079c1f8ad",
+  "facilityReview": {
+    "renderedPitOverlapMetres2": 0.0,
+    "buildingPlanOverlapMetres2": 0.0,
+    "facilitiesSha256": "462739e991f82c5fdcde105ba2cbc5197ca72b5616f0c7d17bd1cc4b407d9b8e"
+  },
+  "previousNeighborFingerprint": "a06334616d8cc58cd4eade4b79d8f4c6f16a7bbc836439fd63e42b4eef044230",
+  "neighborReview": "Only east bank identity correctedOst/T8 toT9 through reviewed migration; neighboring physical geometry unchanged."
+}

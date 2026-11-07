@@ -1,0 +1,696 @@
+{
+  "circuitId": "miami",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "campus-t8",
+      "name": "Campus Pass · T8",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -80.2443660575746,
+          25.955901437627208
+        ],
+        [
+          -80.24416742062137,
+          25.955920983621873
+        ],
+        [
+          -80.2441739424254,
+          25.95597456237279
+        ],
+        [
+          -80.24437257937863,
+          25.955955016378127
+        ],
+        [
+          -80.2443660575746,
+          25.955901437627208
+        ]
+      ],
+      "supportToTerrain": true,
+      "surfaces": [
+        {
+          "surfaceId": "campus-t8-1",
+          "boundary": [
+            [
+              -80.2443660575746,
+              25.955901437627208
+            ],
+            [
+              -80.24416742062137,
+              25.955920983621873
+            ],
+            [
+              -80.2441739424254,
+              25.95597456237279
+            ],
+            [
+              -80.24437257937863,
+              25.955955016378127
+            ],
+            [
+              -80.2443660575746,
+              25.955901437627208
+            ]
+          ],
+          "baseHeight": 1.2,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "frontReference": [
+            -80.244282,
+            25.956108
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.2,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 6
+      },
+      "source": {
+        "url": "https://map.concept3d.com/?id=1951#!m/723281",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location723281: Viewing Platform. Published point retained; author 20x6m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "surfaceSource": {
+        "url": "https://map.concept3d.com/?id=1951#!m/723281",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location723281: Viewing Platform. Published point retained; author 20x6m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "openingSource": {
+        "url": "https://f1miamigp.com/news/press-release/neighborhood-inspired-campus-2026/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Dated organizerApril7,2026 release confirms Campus Pass and general campus access excluding premium hospitality; explicitly names Marina viewing deck. Public map GA locations supply geographic association; exact2026 individual installation continuity unverified."
+      },
+      "admissionNote": "Campus Pass近似站立平台；不含编号座席及贵宾区。平台范围、高度与2026逐点连续性未测绘确认。",
+      "description": "独立站立平台，近似范围，眼高1.65米。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Published GA location, explicitly estimated deck subset; no relocation for clearance. Screened against road, registered stands and facilities."
+      }
+    },
+    {
+      "zoneId": "campus-east",
+      "name": "Campus Pass · East Campus",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -80.23487890475523,
+          25.95568436864249
+        ],
+        [
+          -80.23465364242507,
+          25.955758265081005
+        ],
+        [
+          -80.23463309524477,
+          25.95570763135751
+        ],
+        [
+          -80.23485835757494,
+          25.955633734918994
+        ],
+        [
+          -80.23487890475523,
+          25.95568436864249
+        ]
+      ],
+      "supportToTerrain": true,
+      "surfaces": [
+        {
+          "surfaceId": "campus-east-1",
+          "boundary": [
+            [
+              -80.23487890475523,
+              25.95568436864249
+            ],
+            [
+              -80.23465364242507,
+              25.955758265081005
+            ],
+            [
+              -80.23463309524477,
+              25.95570763135751
+            ],
+            [
+              -80.23485835757494,
+              25.955633734918994
+            ],
+            [
+              -80.23487890475523,
+              25.95568436864249
+            ]
+          ],
+          "baseHeight": 1.2,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "frontReference": [
+            -80.23469961514748,
+            25.955557052709374
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.2,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 6
+      },
+      "source": {
+        "url": "https://map.concept3d.com/?id=1951#!m/723287",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location723287: Viewing Platform - East Campus. Published point retained; author 24x6m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "surfaceSource": {
+        "url": "https://map.concept3d.com/?id=1951#!m/723287",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location723287: Viewing Platform - East Campus. Published point retained; author 24x6m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "openingSource": {
+        "url": "https://f1miamigp.com/news/press-release/neighborhood-inspired-campus-2026/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Dated organizerApril7,2026 release confirms Campus Pass and general campus access excluding premium hospitality; explicitly names Marina viewing deck. Public map GA locations supply geographic association; exact2026 individual installation continuity unverified."
+      },
+      "admissionNote": "Campus Pass近似站立平台；不含编号座席及贵宾区。平台范围、高度与2026逐点连续性未测绘确认。",
+      "description": "独立站立平台，近似范围，眼高1.65米。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Published GA location, explicitly estimated deck subset; no relocation for clearance. Screened against road, registered stands and facilities."
+      }
+    },
+    {
+      "zoneId": "campus-beach",
+      "name": "Campus Pass · Beach",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -80.23339170484968,
+          25.95618477201663
+        ],
+        [
+          -80.23316765447872,
+          25.956261589286676
+        ],
+        [
+          -80.23314629515033,
+          25.95621122798337
+        ],
+        [
+          -80.2333703455213,
+          25.956134410713325
+        ],
+        [
+          -80.23339170484968,
+          25.95618477201663
+        ]
+      ],
+      "supportToTerrain": true,
+      "surfaces": [
+        {
+          "surfaceId": "campus-beach-1",
+          "boundary": [
+            [
+              -80.23339170484968,
+              25.95618477201663
+            ],
+            [
+              -80.23316765447872,
+              25.956261589286676
+            ],
+            [
+              -80.23314629515033,
+              25.95621122798337
+            ],
+            [
+              -80.2333703455213,
+              25.956134410713325
+            ],
+            [
+              -80.23339170484968,
+              25.95618477201663
+            ]
+          ],
+          "baseHeight": 1.2,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "frontReference": [
+            -80.23320645467851,
+            25.956050529824513
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.2,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 6
+      },
+      "source": {
+        "url": "https://map.concept3d.com/?id=1951#!m/723288",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location723288: Viewing Platform - The Beach. Published point retained; author 24x6m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "surfaceSource": {
+        "url": "https://map.concept3d.com/?id=1951#!m/723288",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location723288: Viewing Platform - The Beach. Published point retained; author 24x6m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "openingSource": {
+        "url": "https://f1miamigp.com/news/press-release/neighborhood-inspired-campus-2026/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Dated organizerApril7,2026 release confirms Campus Pass and general campus access excluding premium hospitality; explicitly names Marina viewing deck. Public map GA locations supply geographic association; exact2026 individual installation continuity unverified."
+      },
+      "admissionNote": "Campus Pass近似站立平台；不含编号座席及贵宾区。平台范围、高度与2026逐点连续性未测绘确认。",
+      "description": "独立站立平台，近似范围，眼高1.65米。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Published GA location, explicitly estimated deck subset; no relocation for clearance. Screened against road, registered stands and facilities."
+      }
+    },
+    {
+      "zoneId": "campus-marina",
+      "name": "Campus Pass · Marina",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -80.24187319938208,
+          25.956694117005107
+        ],
+        [
+          -80.24205060099902,
+          25.95666757660572
+        ],
+        [
+          -80.24205880061793,
+          25.956711882994895
+        ],
+        [
+          -80.24188139900099,
+          25.95673842339428
+        ],
+        [
+          -80.24187319938208,
+          25.956694117005107
+        ]
+      ],
+      "supportToTerrain": true,
+      "surfaces": [
+        {
+          "surfaceId": "campus-marina-1",
+          "boundary": [
+            [
+              -80.24187319938208,
+              25.956694117005107
+            ],
+            [
+              -80.24205060099902,
+              25.95666757660572
+            ],
+            [
+              -80.24205880061793,
+              25.956711882994895
+            ],
+            [
+              -80.24188139900099,
+              25.95673842339428
+            ],
+            [
+              -80.24187319938208,
+              25.956694117005107
+            ]
+          ],
+          "baseHeight": 1.2,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "frontReference": [
+            -80.24198739411705,
+            25.95681860245493
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.2,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 5
+      },
+      "source": {
+        "url": "https://map.concept3d.com/?id=1951#!m/1032304",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location1032304: Viewing Deck Presented by Ticketmaster. Published point retained; author 18x5m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "surfaceSource": {
+        "url": "https://map.concept3d.com/?id=1951#!m/1032304",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location1032304: Viewing Deck Presented by Ticketmaster. Published point retained; author 18x5m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "openingSource": {
+        "url": "https://www.fia.com/sites/default/files/final_2026_media_kit.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter welcome in official2026 Miami media kit, PDF page4/printed page3, explicitly confirms new Marina viewing platform open to all ticketholders. Geographic association uses organizer-linked current GA map point1032304; per-installation continuity, authored deck dimensions and floor height remain approximate, not certified."
+      },
+      "admissionNote": "Campus Pass近似站立平台；不含编号座席及贵宾区。平台范围、高度与2026逐点连续性未测绘确认。",
+      "description": "独立站立平台，近似范围，眼高1.65米。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Published GA location, explicitly estimated deck subset; no relocation for clearance. Screened against road, registered stands and facilities."
+      }
+    },
+    {
+      "zoneId": "campus-helix-nw",
+      "name": "Campus Pass · Helix 西北",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -80.24029883824029,
+          25.957537374436374
+        ],
+        [
+          -80.24007650174853,
+          25.95741658956023
+        ],
+        [
+          -80.24010750299644,
+          25.957370457809592
+        ],
+        [
+          -80.24032983948818,
+          25.957491242685737
+        ],
+        [
+          -80.24029883824029,
+          25.957537374436374
+        ]
+      ],
+      "supportToTerrain": true,
+      "surfaces": [
+        {
+          "surfaceId": "campus-helix-nw-1",
+          "boundary": [
+            [
+              -80.24029883824029,
+              25.957537374436374
+            ],
+            [
+              -80.24007650174853,
+              25.95741658956023
+            ],
+            [
+              -80.24010750299644,
+              25.957370457809592
+            ],
+            [
+              -80.24032983948818,
+              25.957491242685737
+            ],
+            [
+              -80.24029883824029,
+              25.957537374436374
+            ]
+          ],
+          "baseHeight": 28,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "frontReference": [
+            -80.24045299611687,
+            25.957082160520237
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 28,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 6
+      },
+      "source": {
+        "url": "https://map.concept3d.com/?id=1951#!m/609835",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location609835: Helix Track View. Published point retained; author 26x6m deck subset, floor28m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "surfaceSource": {
+        "url": "https://map.concept3d.com/?id=1951#!m/609835",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location609835: Helix Track View. Published point retained; author 26x6m deck subset, floor28m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "openingSource": {
+        "url": "https://f1miamigp.com/news/press-release/neighborhood-inspired-campus-2026/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Dated organizerApril7,2026 release confirms Campus Pass and general campus access excluding premium hospitality; explicitly names Marina viewing deck. Public map GA locations supply geographic association; exact2026 individual installation continuity unverified."
+      },
+      "admissionNote": "Campus Pass近似站立平台；不含编号座席及贵宾区。平台范围、高度与2026逐点连续性未测绘确认。",
+      "description": "体育场Helix高处站立观赛，平台高度为估计。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Published GA location, explicitly estimated deck subset; no relocation for clearance. Screened against road, registered stands and facilities."
+      }
+    },
+    {
+      "zoneId": "campus-helix-se",
+      "name": "Campus Pass · Helix 东南",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -80.23832960819418,
+          25.956757801790115
+        ],
+        [
+          -80.23810683123844,
+          25.95663767479214
+        ],
+        [
+          -80.23813766363206,
+          25.956591451651313
+        ],
+        [
+          -80.23836044058778,
+          25.956711578649287
+        ],
+        [
+          -80.23832960819418,
+          25.956757801790115
+        ]
+      ],
+      "supportToTerrain": true,
+      "surfaces": [
+        {
+          "surfaceId": "campus-helix-se-1",
+          "boundary": [
+            [
+              -80.23832960819418,
+              25.956757801790115
+            ],
+            [
+              -80.23810683123844,
+              25.95663767479214
+            ],
+            [
+              -80.23813766363206,
+              25.956591451651313
+            ],
+            [
+              -80.23836044058778,
+              25.956711578649287
+            ],
+            [
+              -80.23832960819418,
+              25.956757801790115
+            ]
+          ],
+          "baseHeight": 28,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "frontReference": [
+            -80.23862090189833,
+            25.956094047399
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 28,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 6
+      },
+      "source": {
+        "url": "https://map.concept3d.com/?id=1951#!m/609839",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location609839: Helix Track View. Published point retained; author 26x6m deck subset, floor28m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "surfaceSource": {
+        "url": "https://map.concept3d.com/?id=1951#!m/609839",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location609839: Helix Track View. Published point retained; author 26x6m deck subset, floor28m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "openingSource": {
+        "url": "https://f1miamigp.com/news/press-release/neighborhood-inspired-campus-2026/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Dated organizerApril7,2026 release confirms Campus Pass and general campus access excluding premium hospitality; explicitly names Marina viewing deck. Public map GA locations supply geographic association; exact2026 individual installation continuity unverified."
+      },
+      "admissionNote": "Campus Pass近似站立平台；不含编号座席及贵宾区。平台范围、高度与2026逐点连续性未测绘确认。",
+      "description": "体育场Helix高处站立观赛，平台高度为估计。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Published GA location, explicitly estimated deck subset; no relocation for clearance. Screened against road, registered stands and facilities."
+      }
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "campus-marina",
+      "name": "Campus Pass · Marina",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -80.24187319938208,
+          25.956694117005107
+        ],
+        [
+          -80.24205060099902,
+          25.95666757660572
+        ],
+        [
+          -80.24205880061793,
+          25.956711882994895
+        ],
+        [
+          -80.24188139900099,
+          25.95673842339428
+        ],
+        [
+          -80.24187319938208,
+          25.956694117005107
+        ]
+      ],
+      "supportToTerrain": true,
+      "surfaces": [
+        {
+          "surfaceId": "campus-marina-1",
+          "boundary": [
+            [
+              -80.24187319938208,
+              25.956694117005107
+            ],
+            [
+              -80.24205060099902,
+              25.95666757660572
+            ],
+            [
+              -80.24205880061793,
+              25.956711882994895
+            ],
+            [
+              -80.24188139900099,
+              25.95673842339428
+            ],
+            [
+              -80.24187319938208,
+              25.956694117005107
+            ]
+          ],
+          "baseHeight": 1.2,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "frontReference": [
+            -80.24198739411705,
+            25.95681860245493
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.2,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 5
+      },
+      "source": {
+        "url": "https://map.concept3d.com/?id=1951#!m/1032304",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location1032304: Viewing Deck Presented by Ticketmaster. Published point retained; author 18x5m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "surfaceSource": {
+        "url": "https://map.concept3d.com/?id=1951#!m/1032304",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked public GA category60317 location1032304: Viewing Deck Presented by Ticketmaster. Published point retained; author 18x5m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+      },
+      "openingSource": {
+        "url": "https://f1miamigp.com/news/press-release/neighborhood-inspired-campus-2026/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Dated organizerApril7,2026 release confirms Campus Pass and general campus access excluding premium hospitality; explicitly names Marina viewing deck. Public map GA locations supply geographic association; exact2026 individual installation continuity unverified."
+      },
+      "admissionNote": "Campus Pass近似站立平台；不含编号座席及贵宾区。平台范围、高度与2026逐点连续性未测绘确认。",
+      "description": "独立站立平台，近似范围，眼高1.65米。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Published GA location, explicitly estimated deck subset; no relocation for clearance. Screened against road, registered stands and facilities."
+      }
+    }
+  ],
+  "scope": "Four public outdoor viewing-platform locations and two stadium helix views from organizer-linked public Concept3D map1951/category60317. Point identities are published, local deck envelopes/heights estimated. Current map is not a frozen2026 installation survey.",
+  "sourceSnapshotSha256": "e08ff3ef82dd7de73867c23ef009692e8acc7c085b05eff7b86799a0b3617c6d"
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "circuitId": "sepang",
+    "checkedAt": "2026-11-06",
+    "zoneIds": [
+      "k1",
+      "f",
+      "main-north",
+      "main-south",
+      "hill-k2",
+      "hill-b",
+      "hill-c",
+      "hill-g"
+    ],
+    "issue": "Historical incorrect venue-map citation corrected. Four2026 hill families now have independently source-named native grass-parcel models; exact ticket fences remain unmeasured.",
+    "incorrectOpeningSource": "https://www.bahraingp.com/blog/events/venue-map/",
+    "calendarSource": "https://www.formula1.com/en/racing/2026",
+    "calendarCheck": "Official calendar reconfirmed Round16 Bahrain Grand Prix in Malaysia,02–04 October2026; venue is not removed because of admission-source failure.",
+    "requiredEvidence": "Dated2026 organizer public-ticket inventory/map for Malaysia, with individually associated boundaries.",
+    "status": "approximate-boundaries-modeled",
+    "scope": "Named ordinary product inventory reconciled with explicit approximate physical footprints; not a survey certificate.",
+    "replacementEvidence": "src/circuits/season-review/sepang-public-inventory.json",
+    "resolutionReview": "src/circuits/asia/sepang-hillstands-2026.json"
+  },
+  {
+    "circuitId": "silverstone",
+    "checkedAt": "2026-11-06",
+    "zoneIds": [],
+    "issue": "Final2026 organizer map confirms ordinary-GA viewing bands and five GA+ locations. Expanded Farm native query now closes its physical foreground with997 plus one interpreted east cap; other full ticket geography remains missing.",
+    "requiredEvidence": "Annual positive viewing areas tied to independently validated geographic boundaries; resolve native ground/fence closure or obtain an official geographic layer.",
+    "status": "geographic-boundaries-missing",
+    "scope": "All five positive ordinary-GA map bands have interpreted trackside subsets. Bands37/39 added with source terrain and retained Brooklands fence. Complete ticket boundaries, accessible-platform65 and full coverage remain unverified.",
+    "replacementEvidence": "src/circuits/season-review/silverstone-ga-access-2026.json",
+    "modeledPartialZoneIds": [
+      "ga-national-pit-straight",
+      "ga-vale",
+      "ga-farm-curve"
+    ]
+  }
+]

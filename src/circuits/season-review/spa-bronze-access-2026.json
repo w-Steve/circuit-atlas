@@ -1,0 +1,48 @@
+{
+  "circuitId": "spa",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "sourceUrl": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+  "sourceSha256": "8604073825aa6a7242aaff3622f7a5d5620e97d1c3c8a2eb48a2491d6de33e2b",
+  "runtimeApplied": true,
+  "geographicBoundaryVerified": false,
+  "inventoryComplete": false,
+  "annualEvidence": {
+    "capturedAt": "2026-01-14T00:45:29Z",
+    "eventDates": [
+      "2026-07-16",
+      "2026-07-19"
+    ],
+    "mapIds": [
+      "bronze-1",
+      "bronze-bruxelles",
+      "bronze-3",
+      "bronze-4",
+      "bronze-5",
+      "bronze-6"
+    ],
+    "observation": "Five ordinary Bronze schematic groups share zone-bronze ticketIDs15,18,23,93. Bruxelles uses a separate zone-bronze-bruxelles productID134,18,23,93. Standing ground, no assigned seats."
+  },
+  "modeledProducts": [
+    {
+      "productId": "zone-bronze",
+      "modelZoneIds": [
+        "bronze-1-kemmel",
+        "bronze-3-descent",
+        "bronze-4-pouhon",
+        "bronze-5-stavelot",
+        "bronze-6-blanchimont"
+      ],
+      "representation": "approximate-major-viewing-sectors"
+    },
+    {
+      "productId": "zone-bronze-bruxelles",
+      "modelZoneIds": [
+        "bronze-bruxelles"
+      ],
+      "representation": "approximate-major-viewing-sector"
+    }
+  ],
+  "coverage": "All six named schematic sectors have independently selectable approximate ground bands; no full legal enclosure or metre-perfect geography claim.",
+  "limits": "Road-relative longitudinal positions and widths estimated; source terrain retained. Exact fence/facility layout and full annual ground perimeter remain refinements, not proof of complete grandstand inventory."
+}

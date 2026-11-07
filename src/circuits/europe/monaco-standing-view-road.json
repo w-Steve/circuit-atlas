@@ -1,0 +1,34 @@
+{
+  "circuitId": "monaco",
+  "zoneId": "z-quai-kennedy",
+  "officialStreetLabel": "Avenue J.-F. Kennedy",
+  "streetName": "Avenue John F. Kennedy",
+  "source": "https://www.openstreetmap.org/way/699218006",
+  "wayId": "699218006",
+  "wayVersion": "9",
+  "sourceTimestamp": "2026-08-24T18:21:28Z",
+  "sourceSnapshotSha256": "b7c2db59143971cb36312bce2bfe4e107ac60076d7a3cdacb288516b3e95b3a3",
+  "coordinates": [
+    [
+      7.4220043,
+      43.7368716
+    ],
+    [
+      7.4224519,
+      43.7369176
+    ],
+    [
+      7.4229954,
+      43.7369734
+    ],
+    [
+      7.4231173,
+      43.7369871
+    ]
+  ],
+  "viewRoadCoordinate": [
+    7.42289084731479,
+    43.73696266579607
+  ],
+  "method": "Official2026 standing-sector legend names Avenue J.-F. Kennedy. Match the independently named OSM road, using its point nearest the registered zone centroid. Not chosen by visibility, photographs or a car pose."
+}

@@ -1,0 +1,783 @@
+{
+  "circuitId": "monza",
+  "season": 2026,
+  "inventoryCheckedAt": "2026-10-25",
+  "inventoryComplete": false,
+  "allListedProductsRecorded": true,
+  "scope": "All50 ordinary public entries in the organizer2026 price tables (weekend/Sunday/Saturday/Friday agree). Product identities only, no live stock or surveyed seat-boundary claim. P is one product with six mapped geographic portions; GF terraces are distinct.",
+  "sources": [
+    {
+      "url": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+      "sha256": "e329a9c80037914143c3ba3fdb79e61352aa0ebdb82d4dbc7f645a92a17294d2",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "checkedAt": "2026-10-25",
+      "evidence": "All four public product tables contain the same50 code/name entries. Page0 marks six P strokes, separate from GF and numbered grandstands."
+    }
+  ],
+  "areas": [
+    {
+      "zoneId": "centrale",
+      "name": "Centrale",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "laterale-sinistra",
+      "name": "Laterale Sinistra",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "laterale-destra",
+      "name": "Laterale Destra",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "alta-velocita",
+      "name": "Alta Velocita",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "prima-variante-esterna",
+      "name": "Prima Variante Esterna",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "seconda-variante",
+      "name": "Seconda Variante",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "roggia",
+      "name": "Roggia",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "ascari",
+      "name": "Ascari",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "ascari-uno",
+      "name": "Ascari Uno",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "ascari-due",
+      "name": "Ascari Due",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "ascari-tre",
+      "name": "Ascari 3 · 12",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "uscita-ascari-a",
+      "name": "Uscita Ascari A",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "uscita-ascari-b",
+      "name": "Uscita Ascari B",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "parabolica",
+      "name": "Parabolica",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "laterale-parabolica",
+      "name": "Laterale Parabolica",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "parabolica-interna",
+      "name": "Parabolica Interna",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "vedano",
+      "name": "Vedano",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "piscina",
+      "name": "Piscina",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "seconda-variante-33",
+      "name": "Seconda Variante 1/2 · 33A/B",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "biassono-7",
+      "name": "Biassono · 7",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "lesmo-1-34",
+      "name": "Lesmo 1 Esterna · 34",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "uscita-prima-variante-8bis",
+      "name": "Uscita Prima Variante · 8 BIS",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "lesmo-2-10bis",
+      "name": "Lesmo 2 Interno · 10 BIS",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "serraglio-11",
+      "name": "Serraglio · 11",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "ascari-4-13",
+      "name": "Ascari 4 · 13",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "ascari-2-14",
+      "name": "Ascari 2 · 14",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "ascari-esterna-17",
+      "name": "Ascari Esterna · 17A/B",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "rettilineo-parabolica-20",
+      "name": "Rettilineo Parabolica Esterna · 20",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "vedano-35",
+      "name": "Vedano · 35A/B/C",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "traguardo-gt",
+      "name": "Gradinate Traguardo · GT",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "parabolica-gf",
+      "name": "Gradinate Interno Parabolica · GF",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "junior-interna-32",
+      "name": "Junior Interna · 32",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "prato-lesmo-2",
+      "name": "Prato · 莱斯莫 2 草地",
+      "kind": "general-admission"
+    },
+    {
+      "zoneId": "prato-serraglio",
+      "name": "Prato · 塞拉廖草地",
+      "kind": "general-admission"
+    },
+    {
+      "zoneId": "prato-lesmo",
+      "name": "Prato · 莱斯莫草地",
+      "kind": "general-admission"
+    },
+    {
+      "zoneId": "prato-biassono",
+      "name": "Prato · 比亚索诺草地",
+      "kind": "general-admission"
+    },
+    {
+      "zoneId": "prato-prima-variante",
+      "name": "Prato · 第一减速弯草地",
+      "kind": "general-admission"
+    },
+    {
+      "zoneId": "prato-parabolica",
+      "name": "Prato · 帕拉波利卡草地",
+      "kind": "general-admission"
+    }
+  ],
+  "ticketProducts": [
+    {
+      "productId": "1",
+      "code": "1",
+      "name": "CENTRALE",
+      "kind": "grandstand",
+      "modelZones": [
+        "centrale"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "6c",
+      "code": "6C",
+      "name": "ALTA VELOCITÀ C",
+      "kind": "grandstand",
+      "modelZones": [
+        "alta-velocita"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "26a",
+      "code": "26A",
+      "name": "LATERALE DESTRA A",
+      "kind": "grandstand",
+      "modelZones": [
+        "laterale-destra"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "9",
+      "code": "9",
+      "name": "SECONDA VARIANTE",
+      "kind": "grandstand",
+      "modelZones": [
+        "seconda-variante"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "10",
+      "code": "10",
+      "name": "ROGGIA",
+      "kind": "grandstand",
+      "modelZones": [
+        "roggia"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "16",
+      "code": "16",
+      "name": "ASCARI",
+      "kind": "grandstand",
+      "modelZones": [
+        "ascari"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "33a",
+      "code": "33A",
+      "name": "SECONDA VARIANTE 1",
+      "kind": "grandstand",
+      "modelZones": [
+        "seconda-variante-33"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "33b",
+      "code": "33B",
+      "name": "SECONDA VARIANTE 2",
+      "kind": "grandstand",
+      "modelZones": [
+        "seconda-variante-33"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "4",
+      "code": "4",
+      "name": "LATERALE SINISTRA",
+      "kind": "grandstand",
+      "modelZones": [
+        "laterale-sinistra"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "6b",
+      "code": "6B",
+      "name": "ALTA VELOCITÀ B",
+      "kind": "grandstand",
+      "modelZones": [
+        "alta-velocita"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "7",
+      "code": "7",
+      "name": "BIASSONO",
+      "kind": "grandstand",
+      "modelZones": [
+        "biassono-7"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "8a",
+      "code": "8A",
+      "name": "PRIMA VARIANTE ESTERNA A",
+      "kind": "grandstand",
+      "modelZones": [
+        "prima-variante-esterna"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "8b",
+      "code": "8B",
+      "name": "PRIMA VARIANTE ESTERNA B",
+      "kind": "grandstand",
+      "modelZones": [
+        "prima-variante-esterna"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "22",
+      "code": "22",
+      "name": "PARABOLICA",
+      "kind": "grandstand",
+      "modelZones": [
+        "parabolica"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "26b",
+      "code": "26B",
+      "name": "LATERALE DESTRA B",
+      "kind": "grandstand",
+      "modelZones": [
+        "laterale-destra"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "34",
+      "code": "34",
+      "name": "LESMO 1 ESTERNA",
+      "kind": "grandstand",
+      "modelZones": [
+        "lesmo-1-34"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "5",
+      "code": "5",
+      "name": "PISCINA",
+      "kind": "grandstand",
+      "modelZones": [
+        "piscina"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "6a",
+      "code": "6A",
+      "name": "ALTA VELOCITÀ A",
+      "kind": "grandstand",
+      "modelZones": [
+        "alta-velocita"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "8-bis",
+      "code": "8 BIS",
+      "name": "USCITA PRIMA VARIANTE",
+      "kind": "grandstand",
+      "modelZones": [
+        "uscita-prima-variante-8bis"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "12",
+      "code": "12",
+      "name": "ASCARI 3",
+      "kind": "grandstand",
+      "modelZones": [
+        "ascari-tre"
+      ],
+      "association": "primary-source historical/current product code identity; existing footprint and rows are not a surveyed2026 seating boundary",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "13",
+      "code": "13",
+      "name": "ASCARI 4",
+      "kind": "grandstand",
+      "modelZones": [
+        "ascari-4-13"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "14",
+      "code": "14",
+      "name": "ASCARI 2",
+      "kind": "grandstand",
+      "modelZones": [
+        "ascari-2-14"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "17a",
+      "code": "17A",
+      "name": "ASCARI ESTERNA A",
+      "kind": "grandstand",
+      "modelZones": [
+        "ascari-esterna-17"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "17b",
+      "code": "17B",
+      "name": "ASCARI ESTERNA B",
+      "kind": "grandstand",
+      "modelZones": [
+        "ascari-esterna-17"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "18",
+      "code": "18",
+      "name": "USCITA ASCARI A",
+      "kind": "grandstand",
+      "modelZones": [
+        "uscita-ascari-a",
+        "uscita-ascari-b"
+      ],
+      "association": "2026 map18 is on infield/right atAscari exit; both retained OSM UscitaAscari surfaces are on that side at arc3993/4042m. Accepted approximate family association, not17A/B outside or precise18 ticket boundary.",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "21a",
+      "code": "21A",
+      "name": "LATERALE PARABOLICA A",
+      "kind": "grandstand",
+      "modelZones": [
+        "laterale-parabolica"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "21b",
+      "code": "21B",
+      "name": "LATERALE PARABOLICA B",
+      "kind": "grandstand",
+      "modelZones": [
+        "laterale-parabolica"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "23b",
+      "code": "23B",
+      "name": "PARABOLICA INTERNA B",
+      "kind": "grandstand",
+      "modelZones": [
+        "parabolica",
+        "parabolica-interna"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "24",
+      "code": "24",
+      "name": "VEDANO",
+      "kind": "grandstand",
+      "modelZones": [
+        "vedano"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "26c",
+      "code": "26C",
+      "name": "LATERALE DESTRA C",
+      "kind": "grandstand",
+      "modelZones": [
+        "laterale-destra"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "10-bis",
+      "code": "10 BIS",
+      "name": "LESMO 2 INTERNO",
+      "kind": "grandstand",
+      "modelZones": [
+        "lesmo-2-10bis"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "11",
+      "code": "11",
+      "name": "SERRAGLIO",
+      "kind": "grandstand",
+      "modelZones": [
+        "serraglio-11"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "20",
+      "code": "20",
+      "name": "RETTILINEO PARABOLICA ESTERNA",
+      "kind": "grandstand",
+      "modelZones": [
+        "rettilineo-parabolica-20"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "21c",
+      "code": "21C",
+      "name": "LATERALE PARABOLICA C",
+      "kind": "grandstand",
+      "modelZones": [
+        "laterale-parabolica"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "21d",
+      "code": "21D",
+      "name": "LATERALE PARABOLICA D",
+      "kind": "grandstand",
+      "modelZones": [
+        "laterale-parabolica"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "21e",
+      "code": "21E",
+      "name": "LATERALE PARABOLICA E",
+      "kind": "grandstand",
+      "modelZones": [
+        "laterale-parabolica"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "23a",
+      "code": "23A",
+      "name": "PARABOLICA INTERNA A",
+      "kind": "grandstand",
+      "modelZones": [
+        "parabolica",
+        "parabolica-interna"
+      ],
+      "association": "same-name model family only; exact letter/row boundary not certified",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "35a",
+      "code": "35A",
+      "name": "VEDANO A",
+      "kind": "grandstand",
+      "modelZones": [
+        "vedano-35"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "35b",
+      "code": "35B",
+      "name": "VEDANO B",
+      "kind": "grandstand",
+      "modelZones": [
+        "vedano-35"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "35c",
+      "code": "35C",
+      "name": "VEDANO C",
+      "kind": "grandstand",
+      "modelZones": [
+        "vedano-35"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "gt-2",
+      "code": "GT",
+      "name": "GRADINATE TRAGUARDO 2",
+      "kind": "grandstand",
+      "modelZones": [
+        "traguardo-gt"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "gt-3",
+      "code": "GT",
+      "name": "GRADINATE TRAGUARDO 3",
+      "kind": "grandstand",
+      "modelZones": [
+        "traguardo-gt"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "gt-27",
+      "code": "GT",
+      "name": "GRADINATE TRAGUARDO 27",
+      "kind": "grandstand",
+      "modelZones": [
+        "traguardo-gt"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "gt-28",
+      "code": "GT",
+      "name": "GRADINATE TRAGUARDO 28",
+      "kind": "grandstand",
+      "modelZones": [
+        "traguardo-gt"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "gt-29",
+      "code": "GT",
+      "name": "GRADINATE TRAGUARDO 29",
+      "kind": "grandstand",
+      "modelZones": [
+        "traguardo-gt"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "gt-30",
+      "code": "GT",
+      "name": "GRADINATE TRAGUARDO 30",
+      "kind": "grandstand",
+      "modelZones": [
+        "traguardo-gt"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "gf",
+      "code": "GF",
+      "name": "GRADINATE INTERNO PARABOLICA  (non numerate / not numbered)",
+      "kind": "unnumbered-terrace",
+      "modelZones": [
+        "parabolica-gf"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "25",
+      "code": "25",
+      "name": "USCITA PARABOLICA",
+      "kind": "grandstand",
+      "modelZones": [
+        "laterale-destra"
+      ],
+      "association": "2026 map25 is on outer main straight betweenVedano35 and26C; existing broad LateraleDestra native bank spans arc5522–5742m and contains the representative25 area. Approximate shared-family view only; no ordinary25/26 interchangeable access or precise sub-boundary claim.",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "32",
+      "code": "32",
+      "name": "JUNIOR INTERNA",
+      "kind": "grandstand",
+      "modelZones": [
+        "junior-interna-32"
+      ],
+      "association": "2026 official map side/order associated representative seat bank; dimensions estimated, not exact block boundaries",
+      "candidateModelZones": []
+    },
+    {
+      "productId": "p",
+      "code": "P",
+      "name": "CIRCOLARE PRATO / GENERAL ADMISSION",
+      "kind": "general-admission",
+      "modelZones": [
+        "prato-lesmo-2",
+        "prato-serraglio",
+        "prato-lesmo",
+        "prato-biassono",
+        "prato-prima-variante",
+        "prato-parabolica"
+      ],
+      "association": "six geographic portions of one P product; local terrain/structures remain approximate",
+      "candidateModelZones": []
+    }
+  ],
+  "approximateFamilyCoverageAccepted": true,
+  "approximateSupplementReview": "src/circuits/europe/monza-supplement-2026.json",
+  "unresolved": [
+    "Approximate source-map families and code identities do not prove exact lettered/numbered2026 boundaries or admission between sectors.",
+    "Historical Ascari Uno/code15 is absent from the2026 table; no ordinal alias to13/14 and no demolition/closure inference.",
+    "GT/GF are seated concrete terrace approximations, distinct from standing P.",
+    "Prato microrelief, roofs, fences, trees, screens and crowds are not fully reconstructed."
+  ],
+  "productsWithoutVerifiedModelAssociation": []
+}

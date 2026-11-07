@@ -1,0 +1,37 @@
+{
+  "circuitId": "montreal",
+  "season": 2026,
+  "productId": "grandstand-41a",
+  "checkedAt": "2026-10-28",
+  "sourceTenantId": "fef66c0a-3105-45e5-ba6f-3c7dd4cd9b9e",
+  "sourceFeatureId": "c202a180-6aae-42a7-95a6-33bd69ca8734",
+  "publicMapSha256": "0112b4db9bf3fc43ce2e531b49a4c0576f9aec72421aded085a340003a349f42",
+  "classification": "wheelchair-accessible-unassigned-seating",
+  "unassignedSeating": true,
+  "chairsProvided": true,
+  "maximumCompanionsPerSpectatorWithReducedMobility": 1,
+  "ordinaryUnrestrictedAdmissionVerified": false,
+  "modelRequired": true,
+  "candidateAccepted": false,
+  "evidence": [
+    {
+      "url": "https://web.archive.org/web/20260304080458id_/https://gpcanada.ca/en/event/accessibility/",
+      "originalUrl": "https://gpcanada.ca/en/event/accessibility/",
+      "archiveTimestamp": "20260304080458",
+      "role": "annual-promoter-accessibility-page",
+      "observedSeason": 2026,
+      "annualHeader": "May 22-23-24 2026",
+      "sha256": "dc9f97991d8bec0675d4c1fbdf64d951033fe7fe14b18ae95fad5dbab9de3b91",
+      "facts": [
+        "21A and41A are wheelchair-friendly with unassigned seating",
+        "Chairs are available for spectators and companions",
+        "One companion per spectator with reduced mobility",
+        "41A is on the north side of the circuit viewing the right-left Turns8 and9"
+      ],
+      "limits": "Does not publish deck elevation, ramp gradient, chair coordinates or a measured surface. Do not copy current2027 parking instructions into this annual record."
+    }
+  ],
+  "nextAction": "Use the independent named-location feature as an accessible seating platform; exact deck/ramp height remains unmeasured. Do not require a tenantId link when the organizer location explicitly names41A and links its feature.",
+  "sourceLocationId": 260533,
+  "sourceLocationLabel": "Accessible Grandstand 41A"
+}

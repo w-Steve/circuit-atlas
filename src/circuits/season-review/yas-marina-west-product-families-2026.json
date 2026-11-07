@@ -1,0 +1,47 @@
+{
+  "circuitId": "yas-marina",
+  "season": 2026,
+  "checkedAt": "2026-10-30",
+  "sources": [
+    {
+      "product": "west",
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-grandstand-4day",
+      "sha256": "f48b269d7c9776b46b37f9332956c9e705550852bbe24dd15b7232faa0d1dae9",
+      "maps": [
+        "/documents/75946/3089657/F1-Digital-Maps-WestGS.png/429283d0-0455-3478-36ea-6325cc4a9c19?version=2.0&t=1740589250460"
+      ],
+      "mapSha256": "acd06563a98cd4cf8e8c0779b61b981f55ca2bf55344d3c14b75041d5d8c990f"
+    },
+    {
+      "product": "west-straight",
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-straight-grandstand-4day",
+      "sha256": "7e24427f3f67c606ce7860e2f2346d6250a8242463d67335612f2c43e57f5855",
+      "maps": [
+        "/documents/75946/3089657/F1-Digital-Maps-WestStraightGS.png/3c12d76e-dc60-e7e9-b3c8-bfd5c2449e62?version=2.0&t=1740589449415"
+      ],
+      "mapSha256": "adbb1b8ed562c6302f6f58f4ed74886d3fac7388a20bf931190761b3b843d765"
+    },
+    {
+      "product": "west-club",
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-grandstand-club-4day",
+      "sha256": "5c3061edad105407070f51e8b62303d764c8290d2b19987c74336f1a773b291c",
+      "maps": [
+        "/documents/75946/3089657/F1-Digital-Maps-WestGS.png/429283d0-0455-3478-36ea-6325cc4a9c19?version=2.0&t=1740589250460"
+      ],
+      "mapSha256": "acd06563a98cd4cf8e8c0779b61b981f55ca2bf55344d3c14b75041d5d8c990f"
+    }
+  ],
+  "actualMapsViewed": [
+    "West L-shapedT6–7 structure",
+    "West Straight separate rectangular stand"
+  ],
+  "mapEquivalence": "West Club and ordinary West pages use byte-identical WestGS colored locator; West Straight uses separately colored WestStraightGS locator.",
+  "productInterpretation": "West Club combines reserved seat selection in the West grandstand with an air-conditioned lounge just steps from seats. Do not create a second overlapping West grandstand for the Club name.",
+  "coverageCaution": "Same locator establishes common physical stand family, not equal access to all seats or a georeferenced Club lounge floor. Keep Club seat subset/lounge as coverage question.",
+  "ordinaryMissingFamilies": [
+    "west-grandstand",
+    "west-straight"
+  ],
+  "runtimeApplied": false,
+  "nextAction": "Locate West permanent seating separately from roof and West Straight temporary seating. Resolve Club seat subset/lounge within shared West family, not duplicate stand geometry."
+}

@@ -1,0 +1,268 @@
+{
+  "circuitId": "austin",
+  "season": 2026,
+  "checkedAt": "2026-10-30",
+  "zoneId": "turn-4",
+  "beforeZone": {
+    "zoneId": "turn-4",
+    "name": "Turn 4",
+    "kind": "grandstand",
+    "availability": "preparing",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        -97.63470523804547,
+        30.133859477616408
+      ],
+      [
+        -97.63434096132654,
+        30.13447797401326
+      ],
+      [
+        -97.63411564655547,
+        30.134378710674675
+      ],
+      [
+        -97.6344799232744,
+        30.13376021427782
+      ],
+      [
+        -97.63470523804547,
+        30.133859477616408
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "turn-4-1",
+        "boundary": [
+          [
+            -97.63470523804547,
+            30.133859477616408
+          ],
+          [
+            -97.63434096132654,
+            30.13447797401326
+          ],
+          [
+            -97.63411564655547,
+            30.134378710674675
+          ],
+          [
+            -97.6344799232744,
+            30.13376021427782
+          ],
+          [
+            -97.63470523804547,
+            30.133859477616408
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 10.96,
+        "eyeHeight": 1.2,
+        "rows": 21,
+        "frontReference": [
+          -97.63474678592888,
+          30.13426727169871
+        ],
+        "rowRiserMetres": 0.548,
+        "rowCountSource": {
+          "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+          "checkedAt": "2026-10-29",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Promoter article explicitly addresses2026 United States Grand Prix, updated2026-10-07. Published maximum numbered rows; not a measured riser or proof of every block having the same extent."
+        }
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 10.96,
+      "depth": 24.35,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://f1destinations.com/wp-content/uploads/2025/10/2025-United-States-GP-COTA-Spectator-Map.pdf",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "人工读取2025图面位置；T3/T4局部两点配准，沿线1.058m/px、横向1.058m/px。示意矩形非工程尺寸；可能有数十米误差。 位置参照为2025图，2026票区名称另以主办方确认，不据此声称2026精确边界。"
+    },
+    "openingSource": {
+      "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+    },
+    "surfaceSource": {
+      "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "座席带、高度、坡度、阶梯行数和围网均为估计；不能保证真实座位的遮挡和距离。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-23",
+      "issues": [
+        "turn-4-1: road intersection 0.0242 m2"
+      ],
+      "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+    }
+  },
+  "afterZone": {
+    "zoneId": "turn-4",
+    "name": "Turn 4",
+    "kind": "grandstand",
+    "availability": "preparing",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        -97.63470523804547,
+        30.133859477616408
+      ],
+      [
+        -97.63434096132654,
+        30.13447797401326
+      ],
+      [
+        -97.63411564655547,
+        30.134378710674675
+      ],
+      [
+        -97.6344799232744,
+        30.13376021427782
+      ],
+      [
+        -97.63470523804547,
+        30.133859477616408
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "turn-4-1",
+        "boundary": [
+          [
+            -97.63470523804547,
+            30.133859477616408
+          ],
+          [
+            -97.63434096132654,
+            30.13447797401326
+          ],
+          [
+            -97.63411564655547,
+            30.134378710674675
+          ],
+          [
+            -97.6344799232744,
+            30.13376021427782
+          ],
+          [
+            -97.63470523804547,
+            30.133859477616408
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 10.96,
+        "eyeHeight": 1.2,
+        "rows": 21,
+        "frontReference": [
+          -97.63474678592888,
+          30.13426727169871
+        ],
+        "rowRiserMetres": 0.548,
+        "rowCountSource": {
+          "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+          "checkedAt": "2026-10-29",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Promoter article explicitly addresses2026 United States Grand Prix, updated2026-10-07. Published maximum numbered rows; not a measured riser or proof of every block having the same extent."
+        }
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 10.96,
+      "depth": 24.35,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://f1destinations.com/wp-content/uploads/2025/10/2025-United-States-GP-COTA-Spectator-Map.pdf",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "人工读取2025图面位置；T3/T4局部两点配准，沿线1.058m/px、横向1.058m/px。示意矩形非工程尺寸；可能有数十米误差。 位置参照为2025图，2026票区名称另以主办方确认，不据此声称2026精确边界。"
+    },
+    "openingSource": {
+      "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+    },
+    "surfaceSource": {
+      "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "座席带、高度、坡度、阶梯行数和围网均为估计；不能保证真实座位的遮挡和距离。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-30",
+      "issues": [
+        "turn-4-1: road intersection 0.0242 m2",
+        "source-georeferencing-places-T4-on-painted-runoff"
+      ],
+      "method": "Independent georeferenced2025-01-19 imagery puts the retained old schematic rectangle on painted star runoff, not the outside grandstand. Road-only0.0242m2 is not the controlling failure. No trimming, tolerance relaxation or arbitrary translation accepted."
+    }
+  },
+  "sourceUrl": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+  "annualAdmission": "2026 promoter namesT4 with21rows; this does not establish geographic seat footprint.",
+  "nativeSource": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-97.6357,30.1333,-97.6336,30.135",
+    "sha256": "fba74325dbb1d8ec40915e7aa1c618ef5d1ccee8b3c628723a55ed8b595ed6c3",
+    "finding": "No independently named installed T4 seat polygon in the bounded query. Raceway/path and fuel roof are not spectator geometry."
+  },
+  "independentImagery": {
+    "provider": "Vantor / Esri World Imagery",
+    "captureDate": "2025-01-19",
+    "resolutionMetres": 0.5,
+    "reportedAccuracyMetres": 8.47,
+    "mosaicSha256": "d34e094d488e98df6f7af63afa9fd8e85f78c1a4d2a3c0fc523ff8f1137e21b2",
+    "registeredOverlayActuallyViewed": true,
+    "finding": "Old diagram rectangle overlays painted stars in outside esses runoff, between road and boundary corridor. This is not a seated audience footprint. Narrow road-triangle overlap misses runoff occupancy.",
+    "limit": "Lower-right exterior pads/staging are not automatically accepted as installed21-row seat boundary; installation-period independent identification is still required."
+  },
+  "decision": "KeepT4closed; retain all original coordinates/profile and21row source facts. Replacing the source association requires independent actual seating geometry, not clipping road or increasing collision tolerance.",
+  "geometryChanged": false,
+  "runtimeAvailabilityChanged": false,
+  "nextAction": "A complete named geographic replacement has now been found in the promoter2026 PAM map; source overlay/road-neighbor screen and441 seated/floor samples passed. Continue candidate browser/fence/pit/building and export checks then guarded migration; do not redo old diagram or January bare-image search.",
+  "registrationDiagnostic": {
+    "checkedAt": "2026-10-30",
+    "sourceMap": "https://f1destinations.com/wp-content/uploads/2025/10/2025-United-States-GP-COTA-Spectator-Map.pdf",
+    "cachedRasterSize": [
+      1667,
+      1179
+    ],
+    "cachedRasterSha256": "957fc9db89cedf4dbb6911b7ab13dd5c9d7e2bcb6282894506a44cf64b6213f1",
+    "oldCorner3Pixel": [
+      797,
+      578
+    ],
+    "reinterpretedCorner3Pixel": [
+      791,
+      546
+    ],
+    "corner4Pixel": [
+      849,
+      514
+    ],
+    "method": "Old generator formula and full rectangle reproduced to<1e-10degree difference. Manually re-readT3 marker only; retained old guessed rectangle andT4 control. This is a diagnostic, not a new accepted map registration.",
+    "oldControlFinding": "OldT3 point797,578 falls below the road marker near pedestrian/GA graphics; re-read marker about791,546. Pixel reading not surveyed ground control.",
+    "diagnosticRoadOverlapM2": 340.0759015752381,
+    "diagnosticOutcome": "Updated single control still gives a rectangle spanning road/runoff in independent geographic imagery. Correction ofT3 alone does not establish actual seat location, angle or full extent.",
+    "runtimeApplied": false,
+    "doNotDo": "Do not update the production generator merely with this re-read point, move the rectangle out of road, or treat0.1m2 threshold as geographic acceptance."
+  },
+  "replacementCandidateReview": "src/circuits/season-review/austin-t4-pam-geometry-2026.json"
+}

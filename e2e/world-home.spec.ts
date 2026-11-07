@@ -4,7 +4,7 @@ const circuitRegistry=JSON.parse(readFileSync(new URL('../src/circuits/generated
 const map=(page:any)=>page.locator('.world-map');
 test('world map and calendar fit desktop, large screens and narrow phones',async({page},info)=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
- for(const width of info.project.name==='desktop'?[1440,2549,792]:[390,320]){
+ for(const width of info.project.name==='desktop'?[1440,2549,792]:info.project.name==='tablet'?[1024,768]:[390,320]){
   await page.setViewportSize({width,height:width>1800?1352:960});await page.goto('/');await page.evaluate(()=>document.fonts.ready);
   await expect(page.locator('.world-land path')).toHaveCount(119);await expect(page.locator('.circuit-card')).toHaveCount(23);
   const total=await page.locator('.world-pin,.world-cluster').evaluateAll(nodes=>nodes.reduce((sum,n)=>sum+Number(n.getAttribute('data-count')??1),0));expect(total).toBe(78);

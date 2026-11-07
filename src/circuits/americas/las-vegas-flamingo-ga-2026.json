@@ -1,0 +1,230 @@
+{
+  "circuitId": "las-vegas",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "ga-flamingo-koval",
+      "name": "Flamingo GA · Koval",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -115.16461544971573,
+          36.1168015004817
+        ],
+        [
+          -115.16428188318845,
+          36.11680369676097
+        ],
+        [
+          -115.16427602491997,
+          36.11622297712101
+        ],
+        [
+          -115.16427372755598,
+          36.11599524355232
+        ],
+        [
+          -115.16427372755598,
+          36.11599524355232
+        ],
+        [
+          -115.16427100901183,
+          36.115725759149434
+        ],
+        [
+          -115.1646045755391,
+          36.115723562870166
+        ],
+        [
+          -115.16461544971573,
+          36.1168015004817
+        ]
+      ],
+      "supportToTerrain": true,
+      "surfaces": [
+        {
+          "surfaceId": "ga-flamingo-koval-1",
+          "boundary": [
+            [
+              -115.16461544971573,
+              36.1168015004817
+            ],
+            [
+              -115.16428188318845,
+              36.11680369676097
+            ],
+            [
+              -115.16427602491997,
+              36.11622297712101
+            ],
+            [
+              -115.16427372755598,
+              36.11599524355232
+            ],
+            [
+              -115.16427372755598,
+              36.11599524355232
+            ],
+            [
+              -115.16427100901183,
+              36.115725759149434
+            ],
+            [
+              -115.1646045755391,
+              36.115723562870166
+            ],
+            [
+              -115.16461544971573,
+              36.1168015004817
+            ]
+          ],
+          "rowDirection": [
+            -0.04670108501795541,
+            -0.9989089090893851
+          ],
+          "baseHeight": 0.15,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.15,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 12
+      },
+      "source": {
+        "url": "https://www.f1lasvegasgp.com/app/uploads/2026/03/FLAMINGO-1.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Expanded approximate120x30m Flamingo standing envelope on the inner/west Koval side300m beforeT5,20–50m driver-left, matching the single named promoterLocation sector; exact temporary enclosure unknown. Existing initial sample retained wherever outside actual road/reserved seats/facilities and nativeSphere footprint. Standing1.65m; deck heights remain explicit estimates, not surveyed floor."
+      },
+      "surfaceSource": {
+        "url": "https://www.f1lasvegasgp.com/app/uploads/2026/03/FLAMINGO-1.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Expanded approximate120x30m Flamingo standing envelope on the inner/west Koval side300m beforeT5,20–50m driver-left, matching the single named promoterLocation sector; exact temporary enclosure unknown. Existing initial sample retained wherever outside actual road/reserved seats/facilities and nativeSphere footprint. Standing1.65m; deck heights remain explicit estimates, not surveyed floor."
+      },
+      "openingSource": {
+        "url": "https://www.f1lasvegasgp.com/tickets/general-admission/flamingo-ga/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Opened2026 promoter product body: standing-only viewing, first-come access. Named annual product independently corroborated by2026-08-13 announcement."
+      },
+      "admissionNote": "Flamingo GA独立站立区，先到先用；不含编号看台或T-Mobile区域。位置、范围及地面高度为近似。",
+      "description": "官方具名GA区域的连续近似范围，站姿眼高1.65米，保留实际遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Source-associated expanded sector; roads/reserved stands/facilities and nativeSphere footprint excluded. Not surveyed ticket fence."
+      }
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "ga-flamingo-koval",
+      "name": "Flamingo GA · Koval",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -115.16427372755598,
+          36.11599524355232
+        ],
+        [
+          -115.1642791646443,
+          36.11653421235808
+        ],
+        [
+          -115.1644125912552,
+          36.11653333384638
+        ],
+        [
+          -115.1644071541669,
+          36.11599436504061
+        ],
+        [
+          -115.16427372755598,
+          36.11599524355232
+        ]
+      ],
+      "supportToTerrain": true,
+      "surfaces": [
+        {
+          "surfaceId": "ga-flamingo-koval-1",
+          "boundary": [
+            [
+              -115.16427372755598,
+              36.11599524355232
+            ],
+            [
+              -115.1642791646443,
+              36.11653421235808
+            ],
+            [
+              -115.1644125912552,
+              36.11653333384638
+            ],
+            [
+              -115.1644071541669,
+              36.11599436504061
+            ],
+            [
+              -115.16427372755598,
+              36.11599524355232
+            ]
+          ],
+          "baseHeight": 0.15,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            -115.16405406841528,
+            36.11626619214138
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.15,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 12
+      },
+      "source": {
+        "url": "https://www.f1lasvegasgp.com/app/uploads/2026/03/FLAMINGO-1.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 product location diagram places Flamingo on inner/west side of Koval betweenT4 andT5. Approximate60x12m standing subset300m beforeT5,20–32m driver-left, deck0.15m and standing1.65m. Diagram is schematic; longitudinal placement and dimensions are estimates, not surveyed boundary."
+      },
+      "surfaceSource": {
+        "url": "https://www.f1lasvegasgp.com/app/uploads/2026/03/FLAMINGO-1.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 product location diagram places Flamingo on inner/west side of Koval betweenT4 andT5. Approximate60x12m standing subset300m beforeT5,20–32m driver-left, deck0.15m and standing1.65m. Diagram is schematic; longitudinal placement and dimensions are estimates, not surveyed boundary."
+      },
+      "openingSource": {
+        "url": "https://www.f1lasvegasgp.com/tickets/general-admission/flamingo-ga/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Opened2026 promoter product body: standing-only viewing, first-come access. Named annual product independently corroborated by2026-08-13 announcement."
+      },
+      "admissionNote": "Flamingo GA独立站立区，先到先用；不含编号看台或T-Mobile区域。位置、范围及地面高度为近似。",
+      "description": "Koval直道内侧近似站立区域，保留真实比例及几何遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Explicit source-associated approximate platform; registered neighboring seats/facilities screened."
+      }
+    }
+  ],
+  "sourceMapSha256": "2d0dbc8f8fce986a210a558c138085b96541e8227c559a48bf14daa6f8c7e50b",
+  "coverage": "Expanded approximate120x30m Flamingo standing envelope on the inner/west Koval side300m beforeT5,20–50m driver-left, matching the single named promoterLocation sector; exact temporary enclosure unknown. Native Sphere excluded from pickable ground; its full architectural rendering remains incomplete."
+}

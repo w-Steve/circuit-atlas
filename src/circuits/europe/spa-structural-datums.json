@@ -1,0 +1,382 @@
+{
+  "circuitId": "spa",
+  "checkedAt": "2026-10-24",
+  "scope": "Replace only the low-confidence Gold 9 plan estimate using independent organizer diagram geometry. Preserve all existing zones/availability and every vertical parameter. Not a complete 2026 inventory.",
+  "registration": {
+    "origin": [
+      5.9656638,
+      50.4431088
+    ],
+    "metresPerDegree": [
+      70893.4832685643,
+      111320.0
+    ],
+    "diagramPoints": {
+      "G1": [
+        [
+          531.737,
+          742.741
+        ],
+        [
+          497.734,
+          762.286
+        ],
+        [
+          505.707,
+          776.158
+        ],
+        [
+          539.71,
+          756.613
+        ]
+      ],
+      "G9": [
+        [
+          470.541,
+          777.92
+        ],
+        [
+          438.064,
+          796.588
+        ],
+        [
+          446.037,
+          810.46
+        ],
+        [
+          478.514,
+          791.792
+        ]
+      ],
+      "G9-bis": [
+        [
+          495.758,
+          763.421
+        ],
+        [
+          472.471,
+          776.807
+        ],
+        [
+          480.444,
+          790.678
+        ],
+        [
+          503.731,
+          777.293
+        ]
+      ]
+    },
+    "geographicControls": [
+      [
+        5.9653925,
+        50.4430111
+      ],
+      [
+        5.9647705,
+        50.4437118
+      ],
+      [
+        5.9650418,
+        50.4438095
+      ],
+      [
+        5.9656638,
+        50.4431088
+      ]
+    ],
+    "affineMatrixMetres": [
+      [
+        1.5738303913610574,
+        -1.3855643475900161
+      ],
+      [
+        0.48192418543931237,
+        1.580382680441592
+      ],
+      [
+        -1214.0421042392716,
+        -447.93514695914695
+      ]
+    ],
+    "internalRmsMetres": 6.960962019886003e-13,
+    "boundaries": {
+      "G9": [
+        [
+          5.96427309508362,
+          50.44427221460771
+        ],
+        [
+          5.963679010451512,
+          50.44494147042154
+        ],
+        [
+          5.963950310451511,
+          50.44503917042154
+        ],
+        [
+          5.964544395083619,
+          50.444369914607705
+        ],
+        [
+          5.96427309508362,
+          50.44427221460771
+        ]
+      ],
+      "G9-bis": [
+        [
+          5.9647343485120965,
+          50.443752507954486
+        ],
+        [
+          5.964308374927713,
+          50.44423239152907
+        ],
+        [
+          5.96457966812985,
+          50.44433007733232
+        ],
+        [
+          5.965005648512096,
+          50.44385020795448
+        ],
+        [
+          5.9647343485120965,
+          50.443752507954486
+        ]
+      ]
+    },
+    "htmlSha256": "b0d76766a078f4d5177328a6689beccee08b3c70f13cc8dfd69d260bdf61c663",
+    "frontReference": [
+      5.964522462738094,
+      50.44480478600919
+    ],
+    "previousManualBoundary": [
+      [
+        5.96520185897221,
+        50.443775154301385
+      ],
+      [
+        5.965111501210344,
+        50.44374193217135
+      ],
+      [
+        5.9650491678318875,
+        50.44381215242582
+      ],
+      [
+        5.965048724064721,
+        50.44381259959309
+      ],
+      [
+        5.9650482136032075,
+        50.44381301690428
+      ],
+      [
+        5.965047641364239,
+        50.44381340033976
+      ],
+      [
+        5.965047012859769,
+        50.443813746206175
+      ],
+      [
+        5.965046334143709,
+        50.443814051172055
+      ],
+      [
+        5.965045611753628,
+        50.44381431229989
+      ],
+      [
+        5.965044852647768,
+        50.44381452707444
+      ],
+      [
+        5.96504406413803,
+        50.44381469342692
+      ],
+      [
+        5.96504325381954,
+        50.443814809755004
+      ],
+      [
+        5.965042429497491,
+        50.44381487493818
+      ],
+      [
+        5.965041599111963,
+        50.44381488834858
+      ],
+      [
+        5.96504077066144,
+        50.44381484985704
+      ],
+      [
+        5.965039952125766,
+        50.443814759834325
+      ],
+      [
+        5.965039151389286,
+        50.44381461914755
+      ],
+      [
+        5.965038376164896,
+        50.44381442915184
+      ],
+      [
+        5.9650376339197555,
+        50.4438141916773
+      ],
+      [
+        5.964840056284586,
+        50.44374304042424
+      ],
+      [
+        5.964273900655287,
+        50.44436752122862
+      ],
+      [
+        5.964567088553144,
+        50.44447531856962
+      ],
+      [
+        5.96520185897221,
+        50.443775154301385
+      ]
+    ],
+    "previousFrontReference": [
+      5.965071151154741,
+      50.444193872714955
+    ]
+  },
+  "diagramSource": {
+    "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+    "svgViewBox": [
+      0,
+      0,
+      1512,
+      1210
+    ],
+    "g1Path": "Vector_3676",
+    "g9Path": "Vector_3712",
+    "g9BisPath": "Vector_3715",
+    "note": "Map is schematic/undated. Exact affine fit to one rectangular control does not measure external accuracy or establish the current race-year layout.",
+    "recheckedAt": "2026-10-24",
+    "currentDocumentSha256": "65e4d3a5325a80fc7400d6b3e0588814af0dfe75f92716363c482b9498795786",
+    "currentPathComparison": "HTTP 200 via process-local proxy. Vector_3676/Vector_3712/Vector_3715 d attributes identical to retained source; dynamic page bytes differ. No assumption that the whole current page certifies 2026 inventory."
+  },
+  "structureReferences": [
+    {
+      "url": "https://www.spagrandprix.com/assets/2ceba282-e054-41c4-ba63-39e961d1b1f9/360-gold-9-with-public.jpg",
+      "sha256": "31775b424689805c0df199fd6102cb51e13d41dad0638225e73cd8d5ff2d3063",
+      "note": "Organizer panorama actually inspected. Straight temporary seating rows and separate covered structure; no EXIF date/GPS. Structural corroboration only, not geographic control."
+    },
+    {
+      "url": "https://www.spagrandprix.com/assets/a206a6c7-5bde-4f68-9edc-f9cb8703280b/360-gold-1-with-public2.jpg",
+      "sha256": "709fc18c05c2b33469f1f4f34f3a241555fa53e194f3957420863653aeede0d8",
+      "note": "Organizer panorama actually inspected; distinct permanent structure/straight rows. No EXIF date/GPS."
+    }
+  ],
+  "unmodeledReferenceAreas": [
+    {
+      "name": "Gold 9 Bis",
+      "diagramBoundary": [
+        [
+          5.9647343485120965,
+          50.443752507954486
+        ],
+        [
+          5.964308374927713,
+          50.44423239152907
+        ],
+        [
+          5.96457966812985,
+          50.44433007733232
+        ],
+        [
+          5.965005648512096,
+          50.44385020795448
+        ],
+        [
+          5.9647343485120965,
+          50.443752507954486
+        ]
+      ],
+      "scope": "Organizer map shows a separate area here. Not yet added to the simulator: season-specific public inventory and structural dimensions still require evidence. Do not treat the inter-stand gap as a modeled Bis area."
+    }
+  ],
+  "areas": [
+    {
+      "zoneId": "gold-9-pole-position",
+      "surfaceId": "gold-9-pole-position-1",
+      "seatFootprint": {
+        "boundary": [
+          [
+            5.96427309508362,
+            50.44427221460771
+          ],
+          [
+            5.963679010451512,
+            50.44494147042154
+          ],
+          [
+            5.963950310451511,
+            50.44503917042154
+          ],
+          [
+            5.964544395083619,
+            50.444369914607705
+          ],
+          [
+            5.96427309508362,
+            50.44427221460771
+          ]
+        ],
+        "depthMetres": 22.0955,
+        "source": {
+          "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Independent registration of organizer SVG G9 (Vector_3712), using G1 (Vector_3676) and the retained OSM way/174882363 rectangle as the four controls. The organizer explicitly draws Gold 9 Bis between Gold 1 and Gold 9; replace the former manually guessed/overlap-trimmed Gold 9 footprint. Current schematic is undated and has mixed 2026/2027 site metadata; it is not a 2026 seating survey. Single-rectangle affine fit has no external accuracy estimate; position/extent may be wrong by tens of metres. Original base 2.2m, rise 11.52m, 23 rows and eye 1.2m unchanged. No visibility-driven translation or height tuning."
+        }
+      },
+      "rowFrontEdge": {
+        "coordinates": [
+          [
+            5.963950310451511,
+            50.44503917042154
+          ],
+          [
+            5.964544395083619,
+            50.444369914607705
+          ]
+        ],
+        "source": {
+          "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Registered road-facing straight edge of SVG G9; straight rows corroborated by organizer panorama. Not chosen using raycasting."
+        }
+      },
+      "frontReference": [
+        5.964522462738094,
+        50.44480478600919
+      ],
+      "openingSource": {
+        "url": "https://www.spagrandprix.com/en/news/21_new-covered-grandstands-at-the-moet-chandon-formula-1-belgian-grand-prix-2026",
+        "checkedAt": "2026-10-24",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Organizer news dated 2026-04-09 explicitly names Gold 9 among covered grandstands for the 2026 event. Confirms this stand exists in 2026, not its mapped boundary, structural dimensions, current availability or a complete season inventory."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-24",
+        "issues": [],
+        "method": "Independent organizer-diagram registration replaces old manual Gold 9 estimate. Retain the complete OSM Gold 1 footprint and all vertical/eye parameters. Schematic, not surveyed; annual inventory remains incomplete."
+      }
+    }
+  ]
+}

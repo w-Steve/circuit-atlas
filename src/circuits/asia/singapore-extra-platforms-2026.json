@@ -1,0 +1,204 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "walkabout-t2-t3",
+      "name": "Premier Walkabout · T2–T3",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.86278019860757,
+          1.294653706632709
+        ],
+        [
+          103.86263915159269,
+          1.29481679224366
+        ],
+        [
+          103.86259836982626,
+          1.294781539450857
+        ],
+        [
+          103.86273941684114,
+          1.2946184538399061
+        ],
+        [
+          103.86278019860757,
+          1.294653706632709
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-t2-t3-1",
+          "boundary": [
+            [
+              103.86278019860757,
+              1.294653706632709
+            ],
+            [
+              103.86263915159269,
+              1.29481679224366
+            ],
+            [
+              103.86259836982626,
+              1.294781539450857
+            ],
+            [
+              103.86273941684114,
+              1.2946184538399061
+            ],
+            [
+              103.86278019860757,
+              1.294653706632709
+            ]
+          ],
+          "baseHeight": 0.8,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.86281842647728,
+            1.2948292568856592
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.8,
+        "rise": 0,
+        "depth": 6,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter illustrative park map viewing-platform icon nearT2/T3 or afterT17. Author road-relative approximation 24x6m, height0.8m; no surveyed footprint or sightline-adjusted eyes. Premier access, not Zone4-only."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "2026 Premier Walkabout access zones1–4 and dedicated viewing platforms; exact installation footprint remains an author approximation."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter illustrative park map viewing-platform icon nearT2/T3 or afterT17. Author road-relative approximation 24x6m, height0.8m; no surveyed footprint or sightline-adjusted eyes. Premier access, not Zone4-only."
+      },
+      "description": "独立近似站立平台，范围与平台高度为估计。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Discrete approximate Premier standing platform; road/water/facility/neighbor clearance screened."
+      },
+      "admissionNote": "Premier Walkabout可进入；Zone 4单区票不含此处。范围和平台高度为估计。"
+    },
+    {
+      "zoneId": "walkabout-t17",
+      "name": "Premier Walkabout · T17 出弯",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.86189620791599,
+          1.2889836018857643
+        ],
+        [
+          103.86207490242424,
+          1.2889645488364208
+        ],
+        [
+          103.86207966689734,
+          1.289009211110766
+        ],
+        [
+          103.86190097238911,
+          1.2890282641601098
+        ],
+        [
+          103.86189620791599,
+          1.2889836018857643
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-t17-1",
+          "boundary": [
+            [
+              103.86189620791599,
+              1.2889836018857643
+            ],
+            [
+              103.86207490242424,
+              1.2889645488364208
+            ],
+            [
+              103.86207966689734,
+              1.289009211110766
+            ],
+            [
+              103.86190097238911,
+              1.2890282641601098
+            ],
+            [
+              103.86189620791599,
+              1.2889836018857643
+            ]
+          ],
+          "baseHeight": 1.2,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.86197030885616,
+            1.2888311560831873
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.2,
+        "rise": 0,
+        "depth": 5,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter illustrative park map viewing-platform icon nearT2/T3 or afterT17. Author road-relative approximation 20x5m, height1.2m; no surveyed footprint or sightline-adjusted eyes. Premier access, not Zone4-only."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "2026 Premier Walkabout access zones1–4 and dedicated viewing platforms; exact installation footprint remains an author approximation."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter illustrative park map viewing-platform icon nearT2/T3 or afterT17. Author road-relative approximation 20x5m, height1.2m; no surveyed footprint or sightline-adjusted eyes. Premier access, not Zone4-only."
+      },
+      "description": "独立近似站立平台，范围与平台高度为估计。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Discrete approximate Premier standing platform; road/water/facility/neighbor clearance screened."
+      },
+      "admissionNote": "Premier Walkabout可进入；Zone 4单区票不含此处。范围和平台高度为估计。"
+    }
+  ],
+  "beforeZones": [],
+  "scope": "Two additional approximate Premier platform groups, not full annual platform inventory or surveyed installation footprints."
+}

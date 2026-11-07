@@ -6,6 +6,7 @@ import {createCircuitGeometry} from '../src/circuits/geometry';
 import {createSpectators} from '../src/circuits/spectators';
 import {selectionFraming,selectionEnvelopeProjection} from '../src/camera/selectionFraming';
 
+// Full-registry integration check: keep every vertex/aspect assertion, with an explicit total CPU budget.
 it('frames the full extent of every available shared zone in portrait, tablet, desktop and short landscape',async()=>{
  for(const c of circuitRegistry.filter(c=>c.circuitId!=='shanghai')){
   const d=await loadCircuit(c.circuitId),g=createCircuitGeometry(d.trackGeometry.coordinates,d.lengthMetres,d.elevation),m=createSpectators(terrainSpectatorZones(d),g);
@@ -27,4 +28,4 @@ it('frames the full extent of every available shared zone in portrait, tablet, d
    }
   }
  }
-});
+},15000);

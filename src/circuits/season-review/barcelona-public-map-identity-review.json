@@ -1,0 +1,273 @@
+{
+  "circuitId": "barcelona",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "sourceUrl": "https://gpdestinations.com/wp-content/uploads/2026/05/2026-Barcelona-Grand-Prix-Spectator-Map.pdf",
+  "sourceSha256": "925f4a81168824cb028396dcb30da10522250ffa8dc5cbbb3ded972687f8e7f1",
+  "annualEvidence": {
+    "eventDates": "12–14 June2026",
+    "mapPageOneBased": 1,
+    "mapReviewedVisually": true,
+    "content": "Official event wayfinding map, distributed by a third-party host. Event name/year and grandstand legend inspected; not a geographic survey."
+  },
+  "confirmedIdentities": [
+    {
+      "zoneId": "principal",
+      "mapLabel": "Principal",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "a",
+      "mapLabel": "A",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "b",
+      "mapLabel": "B",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "c",
+      "mapLabel": "C",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "e",
+      "mapLabel": "E",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "f",
+      "mapLabel": "F",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "g",
+      "mapLabel": "G",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "h",
+      "mapLabel": "H",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "j",
+      "mapLabel": "J",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "k",
+      "mapLabel": "K",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "l",
+      "mapLabel": "L",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "m",
+      "mapLabel": "M",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "n",
+      "mapLabel": "N",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "t1",
+      "mapLabel": "T1",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "t10",
+      "mapLabel": "T10",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual map identity only; existing physical association and structure need independent evidence."
+    },
+    {
+      "zoneId": "alonso-land-pelouse",
+      "mapLabel": "Alonso Land Pelouse (annual promoter article, approximate physical portion)",
+      "geographicBoundaryVerified": false,
+      "physicalApproximationAccepted": true,
+      "notes": "Approximate N-adjacent AlonsoLand ground; annual special product remains distinct from common Pelouse."
+    },
+    {
+      "zoneId": "i",
+      "mapLabel": "Grandstand I",
+      "geographicBoundaryVerified": false
+    },
+    {
+      "zoneId": "v",
+      "mapLabel": "Grandstand V",
+      "geographicBoundaryVerified": false
+    },
+    {
+      "zoneId": "pelouse-jove",
+      "mapLabel": "Pelouse Jove",
+      "geographicBoundaryVerified": false,
+      "notes": "2026 promoter article locates atT4; explicit approximate ground model, not full ticket boundary."
+    },
+    {
+      "zoneId": "pelouse-t5-t8",
+      "mapLabel": "Pelouse T5–T8",
+      "ticketClass": "general-admission",
+      "geographicBoundaryVerified": false,
+      "sourceReview": "src/circuits/europe/barcelona-common-pelouse-2026.json"
+    },
+    {
+      "zoneId": "pelouse-back-straight",
+      "mapLabel": "Pelouse · T9–T10",
+      "ticketClass": "general-admission",
+      "geographicBoundaryVerified": false,
+      "sourceReview": "src/circuits/europe/barcelona-pelouse-north-2026.json"
+    },
+    {
+      "zoneId": "pelouse-north-n",
+      "mapLabel": "Pelouse · N 北侧",
+      "ticketClass": "general-admission",
+      "geographicBoundaryVerified": false,
+      "sourceReview": "src/circuits/europe/barcelona-pelouse-north-2026.json"
+    },
+    {
+      "zoneId": "pelouse-t8",
+      "mapLabel": "Pelouse · T8",
+      "ticketClass": "general-admission",
+      "geographicBoundaryVerified": false,
+      "sourceReview": "src/circuits/europe/barcelona-pelouse-t8-2026.json"
+    },
+    {
+      "zoneId": "pelouse-privilege",
+      "mapLabel": "Pelouse Privilege",
+      "geographicBoundaryVerified": false,
+      "physicalApproximationAccepted": true,
+      "notes": "2026 venue map plus named native1530387870; member-only, ordinary Pelouse excluded."
+    }
+  ],
+  "unresolvedIdentities": [],
+  "confirmedMissingProducts": [],
+  "publicGroundEvidence": [
+    {
+      "id": "alonso-land",
+      "url": "https://www.circuitcat.com/es/noticias/formula-1/el-circuit-pone-a-la-venta-alonso-land-un-nuevo-producto-para-los-fans-de-fernando-alonso/",
+      "sha256": "0441c0ff794a078dc18b8fe11dc0891c0a10cc2687892f942a0e47780a4e39c3",
+      "publishedAt": "2025-09-19",
+      "eventSeason": 2026,
+      "fact": "Promoter explicitly sells a2026 Pelouse option separately from TribunaN, in a delimited area adjacent to N between turns8 and9. Same package has an independent grandstand option; not two new physical stands.",
+      "geographicBoundaryVerified": false
+    },
+    {
+      "id": "jove",
+      "url": "https://www.circuitcat.com/en/news/formula-1/the-barcelona-catalunya-gp-increases-its-focus-on-entertainment/",
+      "sha256": "bfca7adc107a56317ef9c1319e8697645ff8ae54bb00a6fdc5c86c84b820ef45",
+      "publishedAt": "2026-06-05",
+      "eventSeason": 2026,
+      "fact": "F1-specific annual entertainment article identifies PelouseJove at Turn4. MotoGP price/age terms not copied.",
+      "geographicBoundaryVerified": false
+    },
+    {
+      "id": "common-and-privilege",
+      "url": "https://www.circuitcat.com/en/membership-modalities/",
+      "sha256": "d93c04518affa934afc99567dd303dff053a9e7d59dbe09a782ab72dd566eea0",
+      "annualScope": "Membership page references2026 renewal; definitions alone do not establish every race-day ticket condition.",
+      "fact": "Common Pelouse areas are shared with public spectators; ordinary GA membership does not grant Privilege or numbered-seat admission. Privilege is a separate restricted category.",
+      "geographicBoundaryVerified": false
+    }
+  ],
+  "nativeReview": {
+    "source": "research/local-polish/barcelona-osm.xml",
+    "sha256": "fc71c173e33d088524f7bb710283400c3d08438c9fe7ee799fc7ab7e1cd28bd5",
+    "fact": "Cached building/grandstand/bleachers tags include existing named stands but no separately named I or V; absence is not cancellation."
+  },
+  "inventoryComplete": false,
+  "limitations": "Minimum confirmed missing families only; does not prove complete annual product coverage, surveyed grass boundaries, member/day entitlements or all stand layers. Purple Areas legend is not positive ordinary-GA permission; walking routes, picnic, Kids/Green zones and hospitality are not silently converted into viewing surfaces.",
+  "partialPhysicalReview": "src/circuits/europe/barcelona-n-bank-2026.json",
+  "missingStandGeometryReview": "src/circuits/season-review/barcelona-i-v-geometry-review-2026.json",
+  "remainingGroundAccessReview": "src/circuits/season-review/barcelona-pelouse-access-review-2026.json",
+  "modeledProducts": [
+    {
+      "productId": "i",
+      "mapLabel": "Grandstand I",
+      "modelZoneId": "i",
+      "nextAction": "Installed I seating/canopy reference or locatable installation plan;2025-11-22 structure imagery and GardenClub do not establish full ordinary seats.",
+      "accuracy": "approximate",
+      "modelReview": "src/circuits/europe/barcelona-supplement-2026.json"
+    },
+    {
+      "productId": "v",
+      "mapLabel": "Grandstand V",
+      "modelZoneId": "v",
+      "nextAction": "Independent V seat envelope in J–Principal gap; exclude small one-level building151594583 and PitLaneLounge. Existing Principal does not establish V coverage.",
+      "accuracy": "approximate",
+      "modelReview": "src/circuits/europe/barcelona-supplement-2026.json"
+    },
+    {
+      "productId": "pelouse",
+      "mapLabel": "Pelouse viewing sectors, including separately restricted products",
+      "modelZoneIds": [
+        "alonso-land-pelouse",
+        "pelouse-jove",
+        "pelouse-t5-t8",
+        "pelouse-back-straight",
+        "pelouse-north-n",
+        "pelouse-t8",
+        "pelouse-privilege"
+      ],
+      "accuracy": "approximate",
+      "admission": "Common Pelouse, Jove, AlonsoLand and member-only Privilege retain distinct entitlement; not interchangeable."
+    }
+  ],
+  "partialJoveReview": "src/circuits/europe/barcelona-jove-2026.json",
+  "practicalCoverageReview": {
+    "checkedAt": "2026-11-06",
+    "accepted": true,
+    "basis": "Visually inspected explicit2026 venue map: JoveT4, AlonsoLandN and PrivilegeT1/T2; four named ordinary native Pelouse parcels already modeled. User accepts approximate primary viewing sectors, not exact annual fences.",
+    "sectors": [
+      {
+        "modelZoneId": "alonso-land-pelouse",
+        "annualMapSector": "Alonso Land 草地（局部近似）"
+      },
+      {
+        "modelZoneId": "pelouse-jove",
+        "annualMapSector": "Pelouse Jove · T4"
+      },
+      {
+        "modelZoneId": "pelouse-t5-t8",
+        "annualMapSector": "Pelouse · T5–T8"
+      },
+      {
+        "modelZoneId": "pelouse-back-straight",
+        "annualMapSector": "Pelouse · T9–T10"
+      },
+      {
+        "modelZoneId": "pelouse-north-n",
+        "annualMapSector": "Pelouse · N 北侧"
+      },
+      {
+        "modelZoneId": "pelouse-t8",
+        "annualMapSector": "Pelouse · T8"
+      },
+      {
+        "modelZoneId": "pelouse-privilege",
+        "annualMapSector": "Pelouse Privilege"
+      }
+    ],
+    "limits": "Approximate source-associated major ground sectors; precise annual fences, internal paths, restricted-product entitlement and temporary structures remain separate refinements. Never interpret common Pelouse as access to Privilege/AlonsoLand/Jove."
+  }
+}

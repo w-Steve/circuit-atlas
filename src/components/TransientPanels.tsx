@@ -1,5 +1,5 @@
 import {useEffect} from 'react';
-import {useApp} from '../store';
+import {useCircuit,useCircuitStore} from '../app/CircuitContext';
 
 export function useDismissPanel(open:boolean,close:()=>void,selector:string){
   useEffect(()=>{
@@ -11,6 +11,7 @@ export function useDismissPanel(open:boolean,close:()=>void,selector:string){
   },[open,close,selector]);
 }
 export function TransientPanels(){
+  const useApp=useCircuitStore();
   const mode=useApp(s=>s.mode);
   useEffect(()=>{
     const prevent=(e:Event)=>{if(e.target instanceof Element&&e.target.closest('.world,#scene-labels,.phone-controls,.experience-header'))e.preventDefault()};

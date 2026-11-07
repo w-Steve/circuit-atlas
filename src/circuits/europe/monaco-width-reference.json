@@ -1,0 +1,20 @@
+{
+  "circuitId": "monaco",
+  "widthMetres": 10,
+  "source": {
+    "url": "https://api.fia.com/sites/default/files/circuits_fia20260331_0.pdf",
+    "checkedAt": "2026-10-25",
+    "method": "published",
+    "confidence": "medium",
+    "notes": "FIA licensed-circuit list updated2026-03-31, Monaco reference width10m. This is a reference baseline, not a full-lap width survey; the listed licence expiry20.05.2026 does not certify June event homologation."
+  },
+  "sourceSha256": "fcf585749b40cbc4d1bdec5488b411fba773dd1078577454105de8d551cd7eba",
+  "previousWidthMetres": 14,
+  "previousWidthSource": {
+    "url": "https://www.formula1.com/en/racing/2026/monaco",
+    "checkedAt": "2026-10-22",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "统一14m示意路宽；尚无全圈逐段宽度测绘"
+  }
+}

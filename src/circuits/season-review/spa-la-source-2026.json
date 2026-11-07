@@ -1,0 +1,371 @@
+{
+  "circuitId": "spa",
+  "season": 2026,
+  "checkedAt": "2026-10-28",
+  "nativeSnapshot": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=5.960,50.442,5.972,50.451",
+    "status": 200,
+    "sha256": "0a7fff28eda51caccd114deec477062e1d9c31901ea3b3be128d944818327c8e",
+    "checkedAt": "2026-10-28"
+  },
+  "currentPackageSha256": "81151b045179520ab9750ef587a4a0cc834c096d79bc99df73dfd14aaeb51f56",
+  "heldZones": [],
+  "nativeCandidates": [
+    {
+      "way": 1366085152,
+      "version": "1",
+      "timestamp": "2025-03-10T23:11:23Z",
+      "tags": {
+        "building": "grandstand"
+      },
+      "boundary": [
+        [
+          5.9631778,
+          50.4467626
+        ],
+        [
+          5.9627167,
+          50.446704
+        ],
+        [
+          5.9626604,
+          50.4468836
+        ],
+        [
+          5.9631216,
+          50.4469422
+        ],
+        [
+          5.9631778,
+          50.4467626
+        ]
+      ],
+      "areaMetres2": 679.7203328218116,
+      "renderedRoadOverlapMetres2": 0.0,
+      "annualIdentityVerified": false
+    },
+    {
+      "way": 1366085153,
+      "version": "1",
+      "timestamp": "2025-03-10T23:11:23Z",
+      "tags": {
+        "building": "grandstand"
+      },
+      "boundary": [
+        [
+          5.9636435,
+          50.4468875
+        ],
+        [
+          5.963899,
+          50.4468203
+        ],
+        [
+          5.9637989,
+          50.4466658
+        ],
+        [
+          5.9635434,
+          50.446733
+        ],
+        [
+          5.9636435,
+          50.4468875
+        ]
+      ],
+      "areaMetres2": 364.6600070096759,
+      "renderedRoadOverlapMetres2": 0.0,
+      "annualIdentityVerified": false
+    },
+    {
+      "way": 1366085154,
+      "version": "1",
+      "timestamp": "2025-03-10T23:11:23Z",
+      "tags": {
+        "building": "grandstand"
+      },
+      "boundary": [
+        [
+          5.9635681,
+          50.4468377
+        ],
+        [
+          5.9633411,
+          50.4468729
+        ],
+        [
+          5.9633052,
+          50.446779
+        ],
+        [
+          5.9635322,
+          50.4467438
+        ],
+        [
+          5.9635681,
+          50.4468377
+        ]
+      ],
+      "areaMetres2": 178.2118838476255,
+      "renderedRoadOverlapMetres2": 0.0,
+      "annualIdentityVerified": false
+    }
+  ],
+  "sourceScope": {
+    "url": "https://www.spagrandprix.com/en/ticketing/ticket/map",
+    "retrievedHtmlSha256": "55fa573e002159c344a80fd96447eeb58b544b2aba2cd2ddd7514b31ce3d9f10",
+    "annualMapVerified": false,
+    "note": "Mixed year signals: structured event metadata says2026; concierge widget path says2027. Neither dates the inline grandstand map. Do not label the whole map2027 or certify it as2026 from these signals."
+  },
+  "requiredEvidence": [
+    "Gold7, Gold8 and independent uncovered Bis admitted as approximate models. Ter remains a separate missing product west of Gold7; recover its own geographic boundary.",
+    "Use source front/back edges and retain explicit estimated vertical profiles, then validate current road, pits, neighbors and actual seated views."
+  ],
+  "runtimeApplied": true,
+  "sceneAccepted": false,
+  "annualIdentityEvidence": {
+    "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+    "status": 200,
+    "sha256": "8604073825aa6a7242aaff3622f7a5d5620e97d1c3c8a2eb48a2491d6de33e2b",
+    "checkedAt": "2026-10-28",
+    "capturedAt": "2026-01-14T00:45:29Z",
+    "publisher": "Spa Grand Prix",
+    "originalUrl": "https://www.spagrandprix.com/en/ticketing/ticket/map",
+    "eventStartDate": "2026-07-16",
+    "eventEndDate": "2026-07-19",
+    "products": [
+      {
+        "mapId": "G7",
+        "mapLabel": "Gold 7 Source",
+        "productId": "gold-7-source",
+        "ticketIds": [
+          "7",
+          "38",
+          "17",
+          "24"
+        ],
+        "pathId": "Vector_3700",
+        "sourcePath": "M328.073 752.802L318.788 773.176L333.347 779.811L342.632 759.437L328.073 752.802Z",
+        "sourcePathSha256": "c15ec079d50bc994d2ba7fb354ffb22de8e86e9ab556a7589ff5ce2ef710eef8",
+        "geographicBoundaryVerified": false
+      },
+      {
+        "mapId": "G7-bis",
+        "mapLabel": "Gold 7 Bis",
+        "productId": "gold-7-bis-source",
+        "ticketIds": [
+          "85",
+          "38",
+          "17",
+          "24"
+        ],
+        "pathId": "Vector_3694",
+        "sourcePath": "M317.974 775.081L308.834 795.137L323.394 801.772L332.534 781.716L317.974 775.081Z",
+        "sourcePathSha256": "c8b4161746961a3608e02d4db712035e191b659c6798bc3d7dbd7b4ef7cb9d90",
+        "geographicBoundaryVerified": false
+      },
+      {
+        "mapId": "G7-ter",
+        "mapLabel": "Gold 7 Ter Endurance",
+        "productId": "gold-7-ter-endurance",
+        "ticketIds": [
+          "101",
+          "38",
+          "17",
+          "24"
+        ],
+        "pathId": "Vector_3703",
+        "sourcePath": "M338.068 730.849L328.928 750.904L343.488 757.539L352.627 737.484L338.068 730.849Z",
+        "sourcePathSha256": "3b79b2c377ca27f4eeef675206265b067759b1b1d9ccf5985083e1c5085869d8",
+        "geographicBoundaryVerified": false
+      },
+      {
+        "mapId": "G8",
+        "mapLabel": "Gold 8 Source Start",
+        "productId": "gold-8-source-start",
+        "ticketIds": [
+          "8",
+          "39",
+          "17",
+          "24"
+        ],
+        "pathId": "Vector_3709",
+        "sourcePath": "M306.357 813.274L313.627 840.79L329.096 836.703L321.826 809.187L306.357 813.274Z",
+        "sourcePathSha256": "2b6fe8542b6dbc449b7973c1536f08301950e950ddb5c67152962c958e4c8da9",
+        "geographicBoundaryVerified": false
+      }
+    ],
+    "scope": "Dated pre-event organizer ticket map confirms four separate product identities; schematic paths are not geographic footprints. Not a complete season inventory or proof of a final July layout."
+  },
+  "confirmedMissingProducts": [],
+  "physicalReferenceEvidence": {
+    "nativeEdit": {
+      "url": "https://api.openstreetmap.org/api/0.6/changeset/163463491",
+      "sha256": "ae4419f44d8a5fd46c09dc61e092785d94b33b94ace0c739efb451c4093b717f",
+      "source": "SPW(allonie) most recent aerial imagery",
+      "note": "Three objects were drawn together in March2025 from aerial imagery; edit supplies no ticket identity."
+    },
+    "orthophoto": {
+      "url": "https://geoservices.wallonie.be/arcgis/services/IMAGERIE/ORTHO_2023_ETE/MapServer/WMSServer?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=0&STYLES=&SRS=EPSG%3A4326&BBOX=5.960%2C50.4455%2C5.965%2C50.448&WIDTH=1200&HEIGHT=1000&FORMAT=image%2Fpng",
+      "status": 200,
+      "sha256": "6f16a729aaa6cb2648b7566df8ec6b6c8be4bcb71a7e21a9a4e6c032da5c72e5",
+      "bbox": [
+        5.96,
+        50.4455,
+        5.965,
+        50.448
+      ],
+      "width": 1200,
+      "height": 1000,
+      "checkedAt": "2026-10-28",
+      "datasetYear": 2023,
+      "catalogue": "https://geoportail.wallonie.be/catalogue/ad55c2ce-62ad-4c3c-b3cf-8fbc270a6b6e.html",
+      "publisher": "Service public de Wallonie",
+      "licence": "CC BY 4.0",
+      "nativeResolutionMetres": 0.25,
+      "observationWindow": [
+        "2023-05-27",
+        "2023-06-25"
+      ],
+      "scope": "Historical physical layout only, not2026 temporary grandstand inventory or ticket boundary."
+    },
+    "organizerPanorama": {
+      "url": "https://www.spagrandprix.com/assets/d893c02c-991b-4d1f-8483-e80fea05e47a/360-gold-7.jpg",
+      "page": "https://www.spagrandprix.com/en/gold-7-source",
+      "sha256": "601b5ec34d56e6d5ab9200059cbce84ab38c08b5fd853727a23d9b40417c0b16",
+      "checkedAt": "2026-10-28",
+      "captureDateVerified": false,
+      "shipped": false,
+      "scope": "Visual reference showing a covered blue-seat stand, a neighboring uncovered bank and buildings across La Source. No surveyed camera position or annual footprint is provided."
+    },
+    "interpretation": "Paired, separately labelled organizer Gold7/Gold8 panoramas independently support the western/eastern roof ordering seen in SPW2023. Native way1366085152 remains the western Gold7 candidate. This does not establish2026 construction dimensions, exact ticket edges or vertical profiles.",
+    "identityAccepted": false,
+    "organizerCounterView": {
+      "page": "https://www.spagrandprix.com/en/gold-8-source-start",
+      "pageSha256": "78e952c301bd7edf18b1a990843a47452a365eb21ab08c51dd3c668ced7fe99d",
+      "url": "https://www.spagrandprix.com/assets/111596ef-8ecc-4dd8-8896-ed0586531074/360-gold-8.jpg",
+      "sha256": "5b287b021fca3942586bcb5567b13f62d74a854ede205994a37cd062dc2a7a5c",
+      "checkedAt": "2026-10-28",
+      "dimensions": [
+        8192,
+        4096
+      ],
+      "reviewedVisually": true,
+      "captureDateVerified": false,
+      "shipped": false,
+      "observation": "Official Gold8 panorama shows the neighboring open seating bank to the left; Gold7 panorama shows that bank to the right. Both show the same La Source infield buildings. In conjunction with the SPW2023 aerial this supports the western roof as Gold7 and eastern roof as Gold8. Relative visual association only, not georeferenced camera coordinates or2026 ticket edges."
+    },
+    "remainingSceneWork": [
+      "Preserve shared barriers and explicit structural precision limits for all three admitted regions.",
+      "Recover the separate Ter footprint west of Gold7; do not reuse Bis."
+    ]
+  },
+  "extensionEvidence": {
+    "checkedAt": "2026-10-28",
+    "bis": {
+      "review": "src/circuits/europe/spa-gold7-bis-2026.json",
+      "physicalAssociation": "Official labelled panorama places Bis between the Gold7 and Gold8 roofs, independently supporting native1366085154.",
+      "annualUncoveredEvidence": {
+        "url": "https://web.archive.org/web/20260114011554id_/https://www.spagrandprix.com/en/tickets-gold-7-bis",
+        "checkedAt": "2026-10-28",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Dated organizer2026 page explicitly names Gold7 Bis Source Weekend as Uncovered. Hospitality package wording is not used to override this primary product description.",
+        "sha256": "97d6e9cc2d365b3a13b915039c79a1ef694ac0fd04725ae5bfca68ff4f3c6098",
+        "capturedAt": "2026-01-14T01:15:54Z",
+        "ticketName": "Gold 7 Bis : Source (Weekend) - Uncovered",
+        "ticketId": "526"
+      },
+      "panorama": {
+        "page": "https://www.spagrandprix.com/en/gold-7-bis",
+        "url": "https://www.spagrandprix.com/assets/bacd92b0-ddae-4bc6-af8f-674fa1a0f576/360-gold-7-bis.jpg",
+        "pageSha256": "e6b8e47fa6c654d4c15b7567470d2edc24535c519e5a50929fdfeade3e7c6a96",
+        "sha256": "189b6d8c32e6e6932c09aff47d9408bf1788214c1b5eb7d1dff7c277c542c54e",
+        "dimensions": [
+          8192,
+          4096
+        ],
+        "reviewedVisually": true,
+        "captureDateVerified": false,
+        "shipped": false
+      },
+      "scope": "Migrated independent uncovered approximation; paired original row edges avoid endpoint self-blocking. Heights/rails/aisles remain estimates."
+    },
+    "ter": {
+      "page": "https://www.spagrandprix.com/en/tickets-gold-7-ter",
+      "pageSha256": "4d905f41f5006fc1529437e8d5e9b53c00f486e4a69ce017a8dbcd4a4a1a519a",
+      "url": "https://www.spagrandprix.com/assets/18bd55c3-5647-4adc-b42b-3cc5de4664e3/360-7-ter.jpg",
+      "sha256": "f8703c95b18bd912ac74ab8d22659906a8925f880c6be693c51527e16665bc9a",
+      "reviewedVisually": true,
+      "captureDateVerified": false,
+      "shipped": false,
+      "observation": "An uncovered bank farther west than Gold7, with Gold7 roof visible to its right; not the intermediate Bis bank. Geographic boundary not established.",
+      "spatialReview": "src/circuits/season-review/spa-ter-geometry-review-2026.json"
+    }
+  },
+  "acceptedRegions": [
+    {
+      "zoneId": "gold-7-la-source",
+      "nativeWay": 1366085152,
+      "review": "src/circuits/europe/spa-gold7-2026.json",
+      "accuracy": "source-associated approximate model; not surveyed2026 ticket or structural geometry"
+    },
+    {
+      "zoneId": "gold-8-source-start",
+      "nativeWay": 1366085153,
+      "review": "src/circuits/europe/spa-gold8-2026.json",
+      "accuracy": "Source-associated approximate model; not surveyed2026 ticket or structural geometry"
+    },
+    {
+      "zoneId": "gold-7-bis-source",
+      "nativeWay": 1366085154,
+      "review": "src/circuits/europe/spa-gold7-bis-2026.json",
+      "accuracy": "Independent source-associated approximate uncovered stand; not surveyed2026 seat geometry"
+    }
+  ],
+  "modeledProducts": [
+    {
+      "productId": "gold-7-ter-endurance",
+      "mapLabel": "Gold 7 Ter Endurance",
+      "modelZoneId": "gold-7-ter-endurance",
+      "source": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+      "nextAction": "Recover an independently associated physical footprint; do not merge this separate ticket product into Gold7.",
+      "accuracy": "approximate",
+      "modelReview": "src/circuits/europe/spa-ter-2026.json"
+    }
+  ],
+  "legacyHeldZones": [
+    {
+      "zoneId": "gold-6-chicane",
+      "recordedIssues": [
+        "gold-6-chicane-1: road intersection 210.5617 m2"
+      ],
+      "currentRenderedRoadOverlapMetres2": 210.63829599411383
+    },
+    {
+      "zoneId": "gold-11-chicane",
+      "recordedIssues": [
+        "gold-11-chicane-1: road intersection 338.8055 m2",
+        "gold-11-chicane-1: unresolved diagram bearing (89.7 degrees)"
+      ],
+      "currentRenderedRoadOverlapMetres2": 338.5901111520346
+    },
+    {
+      "zoneId": "silver-3-double-gauche",
+      "recordedIssues": [
+        "silver-3-double-gauche-1: road intersection 0.0013 m2"
+      ],
+      "currentRenderedRoadOverlapMetres2": 0.001285345787404597
+    },
+    {
+      "zoneId": "silver-4-bruxelles",
+      "recordedIssues": [
+        "silver-4-bruxelles-1: road intersection 289.0097 m2",
+        "silver-4-bruxelles-1: unresolved diagram bearing (75.6 degrees)"
+      ],
+      "currentRenderedRoadOverlapMetres2": 289.05340696104423
+    }
+  ],
+  "activeRepairReview": "src/circuits/europe/spa-repairs-2026.json",
+  "packageRefreshNote": "2026-11-07: appended six named stand families and three product surfaces. Existing scoped LaSource/repair objects and all non-spectator geometry compared unchanged; retained legacy conflict measurements. Fresh23-venue road screen separately passed."
+}

@@ -1,0 +1,504 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "checkedAt": "2026-11-05",
+  "scope": "Five separately reserved2026 GA+ viewing products; geographically approximate stand-front envelopes, not surveyed full installations or ordinary GA entitlement.",
+  "zones": [
+    {
+      "zoneId": "ga-plus-abbey-a",
+      "name": "Abbey GA Plus",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -1.0214748185179696,
+          52.07015270382767
+        ],
+        [
+          -1.021252502390057,
+          52.07033093768787
+        ],
+        [
+          -1.021345305750272,
+          52.07037465942795
+        ],
+        [
+          -1.0215676218781846,
+          52.07019642556775
+        ],
+        [
+          -1.0214748185179696,
+          52.07015270382767
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 8,
+        "eyeHeight": 1.65
+      },
+      "surfaces": [
+        {
+          "surfaceId": "ga-plus-abbey-a-1",
+          "boundary": [
+            [
+              -1.0214748185179696,
+              52.07015270382767
+            ],
+            [
+              -1.021252502390057,
+              52.07033093768787
+            ],
+            [
+              -1.021345305750272,
+              52.07037465942795
+            ],
+            [
+              -1.0215676218781846,
+              52.07019642556775
+            ],
+            [
+              -1.0214748185179696,
+              52.07015270382767
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 2,
+          "frontReference": [
+            -1.0211316520534757,
+            52.07013251640756
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Final2026 promoter map marker42: Abbey GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "surfaceSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Final2026 promoter map marker42: Abbey GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "openingSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Final2026 promoter map marker42: Abbey GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "description": "GA+独立预留观赛区；范围为近似模型。",
+      "admissionNote": "需对应GA+区域票，非普通GA或相邻看台座席。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "2026 named map sector with explicit approximate stand-front ground envelope."
+      }
+    },
+    {
+      "zoneId": "ga-plus-luffield",
+      "name": "Luffield Terrace GA Plus",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -1.021824640180348,
+          52.076590070460085
+        ],
+        [
+          -1.021677757043679,
+          52.07679570685142
+        ],
+        [
+          -1.0217848284389635,
+          52.076824593583055
+        ],
+        [
+          -1.0219317115756326,
+          52.07661895719172
+        ],
+        [
+          -1.021824640180348,
+          52.076590070460085
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 8,
+        "eyeHeight": 1.65
+      },
+      "surfaces": [
+        {
+          "surfaceId": "ga-plus-luffield-1",
+          "boundary": [
+            [
+              -1.021824640180348,
+              52.076590070460085
+            ],
+            [
+              -1.021677757043679,
+              52.07679570685142
+            ],
+            [
+              -1.0217848284389635,
+              52.076824593583055
+            ],
+            [
+              -1.0219317115756326,
+              52.07661895719172
+            ],
+            [
+              -1.021824640180348,
+              52.076590070460085
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 2,
+          "frontReference": [
+            -1.0214835201238022,
+            52.07662067182668
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Final2026 promoter map marker44: Luffield Terrace GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "surfaceSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Final2026 promoter map marker44: Luffield Terrace GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "openingSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Final2026 promoter map marker44: Luffield Terrace GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "description": "GA+独立预留观赛区；范围为近似模型。",
+      "admissionNote": "需对应GA+区域票，非普通GA或相邻看台座席。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "2026 named map sector with explicit approximate stand-front ground envelope."
+      }
+    },
+    {
+      "zoneId": "ga-plus-copse-a",
+      "name": "Copse A GA Plus",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -1.0117984174921621,
+          52.07905268077665
+        ],
+        [
+          -1.0114698179979575,
+          52.078954438868614
+        ],
+        [
+          -1.0114186650959813,
+          52.07901906279766
+        ],
+        [
+          -1.011747264590186,
+          52.079117304705704
+        ],
+        [
+          -1.0117984174921621,
+          52.07905268077665
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 8,
+        "eyeHeight": 1.65
+      },
+      "surfaces": [
+        {
+          "surfaceId": "ga-plus-copse-a-1",
+          "boundary": [
+            [
+              -1.0117984174921621,
+              52.07905268077665
+            ],
+            [
+              -1.0114698179979575,
+              52.078954438868614
+            ],
+            [
+              -1.0114186650959813,
+              52.07901906279766
+            ],
+            [
+              -1.011747264590186,
+              52.079117304705704
+            ],
+            [
+              -1.0117984174921621,
+              52.07905268077665
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 2,
+          "frontReference": [
+            -1.011762,
+            52.078842
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Final2026 promoter map marker45: Copse A GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "surfaceSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Final2026 promoter map marker45: Copse A GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "openingSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Final2026 promoter map marker45: Copse A GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "description": "GA+独立预留观赛区；范围为近似模型。",
+      "admissionNote": "需对应GA+区域票，非普通GA或相邻看台座席。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "2026 named map sector with explicit approximate stand-front ground envelope."
+      }
+    },
+    {
+      "zoneId": "ga-plus-copse-c",
+      "name": "Copse C GA Plus",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -1.0108105005024812,
+          52.0784409489914
+        ],
+        [
+          -1.010703495322031,
+          52.07822621562252
+        ],
+        [
+          -1.0105916872842122,
+          52.078247259766876
+        ],
+        [
+          -1.0106986924646624,
+          52.07846199313575
+        ],
+        [
+          -1.0108105005024812,
+          52.0784409489914
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 8,
+        "eyeHeight": 1.65
+      },
+      "surfaces": [
+        {
+          "surfaceId": "ga-plus-copse-c-1",
+          "boundary": [
+            [
+              -1.0108105005024812,
+              52.0784409489914
+            ],
+            [
+              -1.010703495322031,
+              52.07822621562252
+            ],
+            [
+              -1.0105916872842122,
+              52.078247259766876
+            ],
+            [
+              -1.0106986924646624,
+              52.07846199313575
+            ],
+            [
+              -1.0108105005024812,
+              52.0784409489914
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 2,
+          "frontReference": [
+            -1.0110365180068033,
+            52.078280971946086
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Final2026 promoter map marker46: Copse C GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "surfaceSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Final2026 promoter map marker46: Copse C GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "openingSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Final2026 promoter map marker46: Copse C GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "description": "GA+独立预留观赛区；范围为近似模型。",
+      "admissionNote": "需对应GA+区域票，非普通GA或相邻看台座席。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "2026 named map sector with explicit approximate stand-front ground envelope."
+      }
+    },
+    {
+      "zoneId": "ga-plus-landostand-stowe",
+      "name": "Landostand GA Plus",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -1.0172360830439413,
+          52.063380256550076
+        ],
+        [
+          -1.0175903200701688,
+          52.06332512694666
+        ],
+        [
+          -1.0175616150169362,
+          52.06325546101943
+        ],
+        [
+          -1.0172073779907085,
+          52.06331059062285
+        ],
+        [
+          -1.0172360830439413,
+          52.063380256550076
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 8,
+        "eyeHeight": 1.65
+      },
+      "surfaces": [
+        {
+          "surfaceId": "ga-plus-landostand-stowe-1",
+          "boundary": [
+            [
+              -1.0172360830439413,
+              52.063380256550076
+            ],
+            [
+              -1.0175903200701688,
+              52.06332512694666
+            ],
+            [
+              -1.0175616150169362,
+              52.06325546101943
+            ],
+            [
+              -1.0172073779907085,
+              52.06331059062285
+            ],
+            [
+              -1.0172360830439413,
+              52.063380256550076
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 2,
+          "frontReference": [
+            -1.0174849641901367,
+            52.06352685656643
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Final2026 promoter map marker66: Landostand GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "surfaceSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Final2026 promoter map marker66: Landostand GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "openingSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Final2026 promoter map marker66: Landostand GA Plus. Approximate25x8m standing envelope in its named stand-front sector,20m road offset. Not measured ticket boundary, surveyed terrace height or entitlement to adjacent grandstands. Native ground follows source terrain."
+      },
+      "description": "GA+独立预留观赛区；范围为近似模型。",
+      "admissionNote": "需对应GA+区域票，非普通GA或相邻看台座席。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "2026 named map sector with explicit approximate stand-front ground envelope."
+      }
+    }
+  ],
+  "beforeZones": []
+}

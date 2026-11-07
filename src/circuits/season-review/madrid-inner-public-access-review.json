@@ -1,0 +1,68 @@
+{
+  "circuitId": "madrid",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "inventoryComplete": false,
+  "scope": "Annual access uncertainty retained; explicitly approximate physical viewpoints accepted separately.",
+  "sources": {
+    "historicMirador": {
+      "url": "https://web.archive.org/web/20260521110434id_/https://hospitality.madring.com/en/f1/el-mirador/",
+      "sha256": "22367048803611cc603b1d939c756e6a60608b61b9b2c643cb901cdbe812c374",
+      "timestamp": "20260521110434",
+      "cdxDigestMatchesReplay": true,
+      "facts": "2026 El Mirador includes dedicated hospitality seating. Reserved seating is not pre-assigned and guests choose subject to availability. No GD11 code or entire-bank access crosswalk."
+    },
+    "archivedPeraltadaSvg": {
+      "url": "https://web.archive.org/web/20260607132314id_/https://www.madring.com/img/mapa-peraltada/mapa-_4.svg",
+      "sha256": "dd48e19fe0edfad4c9019caf642369d3f92c5082fac33c37070dcefb62c4e49e",
+      "cdxDigestMatchesReplay": false,
+      "visualReview": "Old ticket-section numbers 9/9A/10/11/12 and arrows; no individual GD footprint. Rejected as authenticated annual bank geometry."
+    },
+    "currentPeraltadaSvg": {
+      "url": "https://www.madring.com/img/mapa-peraltada/mapa-_4.svg",
+      "finalUrl": "https://www.madring.com/error404",
+      "sha256": "7a4ec215096d5adad9003d15baf1530d894b853b3d9b2d0e09c8bb52b2eae079",
+      "usable": false,
+      "reason": "HTTP200 soft404 HTML, not SVG"
+    },
+    "conceptImage": {
+      "url": "https://www.madring.com/img/monumental-madring-2/monumental.webp",
+      "sha256": "d4e70231f0077e032173b58b7fcdf47b46f9b701b7d87a56b5666ecadd5129c0",
+      "usableForMetricGeometry": false,
+      "visualReview": "Image watermark states indicative and subject to change. No GD11 label, survey scale, date or as-built section."
+    },
+    "annualNamedStandReport": {
+      "url": "https://www.20minutos.es/deportes/deportes_motor/formula-1/cuales-son-mejores-gradas-madring-circuito-formula-1-madrid-que-se-vera-desde-cada-zona_7029717_0.html",
+      "publisher": "20minutos",
+      "author": "Sergio Palencia",
+      "publishedAt": "2026-08-27T15:10",
+      "retrievedAt": "2026-11-06",
+      "fact": "GD11 explicitly listed among La Monumental grandstands.",
+      "scope": "Dated journalistic annual stand identity corroboration. Not an organizer ticket-to-seat access crosswalk or geographic boundary."
+    },
+    "annualTicketEntryRecheck": {
+      "sourceReview": "src/circuits/season-review/madrid-admission-recheck-2026.json",
+      "url": "https://feverup.com/m/432252/en?thm=5513",
+      "status": 404,
+      "checkedAt": "2026-11-07",
+      "inference": "No change to ordinaryAccessVerified or exclusivity; approximate views retained."
+    }
+  },
+  "areas": [
+    {
+      "zoneId": "monumental-12",
+      "mapLabel": "GD11",
+      "relatedHospitalityProduct": "El Mirador",
+      "hospitalityProductConfirmed2026": true,
+      "ordinaryAccessVerified": false,
+      "wholeBankHospitalityExclusiveVerified": false,
+      "modelGeometryAccepted": true,
+      "recordedGeometryIssues": [],
+      "nextAction": "Refine ordinary/hospitality ticket allocation and source occluded edges; explicit approximate viewpoint is available with admission note.",
+      "annualNamedStandPresenceCorroborated": true,
+      "ordinaryAccessInferredFromReport": false,
+      "approximateExperienceAccepted": true,
+      "approximateModelReview": "src/circuits/europe/madrid-remaining-approx-2026.json"
+    }
+  ]
+}

@@ -1,58 +1,31 @@
-import {circuitRuntime} from "../circuits/runtime";
+
 import { useEffect, useLayoutEffect, useMemo, useRef } from "react";
 import { useFrame, useThree } from "@react-three/fiber";
-import { geoPoints } from "./CircuitGeometry";
+
 import { Box3, MOUSE } from "three";
 import { OrbitControls } from "@react-three/drei";
 import { Vector3, PerspectiveCamera, Quaternion } from "three";
-import { useApp } from "../store";
-import { observer,lookTarget } from "./GrandstandGeometry";
-import {zoneSurfaces as shanghaiSurfaces} from "../circuits/shanghai/spectators";
+import {useCircuit,useCircuitStore} from '../app/CircuitContext';
+
 import { zoomToFov } from "./PhoneCamera";
-import {local,facilities} from "../data/config";
+
 import {selectionFraming,selectionEnvelopeProjection} from '../camera/selectionFraming';
 import type {OrbitControls as Controls} from "three-stdlib";
 import {MapKeyboard} from "../components/MapKeyboard";
 import {circuitVisit} from '../app/circuitVisit';
-export const overviewCenter = new Box3()
-  .setFromPoints(geoPoints)
-  .getCenter(new Vector3());
-const overviewRadius = Math.max(
-  ...geoPoints.map((p) => p.distanceTo(overviewCenter)),
-);
-export function overviewPosition(aspect: number) {
-  if(circuitRuntime.current){
-    const points=circuitRuntime.current.geometry.geoPoints,center=new Box3().setFromPoints(points).getCenter(new Vector3());
-    const span=new Box3().setFromPoints(points).getSize(new Vector3());
-    const distance=Math.max(span.z,span.x/aspect)*1.3;
-    return center.add(new Vector3(0,distance,distance*.58));
-  }
-  const vertical = (50 * Math.PI) / 180,
-    horizontal = 2 * Math.atan(Math.tan(vertical / 2) * aspect);
-  const distance =
-    (overviewRadius / Math.sin(Math.min(vertical, horizontal) / 2)) * 1.12;
-  return overviewCenter
-    .clone()
-    .add(new Vector3(1, 1.7, 1.3).normalize().multiplyScalar(distance));
-}
-export const activeCamera: { current: PerspectiveCamera | null } = {
-  current: null,
-};
-export const activeMapControls:{current:Controls|null}={current:null};
-const savedCircuitViews=new Map<string,{position:number[];target:number[];visit:number}>();
 export function ObserverCamera() {
+  const useApp=useCircuitStore();
   const mode = useApp((s) => s.mode);
-  const runtime=circuitRuntime.current;
-  const visit=circuitVisit(runtime?.data.circuitId??'shanghai');
-  const mapCenter=useMemo(()=>runtime?new Box3().setFromPoints(runtime.geometry.geoPoints).getCenter(new Vector3()):overviewCenter,[runtime]);
+  const runtime=useCircuit(),{observer,lookTarget,camera:activeCamera,controls:activeMapControls,views:savedCircuitViews}=runtime;
+  const overviewPosition=(aspect:number)=>{const span=runtime.bounds.getSize(new Vector3()),distance=Math.max(span.z,span.x/aspect)*1.3;return runtime.mapCenter.clone().add(new Vector3(0,distance,distance*.58))};
+  const visit=circuitVisit(runtime.data.circuitId);
+  const mapCenter=runtime.mapCenter;
   const resetView = useApp((s) => s.resetView);
   const zoneId=useApp(s=>s.selection.zoneId??'a');
   const selectedBounds=useMemo(()=>{
     const points:Vector3[]=[];
-    if(!runtime&&zoneId==='a'){
-      for(const x of [-facilities.stand.length/2,facilities.stand.length/2])for(const z of [32,88])for(const y of [3,38])points.push(new Vector3(...local(x,y,z)));
-    }else for(const s of (runtime?.spectators.zoneSurfaces??shanghaiSurfaces).get(zoneId)??[]){
-      if(s.definition.terrainFollow&&runtime){
+    for(const s of runtime.spectators.zoneSurfaces.get(zoneId)??[]){
+      if(s.definition.terrainFollow){
         const mesh=runtime.spectators.surfaceGeometry(s);mesh.computeBoundingBox();
         points.push(mesh.boundingBox!.min.clone(),mesh.boundingBox!.max.clone().add(new Vector3(0,s.definition.eyeHeight,0)));mesh.dispose();
       }else for(const p of s.points)for(const y of [s.definition.baseHeight,s.definition.baseHeight+s.definition.rise+s.definition.eyeHeight])points.push(new Vector3(p.x,y,p.y));
@@ -62,11 +35,12 @@ export function ObserverCamera() {
   const selectedCenter=useMemo(()=>selectedBounds.getCenter(new Vector3()),[selectedBounds]);
   const controls=useRef<Controls>(null);
   const { camera, gl, size } = useThree();
+  useEffect(()=>()=>{if(activeCamera.current===camera)activeCamera.current=null},[activeCamera,camera]);
   const target = useRef(new Vector3());
   const settled = useRef(false);
   const initialized=useRef(false);
   const flight=useRef<{from:Vector3;to:Vector3;fromTarget:Vector3;toTarget:Vector3;rotation:Quaternion;endRotation:Quaternion;elapsed:number}|null>(null);
-  const viewKey=`${runtime?.data.circuitId??'shanghai'}:${mode}:${mode==='select'?zoneId:''}`;
+  const viewKey=`${runtime.data.circuitId}:${mode}:${mode==='select'?zoneId:''}`;
   const lastReset=useRef(resetView);
   const lastVisit=useRef(visit);
   const previous=useRef({mode,zoneId});
@@ -76,8 +50,8 @@ export function ObserverCamera() {
     return {...selectionFraming(selectedBounds,towardTrack,size.width,size.height),towardTrack};
   },[runtime,zoneId,selectedBounds,size.width,size.height]);
   useEffect(()=>{
-    activeMapControls.current=controls.current;
-    return()=>{activeMapControls.current=null};
+    const mountedControls=controls.current;activeMapControls.current=mountedControls;
+    return()=>{if(activeMapControls.current===mountedControls)activeMapControls.current=null};
   },[mode,zoneId,resetView]);
   // Map controls own the camera after initialization. A second per-frame lerp
   // fought OrbitControls' limits (especially on portrait screens) indefinitely.
@@ -195,6 +169,7 @@ export function ObserverCamera() {
   }, [gl]);
   useFrame((_, dt) => {
     const s = useApp.getState();
+    gl.domElement.dataset.cameraMode=s.mode;
     const c = camera as PerspectiveCamera;
     activeCamera.current = c;
     initialized.current=true;
@@ -219,10 +194,10 @@ export function ObserverCamera() {
       camera.lookAt(target.current);
       if (camera.position.distanceTo(p) < 0.01) camera.position.copy(p);
       gl.domElement.dataset.cameraReady = String(
-        camera.position.distanceTo(p) < 0.02,
+        camera.position.equals(p),
       );
       c.near = 0.1;
-      c.far = runtime?20000:12000;
+      c.far = 20000;
       c.fov = s.mode === "phone" ? zoomToFov(s.zoom) : 60;
       c.aspect = s.mode === "phone" ? 4 / 3 : size.width / size.height;
       c.updateProjectionMatrix();

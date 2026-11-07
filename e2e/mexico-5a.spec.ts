@@ -1,0 +1,22 @@
+import {test,expect} from '@playwright/test';
+for(const face of ['north','south'] as const)test(`Mexico5A ${face} continuous observation and export`,async({page},info)=>{
+  await page.goto('/#/circuits/mexico/zones/grada-5a/select');
+  const canvas=page.locator('canvas:visible');
+  await expect(canvas).toHaveAttribute('data-camera-ready','true');
+  const point=page.locator('.world-pick-point');await point.focus();
+  for(let i=0;i<(face==='north'?20:5);i++)await page.keyboard.press(face==='north'?'ArrowLeft':'ArrowRight');
+  expect(Number(await point.getAttribute('data-u'))).toBeCloseTo(face==='north'?.1:.6,2);
+  await page.screenshot({path:info.outputPath(`${face}-select.png`)});
+  await page.getByRole('button',{name:'进入此处视野 ↗',exact:true}).click();
+  await expect(canvas).toHaveAttribute('data-camera-mode','eye');
+  await expect(canvas).toHaveAttribute('data-camera-ready','true');
+  await page.screenshot({path:info.outputPath(`${face}-eye.png`)});
+  await page.getByRole('button',{name:'打开手机相机',exact:true}).click();
+  await page.getByRole('button',{name:'播放赛车',exact:true}).click();
+  await page.getByRole('button',{name:'暂停赛车',exact:true}).click();
+  await page.getByRole('button',{name:'拍照',exact:true}).click();
+  await expect(page.getByRole('img',{name:'赛道模拟照片',exact:true})).toBeVisible();
+  const download=page.waitForEvent('download');
+  await page.getByRole('link',{name:'保存 PNG ↓',exact:true}).click();
+  await(await download).saveAs(info.outputPath(`${face}-photo.png`));
+ });

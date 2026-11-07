@@ -1,0 +1,652 @@
+{
+  "circuitId": "spa",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "bronze-1-kemmel",
+      "name": "Bronze 1 · Kemmel",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          5.976351221000735,
+          50.43563729116545
+        ],
+        [
+          5.976978597405892,
+          50.43425663917113
+        ],
+        [
+          5.976734696108262,
+          50.43421169189894
+        ],
+        [
+          5.976107319703106,
+          50.43559234389326
+        ],
+        [
+          5.976351221000735,
+          50.43563729116545
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "bronze-1-kemmel-1",
+          "boundary": [
+            [
+              5.976351221000735,
+              50.43563729116545
+            ],
+            [
+              5.976978597405892,
+              50.43425663917113
+            ],
+            [
+              5.976734696108262,
+              50.43421169189894
+            ],
+            [
+              5.976107319703106,
+              50.43559234389326
+            ],
+            [
+              5.976351221000735,
+              50.43563729116545
+            ]
+          ],
+          "rowDirection": [
+            0.2779739078105108,
+            0.9605886250505747
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "frontReference": [
+            5.976082256103421,
+            50.43483959112916
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 18
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 160m x 18m ground band at corner5 arc-400m, driver-left. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 160m x 18m ground band at corner5 arc-400m, driver-left. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "January14 archive explicitly names BelgianGP2026 July16–19; SVG has five shared zone-bronze groups and separately ticketed zone-bronze-bruxelles. No assigned seat."
+      },
+      "description": "沿源地形站立观赛，眼高1.65米，保留坡面与围网遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Named annual schematic sector associated to actual roadway; approximate ground envelope excludes registered reserved structures and road."
+      },
+      "admissionNote": "普通Bronze近似草地范围；不含编号看台或独立Bruxelles票区。"
+    },
+    {
+      "zoneId": "bronze-bruxelles",
+      "name": "Bronze · Bruxelles",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          5.97248444859735,
+          50.42802352168756
+        ],
+        [
+          5.972477614614093,
+          50.42803938168644
+        ],
+        [
+          5.972519046462665,
+          50.428129396256324
+        ],
+        [
+          5.973060505340467,
+          50.428028323932466
+        ],
+        [
+          5.973012891756847,
+          50.427924878964454
+        ],
+        [
+          5.97248444859735,
+          50.42802352168756
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "bronze-bruxelles-1",
+          "boundary": [
+            [
+              5.97248444859735,
+              50.42802352168756
+            ],
+            [
+              5.972477614614093,
+              50.42803938168644
+            ],
+            [
+              5.972519046462665,
+              50.428129396256324
+            ],
+            [
+              5.973060505340467,
+              50.428028323932466
+            ],
+            [
+              5.973012891756847,
+              50.427924878964454
+            ],
+            [
+              5.97248444859735,
+              50.42802352168756
+            ]
+          ],
+          "rowDirection": [
+            -0.959624486633457,
+            -0.28128427729518485
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "frontReference": [
+            5.9726231283588955,
+            50.42771680270634
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 12
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 40m x 12m ground band at corner8 arc-30m, driver-right. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 40m x 12m ground band at corner8 arc-30m, driver-right. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "January14 archive explicitly names BelgianGP2026 July16–19; SVG has five shared zone-bronze groups and separately ticketed zone-bronze-bruxelles. No assigned seat."
+      },
+      "description": "沿源地形站立观赛，眼高1.65米，保留坡面与围网遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Named annual schematic sector associated to actual roadway; approximate ground envelope excludes registered reserved structures and road."
+      },
+      "admissionNote": "Bruxelles独立Bronze票区，普通Bronze不包含本区；范围为近似。"
+    },
+    {
+      "zoneId": "bronze-3-descent",
+      "name": "Bronze 3 · Pouhon 下坡",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          5.973874229050128,
+          50.43111636326559
+        ],
+        [
+          5.974114588623534,
+          50.43116847684305
+        ],
+        [
+          5.974569216169486,
+          50.4303180997448
+        ],
+        [
+          5.974328856596079,
+          50.43026598616734
+        ],
+        [
+          5.973874229050128,
+          50.43111636326559
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "bronze-3-descent-1",
+          "boundary": [
+            [
+              5.973874229050128,
+              50.43111636326559
+            ],
+            [
+              5.974114588623534,
+              50.43116847684305
+            ],
+            [
+              5.974569216169486,
+              50.4303180997448
+            ],
+            [
+              5.974328856596079,
+              50.43026598616734
+            ],
+            [
+              5.973874229050128,
+              50.43111636326559
+            ]
+          ],
+          "rowDirection": [
+            -0.32229352460870003,
+            -0.9466397857661072
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "frontReference": [
+            5.973767710082262,
+            50.43061879474777
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 18
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 100m x 18m ground band at corner9 arc+140m, driver-right. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 100m x 18m ground band at corner9 arc+140m, driver-right. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "January14 archive explicitly names BelgianGP2026 July16–19; SVG has five shared zone-bronze groups and separately ticketed zone-bronze-bruxelles. No assigned seat."
+      },
+      "description": "沿源地形站立观赛，眼高1.65米，保留坡面与围网遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Named annual schematic sector associated to actual roadway; approximate ground envelope excludes registered reserved structures and road."
+      },
+      "admissionNote": "普通Bronze近似草地范围；不含编号看台或独立Bruxelles票区。"
+    },
+    {
+      "zoneId": "bronze-4-pouhon",
+      "name": "Bronze 4 · Double Gauche",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          5.968127441245652,
+          50.43289675984067
+        ],
+        [
+          5.9678916782726565,
+          50.432956788093925
+        ],
+        [
+          5.968415351733476,
+          50.43379090270816
+        ],
+        [
+          5.968651114706472,
+          50.43373087445491
+        ],
+        [
+          5.968127441245652,
+          50.43289675984067
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "bronze-4-pouhon-1",
+          "boundary": [
+            [
+              5.968127441245652,
+              50.43289675984067
+            ],
+            [
+              5.9678916782726565,
+              50.432956788093925
+            ],
+            [
+              5.968415351733476,
+              50.43379090270816
+            ],
+            [
+              5.968651114706472,
+              50.43373087445491
+            ],
+            [
+              5.968127441245652,
+              50.43289675984067
+            ]
+          ],
+          "rowDirection": [
+            -0.3712413973469435,
+            0.9285363885685305
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "frontReference": [
+            5.968729824492612,
+            50.43322710967087
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 18
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 100m x 18m ground band at corner11 arc+90m, driver-right. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 100m x 18m ground band at corner11 arc+90m, driver-right. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "January14 archive explicitly names BelgianGP2026 July16–19; SVG has five shared zone-bronze groups and separately ticketed zone-bronze-bruxelles. No assigned seat."
+      },
+      "description": "沿源地形站立观赛，眼高1.65米，保留坡面与围网遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Named annual schematic sector associated to actual roadway; approximate ground envelope excludes registered reserved structures and road."
+      },
+      "admissionNote": "普通Bronze近似草地范围；不含编号看台或独立Bruxelles票区。"
+    },
+    {
+      "zoneId": "bronze-5-stavelot",
+      "name": "Bronze 5 · Stavelot",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          5.961181247507614,
+          50.42927708085908
+        ],
+        [
+          5.961314208576594,
+          50.42939322156178
+        ],
+        [
+          5.962192067543799,
+          50.42898564418415
+        ],
+        [
+          5.9621567968491025,
+          50.428964896716685
+        ],
+        [
+          5.9620437945514455,
+          50.42892609472291
+        ],
+        [
+          5.96196181473068,
+          50.428914674648375
+        ],
+        [
+          5.961181247507614,
+          50.42927708085908
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "bronze-5-stavelot-1",
+          "boundary": [
+            [
+              5.961181247507614,
+              50.42927708085908
+            ],
+            [
+              5.961314208576594,
+              50.42939322156178
+            ],
+            [
+              5.962192067543799,
+              50.42898564418415
+            ],
+            [
+              5.9621567968491025,
+              50.428964896716685
+            ],
+            [
+              5.9620437945514455,
+              50.42892609472291
+            ],
+            [
+              5.96196181473068,
+              50.428914674648375
+            ],
+            [
+              5.961181247507614,
+              50.42927708085908
+            ]
+          ],
+          "rowDirection": [
+            -0.8080489390231383,
+            -0.5891153640362645
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "frontReference": [
+            5.961412809538064,
+            50.42886940985733
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 16
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 80m x 16m ground band at corner14 arc+50m, driver-right. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 80m x 16m ground band at corner14 arc+50m, driver-right. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "January14 archive explicitly names BelgianGP2026 July16–19; SVG has five shared zone-bronze groups and separately ticketed zone-bronze-bruxelles. No assigned seat."
+      },
+      "description": "沿源地形站立观赛，眼高1.65米，保留坡面与围网遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Named annual schematic sector associated to actual roadway; approximate ground envelope excludes registered reserved structures and road."
+      },
+      "admissionNote": "普通Bronze近似草地范围；不含编号看台或独立Bruxelles票区。"
+    },
+    {
+      "zoneId": "bronze-6-blanchimont",
+      "name": "Bronze 6 · Blanchimont",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          5.966774231657958,
+          50.43557288057741
+        ],
+        [
+          5.967467300683068,
+          50.43655635528558
+        ],
+        [
+          5.96769895042391,
+          50.43649015034734
+        ],
+        [
+          5.9670058813988,
+          50.43550667563917
+        ],
+        [
+          5.966774231657958,
+          50.43557288057741
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "bronze-6-blanchimont-1",
+          "boundary": [
+            [
+              5.966774231657958,
+              50.43557288057741
+            ],
+            [
+              5.967467300683068,
+              50.43655635528558
+            ],
+            [
+              5.96769895042391,
+              50.43649015034734
+            ],
+            [
+              5.9670058813988,
+              50.43550667563917
+            ],
+            [
+              5.966774231657958,
+              50.43557288057741
+            ]
+          ],
+          "rowDirection": [
+            0.4094407625333944,
+            -0.9123367042797701
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "frontReference": [
+            5.967674151662524,
+            50.43590646169013
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 18
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 120m x 18m ground band at corner17 arc-100m, driver-left. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 120m x 18m ground band at corner17 arc-100m, driver-left. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "January14 archive explicitly names BelgianGP2026 July16–19; SVG has five shared zone-bronze groups and separately ticketed zone-bronze-bruxelles. No assigned seat."
+      },
+      "description": "沿源地形站立观赛，眼高1.65米，保留坡面与围网遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Named annual schematic sector associated to actual roadway; approximate ground envelope excludes registered reserved structures and road."
+      },
+      "admissionNote": "普通Bronze近似草地范围；不含编号看台或独立Bruxelles票区。"
+    }
+  ],
+  "beforeZones": [],
+  "sourceUrl": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+  "sourceSha256": "8604073825aa6a7242aaff3622f7a5d5620e97d1c3c8a2eb48a2491d6de33e2b",
+  "coverage": "Six approximate major Bronze viewing sectors, including the separately ticketed Bruxelles area; not surveyed annual boundaries."
+}

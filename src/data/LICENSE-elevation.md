@@ -9,7 +9,9 @@ License: Creative Commons Attribution 4.0 International (CC BY 4.0)
 https://creativecommons.org/licenses/by/4.0/
 
 Changes: local 65x65 bilinear extracts of the native 1-arc-second (~30m)
-Float32 ground elevation raster for all 23 current circuit models. Values are in metres.
+Float32 ground elevation raster retained for all 23 current circuit models.
+Twenty-one use it at runtime; Monza uses the separately attributed TINITALY 1.1
+regional grid and Suzuka uses processed GSI DEM5A/DEM10B tiles. Values are in metres.
 The app subtracts a local reference altitude and makes downward display-only
 cuts at roads and stand foundations; source grids remain unchanged. Shanghai's
 estimated road uses periodic Gaussian distance smoothing (sigma 45m), without

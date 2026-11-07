@@ -1,0 +1,403 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "source": {
+    "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/super-pit-grandstand/",
+    "checkedAt": "2026-11-07",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "Organizer describes SuperPit as upper rows of the same Pit bank; live catalogue is now2027, so no current prices/entitlements transferred to2026.2026 early promoter map separately labels SuperPit and Pit. Approximate SuperPit selection uses central longitudinal15–65% and rear depth65–100% of retained32-step bank; actual blocks and row divider not verified. No duplicate structure or invented additional floor."
+  },
+  "beforeZones": [
+    {
+      "zoneId": "pit",
+      "name": "Pit",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.86406631680697,
+          1.2930477929232893
+        ],
+        [
+          103.86417082081014,
+          1.2930642337842828
+        ],
+        [
+          103.86421376893257,
+          1.2927752099184802
+        ],
+        [
+          103.86440167769739,
+          1.292799090303368
+        ],
+        [
+          103.86469744468225,
+          1.2907486206880585
+        ],
+        [
+          103.86453280309834,
+          1.2907245071122877
+        ],
+        [
+          103.8645701500377,
+          1.2904566183764312
+        ],
+        [
+          103.86449077476315,
+          1.2904445954204216
+        ],
+        [
+          103.8644708687367,
+          1.2905824039898843
+        ],
+        [
+          103.86445572708459,
+          1.2905801621322277
+        ],
+        [
+          103.86443694558122,
+          1.2907097525346283
+        ],
+        [
+          103.86442662523022,
+          1.290708137078921
+        ],
+        [
+          103.86440952777193,
+          1.2908270393131855
+        ],
+        [
+          103.86438769873682,
+          1.2908238185671517
+        ],
+        [
+          103.86406631680697,
+          1.2930477929232893
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "pit-1",
+          "boundary": [
+            [
+              103.86406631680697,
+              1.2930477929232893
+            ],
+            [
+              103.86417082081014,
+              1.2930642337842828
+            ],
+            [
+              103.86421376893257,
+              1.2927752099184802
+            ],
+            [
+              103.86440167769739,
+              1.292799090303368
+            ],
+            [
+              103.86469744468225,
+              1.2907486206880585
+            ],
+            [
+              103.86453280309834,
+              1.2907245071122877
+            ],
+            [
+              103.8645701500377,
+              1.2904566183764312
+            ],
+            [
+              103.86449077476315,
+              1.2904445954204216
+            ],
+            [
+              103.8644708687367,
+              1.2905824039898843
+            ],
+            [
+              103.86445572708459,
+              1.2905801621322277
+            ],
+            [
+              103.86443694558122,
+              1.2907097525346283
+            ],
+            [
+              103.86442662523022,
+              1.290708137078921
+            ],
+            [
+              103.86440952777193,
+              1.2908270393131855
+            ],
+            [
+              103.86438769873682,
+              1.2908238185671517
+            ],
+            [
+              103.86406631680697,
+              1.2930477929232893
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 16,
+          "eyeHeight": 1.2,
+          "rows": 32,
+          "frontReference": [
+            103.86420408665208,
+            1.2912808130364908
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 16,
+        "depth": 37.82,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "人工读取2027图中已知看台位置；以T19/T1作局部两点配准，保持线路分支；横向示意比例1.216m/px，纵向1.216m/px。临时看台边界存在数十米误差，不用于具体座位保证。 位置图为相邻年份资料，2026名称另行核对；不据此声称当年精确边界或全部票区开放。"
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    }
+  ],
+  "zones": [
+    {
+      "zoneId": "pit",
+      "name": "Pit",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.86406631680697,
+          1.2930477929232893
+        ],
+        [
+          103.86417082081014,
+          1.2930642337842828
+        ],
+        [
+          103.86421376893257,
+          1.2927752099184802
+        ],
+        [
+          103.86440167769739,
+          1.292799090303368
+        ],
+        [
+          103.86469744468225,
+          1.2907486206880585
+        ],
+        [
+          103.86453280309834,
+          1.2907245071122877
+        ],
+        [
+          103.8645701500377,
+          1.2904566183764312
+        ],
+        [
+          103.86449077476315,
+          1.2904445954204216
+        ],
+        [
+          103.8644708687367,
+          1.2905824039898843
+        ],
+        [
+          103.86445572708459,
+          1.2905801621322277
+        ],
+        [
+          103.86443694558122,
+          1.2907097525346283
+        ],
+        [
+          103.86442662523022,
+          1.290708137078921
+        ],
+        [
+          103.86440952777193,
+          1.2908270393131855
+        ],
+        [
+          103.86438769873682,
+          1.2908238185671517
+        ],
+        [
+          103.86406631680697,
+          1.2930477929232893
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "pit-1",
+          "boundary": [
+            [
+              103.86406631680697,
+              1.2930477929232893
+            ],
+            [
+              103.86417082081014,
+              1.2930642337842828
+            ],
+            [
+              103.86421376893257,
+              1.2927752099184802
+            ],
+            [
+              103.86440167769739,
+              1.292799090303368
+            ],
+            [
+              103.86469744468225,
+              1.2907486206880585
+            ],
+            [
+              103.86453280309834,
+              1.2907245071122877
+            ],
+            [
+              103.8645701500377,
+              1.2904566183764312
+            ],
+            [
+              103.86449077476315,
+              1.2904445954204216
+            ],
+            [
+              103.8644708687367,
+              1.2905824039898843
+            ],
+            [
+              103.86445572708459,
+              1.2905801621322277
+            ],
+            [
+              103.86443694558122,
+              1.2907097525346283
+            ],
+            [
+              103.86442662523022,
+              1.290708137078921
+            ],
+            [
+              103.86440952777193,
+              1.2908270393131855
+            ],
+            [
+              103.86438769873682,
+              1.2908238185671517
+            ],
+            [
+              103.86406631680697,
+              1.2930477929232893
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 16,
+          "eyeHeight": 1.2,
+          "rows": 32,
+          "frontReference": [
+            103.86420408665208,
+            1.2912808130364908
+          ],
+          "tier": "lower"
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 16,
+        "depth": 37.82,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "人工读取2027图中已知看台位置；以T19/T1作局部两点配准，保持线路分支；横向示意比例1.216m/px，纵向1.216m/px。临时看台边界存在数十米误差，不用于具体座位保证。 位置图为相邻年份资料，2026名称另行核对；不据此声称当年精确边界或全部票区开放。"
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/super-pit-grandstand/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer describes SuperPit as upper rows of the same Pit bank; live catalogue is now2027, so no current prices/entitlements transferred to2026.2026 early promoter map separately labels SuperPit and Pit. Approximate SuperPit selection uses central longitudinal15–65% and rear depth65–100% of retained32-step bank; actual blocks and row divider not verified. No duplicate structure or invented additional floor."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      },
+      "admissionNote": "Super Pit 为同一看台上部指定座席，按票入座；分区范围、排数和高度为近似。"
+    }
+  ],
+  "regions": [
+    {
+      "zoneId": "pit",
+      "tier": "lower",
+      "label": "Pit 座席",
+      "selectionLabel": "Pit 座席",
+      "surfaceId": "pit-1",
+      "uRange": [
+        0,
+        1
+      ],
+      "vRange": [
+        0,
+        1
+      ]
+    },
+    {
+      "zoneId": "pit",
+      "tier": "platinum",
+      "label": "Super Pit 座席",
+      "selectionLabel": "Super Pit 座席",
+      "surfaceId": "pit-1",
+      "uRange": [
+        0.15,
+        0.65
+      ],
+      "vRange": [
+        0.65,
+        1
+      ]
+    }
+  ],
+  "annualSource": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+  "limits": "32 render steps retained as estimate, not claimed official numbered rows. SuperPit is a selected subset, normalPit ticket allocation outside that subset not precisely mapped. Wheelchair platforms still missing."
+}

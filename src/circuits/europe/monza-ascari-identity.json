@@ -1,0 +1,164 @@
+{
+  "circuitId": "monza",
+  "season": 2026,
+  "checkedAt": "2026-10-25",
+  "sources": [
+    {
+      "url": "https://www.monzanet.it/en/circuit/",
+      "checkedAt": "2026-10-25",
+      "httpStatus": 200,
+      "sha256": "e8633a30826913473b12cac2c58630030c5d95bc803506c70058a09bdcdc2ec4",
+      "scope": "historical venue-name/code list, not an annual opening inventory"
+    },
+    {
+      "url": "https://www.monzanet.it/en/amex-tickets-draft/",
+      "checkedAt": "2026-10-25",
+      "httpStatus": 200,
+      "sha256": "4b75826bc5f3fd57c64d55848fc4ba55e8d6c140ba9c60085b7fdcec863594e1",
+      "scope": "2026 product-code/name; presale subset only, not full inventory"
+    }
+  ],
+  "annualPriceTable": {
+    "url": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+    "sha256": "e329a9c80037914143c3ba3fdb79e61352aa0ebdb82d4dbc7f645a92a17294d2",
+    "availabilityEvidence": "retained organizer2026 list and map, checked against SHA; current direct HTTP fetch timed out, no claim of a new PDF response"
+  },
+  "changes": [
+    {
+      "zoneId": "ascari-tre",
+      "previousZone": {
+        "zoneId": "ascari-tre",
+        "name": "Ascari Tre",
+        "kind": "grandstand",
+        "availability": "available",
+        "boundary": [
+          [
+            9.285561,
+            45.6228321
+          ],
+          [
+            9.2856368,
+            45.6227726
+          ],
+          [
+            9.2859484,
+            45.622967
+          ],
+          [
+            9.2858726,
+            45.6230264
+          ],
+          [
+            9.285561,
+            45.6228321
+          ]
+        ],
+        "surface": {
+          "baseHeight": 2.2,
+          "rise": 4.26,
+          "depth": 8.87,
+          "eyeHeight": 1.2
+        },
+        "surfaces": [
+          {
+            "surfaceId": "ascari-tre-1",
+            "boundary": [
+              [
+                9.285561,
+                45.6228321
+              ],
+              [
+                9.2856368,
+                45.6227726
+              ],
+              [
+                9.2859484,
+                45.622967
+              ],
+              [
+                9.2858726,
+                45.6230264
+              ],
+              [
+                9.285561,
+                45.6228321
+              ]
+            ],
+            "baseHeight": 2.2,
+            "rise": 4.26,
+            "eyeHeight": 1.2,
+            "rows": 9,
+            "frontReference": [
+              9.285962657777048,
+              45.62273641761283
+            ]
+          }
+        ],
+        "source": {
+          "url": "https://www.openstreetmap.org/way/231026027",
+          "checkedAt": "2026-10-23",
+          "method": "extracted",
+          "confidence": "medium",
+          "notes": "OSM建筑平面轮廓；way/231026027。位置未经现场测绘；看台售票分区可能与建筑边界不同。"
+        },
+        "openingSource": {
+          "url": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "medium",
+          "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+        },
+        "surfaceSource": {
+          "url": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+        },
+        "geometryReview": {
+          "checkedAt": "2026-10-23",
+          "issues": [],
+          "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+        }
+      },
+      "name": "Ascari 3 · 12",
+      "ticketCodes": [
+        "12"
+      ],
+      "identitySource": {
+        "url": "https://www.monzanet.it/en/amex-tickets-draft/",
+        "checkedAt": "2026-10-25",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Organizer historical circuit page identifies Ascari Tre as grandstand12; 2026 presale page and official price tables name code12 Ascari3. This establishes product-code continuity, not a surveyed2026 footprint, row count or reconstructed building. Original OSM way231026027 boundary and all physical parameters are retained. Other Ascari aliases are not inferred by numeric order."
+      }
+    }
+  ],
+  "rejectedInferences": [
+    {
+      "legacyZone": "ascari-uno",
+      "historicalCode": "15",
+      "reason": "Historical organizer page maps Uno to15;15 is absent from2026 product table. Do not rename Uno to current14 merely by ordinal order, or infer closure from absence."
+    },
+    {
+      "legacyZone": "ascari-due",
+      "historicalCode": "13",
+      "reason": "Legacy Due/code13 and current Ascari4/code13 names coincide in code, but schematic placement diverges; current physical footprint continuity is not independently confirmed. Do not automatically rename this model."
+    }
+  ],
+  "registrationDiagnostic": {
+    "method": "Existing ten-corner piecewise-affine source registration, used for a diagnostic only, not to move geometry. Official schematic grandstand centres may be displaced.",
+    "code12SourcePdfCentre": [
+      477.49833554015026,
+      528.4111362484566
+    ],
+    "distancesToLegacyCentroidsMetres": {
+      "ascari-tre": 41.31,
+      "ascari-due": 156.45,
+      "ascari-uno": 215.62
+    },
+    "globalAffineRmsMetres": 9.27,
+    "limitation": "Internal control residual does not certify external stand accuracy. Do not infer identities solely from nearest schematic shape."
+  },
+  "limitations": "Single product identity corrected. Full annual inventory, code13/14/17A/17B/18 locations, historical15 status and current engineering geometry remain incomplete. No plan coordinates, height, eye or observer path are altered."
+}

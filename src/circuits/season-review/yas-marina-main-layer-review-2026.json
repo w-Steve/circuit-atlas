@@ -1,0 +1,585 @@
+{
+  "circuitId": "yas-marina",
+  "season": 2026,
+  "checkedAt": "2026-10-30",
+  "sourceUrl": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+  "sectionId": "M03",
+  "rowLabels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "renderedSeatCount": 544,
+  "snapshotSha256": "b09cbb3ee3b90bf195ddcea6241abffb93f969a39b17e383835c04a756ac5b19",
+  "actuallyViewed": true,
+  "scope": "Undated configured viewer for public ordinary M03 section. Does not prove every Main section/layer has8 rows or certify2026 sale availability.",
+  "beforeZone": {
+    "zoneId": "main",
+    "name": "Main",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        54.6075031,
+        24.4705154
+      ],
+      [
+        54.6075059,
+        24.470474
+      ],
+      [
+        54.6074899,
+        24.4704352
+      ],
+      [
+        54.6074579,
+        24.4704057
+      ],
+      [
+        54.6074154,
+        24.4703907
+      ],
+      [
+        54.6039934,
+        24.4699401
+      ],
+      [
+        54.6039648,
+        24.4699429
+      ],
+      [
+        54.6039378,
+        24.4699516
+      ],
+      [
+        54.6039138,
+        24.469966
+      ],
+      [
+        54.6038941,
+        24.469985
+      ],
+      [
+        54.6038799,
+        24.4700078
+      ],
+      [
+        54.6038721,
+        24.4700329
+      ],
+      [
+        54.6038254,
+        24.4700417
+      ],
+      [
+        54.6038433,
+        24.4701209
+      ],
+      [
+        54.6038909,
+        24.470112
+      ],
+      [
+        54.6039064,
+        24.4701244
+      ],
+      [
+        54.603924,
+        24.4701344
+      ],
+      [
+        54.6039431,
+        24.4701416
+      ],
+      [
+        54.6039633,
+        24.4701458
+      ],
+      [
+        54.6073316,
+        24.4706022
+      ],
+      [
+        54.6073716,
+        24.4706005
+      ],
+      [
+        54.607411,
+        24.4705935
+      ],
+      [
+        54.6074488,
+        24.4705813
+      ],
+      [
+        54.6074888,
+        24.4706082
+      ],
+      [
+        54.6075425,
+        24.4705405
+      ],
+      [
+        54.6075031,
+        24.4705154
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "main-1",
+        "boundary": [
+          [
+            54.6075031,
+            24.4705154
+          ],
+          [
+            54.6075059,
+            24.470474
+          ],
+          [
+            54.6074899,
+            24.4704352
+          ],
+          [
+            54.6074579,
+            24.4704057
+          ],
+          [
+            54.6074154,
+            24.4703907
+          ],
+          [
+            54.6039934,
+            24.4699401
+          ],
+          [
+            54.6039648,
+            24.4699429
+          ],
+          [
+            54.6039378,
+            24.4699516
+          ],
+          [
+            54.6039138,
+            24.469966
+          ],
+          [
+            54.6038941,
+            24.469985
+          ],
+          [
+            54.6038799,
+            24.4700078
+          ],
+          [
+            54.6038721,
+            24.4700329
+          ],
+          [
+            54.6038254,
+            24.4700417
+          ],
+          [
+            54.6038433,
+            24.4701209
+          ],
+          [
+            54.6038909,
+            24.470112
+          ],
+          [
+            54.6039064,
+            24.4701244
+          ],
+          [
+            54.603924,
+            24.4701344
+          ],
+          [
+            54.6039431,
+            24.4701416
+          ],
+          [
+            54.6039633,
+            24.4701458
+          ],
+          [
+            54.6073316,
+            24.4706022
+          ],
+          [
+            54.6073716,
+            24.4706005
+          ],
+          [
+            54.607411,
+            24.4705935
+          ],
+          [
+            54.6074488,
+            24.4705813
+          ],
+          [
+            54.6074888,
+            24.4706082
+          ],
+          [
+            54.6075425,
+            24.4705405
+          ],
+          [
+            54.6075031,
+            24.4705154
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 11.04,
+        "eyeHeight": 1.2,
+        "rows": 22,
+        "frontReference": [
+          54.605514058553425,
+          24.469976442661853
+        ]
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 11.04,
+      "depth": 24.53,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://www.openstreetmap.org/way/188731381",
+      "checkedAt": "2026-10-23",
+      "method": "extracted",
+      "confidence": "medium",
+      "notes": "具名/对照场馆图确认的OSM看台建筑轮廓；way/188731381。非精确售票边界。"
+    },
+    "openingSource": {
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+    },
+    "surfaceSource": {
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-23",
+      "issues": [],
+      "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+    }
+  },
+  "withdrawnZone": {
+    "zoneId": "main",
+    "name": "Main",
+    "kind": "grandstand",
+    "availability": "preparing",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        54.6075031,
+        24.4705154
+      ],
+      [
+        54.6075059,
+        24.470474
+      ],
+      [
+        54.6074899,
+        24.4704352
+      ],
+      [
+        54.6074579,
+        24.4704057
+      ],
+      [
+        54.6074154,
+        24.4703907
+      ],
+      [
+        54.6039934,
+        24.4699401
+      ],
+      [
+        54.6039648,
+        24.4699429
+      ],
+      [
+        54.6039378,
+        24.4699516
+      ],
+      [
+        54.6039138,
+        24.469966
+      ],
+      [
+        54.6038941,
+        24.469985
+      ],
+      [
+        54.6038799,
+        24.4700078
+      ],
+      [
+        54.6038721,
+        24.4700329
+      ],
+      [
+        54.6038254,
+        24.4700417
+      ],
+      [
+        54.6038433,
+        24.4701209
+      ],
+      [
+        54.6038909,
+        24.470112
+      ],
+      [
+        54.6039064,
+        24.4701244
+      ],
+      [
+        54.603924,
+        24.4701344
+      ],
+      [
+        54.6039431,
+        24.4701416
+      ],
+      [
+        54.6039633,
+        24.4701458
+      ],
+      [
+        54.6073316,
+        24.4706022
+      ],
+      [
+        54.6073716,
+        24.4706005
+      ],
+      [
+        54.607411,
+        24.4705935
+      ],
+      [
+        54.6074488,
+        24.4705813
+      ],
+      [
+        54.6074888,
+        24.4706082
+      ],
+      [
+        54.6075425,
+        24.4705405
+      ],
+      [
+        54.6075031,
+        24.4705154
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "main-1",
+        "boundary": [
+          [
+            54.6075031,
+            24.4705154
+          ],
+          [
+            54.6075059,
+            24.470474
+          ],
+          [
+            54.6074899,
+            24.4704352
+          ],
+          [
+            54.6074579,
+            24.4704057
+          ],
+          [
+            54.6074154,
+            24.4703907
+          ],
+          [
+            54.6039934,
+            24.4699401
+          ],
+          [
+            54.6039648,
+            24.4699429
+          ],
+          [
+            54.6039378,
+            24.4699516
+          ],
+          [
+            54.6039138,
+            24.469966
+          ],
+          [
+            54.6038941,
+            24.469985
+          ],
+          [
+            54.6038799,
+            24.4700078
+          ],
+          [
+            54.6038721,
+            24.4700329
+          ],
+          [
+            54.6038254,
+            24.4700417
+          ],
+          [
+            54.6038433,
+            24.4701209
+          ],
+          [
+            54.6038909,
+            24.470112
+          ],
+          [
+            54.6039064,
+            24.4701244
+          ],
+          [
+            54.603924,
+            24.4701344
+          ],
+          [
+            54.6039431,
+            24.4701416
+          ],
+          [
+            54.6039633,
+            24.4701458
+          ],
+          [
+            54.6073316,
+            24.4706022
+          ],
+          [
+            54.6073716,
+            24.4706005
+          ],
+          [
+            54.607411,
+            24.4705935
+          ],
+          [
+            54.6074488,
+            24.4705813
+          ],
+          [
+            54.6074888,
+            24.4706082
+          ],
+          [
+            54.6075425,
+            24.4705405
+          ],
+          [
+            54.6075031,
+            24.4705154
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 11.04,
+        "eyeHeight": 1.2,
+        "rows": 22,
+        "frontReference": [
+          54.605514058553425,
+          24.469976442661853
+        ]
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 11.04,
+      "depth": 24.53,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://www.openstreetmap.org/way/188731381",
+      "checkedAt": "2026-10-23",
+      "method": "extracted",
+      "confidence": "medium",
+      "notes": "具名/对照场馆图确认的OSM看台建筑轮廓；way/188731381。非精确售票边界。"
+    },
+    "openingSource": {
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+    },
+    "surfaceSource": {
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-30",
+      "issues": [
+        "whole-building-single-bank-conflicts-with-main-seat-layers"
+      ],
+      "method": "Public configured viewer M03 has8 labeled rowsA–H and separate rear building layers. Current whole-building22row bank does not identify actual ordinary seat floor. Preserve geometry until independently reconstructed; do not merely set rows8 with unchanged11.04m rise."
+    }
+  },
+  "runtimeApplied": true,
+  "decision": "Withdraw incorrect single-bank whole-building viewpoint, preserve source package geometry and other4 available Yas zones. Do not assign roof/service floors as seats or change22→8 while retaining11.04m rise.",
+  "remaining": "Ten ordinary section row facts now checked: M00–M08 have8rows, M09 has6; end widths differ. Recover actual ordinary seat front/back physical lines and floor, independently associate admitted upper/accessible areas, then restore with regression. Do not merely replace22 by8 or use equal-width sections.",
+  "ordinarySeatLayoutReview": "src/circuits/season-review/yas-marina-main-seat-layout-2026.json",
+  "constructionSourceReview": {
+    "checkedAt": "2026-10-30",
+    "officialVenueHire": {
+      "url": "https://static.myconnect.ae/-/media/yasconnect/project/ymc/venuehire/yas-marina-circuit-overview.pdf",
+      "sha256": "2a12e0d053758900915999011bdfcc99c762618926071247b77a530095e033a8",
+      "pages": 6,
+      "renderedPage": 2,
+      "findings": "Overview map and facility hire description; circuit diagram is5.55km/21corners old layout, not current2026 layout. No ordinary-seat floor section or floor-height evidence found in inspected text.",
+      "excludedUse": "Do not take old layout, capacity/hire prices or stylized overview as2026 seating survey."
+    },
+    "designerProject": {
+      "url": "https://ae-consultancy.com/portfolio/paddock-club-turn-01-entrance-staircase-rear-walkway/",
+      "sha256": "49e37874720d4addb0f22db8abfa6333cc8c10350d41c18ecc66592c34423fec",
+      "projectScope": "1449sqm entrance/rear walkway replacement connecting Main suites andTurn1 hospitality.",
+      "actualStatus": "Design completed; supervision ongoing, per live page. No dated completion/as-built confirmation.",
+      "viewedImages": [
+        {
+          "url": "https://ae-consultancy.com/wp-content/uploads/2026/09/01-39.png",
+          "sha256": "7d3bf694e567a49bc197848e7036956054105fd0f22ec6f3608c71389ce8a98c"
+        },
+        {
+          "url": "https://ae-consultancy.com/wp-content/uploads/2026/09/02-36.png",
+          "sha256": "46e338140543f6941b08e586ff6a19682efa6baf091aeee680891d5834ff8e3c"
+        }
+      ],
+      "imageInterpretation": "Two actual viewed assets are architectural renders of Tunnel4 entrance and rear access stairs. Not measured ordinary-seat sections or verified as-built2026 structures.",
+      "excludedUse": "Do not infer floor height from rendered people/stair risers, or mark design proposal as existing public spectator platform."
+    },
+    "nextAction": "Stop repeating venue-hire overview and these unmeasured design renders. Need applicable as-built section, measured control or independently registered real seat-floor edges; continue independent remaining venue defects while this source gap persists."
+  }
+}

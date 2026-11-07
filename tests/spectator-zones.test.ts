@@ -3,9 +3,10 @@ import { DoubleSide,Mesh,MeshBasicMaterial,Raycaster,Vector3 } from "three";
 import { spectatorZones,zoneSurfaces,zonePoint,surfacePoint,surfaceGeometry,selectionAt,zonePassCenter } from "../src/circuits/shanghai/spectators";
 import { observer,validSelection,lookTarget } from "../src/systems/GrandstandGeometry";
 import { VehicleSimulation } from "../src/systems/VehicleSimulation";
-import { useApp } from "../src/store";
+import {createAppStore} from "../src/store";
+const useApp=createAppStore();
 import { prepareLocalPass } from "../src/systems/PassController";
-import { simulation,passStart,passEnd } from "../src/systems/VehicleSimulation";
+import { passStart,passEnd } from "../src/systems/VehicleSimulation";
 import packageData from "../src/circuits/shanghai";
 describe('2026 Shanghai shared spectator surfaces',()=>{
   it('contains exactly the official public areas and excludes historical L / VIP clubs',()=>{
@@ -60,12 +61,14 @@ describe('2026 Shanghai shared spectator surfaces',()=>{
   });
   it('centers a deliberate new pass on the selected observer, preserving paused/running car positions',()=>{
     const selection={zoneId:'b',tier:'lower' as const,u:.81,v:.62};
-    simulation.replay();prepareLocalPass(selection);
+    simulation.replay();prepareLocalPass(selection,simulation);
     const center=simulation.rangeStart+350;
     expect(Math.abs(center-zonePassCenter('b'))).toBeGreaterThan(5);
     simulation.play();simulation.advance(1);const before=simulation.distance;
-    prepareLocalPass({...selection,u:.2});expect(simulation.distance).toBe(before);
-    simulation.pause();prepareLocalPass({...selection,u:.1});expect(simulation.distance).toBe(before);
+    prepareLocalPass({...selection,u:.2},simulation);expect(simulation.distance).toBe(before);
+    simulation.pause();prepareLocalPass({...selection,u:.1},simulation);expect(simulation.distance).toBe(before);
     simulation.setPassRange(passStart,passEnd);
   });
 });
+
+const simulation=new VehicleSimulation();

@@ -2,7 +2,8 @@ import {afterEach,it,expect} from 'vitest';
 import {useLanguage,t,tr,translate} from '../src/i18n';
 import {localizeVenue,circuitName,zoneName,raceName} from '../src/i18n/data';
 import {atlasVenues,loadCalendars,venueById} from '../src/atlas';
-import {useApp} from '../src/store';
+import {createAppStore} from '../src/store';
+const useApp=createAppStore();
 import en from '../src/i18n/en.json';
 afterEach(()=>useLanguage.getState().setLanguage('zh'));
 it('switches interface strings and interpolated values without resetting the simulator',()=>{

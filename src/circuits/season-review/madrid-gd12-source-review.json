@@ -1,0 +1,65 @@
+{
+  "circuitId": "madrid",
+  "season": 2026,
+  "checkedAt": "2026-10-27",
+  "venueLabel": "GD12",
+  "overviewSource": {
+    "url": "https://www.madring.com/img/xl/mapa-madring/mapa_web_11_8_26_ing.webp",
+    "sha256": "99ac1e3d5f822f0b650da0f727956c7f8c7d64c9616327f4cfc0cedebacaf241"
+  },
+  "candidateSection": {
+    "label": "Section 8 Silver Plus",
+    "source": "https://web.archive.org/web/20260607132312id_/https://www.madring.com/en/tickets",
+    "replaySha256": "693a0e3da4f5edd326ad55c0da40d2f16d61151ce23d207e2cb17c2799911316",
+    "cdxDigestMatchesReplay": false,
+    "facts": "Replay describes covered seating facing T13 braking and Enlazadas, with Monumental/Distrito Fan Zone access.",
+    "gd12AssociationVerified": false,
+    "limitation": "A similar viewing description is not an official section-to-GD12 crosswalk. Replay bytes differ from the CDX digest; do not authenticate the original capture."
+  },
+  "detailAsset": {
+    "url": "https://www.madring.com/img/mapa-curvas-enlazadas/mapa-_5.svg",
+    "responseUrl": "https://www.madring.com/error404",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 33827,
+    "sha256": "965bd26c79a5c70375d724e3e06cc442321bbd19816479e0348bfa0d75e6e5d0",
+    "validGeometry": false,
+    "reason": "Publisher redirects the SVG request to an HTML error page despite HTTP 200. No SVG geometry was accepted."
+  },
+  "archiveLookup": {
+    "cdxRows": 0,
+    "availabilityEndpointStatus": 429,
+    "limitation": "Exact 2026 CDX lookup returned no rows; availability request was rate limited. Neither result proves no historical capture exists."
+  },
+  "existingModel": {
+    "zoneId": "t11",
+    "name": "GE1–GE3 看台",
+    "availability": "available",
+    "boundarySha256": "dade8c190ca186db53c0edcb29db8d12eae4bef3b1ff2ab8f2bd58737f712bd0",
+    "gd12AssociationVerified": false,
+    "verifiedOtherVenue": "GE1–GE3"
+  },
+  "legacyControlCaution": {
+    "corner": 12,
+    "sourcePixel": [
+      1103,
+      222
+    ],
+    "rgb": [
+      186,
+      216,
+      236
+    ],
+    "observedDarkRoadPixel": false,
+    "limitation": "This old control is not a visible black-road centre pixel in the final overview. Recheck control semantics/layout before using the old global diagram transform for a GD12 footprint."
+  },
+  "geometryAvailable": false,
+  "associatedModelId": null,
+  "runtimeChanged": true,
+  "nextAction": "Detailed SVG remains invalid; a source-overview-associated approximateGD12 viewpoint is now available. Refine ticket allocation, real outline and structures without relabeling GE1-GE3 or restoring the withdrawn t9t10 polygon.",
+  "approximateModelAvailable": true,
+  "approximateModelId": "gd12",
+  "approximateModelReview": "src/circuits/europe/madrid-gd12-approx-2026.json",
+  "approximateExperienceAccepted": true,
+  "ordinaryAccessVerified": false
+}

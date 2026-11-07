@@ -17,6 +17,17 @@ for(const device of [{name:'computer',width:1440,height:960,touch:false},{name:'
    await page.getByRole('button',{name:'Open camera ◎',exact:true}).click();await expect(canvas).toHaveAttribute('data-camera-ready','true');
    await expect(page.getByRole('combobox',{name:'Shutter speed',exact:true})).toBeVisible();
    await page.getByRole('combobox',{name:'Shutter speed',exact:true}).selectOption('250');await page.getByRole('button',{name:'Ideal panning',exact:true}).click();await expect(page.getByRole('button',{name:'Ideal panning',exact:true})).toHaveAttribute('aria-pressed','true');
+   await expect(page.getByRole('button',{name:'Ideal panning',exact:true})).toHaveCSS('background-color','rgb(238, 233, 223)');
+   await expect(page.getByRole('button',{name:'Ideal panning',exact:true})).toHaveCSS('color','rgb(24, 32, 27)');
+   for(const viewport of device.name==='computer'?[{width:1440,height:960},{width:2549,height:1352},{width:1200,height:760}]:[{width:device.width,height:device.height}]){
+   await page.setViewportSize(viewport);
+   const parameterLayout=await page.locator('.camera-bar').evaluate(bar=>{
+    const r=bar.getBoundingClientRect();return [...bar.querySelectorAll('button')].every(button=>{
+     const b=button.getBoundingClientRect();return b.left>=r.left&&b.right<=r.right&&b.top>=r.top&&b.bottom<=r.bottom;
+    });
+   });expect(parameterLayout).toBe(true);
+   }
+   await page.setViewportSize({width:device.width,height:device.height});
    if(device.name==='phone')for(const viewport of [{width:320,height:720},{width:900,height:430}]){
     await page.setViewportSize(viewport);await expect(page.getByRole('button',{name:'Ideal panning',exact:true})).toBeInViewport({ratio:1});await expect(page.getByRole('button',{name:'Take photo',exact:true})).toBeInViewport({ratio:1});
     await page.screenshot({path:info.outputPath(`english-camera-${viewport.width}.png`)});

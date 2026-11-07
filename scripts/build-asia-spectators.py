@@ -13,7 +13,7 @@ sources={
  'melbourne':'https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf',
  'suzuka':'https://www.suzukacircuit.jp/eng/f1/ticket/',
  'baku':'https://www.bakucitycircuit.com/buy-now',
- 'sepang':'https://www.bahraingp.com/blog/events/venue-map/',
+ 'sepang':'https://www.bahraingp.com/blog/events/event-overview-2026/',
  'singapore':'https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/',
  'lusail':'https://www.lcsc.qa/faq/formula-1r-qatar-airways-qatar-grand-prix-2026',
  'yas-marina':'https://www.abudhabigp.com/en/formula1/tickets-2026'}
@@ -57,6 +57,11 @@ for cid,url in sources.items():
    surface=dict(baseHeight=2.2,rise=surfaces[0]['rise'],depth=round(depths[0],2),eyeHeight=1.2),source=provenance,
    openingSource=source(url,'estimated','medium','2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。'),
    surfaceSource=source(url,'estimated','low','看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。')))
+  if cid=='sepang':
+   inventory=read('src/circuits/season-review/sepang-public-inventory.json')
+   zones[-1]['openingSource']=inventory['openingSource'].copy()
+   zones[-1]['surfaceSource']['url']=inventory['openingSource']['url']
+   zones[-1]['surfaceSource']['notes']='现有看台高度、阶梯坡度与座席切分仍为估计；年度票务页不提供实测断面。'
  for name,ids in osm.get(cid,{}).items():
   boundaries=[[[p['lon'],p['lat']] for p in ways[wid]['geometry']] for wid in ids]
   add(name,boundaries,source(f'https://www.openstreetmap.org/way/{ids[0]}','extracted','medium','具名/对照场馆图确认的OSM看台建筑轮廓；way/'+','.join(map(str,ids))+'。非精确售票边界。'))
@@ -98,6 +103,15 @@ for cid,url in sources.items():
    notes=f'人工读取{config["year"]}图中已知看台位置；以T{ca}/T{cb}作局部两点配准，保持线路分支；横向示意比例{lateral:.3f}m/px，纵向{scale:.3f}m/px。临时看台边界存在数十米误差，不用于具体座位保证。'
    if config['year']!=2026:notes+=' 位置图为相邻年份资料，2026名称另行核对；不据此声称当年精确边界或全部票区开放。'
    add(name,[boundary],source(config['url'],'estimated','low',notes))
+ if cid=='lusail':
+  # Preserve independently reviewed physical seating; the older unnamed-way
+  # association and schematic footprints must not silently restore themselves.
+  import importlib.util
+  spec=importlib.util.spec_from_file_location('lusail_seating',root/'scripts/apply-lusail-seating.py')
+  seating=importlib.util.module_from_spec(spec);spec.loader.exec_module(seating)
+  accepted=seating.reviewed_zones(data,read('src/circuits/asia/lusail-t2-t3-2026.json'))
+  accepted_ids={z['zoneId'] for z in accepted}
+  zones=[z for z in zones if z['zoneId'] not in accepted_ids]+accepted
  data['spectatorZones']=zones;data['spectatorZoneIds']=[];data['simulationAvailability']='preparing'
  (root/f'src/circuits/generated/{cid}.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf8')
  review[cid]=dict(openingReference=url,osm=osm.get(cid,{}),diagram=diagrams.get(cid),candidateZones=len(zones))
@@ -106,3 +120,66 @@ subprocess.run([sys.executable,'scripts/apply-suzuka-supplement.py'],cwd=root,ch
 subprocess.run([sys.executable,'scripts/apply-spectator-datums.py'],cwd=root,check=True)
 subprocess.run(['node','node_modules/vite-node/vite-node.mjs','scripts/export-spectator-audit.ts','asia'],cwd=root,check=True)
 subprocess.run([sys.executable,'scripts/audit-europe-spectators.py','asia'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-yas-main.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/apply-singapore-connaught-hold.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/apply-singapore-turn1.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/apply-singapore-republic.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/apply-singapore-raffles.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/apply-singapore-pit-exit.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/apply-singapore-marina-bay.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/apply-singapore-chicane-turn-2.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/apply-singapore-walkabout-padang.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/apply-singapore-walkabout-platforms.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/apply-singapore-walkabout-premier.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/apply-yas-hill.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/apply-yas-marina-stand.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/apply-yas-west-straight.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-yas-north-straight.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-yas-west-grandstand.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-baku-khazar.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-lusail-supplement.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-singapore-extra-platforms.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-singapore-zone4-extra.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-baku-public.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-sepang-hillstands.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-singapore-remaining-platforms.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-singapore-platform-closure.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-baku-c-tiers.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-singapore-padang-ab.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-singapore-super-pit.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-singapore-accessible.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-yas-west-pavilion.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-singapore-chicane-turn-1.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-suzuka-annual-supplement.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)

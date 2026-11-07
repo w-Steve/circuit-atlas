@@ -1,0 +1,457 @@
+{
+  "circuitId": "monza",
+  "barriers": [
+    {
+      "id": "osm-way-243090140",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          9.2801304,
+          45.6157782
+        ],
+        [
+          9.280454,
+          45.6157599
+        ],
+        [
+          9.2804742,
+          45.6157588
+        ]
+      ],
+      "heightMetres": 3,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/243090140",
+        "checkedAt": "2026-10-25",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM way 243090140 v2, edited 2025-06-24T08:09:51Z; explicit chain_link height=3m, ground layer. Position and height are community records, not a certified 2026 facility survey. Ground follows current regional DTM. Wire cell size and post spacing/radius are schematic, not measured."
+      }
+    },
+    {
+      "id": "osm-way-243090142",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          9.2781602,
+          45.6103067
+        ],
+        [
+          9.278242,
+          45.6102967
+        ],
+        [
+          9.2783238,
+          45.610285
+        ],
+        [
+          9.2784918,
+          45.6102618
+        ],
+        [
+          9.278581,
+          45.610713
+        ],
+        [
+          9.2787852,
+          45.6117774
+        ],
+        [
+          9.2788756,
+          45.6122232
+        ],
+        [
+          9.2789703,
+          45.6129522
+        ],
+        [
+          9.2796794,
+          45.612872
+        ],
+        [
+          9.2798424,
+          45.6137147
+        ],
+        [
+          9.2802474,
+          45.6137325
+        ],
+        [
+          9.2802769,
+          45.6138282
+        ],
+        [
+          9.2798799,
+          45.613846
+        ],
+        [
+          9.2800286,
+          45.614369
+        ],
+        [
+          9.2799661,
+          45.6143744
+        ],
+        [
+          9.2800443,
+          45.6148868
+        ],
+        [
+          9.2799489,
+          45.6148886
+        ],
+        [
+          9.2790529,
+          45.6149055
+        ],
+        [
+          9.2792834,
+          45.6162683
+        ]
+      ],
+      "heightMetres": 3,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/243090142",
+        "checkedAt": "2026-10-25",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM way 243090142 v6, edited 2025-06-24T08:09:51Z; explicit chain_link height=3m, ground layer. Position and height are community records, not a certified 2026 facility survey. Ground follows current regional DTM. Wire cell size and post spacing/radius are schematic, not measured."
+      }
+    },
+    {
+      "id": "osm-way-243090147",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          9.2805241,
+          45.6160662
+        ],
+        [
+          9.2804742,
+          45.6157588
+        ],
+        [
+          9.2802451,
+          45.6143469
+        ],
+        [
+          9.2800286,
+          45.614369
+        ]
+      ],
+      "heightMetres": 3,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/243090147",
+        "checkedAt": "2026-10-25",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM way 243090147 v1, edited 2013-10-22T19:22:01Z; explicit chain_link height=3m, ground layer. Position and height are community records, not a certified 2026 facility survey. Ground follows current regional DTM. Wire cell size and post spacing/radius are schematic, not measured."
+      }
+    },
+    {
+      "id": "osm-way-243090149",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          9.2805995,
+          45.6193165
+        ],
+        [
+          9.2807361,
+          45.6201464
+        ],
+        [
+          9.2810567,
+          45.6201191
+        ],
+        [
+          9.2811245,
+          45.6200936
+        ]
+      ],
+      "heightMetres": 3,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/243090149",
+        "checkedAt": "2026-10-25",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM way 243090149 v2, edited 2013-10-22T19:24:01Z; explicit chain_link height=3m, ground layer. Position and height are community records, not a certified 2026 facility survey. Ground follows current regional DTM. Wire cell size and post spacing/radius are schematic, not measured."
+      }
+    },
+    {
+      "id": "osm-way-243215081",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          9.2816522,
+          45.6194479
+        ],
+        [
+          9.2816305,
+          45.6192896
+        ],
+        [
+          9.2816232,
+          45.6192369
+        ]
+      ],
+      "heightMetres": 3,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/243215081",
+        "checkedAt": "2026-10-25",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM way 243215081 v1, edited 2013-10-23T19:44:33Z; explicit chain_link height=3m, ground layer. Position and height are community records, not a certified 2026 facility survey. Ground follows current regional DTM. Wire cell size and post spacing/radius are schematic, not measured."
+      }
+    },
+    {
+      "id": "osm-way-1409146330",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          9.280454,
+          45.6157599
+        ],
+        [
+          9.2805015,
+          45.6160414
+        ],
+        [
+          9.2804821,
+          45.6161037
+        ],
+        [
+          9.2803193,
+          45.6161992
+        ],
+        [
+          9.2803305,
+          45.6162422
+        ],
+        [
+          9.2803449,
+          45.6162974
+        ],
+        [
+          9.2804555,
+          45.6162784
+        ],
+        [
+          9.2805964,
+          45.6163273
+        ],
+        [
+          9.280642,
+          45.6163432
+        ],
+        [
+          9.2806589,
+          45.6164492
+        ],
+        [
+          9.2805991,
+          45.6165291
+        ],
+        [
+          9.2802464,
+          45.6165324
+        ],
+        [
+          9.2804855,
+          45.6186416
+        ],
+        [
+          9.2804956,
+          45.6187153
+        ]
+      ],
+      "heightMetres": 3,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/1409146330",
+        "checkedAt": "2026-10-25",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM way 1409146330 v1, edited 2025-06-24T08:09:51Z; explicit chain_link height=3m, ground layer. Position and height are community records, not a certified 2026 facility survey. Ground follows current regional DTM. Wire cell size and post spacing/radius are schematic, not measured."
+      }
+    },
+    {
+      "id": "osm-way-1409146336",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          9.2805964,
+          45.6163273
+        ],
+        [
+          9.2806357,
+          45.6162567
+        ],
+        [
+          9.2806188,
+          45.6161495
+        ],
+        [
+          9.2805183,
+          45.6160806
+        ],
+        [
+          9.2804821,
+          45.6161037
+        ]
+      ],
+      "heightMetres": 3,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/1409146336",
+        "checkedAt": "2026-10-25",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM way 1409146336 v1, edited 2025-06-24T08:09:51Z; explicit chain_link height=3m, ground layer. Position and height are community records, not a certified 2026 facility survey. Ground follows current regional DTM. Wire cell size and post spacing/radius are schematic, not measured."
+      }
+    }
+  ],
+  "records": [
+    {
+      "wayId": 243090140,
+      "version": 2,
+      "timestamp": "2025-06-24T08:09:51Z",
+      "nodeIds": [
+        2505270994,
+        12948955766,
+        2505270992
+      ],
+      "fullResponseSha256": "709169525fe8368e369bd9ab937f9f5d277fe99d13050bdd92a78e613b04026a",
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "height": "3"
+      }
+    },
+    {
+      "wayId": 243090142,
+      "version": 6,
+      "timestamp": "2025-06-24T08:09:51Z",
+      "nodeIds": [
+        2505270914,
+        2505270910,
+        2505270905,
+        2505270903,
+        2505270920,
+        2505270930,
+        2505270932,
+        2505270961,
+        2505270955,
+        12561020739,
+        12561020737,
+        12561020736,
+        12561020738,
+        2505270969,
+        2505270971,
+        2505270981,
+        2505270982,
+        2505270987,
+        2505271010
+      ],
+      "fullResponseSha256": "4637689a09c6d0c4976f334221f0696d12fec8938b27a22c284aa1528df0a3f7",
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "height": "3"
+      }
+    },
+    {
+      "wayId": 243090147,
+      "version": 1,
+      "timestamp": "2013-10-22T19:22:01Z",
+      "nodeIds": [
+        2505271000,
+        2505270992,
+        2505270967,
+        2505270969
+      ],
+      "fullResponseSha256": "3adc3219ec63ca6be70ded755339ced21c7eee92ab55a2b13a8352da21229553",
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "height": "3"
+      }
+    },
+    {
+      "wayId": 243090149,
+      "version": 2,
+      "timestamp": "2013-10-22T19:24:01Z",
+      "nodeIds": [
+        2041703939,
+        2505271109,
+        2505271103,
+        2505271099
+      ],
+      "fullResponseSha256": "a0af9fc6599dba4c9a4a072f18bf2efd9c0fe238c2c103b9e76bd9ff859e38f2",
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "height": "3"
+      }
+    },
+    {
+      "wayId": 243215081,
+      "version": 1,
+      "timestamp": "2013-10-23T19:44:33Z",
+      "nodeIds": [
+        2052511214,
+        2506342231,
+        2506342230
+      ],
+      "fullResponseSha256": "7ffbacb75644e6fdca2cda1cb6558154e705876c14ae8660723f887015677ed9",
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "height": "3"
+      }
+    },
+    {
+      "wayId": 1409146330,
+      "version": 1,
+      "timestamp": "2025-06-24T08:09:51Z",
+      "nodeIds": [
+        12948955766,
+        12948955765,
+        12948955764,
+        12948955763,
+        12948955775,
+        12948955762,
+        12948955761,
+        12948955777,
+        2505271016,
+        12948955776,
+        2505271038,
+        2505271040,
+        4881633484,
+        2041703920
+      ],
+      "fullResponseSha256": "c4eeec0c81d0664dd61171a686881b9fe03b86590327312812cfb02f47e74b0b",
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "height": "3"
+      }
+    },
+    {
+      "wayId": 1409146336,
+      "version": 1,
+      "timestamp": "2025-06-24T08:09:51Z",
+      "nodeIds": [
+        12948955777,
+        12948955778,
+        12948955779,
+        12948955780,
+        12948955764
+      ],
+      "fullResponseSha256": "9df462303c1b8b02c2f3f9e2bf32ae9923150ea571e67437cebef17a100aa3bb",
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "height": "3"
+      }
+    }
+  ],
+  "limitations": "Seven explicit ground-level chain-link records only. Excludes layer=-1 long fence, layer=1 wall, parking chains and unknown heights. No claim of complete 2026 barriers, vegetation or surveyed base levels. Source polyline coordinates retained without clipping, offsets or visibility-based adjustment."
+}

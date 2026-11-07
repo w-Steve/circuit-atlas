@@ -1,0 +1,156 @@
+{
+  "circuitId": "yas-marina",
+  "season": 2026,
+  "checkedAt": "2026-10-30",
+  "productId": "marina",
+  "sourceUrl": "https://www.abudhabigp.com/en/formula1/tickets-2026/marina-grandstand-4day",
+  "sourceSha256": "dd2466b556e9f80ece4d8a28dbeda47ac351180b3fc6fe9dbbd51ae79955a011",
+  "officialMedia": [
+    {
+      "name": "marina-product-map",
+      "url": "https://www.abudhabigp.com/documents/75946/3089657/F1-Digital-Maps-MarinaGS.png/3e0de9d6-88fd-5388-cec6-53496a009336?version=2.0&t=1740589421937",
+      "sha256": "87909a90b1c6d3f57ff0c72624c088aed620158916f1d73428a47a7bc70e6884"
+    },
+    {
+      "name": "marina-hero",
+      "url": "https://www.abudhabigp.com/documents/75946/2643911/MARINA_GRANDSTAND_1920x694px_V2.jpg/c215573c-a1a9-5605-a971-65f29fc22f98?version=4.0&t=1774504093730",
+      "sha256": "18c27464f1d6667f657c05567bbd1d0fa1132172af4dc64fce20fade72ed4a18"
+    }
+  ],
+  "mediaViewed": true,
+  "annualAssociation": "2026 product and its colored map identify Marina separately on outsideT8–T9 straight. Hero shows real sloped seating and trackside fence; no full rear/front seat perimeter or measured row profile recovered.",
+  "nativeBuilding": {
+    "wayId": "133907079",
+    "boundary": [
+      [
+        54.6052922,
+        24.4644346
+      ],
+      [
+        54.6053263,
+        24.4644094
+      ],
+      [
+        54.6053622,
+        24.4644498
+      ],
+      [
+        54.6053891,
+        24.46443
+      ],
+      [
+        54.6053845,
+        24.4644248
+      ],
+      [
+        54.6053463,
+        24.4643819
+      ],
+      [
+        54.6053804,
+        24.4643567
+      ],
+      [
+        54.6053926,
+        24.4643478
+      ],
+      [
+        54.6053816,
+        24.4643354
+      ],
+      [
+        54.605377,
+        24.4643303
+      ],
+      [
+        54.6053658,
+        24.4643385
+      ],
+      [
+        54.6053307,
+        24.4643645
+      ],
+      [
+        54.6052793,
+        24.4643067
+      ],
+      [
+        54.6052454,
+        24.4643318
+      ],
+      [
+        54.6052845,
+        24.4643758
+      ],
+      [
+        54.605259,
+        24.4643946
+      ],
+      [
+        54.6051937,
+        24.4643214
+      ],
+      [
+        54.6032164,
+        24.4657801
+      ],
+      [
+        54.6033636,
+        24.4659454
+      ],
+      [
+        54.6034011,
+        24.4659875
+      ],
+      [
+        54.605377,
+        24.4645298
+      ],
+      [
+        54.6052922,
+        24.4644346
+      ]
+    ],
+    "tags": {
+      "building": "yes",
+      "image": "https://photos.app.goo.gl/6SXwoGbfTAFori727",
+      "name": "Marina Grandstand",
+      "name:en": "Marina Grandstand",
+      "url": "https://youtu.be/SSuIX6dwGQo"
+    },
+    "sourceUrl": "https://api.openstreetmap.org/api/0.6/map?bbox=54.603,24.4633,54.608,24.467",
+    "snapshotSha256": "3f1c9d4de2892f5e30c5d0908e1aaee341745dd9f76038d5d042db23370ede93",
+    "interpretation": "Whole22point building/roof plan, including small rear/service protrusions, is NOT the usable seating surface."
+  },
+  "independentImagery": {
+    "provider": "Vantor / Esri World Imagery",
+    "captureDate": "2025-10-18",
+    "resolutionMetres": 0.46,
+    "reportedAccuracyMetres": 8.47,
+    "mosaicSha256": "3a5f714d39e22786c95472b9c851c94946cef1083d53030ba90bc492a1aa7c94",
+    "finding": "Permanent canopy footprint corresponds to named133907079 and official diagram; source mostly shows roof, not seating below it.",
+    "overlayViewed": true
+  },
+  "verticalConstraint": {
+    "ticketmasterUrl": "https://www.ticketmaster.ae/event/1025564839?CL_ORIGIN=203507",
+    "eventDate": "2026-12-06",
+    "observedVia": "Web page reader; direct per-request proxy HTTP403, not retried or bypassed.",
+    "finding": "Important Info places Marina above the support race garages. Seat floor is elevated above a garage layer; roof/building dimensions do not establish floor elevation.",
+    "doNotUse": "Do not treat named roof outline as ground-level seats, infer all rear/service protrusions as seating, or change elevation merely to clear road."
+  },
+  "planarScreen": {
+    "buildingPlanAreaM2": 7696.89,
+    "buildingRoadOverlapM2": 0,
+    "scope": "Source whole building vs current rendered road only. Zero overlap does not accept seating boundary or vertical profile."
+  },
+  "existingFacilityCoverage": {
+    "buildingIds": [
+      "133907082"
+    ],
+    "note": "Current package has only one generic pit/garage building; support-garage layer below Marina not independently represented."
+  },
+  "runtimeApplied": false,
+  "geographicSeatingBoundaryVerified": false,
+  "nextAction": "Public configured viewer now independently establishes seven MR01–MR07 sections, each16 rowsA–R skippingI/O, above garages. Section/row identity is resolved; physical front/back geographic boundary and metre floor/rise/canopy separation still required. Schematic pixel seat positions are not georeferenced BIM.",
+  "seatLayoutReview": "src/circuits/season-review/yas-marina-marina-seat-layout-2026.json"
+}

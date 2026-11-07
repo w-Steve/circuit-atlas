@@ -1,0 +1,746 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "walkabout-fullerton",
+      "name": "Zone 4 Walkabout · Fullerton",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.85268097053824,
+          1.287814016929291
+        ],
+        [
+          103.85278428216908,
+          1.287714065026273
+        ],
+        [
+          103.85280927649653,
+          1.2877398863704494
+        ],
+        [
+          103.85270596486569,
+          1.2878398382734675
+        ],
+        [
+          103.85268097053824,
+          1.287814016929291
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-fullerton-1",
+          "boundary": [
+            [
+              103.85268097053824,
+              1.287814016929291
+            ],
+            [
+              103.85278428216908,
+              1.287714065026273
+            ],
+            [
+              103.85280927649653,
+              1.2877398863704494
+            ],
+            [
+              103.85270596486569,
+              1.2878398382734675
+            ],
+            [
+              103.85268097053824,
+              1.287814016929291
+            ]
+          ],
+          "baseHeight": 0.6,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.85262015188012,
+            1.2876478449289883
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.6,
+        "rise": 0,
+        "depth": 4,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Zone 4 Walkabout · Fullerton. Author16x4m, deck0.6m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Zone 4 Walkabout及Premier Walkabout可使用此区；平台范围与高度为近似。 Annual2026 promoter park map viewing-platform icon; explicit author approximation."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Zone 4 Walkabout · Fullerton. Author16x4m, deck0.6m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "description": "独立近似站立平台，保留现场几何遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Discrete illustrative-map platform; registered roads/neighbor seats/water/facilities checked."
+      },
+      "admissionNote": "Zone 4 Walkabout及Premier Walkabout可使用此区；平台范围与高度为近似。"
+    },
+    {
+      "zoneId": "walkabout-bridge-south",
+      "name": "Zone 4 Walkabout · Esplanade 桥南端",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.85378299870962,
+          1.286742551534317
+        ],
+        [
+          103.85381065349644,
+          1.286883597106309
+        ],
+        [
+          103.85377538314034,
+          1.2868905090460672
+        ],
+        [
+          103.85374772835351,
+          1.286749463474075
+        ],
+        [
+          103.85378299870962,
+          1.286742551534317
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-bridge-south-1",
+          "boundary": [
+            [
+              103.85378299870962,
+              1.286742551534317
+            ],
+            [
+              103.85381065349644,
+              1.286883597106309
+            ],
+            [
+              103.85377538314034,
+              1.2868905090460672
+            ],
+            [
+              103.85374772835351,
+              1.286749463474075
+            ],
+            [
+              103.85378299870962,
+              1.286742551534317
+            ]
+          ],
+          "baseHeight": 0.8,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.85395554270548,
+            1.2867819705914012
+          ],
+          "groundReference": {
+            "coordinate": [
+              103.85395554270548,
+              1.2867819705914012
+            ],
+            "source": {
+              "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+              "checkedAt": "2026-11-06",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Platform datum estimated from adjacent road/bridge; early2026 diagram, not surveyed bridge deck elevation."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.8,
+        "rise": 0,
+        "depth": 4,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Zone 4 Walkabout · Esplanade 桥南端. Author16x4m, deck0.8m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Zone 4 Walkabout及Premier Walkabout可使用此区；平台范围与高度为近似。 Annual2026 promoter park map viewing-platform icon; explicit author approximation."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Zone 4 Walkabout · Esplanade 桥南端. Author16x4m, deck0.8m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "description": "Esplanade桥侧近似固定观赛平台，不作为水面草地；桥体和平台尺寸尚未测绘。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Discrete illustrative-map platform; registered roads/neighbor seats/water/facilities checked."
+      },
+      "admissionNote": "Zone 4 Walkabout及Premier Walkabout可使用此区；平台范围与高度为近似。"
+    },
+    {
+      "zoneId": "walkabout-bridge-mid",
+      "name": "Zone 4 Walkabout · Esplanade 桥中段",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.8541286835449,
+          1.2885056211842185
+        ],
+        [
+          103.85415633833173,
+          1.2886466667562106
+        ],
+        [
+          103.85412106797563,
+          1.2886535786959687
+        ],
+        [
+          103.8540934131888,
+          1.2885125331239766
+        ],
+        [
+          103.8541286835449,
+          1.2885056211842185
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-bridge-mid-1",
+          "boundary": [
+            [
+              103.8541286835449,
+              1.2885056211842185
+            ],
+            [
+              103.85415633833173,
+              1.2886466667562106
+            ],
+            [
+              103.85412106797563,
+              1.2886535786959687
+            ],
+            [
+              103.8540934131888,
+              1.2885125331239766
+            ],
+            [
+              103.8541286835449,
+              1.2885056211842185
+            ]
+          ],
+          "baseHeight": 0.8,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.85430122754076,
+            1.288545040241303
+          ],
+          "groundReference": {
+            "coordinate": [
+              103.85430122754076,
+              1.288545040241303
+            ],
+            "source": {
+              "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+              "checkedAt": "2026-11-06",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Platform datum estimated from adjacent road/bridge; early2026 diagram, not surveyed bridge deck elevation."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.8,
+        "rise": 0,
+        "depth": 4,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Zone 4 Walkabout · Esplanade 桥中段. Author16x4m, deck0.8m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Zone 4 Walkabout及Premier Walkabout可使用此区；平台范围与高度为近似。 Annual2026 promoter park map viewing-platform icon; explicit author approximation."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Zone 4 Walkabout · Esplanade 桥中段. Author16x4m, deck0.8m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "description": "Esplanade桥侧近似固定观赛平台，不作为水面草地；桥体和平台尺寸尚未测绘。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Discrete illustrative-map platform; registered roads/neighbor seats/water/facilities checked."
+      },
+      "admissionNote": "Zone 4 Walkabout及Premier Walkabout可使用此区；平台范围与高度为近似。"
+    },
+    {
+      "zoneId": "walkabout-jubilee",
+      "name": "Zone 4 Walkabout · Jubilee",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.85391090209868,
+          1.2873948873047805
+        ],
+        [
+          103.85394201373384,
+          1.2875535635732716
+        ],
+        [
+          103.85389792578873,
+          1.2875622034979695
+        ],
+        [
+          103.85386681415355,
+          1.2874035272294782
+        ],
+        [
+          103.85391090209868,
+          1.2873948873047805
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-jubilee-1",
+          "boundary": [
+            [
+              103.85391090209868,
+              1.2873948873047805
+            ],
+            [
+              103.85394201373384,
+              1.2875535635732716
+            ],
+            [
+              103.85389792578873,
+              1.2875622034979695
+            ],
+            [
+              103.85386681415355,
+              1.2874035272294782
+            ],
+            [
+              103.85391090209868,
+              1.2873948873047805
+            ]
+          ],
+          "baseHeight": 0.8,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.85408517451872,
+            1.2874431217101143
+          ],
+          "groundReference": {
+            "coordinate": [
+              103.85408517451872,
+              1.2874431217101143
+            ],
+            "source": {
+              "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+              "checkedAt": "2026-11-06",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Platform datum estimated from adjacent road/bridge; early2026 diagram, not surveyed bridge deck elevation."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.8,
+        "rise": 0,
+        "depth": 5,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Zone 4 Walkabout · Jubilee. Author18x5m, deck0.8m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Zone 4 Walkabout及Premier Walkabout可使用此区；平台范围与高度为近似。 Annual2026 promoter park map viewing-platform icon; explicit author approximation."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Zone 4 Walkabout · Jubilee. Author18x5m, deck0.8m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "description": "Esplanade桥侧近似固定观赛平台，不作为水面草地；桥体和平台尺寸尚未测绘。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Discrete illustrative-map platform; registered roads/neighbor seats/water/facilities checked."
+      },
+      "admissionNote": "Zone 4 Walkabout及Premier Walkabout可使用此区；平台范围与高度为近似。"
+    },
+    {
+      "zoneId": "walkabout-connaught-west",
+      "name": "Zone 4 Walkabout · Connaught 西侧",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.85480750651108,
+          1.290282131197078
+        ],
+        [
+          103.85484395765849,
+          1.2904396671904508
+        ],
+        [
+          103.85488772878001,
+          1.29042954444483
+        ],
+        [
+          103.8548512776326,
+          1.2902720084514574
+        ],
+        [
+          103.85480750651108,
+          1.290282131197078
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-connaught-west-1",
+          "boundary": [
+            [
+              103.85480750651108,
+              1.290282131197078
+            ],
+            [
+              103.85484395765849,
+              1.2904396671904508
+            ],
+            [
+              103.85488772878001,
+              1.29042954444483
+            ],
+            [
+              103.8548512776326,
+              1.2902720084514574
+            ],
+            [
+              103.85480750651108,
+              1.290282131197078
+            ]
+          ],
+          "baseHeight": 1,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.8546681560473,
+            1.290397341077999
+          ],
+          "groundReference": {
+            "coordinate": [
+              103.8546681560473,
+              1.290397341077999
+            ],
+            "source": {
+              "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+              "checkedAt": "2026-11-06",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Platform datum estimated from adjacent road/bridge; early2026 diagram, not surveyed bridge deck elevation."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 1,
+        "rise": 0,
+        "depth": 5,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Zone 4 Walkabout · Connaught 西侧. Author18x5m, deck1m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Zone 4 Walkabout及Premier Walkabout可使用此区；平台范围与高度为近似。 Annual2026 promoter park map viewing-platform icon; explicit author approximation."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Zone 4 Walkabout · Connaught 西侧. Author18x5m, deck1m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "description": "Esplanade桥侧近似固定观赛平台，不作为水面草地；桥体和平台尺寸尚未测绘。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Discrete illustrative-map platform; registered roads/neighbor seats/water/facilities checked."
+      },
+      "admissionNote": "Zone 4 Walkabout及Premier Walkabout可使用此区；平台范围与高度为近似。"
+    },
+    {
+      "zoneId": "walkabout-t1-outer",
+      "name": "Premier Walkabout · T1 外侧",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.86410328159006,
+          1.2932651237621418
+        ],
+        [
+          103.86409156583387,
+          1.293408375508268
+        ],
+        [
+          103.86412738787371,
+          1.2934113037029968
+        ],
+        [
+          103.8641391036299,
+          1.2932680519568707
+        ],
+        [
+          103.86410328159006,
+          1.2932651237621418
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-t1-outer-1",
+          "boundary": [
+            [
+              103.86410328159006,
+              1.2932651237621418
+            ],
+            [
+              103.86409156583387,
+              1.293408375508268
+            ],
+            [
+              103.86412738787371,
+              1.2934113037029968
+            ],
+            [
+              103.8641391036299,
+              1.2932680519568707
+            ],
+            [
+              103.86410328159006,
+              1.2932651237621418
+            ]
+          ],
+          "baseHeight": 1,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.86393622453274,
+            1.2933235727589252
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1,
+        "rise": 0,
+        "depth": 4,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Premier Walkabout · T1 外侧. Author16x4m, deck1m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "仅Premier Walkabout可使用此区，Zone 4 Walkabout不含此区；平台范围与高度为近似。 Annual2026 promoter park map viewing-platform icon; explicit author approximation."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Premier Walkabout · T1 外侧. Author16x4m, deck1m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "description": "独立近似站立平台，保留现场几何遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Discrete illustrative-map platform; registered roads/neighbor seats/water/facilities checked."
+      },
+      "admissionNote": "仅Premier Walkabout可使用此区，Zone 4 Walkabout不含此区；平台范围与高度为近似。"
+    },
+    {
+      "zoneId": "walkabout-t5-inner",
+      "name": "Premier Walkabout · T5 内侧",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.86304741360185,
+          1.2915724175216126
+        ],
+        [
+          103.86297841762334,
+          1.2914463214229355
+        ],
+        [
+          103.86301783267055,
+          1.291424765658914
+        ],
+        [
+          103.86308682864906,
+          1.291550861757591
+        ],
+        [
+          103.86304741360185,
+          1.2915724175216126
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-t5-inner-1",
+          "boundary": [
+            [
+              103.86304741360185,
+              1.2915724175216126
+            ],
+            [
+              103.86297841762334,
+              1.2914463214229355
+            ],
+            [
+              103.86301783267055,
+              1.291424765658914
+            ],
+            [
+              103.86308682864906,
+              1.291550861757591
+            ],
+            [
+              103.86304741360185,
+              1.2915724175216126
+            ]
+          ],
+          "baseHeight": 1,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.86287102144264,
+            1.2915869702227516
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1,
+        "rise": 0,
+        "depth": 5,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Premier Walkabout · T5 内侧. Author16x5m, deck1m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "仅Premier Walkabout可使用此区，Zone 4 Walkabout不含此区；平台范围与高度为近似。 Annual2026 promoter park map viewing-platform icon; explicit author approximation."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon at Premier Walkabout · T5 内侧. Author16x5m, deck1m road-relative approximation; not surveyed event installation. Standing eye1.65m retained. Source correction: Fullerton icon next toT12, Jubilee/Connaught-west icons along bridge side, T1-outer below upstream end ofTurn1 seats, T5-inner on incoming driver-left. Bridge-side fixed decks may cross water projection, with datum referenced to adjacent road, never terrain-filled."
+      },
+      "description": "独立近似站立平台，保留现场几何遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Discrete illustrative-map platform; registered roads/neighbor seats/water/facilities checked."
+      },
+      "admissionNote": "仅Premier Walkabout可使用此区，Zone 4 Walkabout不含此区；平台范围与高度为近似。"
+    }
+  ],
+  "beforeZones": [],
+  "scope": "Seven additional discrete2026 map platform groups; not full colored access zones or surveyed temporary installations."
+}

@@ -5,7 +5,8 @@ import {
   tierData,
 } from "../src/systems/GrandstandGeometry";
 import { facilities as f, local,foundationAltitude } from "../src/data/config";
-import { useApp } from "../src/store";
+import {createAppStore} from "../src/store";
+const useApp=createAppStore();
 describe("A grandstand and camera mapping", () => {
   it("rejects gap/out-of-range/nonfinite selections", () => {
     for (const s of [

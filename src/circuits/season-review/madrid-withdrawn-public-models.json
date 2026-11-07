@@ -1,0 +1,284 @@
+{
+  "circuitId": "madrid",
+  "season": 2026,
+  "checkedAt": "2026-10-26",
+  "scope": "Withdraw incorrectly inferred ordinary-public models; preserve venue facts and complete original objects. Withdrawals are not successfully reconstructed viewing areas or proof of a complete public inventory.",
+  "sourceUrl": "https://www.madring.com/img/xl/mapa-madring/mapa_web_11_8_26_ing.webp",
+  "sourceSha256": "99ac1e3d5f822f0b650da0f727956c7f8c7d64c9616327f4cfc0cedebacaf241",
+  "withdrawn": [
+    {
+      "zoneId": "stand-3",
+      "classification": "invalid-public-grandstand-inference",
+      "originalZone": {
+        "zoneId": "stand-3",
+        "name": "主直道北段",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "boundary": [
+          [
+            -3.619062539180094,
+            40.464838316591866
+          ],
+          [
+            -3.6177663509245006,
+            40.465060308305596
+          ],
+          [
+            -3.6176843656454527,
+            40.4647087542598
+          ],
+          [
+            -3.618980553901046,
+            40.46448676254607
+          ],
+          [
+            -3.619062539180094,
+            40.464838316591866
+          ]
+        ],
+        "surface": {
+          "baseHeight": 3.2,
+          "rise": 16,
+          "depth": 40.43,
+          "eyeHeight": 1.2
+        },
+        "surfaces": [
+          {
+            "surfaceId": "stand-3-1",
+            "boundary": [
+              [
+                -3.619062539180094,
+                40.464838316591866
+              ],
+              [
+                -3.6177663509245006,
+                40.465060308305596
+              ],
+              [
+                -3.6176843656454527,
+                40.4647087542598
+              ],
+              [
+                -3.618980553901046,
+                40.46448676254607
+              ],
+              [
+                -3.619062539180094,
+                40.464838316591866
+              ]
+            ],
+            "baseHeight": 3.2,
+            "rise": 16,
+            "eyeHeight": 1.2,
+            "rows": 32,
+            "frontReference": [
+              -3.618439128054731,
+              40.46498893341378
+            ]
+          }
+        ],
+        "source": {
+          "url": "https://www.madring.com/en/press-releases/mobility-plan",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "2026主办方示意图人工选取边界，以弯道地理控制点作局部仿射配准；临时看台位置与尺寸为近似，不能用于具体座位购票。"
+        },
+        "openingSource": {
+          "url": "https://www.madring.com/en/press-releases/mobility-plan",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "medium",
+          "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+        },
+        "surfaceSource": {
+          "url": "https://www.madring.com/en/press-releases/mobility-plan",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+        },
+        "geometryReview": {
+          "checkedAt": "2026-10-23",
+          "issues": [
+            "stand-3-1: road intersection 302.2644 m2"
+          ],
+          "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+        }
+      },
+      "sourceRectanglePixels": [
+        180,
+        455,
+        57,
+        20,
+        80
+      ],
+      "sourceMarker": {
+        "centerPixels": [
+          180,
+          455
+        ],
+        "legendNumber": 3,
+        "legendName": "Club 91",
+        "legendCategory": "Hospitality Areas / Accessible Hospitality",
+        "legendCenterPixels": [
+          741,
+          669
+        ]
+      },
+      "decision": "The invented northern-main-stand rectangle was centered on the Club91 hospitality symbol. It was never available and intersected the road. Remove this ordinary-public interpretation; do not rename or offer the invalid rectangle as a Club91 simulation.",
+      "retainedVenueFact": {
+        "name": "Club 91",
+        "kind": "official-hospitality",
+        "modeled": false
+      },
+      "annualEvidence": "2026 venue-map branding and legend published with the2026-09-03 mobility article.",
+      "liveProductPage": "https://hospitality.madring.com/en/f1/club-91/",
+      "livePageLimitation": "Current page has switched to2027; used only as product-category corroboration, never2026 access/geometry evidence."
+    },
+    {
+      "zoneId": "t9t10",
+      "classification": "unsupported-public-grandstand-footprint",
+      "originalZone": {
+        "zoneId": "t9t10",
+        "name": "T9–T10 看台",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "boundary": [
+          [
+            -3.6256782853215803,
+            40.4760904762657
+          ],
+          [
+            -3.6256324772289257,
+            40.4771555387225
+          ],
+          [
+            -3.6253228388498453,
+            40.477152070082354
+          ],
+          [
+            -3.6253686469425,
+            40.476087007625566
+          ],
+          [
+            -3.6256782853215803,
+            40.4760904762657
+          ]
+        ],
+        "surface": {
+          "baseHeight": 3.2,
+          "rise": 12.64,
+          "depth": 26.33,
+          "eyeHeight": 1.2
+        },
+        "surfaces": [
+          {
+            "surfaceId": "t9t10-1",
+            "boundary": [
+              [
+                -3.6256782853215803,
+                40.4760904762657
+              ],
+              [
+                -3.6256324772289257,
+                40.4771555387225
+              ],
+              [
+                -3.6253228388498453,
+                40.477152070082354
+              ],
+              [
+                -3.6253686469425,
+                40.476087007625566
+              ],
+              [
+                -3.6256782853215803,
+                40.4760904762657
+              ]
+            ],
+            "baseHeight": 3.2,
+            "rise": 12.64,
+            "eyeHeight": 1.2,
+            "rows": 25,
+            "frontReference": [
+              -3.625344260882149,
+              40.476617272069845
+            ]
+          }
+        ],
+        "source": {
+          "url": "https://www.madring.com/en/press-releases/mobility-plan",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "2026主办方示意图人工选取边界，以弯道地理控制点作局部仿射配准；临时看台位置与尺寸为近似，不能用于具体座位购票。"
+        },
+        "openingSource": {
+          "url": "https://www.madring.com/en/press-releases/mobility-plan",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "medium",
+          "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+        },
+        "surfaceSource": {
+          "url": "https://www.madring.com/en/press-releases/mobility-plan",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+        },
+        "geometryReview": {
+          "checkedAt": "2026-10-23",
+          "issues": [
+            "t9t10-1: road intersection 769.2338 m2"
+          ],
+          "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+        }
+      },
+      "sourceRectanglePixels": [
+        874,
+        151,
+        78,
+        17,
+        7
+      ],
+      "sourceMarker": {
+        "centerPixels": [
+          874,
+          151
+        ],
+        "observedCategory": "North-side activity/service belt and road; no visible seated-bank outline matching the authored rectangle."
+      },
+      "decision": "Withdraw this never-available authored engineering rectangle, not an actual public ticket product. It crosses the current road and cannot be renamed into a nearby real bank without independent source association and footprint reconstruction.",
+      "annualEvidence": "Same final2026 venue map and dated mobility article as the archive source.",
+      "requiredReconciliation": [
+        {
+          "venueLabel": "GD12",
+          "sourceLabelPixel": [
+            874,
+            182
+          ],
+          "status": "Independent approximate GD12 viewpoint now available nearT13 under gd12; detailed SVG, Section8 ticket crosswalk and exact seat outline remain unverified.",
+          "sourceReview": "src/circuits/season-review/madrid-gd12-source-review.json",
+          "approximateModelZoneId": "gd12",
+          "approximateModelReview": "src/circuits/europe/madrid-gd12-approx-2026.json"
+        },
+        {
+          "venueLabel": "GE1–GE3",
+          "sourceLabelPixel": [
+            966,
+            185
+          ],
+          "status": "Rebuilt as the explicit GE1–GE3 source envelope under legacy t11 ID; mesh, road, source association and three-viewport checks accepted.",
+          "resolved": true,
+          "checkedAt": "2026-10-27",
+          "modelZoneId": "t11",
+          "modelSource": "src/circuits/europe/madrid-ge1-2026.json",
+          "scope": "Ordinary seated envelope only; individual accessible platform remains unmodeled."
+        }
+      ],
+      "checkedAt": "2026-10-27"
+    }
+  ]
+}

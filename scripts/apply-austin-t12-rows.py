@@ -1,0 +1,28 @@
+import copy,json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+def apply(data,review):
+ assert data['circuitId']==review['circuitId']=='austin' and data['season']==review['season']==2026
+ result=copy.deepcopy(data)
+ for zone in review['zones']:
+  old=next((z for z in result['spectatorZones'] if z['zoneId']==zone['zoneId']),None)
+  split=ROOT/'src/circuits/americas/austin-club-si-2026.json'
+  if split.exists() and old==json.loads(split.read_text('utf8'))['zones'][0]:continue
+  if old is not None and old!=zone and old not in review['beforeZones']:raise ValueError('Preserve independent '+zone['zoneId'])
+  if old is None:result['spectatorZones'].append(copy.deepcopy(zone))
+  else:result['spectatorZones']=[copy.deepcopy(zone) if z['zoneId']==zone['zoneId'] else z for z in result['spectatorZones']]
+ scene=result.get('scene') or dict(foundations=[],boxes=[],wireMeshes=[],cylinders=[],regions=[],source=review['source'])
+ owned=[r for r in scene['regions'] if r['zoneId']=='turn-12']
+ if owned and owned!=review['regions']:raise ValueError('Preserve independent Austin T12 regions')
+ if not owned:scene['regions']=copy.deepcopy(review['regions'])+scene['regions']
+ result['scene']=scene
+ result['spectatorZoneIds']=[z['zoneId'] for z in result['spectatorZones'] if z['availability']=='available']
+ return result
+if __name__=='__main__':
+ p=ROOT/'src/circuits/generated/austin.json'
+ result=apply(json.loads(p.read_text('utf8')),json.loads((ROOT/'src/circuits/americas/austin-t12-rows-2026.json').read_text('utf8')))
+ p.write_text(json.dumps(result,ensure_ascii=False,separators=(',',':'))+'\n','utf8')
+ summaryPath=ROOT/'src/circuits/generated/summaries.json'
+ summaries=json.loads(summaryPath.read_text('utf8'))
+ next(v for v in summaries if v['circuitId']=='austin')['spectatorZoneIds']=result['spectatorZoneIds']
+ summaryPath.write_text(json.dumps(summaries,ensure_ascii=False,separators=(',',':'))+'\n','utf8')

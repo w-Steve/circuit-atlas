@@ -49,16 +49,16 @@
   },
   {
     "circuitId": "suzuka",
-    "dataset": "GEDTM30-v1.2",
-    "sampleCount": 4225,
-    "minMetres": 6.995,
-    "maxMetres": 72.997,
+    "dataset": "GSI-DEM5A-10B",
+    "sampleCount": 103041,
+    "minMetres": 6.991,
+    "maxMetres": 75.262,
     "responseSha256": [
-      "ed4cb3995c596960116ff66760825c025c98e4496bf1389e18e26da3c8ded86e"
+      "d70258acb0249e129349a090d9ddae0938194d1d01a7080a2aa2e40c593b3a59"
     ],
     "runtimeApplied": true,
-    "checkedAt": "2026-10-24",
-    "source": "https://zenodo.org/records/18887460",
+    "checkedAt": "2026-10-25",
+    "source": "https://maps.gsi.go.jp/development/ichiran.html",
     "srtmBaseline": {
       "sampleCount": 289,
       "minMetres": 11.0,
@@ -69,6 +69,16 @@
         "40140e7e3af9c13a7fd658cd604ca77abcb79878604586fe7d4bad68a52635ba"
       ],
       "source": "https://www.opentopodata.org/datasets/srtm/"
+    },
+    "gedtmBaseline": {
+      "dataset": "GEDTM30-v1.2",
+      "sampleCount": 4225,
+      "minMetres": 6.995,
+      "maxMetres": 72.997,
+      "source": "https://zenodo.org/records/18887460",
+      "responseSha256": [
+        "ed4cb3995c596960116ff66760825c025c98e4496bf1389e18e26da3c8ded86e"
+      ]
     }
   },
   {
@@ -121,16 +131,16 @@
   },
   {
     "circuitId": "monaco",
-    "dataset": "GEDTM30-v1.2",
-    "sampleCount": 4225,
-    "minMetres": 0.0,
-    "maxMetres": 201.468,
+    "dataset": "IGN-RGE-ALTI-2026-10-26",
+    "sampleCount": 16641,
+    "minMetres": -3.015,
+    "maxMetres": 202.129,
     "responseSha256": [
-      "631ac07727fca4cb6403f8da13ee4e7d1ff6ef1b26b9e1da36166989c8bdb357"
+      "33acd3893e7dc57e3308afd45b8a5339e98a61fc7b3a02aa7aff36a26f30ea53"
     ],
     "runtimeApplied": true,
-    "checkedAt": "2026-10-24",
-    "source": "https://zenodo.org/records/18887460",
+    "checkedAt": "2026-10-26",
+    "source": "https://www.data.gouv.fr/datasets/rge-alti-r",
     "srtmBaseline": {
       "sampleCount": 289,
       "minMetres": -1.0,
@@ -141,6 +151,16 @@
         "905d805e80a2f8a89d6ef6f984297ae70feb4289462e7e4c4f41ea2fe34e4315"
       ],
       "source": "https://www.opentopodata.org/datasets/srtm/"
+    },
+    "gedtmBaseline": {
+      "dataset": "GEDTM30-v1.2",
+      "sampleCount": 4225,
+      "minMetres": 0.0,
+      "maxMetres": 201.468,
+      "source": "https://zenodo.org/records/18887460",
+      "responseSha256": [
+        "631ac07727fca4cb6403f8da13ee4e7d1ff6ef1b26b9e1da36166989c8bdb357"
+      ]
     }
   },
   {
@@ -193,16 +213,16 @@
   },
   {
     "circuitId": "silverstone",
-    "dataset": "GEDTM30-v1.2",
-    "sampleCount": 4225,
-    "minMetres": 128.296,
-    "maxMetres": 161.268,
+    "dataset": "EA-LIDAR-COMPOSITE-DTM-1m",
+    "sampleCount": 66049,
+    "minMetres": 127.742,
+    "maxMetres": 160.955,
     "responseSha256": [
-      "a70e3f7831f47c34b2ecb85279745823770936f7997d2c03713f1a4bd68c1a01"
+      "4a7b8269804d285bce62c79f230f5c49e22804c0fc62c50780fae9968094713a"
     ],
     "runtimeApplied": true,
-    "checkedAt": "2026-10-24",
-    "source": "https://zenodo.org/records/18887460",
+    "checkedAt": "2026-10-28",
+    "source": "https://environment.data.gov.uk/dataset/13787b9a-26a4-4775-8523-806d13af58fc",
     "srtmBaseline": {
       "sampleCount": 289,
       "minMetres": 131.0,
@@ -213,7 +233,33 @@
         "bebc79f30eb5ca2c99b1d29bad3f07c6f0114969c1ecce9b6d7f36c91c5c2950"
       ],
       "source": "https://www.opentopodata.org/datasets/srtm/"
-    }
+    },
+    "gedtmBaseline": {
+      "circuitId": "silverstone",
+      "dataset": "GEDTM30-v1.2",
+      "sampleCount": 4225,
+      "minMetres": 128.296,
+      "maxMetres": 161.268,
+      "responseSha256": [
+        "a70e3f7831f47c34b2ecb85279745823770936f7997d2c03713f1a4bd68c1a01"
+      ],
+      "runtimeApplied": true,
+      "checkedAt": "2026-10-24",
+      "source": "https://zenodo.org/records/18887460",
+      "srtmBaseline": {
+        "sampleCount": 289,
+        "minMetres": 131.0,
+        "maxMetres": 165.0,
+        "responseSha256": [
+          "19cf5fb9975684007139af2082783b9b1faeff70fa02c3bb0d0413321408b2f5",
+          "f139b73444922ffbe92d647ea34762acbc83975a4d69965f2e85227ae45787bb",
+          "bebc79f30eb5ca2c99b1d29bad3f07c6f0114969c1ecce9b6d7f36c91c5c2950"
+        ],
+        "source": "https://www.opentopodata.org/datasets/srtm/"
+      }
+    },
+    "verticalDatum": "Ordnance Datum Newlyn",
+    "surveyYear": "2019"
   },
   {
     "circuitId": "spa",
@@ -289,16 +335,16 @@
   },
   {
     "circuitId": "monza",
-    "dataset": "GEDTM30-v1.2",
-    "sampleCount": 4225,
-    "minMetres": 161.372,
-    "maxMetres": 203.491,
+    "dataset": "TINITALY-1.1",
+    "sampleCount": 66049,
+    "minMetres": 168.667,
+    "maxMetres": 196.686,
     "responseSha256": [
-      "c1d44f735d847ef382acb9dfe0d3b18d1b0bc4de08d0eaac84f9def395cb00c0"
+      "23fe31f46da130a2f1f056821761e18c0b65558d8643afdb9cf776f9f5feae24"
     ],
     "runtimeApplied": true,
-    "checkedAt": "2026-10-24",
-    "source": "https://zenodo.org/records/18887460",
+    "checkedAt": "2026-10-25",
+    "source": "https://doi.org/10.13127/tinitaly/1.1",
     "srtmBaseline": {
       "sampleCount": 289,
       "minMetres": 168.0,
@@ -309,6 +355,16 @@
         "5e239d7495a8f175d451338d90fea98cfb288655e11186304f52707b864ead67"
       ],
       "source": "https://www.opentopodata.org/datasets/srtm/"
+    },
+    "gedtmBaseline": {
+      "dataset": "GEDTM30-v1.2",
+      "sampleCount": 4225,
+      "minMetres": 161.372,
+      "maxMetres": 203.491,
+      "source": "https://zenodo.org/records/18887460",
+      "responseSha256": [
+        "c1d44f735d847ef382acb9dfe0d3b18d1b0bc4de08d0eaac84f9def395cb00c0"
+      ]
     }
   },
   {

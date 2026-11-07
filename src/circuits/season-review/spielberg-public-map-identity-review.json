@@ -1,0 +1,143 @@
+{
+  "circuitId": "spielberg",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "sourceUrl": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+  "sourceSha256": "3a65e42dbe1a2b84c560c505725b997fda1c9a3d28e016ceb07c3776d67f2518",
+  "annualEvidence": {
+    "generatedAt": "2026-03-06 01:13",
+    "title": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
+    "mapPage": 0,
+    "productPages": {
+      "T3": 3,
+      "Schönberg": 3,
+      "T9": 3,
+      "T10": 4,
+      "General Admission": 5
+    },
+    "mapReviewedVisually": true
+  },
+  "method": "Annual official ticket PDF: names and indicated areas only, not georeferenced seating footprints. Multi-day corner-hopping products are access packages, not extra physical stands.",
+  "confirmedIdentities": [
+    {
+      "zoneId": "start-ziel",
+      "mapLabel": "START-ZIEL",
+      "geographicBoundaryVerified": false,
+      "notes": "Independent annual ticket/map identity; current geometry still requires its own evidence."
+    },
+    {
+      "zoneId": "steiermark",
+      "mapLabel": "STEIERMARK GRANDSTAND",
+      "geographicBoundaryVerified": false,
+      "notes": "Independent annual ticket/map identity; current geometry still requires its own evidence."
+    },
+    {
+      "zoneId": "red-bull",
+      "mapLabel": "RED BULL GRANDSTAND",
+      "geographicBoundaryVerified": false,
+      "notes": "Independent annual ticket/map identity; current geometry still requires its own evidence."
+    },
+    {
+      "zoneId": "nord-t4",
+      "mapLabel": "GRANDSTAND NORTH",
+      "geographicBoundaryVerified": false,
+      "notes": "North/Middle/T8 are shown in yellow-ticket regions; standalone ordinary-weekend admission is not inferred from the map alone."
+    },
+    {
+      "zoneId": "mitte",
+      "mapLabel": "GRANDSTAND MIDDLE",
+      "geographicBoundaryVerified": false,
+      "notes": "North/Middle/T8 are shown in yellow-ticket regions; standalone ordinary-weekend admission is not inferred from the map alone."
+    },
+    {
+      "zoneId": "t9",
+      "mapLabel": "GRANDSTAND T9",
+      "geographicBoundaryVerified": false,
+      "notes": "Corrected legacy misassociation: nativeOst east bank lies north ofT10 atT9, not the separate innerT8. Physical footprint unchanged."
+    },
+    {
+      "zoneId": "t10",
+      "mapLabel": "GRANDSTAND T10",
+      "geographicBoundaryVerified": false,
+      "notes": "Independent annual ticket/map identity; current geometry still requires its own evidence."
+    },
+    {
+      "zoneId": "t3",
+      "mapLabel": "GRANDSTAND T3",
+      "geographicBoundaryVerified": false,
+      "notes": "Independent annual ticket/map identity; current geometry still requires its own evidence."
+    },
+    {
+      "zoneId": "schonberg",
+      "mapLabel": "Schönberg",
+      "geographicBoundaryVerified": false
+    },
+    {
+      "zoneId": "t8",
+      "mapLabel": "Grandstand T8",
+      "geographicBoundaryVerified": false
+    },
+    {
+      "zoneId": "general-admission-north",
+      "mapLabel": "Northern partial GA",
+      "geographicBoundaryVerified": false
+    },
+    {
+      "zoneId": "general-admission-northwest",
+      "mapLabel": "General Admission western T3-T4 strip",
+      "geographicBoundaryVerified": false,
+      "notes": "Partial approximate ground extension in annual positive green ticket band; not a separate ticket product."
+    }
+  ],
+  "unresolvedIdentities": [],
+  "confirmedMissingProducts": [],
+  "inventoryComplete": false,
+  "limits": "Year-specific map/product identities do not establish every seating block, surveyed slope or complete ticket access. Native Tribune13 near T3 is a candidate requiring a physical registration check; not assigned by nearest distance.",
+  "correctedIdentitySource": "src/circuits/europe/spielberg-t9-identity-2026.json",
+  "modeledProducts": [
+    {
+      "productId": "schonberg",
+      "mapLabel": "Schönberg",
+      "modelZoneId": "schonberg",
+      "nextAction": "Recover a separately associated physical boundary from primary geography and the annual diagram; do not copy T3.",
+      "accuracy": "approximate",
+      "modelReview": "src/circuits/europe/spielberg-supplement-2026.json"
+    },
+    {
+      "productId": "t8",
+      "mapLabel": "Grandstand T8",
+      "modelZoneId": "t8",
+      "nextAction": "Recover the separate inside-track T8 footprint; do not reuse the east-side T9 bank.",
+      "accuracy": "approximate",
+      "modelReview": "src/circuits/europe/spielberg-supplement-2026.json"
+    },
+    {
+      "productId": "general-admission",
+      "mapLabel": "General Admission (grass area)",
+      "modelZoneIds": [
+        "general-admission-north",
+        "general-admission-northwest"
+      ],
+      "accuracy": "approximate",
+      "surveyedBoundary": false
+    }
+  ],
+  "practicalCoverageReview": {
+    "checkedAt": "2026-11-06",
+    "accepted": true,
+    "basis": "Rechecked saved annual ticket map: green GA lies north ofT3–T4, separate from restricted yellow and blue seat zones. Existing western extension and northern source-ground models represent both ends; Schonberg remains separate.",
+    "sectors": [
+      {
+        "annualMapSector": "T3-side western end",
+        "modelZoneId": "general-admission-northwest",
+        "modelReview": "src/circuits/europe/spielberg-ga-west-2026.json"
+      },
+      {
+        "annualMapSector": "NorthT3–T4 viewing bank",
+        "modelZoneId": "general-admission-north",
+        "modelReview": "src/circuits/europe/spielberg-supplement-2026.json"
+      }
+    ],
+    "limits": "Major viewing-sector approximation only; not surveyed event enclosure, every square metre, routes or Schonberg seat entitlement. Exact boundary and temporary facility details remain refinements."
+  }
+}

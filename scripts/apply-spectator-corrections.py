@@ -9,7 +9,10 @@ path='src/circuits/generated/monaco.json';data=read(path)
 standing=read('src/circuits/season-review/monaco-standing-evidence.json')
 z=next(z for z in data['spectatorZones'] if z['zoneId']=='z-quai-kennedy')
 z['kind']='general-admission'
-z['openingSource']={'url':standing['source'],'checkedAt':standing['checkedAt'],'method':'published','confidence':'high','notes':standing['evidence']+' '+standing['scope']}
+# A later organizer map can establish more than the earlier ticket-class FAQ.
+# Preserve that provenance when replaying these legacy footprint corrections.
+if not z.get('openingSource') or z['openingSource']['url']==standing['source']:
+    z['openingSource']={'url':standing['source'],'checkedAt':standing['checkedAt'],'method':'published','confidence':'high','notes':standing['evidence']+' '+standing['scope']}
 for correction in patch['areas']:
     if correction['roadOverlapSquareMetres']>1e-6:raise ValueError('Footprint still intersects the road')
     zone=next(z for z in data['spectatorZones'] if z['zoneId']==correction['zoneId'])

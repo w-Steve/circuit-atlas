@@ -8,16 +8,6 @@ for(const {circuitId:id} of summaries)test(`${id}: sourced timing lines and thre
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(`/#/circuits/${id}/map`);
  const canvas=page.locator('canvas:visible');await expect(canvas).toHaveAttribute('data-camera-ready','true');await expect(canvas).toHaveAttribute('data-timing-marks',/.+/);
  const marks=JSON.parse((await canvas.getAttribute('data-timing-marks'))!);expect(marks.splits).toHaveLength(2);expect(marks.start).toBeGreaterThanOrEqual(0);expect(marks.control).toBeGreaterThanOrEqual(0);
- const toggle=page.getByRole('button',{name:'显示计时分段',exact:true});await expect(toggle).toHaveAttribute('aria-pressed','true');
- for(const n of [1,2,3])await expect(toggle.getByText(`S${n}`,{exact:true})).toBeVisible();
- await expect(page.locator('[data-timing-mark]')).toHaveCount(['monaco','interlagos'].includes(id)?3:4);
- const palette=async()=>canvas.evaluate((c:HTMLCanvasElement)=>{const a=document.createElement('canvas');a.width=c.width;a.height=c.height;const ctx=a.getContext('2d')!;ctx.drawImage(c,0,0);const p=ctx.getImageData(0,0,c.width,c.height).data,result=[0,0,0];for(let i=0;i<p.length;i+=4){const [r,g,b]=[p[i],p[i+1],p[i+2]];if(r>g*1.07&&g>b*1.15)result[0]++;if(g>r*1.1&&b>r*1.1&&g>=b&&g-b<10)result[1]++;if(r>g*1.2&&g>b*1.02)result[2]++}return result});
- await page.evaluate(()=>new Promise<void>(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve()))));const on=await palette();
- const collisions=await page.evaluate(()=>{
-  const visible=(e:Element)=>getComputedStyle(e).visibility!=='hidden'&&e.getBoundingClientRect().width>0;
-  const markers=Array.from(document.querySelectorAll('#scene-labels .marker')).filter(visible),tags=Array.from(document.querySelectorAll('[data-timing-mark]')).filter(visible);
-  return tags.flatMap(tag=>markers.flatMap(marker=>{const a=tag.getBoundingClientRect(),b=marker.getBoundingClientRect();return Math.min(a.right,b.right)-Math.max(a.left,b.left)>2&&Math.min(a.bottom,b.bottom)-Math.max(a.top,b.top)>2?[`${tag.getAttribute('data-timing-mark')}/${marker.getAttribute('data-zone')??marker.textContent}`]:[]}));
- });expect(collisions,'Timing tags must not cover grandstand or pit labels').toEqual([]);
  if(id==='singapore'){
   const data=JSON.parse(readFileSync(new URL('../src/circuits/generated/singapore.json',import.meta.url),'utf8')) as CircuitPackage,g=createCircuitGeometry(data.trackGeometry.coordinates,data.lengthMetres,data.elevation);
   const bounds=(await canvas.boundingBox())!,view=JSON.parse((await canvas.getAttribute('data-map-view'))!),camera=new PerspectiveCamera(50,bounds.width/bounds.height,5,60000);camera.position.fromArray(view.position);camera.lookAt(new Vector3().fromArray(view.target));camera.updateMatrixWorld(true);
@@ -27,6 +17,19 @@ for(const {circuitId:id} of summaries)test(`${id}: sourced timing lines and thre
    expect(color[2]>color[1]*1.07&&color[2]>color[0]*1.2,`Bridge at ${distance} must show road, not blue reservoir: ${color}`).toBe(false);
   }
  }
+ const toggle=page.getByRole('button',{name:'显示计时分段',exact:true});await expect(toggle).toHaveAttribute('aria-pressed','true');
+ for(const n of [1,2,3])await expect(toggle.getByText(`S${n}`,{exact:true})).toBeVisible();
+ const box=(await canvas.boundingBox())!;await page.mouse.move(box.x+box.width*.6,box.y+box.height*.45);
+ for(let i=0;i<60&&await canvas.getAttribute('data-timing-sectors-visible')!=='true';i++){await page.mouse.wheel(0,-350);await page.waitForTimeout(60)}
+ await expect(canvas).toHaveAttribute('data-timing-sectors-visible','true');
+ await expect(page.locator('[data-timing-mark]')).toHaveCount(['monaco','interlagos'].includes(id)?3:4);
+ const palette=async()=>canvas.evaluate((c:HTMLCanvasElement)=>{const a=document.createElement('canvas');a.width=c.width;a.height=c.height;const ctx=a.getContext('2d')!;ctx.drawImage(c,0,0);const p=ctx.getImageData(0,0,c.width,c.height).data,result=[0,0,0];for(let i=0;i<p.length;i+=4){const [r,g,b]=[p[i],p[i+1],p[i+2]];if(r>g*1.07&&g>b*1.15)result[0]++;if(g>r*1.1&&b>r*1.1&&g>=b&&g-b<10)result[1]++;if(r>g*1.2&&g>b*1.02)result[2]++}return result});
+ await page.evaluate(()=>new Promise<void>(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve()))));const on=await palette();
+ const collisions=await page.evaluate(()=>{
+  const visible=(e:Element)=>getComputedStyle(e).visibility!=='hidden'&&e.getBoundingClientRect().width>0;
+  const markers=Array.from(document.querySelectorAll('#scene-labels .marker')).filter(visible),tags=Array.from(document.querySelectorAll('[data-timing-mark]')).filter(visible);
+  return tags.flatMap(tag=>markers.flatMap(marker=>{const a=tag.getBoundingClientRect(),b=marker.getBoundingClientRect();return Math.min(a.right,b.right)-Math.max(a.left,b.left)>2&&Math.min(a.bottom,b.bottom)-Math.max(a.top,b.top)>2?[`${tag.getAttribute('data-timing-mark')}/${marker.getAttribute('data-zone')??marker.textContent}`]:[]}));
+ });expect(collisions,'Timing tags must not cover grandstand or pit labels').toEqual([]);
  await page.screenshot({path:info.outputPath(`${id}-timing-map.png`)});
  await toggle.click();await expect(canvas).toHaveAttribute('data-timing-sectors-visible','false');await expect(page.locator('[data-timing-mark]')).toHaveCount(0);
  await page.evaluate(()=>new Promise<void>(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve()))));const off=await palette();

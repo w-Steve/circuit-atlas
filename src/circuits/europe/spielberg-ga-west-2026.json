@@ -1,0 +1,380 @@
+{
+  "circuitId": "spielberg",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "general-admission-northwest",
+      "name": "GA · T3–T4 西段",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          14.754818936821122,
+          47.22648017525596
+        ],
+        [
+          14.75478075873271,
+          47.22670325107631
+        ],
+        [
+          14.755088155342833,
+          47.22672751922974
+        ],
+        [
+          14.755843364109126,
+          47.22674739314464
+        ],
+        [
+          14.756625324851928,
+          47.22674215212089
+        ],
+        [
+          14.756741893919909,
+          47.22673443557696
+        ],
+        [
+          14.756710303862613,
+          47.22651430170023
+        ],
+        [
+          14.756710113301102,
+          47.22651395972959
+        ],
+        [
+          14.756709773050906,
+          47.2265131004263
+        ],
+        [
+          14.756709559642172,
+          47.2265122224757
+        ],
+        [
+          14.756709475168897,
+          47.22651133449239
+        ],
+        [
+          14.75670949534622,
+          47.226510938304834
+        ],
+        [
+          14.756607621819473,
+          47.22651768204533
+        ],
+        [
+          14.755848136540923,
+          47.22652277242924
+        ],
+        [
+          14.755113683253562,
+          47.22650344471115
+        ],
+        [
+          14.754818936821122,
+          47.22648017525596
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "ga-northwest-1",
+          "boundary": [
+            [
+              14.754818936821122,
+              47.22648017525596
+            ],
+            [
+              14.75478075873271,
+              47.22670325107631
+            ],
+            [
+              14.755088155342833,
+              47.22672751922974
+            ],
+            [
+              14.755843364109126,
+              47.22674739314464
+            ],
+            [
+              14.756625324851928,
+              47.22674215212089
+            ],
+            [
+              14.756741893919909,
+              47.22673443557696
+            ],
+            [
+              14.756710303862613,
+              47.22651430170023
+            ],
+            [
+              14.756710113301102,
+              47.22651395972959
+            ],
+            [
+              14.756709773050906,
+              47.2265131004263
+            ],
+            [
+              14.756709559642172,
+              47.2265122224757
+            ],
+            [
+              14.756709475168897,
+              47.22651133449239
+            ],
+            [
+              14.75670949534622,
+              47.226510938304834
+            ],
+            [
+              14.756607621819473,
+              47.22651768204533
+            ],
+            [
+              14.755848136540923,
+              47.22652277242924
+            ],
+            [
+              14.755113683253562,
+              47.22650344471115
+            ],
+            [
+              14.754818936821122,
+              47.22648017525596
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 20
+      },
+      "source": {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.7545%2C47.2252%2C14.7648%2C47.229",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official dated2026 green GA band north of T3-T4. Author interpreted western extension65–205m afterT3,15–40m left of actual road, existing seats and GA excluded with1m margin. Source terrain standing1.65m. Partial approximate ticket geography, not surveyed boundaries or Schonberg admission."
+      },
+      "surfaceSource": {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.7545%2C47.2252%2C14.7648%2C47.229",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official dated2026 green GA band north of T3-T4. Author interpreted western extension65–205m afterT3,15–40m left of actual road, existing seats and GA excluded with1m margin. Source terrain standing1.65m. Partial approximate ticket geography, not surveyed boundaries or Schonberg admission."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Official dated2026 green GA band north of T3-T4. Author interpreted western extension65–205m afterT3,15–40m left of actual road, existing seats and GA excluded with1m margin. Source terrain standing1.65m. Partial approximate ticket geography, not surveyed boundaries or Schonberg admission."
+      },
+      "description": "北侧普通GA西端近似范围，站立观看；地形与围网可能遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Positive annual green GA sector, explicit road-relative western extension."
+      }
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "general-admission-northwest",
+      "name": "GA · T3–T4 西段",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          14.755088155342833,
+          47.22672751922974
+        ],
+        [
+          14.755843364109126,
+          47.22674739314464
+        ],
+        [
+          14.756625324851928,
+          47.22674215212089
+        ],
+        [
+          14.756741893919909,
+          47.22673443557696
+        ],
+        [
+          14.756710303862613,
+          47.22651430170023
+        ],
+        [
+          14.756710113301102,
+          47.22651395972959
+        ],
+        [
+          14.756709773050906,
+          47.2265131004263
+        ],
+        [
+          14.756709559642172,
+          47.2265122224757
+        ],
+        [
+          14.756709475168897,
+          47.22651133449239
+        ],
+        [
+          14.75670949534622,
+          47.226510938304834
+        ],
+        [
+          14.756607621819473,
+          47.22651768204533
+        ],
+        [
+          14.755848136540923,
+          47.22652277242924
+        ],
+        [
+          14.755113683253562,
+          47.22650344471115
+        ],
+        [
+          14.75481893682112,
+          47.22648017525596
+        ],
+        [
+          14.754841843674168,
+          47.22634632976375
+        ],
+        [
+          14.75478075873271,
+          47.22670325107631
+        ],
+        [
+          14.755088155342833,
+          47.22672751922974
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "ga-northwest-1",
+          "boundary": [
+            [
+              14.755088155342833,
+              47.22672751922974
+            ],
+            [
+              14.755843364109126,
+              47.22674739314464
+            ],
+            [
+              14.756625324851928,
+              47.22674215212089
+            ],
+            [
+              14.756741893919909,
+              47.22673443557696
+            ],
+            [
+              14.756710303862613,
+              47.22651430170023
+            ],
+            [
+              14.756710113301102,
+              47.22651395972959
+            ],
+            [
+              14.756709773050906,
+              47.2265131004263
+            ],
+            [
+              14.756709559642172,
+              47.2265122224757
+            ],
+            [
+              14.756709475168897,
+              47.22651133449239
+            ],
+            [
+              14.75670949534622,
+              47.226510938304834
+            ],
+            [
+              14.756607621819473,
+              47.22651768204533
+            ],
+            [
+              14.755848136540923,
+              47.22652277242924
+            ],
+            [
+              14.755113683253562,
+              47.22650344471115
+            ],
+            [
+              14.75481893682112,
+              47.22648017525596
+            ],
+            [
+              14.754841843674168,
+              47.22634632976375
+            ],
+            [
+              14.75478075873271,
+              47.22670325107631
+            ],
+            [
+              14.755088155342833,
+              47.22672751922974
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 20
+      },
+      "source": {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.7545%2C47.2252%2C14.7648%2C47.229",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official dated2026 green GA band north of T3-T4. Author interpreted western extension65–205m afterT3,15–40m left of actual road, existing seats and GA excluded with1m margin. Source terrain standing1.65m. Partial approximate ticket geography, not surveyed boundaries or Schonberg admission."
+      },
+      "surfaceSource": {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.7545%2C47.2252%2C14.7648%2C47.229",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official dated2026 green GA band north of T3-T4. Author interpreted western extension65–205m afterT3,15–40m left of actual road, existing seats and GA excluded with1m margin. Source terrain standing1.65m. Partial approximate ticket geography, not surveyed boundaries or Schonberg admission."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Official dated2026 green GA band north of T3-T4. Author interpreted western extension65–205m afterT3,15–40m left of actual road, existing seats and GA excluded with1m margin. Source terrain standing1.65m. Partial approximate ticket geography, not surveyed boundaries or Schonberg admission."
+      },
+      "description": "北侧普通GA西端近似范围，站立观看；地形与围网可能遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Positive annual green GA sector, explicit road-relative western extension."
+      }
+    }
+  ]
+}

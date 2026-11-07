@@ -6,6 +6,7 @@ import { terrainHeight } from "../circuits/elevation";
 import {roadTerrain} from '../circuits/roadTerrain';
 import {spectatorTerrain,type TerrainFoundation} from '../circuits/spectatorTerrain';
 import {waterGeometry} from '../circuits/waterGeometry';
+import {cutPublicGround} from '../circuits/publicGroundCut';
 import {useThree} from '@react-three/fiber';
 const noFoundations:readonly TerrainFoundation[]=[];
 export function Terrain({data,geometry,colored=false,foundations=noFoundations}:{data:CircuitPackage;geometry:ReturnType<typeof createCircuitGeometry>;colored?:boolean;foundations?:readonly TerrainFoundation[]}){
@@ -43,7 +44,8 @@ export function Terrain({data,geometry,colored=false,foundations=noFoundations}:
       vertices.push(x,Math.min(foundationCut(x,z,cut(x,z,h)),level===null?Infinity:level-.2)-.3,z);
       if(r<n&&c<n){const a=r*(n+1)+c;indices.push(a,a+1,a+n+1,a+1,a+n+2,a+n+1)}
     }
-    const result=new BufferGeometry();result.setAttribute('position',new Float32BufferAttribute(vertices,3));result.setAttribute('uv',new Float32BufferAttribute(uvs,2));result.setAttribute("color",new Float32BufferAttribute(colors,3));result.setIndex(indices);result.computeVertexNormals();return result;
+    const clipped=cutPublicGround(data,geometry,vertices,indices,colors,uvs);
+    const result=new BufferGeometry();result.setAttribute('position',new Float32BufferAttribute(vertices,3));result.setAttribute('uv',new Float32BufferAttribute(uvs,2));result.setAttribute("color",new Float32BufferAttribute(colors,3));result.setIndex(clipped);result.computeVertexNormals();return result;
   },[data,geometry,water,foundations]);
   useEffect(()=>()=>mesh?.dispose(),[mesh]);
   return mesh?<><mesh geometry={mesh}><meshStandardMaterial key={`${colored}-${water.featureCount>0}`} customProgramCacheKey={()=>`terrain-${colored}-${Boolean(waterMask)}`} color={colored?'#ffffff':'#43594f'} vertexColors={colored} roughness={1} side={2} onBeforeCompile={shader=>{

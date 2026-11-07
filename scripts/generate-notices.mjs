@@ -22,6 +22,7 @@ const destination=resolve('public/licenses');await mkdir(destination,{recursive:
 let text='Third-party notices for installed production dependencies. Some packages may be removed by tree shaking.\n\n';
 for(const p of packages.sort((a,b)=>a.name.localeCompare(b.name)))text+='='.repeat(72)+'\n'+p.text+'\n';
 text+='\nSelf-hosted Barlow Condensed font\n'+await readFile('public/fonts/BarlowCondensed-OFL.txt','utf8');
+text+='\nElevation data attribution\n'+await readFile('src/data/LICENSE-elevation-EA.md','utf8');
 await writeFile(join(destination,'THIRD_PARTY_NOTICES.txt'),text);
 await copyFile('src/data/LICENSE-circuit.md',join(destination,'circuit-MIT.txt'));
 await copyFile('src/data/LICENSE-zones.md',join(destination,'shanghai-zones-ODbL.txt'));
@@ -30,9 +31,12 @@ await copyFile('src/data/LICENSE-asia.md',join(destination,'asia-zones-ODbL.txt'
 await copyFile('src/data/LICENSE-americas.md',join(destination,'americas-zones-ODbL.txt'));
 await copyFile('src/data/LICENSE-world.md',join(destination,'world-Natural-Earth.txt'));
 await copyFile('src/data/LICENSE-atlas.md',join(destination,'atlas-F1DB.txt'));
+await copyFile('src/data/LICENSE-elevation-EA.md',join(destination,'elevation-EA-OGL.txt'));
 await copyFile('src/data/LICENSE-facilities.md',join(destination,'facilities-ODbL.txt'));
 await copyFile('src/data/LICENSE-water.md',join(destination,'water-ODbL.txt'));
 await copyFile('src/data/LICENSE-elevation.md',join(destination,'GEDTM30-CC-BY-4.0.txt'));
+await copyFile('src/data/LICENSE-tinitaly.md',join(destination,'TINITALY-CC-BY-4.0.txt'));
+await copyFile('src/data/LICENSE-gsi.md',join(destination,'GSI-PDL-1.0.txt'));
 await copyFile('src/data/NOTICE-timing.md',join(destination,'timing-reference.txt'));
 await copyFile('public/atlas-layouts/ATTRIBUTION.txt',join(destination,'atlas-layouts-CC-BY-4.0.txt'));
 await copyFile('artifacts/atlas-source/LICENSE.txt',join(destination,'F1DB-CC-BY-4.0.txt'));

@@ -1,0 +1,53 @@
+{
+  "circuitId": "las-vegas",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "sourceUrl": "https://www.f1lasvegasgp.com/tickets/general-admission/",
+  "annualEvidence": {
+    "announcement": "https://www.f1lasvegasgp.com/2026/08/single-day-tickets-on-sale-now-for-formula-1-heineken-las-vegas-grand-prix-2026-set-for-november-19-21/",
+    "publishedAt": "2026-08-13",
+    "eventDates": [
+      "2026-11-19",
+      "2026-11-21"
+    ],
+    "observation": "Opened dated promoter announcement explicitly lists T-Mobile GA and Flamingo Zone GA as2026 products, with standing-room-only first-come viewing platforms. Opened current product page locates T-Mobile atSphere/T5/T7–T9 and Flamingo along Koval Straightaway. Sold-out status does not remove the annual physical viewing product.",
+    "seatingRule": "Standing eye1.65m; assigned grandstands are separate products, never relabel existing seats as GA."
+  },
+  "confirmedMissingProducts": [],
+  "modeledProducts": [
+    {
+      "productId": "t-mobile-general-admission",
+      "mapLabel": "T-Mobile General Admission",
+      "modelZoneIds": [
+        "ga-tmobile-t6"
+      ],
+      "representation": "approximate-source-mapped-standing-sector"
+    },
+    {
+      "productId": "flamingo-general-admission",
+      "mapLabel": "Flamingo General Admission",
+      "modelZoneIds": [
+        "ga-flamingo-koval"
+      ],
+      "representation": "approximate-source-mapped-standing-sector"
+    }
+  ],
+  "additionalCoverageQuestions": [],
+  "runtimeApplied": true,
+  "geographicBoundaryVerified": false,
+  "inventoryComplete": false,
+  "nextAction": "Refine physical fences/deck levels and missing Sphere architectural occluder; retain ordinary reserved-seat/GA admission separation.",
+  "limitations": "This report proves annual product identity and named sectors only. It does not prove installation footprints or complete annual grandstand inventory. Earlier zero GA model count was an uncovered gap, not proof that no GA tickets existed.",
+  "runtimeCoverage": "Both annually named GA products have expanded continuous approximate sector envelopes; exact fence/platform installation remains unverified.",
+  "practicalCoverageReview": {
+    "accepted": true,
+    "checkedAt": "2026-11-06",
+    "basis": "User accepts approximate viewing-area data. Rechecked both actual promoter Location diagrams; expanded each source-mapped sector instead of pretending a small first sample is its full extent. Both named annual GA products now have continuous estimated envelopes, separately admitted from numbered seats.",
+    "sourceMaps": [
+      "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGA-5.png",
+      "https://www.f1lasvegasgp.com/app/uploads/2026/03/FLAMINGO-1.png"
+    ],
+    "nativeExcludedWay": 976405284,
+    "limits": "No legal ticket-perimeter survey; temporary deck heights and fences estimated. T7–T9 marketing views do not imply extra GA platforms. Sphere native footprint excluded from picks, but full above-ground Sphere occlusion is not yet rendered."
+  }
+}

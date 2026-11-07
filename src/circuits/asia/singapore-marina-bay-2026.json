@@ -1,0 +1,141 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "zoneId": "marina-bay",
+  "checkedAt": "2026-11-05",
+  "zone": {
+    "zoneId": "marina-bay",
+    "name": "Marina Bay",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        103.86341680119054,
+        1.288598654504416
+      ],
+      [
+        103.86386539713654,
+        1.288574073904635
+      ],
+      [
+        103.86386146324556,
+        1.2885023167076521
+      ],
+      [
+        103.86341286729956,
+        1.288526897307433
+      ],
+      [
+        103.86341680119054,
+        1.288598654504416
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "marina-bay-1",
+        "boundary": [
+          [
+            103.86341680119054,
+            1.288598654504416
+          ],
+          [
+            103.86386539713654,
+            1.288574073904635
+          ],
+          [
+            103.86386146324556,
+            1.2885023167076521
+          ],
+          [
+            103.86341286729956,
+            1.288526897307433
+          ],
+          [
+            103.86341680119054,
+            1.288598654504416
+          ]
+        ],
+        "baseHeight": 1.8,
+        "rise": 4.5,
+        "eyeHeight": 1.2,
+        "rows": 10,
+        "frontReference": [
+          103.863647,
+          1.288694
+        ],
+        "rowStrip": {
+          "front": [
+            [
+              103.86341680119054,
+              1.288598654504416
+            ],
+            [
+              103.86386539713654,
+              1.288574073904635
+            ]
+          ],
+          "back": [
+            [
+              103.86341286729956,
+              1.288526897307433
+            ],
+            [
+              103.86386146324556,
+              1.2885023167076521
+            ]
+          ],
+          "source": {
+            "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/marina-bay-grandstand/",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Promoter locates MarinaBay atT18 with final-sector views; early2026 map places separate outer bank. User-approved estimate50m length/8m depth,12m front offset,10rows,1.8m platform/4.5m rise. Narrow shore-constrained approximation, not surveyed footprint. Initial12m-depth draft overlapped water and was rejected."
+          }
+        },
+        "rowBearing": "local-normal"
+      }
+    ],
+    "surface": {
+      "baseHeight": 1.8,
+      "rise": 4.5,
+      "depth": 8,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/marina-bay-grandstand/",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Promoter locates MarinaBay atT18 with final-sector views; early2026 map places separate outer bank. User-approved estimate50m length/8m depth,12m front offset,10rows,1.8m platform/4.5m rise. Narrow shore-constrained approximation, not surveyed footprint. Initial12m-depth draft overlapped water and was rejected."
+    },
+    "openingSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/marina-bay-grandstand/",
+      "checkedAt": "2026-11-05",
+      "method": "published",
+      "confidence": "medium",
+      "notes": "Explicit named2026 ordinary reserved-seat product; catalogue snapshot retained in annual-access review. No live availability claim."
+    },
+    "surfaceSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/marina-bay-grandstand/",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Promoter locates MarinaBay atT18 with final-sector views; early2026 map places separate outer bank. User-approved estimate50m length/8m depth,12m front offset,10rows,1.8m platform/4.5m rise. Narrow shore-constrained approximation, not surveyed footprint. Initial12m-depth draft overlapped water and was rejected."
+    },
+    "description": "十八号弯岸边近似看台；范围、排数与高度为估计。",
+    "geometryReview": {
+      "checkedAt": "2026-11-05",
+      "issues": [],
+      "method": "Approximate shore-sideT18 bank; water and road/neighbor clearance screened."
+    }
+  },
+  "sourceMap": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+  "accuracy": "Practical author approximation permitted by user; no seat survey claim.",
+  "waterReview": {
+    "overlapM2": 0,
+    "source": "src/circuits/water/singapore.json",
+    "rejectedInitialDepthMetres": 12,
+    "acceptedEstimatedDepthMetres": 8
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "circuitId": "yas-marina",
+  "season": 2026,
+  "checkedAt": "2026-11-05",
+  "sourceUrl": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+  "annualEvidence": "Promoter2026 ticket catalogue and year-specific product page; web-reader snapshot differs from direct HTML product subset. Neither is a complete final spectator map.",
+  "rawSnapshots": {
+    "tickets.html": "c135c81e6abc21c95f1ce24a41e362c535df78f1d94d45a3488f3c12c5cc711d",
+    "hill.html": "bb5d9f4bc43824aa23c79826f25a388b34b9d24a6f0ceb59b77e77073b34f6c1"
+  },
+  "confirmedMissingProducts": [],
+  "hillSourceUrl": "https://www.abudhabigp.com/en/formula1/tickets-2026/abudhabi-hill-4day",
+  "runtimeApplied": false,
+  "geographicBoundaryVerified": false,
+  "inventoryComplete": false,
+  "additionalCoverageQuestions": [
+    "Obtain2026 final map; verify current Main/South/North-family subface identities and full coverage.",
+    "NorthStraight and West are now independently modeled approximate families; do not duplicate WestClub seats. Main geographic sub-block placement remains approximate.",
+    "West Pavilion now independently modeled as approximate standing terrace; suites and other hospitality still need physical admission association, not automatic extra stands.",
+    "Roaming Oasis/concert-only products are not positive race-viewing grass polygons. Hill admits viewing platforms but does not identify their georeferenced boundaries.",
+    "West Club: same colored West stand family, ordinary+Club seat subsets and dedicated lounge still need mapping; replacing a missing stand-family record does not close this coverage question."
+  ],
+  "nextAction": "Hill,Marina,WestStraight,NorthStraight and West available as explicit approximate models. Main ordinary M00-M09 lower floors reconstructed with sourced8/6 row counts and estimated positions/heights; rear/hospitality/accessible layers and canopies remain facility/coverage limitations.",
+  "geometryReview": "src/circuits/season-review/yas-marina-hill-geometry-2026.json",
+  "northStraightGeometryReview": "src/circuits/season-review/yas-marina-north-straight-geometry-2026.json",
+  "marinaGeometryReview": "src/circuits/season-review/yas-marina-marina-geometry-2026.json",
+  "westProductFamilyReview": "src/circuits/season-review/yas-marina-west-product-families-2026.json",
+  "mainLayerReview": "src/circuits/season-review/yas-marina-main-layer-review-2026.json",
+  "modeledProducts": [
+    {
+      "productId": "abu-dhabi-hill",
+      "mapLabel": "Abu Dhabi Hill",
+      "ticketClass": "grass",
+      "modelZoneId": "abu-dhabi-hill",
+      "reason": "Explicit2026 promoter product: unreserved grass viewing Turns2–6, roaming viewing platforms. Currently unavailable is not proof of cancellation. Exact positive boundary missing.",
+      "modelReview": "src/circuits/asia/yas-hill-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "marina",
+      "mapLabel": "Marina Grandstand",
+      "ticketClass": "grandstand",
+      "modelZoneId": "marina",
+      "reason": "Separately named reserved-seat product in2026 catalogue, absent from current five zone IDs.",
+      "modelReview": "src/circuits/asia/yas-marina-stand-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "west-straight",
+      "mapLabel": "West Straight Grandstand",
+      "ticketClass": "grandstand",
+      "modelZoneId": "west-straight",
+      "reason": "Explicit2026 reserved-seat product and independent rectangular West Straight map; distinct from West and North Straight, absent from current five modeled zones.",
+      "modelReview": "src/circuits/asia/yas-west-straight-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "north-straight",
+      "mapLabel": "North Straight Grandstand",
+      "ticketClass": "grandstand",
+      "modelZoneId": "north-straight",
+      "reason": "Separately named reserved-seat product in current2026 catalogue; not the North West/Crown/East model family.",
+      "modelReview": "src/circuits/asia/yas-north-straight-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "west-grandstand",
+      "mapLabel": "West Grandstand",
+      "ticketClass": "grandstand",
+      "modelZoneId": "west-grandstand",
+      "reason": "Explicit2026 ordinary reserved-seat product, independently colored L-shaped West map; Club seat access is within this family, not another duplicate stand.",
+      "modelReview": "src/circuits/asia/yas-west-grandstand-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "west-pavilion",
+      "mapLabel": "West Pavilion",
+      "ticketClass": "general-admission",
+      "modelZoneId": "west-pavilion",
+      "modelReview": "src/circuits/asia/yas-west-pavilion-2026.json",
+      "accuracy": "approximate",
+      "reason": "2026 primary publisher product page/map identifies separate elevated terrace outsideT7 exit. Unreserved seats/standing tables; terrace closedThursday. Not ordinary West/WestClub seat alias."
+    }
+  ],
+  "mainApproximationReview": "src/circuits/asia/yas-main-2026.json"
+}

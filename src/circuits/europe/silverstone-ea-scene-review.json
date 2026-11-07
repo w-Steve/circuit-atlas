@@ -1,0 +1,51 @@
+{
+  "candidateOnly": false,
+  "sceneAccepted": true,
+  "samplesPerZone": 441,
+  "maxGrade": 0.041065758778496525,
+  "maxRoadDelta": 0.03865958174176143,
+  "requiresFoundationReview": [],
+  "limits": "Clearances use uncut bare-earth DEM, not display foundation cuts. Negative clearance requires source/structure review; it is not by itself proof of actual rendered penetration or a reason to raise eyes.",
+  "checkedAt": "2026-10-28",
+  "circuitId": "silverstone",
+  "availableZonesSampled": 22,
+  "candidateSha256": "b636e10e7584c819d822ffd77a49b8a32bd3b6b57bfd38cd2a2f8ef339151532",
+  "runtimePackageSha256": "6e6d0ed4c5c78ef576e395355bda3bf8bd8fc3a1140340d443c36f23377b71b7",
+  "nextAction": "EA terrain applied locally. Resume Silverstone annual missing/withheld spectator products;22 current models do not prove complete annual coverage.",
+  "resolvedFoundationFindings": [
+    {
+      "zoneId": "copse-d",
+      "minFloorAboveGround": -1.0437189926319554,
+      "baselineMinFloorAboveGround": 1.6275836714689937,
+      "minEyeAboveFloor": 1.1999999999999993,
+      "minAt": {
+        "u": 0.001,
+        "v": 0.001
+      }
+    }
+  ],
+  "resolutionSource": "src/circuits/europe/silverstone-copse-d-datum-2026.json",
+  "facilities": {
+    "pitSamples": 3771768,
+    "minPitClearance": 0.09009600078546498,
+    "maxPitTerrainPenetration": 0,
+    "buildings": [
+      {
+        "name": "P 房 / 车库",
+        "foundationExtensionAtCornersMetres": 0.33924917232582175,
+        "foundationClosedToTerrain": true,
+        "heightMetres": 30
+      }
+    ]
+  },
+  "releaseEvidence": {
+    "unitTestsPassed": 434,
+    "browserCasesPassed": 15,
+    "performanceCasesPassed": 3,
+    "pythonTestsPassed": 8,
+    "artifactRoot": "artifacts/goal-review/silverstone-ea/release",
+    "groundRegenerationFiveFilesByteIdentical": true,
+    "visiblePitTriangles": 53167,
+    "performanceLimit": "Local headless Edge with device emulation only, not real mobile hardware."
+  }
+}

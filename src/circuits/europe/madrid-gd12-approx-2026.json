@@ -1,0 +1,113 @@
+{
+  "circuitId": "madrid",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "gd12",
+      "name": "GD12 看台",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          -3.6241900975748087,
+          40.47736399357547
+        ],
+        [
+          -3.6245761019648848,
+          40.47691203868659
+        ],
+        [
+          -3.6247147140401923,
+          40.476980562233905
+        ],
+        [
+          -3.624328709650116,
+          40.477432517122786
+        ],
+        [
+          -3.6241900975748087,
+          40.47736399357547
+        ]
+      ],
+      "surface": {
+        "baseHeight": 1.5,
+        "rise": 6.75,
+        "depth": 14,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "gd12-1",
+          "boundary": [
+            [
+              -3.6241900975748087,
+              40.47736399357547
+            ],
+            [
+              -3.6245761019648848,
+              40.47691203868659
+            ],
+            [
+              -3.6247147140401923,
+              40.476980562233905
+            ],
+            [
+              -3.624328709650116,
+              40.477432517122786
+            ],
+            [
+              -3.6241900975748087,
+              40.47736399357547
+            ]
+          ],
+          "baseHeight": 1.5,
+          "rise": 6.75,
+          "rows": 16,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -3.624204884244451,
+            40.47704991442735
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.madring.com/img/xl/mapa-madring/mapa_web_11_8_26_ing.webp",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Explicit2026 organizer overview GD12 label besideT13 braking approach, separate fromGE1-GE3 andGD11. Author60x14m nearT13-90m, driver-right18-32m,16 render steps, base1.5m/rise6.75m estimated. Detailed SVG remains unavailable; not surveyed annual footprint or verified ordinary-ticket allocation."
+      },
+      "openingSource": {
+        "url": "https://www.madring.com/img/xl/mapa-madring/mapa_web_11_8_26_ing.webp",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Annual organizer overview namesGD12; exact ticket/hospitality entitlement unresolved."
+      },
+      "surfaceSource": {
+        "url": "https://www.madring.com/img/xl/mapa-madring/mapa_web_11_8_26_ing.webp",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Explicit2026 organizer overview GD12 label besideT13 braking approach, separate fromGE1-GE3 andGD11. Author60x14m nearT13-90m, driver-right18-32m,16 render steps, base1.5m/rise6.75m estimated. Detailed SVG remains unavailable; not surveyed annual footprint or verified ordinary-ticket allocation."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Positive annual overview label plus road-relative author estimate; registered roads, seat areas, buildings and pit lanes excluded."
+      },
+      "boundarySource": {
+        "url": "https://www.madring.com/img/xl/mapa-madring/mapa_web_11_8_26_ing.webp",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Explicit2026 organizer overview GD12 label besideT13 braking approach, separate fromGE1-GE3 andGD11. Author60x14m nearT13-90m, driver-right18-32m,16 render steps, base1.5m/rise6.75m estimated. Detailed SVG remains unavailable; not surveyed annual footprint or verified ordinary-ticket allocation."
+      },
+      "admissionNote": "GD12 近似看台视点；普通票／接待票对应及现场边界仍待核实，不表示任意门票可进入。",
+      "description": "T13入弯前的近似观赛位置，保留正常遮挡。"
+    }
+  ],
+  "beforeZones": [],
+  "ordinaryAccessVerified": false,
+  "approximateExperienceAccepted": true
+}

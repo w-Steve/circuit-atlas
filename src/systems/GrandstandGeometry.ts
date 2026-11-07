@@ -1,4 +1,3 @@
-import {circuitRuntime} from "../circuits/runtime";
 import { BufferGeometry, Float32BufferAttribute, Vector3 } from "three";
 import { facilities as f, local } from "../data/config";
 import type { Selection } from "../store";
@@ -33,7 +32,6 @@ export function validSelection(s: Selection) {
   );
 }
 export function observer(s: Selection) {
-  if(circuitRuntime.current)return circuitRuntime.current.spectators.zonePoint(s.zoneId!,s.u,s.v);
   if (!validSelection(s)) throw Error("Invalid grandstand point");
   if(s.zoneId && s.zoneId!=='a')return zonePoint(s.zoneId,s.u,s.v);
   const t = tierData(s.tier);
@@ -48,7 +46,6 @@ export function observer(s: Selection) {
   );
 }
 export function lookTarget(s:Selection){
-  if(circuitRuntime.current)return circuitRuntime.current.spectators.facingTarget(s.zoneId!,s.u,s.v).add(new Vector3(0,.9,0));
   if(!s.zoneId||s.zoneId==='a'){
     const u=s.tier==='platinum'?.35+s.u*.3:s.u;
     return new Vector3(...local((u-.5)*f.stand.length,4,0));

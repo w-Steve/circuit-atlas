@@ -1,0 +1,84 @@
+{
+  "circuitId": "silverstone",
+  "availability": "available",
+  "barriers": [
+    {
+      "id": "nps-ga-catch-fence",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          -1.0183012723112457,
+          52.0791275960318
+        ],
+        [
+          -1.018239,
+          52.0791511
+        ],
+        [
+          -1.018233,
+          52.0791265
+        ],
+        [
+          -1.0178446,
+          52.079142
+        ],
+        [
+          -1.0169415,
+          52.07918
+        ],
+        [
+          -1.01677214982415,
+          52.079191128218476
+        ]
+      ],
+      "heightMetres": 3.5,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/507990933",
+        "checkedAt": "2026-10-28",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Exact excerpt of native plan line, not relocated. Fence3.5m / wall1.0m height and0.25m wall width are estimates; endpoints limit modeled context, not actual barrier termini."
+      }
+    },
+    {
+      "id": "nps-ga-concrete-wall",
+      "kind": "concrete-wall",
+      "coordinates": [
+        [
+          -1.016770282615722,
+          52.07918191177406
+        ],
+        [
+          -1.0168748,
+          52.0791749
+        ],
+        [
+          -1.0175067,
+          52.0791441
+        ],
+        [
+          -1.0180087,
+          52.0791272
+        ],
+        [
+          -1.0182421,
+          52.0791193
+        ],
+        [
+          -1.0182445,
+          52.0791446
+        ]
+      ],
+      "heightMetres": 1.0,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/507977965",
+        "checkedAt": "2026-10-28",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Exact excerpt of native plan line, not relocated. Fence3.5m / wall1.0m height and0.25m wall width are estimates; endpoints limit modeled context, not actual barrier termini."
+      },
+      "widthMetres": 0.25
+    }
+  ],
+  "notes": "Native NPS plan excerpts; source heights estimated. Mandatory for GA and NPS seating views; do not silently omit on resource errors."
+}

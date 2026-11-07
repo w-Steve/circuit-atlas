@@ -1,0 +1,177 @@
+{
+  "circuitId": "yas-marina",
+  "season": 2026,
+  "zoneId": "marina",
+  "checkedAt": "2026-11-05",
+  "zone": {
+    "zoneId": "marina",
+    "name": "Marina",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        54.605326501335085,
+        24.464515510660995
+      ],
+      [
+        54.60339639866491,
+        24.46593941933901
+      ],
+      [
+        54.60329112895434,
+        24.465821194703704
+      ],
+      [
+        54.60522201104566,
+        24.464396729296297
+      ],
+      [
+        54.605326501335085,
+        24.464515510660995
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "marina-1",
+        "boundary": [
+          [
+            54.605326501335085,
+            24.464515510660995
+          ],
+          [
+            54.60339639866491,
+            24.46593941933901
+          ],
+          [
+            54.60329112895434,
+            24.465821194703704
+          ],
+          [
+            54.60522201104566,
+            24.464396729296297
+          ],
+          [
+            54.605326501335085,
+            24.464515510660995
+          ]
+        ],
+        "baseHeight": 8.5,
+        "rise": 8.4,
+        "rows": 16,
+        "eyeHeight": 1.2,
+        "frontReference": [
+          54.60454755759069,
+          24.465441503952558
+        ],
+        "rowStrip": {
+          "front": [
+            [
+              54.605326501335085,
+              24.464515510660995
+            ],
+            [
+              54.60339639866491,
+              24.46593941933901
+            ]
+          ],
+          "back": [
+            [
+              54.60522201104566,
+              24.464396729296297
+            ],
+            [
+              54.60329112895434,
+              24.465821194703704
+            ]
+          ],
+          "source": {
+            "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/marina-grandstand-4day",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "2026 promoter Marina identity, named OSM133907079 main roof and actual public viewerMR01–MR07 A–R16 rows (skipI/O). Seating is above support garages. Inner straight main-roof strip estimates usable bank, excluding end service projections. First floor8.5m/rise8.4m/canopy dimensions are user-approved estimates; viewer coordinates have no proven metric datum."
+          }
+        },
+        "rowBearing": "local-normal",
+        "canopy": {
+          "rearClearanceMetres": 3,
+          "crownMetres": 0.5,
+          "postWidthMetres": 0.2,
+          "supportU": [
+            0.0,
+            0.08333333333333333,
+            0.16666666666666666,
+            0.25,
+            0.3333333333333333,
+            0.4166666666666667,
+            0.5,
+            0.5833333333333334,
+            0.6666666666666666,
+            0.75,
+            0.8333333333333334,
+            0.9166666666666666,
+            1.0
+          ],
+          "supportEdges": [
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "source": {
+            "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/marina-grandstand-4day",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "2026 promoter Marina identity, named OSM133907079 main roof and actual public viewerMR01–MR07 A–R16 rows (skipI/O). Seating is above support garages. Inner straight main-roof strip estimates usable bank, excluding end service projections. First floor8.5m/rise8.4m/canopy dimensions are user-approved estimates; viewer coordinates have no proven metric datum."
+          }
+        }
+      }
+    ],
+    "surface": {
+      "baseHeight": 8.5,
+      "rise": 8.4,
+      "eyeHeight": 1.2,
+      "depth": 16.939203412490222
+    },
+    "source": {
+      "url": "https://www.openstreetmap.org/way/133907079",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "Usable estimated main seat band derived inside named building envelope, not the full roof/service footprint."
+    },
+    "openingSource": {
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/marina-grandstand-4day",
+      "checkedAt": "2026-11-05",
+      "method": "published",
+      "confidence": "high",
+      "notes": "Separate2026 promoter ordinary Marina Grandstand product, not a live ticket availability claim."
+    },
+    "surfaceSource": {
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/marina-grandstand-4day",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "2026 promoter Marina identity, named OSM133907079 main roof and actual public viewerMR01–MR07 A–R16 rows (skipI/O). Seating is above support garages. Inner straight main-roof strip estimates usable bank, excluding end service projections. First floor8.5m/rise8.4m/canopy dimensions are user-approved estimates; viewer coordinates have no proven metric datum."
+    },
+    "description": "车库上方的近似看台；16排来自座席资料，边界、高度与顶棚尺寸为估计。",
+    "geometryReview": {
+      "checkedAt": "2026-11-05",
+      "issues": [],
+      "method": "Main roof inner strip approximation with elevated seating and canopy; road/neighbor/facility clearance screened."
+    }
+  },
+  "sourceReview": "src/circuits/season-review/yas-marina-marina-geometry-2026.json",
+  "seatReview": "src/circuits/season-review/yas-marina-marina-seat-layout-2026.json",
+  "accuracy": "User-approved approximate seat boundary and structural heights; not survey.",
+  "registeredFacilityOverlapM2": {
+    "pit": 0.0,
+    "buildings": 0.0
+  }
+}

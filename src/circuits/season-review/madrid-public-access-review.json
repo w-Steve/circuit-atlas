@@ -1,0 +1,73 @@
+{
+  "circuitId": "madrid",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "inventoryComplete": false,
+  "scope": "Annual access uncertainty retained; explicitly approximate physical viewpoints accepted separately.",
+  "sources": {
+    "venueMap": {
+      "url": "https://www.madring.com/img/xl/mapa-madring/mapa_web_11_8_26_ing.webp",
+      "sha256": "99ac1e3d5f822f0b650da0f727956c7f8c7d64c9616327f4cfc0cedebacaf241",
+      "label": "GE23",
+      "hospitalityMarker": 7,
+      "markerName": "Ignition Club"
+    },
+    "historicProduct": {
+      "url": "https://web.archive.org/web/20260307154923id_/https://hospitality.madring.com/en/f1/ignition-club/",
+      "sha256": "e3829a56ef747d6e10a25d61d44498c45bde03d45be41f325d4e68e8cbbc02b2",
+      "timestamp": "20260307154923",
+      "cdxDigestMatchesReplay": true,
+      "facts": "The 2026 Ignition Club package includes reserved grandstand seating; guests choose seats subject to availability. The page does not identify GE23 by code."
+    },
+    "liveProduct": {
+      "url": "https://hospitality.madring.com/en/f1/ignition-club/",
+      "sha256": "80ebf6f4087cb1f42266c55e8032c41411dc60ae3e6eb168f3c1179fd76d48bd",
+      "year": 2027,
+      "limitation": "Current-year terms cannot establish 2026 ordinary admission."
+    },
+    "annualNamedStandReport": {
+      "url": "https://www.20minutos.es/deportes/deportes_motor/formula-1/cuales-son-mejores-gradas-madring-circuito-formula-1-madrid-que-se-vera-desde-cada-zona_7029717_0.html",
+      "publisher": "20minutos",
+      "author": "Sergio Palencia",
+      "publishedAt": "2026-08-27T15:10",
+      "retrievedAt": "2026-11-06",
+      "fact": "GE23/GE24 explicitly listed among Valdebebas linked-corner grandstands.",
+      "scope": "Dated journalistic annual stand identity corroboration. Not an organizer ticket-to-seat access crosswalk or geographic boundary."
+    },
+    "annualTicketEntryRecheck": {
+      "sourceReview": "src/circuits/season-review/madrid-admission-recheck-2026.json",
+      "url": "https://feverup.com/m/432252/en?thm=5513",
+      "status": 404,
+      "checkedAt": "2026-11-07",
+      "inference": "No change to ordinaryAccessVerified or exclusivity; approximate views retained."
+    }
+  },
+  "areas": [
+    {
+      "zoneId": "t13t14",
+      "mapLabel": "GE23",
+      "relatedHospitalityProduct": "Ignition Club",
+      "hospitalityProductConfirmed2026": true,
+      "ordinaryAccessVerified": false,
+      "wholeBankHospitalityExclusiveVerified": false,
+      "modelGeometryAccepted": true,
+      "recordedGeometryIssues": [],
+      "nextAction": "Refine ordinary/hospitality ticket allocation and source occluded edges; explicit approximate viewpoint is available with admission note.",
+      "annualNamedStandPresenceCorroborated": true,
+      "ordinaryAccessInferredFromReport": false,
+      "approximateExperienceAccepted": true,
+      "approximateModelReview": "src/circuits/europe/madrid-remaining-approx-2026.json"
+    },
+    {
+      "zoneId": "gd12",
+      "mapLabel": "GD12",
+      "ordinaryAccessVerified": false,
+      "wholeBankHospitalityExclusiveVerified": false,
+      "modelGeometryAccepted": true,
+      "approximateExperienceAccepted": true,
+      "annualNamedStandPresenceCorroborated": true,
+      "approximateModelReview": "src/circuits/europe/madrid-gd12-approx-2026.json",
+      "nextAction": "Approximate annual-map viewpoint available; refine ordinary/hospitality ticket allocation and exact boundary."
+    }
+  ]
+}

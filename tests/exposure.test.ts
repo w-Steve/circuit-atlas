@@ -14,13 +14,13 @@ it('uses centered real exposure times and larger physical travel for slower shut
   for(const count of [4,16,48]){
     const times=sampleTimes(1/60,count);expect(times.reduce((a,b)=>a+b,0)).toBeCloseTo(0,12);
     expect(times[0]).toBeCloseTo(-times.at(-1)!,12);
-    const slow=freezeMoment(simulation,camera,60,'fixed'),fast=freezeMoment(simulation,camera,4000,'fixed');
+    const slow=freezeMoment(simulation,camera,60,'fixed',{cockpitAt,placeVehicle}),fast=freezeMoment(simulation,camera,4000,'fixed',{cockpitAt,placeVehicle});
     expect((sampleDistance(slow,slow.seconds/2)-sampleDistance(slow,-slow.seconds/2))/(sampleDistance(fast,fast.seconds/2)-sampleDistance(fast,-fast.seconds/2))).toBeCloseTo(4000/60,6);
     expect(sampleDistance(slow,1/120)-slow.distance).toBeCloseTo(200/3.6/120,6);
   }
 });
 it('ideal panning preserves the existing off-center cockpit projection and moves the background',()=>{
-  const {simulation,camera}=context(),moment=freezeMoment(simulation,camera,60,'tracking');
+  const {simulation,camera}=context(),moment=freezeMoment(simulation,camera,60,'tracking',{cockpitAt,placeVehicle});
   const original=cockpitAt(moment.distance).project(camera),background=at(moment.distance+180).project(camera);
   for(const t of [-1/120,1/120]){
     const sampled=camera.clone();sampled.quaternion.copy(exposureQuaternion(moment,t));sampled.updateMatrixWorld(true);
@@ -32,7 +32,7 @@ it('ideal panning preserves the existing off-center cockpit projection and moves
 });
 it('paused scenes have zero relative motion and snapshots do not follow later simulation changes',()=>{
   const {simulation,camera}=context();simulation.pause();
-  const moment=freezeMoment(simulation,camera,60,'tracking');expect(moment.velocity).toBe(0);
+  const moment=freezeMoment(simulation,camera,60,'tracking',{cockpitAt,placeVehicle});expect(moment.velocity).toBe(0);
   expect(sampleCount(moment,camera,1200,48)).toBe(1);
   const distance=moment.distance;simulation.play();simulation.advance(1);
   expect(sampleDistance(moment,1/120)).toBe(distance);
@@ -47,7 +47,7 @@ it('borrows the real vehicle pose and always restores live geometry, including r
     expect(vehicle.rotation.y).toBeCloseTo(Math.atan2(tangent(100).x,tangent(100).z),9);
     expect(vehicle.rotation.x).toBeCloseTo(-Math.asin(tangent(100).y),9);
     throw Error('readback failed');
-  })).toThrow('readback failed');
+  },placeVehicle)).toThrow('readback failed');
   expect(vehicle.position.equals(position)).toBe(true);expect(vehicle.quaternion.equals(q)).toBe(true);expect(vehicle.scale.equals(scale)).toBe(true);
   const actual=new Group();placeVehicle(actual,100);expect(actual.position.distanceTo(at(100).add(new Vector3(0,.22,0)))).toBe(0);
 });
@@ -60,7 +60,7 @@ it('keeps parked vehicle orientation stable after quaternion restoration at ever
   for(let distance=0;distance<5451;distance+=37){
     placeVehicle(vehicle,distance);const before=vehicle.quaternion.clone(),position=vehicle.position.clone();
     for(let shot=0;shot<3;shot++){
-      withVehicleSample(vehicle,distance+.5,()=>{});
+      withVehicleSample(vehicle,distance+.5,()=>{},placeVehicle);
       // The live render loop places even paused/ended vehicles on each frame.
       placeVehicle(vehicle,distance);
       expect(1-Math.abs(vehicle.quaternion.dot(before))).toBeLessThan(1e-12);

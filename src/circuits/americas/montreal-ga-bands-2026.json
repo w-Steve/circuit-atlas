@@ -1,0 +1,1044 @@
+{
+  "circuitId": "montreal",
+  "season": 2026,
+  "beforeZones": [
+    {
+      "zoneId": "ga-hairpin-approach",
+      "name": "GA · 发夹弯前",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          -73.52761004670738,
+          45.51000276696228
+        ],
+        [
+          -73.52740576970724,
+          45.51058524152417
+        ],
+        [
+          -73.5273842087596,
+          45.51066564631367
+        ],
+        [
+          -73.52721385503827,
+          45.51132871541362
+        ],
+        [
+          -73.52719870094256,
+          45.51141452068008
+        ],
+        [
+          -73.52715479386771,
+          45.51177455869392
+        ],
+        [
+          -73.5271613750297,
+          45.51168952188473
+        ],
+        [
+          -73.52715889890882,
+          45.51168459476103
+        ],
+        [
+          -73.52715293009335,
+          45.511681466330835
+        ],
+        [
+          -73.52712732851926,
+          45.51168014273802
+        ],
+        [
+          -73.52713376977381,
+          45.511589762680714
+        ],
+        [
+          -73.52713161985446,
+          45.511583170121895
+        ],
+        [
+          -73.52712598430857,
+          45.51157819521963
+        ],
+        [
+          -73.52712112662743,
+          45.51157607381324
+        ],
+        [
+          -73.52711523166892,
+          45.511574881612496
+        ],
+        [
+          -73.52702623418247,
+          45.51157180077467
+        ],
+        [
+          -73.52702822883433,
+          45.511542978246844
+        ],
+        [
+          -73.52702756426432,
+          45.51153955627378
+        ],
+        [
+          -73.52702461965424,
+          45.511534960796745
+        ],
+        [
+          -73.5270184126757,
+          45.51153073118487
+        ],
+        [
+          -73.5270106498997,
+          45.511528572442444
+        ],
+        [
+          -73.52697913341186,
+          45.51152728118523
+        ],
+        [
+          -73.52699437743996,
+          45.511402280154726
+        ],
+        [
+          -73.52700254535971,
+          45.511356461963395
+        ],
+        [
+          -73.52706757610704,
+          45.511343369964756
+        ],
+        [
+          -73.52713373565439,
+          45.511350187566876
+        ],
+        [
+          -73.52714098470366,
+          45.51134945185349
+        ],
+        [
+          -73.52714497063523,
+          45.51134742869598
+        ],
+        [
+          -73.5271470785437,
+          45.511345296464356
+        ],
+        [
+          -73.5271695131063,
+          45.511304036773225
+        ],
+        [
+          -73.52723944518738,
+          45.51095368528201
+        ],
+        [
+          -73.52742979071812,
+          45.51027193853333
+        ],
+        [
+          -73.52753848809301,
+          45.50999043844171
+        ],
+        [
+          -73.52761004670738,
+          45.51000276696228
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "ga-hairpin-approach-2",
+          "boundary": [
+            [
+              -73.52761004670738,
+              45.51000276696228
+            ],
+            [
+              -73.52740576970724,
+              45.51058524152417
+            ],
+            [
+              -73.5273842087596,
+              45.51066564631367
+            ],
+            [
+              -73.52721385503827,
+              45.51132871541362
+            ],
+            [
+              -73.52719870094256,
+              45.51141452068008
+            ],
+            [
+              -73.52715479386771,
+              45.51177455869392
+            ],
+            [
+              -73.5271613750297,
+              45.51168952188473
+            ],
+            [
+              -73.52715889890882,
+              45.51168459476103
+            ],
+            [
+              -73.52715293009335,
+              45.511681466330835
+            ],
+            [
+              -73.52712732851926,
+              45.51168014273802
+            ],
+            [
+              -73.52713376977381,
+              45.511589762680714
+            ],
+            [
+              -73.52713161985446,
+              45.511583170121895
+            ],
+            [
+              -73.52712598430857,
+              45.51157819521963
+            ],
+            [
+              -73.52712112662743,
+              45.51157607381324
+            ],
+            [
+              -73.52711523166892,
+              45.511574881612496
+            ],
+            [
+              -73.52702623418247,
+              45.51157180077467
+            ],
+            [
+              -73.52702822883433,
+              45.511542978246844
+            ],
+            [
+              -73.52702756426432,
+              45.51153955627378
+            ],
+            [
+              -73.52702461965424,
+              45.511534960796745
+            ],
+            [
+              -73.5270184126757,
+              45.51153073118487
+            ],
+            [
+              -73.5270106498997,
+              45.511528572442444
+            ],
+            [
+              -73.52697913341186,
+              45.51152728118523
+            ],
+            [
+              -73.52699437743996,
+              45.511402280154726
+            ],
+            [
+              -73.52700254535971,
+              45.511356461963395
+            ],
+            [
+              -73.52706757610704,
+              45.511343369964756
+            ],
+            [
+              -73.52713373565439,
+              45.511350187566876
+            ],
+            [
+              -73.52714098470366,
+              45.51134945185349
+            ],
+            [
+              -73.52714497063523,
+              45.51134742869598
+            ],
+            [
+              -73.5271470785437,
+              45.511345296464356
+            ],
+            [
+              -73.5271695131063,
+              45.511304036773225
+            ],
+            [
+              -73.52723944518738,
+              45.51095368528201
+            ],
+            [
+              -73.52742979071812,
+              45.51027193853333
+            ],
+            [
+              -73.52753848809301,
+              45.50999043844171
+            ],
+            [
+              -73.52761004670738,
+              45.51000276696228
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4
+        },
+        {
+          "surfaceId": "ga-hairpin-approach-1",
+          "boundary": [
+            [
+              -73.52694889737874,
+              45.5117752166567
+            ],
+            [
+              -73.52695184346695,
+              45.51175105873341
+            ],
+            [
+              -73.5269619938362,
+              45.51174684878098
+            ],
+            [
+              -73.52696705896034,
+              45.511743670488855
+            ],
+            [
+              -73.52697106325299,
+              45.51173844681891
+            ],
+            [
+              -73.52697196805786,
+              45.51173422450545
+            ],
+            [
+              -73.52696999365232,
+              45.51172718733118
+            ],
+            [
+              -73.52695669233599,
+              45.51171129800738
+            ],
+            [
+              -73.52696570515161,
+              45.511637392919205
+            ],
+            [
+              -73.52700321294647,
+              45.51163848951804
+            ],
+            [
+              -73.52700039148226,
+              45.51167721075946
+            ],
+            [
+              -73.52700158946061,
+              45.51168148607929
+            ],
+            [
+              -73.52700454943437,
+              45.51168430271702
+            ],
+            [
+              -73.52701001954613,
+              45.51168637258664
+            ],
+            [
+              -73.52703444075344,
+              45.511687472152616
+            ],
+            [
+              -73.52702779822472,
+              45.51177994341497
+            ],
+            [
+              -73.52694889737874,
+              45.5117752166567
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 16
+      },
+      "source": {
+        "url": "https://gpcanada.ca/en/event/site-map/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Reported Yellow Zone viewing sector; author14–30m road-relative band clipped to official event zone and excluding registered seats/services/buildings/pits/water/Blue area. Source terrain and standing1.65m; not surveyed GA boundary."
+      },
+      "surfaceSource": {
+        "url": "https://gpcanada.ca/en/event/site-map/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Reported Yellow Zone viewing sector; author14–30m road-relative band clipped to official event zone and excluding registered seats/services/buildings/pits/water/Blue area. Source terrain and standing1.65m; not surveyed GA boundary."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260413110837id_/https://gpcanada.ca/en/tickets/general-admission/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Annual2026 organizer GA rights, excluding Blue/Senna and VIP; no reserved seating."
+      },
+      "description": "普通GA近似观赛范围，站立观看；围网、地形及其他观众可能影响视线。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Source event-zone clipped interpretation; actual road and facilities checked separately."
+      }
+    },
+    {
+      "zoneId": "ga-casino-straight",
+      "name": "GA · 赌场直道",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          -73.52509387169539,
+          45.5089383708733
+        ],
+        [
+          -73.52470076590119,
+          45.507619373538375
+        ],
+        [
+          -73.52490150170858,
+          45.50758998446039
+        ],
+        [
+          -73.52529460750279,
+          45.50890898179532
+        ],
+        [
+          -73.52509387169539,
+          45.5089383708733
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "ga-casino-straight-1",
+          "boundary": [
+            [
+              -73.52509387169539,
+              45.5089383708733
+            ],
+            [
+              -73.52470076590119,
+              45.507619373538375
+            ],
+            [
+              -73.52490150170858,
+              45.50758998446039
+            ],
+            [
+              -73.52529460750279,
+              45.50890898179532
+            ],
+            [
+              -73.52509387169539,
+              45.5089383708733
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 16
+      },
+      "source": {
+        "url": "https://gpcanada.ca/en/event/site-map/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Reported Green Zone viewing sector; author14–30m road-relative band clipped to official event zone and excluding registered seats/services/buildings/pits/water/Blue area. Source terrain and standing1.65m; not surveyed GA boundary."
+      },
+      "surfaceSource": {
+        "url": "https://gpcanada.ca/en/event/site-map/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Reported Green Zone viewing sector; author14–30m road-relative band clipped to official event zone and excluding registered seats/services/buildings/pits/water/Blue area. Source terrain and standing1.65m; not surveyed GA boundary."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260413110837id_/https://gpcanada.ca/en/tickets/general-admission/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Annual2026 organizer GA rights, excluding Blue/Senna and VIP; no reserved seating."
+      },
+      "description": "普通GA近似观赛范围，站立观看；围网、地形及其他观众可能影响视线。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Source event-zone clipped interpretation; actual road and facilities checked separately."
+      }
+    }
+  ],
+  "zones": [
+    {
+      "zoneId": "ga-hairpin-approach",
+      "name": "GA · 发夹弯前",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          -73.52740576970724,
+          45.51058524152417
+        ],
+        [
+          -73.5273842087596,
+          45.51066564631367
+        ],
+        [
+          -73.52721385503827,
+          45.51132871541362
+        ],
+        [
+          -73.52719870094256,
+          45.51141452068008
+        ],
+        [
+          -73.52715534321503,
+          45.511770054045854
+        ],
+        [
+          -73.5271551446697,
+          45.51177002589526
+        ],
+        [
+          -73.5271613750297,
+          45.51168952188473
+        ],
+        [
+          -73.52715889890882,
+          45.51168459476103
+        ],
+        [
+          -73.52715293009335,
+          45.511681466330835
+        ],
+        [
+          -73.52712732851926,
+          45.51168014273802
+        ],
+        [
+          -73.52713376977381,
+          45.511589762680714
+        ],
+        [
+          -73.52713161985446,
+          45.511583170121895
+        ],
+        [
+          -73.52712598430857,
+          45.51157819521963
+        ],
+        [
+          -73.52712112662743,
+          45.51157607381324
+        ],
+        [
+          -73.52711523166892,
+          45.511574881612496
+        ],
+        [
+          -73.52702623418247,
+          45.51157180077467
+        ],
+        [
+          -73.52702822883433,
+          45.511542978246844
+        ],
+        [
+          -73.52702756426432,
+          45.51153955627378
+        ],
+        [
+          -73.52702461965424,
+          45.511534960796745
+        ],
+        [
+          -73.5270184126757,
+          45.51153073118487
+        ],
+        [
+          -73.5270106498997,
+          45.511528572442444
+        ],
+        [
+          -73.52697913341186,
+          45.51152728118523
+        ],
+        [
+          -73.52699437743996,
+          45.511402280154726
+        ],
+        [
+          -73.52700254535971,
+          45.511356461963395
+        ],
+        [
+          -73.52706757610704,
+          45.511343369964756
+        ],
+        [
+          -73.52713373565439,
+          45.511350187566876
+        ],
+        [
+          -73.52714098470366,
+          45.51134945185349
+        ],
+        [
+          -73.52714497063523,
+          45.51134742869598
+        ],
+        [
+          -73.5271470785437,
+          45.511345296464356
+        ],
+        [
+          -73.5271695131063,
+          45.511304036773225
+        ],
+        [
+          -73.52723944518738,
+          45.51095368528201
+        ],
+        [
+          -73.52742979071812,
+          45.51027193853333
+        ],
+        [
+          -73.52753681045691,
+          45.50999478311624
+        ],
+        [
+          -73.52760924491865,
+          45.51000505317923
+        ],
+        [
+          -73.52740576970724,
+          45.51058524152417
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "ga-hairpin-approach-2",
+          "boundary": [
+            [
+              -73.52740576970724,
+              45.51058524152417
+            ],
+            [
+              -73.5273842087596,
+              45.51066564631367
+            ],
+            [
+              -73.52721385503827,
+              45.51132871541362
+            ],
+            [
+              -73.52719870094256,
+              45.51141452068008
+            ],
+            [
+              -73.52715534321503,
+              45.511770054045854
+            ],
+            [
+              -73.5271551446697,
+              45.51177002589526
+            ],
+            [
+              -73.5271613750297,
+              45.51168952188473
+            ],
+            [
+              -73.52715889890882,
+              45.51168459476103
+            ],
+            [
+              -73.52715293009335,
+              45.511681466330835
+            ],
+            [
+              -73.52712732851926,
+              45.51168014273802
+            ],
+            [
+              -73.52713376977381,
+              45.511589762680714
+            ],
+            [
+              -73.52713161985446,
+              45.511583170121895
+            ],
+            [
+              -73.52712598430857,
+              45.51157819521963
+            ],
+            [
+              -73.52712112662743,
+              45.51157607381324
+            ],
+            [
+              -73.52711523166892,
+              45.511574881612496
+            ],
+            [
+              -73.52702623418247,
+              45.51157180077467
+            ],
+            [
+              -73.52702822883433,
+              45.511542978246844
+            ],
+            [
+              -73.52702756426432,
+              45.51153955627378
+            ],
+            [
+              -73.52702461965424,
+              45.511534960796745
+            ],
+            [
+              -73.5270184126757,
+              45.51153073118487
+            ],
+            [
+              -73.5270106498997,
+              45.511528572442444
+            ],
+            [
+              -73.52697913341186,
+              45.51152728118523
+            ],
+            [
+              -73.52699437743996,
+              45.511402280154726
+            ],
+            [
+              -73.52700254535971,
+              45.511356461963395
+            ],
+            [
+              -73.52706757610704,
+              45.511343369964756
+            ],
+            [
+              -73.52713373565439,
+              45.511350187566876
+            ],
+            [
+              -73.52714098470366,
+              45.51134945185349
+            ],
+            [
+              -73.52714497063523,
+              45.51134742869598
+            ],
+            [
+              -73.5271470785437,
+              45.511345296464356
+            ],
+            [
+              -73.5271695131063,
+              45.511304036773225
+            ],
+            [
+              -73.52723944518738,
+              45.51095368528201
+            ],
+            [
+              -73.52742979071812,
+              45.51027193853333
+            ],
+            [
+              -73.52753681045691,
+              45.50999478311624
+            ],
+            [
+              -73.52760924491865,
+              45.51000505317923
+            ],
+            [
+              -73.52740576970724,
+              45.51058524152417
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "rowDirection": [
+            0.19827635135209118,
+            -0.980146156700368
+          ]
+        },
+        {
+          "surfaceId": "ga-hairpin-approach-1",
+          "boundary": [
+            [
+              -73.52695184346695,
+              45.51175105873341
+            ],
+            [
+              -73.5269619938362,
+              45.51174684878098
+            ],
+            [
+              -73.52696705896034,
+              45.511743670488855
+            ],
+            [
+              -73.52697106325299,
+              45.51173844681891
+            ],
+            [
+              -73.52697196805786,
+              45.51173422450545
+            ],
+            [
+              -73.52696999365232,
+              45.51172718733118
+            ],
+            [
+              -73.52695669233599,
+              45.51171129800738
+            ],
+            [
+              -73.52696559473324,
+              45.51163829834989
+            ],
+            [
+              -73.52700288341954,
+              45.51164301188334
+            ],
+            [
+              -73.52700039148226,
+              45.51167721075946
+            ],
+            [
+              -73.52700158946061,
+              45.51168148607929
+            ],
+            [
+              -73.52700454943437,
+              45.51168430271702
+            ],
+            [
+              -73.52701001954613,
+              45.51168637258664
+            ],
+            [
+              -73.52703444075344,
+              45.511687472152616
+            ],
+            [
+              -73.52702779822472,
+              45.51177994341497
+            ],
+            [
+              -73.52701753033055,
+              45.511779328290345
+            ],
+            [
+              -73.52694944551672,
+              45.51177072192527
+            ],
+            [
+              -73.52695184346695,
+              45.51175105873341
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "rowDirection": [
+            0.17748882666898727,
+            -0.9841228157133978
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 16
+      },
+      "source": {
+        "url": "https://gpcanada.ca/en/event/site-map/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Reported Yellow Zone viewing sector; author14–30m road-relative band clipped to official event zone and excluding registered seats/services/buildings/pits/water/Blue area. Source terrain and standing1.65m; not surveyed GA boundary. Pointed ends trimmed0.5m on fixed picking axis for finite mesh sections."
+      },
+      "surfaceSource": {
+        "url": "https://gpcanada.ca/en/event/site-map/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Reported Yellow Zone viewing sector; author14–30m road-relative band clipped to official event zone and excluding registered seats/services/buildings/pits/water/Blue area. Source terrain and standing1.65m; not surveyed GA boundary. Pointed ends trimmed0.5m on fixed picking axis for finite mesh sections."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260413110837id_/https://gpcanada.ca/en/tickets/general-admission/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Annual2026 organizer GA rights, excluding Blue/Senna and VIP; no reserved seating."
+      },
+      "description": "普通GA近似观赛范围，站立观看；围网、地形及其他观众可能影响视线。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Source event-zone clipped interpretation; actual road and facilities checked separately."
+      }
+    },
+    {
+      "zoneId": "ga-casino-straight",
+      "name": "GA · 赌场直道",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          -73.52470207625383,
+          45.507623770196155
+        ],
+        [
+          -73.52490281206123,
+          45.507594381118174
+        ],
+        [
+          -73.52529329715014,
+          45.508904585137536
+        ],
+        [
+          -73.52509256134275,
+          45.50893397421552
+        ],
+        [
+          -73.52470207625383,
+          45.507623770196155
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "ga-casino-straight-1",
+          "boundary": [
+            [
+              -73.52470207625383,
+              45.507623770196155
+            ],
+            [
+              -73.52490281206123,
+              45.507594381118174
+            ],
+            [
+              -73.52529329715014,
+              45.508904585137536
+            ],
+            [
+              -73.52509256134275,
+              45.50893397421552
+            ],
+            [
+              -73.52470207625383,
+              45.507623770196155
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "rowDirection": [
+            -0.20447451005985276,
+            -0.9788718888270227
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 16
+      },
+      "source": {
+        "url": "https://gpcanada.ca/en/event/site-map/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Reported Green Zone viewing sector; author14–30m road-relative band clipped to official event zone and excluding registered seats/services/buildings/pits/water/Blue area. Source terrain and standing1.65m; not surveyed GA boundary. Pointed ends trimmed0.5m on fixed picking axis for finite mesh sections."
+      },
+      "surfaceSource": {
+        "url": "https://gpcanada.ca/en/event/site-map/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Reported Green Zone viewing sector; author14–30m road-relative band clipped to official event zone and excluding registered seats/services/buildings/pits/water/Blue area. Source terrain and standing1.65m; not surveyed GA boundary. Pointed ends trimmed0.5m on fixed picking axis for finite mesh sections."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260413110837id_/https://gpcanada.ca/en/tickets/general-admission/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Annual2026 organizer GA rights, excluding Blue/Senna and VIP; no reserved seating."
+      },
+      "description": "普通GA近似观赛范围，站立观看；围网、地形及其他观众可能影响视线。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Source event-zone clipped interpretation; actual road and facilities checked separately."
+      }
+    }
+  ],
+  "scope": "Two reported viewing sectors represented by approximate road-relative ground bands. Not all GA ticket geography or surveyed boundaries.",
+  "annualEvidence": {
+    "organizer": {
+      "url": "https://web.archive.org/web/20260413110837id_/https://gpcanada.ca/en/tickets/general-admission/",
+      "originalUrl": "https://gpcanada.ca/en/tickets/general-admission/",
+      "archiveTimestamp": "20260413110837",
+      "observedSeason": 2026,
+      "annualHeader": "May 22-23-24 2026",
+      "sha256": "e993a1d3949b6586556fdcce35fa32d1d3458c95d802cbf652a9e31f563faea0"
+    },
+    "sectorReport": "https://www.reddit.com/r/GrandPrixTravel/comments/1to7dgt/thoughts_on_montreal_general_admission/",
+    "supplier2026": "https://graandprix-events.com/product/general-admission-sunday-only/",
+    "notes": "Organizer archive confirms2026 GA rights. First-person report names green Casino Straight and yellow hairpin approach;2026 supplier also namesT10/T11 andT6. Exact report timestamp remains index-only; no annual footprint certification."
+  }
+}

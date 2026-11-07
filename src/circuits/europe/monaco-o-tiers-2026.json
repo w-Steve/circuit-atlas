@@ -1,0 +1,301 @@
+{
+  "circuitId": "monaco",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "o-piscine",
+      "name": "O · Piscine",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          7.422525388816021,
+          43.73478426141934
+        ],
+        [
+          7.422623673269634,
+          43.73451784811546
+        ],
+        [
+          7.422818329777021,
+          43.73446032490395
+        ],
+        [
+          7.4226775217833865,
+          43.73484154967024
+        ],
+        [
+          7.422525388816021,
+          43.73478426141934
+        ]
+      ],
+      "surface": {
+        "baseHeight": 3.2,
+        "rise": 7.06,
+        "depth": 14.71,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "o-piscine-lower",
+          "boundary": [
+            [
+              7.422525388816021,
+              43.73478426141934
+            ],
+            [
+              7.422623673269634,
+              43.73451784811546
+            ],
+            [
+              7.4227627136320535,
+              43.734476760107235
+            ],
+            [
+              7.422634055221282,
+              43.73482518159856
+            ],
+            [
+              7.422525388816021,
+              43.73478426141934
+            ]
+          ],
+          "baseHeight": 3.2,
+          "rise": 4.887692307692307,
+          "eyeHeight": 1.2,
+          "rows": 10,
+          "frontReference": [
+            7.422340176082374,
+            43.73457950878799
+          ],
+          "tier": "lower",
+          "groundReference": {
+            "coordinate": [
+              7.422634060492416,
+              43.73467764910567
+            ],
+            "source": {
+              "url": "https://s3.eu-central-1.amazonaws.com/gpt-v2-img/img/events/en_8818_F1_Monaco-2026.pdf",
+              "checkedAt": "2026-11-06",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 supplier separates Low A-J and High K-ZK. Approximate division within retained ordinary O footprint; original14 render steps retained as10+4, NOT a claim High has four actual rows. Total base/rise unchanged; exact tier divider and upper seat count unverified."
+            }
+          }
+        },
+        {
+          "surfaceId": "o-piscine-upper",
+          "boundary": [
+            [
+              7.422634055221282,
+              43.73482518159856
+            ],
+            [
+              7.4227627136320535,
+              43.734476760107235
+            ],
+            [
+              7.422818329777021,
+              43.73446032490395
+            ],
+            [
+              7.4226775217833865,
+              43.73484154967024
+            ],
+            [
+              7.422634055221282,
+              43.73482518159856
+            ]
+          ],
+          "baseHeight": 8.63076923076923,
+          "rise": 1.629230769230769,
+          "eyeHeight": 1.2,
+          "rows": 4,
+          "frontReference": [
+            7.422340176082374,
+            43.73457950878799
+          ],
+          "tier": "upper",
+          "groundReference": {
+            "coordinate": [
+              7.422634060492416,
+              43.73467764910567
+            ],
+            "source": {
+              "url": "https://s3.eu-central-1.amazonaws.com/gpt-v2-img/img/events/en_8818_F1_Monaco-2026.pdf",
+              "checkedAt": "2026-11-06",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 supplier separates Low A-J and High K-ZK. Approximate division within retained ordinary O footprint; original14 render steps retained as10+4, NOT a claim High has four actual rows. Total base/rise unchanged; exact tier divider and upper seat count unverified."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-24",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Original filled vector footprints from the official 2026 venue map; diagram corner controls projected onto the diagram road centerline before local affine registration to existing geographic corners. No post-registration translation or road-subtraction clipping. Diagram registration is approximate, not surveyed seating. Heights and rows remain estimates."
+      },
+      "openingSource": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://s3.eu-central-1.amazonaws.com/gpt-v2-img/img/events/en_8818_F1_Monaco-2026.pdf",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 supplier separates Low A-J and High K-ZK. Approximate division within retained ordinary O footprint; original14 render steps retained as10+4, NOT a claim High has four actual rows. Total base/rise unchanged; exact tier divider and upper seat count unverified."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-24",
+        "issues": [],
+        "method": "Corrected official vector footprint / rendered road triangle intersection; broad-face road reference; independently checked against other available footprints."
+      },
+      "admissionNote": "O 低区 A–J，高区 K–ZK 分别售票；分区边界和高度为近似。模型阶梯数不代表实际高区排数。"
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "o-piscine",
+      "name": "O · Piscine",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          7.422525388816021,
+          43.73478426141934
+        ],
+        [
+          7.422623673269634,
+          43.73451784811546
+        ],
+        [
+          7.422818329777021,
+          43.73446032490395
+        ],
+        [
+          7.4226775217833865,
+          43.73484154967024
+        ],
+        [
+          7.422525388816021,
+          43.73478426141934
+        ]
+      ],
+      "surface": {
+        "baseHeight": 3.2,
+        "rise": 7.06,
+        "depth": 14.71,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "o-piscine-1",
+          "boundary": [
+            [
+              7.422525388816021,
+              43.73478426141934
+            ],
+            [
+              7.422623673269634,
+              43.73451784811546
+            ],
+            [
+              7.422818329777021,
+              43.73446032490395
+            ],
+            [
+              7.4226775217833865,
+              43.73484154967024
+            ],
+            [
+              7.422525388816021,
+              43.73478426141934
+            ]
+          ],
+          "baseHeight": 3.2,
+          "rise": 7.06,
+          "eyeHeight": 1.2,
+          "rows": 14,
+          "frontReference": [
+            7.422340176082374,
+            43.73457950878799
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-24",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Original filled vector footprints from the official 2026 venue map; diagram corner controls projected onto the diagram road centerline before local affine registration to existing geographic corners. No post-registration translation or road-subtraction clipping. Diagram registration is approximate, not surveyed seating. Heights and rows remain estimates."
+      },
+      "openingSource": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-24",
+        "issues": [],
+        "method": "Corrected official vector footprint / rendered road triangle intersection; broad-face road reference; independently checked against other available footprints."
+      }
+    }
+  ],
+  "regions": [
+    {
+      "zoneId": "o-piscine",
+      "tier": "lower",
+      "label": "O 低区",
+      "selectionLabel": "O 低区",
+      "surfaceId": "o-piscine-lower",
+      "uRange": [
+        0,
+        1
+      ],
+      "vRange": [
+        0,
+        1
+      ]
+    },
+    {
+      "zoneId": "o-piscine",
+      "tier": "upper",
+      "label": "O 高区",
+      "selectionLabel": "O 高区",
+      "surfaceId": "o-piscine-upper",
+      "uRange": [
+        0,
+        1
+      ],
+      "vRange": [
+        0,
+        1
+      ]
+    }
+  ],
+  "source": {
+    "url": "https://s3.eu-central-1.amazonaws.com/gpt-v2-img/img/events/en_8818_F1_Monaco-2026.pdf",
+    "checkedAt": "2026-11-06",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "2026 supplier separates Low A-J and High K-ZK. Approximate division within retained ordinary O footprint; original14 render steps retained as10+4, NOT a claim High has four actual rows. Total base/rise unchanged; exact tier divider and upper seat count unverified."
+  },
+  "physicalTierBoundaryVerified": false,
+  "actualUpperRowCountKnown": false
+}

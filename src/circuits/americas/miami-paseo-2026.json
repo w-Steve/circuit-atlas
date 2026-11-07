@@ -1,0 +1,129 @@
+{
+  "circuitId": "miami",
+  "season": 2026,
+  "source": {
+    "url": "https://map.concept3d.com/?id=1951#!m/1028681",
+    "checkedAt": "2026-11-07",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "Organizer-linked GA map loc1028681 offers named PaseoPark platform and two public photos. Actual viewing image240503-MiamiGP-KG-0128 shows standing deck opposite HardRockStadium, south side ofT9 road. Point marker lies4.7m from centerline and is not a deck coordinate. Author16x4m subset centered18m south of actual road at marker arc,1.2m deck/1.65m standing eye. Images2023/2024, current map not frozen2026 perimeter. Roof/railings not fully modeled."
+  },
+  "beforeZones": [],
+  "zones": [
+    {
+      "zoneId": "campus-paseo",
+      "name": "Campus Pass · Paseo Park",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -80.23895138904791,
+          25.955653308112996
+        ],
+        [
+          -80.23880086060299,
+          25.955604923969986
+        ],
+        [
+          -80.23881431399438,
+          25.95557108868269
+        ],
+        [
+          -80.2389648424393,
+          25.9556194728257
+        ],
+        [
+          -80.23895138904791,
+          25.955653308112996
+        ]
+      ],
+      "surface": {
+        "baseHeight": 1.2,
+        "rise": 0,
+        "depth": 4,
+        "eyeHeight": 1.65
+      },
+      "surfaces": [
+        {
+          "surfaceId": "campus-paseo-1",
+          "boundary": [
+            [
+              -80.23895138904791,
+              25.955653308112996
+            ],
+            [
+              -80.23880086060299,
+              25.955604923969986
+            ],
+            [
+              -80.23881431399438,
+              25.95557108868269
+            ],
+            [
+              -80.2389648424393,
+              25.9556194728257
+            ],
+            [
+              -80.23895138904791,
+              25.955653308112996
+            ]
+          ],
+          "rows": 0,
+          "baseHeight": 1.2,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "frontReference": [
+            -80.23882231125988,
+            25.95576445719068
+          ],
+          "groundReference": {
+            "coordinate": [
+              -80.23888285152114,
+              25.95561219839784
+            ],
+            "source": {
+              "url": "https://map.concept3d.com/?id=1951#!m/1028681",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer-linked GA map loc1028681 offers named PaseoPark platform and two public photos. Actual viewing image240503-MiamiGP-KG-0128 shows standing deck opposite HardRockStadium, south side ofT9 road. Point marker lies4.7m from centerline and is not a deck coordinate. Author16x4m subset centered18m south of actual road at marker arc,1.2m deck/1.65m standing eye. Images2023/2024, current map not frozen2026 perimeter. Roof/railings not fully modeled."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://map.concept3d.com/?id=1951#!m/1028681",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked GA map loc1028681 offers named PaseoPark platform and two public photos. Actual viewing image240503-MiamiGP-KG-0128 shows standing deck opposite HardRockStadium, south side ofT9 road. Point marker lies4.7m from centerline and is not a deck coordinate. Author16x4m subset centered18m south of actual road at marker arc,1.2m deck/1.65m standing eye. Images2023/2024, current map not frozen2026 perimeter. Roof/railings not fully modeled."
+      },
+      "surfaceSource": {
+        "url": "https://map.concept3d.com/?id=1951#!m/1028681",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer-linked GA map loc1028681 offers named PaseoPark platform and two public photos. Actual viewing image240503-MiamiGP-KG-0128 shows standing deck opposite HardRockStadium, south side ofT9 road. Point marker lies4.7m from centerline and is not a deck coordinate. Author16x4m subset centered18m south of actual road at marker arc,1.2m deck/1.65m standing eye. Images2023/2024, current map not frozen2026 perimeter. Roof/railings not fully modeled."
+      },
+      "openingSource": {
+        "url": "https://f1miamigp.com/news/press-release/neighborhood-inspired-campus-2026/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026 CampusPass campus access plus organizer-linked GA map named public platform. Individual deck annual installation continuity not certified; standing range accepted as explicit approximation."
+      },
+      "admissionNote": "Campus Pass近似站立平台；范围、高度与年度安装细节为估计，非贵宾区。"
+    }
+  ],
+  "markerCoordinate": [
+    -80.238838,
+    25.955725
+  ],
+  "viewingPhoto": "https://cms.concept3d.com/map/lib/image-cache/i.php?mapId=1951&image=1951%2F240503-MiamiGP-KG-0128_680b8eefc197c.jpg&w=1600&h=auto",
+  "viewingPhotoSha256": "1468c1013627f0a96d610d8f65e3dd5f978da58925c87caa4aab81c152609d01",
+  "limitations": [
+    "Not full bar/enclosure footprint. Roof/railings and mature trees not reconstructed.",
+    "Primary photo filename2024 and bar image2023 establish side/structure, not precise2026 installation continuity."
+  ]
+}

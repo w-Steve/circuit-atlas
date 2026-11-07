@@ -1,0 +1,460 @@
+{
+  "circuitId": "las-vegas",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "t-mobile-turn-8",
+      "name": "T-Mobile Turn 8",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -115.16018676750946,
+          36.120951584084416
+        ],
+        [
+          -115.16056993606385,
+          36.121277071351045
+        ],
+        [
+          -115.16044099422764,
+          36.12137611576118
+        ],
+        [
+          -115.16005782567325,
+          36.121050628494544
+        ],
+        [
+          -115.16018676750946,
+          36.120951584084416
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "t-mobile-turn-8-1",
+          "boundary": [
+            [
+              -115.16018676750946,
+              36.120951584084416
+            ],
+            [
+              -115.16056993606385,
+              36.121277071351045
+            ],
+            [
+              -115.16044099422764,
+              36.12137611576118
+            ],
+            [
+              -115.16005782567325,
+              36.121050628494544
+            ],
+            [
+              -115.16018676750946,
+              36.120951584084416
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.2,
+          "eyeHeight": 1.2,
+          "rows": 18,
+          "frontReference": [
+            -115.160604,
+            36.120941
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -115.16018676750946,
+                36.120951584084416
+              ],
+              [
+                -115.16056993606385,
+                36.121277071351045
+              ]
+            ],
+            "back": [
+              [
+                -115.16005782567325,
+                36.121050628494544
+              ],
+              [
+                -115.16044099422764,
+                36.12137611576118
+              ]
+            ],
+            "source": {
+              "url": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Promoter T-Mobile locator: distinct outer-chicane bank within shared Sphere stand family. Author approximate 50x16m,28m road offset,18rows/base2.2m/rise7.2m; not surveyed temporary seats or independent per-turn ticket product."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 7.2,
+        "depth": 16,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter T-Mobile locator: distinct outer-chicane bank within shared Sphere stand family. Author approximate 50x16m,28m road offset,18rows/base2.2m/rise7.2m; not surveyed temporary seats or independent per-turn ticket product."
+      },
+      "openingSource": {
+        "url": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter T-Mobile locator: distinct outer-chicane bank within shared Sphere stand family. Author approximate 50x16m,28m road offset,18rows/base2.2m/rise7.2m; not surveyed temporary seats or independent per-turn ticket product."
+      },
+      "surfaceSource": {
+        "url": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter T-Mobile locator: distinct outer-chicane bank within shared Sphere stand family. Author approximate 50x16m,28m road offset,18rows/base2.2m/rise7.2m; not surveyed temporary seats or independent per-turn ticket product."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Distinct source-associated outer-chicane banks tied to actual road; not legacy diagram overlap removal."
+      },
+      "description": "Sphere区外侧近似座席段；范围及高度为估计，同属T-Mobile看台票区。"
+    },
+    {
+      "zoneId": "t-mobile-turn-9",
+      "name": "T-Mobile Turn 9",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -115.16098536286013,
+          36.121433792202936
+        ],
+        [
+          -115.16065138070421,
+          36.12190040265183
+        ],
+        [
+          -115.16080542172259,
+          36.12197234403891
+        ],
+        [
+          -115.16113940387851,
+          36.12150573359002
+        ],
+        [
+          -115.16098536286013,
+          36.121433792202936
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "t-mobile-turn-9-1",
+          "boundary": [
+            [
+              -115.16098536286013,
+              36.121433792202936
+            ],
+            [
+              -115.16065138070421,
+              36.12190040265183
+            ],
+            [
+              -115.16080542172259,
+              36.12197234403891
+            ],
+            [
+              -115.16113940387851,
+              36.12150573359002
+            ],
+            [
+              -115.16098536286013,
+              36.121433792202936
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.2,
+          "eyeHeight": 1.2,
+          "rows": 18,
+          "frontReference": [
+            -115.1605488,
+            36.121541199999996
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -115.16098536286013,
+                36.121433792202936
+              ],
+              [
+                -115.16065138070421,
+                36.12190040265183
+              ]
+            ],
+            "back": [
+              [
+                -115.16113940387851,
+                36.12150573359002
+              ],
+              [
+                -115.16080542172259,
+                36.12197234403891
+              ]
+            ],
+            "source": {
+              "url": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Promoter T-Mobile locator: distinct outer-chicane bank within shared Sphere stand family. Author approximate 60x16m,28m road offset,18rows/base2.2m/rise7.2m; not surveyed temporary seats or independent per-turn ticket product."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 7.2,
+        "depth": 16,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter T-Mobile locator: distinct outer-chicane bank within shared Sphere stand family. Author approximate 60x16m,28m road offset,18rows/base2.2m/rise7.2m; not surveyed temporary seats or independent per-turn ticket product."
+      },
+      "openingSource": {
+        "url": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter T-Mobile locator: distinct outer-chicane bank within shared Sphere stand family. Author approximate 60x16m,28m road offset,18rows/base2.2m/rise7.2m; not surveyed temporary seats or independent per-turn ticket product."
+      },
+      "surfaceSource": {
+        "url": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter T-Mobile locator: distinct outer-chicane bank within shared Sphere stand family. Author approximate 60x16m,28m road offset,18rows/base2.2m/rise7.2m; not surveyed temporary seats or independent per-turn ticket product."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Distinct source-associated outer-chicane banks tied to actual road; not legacy diagram overlap removal."
+      },
+      "description": "Sphere区外侧近似座席段；范围及高度为估计，同属T-Mobile看台票区。"
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "t-mobile-turn-8",
+      "name": "T-Mobile Turn 8",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -115.16030705246857,
+          36.12168173558316
+        ],
+        [
+          -115.1596620721564,
+          36.12098765422898
+        ],
+        [
+          -115.15997105319695,
+          36.120916524256785
+        ],
+        [
+          -115.16061603350914,
+          36.12161060561096
+        ],
+        [
+          -115.16030705246857,
+          36.12168173558316
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "t-mobile-turn-8-1",
+          "boundary": [
+            [
+              -115.16030705246857,
+              36.12168173558316
+            ],
+            [
+              -115.1596620721564,
+              36.12098765422898
+            ],
+            [
+              -115.15997105319695,
+              36.120916524256785
+            ],
+            [
+              -115.16061603350914,
+              36.12161060561096
+            ],
+            [
+              -115.16030705246857,
+              36.12168173558316
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 13.38,
+          "eyeHeight": 1.2,
+          "rows": 27,
+          "frontReference": [
+            -115.16065975086039,
+            36.12096174711571
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 13.38,
+        "depth": 29.72,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "人工读取2026图面位置；T7/T8局部两点配准，沿线2.201m/px、横向1.400m/px。示意矩形非工程尺寸；可能有数十米误差。"
+      },
+      "openingSource": {
+        "url": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+      },
+      "surfaceSource": {
+        "url": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "座席带、高度、坡度、阶梯行数和围网均为估计；不能保证真实座位的遮挡和距离。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "t-mobile-turn-8-1: road intersection 184.0905 m2",
+          "t-mobile-turn-8-1: unresolved diagram bearing (71.3 degrees)"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "t-mobile-turn-9",
+      "name": "T-Mobile Turn 9",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -115.16013178176007,
+          36.121315781937334
+        ],
+        [
+          -115.16053385467202,
+          36.1214245952365
+        ],
+        [
+          -115.16044670323126,
+          36.121634779283404
+        ],
+        [
+          -115.16004463031932,
+          36.12152596598424
+        ],
+        [
+          -115.16013178176007,
+          36.121315781937334
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "t-mobile-turn-9-1",
+          "boundary": [
+            [
+              -115.16013178176007,
+              36.121315781937334
+            ],
+            [
+              -115.16053385467202,
+              36.1214245952365
+            ],
+            [
+              -115.16044670323126,
+              36.121634779283404
+            ],
+            [
+              -115.16004463031932,
+              36.12152596598424
+            ],
+            [
+              -115.16013178176007,
+              36.121315781937334
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.1,
+          "eyeHeight": 1.2,
+          "rows": 22,
+          "frontReference": [
+            -115.16053959665754,
+            36.120871498843286
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.1,
+        "depth": 24.68,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "人工读取2026图面位置；T8/T9局部两点配准，沿线1.122m/px、横向1.122m/px。示意矩形非工程尺寸；可能有数十米误差。"
+      },
+      "openingSource": {
+        "url": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+      },
+      "surfaceSource": {
+        "url": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "座席带、高度、坡度、阶梯行数和围网均为估计；不能保证真实座位的遮挡和距离。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "t-mobile-turn-9-1: road intersection 43.6535 m2",
+          "t-mobile-turn-9-1: unresolved diagram bearing (76.3 degrees)"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "zoneId": "copse-d",
+  "surfaceId": "copse-d-1",
+  "sourceBoundary": [
+    [
+      -1.0097725,
+      52.0779347
+    ],
+    [
+      -1.009824,
+      52.0775964
+    ],
+    [
+      -1.0096,
+      52.0775835
+    ],
+    [
+      -1.0095484,
+      52.0779218
+    ],
+    [
+      -1.0097725,
+      52.0779347
+    ]
+  ],
+  "osmSnapshot": {
+    "url": "https://api.openstreetmap.org/api/0.6/way/1560504713/full",
+    "status": 200,
+    "sha256": "5cd02414af1d3a6cb5241518335b8121845de56af1bc672658cc927a9efffdfa",
+    "checkedAt": "2026-10-28"
+  },
+  "osmVersion": "1",
+  "osmTimestamp": "2026-09-19T13:16:01Z",
+  "annualMap": {
+    "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+    "sha256": "3516fbf5bdab374c4a4f53b8a975cbd9ea0714408bd11f6be3c198f05f3e336c",
+    "page": 1
+  },
+  "frontEdgeIndices": [
+    0,
+    1
+  ],
+  "groundReference": {
+    "coordinate": [
+      -1.00979825,
+      52.077765549999995
+    ],
+    "source": {
+      "url": "https://www.openstreetmap.org/way/1560504713",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "原生OSM西侧赛道向长边0–1中点作为首排地面参考；中心地面不是首排基准。2.2m基座、15排及7.39m升高保留估计，不是基础测绘。EA候选为2019裸地，不证明2026地面未改。"
+    }
+  },
+  "previousSurface": {
+    "surfaceId": "copse-d-1",
+    "boundary": [
+      [
+        -1.0097725,
+        52.0779347
+      ],
+      [
+        -1.009824,
+        52.0775964
+      ],
+      [
+        -1.0096,
+        52.0775835
+      ],
+      [
+        -1.0095484,
+        52.0779218
+      ],
+      [
+        -1.0097725,
+        52.0779347
+      ]
+    ],
+    "baseHeight": 2.2,
+    "rise": 7.39,
+    "eyeHeight": 1.2,
+    "rows": 15,
+    "frontReference": [
+      -1.0108219845289108,
+      52.077824463192044
+    ]
+  },
+  "sceneAcceptance": {
+    "accepted": true,
+    "scope": "Front ground reference only; EA terrain remains unaccepted.",
+    "candidateBrowserCasesPassed": 9,
+    "relatedUnitCasesPassed": 10,
+    "candidateSampleCount": 9702,
+    "preserved": "source boundary, relative base2.2m, rows15, rise7.39m and seated eye1.2m",
+    "remainingIndependentIssue": "Resolved by explicit source front/rear strip; no boundary inset or generic engine rewrite."
+  },
+  "limits": "Only ground sampling reference changes; source polygon, front reference, rows, rise, relative base and seated eye are preserved. Annual diagram corroborates relative Copse A/B/C/D position, not surveyed foundations. Current September2026 help article relates to2027 and is not annual2026 evidence.",
+  "previousSurfaceBeforeRowStrip": {
+    "surfaceId": "copse-d-1",
+    "boundary": [
+      [
+        -1.0097725,
+        52.0779347
+      ],
+      [
+        -1.009824,
+        52.0775964
+      ],
+      [
+        -1.0096,
+        52.0775835
+      ],
+      [
+        -1.0095484,
+        52.0779218
+      ],
+      [
+        -1.0097725,
+        52.0779347
+      ]
+    ],
+    "baseHeight": 2.2,
+    "rise": 7.39,
+    "eyeHeight": 1.2,
+    "rows": 15,
+    "frontReference": [
+      -1.0108219845289108,
+      52.077824463192044
+    ],
+    "groundReference": {
+      "coordinate": [
+        -1.00979825,
+        52.077765549999995
+      ],
+      "source": {
+        "url": "https://www.openstreetmap.org/way/1560504713",
+        "checkedAt": "2026-10-28",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "原生OSM西侧赛道向长边0–1中点作为首排地面参考；中心地面不是首排基准。2.2m基座、15排及7.39m升高保留估计，不是基础测绘。EA候选为2019裸地，不证明2026地面未改。"
+      }
+    }
+  },
+  "rowStrip": {
+    "front": [
+      [
+        -1.0097725,
+        52.0779347
+      ],
+      [
+        -1.009824,
+        52.0775964
+      ]
+    ],
+    "back": [
+      [
+        -1.0095484,
+        52.0779218
+      ],
+      [
+        -1.0096,
+        52.0775835
+      ]
+    ],
+    "source": {
+      "url": "https://www.openstreetmap.org/way/1560504713",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "由原生四边形0–1前沿及3–2后沿配对定义直排；不使用PCA切片把斜端点收缩为零深度。轮廓/排数/升高/眼高不变，非测绘座席图。"
+    }
+  },
+  "rowBearing": "local-normal",
+  "rowStripAcceptance": {
+    "accepted": true,
+    "candidateBrowserCasesPassed": 3,
+    "candidateMobileImageInspected": true,
+    "preserved": "All four native corners,15 rows,7.39m rise,2.2m relative base and1.2m seated eye. Real fence remains.",
+    "releaseBrowserCasesPassed": 12,
+    "releaseDeviceImagesInspected": 3,
+    "fullUnitTestsPassed": 431,
+    "finalRelatedTestsPassed": 6
+  }
+}

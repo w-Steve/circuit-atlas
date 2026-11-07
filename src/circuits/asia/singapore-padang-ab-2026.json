@@ -1,0 +1,418 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "source": {
+    "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+    "checkedAt": "2026-11-07",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "Publisher-authored2026 early circuit map, information as of13Oct2025, separately labels PadangA byT9 and PadangB byT10. A placed80–160m afterT9 on the same infield side as retained B,18–40m from centerline. Dimensions,22 rows, heights and final installation edges estimated. Not a final-event survey."
+  },
+  "sourceSha256": "2440589e25f4745098d642a975712202e18a7d5ea40a7c44aaa22ceded277406",
+  "beforeZones": [
+    {
+      "zoneId": "padang",
+      "name": "Padang",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.85229329651024,
+          1.290412979201445
+        ],
+        [
+          103.85255318784878,
+          1.290284216895413
+        ],
+        [
+          103.85225333859826,
+          1.2896828648689083
+        ],
+        [
+          103.85199345467183,
+          1.2898116155586028
+        ],
+        [
+          103.85229329651024,
+          1.290412979201445
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "padang-1",
+          "boundary": [
+            [
+              103.85229329651024,
+              1.290412979201445
+            ],
+            [
+              103.85255318784878,
+              1.290284216895413
+            ],
+            [
+              103.85225333859826,
+              1.2896828648689083
+            ],
+            [
+              103.85199345467183,
+              1.2898116155586028
+            ],
+            [
+              103.85229329651024,
+              1.290412979201445
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 14.54,
+          "eyeHeight": 1.2,
+          "rows": 29,
+          "frontReference": [
+            103.85202253648755,
+            1.2901730678766963
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 14.54,
+        "depth": 32.32,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "人工读取2027图中已知看台位置；以T9/T10作局部两点配准，保持线路分支；横向示意比例1.180m/px，纵向1.180m/px。临时看台边界存在数十米误差，不用于具体座位保证。 位置图为相邻年份资料，2026名称另行核对；不据此声称当年精确边界或全部票区开放。"
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    }
+  ],
+  "zones": [
+    {
+      "zoneId": "padang",
+      "name": "Padang B",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.85229329651024,
+          1.290412979201445
+        ],
+        [
+          103.85255318784878,
+          1.290284216895413
+        ],
+        [
+          103.85225333859826,
+          1.2896828648689083
+        ],
+        [
+          103.85199345467183,
+          1.2898116155586028
+        ],
+        [
+          103.85229329651024,
+          1.290412979201445
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "padang-1",
+          "boundary": [
+            [
+              103.85229329651024,
+              1.290412979201445
+            ],
+            [
+              103.85255318784878,
+              1.290284216895413
+            ],
+            [
+              103.85225333859826,
+              1.2896828648689083
+            ],
+            [
+              103.85199345467183,
+              1.2898116155586028
+            ],
+            [
+              103.85229329651024,
+              1.290412979201445
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 14.54,
+          "eyeHeight": 1.2,
+          "rows": 29,
+          "frontReference": [
+            103.85202253648755,
+            1.2901730678766963
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 14.54,
+        "depth": 32.32,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "人工读取2027图中已知看台位置；以T9/T10作局部两点配准，保持线路分支；横向示意比例1.180m/px，纵向1.180m/px。临时看台边界存在数十米误差，不用于具体座位保证。 位置图为相邻年份资料，2026名称另行核对；不据此声称当年精确边界或全部票区开放。"
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      },
+      "admissionNote": "Padang B 座席；旧 Padang 链接保留，范围与坡面为近似。"
+    },
+    {
+      "zoneId": "padang-a",
+      "name": "Padang A",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.85313960989062,
+          1.2918471622632028
+        ],
+        [
+          103.85309590619127,
+          1.2917686728564093
+        ],
+        [
+          103.85305220249194,
+          1.2916901834496155
+        ],
+        [
+          103.8530084987926,
+          1.291611694042822
+        ],
+        [
+          103.85296479509327,
+          1.2915332046360282
+        ],
+        [
+          103.85292109139392,
+          1.2914547152292346
+        ],
+        [
+          103.85287738769459,
+          1.2913762258224408
+        ],
+        [
+          103.85283368399526,
+          1.2912977364156473
+        ],
+        [
+          103.85278998029592,
+          1.2912192470088537
+        ],
+        [
+          103.8529627008836,
+          1.2911231233040206
+        ],
+        [
+          103.85300640458293,
+          1.2912016127108144
+        ],
+        [
+          103.85305010828228,
+          1.291280102117608
+        ],
+        [
+          103.85309381198161,
+          1.2913585915244017
+        ],
+        [
+          103.85313751568094,
+          1.2914370809311952
+        ],
+        [
+          103.85318121938028,
+          1.2915155703379888
+        ],
+        [
+          103.85322492307961,
+          1.2915940597447826
+        ],
+        [
+          103.85326862677896,
+          1.2916725491515761
+        ],
+        [
+          103.85331233047829,
+          1.29175103855837
+        ],
+        [
+          103.85313960989062,
+          1.2918471622632028
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "padang-a-1",
+          "boundary": [
+            [
+              103.85313960989062,
+              1.2918471622632028
+            ],
+            [
+              103.85309590619127,
+              1.2917686728564093
+            ],
+            [
+              103.85305220249194,
+              1.2916901834496155
+            ],
+            [
+              103.8530084987926,
+              1.291611694042822
+            ],
+            [
+              103.85296479509327,
+              1.2915332046360282
+            ],
+            [
+              103.85292109139392,
+              1.2914547152292346
+            ],
+            [
+              103.85287738769459,
+              1.2913762258224408
+            ],
+            [
+              103.85283368399526,
+              1.2912977364156473
+            ],
+            [
+              103.85278998029592,
+              1.2912192470088537
+            ],
+            [
+              103.8529627008836,
+              1.2911231233040206
+            ],
+            [
+              103.85300640458293,
+              1.2912016127108144
+            ],
+            [
+              103.85305010828228,
+              1.291280102117608
+            ],
+            [
+              103.85309381198161,
+              1.2913585915244017
+            ],
+            [
+              103.85313751568094,
+              1.2914370809311952
+            ],
+            [
+              103.85318121938028,
+              1.2915155703379888
+            ],
+            [
+              103.85322492307961,
+              1.2915940597447826
+            ],
+            [
+              103.85326862677896,
+              1.2916725491515761
+            ],
+            [
+              103.85331233047829,
+              1.29175103855837
+            ],
+            [
+              103.85313960989062,
+              1.2918471622632028
+            ]
+          ],
+          "rows": 22,
+          "baseHeight": 2.2,
+          "rise": 10.5,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            103.85282347824881,
+            1.2916118513036188
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 10.5,
+        "depth": 22,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Publisher-authored2026 early circuit map, information as of13Oct2025, separately labels PadangA byT9 and PadangB byT10. A placed80–160m afterT9 on the same infield side as retained B,18–40m from centerline. Dimensions,22 rows, heights and final installation edges estimated. Not a final-event survey."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+      },
+      "surfaceSource": {
+        "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Publisher-authored2026 early circuit map, information as of13Oct2025, separately labels PadangA byT9 and PadangB byT10. A placed80–160m afterT9 on the same infield side as retained B,18–40m from centerline. Dimensions,22 rows, heights and final installation edges estimated. Not a final-event survey."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      },
+      "admissionNote": "Padang A 座席；仅对应门票可入场，范围与坡面为近似。"
+    }
+  ]
+}

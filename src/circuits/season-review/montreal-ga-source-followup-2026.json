@@ -1,0 +1,56 @@
+{
+  "circuitId": "montreal",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "catalog": {
+    "url": "https://testcompte.2026.gpcanada.ca/fr/vitrine/2026/",
+    "sha256": "ad27b1f15d8affbd91612838c9245c78b73c7763286edbc6073e44bb50be63b6",
+    "observation": "Public2026 catalog explicitly lists Admission generale,3-day product. No designated viewing polygon or region map found. Do not infer viewing geography from ticket availability."
+  },
+  "productLink": {
+    "requestedUrl": "https://testcompte.2026.gpcanada.ca/fr/acheter/adg/",
+    "resolvedUrl": "https://gpcanada.ca/",
+    "sha256": "f54be7a3725e7f131e2690cddadb83fec7bbe7bfbe22e60e4cd0ba4e8d6b3c93",
+    "observation": "Read-only GET redirected to the current homepage with2027 imagery; not a2026 GA map and not evidence of cancellation."
+  },
+  "acceptedBoundaries": [],
+  "runtimeApplied": true,
+  "nextAction": "Major positively named viewing sectors now have approximate selectable ground; refine exact event fence and facilities only when useful. T6 natural occlusion preserved; do not raise eyes to force a clear photograph.",
+  "positiveViewingSectorReports": [
+    {
+      "source": "https://www.reddit.com/r/GrandPrixTravel/comments/1to7dgt/thoughts_on_montreal_general_admission/",
+      "sourceType": "first-person spectator report",
+      "retrievedAt": "2026-11-06",
+      "sectors": [
+        {
+          "name": "Casino Straight",
+          "reportedLocation": "Near corner of the green organizer-map zone alongside Casino Straight",
+          "geographicBoundaryVerified": false
+        },
+        {
+          "name": "Hairpin approach",
+          "reportedLocation": "Yellow organizer-map zone immediately before the hairpin",
+          "geographicBoundaryVerified": false
+        }
+      ],
+      "evidenceScope": "Positive report of standing and viewing from these named sectors. Unlike a ticket catalogue or exclusion-only map this narrows where to geolocate. Does not certify exact coordinates, all colored-zone ground, or current annual admission.",
+      "annualAssociation": "Search index labels post2026-05-26, but opened page only exposes relative age. Exact timestamp could not be independently retrieved (JSON HTTP403); do not assert confirmed2026 deployment from this report alone."
+    }
+  ],
+  "approximateModelZoneIds": [
+    "ga-hairpin-approach",
+    "ga-casino-straight",
+    "ga-t6-family",
+    "ga-hairpin-near",
+    "ga-hairpin-exit"
+  ],
+  "approximateGeometryAccepted": true,
+  "modelReview": "src/circuits/americas/montreal-ga-bands-2026.json",
+  "t6OcclusionReview": "src/circuits/season-review/montreal-t6-occlusion-2026.json",
+  "remainingSectorReview": "src/circuits/americas/montreal-ga-remaining-2026.json",
+  "practicalCoverageReview": {
+    "accepted": true,
+    "geographicBoundaryVerified": false,
+    "standingEyeHeightMetres": 1.65
+  }
+}

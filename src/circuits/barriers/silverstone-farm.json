@@ -1,0 +1,171 @@
+{
+  "circuitId": "silverstone",
+  "availability": "available",
+  "barriers": [
+    {
+      "id": "farm-fence-359218994",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          -1.016135,
+          52.0718863
+        ],
+        [
+          -1.016158,
+          52.0719335
+        ],
+        [
+          -1.015926,
+          52.0719708
+        ],
+        [
+          -1.01576,
+          52.0719983
+        ],
+        [
+          -1.0154838,
+          52.0720605
+        ],
+        [
+          -1.0152404,
+          52.0721244
+        ],
+        [
+          -1.0150548,
+          52.0721769
+        ],
+        [
+          -1.0148061,
+          52.0722601
+        ],
+        [
+          -1.0147445213449844,
+          52.072289600172134
+        ]
+      ],
+      "heightMetres": 3.5,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/359218994",
+        "checkedAt": "2026-10-28",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Native outer fence plan. No height/type tag: outer3.5m and perimeter2m mesh heights are estimates based on modeled roles, not measurements or visibility adjustments. Excerpt endpoints limit context, not actual fence termini."
+      }
+    },
+    {
+      "id": "farm-fence-359218997",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          -1.017085,
+          52.0718527
+        ],
+        [
+          -1.0167389,
+          52.0718343
+        ],
+        [
+          -1.0165019,
+          52.071848
+        ],
+        [
+          -1.0162665,
+          52.0718695
+        ],
+        [
+          -1.016135,
+          52.0718863
+        ],
+        [
+          -1.0160292,
+          52.0719053
+        ]
+      ],
+      "heightMetres": 3.5,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/359218997",
+        "checkedAt": "2026-10-28",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Native outer-west fence plan. No height/type tag: outer3.5m and perimeter2m mesh heights are estimates based on modeled roles, not measurements or visibility adjustments. Excerpt endpoints limit context, not actual fence termini."
+      }
+    },
+    {
+      "id": "farm-fence-359218998",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          -1.0171168,
+          52.0719171
+        ],
+        [
+          -1.016151,
+          52.0720931
+        ],
+        [
+          -1.015631,
+          52.0721841
+        ],
+        [
+          -1.0156524,
+          52.0722323
+        ],
+        [
+          -1.0148562,
+          52.0723755
+        ],
+        [
+          -1.0149018,
+          52.0724713
+        ],
+        [
+          -1.0150118,
+          52.0724515
+        ],
+        [
+          -1.0150641,
+          52.0724874
+        ]
+      ],
+      "heightMetres": 2.0,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/359218998",
+        "checkedAt": "2026-10-28",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Native stand-perimeter fence plan. No height/type tag: outer3.5m and perimeter2m mesh heights are estimates based on modeled roles, not measurements or visibility adjustments. Excerpt endpoints limit context, not actual fence termini."
+      }
+    },
+    {
+      "id": "farm-fence-359218995",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          -1.017149,
+          52.0719632
+        ],
+        [
+          -1.0171168,
+          52.0719171
+        ],
+        [
+          -1.0170821,
+          52.071877
+        ],
+        [
+          -1.017085,
+          52.0718527
+        ]
+      ],
+      "heightMetres": 2.0,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/359218995",
+        "checkedAt": "2026-10-28",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Native west-perimeter fence plan. No height/type tag: outer3.5m and perimeter2m mesh heights are estimates based on modeled roles, not measurements or visibility adjustments. Excerpt endpoints limit context, not actual fence termini."
+      }
+    }
+  ],
+  "notes": "Farm foreground native fence graph from expanded2026-10-28 OSM snapshot; role-dependent heights estimated. Mandatory for Farm seating and GA, no duplicate synthetic fences."
+}

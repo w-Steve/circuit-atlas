@@ -1,0 +1,37 @@
+{
+  "circuitId": "montreal",
+  "checkedAt": "2026-10-24",
+  "scope": "One mapped straight seating front, not surveyed seats or a complete public-ticket inventory. No footprint, height, eye offset or obstacle is moved.",
+  "areas": [
+    {
+      "zoneId": "grandstand-15",
+      "surfaceId": "grandstand-15-1",
+      "rowFrontEdge": {
+        "coordinates": [
+          [
+            -73.5273352,
+            45.5150708
+          ],
+          [
+            -73.5279537,
+            45.5149827
+          ]
+        ],
+        "source": {
+          "url": "https://www.openstreetmap.org/way/1243714698",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "The mapped southern straight boundary is the track-facing edge. Row direction follows this original edge instead of the PCA of the complete rear-notched footprint. Straight seating rows and a hairpin-facing stand are corroborated by promoter photos https://gpcanada.ca/wp-content/uploads/2023/05/tribune_153-1000x563.png (SHA256 d73950085472f72c0d4c435704af091c46e520f72a6342e3eca9c24f83430d96) and https://gpcanada.ca/wp-content/uploads/2023/05/jfsavariaxfoule-28-1000x714.jpg. Photos are older structural references, not proof of 2026 seat-level geometry. The live promoter product page now concerns 2027. Existing 32 rows and 16m rise remain estimates, not verified seating measurements. No raycast optimization of coordinates or heights."
+        }
+      },
+      "openingSource": {
+        "url": "https://www.mtl.org/en/experience/montreal-formula-1-grand-prix",
+        "checkedAt": "2026-10-24",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Tourisme Montreal official 2026 event guide, updated May 22, 2026, explicitly locates the Porsche Carrera Paddocks behind Grandstand 15 in the Orange Zone. Corroborates the 2026 presence of Grandstand 15 only; not a complete public-ticket inventory or a survey. Replaces the 2026 visitor-guide PDF citation, which does not itself name this grandstand."
+      }
+    }
+  ]
+}

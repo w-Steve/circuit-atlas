@@ -1,0 +1,738 @@
+{
+  "circuitId": "montreal",
+  "zoneId": "ga-t6-family",
+  "checkedAt": "2026-11-06",
+  "packageSha256": "b10f4e4d99fb27799b2dd9e0b7cfbc8342491b33aa3fcc56a40ce7d758b7b66b",
+  "scope": "Rendered seat banks including terrain supports, registered building walls/roofs and actual road/verge. Clear rays do not prove full visibility: fences, separate terrain and other spectators are outside this diagnostic. No coordinate, eye, model or simulation mutation.",
+  "rows": [
+    {
+      "u": 0.05,
+      "v": 0.05,
+      "eye": [
+        -403.0445586143937,
+        13.650678488400933,
+        -187.83890933907065
+      ],
+      "eyeAboveGround": 1.6500000000000004,
+      "clearTestedGeometryRays": 3,
+      "samples": [
+        {
+          "offset": -160,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -140,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -120,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 0,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 120,
+          "blocker": null
+        },
+        {
+          "offset": 140,
+          "blocker": null
+        },
+        {
+          "offset": 160,
+          "blocker": null
+        }
+      ]
+    },
+    {
+      "u": 0.05,
+      "v": 0.5,
+      "eye": [
+        -403.0445586143937,
+        13.889704749303798,
+        -192.32244041377658
+      ],
+      "eyeAboveGround": 1.6500000000000004,
+      "clearTestedGeometryRays": 3,
+      "samples": [
+        {
+          "offset": -160,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -140,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -120,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 0,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 120,
+          "blocker": null
+        },
+        {
+          "offset": 140,
+          "blocker": null
+        },
+        {
+          "offset": 160,
+          "blocker": null
+        }
+      ]
+    },
+    {
+      "u": 0.05,
+      "v": 0.95,
+      "eye": [
+        -403.0445586143937,
+        14.128731010195956,
+        -196.8059714884825
+      ],
+      "eyeAboveGround": 1.6500000000000004,
+      "clearTestedGeometryRays": 3,
+      "samples": [
+        {
+          "offset": -160,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -140,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -120,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 0,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 120,
+          "blocker": null
+        },
+        {
+          "offset": 140,
+          "blocker": null
+        },
+        {
+          "offset": 160,
+          "blocker": null
+        }
+      ]
+    },
+    {
+      "u": 0.5,
+      "v": 0.05,
+      "eye": [
+        -385.1098819389175,
+        12.627630889078079,
+        -187.83890933907065
+      ],
+      "eyeAboveGround": 1.6500000000000004,
+      "clearTestedGeometryRays": 3,
+      "samples": [
+        {
+          "offset": -160,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -140,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -120,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 0,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 120,
+          "blocker": null
+        },
+        {
+          "offset": 140,
+          "blocker": null
+        },
+        {
+          "offset": 160,
+          "blocker": null
+        }
+      ]
+    },
+    {
+      "u": 0.5,
+      "v": 0.5,
+      "eye": [
+        -385.1098819389175,
+        12.739306160565203,
+        -192.32244041377658
+      ],
+      "eyeAboveGround": 1.6500000000000004,
+      "clearTestedGeometryRays": 3,
+      "samples": [
+        {
+          "offset": -160,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -140,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -120,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 0,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 120,
+          "blocker": null
+        },
+        {
+          "offset": 140,
+          "blocker": null
+        },
+        {
+          "offset": 160,
+          "blocker": null
+        }
+      ]
+    },
+    {
+      "u": 0.5,
+      "v": 0.95,
+      "eye": [
+        -385.1098819389175,
+        12.850981432052324,
+        -196.8059714884825
+      ],
+      "eyeAboveGround": 1.6500000000000004,
+      "clearTestedGeometryRays": 3,
+      "samples": [
+        {
+          "offset": -160,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -140,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -120,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 0,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 120,
+          "blocker": null
+        },
+        {
+          "offset": 140,
+          "blocker": null
+        },
+        {
+          "offset": 160,
+          "blocker": null
+        }
+      ]
+    },
+    {
+      "u": 0.95,
+      "v": 0.05,
+      "eye": [
+        -367.1752052634414,
+        11.471286502749885,
+        -187.83890933907065
+      ],
+      "eyeAboveGround": 1.6500000000000004,
+      "clearTestedGeometryRays": 3,
+      "samples": [
+        {
+          "offset": -160,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -140,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -120,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 0,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 120,
+          "blocker": null
+        },
+        {
+          "offset": 140,
+          "blocker": null
+        },
+        {
+          "offset": 160,
+          "blocker": null
+        }
+      ]
+    },
+    {
+      "u": 0.95,
+      "v": 0.5,
+      "eye": [
+        -367.1752052634414,
+        11.607052831011881,
+        -192.32244041377658
+      ],
+      "eyeAboveGround": 1.6500000000000004,
+      "clearTestedGeometryRays": 3,
+      "samples": [
+        {
+          "offset": -160,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -140,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -120,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 0,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 120,
+          "blocker": null
+        },
+        {
+          "offset": 140,
+          "blocker": null
+        },
+        {
+          "offset": 160,
+          "blocker": null
+        }
+      ]
+    },
+    {
+      "u": 0.95,
+      "v": 0.95,
+      "eye": [
+        -367.1752052634414,
+        11.742819159281034,
+        -196.8059714884825
+      ],
+      "eyeAboveGround": 1.6500000000000004,
+      "clearTestedGeometryRays": 3,
+      "samples": [
+        {
+          "offset": -160,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -140,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -120,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": -20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 0,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 20,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 40,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 60,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 80,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 100,
+          "blocker": "grandstand-33"
+        },
+        {
+          "offset": 120,
+          "blocker": null
+        },
+        {
+          "offset": 140,
+          "blocker": null
+        },
+        {
+          "offset": 160,
+          "blocker": null
+        }
+      ]
+    }
+  ]
+}

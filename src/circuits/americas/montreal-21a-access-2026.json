@@ -1,0 +1,30 @@
+{
+  "circuitId": "montreal",
+  "season": 2026,
+  "productId": "grandstand-21a",
+  "checkedAt": "2026-10-27",
+  "sourceTenantId": "b8812776-2ca7-4056-84fc-422b4e94a903",
+  "sourceFeatureId": "2eff2e6d-f593-4614-9c13-386e45008261",
+  "publicMapSha256": "0112b4db9bf3fc43ce2e531b49a4c0576f9aec72421aded085a340003a349f42",
+  "classification": "wheelchair-accessible-unassigned-seating",
+  "unassignedSeating": true,
+  "chairsProvided": true,
+  "maximumCompanionsPerSpectatorWithReducedMobility": 1,
+  "ordinaryUnrestrictedAdmissionVerified": false,
+  "modelRequired": true,
+  "candidateAccepted": false,
+  "evidence": [
+    {
+      "url": "https://web.archive.org/web/20260304080458id_/https://gpcanada.ca/en/event/accessibility/",
+      "originalUrl": "https://gpcanada.ca/en/event/accessibility/",
+      "archiveTimestamp": "20260304080458",
+      "role": "annual-promoter-accessibility-page",
+      "observedSeason": 2026,
+      "annualHeader": "May 22-23-24 2026",
+      "sha256": "dc9f97991d8bec0675d4c1fbdf64d951033fe7fe14b18ae95fad5dbab9de3b91",
+      "facts": ["21A and41A are wheelchair-friendly with unassigned seating", "Chairs are available for spectators and companions", "One companion per spectator with reduced mobility", "21A is reached via Cosmos Bridge and views the hairpin"],
+      "limits": "Does not publish deck elevation, ramp gradient, chair coordinates or a measured surface. Do not copy current2027 parking instructions into this annual record."
+    }
+  ],
+  "nextAction": "Use the independent23-point annual map footprint as an accessible seating platform; clearly disclose unmeasured deck height and preserve seated eye1.2m, not fabricated grandstand rows."
+}

@@ -1,0 +1,200 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "source": {
+    "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+    "checkedAt": "2026-11-07",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "Actual publisher2026 early map (13Oct2025 snapshot) has separate ChicaneTurn1 arrow to short bank just beforeT1 inside apex, distinct from longPitExit bank andChicaneTurn2. Approximate20x10m front bank centered25m beforeT1,34m driver-left;10 render rows/base2.2/rise4.5 estimated. Final ticket-name allocation and installation boundary unverified. Earlier attempt spanning apex/exit self-crossed or approached other road branch; rejected rather than trimming."
+  },
+  "beforeZones": [
+    {
+      "zoneId": "chicane-turn-1",
+      "name": "Chicane @ Turn 1",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.86362484915087,
+          1.2940654979043051
+        ],
+        [
+          103.86357999590497,
+          1.2942394741308234
+        ],
+        [
+          103.86349298568018,
+          1.2942170532070525
+        ],
+        [
+          103.86353783892608,
+          1.294043076980534
+        ],
+        [
+          103.86362484915087,
+          1.2940654979043051
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 4.5,
+        "depth": 10,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "chicane-turn-1-1",
+          "boundary": [
+            [
+              103.86362484915087,
+              1.2940654979043051
+            ],
+            [
+              103.86357999590497,
+              1.2942394741308234
+            ],
+            [
+              103.86349298568018,
+              1.2942170532070525
+            ],
+            [
+              103.86353783892608,
+              1.294043076980534
+            ],
+            [
+              103.86362484915087,
+              1.2940654979043051
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 4.5,
+          "rows": 10,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            103.8638547521798,
+            1.2942175066965
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actual publisher2026 early map (13Oct2025 snapshot) has separate ChicaneTurn1 arrow to short bank just beforeT1 inside apex, distinct from longPitExit bank andChicaneTurn2. Approximate20x10m front bank centered25m beforeT1,34m driver-left;10 render rows/base2.2/rise4.5 estimated. Final ticket-name allocation and installation boundary unverified. Earlier attempt spanning apex/exit self-crossed or approached other road branch; rejected rather than trimming."
+      },
+      "surfaceSource": {
+        "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actual publisher2026 early map (13Oct2025 snapshot) has separate ChicaneTurn1 arrow to short bank just beforeT1 inside apex, distinct from longPitExit bank andChicaneTurn2. Approximate20x10m front bank centered25m beforeT1,34m driver-left;10 render rows/base2.2/rise4.5 estimated. Final ticket-name allocation and installation boundary unverified. Earlier attempt spanning apex/exit self-crossed or approached other road branch; rejected rather than trimming."
+      },
+      "openingSource": {
+        "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actual publisher2026 early map (13Oct2025 snapshot) has separate ChicaneTurn1 arrow to short bank just beforeT1 inside apex, distinct from longPitExit bank andChicaneTurn2. Approximate20x10m front bank centered25m beforeT1,34m driver-left;10 render rows/base2.2/rise4.5 estimated. Final ticket-name allocation and installation boundary unverified. Earlier attempt spanning apex/exit self-crossed or approached other road branch; rejected rather than trimming."
+      },
+      "admissionNote": "依据2026早期图的近似座席；最终票名及准入以门票为准，不与Pit Exit互通。"
+    }
+  ],
+  "zones": [
+    {
+      "zoneId": "chicane-turn-1",
+      "name": "Chicane @ Turn 1",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.86360654920419,
+          1.2940528481443359
+        ],
+        [
+          103.86345957836409,
+          1.2941562362913384
+        ],
+        [
+          103.86351128562687,
+          1.294229702967022
+        ],
+        [
+          103.86365825646698,
+          1.2941263148200195
+        ],
+        [
+          103.86360654920419,
+          1.2940528481443359
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 4.5,
+        "depth": 10,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "chicane-turn-1-1",
+          "boundary": [
+            [
+              103.86360654920419,
+              1.2940528481443359
+            ],
+            [
+              103.86345957836409,
+              1.2941562362913384
+            ],
+            [
+              103.86351128562687,
+              1.294229702967022
+            ],
+            [
+              103.86365825646698,
+              1.2941263148200195
+            ],
+            [
+              103.86360654920419,
+              1.2940528481443359
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 4.5,
+          "rows": 10,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            103.86373687529066,
+            1.2943941215350052
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actual publisher2026 early map (13Oct2025 snapshot) has separate ChicaneTurn1 arrow to short bank just beforeT1 inside apex, distinct from longPitExit bank andChicaneTurn2. Approximate20x10m front bank centered25m beforeT1,34m driver-left;10 render rows/base2.2/rise4.5 estimated. Final ticket-name allocation and installation boundary unverified. Earlier attempt spanning apex/exit self-crossed or approached other road branch; rejected rather than trimming."
+      },
+      "surfaceSource": {
+        "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actual publisher2026 early map (13Oct2025 snapshot) has separate ChicaneTurn1 arrow to short bank just beforeT1 inside apex, distinct from longPitExit bank andChicaneTurn2. Approximate20x10m front bank centered25m beforeT1,34m driver-left;10 render rows/base2.2/rise4.5 estimated. Final ticket-name allocation and installation boundary unverified. Earlier attempt spanning apex/exit self-crossed or approached other road branch; rejected rather than trimming."
+      },
+      "openingSource": {
+        "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actual publisher2026 early map (13Oct2025 snapshot) has separate ChicaneTurn1 arrow to short bank just beforeT1 inside apex, distinct from longPitExit bank andChicaneTurn2. Approximate20x10m front bank centered25m beforeT1,34m driver-left;10 render rows/base2.2/rise4.5 estimated. Final ticket-name allocation and installation boundary unverified. Earlier attempt spanning apex/exit self-crossed or approached other road branch; rejected rather than trimming."
+      },
+      "admissionNote": "依据2026早期图的近似座席；最终票名及准入以门票为准，不与Pit Exit互通。"
+    }
+  ],
+  "orientationReview": "Source diagram shows short bank facingT1 apex rather than parallel toPitExit. Retain candidate center, orient front toward authoredT1 corner; rejected incoming-straight orientation intersected pit-exit corridor11.97m2. No translation, road clipping or deletion of pit geometry."
+}

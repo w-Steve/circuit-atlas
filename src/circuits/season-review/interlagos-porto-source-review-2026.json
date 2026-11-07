@@ -1,0 +1,49 @@
+{
+  "circuitId": "interlagos",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "productId": "porto-bank",
+  "runtimeApplied": false,
+  "geometryAccepted": false,
+  "annualAdmissionSource": "https://atendimento.f1saopaulo.com.br/api/v2/help_center/pt-br/articles/11037154973851.json",
+  "organizerLocation": {
+    "url": "https://f1saopaulo.com.br/arquibancadas/",
+    "snapshotSha256": "1d0c742f5416a67e7d5808b918851bf34d711939e44d9cd8572e72f0aa02e005",
+    "fact": "Promoter explicitly locates the covered Porto Bank stand at end of Reta Oposta, T4 vicinity. Current page warns pictures depict previous editions and layout may change."
+  },
+  "sponsorSource": {
+    "url": "https://blog.portoseguro.com.br/arquibancada-porto",
+    "sha256": "566d7a1212671630f8fddb611ce9d96e5c39560403df0db77516ea22e5e2694b",
+    "yearScope": "Body describes2025 edition; not proof of exact2026 installed geometry.",
+    "imageUrl": "https://blog.portoseguro.com.br/wordpress/wp-content/uploads/2025/11/Mapa-da-Arquibancada-Porto.png",
+    "imageSha256": "4899587ae06fbd2a4052b48329c389ca6e8139235dfdc9c3c9f79a11057b2a6b",
+    "observed": "Image actually inspected: conceptual3D render of L-shaped covered seating, ancillary activation village and Ferris wheel, not a georeferenced installation photograph. Rendering cannot independently prove seat perimeter or measured height.",
+    "heightWarning": "36m in sponsor text refers to Ferris wheel, not seating or roof height; no such height imported."
+  },
+  "nativeSnapshot": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-46.6958,-23.7006,-46.693,-23.6986",
+    "sha256": "e6bccb0159740fa0520512ea85343aabb17a2901aac801502dd574ad38c1d5d6",
+    "result": "No independently named Porto or bleachers footprint in the bounded freshT4 map query. Absence of a tag does not imply no annual ticket."
+  },
+  "geographicImage": {
+    "identifyUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/identify?f=json&geometry=-46.6942%2C-23.6992&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=-46.6958%2C-23.7006%2C-46.693%2C-23.6986&imageDisplay=1200%2C1200%2C96&returnGeometry=false",
+    "captureDate": "2025-04-08",
+    "provider": "Vantor",
+    "resolutionMetres": 0.5,
+    "reportedAccuracyMetres": 8.47,
+    "tileUrls": [
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/148842/97069",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/148843/97069",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/148844/97069",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/148842/97070",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/148843/97070",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/148844/97070",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/148842/97071",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/148843/97071",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/148844/97071"
+    ],
+    "sha256": "c2e20c05c33f4b8e0fab2550deb2cebf68a95da0b3862034c0ebcb6c9984c206",
+    "observed": "Actual geographic mosaic inspected: T4, lake, run-off and site/roads visible; no complete installed L-shaped public seat block identified. Do not digitize gravel, run-off or render rectangles as installed seats. Raw imagery remains research only."
+  },
+  "nextAction": "Obtain identifiable installation-period physical perimeter or georeferenced seating plan at T4, including both L-shaped faces and canopy. Do not repeat April2025 image, assume sponsor render is a photograph, or borrow Ferris-wheel dimensions."
+}

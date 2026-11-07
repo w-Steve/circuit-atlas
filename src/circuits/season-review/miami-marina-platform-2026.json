@@ -1,0 +1,220 @@
+{
+  "circuitId": "miami",
+  "season": 2026,
+  "checkedAt": "2026-11-07",
+  "primarySource": "https://www.fia.com/sites/default/files/final_2026_media_kit.pdf",
+  "sourceSha256": "bcfc0c97c5cd2bedcb645d8c9a630be3c079345a42344974f1acd0c87ff994e3",
+  "pdfPageOneBased": 4,
+  "printedPage": 3,
+  "publisher": "FIA-hosted official Formula1 Miami media kit; SouthFloridaMotorsports welcome",
+  "annualIdentityConfirmed": true,
+  "publicRaceViewingConfirmed": true,
+  "exclusiveHospitality": false,
+  "acceptedApproximateModel": "campus-marina",
+  "geographicReference": {
+    "mapId": 1951,
+    "locationId": 1032304,
+    "coordinates": [
+      -80.241966,
+      25.956703
+    ],
+    "annualInstallationCertificate": false
+  },
+  "precision": "Annual2026 public Marina platform identity established; current public Marina GA marker accepted as approximate geographic association under requested practical fidelity. No exact2026 deck continuity or boundaries claimed.",
+  "beforeZone": {
+    "zoneId": "campus-marina",
+    "name": "Campus Pass · Marina",
+    "kind": "general-admission",
+    "availability": "available",
+    "boundary": [
+      [
+        -80.24187319938208,
+        25.956694117005107
+      ],
+      [
+        -80.24205060099902,
+        25.95666757660572
+      ],
+      [
+        -80.24205880061793,
+        25.956711882994895
+      ],
+      [
+        -80.24188139900099,
+        25.95673842339428
+      ],
+      [
+        -80.24187319938208,
+        25.956694117005107
+      ]
+    ],
+    "supportToTerrain": true,
+    "surfaces": [
+      {
+        "surfaceId": "campus-marina-1",
+        "boundary": [
+          [
+            -80.24187319938208,
+            25.956694117005107
+          ],
+          [
+            -80.24205060099902,
+            25.95666757660572
+          ],
+          [
+            -80.24205880061793,
+            25.956711882994895
+          ],
+          [
+            -80.24188139900099,
+            25.95673842339428
+          ],
+          [
+            -80.24187319938208,
+            25.956694117005107
+          ]
+        ],
+        "baseHeight": 1.2,
+        "rise": 0,
+        "rows": 0,
+        "eyeHeight": 1.65,
+        "frontReference": [
+          -80.24198739411705,
+          25.95681860245493
+        ]
+      }
+    ],
+    "surface": {
+      "baseHeight": 1.2,
+      "rise": 0,
+      "eyeHeight": 1.65,
+      "depth": 5
+    },
+    "source": {
+      "url": "https://map.concept3d.com/?id=1951#!m/1032304",
+      "checkedAt": "2026-11-06",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Organizer-linked public GA category60317 location1032304: Viewing Deck Presented by Ticketmaster. Published point retained; author 18x5m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+    },
+    "surfaceSource": {
+      "url": "https://map.concept3d.com/?id=1951#!m/1032304",
+      "checkedAt": "2026-11-06",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Organizer-linked public GA category60317 location1032304: Viewing Deck Presented by Ticketmaster. Published point retained; author 18x5m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+    },
+    "openingSource": {
+      "url": "https://f1miamigp.com/news/press-release/neighborhood-inspired-campus-2026/",
+      "checkedAt": "2026-11-06",
+      "method": "published",
+      "confidence": "medium",
+      "notes": "Dated organizerApril7,2026 release confirms Campus Pass and general campus access excluding premium hospitality; explicitly names Marina viewing deck. Public map GA locations supply geographic association; exact2026 individual installation continuity unverified."
+    },
+    "admissionNote": "Campus Pass近似站立平台；不含编号座席及贵宾区。平台范围、高度与2026逐点连续性未测绘确认。",
+    "description": "独立站立平台，近似范围，眼高1.65米。",
+    "geometryReview": {
+      "checkedAt": "2026-11-06",
+      "issues": [],
+      "method": "Published GA location, explicitly estimated deck subset; no relocation for clearance. Screened against road, registered stands and facilities."
+    }
+  },
+  "afterZone": {
+    "zoneId": "campus-marina",
+    "name": "Campus Pass · Marina",
+    "kind": "general-admission",
+    "availability": "available",
+    "boundary": [
+      [
+        -80.24187319938208,
+        25.956694117005107
+      ],
+      [
+        -80.24205060099902,
+        25.95666757660572
+      ],
+      [
+        -80.24205880061793,
+        25.956711882994895
+      ],
+      [
+        -80.24188139900099,
+        25.95673842339428
+      ],
+      [
+        -80.24187319938208,
+        25.956694117005107
+      ]
+    ],
+    "supportToTerrain": true,
+    "surfaces": [
+      {
+        "surfaceId": "campus-marina-1",
+        "boundary": [
+          [
+            -80.24187319938208,
+            25.956694117005107
+          ],
+          [
+            -80.24205060099902,
+            25.95666757660572
+          ],
+          [
+            -80.24205880061793,
+            25.956711882994895
+          ],
+          [
+            -80.24188139900099,
+            25.95673842339428
+          ],
+          [
+            -80.24187319938208,
+            25.956694117005107
+          ]
+        ],
+        "baseHeight": 1.2,
+        "rise": 0,
+        "rows": 0,
+        "eyeHeight": 1.65,
+        "frontReference": [
+          -80.24198739411705,
+          25.95681860245493
+        ]
+      }
+    ],
+    "surface": {
+      "baseHeight": 1.2,
+      "rise": 0,
+      "eyeHeight": 1.65,
+      "depth": 5
+    },
+    "source": {
+      "url": "https://map.concept3d.com/?id=1951#!m/1032304",
+      "checkedAt": "2026-11-06",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Organizer-linked public GA category60317 location1032304: Viewing Deck Presented by Ticketmaster. Published point retained; author 18x5m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+    },
+    "surfaceSource": {
+      "url": "https://map.concept3d.com/?id=1951#!m/1032304",
+      "checkedAt": "2026-11-06",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Organizer-linked public GA category60317 location1032304: Viewing Deck Presented by Ticketmaster. Published point retained; author 18x5m deck subset, floor1.2m estimated. Helix front rim interpreted from published circle where applicable. Zero API altitude is a marker default, not surveyed floor. Standing1.65m. Map snapshot has no2026 version certificate; not a full enclosure."
+    },
+    "openingSource": {
+      "url": "https://www.fia.com/sites/default/files/final_2026_media_kit.pdf",
+      "checkedAt": "2026-11-07",
+      "method": "published",
+      "confidence": "high",
+      "notes": "Promoter welcome in official2026 Miami media kit, PDF page4/printed page3, explicitly confirms new Marina viewing platform open to all ticketholders. Geographic association uses organizer-linked current GA map point1032304; per-installation continuity, authored deck dimensions and floor height remain approximate, not certified."
+    },
+    "admissionNote": "Campus Pass近似站立平台；不含编号座席及贵宾区。平台范围、高度与2026逐点连续性未测绘确认。",
+    "description": "独立站立平台，近似范围，眼高1.65米。",
+    "geometryReview": {
+      "checkedAt": "2026-11-06",
+      "issues": [],
+      "method": "Published GA location, explicitly estimated deck subset; no relocation for clearance. Screened against road, registered stands and facilities."
+    }
+  }
+}

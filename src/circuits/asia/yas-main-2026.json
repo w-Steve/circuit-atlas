@@ -1,0 +1,1253 @@
+{
+  "circuitId": "yas-marina",
+  "season": 2026,
+  "zoneId": "main",
+  "checkedAt": "2026-11-05",
+  "zone": {
+    "zoneId": "main",
+    "name": "Main",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        54.60409744005313,
+        24.469981029621238
+      ],
+      [
+        54.60730288107823,
+        24.470403113702453
+      ],
+      [
+        54.60729327169378,
+        24.470463569469302
+      ],
+      [
+        54.604087830668675,
+        24.470041485388087
+      ],
+      [
+        54.60409744005313,
+        24.469981029621238
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "m00",
+        "boundary": [
+          [
+            54.60409744005313,
+            24.469981029621238
+          ],
+          [
+            54.604148233243436,
+            24.469987717935542
+          ],
+          [
+            54.60413862385898,
+            24.470048173702395
+          ],
+          [
+            54.604087830668675,
+            24.470041485388087
+          ],
+          [
+            54.60409744005313,
+            24.469981029621238
+          ]
+        ],
+        "baseHeight": 4.2,
+        "rise": 3.15,
+        "rows": 8,
+        "eyeHeight": 1.2,
+        "tier": "lower",
+        "frontReference": [
+          54.604162404701924,
+          24.46973543826783
+        ],
+        "rowBearing": "local-normal",
+        "rowStrip": {
+          "front": [
+            [
+              54.60409744005313,
+              24.469981029621238
+            ],
+            [
+              54.604148233243436,
+              24.469987717935542
+            ]
+          ],
+          "back": [
+            [
+              54.604087830668675,
+              24.470041485388087
+            ],
+            [
+              54.60413862385898,
+              24.470048173702395
+            ]
+          ],
+          "source": {
+            "url": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Public configured viewer M00-M08 each8 rows, M09 six; lower ordinary floor separated from rear building layers. Author approximate .52m seat pitch,2.2m between-section aisles,.85m tread,4.2m first floor,.45m riser and3m setback within named OSM188731381 envelope. Geographic section locations and floor heights are not a measured seating plan. Viewer undated;2026 promoter confirms Main product family."
+          }
+        }
+      },
+      {
+        "surfaceId": "m01",
+        "boundary": [
+          [
+            54.6041697226701,
+            24.46999054760698
+          ],
+          [
+            54.60441352998357,
+            24.470022651515645
+          ],
+          [
+            54.60440392059911,
+            24.470083107282495
+          ],
+          [
+            54.604160113285644,
+            24.47005100337383
+          ],
+          [
+            54.6041697226701,
+            24.46999054760698
+          ]
+        ],
+        "baseHeight": 4.2,
+        "rise": 3.15,
+        "rows": 8,
+        "eyeHeight": 1.2,
+        "tier": "lower",
+        "frontReference": [
+          54.60433119438048,
+          24.46975766405075
+        ],
+        "rowBearing": "local-normal",
+        "rowStrip": {
+          "front": [
+            [
+              54.6041697226701,
+              24.46999054760698
+            ],
+            [
+              54.60441352998357,
+              24.470022651515645
+            ]
+          ],
+          "back": [
+            [
+              54.604160113285644,
+              24.47005100337383
+            ],
+            [
+              54.60440392059911,
+              24.470083107282495
+            ]
+          ],
+          "source": {
+            "url": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Public configured viewer M00-M08 each8 rows, M09 six; lower ordinary floor separated from rear building layers. Author approximate .52m seat pitch,2.2m between-section aisles,.85m tread,4.2m first floor,.45m riser and3m setback within named OSM188731381 envelope. Geographic section locations and floor heights are not a measured seating plan. Viewer undated;2026 promoter confirms Main product family."
+          }
+        }
+      },
+      {
+        "surfaceId": "m02",
+        "boundary": [
+          [
+            54.60443501941023,
+            24.47002548118708
+          ],
+          [
+            54.60486676152783,
+            24.470082331858674
+          ],
+          [
+            54.604857152143374,
+            24.470142787625523
+          ],
+          [
+            54.604425410025776,
+            24.470085936953932
+          ],
+          [
+            54.60443501941023,
+            24.47002548118708
+          ]
+        ],
+        "baseHeight": 4.2,
+        "rise": 3.15,
+        "rows": 8,
+        "eyeHeight": 1.2,
+        "tier": "lower",
+        "frontReference": [
+          54.604690458522676,
+          24.469804971012316
+        ],
+        "rowBearing": "local-normal",
+        "rowStrip": {
+          "front": [
+            [
+              54.60443501941023,
+              24.47002548118708
+            ],
+            [
+              54.60486676152783,
+              24.470082331858674
+            ]
+          ],
+          "back": [
+            [
+              54.604425410025776,
+              24.470085936953932
+            ],
+            [
+              54.604857152143374,
+              24.470142787625523
+            ]
+          ],
+          "source": {
+            "url": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Public configured viewer M00-M08 each8 rows, M09 six; lower ordinary floor separated from rear building layers. Author approximate .52m seat pitch,2.2m between-section aisles,.85m tread,4.2m first floor,.45m riser and3m setback within named OSM188731381 envelope. Geographic section locations and floor heights are not a measured seating plan. Viewer undated;2026 promoter confirms Main product family."
+          }
+        }
+      },
+      {
+        "surfaceId": "m03",
+        "boundary": [
+          [
+            54.604888250954495,
+            24.470085161530108
+          ],
+          [
+            54.60523364464857,
+            24.47013064206738
+          ],
+          [
+            54.605224035264115,
+            24.470191097834235
+          ],
+          [
+            54.60487864157004,
+            24.47014561729696
+          ],
+          [
+            54.604888250954495,
+            24.470085161530108
+          ]
+        ],
+        "baseHeight": 4.2,
+        "rise": 3.15,
+        "rows": 8,
+        "eyeHeight": 1.2,
+        "tier": "lower",
+        "frontReference": [
+          54.60510051585518,
+          24.469858966288186
+        ],
+        "rowBearing": "local-normal",
+        "rowStrip": {
+          "front": [
+            [
+              54.604888250954495,
+              24.470085161530108
+            ],
+            [
+              54.60523364464857,
+              24.47013064206738
+            ]
+          ],
+          "back": [
+            [
+              54.60487864157004,
+              24.47014561729696
+            ],
+            [
+              54.605224035264115,
+              24.470191097834235
+            ]
+          ],
+          "source": {
+            "url": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Public configured viewer M00-M08 each8 rows, M09 six; lower ordinary floor separated from rear building layers. Author approximate .52m seat pitch,2.2m between-section aisles,.85m tread,4.2m first floor,.45m riser and3m setback within named OSM188731381 envelope. Geographic section locations and floor heights are not a measured seating plan. Viewer undated;2026 promoter confirms Main product family."
+          }
+        }
+      },
+      {
+        "surfaceId": "m04",
+        "boundary": [
+          [
+            54.605255134075236,
+            24.47013347173882
+          ],
+          [
+            54.60560052776931,
+            24.470178952276093
+          ],
+          [
+            54.605590918384856,
+            24.470239408042943
+          ],
+          [
+            54.60524552469078,
+            24.47019392750567
+          ],
+          [
+            54.605255134075236,
+            24.47013347173882
+          ]
+        ],
+        "baseHeight": 4.2,
+        "rise": 3.15,
+        "rows": 8,
+        "eyeHeight": 1.2,
+        "tier": "lower",
+        "frontReference": [
+          54.60546739897592,
+          24.469907276496894
+        ],
+        "rowBearing": "local-normal",
+        "rowStrip": {
+          "front": [
+            [
+              54.605255134075236,
+              24.47013347173882
+            ],
+            [
+              54.60560052776931,
+              24.470178952276093
+            ]
+          ],
+          "back": [
+            [
+              54.60524552469078,
+              24.47019392750567
+            ],
+            [
+              54.605590918384856,
+              24.470239408042943
+            ]
+          ],
+          "source": {
+            "url": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Public configured viewer M00-M08 each8 rows, M09 six; lower ordinary floor separated from rear building layers. Author approximate .52m seat pitch,2.2m between-section aisles,.85m tread,4.2m first floor,.45m riser and3m setback within named OSM188731381 envelope. Geographic section locations and floor heights are not a measured seating plan. Viewer undated;2026 promoter confirms Main product family."
+          }
+        }
+      },
+      {
+        "surfaceId": "m05",
+        "boundary": [
+          [
+            54.605622017195984,
+            24.47018178194753
+          ],
+          [
+            54.60596741089006,
+            24.470227262484805
+          ],
+          [
+            54.6059578015056,
+            24.470287718251654
+          ],
+          [
+            54.60561240781153,
+            24.47024223771438
+          ],
+          [
+            54.605622017195984,
+            24.47018178194753
+          ]
+        ],
+        "baseHeight": 4.2,
+        "rise": 3.15,
+        "rows": 8,
+        "eyeHeight": 1.2,
+        "tier": "lower",
+        "frontReference": [
+          54.605834282096666,
+          24.469955586705606
+        ],
+        "rowBearing": "local-normal",
+        "rowStrip": {
+          "front": [
+            [
+              54.605622017195984,
+              24.47018178194753
+            ],
+            [
+              54.60596741089006,
+              24.470227262484805
+            ]
+          ],
+          "back": [
+            [
+              54.60561240781153,
+              24.47024223771438
+            ],
+            [
+              54.6059578015056,
+              24.470287718251654
+            ]
+          ],
+          "source": {
+            "url": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Public configured viewer M00-M08 each8 rows, M09 six; lower ordinary floor separated from rear building layers. Author approximate .52m seat pitch,2.2m between-section aisles,.85m tread,4.2m first floor,.45m riser and3m setback within named OSM188731381 envelope. Geographic section locations and floor heights are not a measured seating plan. Viewer undated;2026 promoter confirms Main product family."
+          }
+        }
+      },
+      {
+        "surfaceId": "m06",
+        "boundary": [
+          [
+            54.605988900316724,
+            24.47023009215624
+          ],
+          [
+            54.6063342940108,
+            24.470275572693513
+          ],
+          [
+            54.606324684626344,
+            24.470336028460363
+          ],
+          [
+            54.60597929093227,
+            24.470290547923092
+          ],
+          [
+            54.605988900316724,
+            24.47023009215624
+          ]
+        ],
+        "baseHeight": 4.2,
+        "rise": 3.15,
+        "rows": 8,
+        "eyeHeight": 1.2,
+        "tier": "lower",
+        "frontReference": [
+          54.606201165217406,
+          24.470003896914317
+        ],
+        "rowBearing": "local-normal",
+        "rowStrip": {
+          "front": [
+            [
+              54.605988900316724,
+              24.47023009215624
+            ],
+            [
+              54.6063342940108,
+              24.470275572693513
+            ]
+          ],
+          "back": [
+            [
+              54.60597929093227,
+              24.470290547923092
+            ],
+            [
+              54.606324684626344,
+              24.470336028460363
+            ]
+          ],
+          "source": {
+            "url": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Public configured viewer M00-M08 each8 rows, M09 six; lower ordinary floor separated from rear building layers. Author approximate .52m seat pitch,2.2m between-section aisles,.85m tread,4.2m first floor,.45m riser and3m setback within named OSM188731381 envelope. Geographic section locations and floor heights are not a measured seating plan. Viewer undated;2026 promoter confirms Main product family."
+          }
+        }
+      },
+      {
+        "surfaceId": "m07",
+        "boundary": [
+          [
+            54.606355783437465,
+            24.47027840236495
+          ],
+          [
+            54.60670117713154,
+            24.470323882902225
+          ],
+          [
+            54.606691567747085,
+            24.470384338669074
+          ],
+          [
+            54.60634617405301,
+            24.4703388581318
+          ],
+          [
+            54.606355783437465,
+            24.47027840236495
+          ]
+        ],
+        "baseHeight": 4.2,
+        "rise": 3.15,
+        "rows": 8,
+        "eyeHeight": 1.2,
+        "tier": "lower",
+        "frontReference": [
+          54.60656804833815,
+          24.470052207123025
+        ],
+        "rowBearing": "local-normal",
+        "rowStrip": {
+          "front": [
+            [
+              54.606355783437465,
+              24.47027840236495
+            ],
+            [
+              54.60670117713154,
+              24.470323882902225
+            ]
+          ],
+          "back": [
+            [
+              54.60634617405301,
+              24.4703388581318
+            ],
+            [
+              54.606691567747085,
+              24.470384338669074
+            ]
+          ],
+          "source": {
+            "url": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Public configured viewer M00-M08 each8 rows, M09 six; lower ordinary floor separated from rear building layers. Author approximate .52m seat pitch,2.2m between-section aisles,.85m tread,4.2m first floor,.45m riser and3m setback within named OSM188731381 envelope. Geographic section locations and floor heights are not a measured seating plan. Viewer undated;2026 promoter confirms Main product family."
+          }
+        }
+      },
+      {
+        "surfaceId": "m08",
+        "boundary": [
+          [
+            54.606722666558206,
+            24.470326712573662
+          ],
+          [
+            54.60706806025228,
+            24.470372193110933
+          ],
+          [
+            54.607058450867825,
+            24.470432648877786
+          ],
+          [
+            54.60671305717375,
+            24.470387168340512
+          ],
+          [
+            54.606722666558206,
+            24.470326712573662
+          ]
+        ],
+        "baseHeight": 4.2,
+        "rise": 3.15,
+        "rows": 8,
+        "eyeHeight": 1.2,
+        "tier": "lower",
+        "frontReference": [
+          54.60693493145889,
+          24.470100517331737
+        ],
+        "rowBearing": "local-normal",
+        "rowStrip": {
+          "front": [
+            [
+              54.606722666558206,
+              24.470326712573662
+            ],
+            [
+              54.60706806025228,
+              24.470372193110933
+            ]
+          ],
+          "back": [
+            [
+              54.60671305717375,
+              24.470387168340512
+            ],
+            [
+              54.607058450867825,
+              24.470432648877786
+            ]
+          ],
+          "source": {
+            "url": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Public configured viewer M00-M08 each8 rows, M09 six; lower ordinary floor separated from rear building layers. Author approximate .52m seat pitch,2.2m between-section aisles,.85m tread,4.2m first floor,.45m riser and3m setback within named OSM188731381 envelope. Geographic section locations and floor heights are not a measured seating plan. Viewer undated;2026 promoter confirms Main product family."
+          }
+        }
+      },
+      {
+        "surfaceId": "m09",
+        "boundary": [
+          [
+            54.60708954967895,
+            24.47037502278237
+          ],
+          [
+            54.60730288107823,
+            24.470403113702453
+          ],
+          [
+            54.60729567403989,
+            24.47044845552759
+          ],
+          [
+            54.60708234264061,
+            24.47042036460751
+          ],
+          [
+            54.60708954967895,
+            24.47037502278237
+          ]
+        ],
+        "baseHeight": 4.2,
+        "rise": 2.25,
+        "rows": 6,
+        "eyeHeight": 1.2,
+        "tier": "lower",
+        "frontReference": [
+          54.60723578343224,
+          24.47014013273185
+        ],
+        "rowBearing": "local-normal",
+        "rowStrip": {
+          "front": [
+            [
+              54.60708954967895,
+              24.47037502278237
+            ],
+            [
+              54.60730288107823,
+              24.470403113702453
+            ]
+          ],
+          "back": [
+            [
+              54.60708234264061,
+              24.47042036460751
+            ],
+            [
+              54.60729567403989,
+              24.47044845552759
+            ]
+          ],
+          "source": {
+            "url": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Public configured viewer M00-M08 each8 rows, M09 six; lower ordinary floor separated from rear building layers. Author approximate .52m seat pitch,2.2m between-section aisles,.85m tread,4.2m first floor,.45m riser and3m setback within named OSM188731381 envelope. Geographic section locations and floor heights are not a measured seating plan. Viewer undated;2026 promoter confirms Main product family."
+          }
+        }
+      }
+    ],
+    "surface": {
+      "baseHeight": 4.2,
+      "rise": 3.15,
+      "eyeHeight": 1.2,
+      "depth": 6.8
+    },
+    "source": {
+      "url": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Public configured viewer M00-M08 each8 rows, M09 six; lower ordinary floor separated from rear building layers. Author approximate .52m seat pitch,2.2m between-section aisles,.85m tread,4.2m first floor,.45m riser and3m setback within named OSM188731381 envelope. Geographic section locations and floor heights are not a measured seating plan. Viewer undated;2026 promoter confirms Main product family."
+    },
+    "openingSource": {
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/main-grandstand-4day",
+      "checkedAt": "2026-11-05",
+      "method": "published",
+      "confidence": "high",
+      "notes": "2026 Main product identity; public configured viewer is undated and does not certify individual seat stock."
+    },
+    "surfaceSource": {
+      "url": "https://venues.3ddigitalvenue.com/yas-marina-circuit",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Public configured viewer M00-M08 each8 rows, M09 six; lower ordinary floor separated from rear building layers. Author approximate .52m seat pitch,2.2m between-section aisles,.85m tread,4.2m first floor,.45m riser and3m setback within named OSM188731381 envelope. Geographic section locations and floor heights are not a measured seating plan. Viewer undated;2026 promoter confirms Main product family."
+    },
+    "geometryReview": {
+      "checkedAt": "2026-11-05",
+      "issues": [],
+      "method": "Explicit approximate lower ordinary sections separated from rear building layers; sourced row counts and unequal end widths, no whole-building22row slope."
+    },
+    "description": "普通座席M00–M08八排、M09六排；分区位置、范围及高度近似，后方其他楼层未混入。"
+  },
+  "acceptedBeforeZones": [
+    {
+      "zoneId": "main",
+      "name": "Main",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          54.6075031,
+          24.4705154
+        ],
+        [
+          54.6075059,
+          24.470474
+        ],
+        [
+          54.6074899,
+          24.4704352
+        ],
+        [
+          54.6074579,
+          24.4704057
+        ],
+        [
+          54.6074154,
+          24.4703907
+        ],
+        [
+          54.6039934,
+          24.4699401
+        ],
+        [
+          54.6039648,
+          24.4699429
+        ],
+        [
+          54.6039378,
+          24.4699516
+        ],
+        [
+          54.6039138,
+          24.469966
+        ],
+        [
+          54.6038941,
+          24.469985
+        ],
+        [
+          54.6038799,
+          24.4700078
+        ],
+        [
+          54.6038721,
+          24.4700329
+        ],
+        [
+          54.6038254,
+          24.4700417
+        ],
+        [
+          54.6038433,
+          24.4701209
+        ],
+        [
+          54.6038909,
+          24.470112
+        ],
+        [
+          54.6039064,
+          24.4701244
+        ],
+        [
+          54.603924,
+          24.4701344
+        ],
+        [
+          54.6039431,
+          24.4701416
+        ],
+        [
+          54.6039633,
+          24.4701458
+        ],
+        [
+          54.6073316,
+          24.4706022
+        ],
+        [
+          54.6073716,
+          24.4706005
+        ],
+        [
+          54.607411,
+          24.4705935
+        ],
+        [
+          54.6074488,
+          24.4705813
+        ],
+        [
+          54.6074888,
+          24.4706082
+        ],
+        [
+          54.6075425,
+          24.4705405
+        ],
+        [
+          54.6075031,
+          24.4705154
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "main-1",
+          "boundary": [
+            [
+              54.6075031,
+              24.4705154
+            ],
+            [
+              54.6075059,
+              24.470474
+            ],
+            [
+              54.6074899,
+              24.4704352
+            ],
+            [
+              54.6074579,
+              24.4704057
+            ],
+            [
+              54.6074154,
+              24.4703907
+            ],
+            [
+              54.6039934,
+              24.4699401
+            ],
+            [
+              54.6039648,
+              24.4699429
+            ],
+            [
+              54.6039378,
+              24.4699516
+            ],
+            [
+              54.6039138,
+              24.469966
+            ],
+            [
+              54.6038941,
+              24.469985
+            ],
+            [
+              54.6038799,
+              24.4700078
+            ],
+            [
+              54.6038721,
+              24.4700329
+            ],
+            [
+              54.6038254,
+              24.4700417
+            ],
+            [
+              54.6038433,
+              24.4701209
+            ],
+            [
+              54.6038909,
+              24.470112
+            ],
+            [
+              54.6039064,
+              24.4701244
+            ],
+            [
+              54.603924,
+              24.4701344
+            ],
+            [
+              54.6039431,
+              24.4701416
+            ],
+            [
+              54.6039633,
+              24.4701458
+            ],
+            [
+              54.6073316,
+              24.4706022
+            ],
+            [
+              54.6073716,
+              24.4706005
+            ],
+            [
+              54.607411,
+              24.4705935
+            ],
+            [
+              54.6074488,
+              24.4705813
+            ],
+            [
+              54.6074888,
+              24.4706082
+            ],
+            [
+              54.6075425,
+              24.4705405
+            ],
+            [
+              54.6075031,
+              24.4705154
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.04,
+          "eyeHeight": 1.2,
+          "rows": 22,
+          "frontReference": [
+            54.605514058553425,
+            24.469976442661853
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.04,
+        "depth": 24.53,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.openstreetmap.org/way/188731381",
+        "checkedAt": "2026-10-23",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "具名/对照场馆图确认的OSM看台建筑轮廓；way/188731381。非精确售票边界。"
+      },
+      "openingSource": {
+        "url": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+      },
+      "surfaceSource": {
+        "url": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "main",
+      "name": "Main",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          54.6075031,
+          24.4705154
+        ],
+        [
+          54.6075059,
+          24.470474
+        ],
+        [
+          54.6074899,
+          24.4704352
+        ],
+        [
+          54.6074579,
+          24.4704057
+        ],
+        [
+          54.6074154,
+          24.4703907
+        ],
+        [
+          54.6039934,
+          24.4699401
+        ],
+        [
+          54.6039648,
+          24.4699429
+        ],
+        [
+          54.6039378,
+          24.4699516
+        ],
+        [
+          54.6039138,
+          24.469966
+        ],
+        [
+          54.6038941,
+          24.469985
+        ],
+        [
+          54.6038799,
+          24.4700078
+        ],
+        [
+          54.6038721,
+          24.4700329
+        ],
+        [
+          54.6038254,
+          24.4700417
+        ],
+        [
+          54.6038433,
+          24.4701209
+        ],
+        [
+          54.6038909,
+          24.470112
+        ],
+        [
+          54.6039064,
+          24.4701244
+        ],
+        [
+          54.603924,
+          24.4701344
+        ],
+        [
+          54.6039431,
+          24.4701416
+        ],
+        [
+          54.6039633,
+          24.4701458
+        ],
+        [
+          54.6073316,
+          24.4706022
+        ],
+        [
+          54.6073716,
+          24.4706005
+        ],
+        [
+          54.607411,
+          24.4705935
+        ],
+        [
+          54.6074488,
+          24.4705813
+        ],
+        [
+          54.6074888,
+          24.4706082
+        ],
+        [
+          54.6075425,
+          24.4705405
+        ],
+        [
+          54.6075031,
+          24.4705154
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "main-1",
+          "boundary": [
+            [
+              54.6075031,
+              24.4705154
+            ],
+            [
+              54.6075059,
+              24.470474
+            ],
+            [
+              54.6074899,
+              24.4704352
+            ],
+            [
+              54.6074579,
+              24.4704057
+            ],
+            [
+              54.6074154,
+              24.4703907
+            ],
+            [
+              54.6039934,
+              24.4699401
+            ],
+            [
+              54.6039648,
+              24.4699429
+            ],
+            [
+              54.6039378,
+              24.4699516
+            ],
+            [
+              54.6039138,
+              24.469966
+            ],
+            [
+              54.6038941,
+              24.469985
+            ],
+            [
+              54.6038799,
+              24.4700078
+            ],
+            [
+              54.6038721,
+              24.4700329
+            ],
+            [
+              54.6038254,
+              24.4700417
+            ],
+            [
+              54.6038433,
+              24.4701209
+            ],
+            [
+              54.6038909,
+              24.470112
+            ],
+            [
+              54.6039064,
+              24.4701244
+            ],
+            [
+              54.603924,
+              24.4701344
+            ],
+            [
+              54.6039431,
+              24.4701416
+            ],
+            [
+              54.6039633,
+              24.4701458
+            ],
+            [
+              54.6073316,
+              24.4706022
+            ],
+            [
+              54.6073716,
+              24.4706005
+            ],
+            [
+              54.607411,
+              24.4705935
+            ],
+            [
+              54.6074488,
+              24.4705813
+            ],
+            [
+              54.6074888,
+              24.4706082
+            ],
+            [
+              54.6075425,
+              24.4705405
+            ],
+            [
+              54.6075031,
+              24.4705154
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.04,
+          "eyeHeight": 1.2,
+          "rows": 22,
+          "frontReference": [
+            54.605514058553425,
+            24.469976442661853
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.04,
+        "depth": 24.53,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.openstreetmap.org/way/188731381",
+        "checkedAt": "2026-10-23",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "具名/对照场馆图确认的OSM看台建筑轮廓；way/188731381。非精确售票边界。"
+      },
+      "openingSource": {
+        "url": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+      },
+      "surfaceSource": {
+        "url": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-30",
+        "issues": [
+          "whole-building-single-bank-conflicts-with-main-seat-layers"
+        ],
+        "method": "Public configured viewer M03 has8 labeled rowsA–H and separate rear building layers. Current whole-building22row bank does not identify actual ordinary seat floor. Preserve geometry until independently reconstructed; do not merely set rows8 with unchanged11.04m rise."
+      }
+    }
+  ],
+  "sourceReview": "src/circuits/season-review/yas-marina-main-seat-layout-2026.json",
+  "accuracy": "Approximate ordinary lower seat floor only; rear/hospitality/accessible platforms and overhead structure unresolved.",
+  "estimatedGeometry": {
+    "seatWidthMetres": 0.52,
+    "aisleWidthMetres": 2.2,
+    "treadMetres": 0.85,
+    "firstFloorMetres": 4.2,
+    "riserMetres": 0.45,
+    "frontSetbackMetres": 3,
+    "sectionOrder": "M00 southwest to M09 northeast is an authored geographic approximation"
+  }
+}

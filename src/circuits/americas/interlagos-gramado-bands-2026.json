@@ -1,0 +1,254 @@
+{
+  "circuitId": "interlagos",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "gramado-t12",
+      "name": "Village Gramado · T12 内侧",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          -46.6969156768291,
+          -23.698503129345482
+        ],
+        [
+          -46.69708417653437,
+          -23.698411070522763
+        ],
+        [
+          -46.69658649949876,
+          -23.697647362489928
+        ],
+        [
+          -46.69641799979348,
+          -23.697739421312647
+        ],
+        [
+          -46.6969156768291,
+          -23.698503129345482
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "gramado-t12-1",
+          "boundary": [
+            [
+              -46.6969156768291,
+              -23.698503129345482
+            ],
+            [
+              -46.69708417653437,
+              -23.698411070522763
+            ],
+            [
+              -46.69658649949876,
+              -23.697647362489928
+            ],
+            [
+              -46.69641799979348,
+              -23.697739421312647
+            ],
+            [
+              -46.6969156768291,
+              -23.698503129345482
+            ]
+          ],
+          "rowDirection": [
+            0.5123994072497221,
+            -0.8587472546972907
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 20,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Author approximate inner Village sector,20–40m left of actual road, clipped to native grass1263139998 and excluding registered seats/Estrela/buildings/pits/road. Source terrain standing1.65m, not surveyed annual ticket perimeter."
+      },
+      "surfaceSource": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Author approximate inner Village sector,20–40m left of actual road, clipped to native grass1263139998 and excluding registered seats/Estrela/buildings/pits/road. Source terrain standing1.65m, not surveyed annual ticket perimeter."
+      },
+      "openingSource": {
+        "url": "https://atendimento.f1saopaulo.com.br/hc/pt-br/articles/11037154973851-Quais-s%C3%A3o-os-ingressos-dispon%C3%ADveis-e-quanto-custam",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter2026 named schematic locator; author approximate 80x25m,offset30m,0rows/base0.04m/rise0m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "description": "Village内侧近似草地，地形及围网可能影响视线。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Separate native-ground-clipped Village sector; actual road and registered facilities screened."
+      },
+      "admissionNote": "Gramado区域，18岁及以上；不含Estrela平台，现场票界为近似。"
+    },
+    {
+      "zoneId": "gramado-t13-t14",
+      "name": "Village Gramado · T13–T14",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          -46.69842554686322,
+          -23.69756589888265
+        ],
+        [
+          -46.69842773606811,
+          -23.69756140931825
+        ],
+        [
+          -46.6984264,
+          -23.6975582
+        ],
+        [
+          -46.6984197,
+          -23.6975207
+        ],
+        [
+          -46.69840109150923,
+          -23.697368490140846
+        ],
+        [
+          -46.6978616844515,
+          -23.69720036326571
+        ],
+        [
+          -46.69773839425505,
+          -23.697176183507352
+        ],
+        [
+          -46.69765152244646,
+          -23.69716266100885
+        ],
+        [
+          -46.697629289909116,
+          -23.697208254917552
+        ],
+        [
+          -46.697592821757084,
+          -23.697306348200225
+        ],
+        [
+          -46.69842554686322,
+          -23.69756589888265
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "gramado-t13-t14-1",
+          "boundary": [
+            [
+              -46.69842554686322,
+              -23.69756589888265
+            ],
+            [
+              -46.69842773606811,
+              -23.69756140931825
+            ],
+            [
+              -46.6984264,
+              -23.6975582
+            ],
+            [
+              -46.6984197,
+              -23.6975207
+            ],
+            [
+              -46.69840109150923,
+              -23.697368490140846
+            ],
+            [
+              -46.6978616844515,
+              -23.69720036326571
+            ],
+            [
+              -46.69773839425505,
+              -23.697176183507352
+            ],
+            [
+              -46.69765152244646,
+              -23.69716266100885
+            ],
+            [
+              -46.697629289909116,
+              -23.697208254917552
+            ],
+            [
+              -46.697592821757084,
+              -23.697306348200225
+            ],
+            [
+              -46.69842554686322,
+              -23.69756589888265
+            ]
+          ],
+          "rowDirection": [
+            -0.913119279203617,
+            0.40769250906371446
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 20,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Author approximate inner Village sector,20–40m left of actual road, clipped to native grass1263139998 and excluding registered seats/Estrela/buildings/pits/road. Source terrain standing1.65m, not surveyed annual ticket perimeter."
+      },
+      "surfaceSource": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Author approximate inner Village sector,20–40m left of actual road, clipped to native grass1263139998 and excluding registered seats/Estrela/buildings/pits/road. Source terrain standing1.65m, not surveyed annual ticket perimeter."
+      },
+      "openingSource": {
+        "url": "https://atendimento.f1saopaulo.com.br/hc/pt-br/articles/11037154973851-Quais-s%C3%A3o-os-ingressos-dispon%C3%ADveis-e-quanto-custam",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter2026 named schematic locator; author approximate 80x25m,offset30m,0rows/base0.04m/rise0m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "description": "Village内侧近似草地，地形及围网可能影响视线。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Separate native-ground-clipped Village sector; actual road and registered facilities screened."
+      },
+      "admissionNote": "Gramado区域，18岁及以上；不含Estrela平台，现场票界为近似。"
+    }
+  ],
+  "beforeZones": [],
+  "scope": "Approximate inner Village viewing-bank sectors; not full surveyed legal ticket perimeter or Estrela entitlement."
+}

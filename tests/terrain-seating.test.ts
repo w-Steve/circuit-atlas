@@ -5,6 +5,8 @@ import {createSpectators} from '../src/circuits/spectators';
 import {terrainHeight} from '../src/circuits/elevation';
 import {spectatorTerrain} from '../src/circuits/spectatorTerrain';
 import {terrainSpectatorZones} from '../src/circuits/spectatorDatum';
+import {cutPublicGround} from '../src/circuits/publicGroundCut';
+import {Ray,Vector3} from 'three';
 
 it('seating platforms and public-ground viewpoints stay above the rendered terrain across all 22 shared circuits',async()=>{
  for(const {circuitId:id} of circuitRegistry.filter(c=>c.circuitId!=='shanghai')){
@@ -25,12 +27,13 @@ it('seating platforms and public-ground viewpoints stay above the rendered terra
     if(!s.definition.terrainFollow)expect(display-.3,`${id}/${s.definition.surfaceId} terrain can cover seat`).toBeLessThanOrEqual(floor.y+.001);
    }
    if(s.definition.terrainFollow){
-    // An uphill vertex is allowed above a downhill visitor. Test the actual
-    // rendered ground triangle under the point, rather than flattening its hill.
-    const u=(lon-west)/(east-west)*n-column,v=(lat-south)/(north-south)*n-row;
-    const [h00,h01,h10,h11]=heights;
-    const ground=u+v<=1?h00*(1-u-v)+h10*u+h01*v:h10*(1-v)+h01*(1-u)+h11*(u+v-1);
-    expect(ground,`${id}/${s.definition.surfaceId} rendered terrain covers the public-ground surface`).toBeLessThanOrEqual(floor.y+.001);
+    // Public ground owns the fine physical mesh in its exact footprint. Test
+    // the actual remaining coarse triangles, including newly clipped edges;
+    // the former uncut-cell interpolation no longer represents rendered geometry.
+    const positions:number[]=[];
+    for(const [i,[dx,dz]] of [[0,[0,0]],[1,[0,1]],[2,[1,0]],[3,[1,1]]] as const){const x=(west+(east-west)*(column+dx)/n-g.origin[0])*factorX,z=-(south+(north-south)*(row+dz)/n-g.origin[1])*factorZ;positions.push(x,heights[i],z)}
+    const colors=new Array(12).fill(1),uvs=new Array(8).fill(0),indices=cutPublicGround(d,g,positions,[0,2,1,2,3,1],colors,uvs),ray=new Ray(floor.clone().add(new Vector3(0,100,0)),new Vector3(0,-1,0));
+    for(let i=0;i<indices.length;i+=3){const [a,b,c]=indices.slice(i,i+3).map(j=>new Vector3(...positions.slice(j*3,j*3+3) as [number,number,number])),hit=ray.intersectTriangle(a,b,c,false,new Vector3());if(hit)expect(hit.y,`${id}/${s.definition.surfaceId} rendered terrain covers the public-ground surface`).toBeLessThanOrEqual(floor.y+.001)}
    }
   }
  }

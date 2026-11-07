@@ -1,0 +1,900 @@
+{
+  "circuitId": "zandvoort",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "ben-pon",
+      "name": "Ben Pon",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          4.540256109503358,
+          52.38740500247324
+        ],
+        [
+          4.5407608983685614,
+          52.38815248461695
+        ],
+        [
+          4.541005851825302,
+          52.38809086953822
+        ],
+        [
+          4.540501062960098,
+          52.3873433873945
+        ],
+        [
+          4.540256109503358,
+          52.38740500247324
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 8.8,
+        "depth": 18,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "ben-pon-1",
+          "boundary": [
+            [
+              4.540256109503358,
+              52.38740500247324
+            ],
+            [
+              4.5407608983685614,
+              52.38815248461695
+            ],
+            [
+              4.541005851825302,
+              52.38809086953822
+            ],
+            [
+              4.540501062960098,
+              52.3873433873945
+            ],
+            [
+              4.540256109503358,
+              52.38740500247324
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 8.8,
+          "eyeHeight": 1.2,
+          "rows": 22,
+          "frontReference": [
+            4.540127465225474,
+            52.38787458922313
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                4.540256109503358,
+                52.38740500247324
+              ],
+              [
+                4.5407608983685614,
+                52.38815248461695
+              ]
+            ],
+            "back": [
+              [
+                4.540501062960098,
+                52.3873433873945
+              ],
+              [
+                4.541005851825302,
+                52.38809086953822
+              ]
+            ],
+            "source": {
+              "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Promoter2026 wayfinding named BenPon/Arena sectors; retain source-relative stand side, rebuild paired rows against actual road branch. Author approximation90x18m,28m front offset,22rows/base2.2m/rise8.8m. Not measured seating footprint or a distinct ticket for each geometric face."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 wayfinding named BenPon/Arena sectors; retain source-relative stand side, rebuild paired rows against actual road branch. Author approximation90x18m,28m front offset,22rows/base2.2m/rise8.8m. Not measured seating footprint or a distinct ticket for each geometric face."
+      },
+      "openingSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 wayfinding named BenPon/Arena sectors; retain source-relative stand side, rebuild paired rows against actual road branch. Author approximation90x18m,28m front offset,22rows/base2.2m/rise8.8m. Not measured seating footprint or a distinct ticket for each geometric face."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Named map-sector approximation, actual-road paired seating edges; not old schematic rectangle."
+      },
+      "description": "近似座席范围、排数及高度；同一票区的几何分面不代表独立票种。"
+    },
+    {
+      "zoneId": "arena-gold-silver",
+      "name": "Arena Gold / Silver",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          4.541605143718296,
+          52.386893812220706
+        ],
+        [
+          4.54176666283319,
+          52.38631829104237
+        ],
+        [
+          4.5415055229457755,
+          52.38629099307438
+        ],
+        [
+          4.541344003830882,
+          52.38686651425272
+        ],
+        [
+          4.541605143718296,
+          52.386893812220706
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 8.8,
+        "depth": 18,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "arena-gold-silver-1",
+          "boundary": [
+            [
+              4.541605143718296,
+              52.386893812220706
+            ],
+            [
+              4.54176666283319,
+              52.38631829104237
+            ],
+            [
+              4.5415055229457755,
+              52.38629099307438
+            ],
+            [
+              4.541344003830882,
+              52.38686651425272
+            ],
+            [
+              4.541605143718296,
+              52.386893812220706
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 8.8,
+          "eyeHeight": 1.2,
+          "rows": 22,
+          "frontReference": [
+            4.5420921208783875,
+            52.386648515137296
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                4.541605143718296,
+                52.386893812220706
+              ],
+              [
+                4.54176666283319,
+                52.38631829104237
+              ]
+            ],
+            "back": [
+              [
+                4.541344003830882,
+                52.38686651425272
+              ],
+              [
+                4.5415055229457755,
+                52.38629099307438
+              ]
+            ],
+            "source": {
+              "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Promoter2026 wayfinding named BenPon/Arena sectors; retain source-relative stand side, rebuild paired rows against actual road branch. Author approximation65x18m,28m front offset,22rows/base2.2m/rise8.8m. Not measured seating footprint or a distinct ticket for each geometric face."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 wayfinding named BenPon/Arena sectors; retain source-relative stand side, rebuild paired rows against actual road branch. Author approximation65x18m,28m front offset,22rows/base2.2m/rise8.8m. Not measured seating footprint or a distinct ticket for each geometric face."
+      },
+      "openingSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 wayfinding named BenPon/Arena sectors; retain source-relative stand side, rebuild paired rows against actual road branch. Author approximation65x18m,28m front offset,22rows/base2.2m/rise8.8m. Not measured seating footprint or a distinct ticket for each geometric face."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Named map-sector approximation, actual-road paired seating edges; not old schematic rectangle."
+      },
+      "description": "近似座席范围、排数及高度；同一票区的几何分面不代表独立票种。"
+    },
+    {
+      "zoneId": "arena-gold-silver-nord",
+      "name": "Arena Gold / Silver Nord",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          4.542836975184561,
+          52.387718211360315
+        ],
+        [
+          4.542027441182817,
+          52.387721046754635
+        ],
+        [
+          4.542028792706041,
+          52.387864774175796
+        ],
+        [
+          4.542838326707785,
+          52.38786193878148
+        ],
+        [
+          4.542836975184561,
+          52.387718211360315
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 8.0,
+        "depth": 16,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "arena-gold-silver-nord-1",
+          "boundary": [
+            [
+              4.542836975184561,
+              52.387718211360315
+            ],
+            [
+              4.542027441182817,
+              52.387721046754635
+            ],
+            [
+              4.542028792706041,
+              52.387864774175796
+            ],
+            [
+              4.542838326707785,
+              52.38786193878148
+            ],
+            [
+              4.542836975184561,
+              52.387718211360315
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 8.0,
+          "eyeHeight": 1.2,
+          "rows": 20,
+          "frontReference": [
+            4.5424298430180485,
+            52.38746810607044
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                4.542836975184561,
+                52.387718211360315
+              ],
+              [
+                4.542027441182817,
+                52.387721046754635
+              ]
+            ],
+            "back": [
+              [
+                4.542838326707785,
+                52.38786193878148
+              ],
+              [
+                4.542028792706041,
+                52.387864774175796
+              ]
+            ],
+            "source": {
+              "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Promoter2026 wayfinding named BenPon/Arena sectors; retain source-relative stand side, rebuild paired rows against actual road branch. Author approximation55x16m,28m front offset,20rows/base2.2m/rise8.0m. Not measured seating footprint or a distinct ticket for each geometric face."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 wayfinding named BenPon/Arena sectors; retain source-relative stand side, rebuild paired rows against actual road branch. Author approximation55x16m,28m front offset,20rows/base2.2m/rise8.0m. Not measured seating footprint or a distinct ticket for each geometric face."
+      },
+      "openingSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 wayfinding named BenPon/Arena sectors; retain source-relative stand side, rebuild paired rows against actual road branch. Author approximation55x16m,28m front offset,20rows/base2.2m/rise8.0m. Not measured seating footprint or a distinct ticket for each geometric face."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Named map-sector approximation, actual-road paired seating edges; not old schematic rectangle."
+      },
+      "description": "近似座席范围、排数及高度；同一票区的几何分面不代表独立票种。"
+    },
+    {
+      "zoneId": "arena-in",
+      "name": "Arena-In",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          4.544967079760298,
+          52.38786207977504
+        ],
+        [
+          4.543883291523903,
+          52.38758109763968
+        ],
+        [
+          4.543779702442669,
+          52.38772992205893
+        ],
+        [
+          4.544863490679064,
+          52.38801090419429
+        ],
+        [
+          4.544967079760298,
+          52.38786207977504
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 8.8,
+        "depth": 18,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "arena-in-1",
+          "boundary": [
+            [
+              4.544967079760298,
+              52.38786207977504
+            ],
+            [
+              4.543883291523903,
+              52.38758109763968
+            ],
+            [
+              4.543779702442669,
+              52.38772992205893
+            ],
+            [
+              4.544863490679064,
+              52.38801090419429
+            ],
+            [
+              4.544967079760298,
+              52.38786207977504
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 8.8,
+          "eyeHeight": 1.2,
+          "rows": 22,
+          "frontReference": [
+            4.544586324212908,
+            52.3874900840552
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                4.544967079760298,
+                52.38786207977504
+              ],
+              [
+                4.543883291523903,
+                52.38758109763968
+              ]
+            ],
+            "back": [
+              [
+                4.544863490679064,
+                52.38801090419429
+              ],
+              [
+                4.543779702442669,
+                52.38772992205893
+              ]
+            ],
+            "source": {
+              "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Promoter2026 wayfinding named BenPon/Arena sectors; retain source-relative stand side, rebuild paired rows against actual road branch. Author approximation80x18m,28m front offset,22rows/base2.2m/rise8.8m. Not measured seating footprint or a distinct ticket for each geometric face."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 wayfinding named BenPon/Arena sectors; retain source-relative stand side, rebuild paired rows against actual road branch. Author approximation80x18m,28m front offset,22rows/base2.2m/rise8.8m. Not measured seating footprint or a distinct ticket for each geometric face."
+      },
+      "openingSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 wayfinding named BenPon/Arena sectors; retain source-relative stand side, rebuild paired rows against actual road branch. Author approximation80x18m,28m front offset,22rows/base2.2m/rise8.8m. Not measured seating footprint or a distinct ticket for each geometric face."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Named map-sector approximation, actual-road paired seating edges; not old schematic rectangle."
+      },
+      "description": "近似座席范围、排数及高度；同一票区的几何分面不代表独立票种。"
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "ben-pon",
+      "name": "Ben Pon",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          4.53981275688649,
+          52.3873398737553
+        ],
+        [
+          4.540487315630159,
+          52.3884224136096
+        ],
+        [
+          4.540627614980621,
+          52.38836265914608
+        ],
+        [
+          4.5399530562369526,
+          52.38728011929179
+        ],
+        [
+          4.53981275688649,
+          52.3873398737553
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 5.53,
+        "depth": 11.52,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "ben-pon-1",
+          "boundary": [
+            [
+              4.53981275688649,
+              52.3873398737553
+            ],
+            [
+              4.540487315630159,
+              52.3884224136096
+            ],
+            [
+              4.540627614980621,
+              52.38836265914608
+            ],
+            [
+              4.5399530562369526,
+              52.38728011929179
+            ],
+            [
+              4.53981275688649,
+              52.3873398737553
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 5.53,
+          "eyeHeight": 1.2,
+          "rows": 11,
+          "frontReference": [
+            4.540119633101771,
+            52.38787446884689
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026主办方示意图人工选取边界，以弯道地理控制点作局部仿射配准；临时看台位置与尺寸为近似，不能用于具体座位购票。"
+      },
+      "openingSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "ben-pon-1: road intersection 690.1339 m2"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "arena-gold-silver",
+      "name": "Arena Gold / Silver",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          4.541610276792541,
+          52.38695162840815
+        ],
+        [
+          4.542101012922834,
+          52.38631776749211
+        ],
+        [
+          4.541683536526766,
+          52.38625232191906
+        ],
+        [
+          4.541192800396473,
+          52.3868861828351
+        ],
+        [
+          4.541610276792541,
+          52.38695162840815
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 14.84,
+        "depth": 30.92,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "arena-gold-silver-1",
+          "boundary": [
+            [
+              4.541610276792541,
+              52.38695162840815
+            ],
+            [
+              4.542101012922834,
+              52.38631776749211
+            ],
+            [
+              4.541683536526766,
+              52.38625232191906
+            ],
+            [
+              4.541192800396473,
+              52.3868861828351
+            ],
+            [
+              4.541610276792541,
+              52.38695162840815
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 14.84,
+          "eyeHeight": 1.2,
+          "rows": 30,
+          "frontReference": [
+            4.542068427735784,
+            52.3867331086613
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026主办方示意图人工选取边界，以弯道地理控制点作局部仿射配准；临时看台位置与尺寸为近似，不能用于具体座位购票。"
+      },
+      "openingSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "arena-gold-silver-1: road intersection 2.3859 m2"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "arena-gold-silver-nord",
+      "name": "Arena Gold / Silver Nord",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          4.542069007650151,
+          52.38780955462691
+        ],
+        [
+          4.542935216754986,
+          52.38756081118057
+        ],
+        [
+          4.542809427154291,
+          52.38742228832855
+        ],
+        [
+          4.541943218049455,
+          52.38767103177489
+        ],
+        [
+          4.542069007650151,
+          52.38780955462691
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 8.6,
+        "depth": 17.93,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "arena-gold-silver-nord-1",
+          "boundary": [
+            [
+              4.542069007650151,
+              52.38780955462691
+            ],
+            [
+              4.542935216754986,
+              52.38756081118057
+            ],
+            [
+              4.542809427154291,
+              52.38742228832855
+            ],
+            [
+              4.541943218049455,
+              52.38767103177489
+            ],
+            [
+              4.542069007650151,
+              52.38780955462691
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 8.6,
+          "eyeHeight": 1.2,
+          "rows": 17,
+          "frontReference": [
+            4.542317698889782,
+            52.387456135819605
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026主办方示意图人工选取边界，以弯道地理控制点作局部仿射配准；临时看台位置与尺寸为近似，不能用于具体座位购票。"
+      },
+      "openingSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "arena-gold-silver-nord-1: road intersection 146.9043 m2"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "arena-in",
+      "name": "Arena-In",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          4.543794149822464,
+          52.387476513618516
+        ],
+        [
+          4.545305328026539,
+          52.38773369904195
+        ],
+        [
+          4.545317159269948,
+          52.38759177951975
+        ],
+        [
+          4.543805981065873,
+          52.387334594096316
+        ],
+        [
+          4.543794149822464,
+          52.387476513618516
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 7.65,
+        "depth": 15.93,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "arena-in-1",
+          "boundary": [
+            [
+              4.543794149822464,
+              52.387476513618516
+            ],
+            [
+              4.545305328026539,
+              52.38773369904195
+            ],
+            [
+              4.545317159269948,
+              52.38759177951975
+            ],
+            [
+              4.543805981065873,
+              52.387334594096316
+            ],
+            [
+              4.543794149822464,
+              52.387476513618516
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.65,
+          "eyeHeight": 1.2,
+          "rows": 15,
+          "frontReference": [
+            4.544119188060748,
+            52.38847193810978
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026主办方示意图人工选取边界，以弯道地理控制点作局部仿射配准；临时看台位置与尺寸为近似，不能用于具体座位购票。"
+      },
+      "openingSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "arena-in-1: road intersection 973.0240 m2"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    }
+  ]
+}

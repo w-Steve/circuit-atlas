@@ -1,10 +1,13 @@
 import { BufferGeometry, Float32BufferAttribute, ShapeUtils, Vector2, Vector3 } from "three";
 import type { SpectatorZone } from "./types";
 import type { createCircuitGeometry } from "./geometry";
+import {createSeatingStrip} from './seatingStrip';
 type Definition = NonNullable<SpectatorZone['surfaces']>[number];
 export interface SpectatorSurface {
   zone:SpectatorZone; definition:Definition; points:Vector2[]; center:Vector2;
   axis:Vector2; normal:Vector2; min:number; max:number; minN:number; maxN:number; frontSign:number;
+  frontDatumN?:number;
+  strip?:ReturnType<typeof createSeatingStrip>;
 }
 export function createSpectators(zones:SpectatorZone[],geometry:Pick<ReturnType<typeof createCircuitGeometry>,'origin'|'calibration'|'at'|'length'>&{groundAt?:(x:number,z:number)=>number}){
 const spectatorZones=zones.filter(z=>z.availability==='available');
@@ -30,16 +33,44 @@ const geographic = ([lon,lat]:number[]) => new Vector2(
   (lon-origin[0])*111320*Math.cos(origin[1]*Math.PI/180)*calibration,
   -(lat-origin[1])*111320*calibration);
 function prepare(zone:SpectatorZone,definition:Definition):SpectatorSurface {
+  // Reserved seating keeps its authored seated eye. Unseated public ground
+  // always uses a standing visitor; legacy source configs may still say1.2m.
+  if(zone.kind!=='grandstand')definition={...definition,eyeHeight:1.65};
   if(definition.terrainFollow&&(definition.rows!==0||zone.kind==='grandstand'||!geometry.groundAt))throw Error('Terrain-following public ground requires unseated geometry and a source ground sampler');
+  if(definition.terrainMeshSpacingMetres!==undefined&&(!definition.terrainFollow||!Number.isFinite(definition.terrainMeshSpacingMetres)||definition.terrainMeshSpacingMetres<.5||definition.terrainMeshSpacingMetres>8))throw Error('Invalid public-ground terrain mesh spacing');
   const points=definition.boundary.slice(0,-1).map(geographic);
+  if(definition.rowStrip&&(!definition.rows||definition.terrainFollow))throw Error('Seating strip requires numbered rows');
+  const strip=definition.rowStrip?createSeatingStrip(definition.rowStrip.front.map(geographic),definition.rowStrip.back.map(geographic),points):undefined;
   const center=points.reduce((p,q)=>p.add(q),new Vector2()).multiplyScalar(1/points.length);
   let xx=0,zz=0,xz=0;
   points.forEach(p=>{const x=p.x-center.x,z=p.y-center.y;xx+=x*x;zz+=z*z;xz+=x*z});
   const angle=.5*Math.atan2(2*xz,xx-zz),axis=new Vector2(Math.cos(angle),Math.sin(angle)),normal=new Vector2(-axis.y,axis.x);
+  if(definition.rowFrontEdge){
+    const [a,b]=definition.rowFrontEdge.coordinates.map(geographic),edge=b.clone().sub(a);
+    const matches=points.some((p,i)=>{const q=points[(i+1)%points.length];return p.distanceTo(a)<1e-5&&q.distanceTo(b)<1e-5||p.distanceTo(b)<1e-5&&q.distanceTo(a)<1e-5});
+    if(definition.terrainFollow||edge.length()<1e-6||!matches)throw Error(`Invalid seating front edge ${definition.surfaceId}`);
+    edge.normalize();if(edge.dot(axis)<0)edge.multiplyScalar(-1);
+    // Preserve u's handedness. A rear notch must not rotate straight rows,
+    // their risers, selected eyes and default bearings in different directions.
+    axis.copy(edge);normal.set(-axis.y,axis.x);
+  }
+  if(definition.rowDirection){axis.set(...definition.rowDirection).normalize();normal.set(-axis.y,axis.x)}
   const along=points.map(p=>p.clone().sub(center).dot(axis)),across=points.map(p=>p.clone().sub(center).dot(normal));
   const reference=definition.frontReference?geographic(definition.frontReference):null;
   const track=reference?new Vector3(reference.x,0,reference.y):nearestTrack(new Vector3(center.x,0,center.y)).point;
-  return {zone,definition,points,center,axis,normal,min:Math.min(...along),max:Math.max(...along),minN:Math.min(...across),maxN:Math.max(...across),frontSign:Math.sign(new Vector2(track.x-center.x,track.z-center.y).dot(normal))||1};
+  const prepared:SpectatorSurface={zone,definition,points,center,axis,normal,strip,min:Math.min(...along),max:Math.max(...along),minN:Math.min(...across),maxN:Math.max(...across),frontSign:Math.sign(new Vector2(track.x-center.x,track.z-center.y).dot(normal))||1};
+  const pitch=definition.rowPitch;
+  if(pitch){
+    if(!definition.rowFrontEdge||strip||definition.terrainFollow||!Number.isInteger(definition.rows)||definition.rows<2||![pitch.treadMetres,pitch.riserMetres].every(n=>Number.isFinite(n)&&n>0)||Math.abs(definition.rise-(definition.rows-1)*pitch.riserMetres)>1e-6)throw Error('Invalid metric seating steps');
+    prepared.frontDatumN=geographic(definition.rowFrontEdge.coordinates[0]).sub(center).dot(normal);
+    const depths=across.map(n=>(prepared.frontDatumN!-n)*prepared.frontSign);
+    if(Math.min(...depths)<-1e-5||Math.max(...depths)>definition.rows*pitch.treadMetres+1e-5)throw Error('Metric steps do not cover the footprint behind its front');
+    const cuts=[...new Set(along)].sort((a,b)=>a-b);
+    // Source rear notches can split a section into several intervals. Metric
+    // heights use the same front datum for each; never fill the intervening gap.
+    for(let i=1;i<cuts.length;i++)if(cuts[i]-cuts[i-1]>1e-7)intervals(prepared,((cuts[i]+cuts[i-1])/2-prepared.min)/(prepared.max-prepared.min));
+  }
+  return prepared;
 }
 const zoneSurfaces = new Map(spectatorZones.map(z=>[z.zoneId,(z.surfaces??[]).map(s=>prepare(z,s))]));
 const grassCache=new WeakMap<SpectatorSurface,Vector3[][]>();
@@ -83,9 +114,11 @@ function rowDistance(surface:SpectatorSurface,p:Vector2){
   const fromMin=section.parts.reduce((sum,part)=>sum+Math.max(0,Math.min(part.hi-part.lo,n-part.lo)),0);
   return {distance:surface.frontSign>0?section.total-fromMin:fromMin,depth:section.total};
 }
-function fractionAt(surface:SpectatorSurface,p:Vector2){const r=rowDistance(surface,p);return Math.max(0,Math.min(1,r.distance/r.depth))}
+function fractionAt(surface:SpectatorSurface,p:Vector2){if(surface.strip)return surface.strip.inverse(p).v;const r=rowDistance(surface,p);return Math.max(0,Math.min(1,r.distance/r.depth))}
 function floorHeight(surface:SpectatorSurface,p:Vector2){
-  const {baseHeight,rise,rows}=surface.definition,ratio=fractionAt(surface,p);
+  const {baseHeight,rise,rows,rowPitch}=surface.definition;
+  if(rowPitch){const d=(surface.frontDatumN!-p.clone().sub(surface.center).dot(surface.normal))*surface.frontSign;return baseHeight+Math.max(0,Math.min(rows-1,Math.floor((d+1e-8)/rowPitch.treadMetres)))*rowPitch.riserMetres}
+  const ratio=fractionAt(surface,p);
   if(!rows){
     let edgeHeight:number|undefined,edgeDistance=1e-12;
     for(const [a,b,c] of groundTrianglesAt(surface,p)){
@@ -112,14 +145,24 @@ function floorHeight(surface:SpectatorSurface,p:Vector2){
   return baseHeight+(rows>1?Math.min(rows-1,Math.floor((ratio+1e-9)*rows))/(rows-1):rows===1?0:ratio)*rise;
 }
 function surfacePoint(surface:SpectatorSurface,u:number,v:number,eye=false){
+  if(surface.strip){
+    let ratio=Math.max(0,Math.min(1,v));const rows=surface.definition.rows;
+    if(rows>1&&ratio>0&&ratio<1&&Math.abs(ratio*rows-Math.round(ratio*rows))<1e-8){const depth=surface.strip.at(u,0).distanceTo(surface.strip.at(u,1));ratio=Math.min(1,ratio+.002/depth)}
+    const p=surface.strip.at(u,ratio);return new Vector3(p.x,floorHeight(surface,p)+(eye?surface.definition.eyeHeight:0),p.y);
+  }
   const {x,parts,total}=intervals(surface,u);
   // A mathematical tread edge is ambiguous once uploaded to a Float32 mesh.
   // Place exact-boundary picks 2 mm inside the selected tread, never below it.
   const rows=surface.definition.rows;
-  const pickedV=rows>1&&v>0&&v<1&&Math.abs(v*rows-Math.round(v*rows))<1e-8?Math.min(1,v+.002/total):v;
+  const pitch=surface.definition.rowPitch;
+  const pickedV=!pitch&&rows>1&&v>0&&v<1&&Math.abs(v*rows-Math.round(v*rows))<1e-8?Math.min(1,v+.002/total):v;
   let remaining=Math.max(0,Math.min(1,surface.frontSign>0?1-pickedV:pickedV))*total;
   let n=parts[parts.length-1].hi;
   for(const part of parts){if(remaining<=part.hi-part.lo){n=part.lo+remaining;break}remaining-=part.hi-part.lo}
+  if(pitch&&v>0&&v<1){
+    const step=(surface.frontDatumN!-n)*surface.frontSign/pitch.treadMetres;
+    if(Math.abs(step-Math.round(step))<1e-8){const room=surface.frontSign>0?n-parts[0].lo:parts[0].hi-n;n-=surface.frontSign*Math.min(.002,room/2)}
+  }
   const p=surface.center.clone().addScaledVector(surface.axis,x).addScaledVector(surface.normal,n);
   return new Vector3(p.x,floorHeight(surface,p)+(eye?surface.definition.eyeHeight:0),p.y);
 }
@@ -135,6 +178,12 @@ function zonePoint(zoneId:string,u:number,v:number,eye=true){
   return surfacePoint(surface,localU,v,eye);
 }
 function selectionAt(surface:SpectatorSurface,point:Vector3){
+  if(surface.strip){
+    const pick=surface.strip.inverse(new Vector2(point.x,point.z),true),all=zoneSurfaces.get(surface.zone.zoneId)!;
+    let offset=0;for(const s of all){if(s===surface)break;offset+=s.max-s.min}
+    const total=all.reduce((sum,s)=>sum+s.max-s.min,0);
+    return {zoneId:surface.zone.zoneId,tier:'lower' as const,u:(offset+pick.u*(surface.max-surface.min))/total,v:pick.v};
+  }
   const p=new Vector2(point.x,point.z),along=p.clone().sub(surface.center).dot(surface.axis);
   const localU=Math.max(0,Math.min(1,(along-surface.min)/(surface.max-surface.min))), section=intervals(surface,localU);
   const n=p.clone().sub(surface.center).dot(surface.normal);
@@ -166,10 +215,11 @@ function grassTriangles(surface:SpectatorSurface){
   if(surface.definition.terrainFollow){
    if(!geometry.groundAt)throw Error('Terrain-following ground requires a source elevation sampler');
    const subdivided:Vector3[][]=[];
+   const spacingSquared=(surface.definition.terrainMeshSpacingMetres??8)**2;
    const split=(triangle:Vector3[])=>{
     const lengths=triangle.map((p,i)=>p.clone().setY(0).distanceToSquared(triangle[(i+1)%3].clone().setY(0)));
     const edge=lengths.indexOf(Math.max(...lengths));
-    if(lengths[edge]>64){const a=triangle[edge],b=triangle[(edge+1)%3],c=triangle[(edge+2)%3],mid=a.clone().lerp(b,.5);split([a,mid,c]);split([mid,b,c]);return}
+    if(lengths[edge]>spacingSquared){const a=triangle[edge],b=triangle[(edge+1)%3],c=triangle[(edge+2)%3],mid=a.clone().lerp(b,.5);split([a,mid,c]);split([mid,b,c]);return}
     subdivided.push(triangle.map(p=>new Vector3(p.x,geometry.groundAt!(p.x,p.z)+surface.definition.baseHeight,p.z)));
    };
    result.forEach(split);grassCache.set(surface,subdivided);return subdivided;
@@ -179,13 +229,18 @@ function grassTriangles(surface:SpectatorSurface){
 function surfaceGeometry(surface:SpectatorSurface,baseAt?: (p:Vector2)=>number){
   const vertices:number[]=[];
   const emit=(a:Vector2,b:Vector2,c:Vector2,y:(p:Vector2)=>number)=>[a,b,c].forEach(p=>vertices.push(p.x,y(p),p.y));
-  const {baseHeight,rise,rows}=surface.definition;
+  const {baseHeight,rise,rows,rowPitch}=surface.definition;
   const along=(p:Vector2)=>(p.x-surface.center.x)*surface.axis.x+(p.y-surface.center.y)*surface.axis.y;
   // Split at footprint vertices: between these cuts each front/back boundary is
   // linear. A row follows that local section instead of a single global slope.
   const cuts=[...new Set(surface.points.map(p=>Math.round(along(p)*1e7)/1e7))].sort((a,b)=>a-b);
   if(!rows)for(const triangle of grassTriangles(surface))for(const p of triangle)vertices.push(p.x,p.y,p.z);
-  if(rows)for(let slice=0;slice<cuts.length-1;slice++){
+  if(surface.strip)for(let segment=0;segment<surface.strip.segments.length;segment++)for(let row=0;row<rows;row++){
+    const a=surface.strip.point(segment,0,row/rows),b=surface.strip.point(segment,1,row/rows),c=surface.strip.point(segment,1,(row+1)/rows),d=surface.strip.point(segment,0,(row+1)/rows),y=baseHeight+row/Math.max(1,rows-1)*rise;
+    emit(a,b,c,()=>y);emit(a,c,d,()=>y);
+    if(row<rows-1){const high=y+rise/(rows-1);vertices.push(d.x,y,d.y,c.x,y,c.y,d.x,high,d.y,c.x,y,c.y,c.x,high,c.y,d.x,high,d.y)}
+  }
+  if(rows&&!surface.strip)for(let slice=0;slice<cuts.length-1;slice++){
     const left=cuts[slice],right=cuts[slice+1];if(right-left<1e-8)continue;
     const a=left+(right-left)*.25,b=left+(right-left)*.75;
     const first=intervals(surface,(a-surface.min)/(surface.max-surface.min)).parts;
@@ -201,6 +256,7 @@ function surfaceGeometry(surface:SpectatorSurface,baseAt?: (p:Vector2)=>number){
       // This field is affine within one polygon interval. Clamping across gaps
       // made clipping nonlinear and created long triangular spikes at row ends.
       const field=(p:Vector2,ratio:number)=>{
+        if(rowPitch)return (surface.frontDatumN!-(p.x-surface.center.x)*surface.normal.x-(p.y-surface.center.y)*surface.normal.y)*surface.frontSign-ratio*rows*rowPitch.treadMetres;
         const parts=section(along(p)),total=parts.reduce((v,q)=>v+q.hi-q.lo,0);
         const before=parts.slice(0,part).reduce((v,q)=>v+q.hi-q.lo,0);
         const n=p.clone().sub(surface.center).dot(surface.normal);
@@ -209,7 +265,7 @@ function surfaceGeometry(surface:SpectatorSurface,baseAt?: (p:Vector2)=>number){
       };
       for(let row=0;row<rows;row++){
         const poly=clip(clip(cell,p=>field(p,row/rows),0,true),p=>field(p,(row+1)/rows),0,false);
-        const y=baseHeight+row/Math.max(1,rows-1)*rise;
+        const y=baseHeight+(rowPitch?row*rowPitch.riserMetres:row/Math.max(1,rows-1)*rise);
         for(let i=1;i+1<poly.length;i++)emit(poly[0],poly[i],poly[i+1],()=>y);
         if(row<rows-1)poly.forEach((a,i)=>{
           const b=poly[(i+1)%poly.length];
@@ -252,9 +308,27 @@ function zonePassCenter(zoneId:string){return nearestTrack(facingTarget(zoneId,.
 const facingBranches=new WeakMap<SpectatorSurface,Vector3[]>();
 function facingTarget(zoneId:string,u:number,v:number){
   const {surface,localU}=surfaceAt(zoneId,u),p=surfacePoint(surface,localU,v,true);
+  // A flat accessible deck has no seating slope to define its front. Keep its
+  // picked footprint intact and use an authored road reference for the view.
+  if(surface.definition.rows===1&&surface.definition.rise===0&&surface.definition.viewRoadReference){
+    const ref=geographic(surface.definition.viewRoadReference.coordinate);
+    return nearestTrack(new Vector3(ref.x,0,ref.y)).point;
+  }
   // Unseated ground has no row direction. Look toward the local actual road,
-  // rather than the PCA axis of an arbitrary map partition.
-  if(surface.definition.terrainFollow)return nearestTrack(p).point;
+  // rather than the PCA axis of an arbitrary map partition. A sourced named
+  // road can disambiguate adjacent branches without searching for visibility.
+  if(surface.definition.terrainFollow){
+    const reference=surface.definition.viewRoadReference;
+    if(!reference)return nearestTrack(p).point;
+    let branch=facingBranches.get(surface);
+    if(!branch){
+      const ref=geographic(reference.coordinate),arc=nearestTrack(new Vector3(ref.x,0,ref.y)).distance;
+      branch=Array.from({length:151},(_,i)=>at(arc-150+i*2));facingBranches.set(surface,branch);
+    }
+    let best=branch[0],distance=Infinity;
+    for(const q of branch){const d=(q.x-p.x)**2+(q.z-p.z)**2;if(d<distance){best=q;distance=d}}
+    return best.clone();
+  }
   if(!surface.definition.frontReference)return nearestTrack(p).point;
   let branch=facingBranches.get(surface);
   if(!branch){

@@ -1,0 +1,349 @@
+{
+  "circuitId": "hungaroring",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "runtimeApplied": true,
+  "geographicBoundaryVerified": false,
+  "sources": [
+    {
+      "url": "https://hungaroring.hu/site/en/races/2026-formula-1-aws-magyar-nagydij/faq-2026",
+      "sha256": "0ff3ef0e17296df3f29fff024b4058d4ad15d6b16eb6ccf049fedb8a1fc72d81",
+      "fact": "2026 GA holders should use Gate 7 or other designated gates; Gate 8 is reserved for grandstand holders, with a separately stated accessible-entry recommendation. Gates do not define viewing boundaries."
+    },
+    {
+      "url": "https://gpdestinations.com/wp-content/uploads/2025/11/en_8505_F1_HUN_VIP_Fan-Lounge_E.pdf",
+      "sha256": "0c5c68f1e5d23e43b3114ac1a488b69361f27d01b620a36ccc51baa6a3048156",
+      "author": "Grand Prix Tickets Ges.m.b.H.; third-party mirror",
+      "annualEvidence": "Page 1 explicitly dates the event 24–26 July 2026; page 2 is the associated circuit map, with artwork copyright 2025.",
+      "fact": "Page 2 legend identifies lime-green General Admission on the schematic upper/left outside band, geographically east through south of the circuit. The diagram is rotated and is not north-up. Parking/camping and reserved grandstands are not GA."
+    },
+    {
+      "url": "https://www.colomastore.com/colomastore/evento.jsp?lingua=ENG&sid=60",
+      "sha256": "ed2830a632e2669899f819347b01b8559cb2704b7e12efdccdbc6f6164839a07",
+      "author": "Coloma ticket supplier",
+      "annualEvidence": "Live body explicitly names Formula 1 AWS Hungarian Grand Prix 2026, 23–26 July 2026.",
+      "fact": "Separate products Fan 2 3-Days, Fan 3-Days, General Admission 3-Days and General Admission Sunday. Prices/availability are not imported. Supplier product identity does not establish surveyed geography."
+    },
+    {
+      "url": "https://www.gpticketshop.hu/upload/2026_02/24/177192229252025691/do_hungaroring_map_2026_trib_n_k___fan2_1500px.jpg",
+      "fact": "Named Fan2 highlighted on2026 locator outside T11-T12, upstream of Fan; independently retrieved and visually reviewed2026-11-06."
+    }
+  ],
+  "confirmedMissingProducts": [],
+  "nativeCandidates": [
+    "503197021",
+    "503224080",
+    "503224085",
+    "503224428",
+    "503235501",
+    "503235504",
+    "503235506",
+    "639839043",
+    "893622887"
+  ],
+  "nextAction": "Main GA sector representation accepted as approximate; refine exact enclosure and local facilities when better sources become available. No missing whole GA product currently identified.",
+  "excludedRoutes": [
+    {
+      "url": "https://www.gpt-worldwide.com/monacoeventf1/en/formula-1-2026-magyar-nagydij-2026/8505",
+      "result": "HTTP 403 on 2026-10-29; no content obtained."
+    },
+    {
+      "url": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+      "sha256": "a83d71f8d8c3ef7074979f74ebacb44a34b6aa6685af4f29f045632fdac365cb",
+      "result": "HTTP 200 generic HTML homepage; not an annual price/map document."
+    },
+    {
+      "url": "https://www.gpticketshop.com/hu/f1/f1-magyar-nagydij/pdfpricelist.html?id=1179t",
+      "sha256": "d0613595a458d2a18f161ac1432b2b5bcb6c62b85ca9dd8d1c0438cbbf8181be",
+      "result": "HTTP 200 HTML landing page; search snippets not used as geographic evidence."
+    },
+    {
+      "url": "https://www.gpticketshop.hu/Formula_1_HungarianGP/Formula_1.html?KAT1=TUE9PQ%3D%3D&KAT2=UW5Weg%3D%3D&KAT3=3",
+      "result": "Live body explicitly 2027, current map uploaded 2026-10-22 is named hungaroring_map_2027. Not used as 2026 annual evidence."
+    },
+    {
+      "url": "https://tickets.grandprixmontreal.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+      "result": "HTTP 404 on 2026-10-29; cached search description does not establish retrieved document."
+    }
+  ],
+  "registrationDiagnostic": {
+    "scope": "Manual schematic turn-apex points, approximate; diagnostic only, not independent surveyed controls. Pixel coordinates refer to map-detail.png, PDF page2 clip Rect(70,210,430,590) at 3x.",
+    "anchors": [
+      {
+        "corner": 1,
+        "pixel": [
+          965,
+          1050
+        ],
+        "coordinate": [
+          19.24242993697522,
+          47.582454766725135
+        ],
+        "residualMetres": 12.515665602498794,
+        "leaveOneOutMetres": 27.273184903529657
+      },
+      {
+        "corner": 2,
+        "pixel": [
+          804,
+          635
+        ],
+        "coordinate": [
+          19.24823494073159,
+          47.58094568566952
+        ],
+        "residualMetres": 19.509117656785314,
+        "leaveOneOutMetres": 22.955300951843565
+      },
+      {
+        "corner": 3,
+        "pixel": [
+          718,
+          780
+        ],
+        "coordinate": [
+          19.247674886420064,
+          47.582440317692786
+        ],
+        "residualMetres": 15.34057101426035,
+        "leaveOneOutMetres": 18.207318296412318
+      },
+      {
+        "corner": 4,
+        "pixel": [
+          320,
+          856
+        ],
+        "coordinate": [
+          19.250589491711022,
+          47.58620147732255
+        ],
+        "residualMetres": 12.954425857751886,
+        "leaveOneOutMetres": 15.248515864101924
+      },
+      {
+        "corner": 5,
+        "pixel": [
+          135,
+          999
+        ],
+        "coordinate": [
+          19.2502276136203,
+          47.58830087364088
+        ],
+        "residualMetres": 31.13997502509295,
+        "leaveOneOutMetres": 44.30664206262584
+      },
+      {
+        "corner": 6,
+        "pixel": [
+          134,
+          731
+        ],
+        "coordinate": [
+          19.253586105787033,
+          47.58678116365735
+        ],
+        "residualMetres": 7.492891753904386,
+        "leaveOneOutMetres": 9.14851687753863
+      },
+      {
+        "corner": 7,
+        "pixel": [
+          186,
+          726
+        ],
+        "coordinate": [
+          19.253342248102328,
+          47.58641729925452
+        ],
+        "residualMetres": 16.68108101146007,
+        "leaveOneOutMetres": 19.714735069704734
+      },
+      {
+        "corner": 8,
+        "pixel": [
+          252,
+          606
+        ],
+        "coordinate": [
+          19.254054554580947,
+          47.58502826269792
+        ],
+        "residualMetres": 6.988446930707931,
+        "leaveOneOutMetres": 7.956910495774461
+      },
+      {
+        "corner": 9,
+        "pixel": [
+          212,
+          497
+        ],
+        "coordinate": [
+          19.255729597071326,
+          47.58459673221703
+        ],
+        "residualMetres": 11.913759390095356,
+        "leaveOneOutMetres": 14.247284784808382
+      },
+      {
+        "corner": 10,
+        "pixel": [
+          365,
+          400
+        ],
+        "coordinate": [
+          19.255574208852096,
+          47.58287724604904
+        ],
+        "residualMetres": 24.818951717726033,
+        "leaveOneOutMetres": 28.96625652814103
+      },
+      {
+        "corner": 11,
+        "pixel": [
+          405,
+          230
+        ],
+        "coordinate": [
+          19.25655232863234,
+          47.581282507351666
+        ],
+        "residualMetres": 25.23713870974513,
+        "leaveOneOutMetres": 33.52555680364947
+      },
+      {
+        "corner": 12,
+        "pixel": [
+          780,
+          242
+        ],
+        "coordinate": [
+          19.253063564061584,
+          47.578648956406155
+        ],
+        "residualMetres": 8.936269699545775,
+        "leaveOneOutMetres": 11.782769189710042
+      },
+      {
+        "corner": 13,
+        "pixel": [
+          826,
+          457
+        ],
+        "coordinate": [
+          19.250276278860408,
+          47.57977854348863
+        ],
+        "residualMetres": 12.326851155538643,
+        "leaveOneOutMetres": 14.728013896199379
+      },
+      {
+        "corner": 14,
+        "pixel": [
+          916,
+          260
+        ],
+        "coordinate": [
+          19.25178652287527,
+          47.57771744472838
+        ],
+        "residualMetres": 5.854610041415725,
+        "leaveOneOutMetres": 8.226651433965436
+      }
+    ],
+    "affineRmsMetres": 16.806146798330456,
+    "leaveOneOutRmsMetres": 22.237309646685414,
+    "decision": "Reject direct global affine placement of GA; diagram orientation is not geographic north.",
+    "correction": "Previous diagnostic misassociated schematic T10–T14 and is superseded. Revised manual controls still are not independently surveyed boundaries."
+  },
+  "nativeCandidateReview": {
+    "method": "Plot native parcels with current track and stand boundaries in geographic coordinates; inspect against named turns and schematic orientation.",
+    "result": "The nine grass-tagged ways are predominantly T1/T2 infield or outlying northern parcels; none is accepted as the annual outside GA band. Grass classification is not admission evidence."
+  },
+  "georeferencedImagery": {
+    "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export",
+    "identifySource": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/identify",
+    "bboxWgs84": [
+      19.249,
+      47.576,
+      19.258,
+      47.5855
+    ],
+    "imageSha256": "8d987de842f91c8d4c121743b906c8b38583dbbbcdf96ae224287321f9571548",
+    "captureDate": "2025-05-02",
+    "provider": "Vantor",
+    "resolutionMetres": 0.5,
+    "reportedAccuracyMetres": 8.47,
+    "observed": "Permanent outside hillside terraces and access paths east of T9–T11 are visible. This predates the 2026 event and does not independently establish temporary seating or annual reserved exclusions. Raw imagery is not distributed."
+  },
+  "fanNativeCandidate": {
+    "wayId": "1085151671",
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=19.2557,47.5816,19.2571,47.5826",
+    "sha256": "b8d0e5def6e23c3f95c558a87d2e5c74409cdbf5b5e9a254c0d0fc5917452cb5",
+    "tags": {
+      "leisure": "bleachers"
+    },
+    "coordinates": [
+      [
+        19.2562982,
+        47.5822724
+      ],
+      [
+        19.2566871,
+        47.5818801
+      ],
+      [
+        19.2568913,
+        47.5819684
+      ],
+      [
+        19.2565061,
+        47.5823633
+      ],
+      [
+        19.2562982,
+        47.5822724
+      ]
+    ],
+    "identityAccepted": false,
+    "reason": "Unnamed native footprint lies beside the T10–T11 corridor, whereas the older labeled Fan schematic puts its named stand along T11–T12. Do not assign this polygon to Fan merely from proximity. Fan 2 requires separate independent location evidence."
+  },
+  "scopeCorrection": "The November 2025 lounge PDF explicitly describes a 2026 product but its map omits the separately sold Fan 2. Retain positive GA evidence, not complete final annual coverage. Previous manually misidentified T10–T14 controls caused false 117.4/149.1m diagnostic values; these are superseded by corrected 16.8/22.2m values. Neither set is survey control.",
+  "modeledProducts": [
+    {
+      "productId": "general-admission",
+      "mapLabel": "General Admission",
+      "modelZoneIds": [
+        "general-admission-east",
+        "general-admission-north",
+        "general-admission-south"
+      ],
+      "representation": "approximate-major-viewing-sectors",
+      "surveyedBoundary": false
+    }
+  ],
+  "practicalCoverageReview": {
+    "checkedAt": "2026-11-06",
+    "accepted": true,
+    "basis": "User accepts practical approximate stand/grass data, not installation survey. Visually rechecked the saved annual supplier lime GA band; existing three contiguous sector groups represent its major viewing sides.",
+    "sectors": [
+      {
+        "annualMapSector": "OuterT8–T10",
+        "modelZoneId": "general-admission-north",
+        "modelReview": "src/circuits/europe/hungaroring-ga-bands-2026.json"
+      },
+      {
+        "annualMapSector": "OuterT10–T11",
+        "modelZoneId": "general-admission-east",
+        "modelReview": "src/circuits/europe/hungaroring-supplement-2026.json"
+      },
+      {
+        "annualMapSector": "OuterT11–T14",
+        "modelZoneId": "general-admission-south",
+        "modelReview": "src/circuits/europe/hungaroring-ga-bands-2026.json"
+      }
+    ],
+    "limits": "Approximate selectable bands represent the major viewing sectors; not full legal ticket polygons, access paths, precise fence positions, complete ADA terrain or every square metre of the annual enclosure."
+  }
+}

@@ -3,3 +3,4 @@ public/atlas-layouts/*.svg -text
 
 # Source response hashes cover original bytes, including the final CRLF.
 src/circuits/elevation-source/ground-grids/*.json -text whitespace=cr-at-eol
+src/circuits/elevation-source/regional-grids/*.json -text whitespace=cr-at-eol

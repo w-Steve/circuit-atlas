@@ -1,0 +1,129 @@
+{
+  "circuitId": "monaco",
+  "checkedAt": "2026-10-26",
+  "candidateSha256": "f8e617e224eb1c62a79227428b44f716e68d7ea014973d378192e84d77b7fa28",
+  "baselineElevationSha256": "d5d99dd143df89d1ce7ca28b91bcfb0a1e2da96c0676bc59d06246d79a6f3868",
+  "validCount": 28168,
+  "missingCount": 393,
+  "acquisitionCounts": {
+    "Autre - Pas de données": 9164,
+    "LiDAR Topo externe densité acquisition théorique non renseignée ou inférieure à 1 pt / m²": 18894,
+    "No elevation": 393,
+    "Source mapping not found": 110
+  },
+  "existingFrame129GridMissingStencils": 4,
+  "missingStencilCoordinates": [
+    [
+      7.432363,
+      43.730362
+    ],
+    [
+      7.432363,
+      43.730461625
+    ],
+    [
+      7.432363,
+      43.73056125
+    ],
+    [
+      7.432363,
+      43.730660875
+    ]
+  ],
+  "directEdgeProbes": [
+    {
+      "lon": 7.432363,
+      "lat": 43.730362,
+      "metres": -0.4,
+      "valid": true
+    },
+    {
+      "lon": 7.432363,
+      "lat": 43.7304616,
+      "metres": -0.4,
+      "valid": true
+    },
+    {
+      "lon": 7.432363,
+      "lat": 43.7305613,
+      "metres": -0.4,
+      "valid": true
+    },
+    {
+      "lon": 7.432363,
+      "lat": 43.7306609,
+      "metres": -0.4,
+      "valid": true
+    }
+  ],
+  "directEdgeResponseSha256": "553fa59cb189cb290da77107cccff497177cbaeb3e67996ab7a16e899893bcab",
+  "independentProbes": [
+    {
+      "lon": 7.4218,
+      "lat": 43.7318,
+      "independentApiMetres": 27.67,
+      "candidateMetres": 28.12088727270524,
+      "currentMetres": 33.86429212700792,
+      "interpolationDifferenceMetres": 0.45088727270523776,
+      "acquisition": "LiDAR Topo externe densité acquisition théorique non renseignée ou inférieure à 1 pt / m²"
+    },
+    {
+      "lon": 7.423194,
+      "lat": 43.7325614,
+      "independentApiMetres": 2.28,
+      "candidateMetres": 2.1772676421579513,
+      "currentMetres": 3.888293137145381,
+      "interpolationDifferenceMetres": -0.10273235784204848,
+      "acquisition": "LiDAR Topo externe densité acquisition théorique non renseignée ou inférieure à 1 pt / m²"
+    },
+    {
+      "lon": 7.4281,
+      "lat": 43.739,
+      "independentApiMetres": 40.47,
+      "candidateMetres": 40.40890909090332,
+      "currentMetres": 52.34925247618521,
+      "interpolationDifferenceMetres": -0.06109090909667714,
+      "acquisition": "Autre - Pas de données"
+    },
+    {
+      "lon": 7.427,
+      "lat": 43.735,
+      "independentApiMetres": -0.4,
+      "candidateMetres": -0.4,
+      "currentMetres": 0.05032562838637659,
+      "interpolationDifferenceMetres": 0.0,
+      "acquisition": "Autre - Pas de données"
+    },
+    {
+      "lon": 7.418,
+      "lat": 43.7335,
+      "independentApiMetres": 27.18,
+      "candidateMetres": 27.147090909090828,
+      "currentMetres": null,
+      "interpolationDifferenceMetres": -0.03290909090917182,
+      "acquisition": "LiDAR Topo externe densité acquisition théorique non renseignée ou inférieure à 1 pt / m²"
+    }
+  ],
+  "applicationReady": false,
+  "sourceDecisions": [
+    {
+      "url": "https://www.arcgis.com/sharing/rest/content/items/fd0fff550d6b462fb76843e05734ee42",
+      "decision": "Excluded: licence limits use to Monaco government services and associated applications. Tile imagery was not downloaded or used."
+    },
+    {
+      "url": "https://www.arcgis.com/sharing/rest/content/items/e4e457a2b90b4f5b98a7c63629a00cc2",
+      "decision": "2023 circuit tour, not a2026 public ticket boundary. No photographs copied."
+    },
+    {
+      "url": "https://www.data.gouv.fr/datasets/rge-alti-r",
+      "decision": "IGN RGE ALTI catalog identifies Licence Ouverte2.0; candidate numeric elevations retained with raw-response hashes and acquisition classes."
+    }
+  ],
+  "limitations": [
+    "Native1m product spacing is not vertical accuracy; acquisition density/date vary or are unknown.",
+    "Missing elevations stay null. No filling, smoothing or observer fitting. Direct edge probes are retained separately, not silently inserted.",
+    "Sea elevations are not a bathymetric survey.",
+    "Rocher still needs independent geographic anchors; nearby OSM forest parcels are not ticket-access proof.",
+    "Live terrain and all current views remain unchanged until separate terrain/simulation review."
+  ]
+}

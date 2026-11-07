@@ -1,0 +1,347 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "checkedAt": "2026-10-28",
+  "guideSnapshot": {
+    "url": "https://www.silverstone.co.uk/news/silverstone-f1r-tickets-2026-your-guide",
+    "status": 200,
+    "sha256": "f9671d2c53511a17ae969e4f2a804e880f821c83fec0591a37ffac80a9db590f",
+    "checkedAt": "2026-10-28"
+  },
+  "annualMap": {
+    "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+    "publisher": "Silverstone",
+    "sha256": "3516fbf5bdab374c4a4f53b8a975cbd9ea0714408bd11f6be3c198f05f3e336c",
+    "page": 1
+  },
+  "ordinaryGA": {
+    "annualAdmissionVerified": true,
+    "unreserved": true,
+    "grandstandAdmissionIncluded": false,
+    "modelPosture": "standing",
+    "eyeHeightMetres": 1.65,
+    "positiveMapLegend": {
+      "drawingIndex": 1236,
+      "strokeColor": [
+        0.0,
+        0.6223849654197693,
+        0.8917829990386963
+      ],
+      "strokeWidthPdfPoints": 4.860000133514404
+    },
+    "cartographicBandGroups": [
+      {
+        "drawingIndex": 37,
+        "sourcePathSha256": "ab169c66800211e45acc23f32bbed408dda2bec889ea588680ea6f76902fff33",
+        "itemCount": 8,
+        "rectPdfPoints": [
+          508.2401123046875,
+          97.08851623535156,
+          892.6671142578125,
+          284.89752197265625
+        ],
+        "strokeWidthPdfPoints": 7.0,
+        "coordinateSpace": "PDF points, not longitude/latitude",
+        "geographicBoundaryVerified": false
+      },
+      {
+        "drawingIndex": 38,
+        "sourcePathSha256": "86dad237595ed2494923dd6d359b28ed138fb386c90f019338bb2f31fffd6eb4",
+        "itemCount": 1,
+        "rectPdfPoints": [
+          200.44920349121094,
+          224.92770385742188,
+          208.19720458984375,
+          292.23870849609375
+        ],
+        "strokeWidthPdfPoints": 7.0,
+        "coordinateSpace": "PDF points, not longitude/latitude",
+        "geographicBoundaryVerified": false
+      },
+      {
+        "drawingIndex": 39,
+        "sourcePathSha256": "63953dd2696b8295eb7ad47d7e0c827b1db534ec42dfef090106ca10f7130ac9",
+        "itemCount": 7,
+        "rectPdfPoints": [
+          313.9015197753906,
+          380.97772216796875,
+          381.1155090332031,
+          455.6167297363281
+        ],
+        "strokeWidthPdfPoints": 7.0,
+        "coordinateSpace": "PDF points, not longitude/latitude",
+        "geographicBoundaryVerified": false
+      },
+      {
+        "drawingIndex": 40,
+        "sourcePathSha256": "d1f91c9d8709c5a39294811daa55983170778809ede60888ab448bf8402ed98c",
+        "itemCount": 1,
+        "rectPdfPoints": [
+          535.8029174804688,
+          287.664306640625,
+          557.7879028320312,
+          334.51031494140625
+        ],
+        "strokeWidthPdfPoints": 7.0,
+        "coordinateSpace": "PDF points, not longitude/latitude",
+        "geographicBoundaryVerified": false
+      },
+      {
+        "drawingIndex": 41,
+        "sourcePathSha256": "2b364aba10c5cf70b71b6b73b431adc5ae125290b6cca4822b8f8621870f872c",
+        "itemCount": 1,
+        "rectPdfPoints": [
+          830.3405151367188,
+          434.51531982421875,
+          902.4075317382812,
+          499.7213134765625
+        ],
+        "strokeWidthPdfPoints": 7.0,
+        "coordinateSpace": "PDF points, not longitude/latitude",
+        "geographicBoundaryVerified": false
+      }
+    ],
+    "excludedSameColorAuxiliaryPathIndices": [
+      92,
+      93
+    ],
+    "geographicBoundaryVerified": false,
+    "modeledBandGroups": [
+      {
+        "drawingIndex": 38,
+        "modelZoneId": "ga-national-pit-straight",
+        "boundaryStatus": "interpreted-approximate",
+        "sourceReview": "src/circuits/europe/silverstone-national-ga-2026.json"
+      },
+      {
+        "drawingIndex": 40,
+        "modelZoneId": "ga-farm-curve",
+        "boundaryStatus": "interpreted-approximate",
+        "coverage": "connected Farm stand-front envelope with interpreted east cap",
+        "sourceReview": "src/circuits/europe/silverstone-farm-ga-2026.json"
+      },
+      {
+        "drawingIndex": 41,
+        "modelZoneId": "ga-vale",
+        "boundaryStatus": "interpreted-approximate",
+        "coverage": "stand-front subset, not complete ticket boundary",
+        "sourceReview": "src/circuits/europe/silverstone-vale-ga-2026.json"
+      },
+      {
+        "drawingIndex": 37,
+        "modelZoneId": "ga-copse-becketts-hangar",
+        "boundaryStatus": "interpreted-approximate",
+        "coverage": "interpreted trackside subset; not complete ticket boundary",
+        "sourceReview": "src/circuits/europe/silverstone-remaining-ga-2026.json"
+      },
+      {
+        "drawingIndex": 39,
+        "modelZoneId": "ga-brooklands-luffield",
+        "boundaryStatus": "interpreted-approximate",
+        "coverage": "interpreted trackside subset; not complete ticket boundary",
+        "sourceReview": "src/circuits/europe/silverstone-remaining-ga-2026.json"
+      }
+    ],
+    "remainingMapBandIndices": [],
+    "partiallyModeledMapBandIndices": [
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  "gaPlus": {
+    "annualAdmissionVerified": true,
+    "requiresSpecificReservedArea": true,
+    "locations": [
+      {
+        "mapNumber": 42,
+        "mapLabel": "Abbey GA Plus",
+        "geographicBoundaryVerified": false,
+        "modelZoneId": "ga-plus-abbey-a",
+        "boundaryStatus": "author-approximation",
+        "sourceReview": "src/circuits/europe/silverstone-ga-plus-2026.json"
+      },
+      {
+        "mapNumber": 44,
+        "mapLabel": "Luffield Terrace GA Plus",
+        "geographicBoundaryVerified": false,
+        "modelZoneId": "ga-plus-luffield",
+        "boundaryStatus": "author-approximation",
+        "sourceReview": "src/circuits/europe/silverstone-ga-plus-2026.json"
+      },
+      {
+        "mapNumber": 45,
+        "mapLabel": "Copse A GA Plus",
+        "geographicBoundaryVerified": false,
+        "modelZoneId": "ga-plus-copse-a",
+        "boundaryStatus": "author-approximation",
+        "sourceReview": "src/circuits/europe/silverstone-ga-plus-2026.json"
+      },
+      {
+        "mapNumber": 46,
+        "mapLabel": "Copse C GA Plus",
+        "geographicBoundaryVerified": false,
+        "modelZoneId": "ga-plus-copse-c",
+        "boundaryStatus": "author-approximation",
+        "sourceReview": "src/circuits/europe/silverstone-ga-plus-2026.json"
+      },
+      {
+        "mapNumber": 66,
+        "mapLabel": "Landostand GA Plus",
+        "geographicBoundaryVerified": false,
+        "modelZoneId": "ga-plus-landostand-stowe",
+        "boundaryStatus": "author-approximation",
+        "sourceReview": "src/circuits/europe/silverstone-ga-plus-2026.json"
+      }
+    ]
+  },
+  "accessibilityScopeQuestions": [],
+  "annualNameQuestions": [],
+  "confirmedMissingProducts": [],
+  "nativeFarmCrosscheck": {
+    "snapshot": {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.019,52.0705,-1.013,52.0733",
+      "status": 200,
+      "sha256": "505458a9876d13e192526e0deb875154d7cd7766f82ccfbffabdd34b21f83f7a",
+      "checkedAt": "2026-10-28"
+    },
+    "standWay": 227342449,
+    "openFenceWays": [
+      359218995,
+      359218997,
+      359218994,
+      359218998
+    ],
+    "nearbyGrassNotAdmissionProof": [
+      605927342,
+      605927344,
+      605924470
+    ],
+    "boundaryClosed": false,
+    "result": "Expanded query recovers997 connecting the physical foreground graph. East endpoint cap is interpreted, so no closed native ticket GIS is claimed; rear/inside-track grass remains excluded.",
+    "nativeGraphConnected": true,
+    "modeledEnvelopeClosed": true,
+    "sourceConnections": {
+      "995to997": "3639746105",
+      "997to994": "3643380799",
+      "995to998": "3639746107"
+    },
+    "sourceReview": "src/circuits/europe/silverstone-farm-ga-2026.json"
+  },
+  "publicAppDiscovery": {
+    "officialPage": "https://www.silverstone.co.uk/news/essentials-2026-british-grand-prix",
+    "appStoreId": 6448953849,
+    "androidPackage": "com.f1ss.venue.app",
+    "result": "Inspected primary pages link to the official native app stores; no public geographic viewing-layer URL was established. This is not proof that no such data exists."
+  },
+  "runtimeApplied": true,
+  "limits": "Map-space evidence verifies positive viewing locations and product distinctions, not geographic polygons or2026 surface elevations. No full PDF/artwork or HTML is redistributed. GA+ and enclosures must not be granted by ordinary GA. Existing BOXPARK GA remains a separate unresolved model representation.",
+  "partialStandingProducts": [
+    {
+      "productId": "general-admission",
+      "modelZoneIds": [
+        "ga-national-pit-straight",
+        "ga-farm-curve",
+        "ga-vale",
+        "ga-copse-becketts-hangar",
+        "ga-brooklands-luffield"
+      ],
+      "modeledDrawingIndices": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "remainingDrawingIndices": [],
+      "complete": false,
+      "partialDrawingIndices": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ]
+    }
+  ],
+  "nativeValeCrosscheck": {
+    "sourceReview": "src/circuits/europe/silverstone-vale-2026.json",
+    "standWay": 227342453,
+    "groundWay": 605892812,
+    "sharedStandNodeIds": [
+      "2360432044",
+      "2360432064",
+      "5745581294"
+    ],
+    "mapDrawingIndex": 41,
+    "runtimeGAAdded": true,
+    "result": "Named native Vale stand and its attached grass patch located. Native landuse boundary is not proof that the whole patch is2026 ordinary GA; complete ticket scope remains unverified.",
+    "modeledSubsetZoneId": "ga-vale",
+    "fullNativeGroundGranted": false
+  },
+  "previousNativeFarmCrosscheck": {
+    "snapshot": {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.016,52.0715,-1.010,52.0745",
+      "status": 200,
+      "sha256": "38032c2d72ae726cc5e9e5619c08536dc2746867e4362825c54be113b96dce90",
+      "checkedAt": "2026-10-28"
+    },
+    "standWay": 227342449,
+    "openFenceWays": [
+      359218994,
+      359218995,
+      359218998
+    ],
+    "nearbyGrassNotAdmissionProof": [
+      605927342,
+      605927344,
+      605924470
+    ],
+    "boundaryClosed": false,
+    "result": "Nearby landuse polygons lie behind the stand or across the raceway; open fences do not establish a complete positive GA viewing boundary."
+  },
+  "modeledProducts": [
+    {
+      "productId": "general-admission-plus",
+      "mapLabel": "GA Plus",
+      "source": "https://www.silverstone.co.uk/news/silverstone-f1r-tickets-2026-your-guide",
+      "scope": "All five annual named products have approximate stand-front ground envelopes; not surveyed full extent.",
+      "modelZoneIds": [
+        "ga-plus-abbey-a",
+        "ga-plus-luffield",
+        "ga-plus-copse-a",
+        "ga-plus-copse-c",
+        "ga-plus-landostand-stowe"
+      ],
+      "modelReview": "src/circuits/europe/silverstone-ga-plus-2026.json",
+      "accuracy": "approximate"
+    }
+  ],
+  "modelCheckedAt": "2026-11-06",
+  "modeledAccessibleProducts": [
+    {
+      "mapNumber": 43,
+      "mapLabel": "Luffield Complex Accessible Viewing",
+      "reason": "Approximate restricted flat viewing platform at43 now available; map also repeats label at36. Exact36/43 division, ramp/rail and ticket eligibility remain refinements, not an ordinary sixthGAPlus.",
+      "modelZoneId": "luffield-accessible",
+      "modelReview": "src/circuits/europe/silverstone-accessible-2026.json",
+      "accuracy": "approximate",
+      "ordinaryGAPlusIncluded": false,
+      "actualMarker36To43RelationshipVerified": false
+    }
+  ],
+  "modeledReservedEnclosures": [
+    {
+      "productId": "inside-nine",
+      "modelZoneId": "inside-nine",
+      "formerName": "Copse Yard",
+      "mapNumber": 60,
+      "modelReview": "src/circuits/europe/silverstone-inside-nine-2026.json",
+      "nameReview": "src/circuits/season-review/silverstone-inside-nine-name-2026.json",
+      "ordinaryGAIncluded": false,
+      "geographicBoundaryVerified": false
+    }
+  ]
+}

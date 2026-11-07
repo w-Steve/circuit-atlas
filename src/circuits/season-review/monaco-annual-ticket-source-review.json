@@ -1,0 +1,157 @@
+{
+  "circuitId": "monaco",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "retrievals": [
+    {
+      "url": "https://monaco-grandprix.com/",
+      "finalUrl": "https://monaco-grandprix.com/edition/formula-1-grand-prix-de-monaco-2027/",
+      "status": 200,
+      "sha256": "89b4ba6c57946f13e624a412a8fd8a4bd0bb334328f241293744e3b006f39acd",
+      "checkedAt": "2026-10-27",
+      "acceptedAs2026OrdinaryInventory": false,
+      "decision": "Current front page is2027; do not transfer its products to2026.",
+      "observedYear": 2027
+    },
+    {
+      "url": "https://monaco-grandprix.com/edition/formula-1-grand-prix-de-monaco-2026/evenement/tarifs-2026/",
+      "finalUrl": "https://monaco-grandprix.com/edition/formula-1-grand-prix-de-monaco-2026/evenement/tarifs-2026/",
+      "status": 404,
+      "sha256": "248b236bac4c66ebdc6a30d9ac0e300cde2a314ce0c527374cf91288abbb98d8",
+      "checkedAt": "2026-10-27",
+      "acceptedAs2026OrdinaryInventory": false,
+      "decision": "No2026 price page acquired; HTTP404 is not an empty ticket inventory."
+    },
+    {
+      "url": "https://monaco-grandprix.com/edition/formula-1-grand-prix-de-monaco-2026/billets/acheter-des-billets/",
+      "finalUrl": "https://monaco-grandprix.com/edition/grand-prix-de-monaco-historique-2026/billets/acheter-des-billets/",
+      "status": 200,
+      "sha256": "2fd79520529dcb3e58698f2f29cae3a7a6cf54c1c3e25c91f8def99871df63a3",
+      "checkedAt": "2026-10-27",
+      "acceptedAs2026OrdinaryInventory": false,
+      "decision": "Redirected to the2026 Historic Grand Prix; correct year, wrong event.",
+      "observedYear": 2026,
+      "observedEvent": "Monaco Historic Grand Prix"
+    },
+    {
+      "url": "https://acm.mc/wp-content/uploads/2024/07/F1-Plein-Tarif-GB.jpg",
+      "finalUrl": "https://acm.mc/wp-content/uploads/2024/07/F1-Plein-Tarif-GB.jpg",
+      "status": 200,
+      "sha256": "af4a2f6e2687d41ed1a81dcc9dabe91f3e9e9b1dae39300d21b6324b5507c451",
+      "checkedAt": "2026-10-27",
+      "acceptedAs2026OrdinaryInventory": false,
+      "decision": "Manually inspected official image explicitly says GRANDSTANDS2025; prior-year evidence only.",
+      "observedYear": 2025,
+      "priorYearProductsObserved": [
+        "T covered",
+        "T high",
+        "T low",
+        "X1-X2"
+      ],
+      "observationMethod": "Manual image inspection, not filename-year inference or OCR"
+    }
+  ],
+  "verifiedCurrentMedia": {
+    "url": "https://www.fia.com/sites/default/files/media_kit_2026_gb_03.06_1.pdf",
+    "sha256": "cc2292a7243fc367f89df76cf08973728ba71731442ae62ff76359080833e04b",
+    "pdfPage": 21,
+    "printedPage": 26,
+    "fact": "Official2026 media kit describes VIP areas created above T grandstand in2019.",
+    "scope": "Confirms a vertical relation; does not establish which2026 ordinary seats or access paths lie below the boxes."
+  },
+  "unresolvedOrdinaryLabels": [],
+  "layerCoverageQuestions": [],
+  "inventoryComplete": false,
+  "limits": "Neither missing final-map labels nor rejected old/wrong-event pages prove cancellation. The2025 table cannot confirm2026 X1/X2 or T products. Preserve existing verified front-band geometry while the full T layer scope remains required.",
+  "annualSupplierEvidence": {
+    "url": "https://www.colomastore.com/colomastore/evento.jsp?lingua=ENG&sid=10",
+    "sha256": "396933351a3750c51cfe02d5fcfb2c435315afec1b9dbda89f87c889fe2b1ec5",
+    "checkedAt": "2026-11-06",
+    "eventDates": [
+      "2026-06-04",
+      "2026-06-07"
+    ],
+    "products": [
+      "Grandstand E - Sunday",
+      "Grandstand T Covered - Sunday",
+      "Grandstand T Inferiore - Sunday",
+      "Grandstand T Superiore - Sunday"
+    ],
+    "scope": "Retrieved supplier live2026 catalogue. Confirms named ordinary ticket products, not measured boundaries or current availability. Absence of M/X1/X2 does not prove cancellation."
+  },
+  "annualXSupplierEvidence": {
+    "url": "https://grandprixexperience.com/f1-race/monaco/race-tickets/",
+    "checkedAt": "2026-11-06",
+    "header": "Monaco Grand Prix 2026 RACE TICKETS",
+    "products": [
+      "Grandstand X1",
+      "Grandstand X2"
+    ],
+    "scope": "Retrieved supplier body lists separate reserved-seat products; no surveyed access polygons or live-stock claim."
+  },
+  "annualTRowEvidence": {
+    "url": "https://s3.eu-central-1.amazonaws.com/gpt-v2-img/img/events/en_8818_F1_Monaco-2026.pdf",
+    "checkedAt": "2026-11-06",
+    "sha256": "a322e9401c847cce41ba91b947d94913cc7344245b6d507c4d72c84af8588c14",
+    "documentEvent": "Monaco 05.06–07.06.2026",
+    "page": 0,
+    "reviewedVisually": true,
+    "publisher": "Grand Prix Tickets GmbH (ticket supplier, not organizer)",
+    "products": [
+      {
+        "name": "T Low",
+        "rowRange": [
+          "A",
+          "M"
+        ],
+        "rowCount": 13
+      },
+      {
+        "name": "T High",
+        "rowRange": [
+          "N",
+          "W"
+        ],
+        "rowCount": 10
+      },
+      {
+        "name": "T1 Covered",
+        "topRows": 4
+      }
+    ],
+    "geographicBoundaryVerified": false,
+    "notes": "Top4 covered row listing is separate from High N–W; do not roof all High or treat all three products as three full duplicate banks. No measured height/footprint or VIP deck relation provided.",
+    "otherNamedLayerFacts": [
+      {
+        "zoneId": "o-piscine",
+        "products": [
+          "O High: Row K–ZK",
+          "O Low: Row A–J"
+        ],
+        "lowRowCount": 10,
+        "upperRowCountUninterpreted": true
+      }
+    ]
+  },
+  "approximateLayerReviews": [
+    {
+      "zoneId": "o-piscine",
+      "accepted": true,
+      "modelReview": "src/circuits/europe/monaco-o-tiers-2026.json",
+      "actualTierBoundaryVerified": false,
+      "actualUpperRowCountKnown": false,
+      "notes": "Distinct Low/High selectable sectors within retained bank;14 simplified steps preserved, not actual seat numbering."
+    },
+    {
+      "zoneId": "t-rascasse",
+      "accepted": true,
+      "modelReview": "src/circuits/europe/monaco-t-tiers-2026.json",
+      "actualTierBoundaryVerified": false,
+      "exactRealTotalRowCountVerified": false,
+      "notes": "Three approximate contiguous sectors inside retained ordinary non-VIP footprint; Low13 High10 Covered4 render steps. Roof only Covered. Geometry heights/divider estimates, not measured tiers."
+    }
+  ],
+  "unresolvedLegacyLabels": [
+    "M"
+  ]
+}

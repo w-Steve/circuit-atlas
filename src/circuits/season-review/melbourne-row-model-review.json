@@ -1,0 +1,141 @@
+{
+  "circuitId": "melbourne",
+  "season": 2026,
+  "checkedAt": "2026-10-26",
+  "generatedSha256": "db1d66edc6ed76c91505e1c1fd6f1f8c55fceb4e18a48417719af9a9f0456ee5",
+  "runtimeInputSha256": "dc1e40d756d1668687129c3f87910d0f4552dbbe774132a4e5bc716fc719194e",
+  "sourceUrl": "https://web.archive.org/web/20260304152734id_/https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+  "sourceSha256": "737e51a321b548123485a32e68ce7c4c2978ba378cbf170cb7593b144f274c41",
+  "currentOfficialFootprintCount": 19,
+  "maximumCentroidOffsetMetres": 0.0006017320915696221,
+  "sourceRoadIntersectionMetres2": 0.0,
+  "baseline": {
+    "zoneRays": 216,
+    "zoneHits": 2,
+    "surfaceRays": 792,
+    "surfaceHits": 4,
+    "witnesses": [
+      {
+        "zoneId": "prost",
+        "surfaceId": "prost-1",
+        "localU": 0.05,
+        "v": 0.05,
+        "targetHeightMetres": 0.9,
+        "eye": [
+          343.8964185954387,
+          6.240554025619315,
+          365.4141267933985
+        ],
+        "target": [
+          348.9955600440492,
+          3.7841234585993178,
+          344.770859472751
+        ],
+        "obstacle": "stand:senna:senna-1",
+        "distance": 2.616240374589171
+      },
+      {
+        "zoneId": "prost",
+        "surfaceId": "prost-1",
+        "localU": 0.05,
+        "v": 0.05,
+        "targetHeightMetres": 0.4,
+        "eye": [
+          343.8964185954387,
+          6.240554025619315,
+          365.4141267933985
+        ],
+        "target": [
+          348.9955600440492,
+          3.2841234585993178,
+          344.770859472751
+        ],
+        "obstacle": "stand:senna:senna-1",
+        "distance": 2.623955956718167
+      },
+      {
+        "zoneId": "prost",
+        "surfaceId": "prost-1",
+        "localU": 0.95,
+        "v": 0.05,
+        "targetHeightMetres": 0.9,
+        "eye": [
+          407.63802273683336,
+          6.240554025619315,
+          356.00591957928793
+        ],
+        "target": [
+          400.3646614904197,
+          3.3537015668636285,
+          336.6151259394267
+        ],
+        "obstacle": "stand:schumacher:schumacher-1",
+        "distance": 4.0331772586405465
+      },
+      {
+        "zoneId": "prost",
+        "surfaceId": "prost-1",
+        "localU": 0.95,
+        "v": 0.05,
+        "targetHeightMetres": 0.4,
+        "eye": [
+          407.63802273683336,
+          6.240554025619315,
+          356.00591957928793
+        ],
+        "target": [
+          400.3646614904197,
+          2.8537015668636285,
+          336.6151259394267
+        ],
+        "obstacle": "stand:schumacher:schumacher-1",
+        "distance": 3.45007013764406
+      }
+    ]
+  },
+  "candidate": {
+    "method": "Partition Senna/Prost at paired original front/rear source bend vertices, retaining the original perimeter, ground datum, row counts, rise and eye height.",
+    "zoneRays": 216,
+    "zoneHits": 0,
+    "surfaceRays": 864,
+    "surfaceHits": 9,
+    "decision": "Rejected; new per-bank seam obstructions appeared. Original accepted model restored.",
+    "evidence": "artifacts/goal-review/melbourne-curved-bank-candidate"
+  },
+  "nextEvidenceRequired": [
+    "Independent seating front/row direction and end-bank sections for Senna/Prost/Schumacher.",
+    "Reconcile road registration and the default bearing at bank ends; never select a direction merely because it is unobstructed."
+  ],
+  "limits": [
+    "Ray hits flag geometry for review; they do not establish whether the obstruction exists on site.",
+    "Fence wires, spectators and external terrain are outside this diagnostic.",
+    "All19 official blue footprints already match the current generated package; old progress prose about displaced grandstands is superseded.",
+    "Park Pass non-mound admission boundaries remain incomplete."
+  ],
+  "resolution": {
+    "status": "accepted-local-continuous-row-model",
+    "checkedAt": "2026-10-26",
+    "sourceReview": "src/circuits/season-review/melbourne-curved-row-source-review.json",
+    "generatedSha256": "52b74d4f8df6b890788628797c78277829b3f13aafe745dcc54ffe33d8b2da83",
+    "runtimeInputSha256": "213d7c2fe11b29fb79e6633f479607cc7e858dd7b3d43c209badea6213f1d0c0",
+    "method": "One paired-boundary row strip per original footprint. End caps no longer masquerade as front rows; mesh, selection and bearing use the same strip coordinates.",
+    "zoneDiagnosticRays": 216,
+    "zoneDiagnosticHits": 0,
+    "surfaceDiagnosticRays": 792,
+    "surfaceDiagnosticHits": 0,
+    "photographyCases": 6,
+    "mouseTouchEdgeDragCases": 6,
+    "unitTests": 320,
+    "productionBuildPassed": true,
+    "sourceApplyReplayByteStable": true,
+    "evidence": [
+      "artifacts/goal-review/melbourne-continuous-rows",
+      "artifacts/goal-review/melbourne-continuous-row-drag"
+    ],
+    "limits": [
+      "Original schematic positions and estimated rises/row counts remain; photographs do not supply surveyed measurements.",
+      "No guarantee of every-seat full-car visibility; fence wires, people and external terrain are outside the stand/building ray audit.",
+      "Only Senna/Prost row interpolation changed; complete Park Pass non-mound admission boundaries remain incomplete."
+    ]
+  }
+}

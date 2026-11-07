@@ -1,3 +1,4 @@
+import {CircuitContext,createCircuitContext,useCircuit} from '../app/CircuitContext';
 import {circuitName,circuitLocation,circuitCountry,sourceSummary} from '../i18n/data';
 import {t,tr} from "../i18n";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -7,7 +8,6 @@ import { Box3, Vector3, MOUSE } from "three";
 import type { OrbitControls as Controls } from "three-stdlib";
 import { loadCircuit, circuitRegistry } from "../circuits/registry";
 import type { CircuitPackage } from "../circuits/types";
-import { createCircuitGeometry } from "../circuits/geometry";
 import { CornerMarkers } from "../components/CornerMarkers";
 import { ErrorBoundary } from "../systems/ErrorBoundary";
 import { Terrain } from "../components/Terrain";
@@ -15,13 +15,14 @@ import {mapRoad} from "../circuits/mapRoad";
 import {MapKeyboard} from "../components/MapKeyboard";
 import {circuitVisit} from '../app/circuitVisit';
 import {TimingLayer,TimingLegend} from '../components/TimingLayer';
-const savedViews = new Map<string,{position:number[];target:number[];visit:number}>();
+
 
 function MapScene({data, reset, enhanced, onLost}: {data: CircuitPackage; reset: number;enhanced:boolean;onLost:()=>void}) {
-  const geometry = useMemo(() => createCircuitGeometry(data.trackGeometry.coordinates, data.lengthMetres,data.elevation), [data]);
+  const runtime=useCircuit(),{geometry,views:savedViews}=runtime;
   const {road,verge}=useMemo(()=>mapRoad(geometry,data.trackGeometry.widthMetres),[geometry,data]);
   useEffect(()=>()=>{road.dispose();verge.dispose()},[road,verge]);
   const controls = useRef<Controls>(null);
+  useEffect(()=>{runtime.controls.current=controls.current;return()=>{runtime.controls.current=null}},[runtime]);
   const {camera,size,gl,invalidate} = useThree();
   const initialized=useRef(false);
   const visit=circuitVisit(data.circuitId);
@@ -80,7 +81,8 @@ export default function CircuitMapPage({circuitId}: {circuitId:string}) {
     loadCircuit(circuitId).then(d=>{if(!cancelled)setData(d)}).catch(()=>{if(!cancelled)setFailed(true)});
     return ()=>{cancelled=true};
   },[circuitId]);
-  return <main className="explorer-page">
+  const runtime=useMemo(()=>data?createCircuitContext(data):null,[data]);
+  return <CircuitContext.Provider value={runtime}><main className="explorer-page">
     <header className="explorer-nav"><a href="#/circuits">{t("← 赛道集合")}</a><b>{t("赛道图鉴")}</b><span>2026</span></header>
     <div className="explorer-title"><span className="overline">{summary&&circuitCountry(summary.circuitId,summary.country)} / {summary&&circuitLocation(summary.circuitId,summary.location)}</span><h1>{summary?circuitName(summary.circuitId,summary.name):t('未知赛道')}</h1><p>{summary ? tr`${(summary.lengthMetres/1000).toFixed(3)} km · ${summary.cornerCount} 个弯道` : ""}</p></div>
     {failed ? <div className="map-message" role="alert"><h2>{t("赛道数据未能载入")}</h2><button onClick={()=>location.reload()}>{t("重新载入")}</button><a href="#/circuits">{t("返回赛道集合")}</a></div>
@@ -93,5 +95,5 @@ export default function CircuitMapPage({circuitId}: {circuitId:string}) {
       <div className="explorer-hint">{enhanced&&data.elevation.grid&&<span className="terrain-legend"><i aria-hidden="true"/><span>{Math.round(Math.min(...data.elevation.grid.heights)-data.elevation.grid.referenceAltitude)}–{Math.round(Math.max(...data.elevation.grid.heights)-data.elevation.grid.referenceAltitude)} {t("m · 相对高程")}</span></span>}{t("左键 / WASD 平移 · 右键旋转 · 滚轮缩放")}<span>{t("观赛模拟尚未开放")}</span></div>
       {info && <aside className="map-info"><h2>{t("地图与数据")}</h2><p>{sourceSummary(data.elevation.notes,'elevation')}</p>{data.elevation.overpasses&&<p>{t("铃鹿西直道为上层，Degner 出口为下层。桥面间距约 7m 为示意估计，非实测净空。")}</p>}<p>{t("中心线按公布圈长校准；路宽为示意值。弯道位置经过地理配准，存在数米偏差。")}</p><p>{t("当前仅提供地图浏览，没有可用的观赛区域。")}</p>{data.dataSources.map((s,i)=><a key={i} href={s.url} target="_blank" rel="noreferrer">{i===0?t("赛事资料"):t("中心线来源")} ↗</a>)}<small>{t("核查日期 2026.10.22")}</small></aside>}
     </>}
-  </main>;
+  </main></CircuitContext.Provider>;
 }

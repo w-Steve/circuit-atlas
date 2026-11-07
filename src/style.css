@@ -1116,7 +1116,7 @@ canvas {
 @media(max-width:650px){.explorer-nav{height:62px;padding:0 20px}.explorer-nav b{font-size:10px}.explorer-nav>span{display:none}.explorer-title{top:86px;left:22px}.explorer-title h1{font-size:25px}.explorer-tools{right:20px;bottom:30px}.explorer-tools button{font-size:11px;padding:10px}.explorer-hint{left:22px;bottom:90px;font-size:10px}.map-info{right:20px;bottom:84px}}
 .map-interrupted{z-index:30;background:#17211df5;padding:30px;border:1px solid #64756a;margin:auto;width:min(440px,calc(100% - 48px))}
 .zone-list{position:absolute;right:0;bottom:calc(100% + 12px);width:300px;display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:12px;background:#1d2521f5;border:1px solid #6f7d6c60;border-radius:8px;box-shadow:0 16px 50px #0006}.zone-list button{display:flex;align-items:center;justify-content:space-between;background:#364039;color:#f1ece4;border:1px solid transparent;padding:15px 12px;font-size:12px;text-align:left;margin:0}.zone-list button:hover{border-color:#d1604c;background:#43483e}.zone-list button span{color:#aeb8ac;margin-left:15px}.experience-footnote a{display:inline-block;color:inherit;font-size:9px;margin-left:12px;text-decoration:none}.zone-marker{white-space:nowrap}.selection .tiers:has(>div:only-child) .pick-surface{height:105px}.selection:has(.pick-surface[aria-label="铂金区域选点"]) .tiers{gap:7px}.selection:has(.pick-surface[aria-label="铂金区域选点"]) .tiers>div{min-width:0;flex:1}.selection:has(.pick-surface[aria-label="铂金区域选点"]) .tiers small{font-size:10px}
-@media(max-width:650px){.zone-list{width:280px}.experience-footnote a{font-size:8px}.selection .tiers:has(>div:only-child) .pick-surface{height:70px}}
+@media(max-width:650px){.zone-list{width:280px;grid-template-columns:1fr}.zone-list button{font-size:14px}.zone-list button span{flex-shrink:0;white-space:nowrap}.experience-footnote a{font-size:8px}.selection .tiers:has(>div:only-child) .pick-surface{height:70px}}
 .experience-footnote a{pointer-events:auto}
 .zone-preview,.selection,.map-tools{z-index:12}#scene-labels{z-index:2}
 @media(max-width:650px){
@@ -1148,7 +1148,7 @@ canvas {
 .selection{width:340px;padding:22px;max-height:calc(100dvh - 150px)}
 .selection-instruction{font-size:13px;color:var(--muted);margin:14px 0}
 .selection-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}.selection-actions button{padding:13px 8px}
-.tier-buttons{display:flex;gap:6px;margin-top:14px}.tier-buttons button{flex:1;padding:9px 6px;background:#29312c;border:1px solid #475046;border-radius:5px}.tier-buttons button[aria-pressed=true]{background:#ede9df;color:#171c19}
+.tier-buttons{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}.tier-buttons button{flex:1 1 100px;min-width:0;overflow-wrap:anywhere;padding:9px 6px;background:#29312c;border:1px solid #475046;border-radius:5px}.tier-buttons button[aria-pressed=true]{background:#ede9df;color:#171c19}
 .world-pick-point{width:36px;height:36px;display:grid;place-items:center;border-radius:50%;border:2px solid #f5f1e6;background:#e14635aa;box-shadow:0 0 0 7px #e1463525,0 2px 12px #0008;cursor:grab;touch-action:none;pointer-events:auto;user-select:none}
 .world-pick-point:active{cursor:grabbing}.world-pick-point:focus-visible{outline:3px solid white;outline-offset:5px}.world-pick-point i{width:10px;height:10px;border-radius:50%;background:#fff5e9}.world-pick-point span{position:absolute;top:46px;white-space:nowrap;font-size:11px;background:#171c19dd;padding:4px 8px;border-radius:4px;pointer-events:none}
 @media(max-width:900px){.selection{left:16px;right:16px;bottom:34px;width:auto;max-width:340px;padding:16px}.selection h2{font-size:24px;margin:6px 0}.selection .small-note{margin:7px 0;font-size:10px}.selection-stats{margin-top:10px}.selection-instruction{margin:8px 0}}
@@ -1188,7 +1188,7 @@ canvas {
 }
 
 @media(min-width:1200px) and (min-height:760px){
- .phone-mode .camera-bar{padding:14px;gap:10px}.phone-mode .camera-bar>div{flex-direction:row;gap:4px}.phone-mode .camera-bar button{flex:1;font-size:13px;padding:8px 4px;min-height:42px}
+ .phone-mode .camera-bar{padding:14px;gap:10px}.phone-mode .camera-bar>div{flex-direction:column;gap:4px}.phone-mode .camera-bar button{flex:1;font-size:13px;padding:8px 4px;min-height:42px}
  .phone-mode .capture-row{top:calc(var(--camera-top) + max(180px,calc(var(--camera-height)*.5 - 68px)));display:grid;grid-template-columns:96px 96px;column-gap:8px;row-gap:16px;justify-content:center}
  .phone-mode .capture-row .shutter{grid-column:1 / -1;grid-row:1;justify-self:center}.phone-mode .capture-row>button:first-child,.phone-mode .phone-settings summary{width:96px;font-size:14px;padding:10px 4px;min-height:44px;grid-row:2}
  .phone-mode .capture-row .phone-settings{grid-row:2;grid-column:2}.phone-mode .phone-playback{top:calc(var(--camera-top) + var(--camera-height) - 100px)}
@@ -1206,7 +1206,7 @@ canvas {
 @media(max-width:650px){.region-nav{gap:6px}.region-nav button{font-size:12px;padding:12px 10px}.region-nav span{margin-left:8px}.region-heading h3{font-size:21px}.circuit-source-panel{right:20px;top:78px}}
 
 .map-tools button.terrain-toggle{width:auto;height:auto;border-radius:5px;padding:12px;font-size:12px}
-.zone-list button:disabled,.zone-list button:disabled:hover{opacity:.45;cursor:not-allowed;border-color:transparent;background:#29312d}
+.zone-list button:disabled,.zone-list button:disabled:hover{opacity:.72;cursor:not-allowed;border-color:transparent;background:#29312d}
 
 @media(max-width:650px){.map-tools button.terrain-toggle{position:absolute;right:0;bottom:calc(100% + 12px);white-space:nowrap}}
 
@@ -1272,3 +1272,8 @@ canvas {
  .map-tools>button,.map-tools>button.terrain-toggle,.map-tools>button.timing-toggle{font-size:10px;height:34px;min-height:34px}
  .experience-header .back-link,.experience-header .venue-info-link{font-size:12px}
 }
+
+.selection-admission{font-size:14px;line-height:1.5;color:var(--muted,#b5c0b8);margin:10px 0 0}
+
+/* Multi-level venues keep the picking handle above the mobile panel. */
+.selection .tier-buttons:has(button:nth-child(4)) button{flex-basis:80px;font-size:12px;padding:7px 5px}

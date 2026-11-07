@@ -1,0 +1,421 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "mapDrawingIndex": 38,
+  "geometryFingerprint": "d7ef5dc09484539661b05bbf9b5712883d40fab708740602e0879e82fb698354",
+  "osmSnapshot": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.0195,52.0784,-1.0148,52.0802",
+    "status": 200,
+    "sha256": "d492cdebe2f77f5cebba95dc9ac74a7e33bf39186d9f79eb6bfb571d5a327989",
+    "checkedAt": "2026-10-28"
+  },
+  "sourceStandWay": 227342452,
+  "sourceFenceWay": 507990933,
+  "sourceWallWay": 507977965,
+  "frontEdgeIndices": [
+    1,
+    2
+  ],
+  "ticketEnvelopeGeo": [
+    [
+      -1.0182307,
+      52.0791798
+    ],
+    [
+      -1.0168558,
+      52.0792495
+    ],
+    [
+      -1.0168448140587394,
+      52.079186353357905
+    ],
+    [
+      -1.0169415,
+      52.07918
+    ],
+    [
+      -1.0178446,
+      52.079142
+    ],
+    [
+      -1.018233,
+      52.0791265
+    ],
+    [
+      -1.018239,
+      52.0791511
+    ],
+    [
+      -1.0182307,
+      52.0791798
+    ]
+  ],
+  "bodyClearanceMetres": 0.3,
+  "selectionAreaMetres2": 570.2624766629756,
+  "ticketEnvelopeAreaMetres2": 630.7234714102652,
+  "frontToFenceMinimumMetres": 3.2451877832750076,
+  "oldStand": {
+    "zoneId": "national-pit-straight",
+    "name": "National Pit Straight",
+    "kind": "grandstand",
+    "availability": "available",
+    "boundary": [
+      [
+        -1.0182455,
+        52.0792898
+      ],
+      [
+        -1.0182307,
+        52.0791798
+      ],
+      [
+        -1.0168558,
+        52.0792495
+      ],
+      [
+        -1.0168706,
+        52.0793597
+      ],
+      [
+        -1.0182455,
+        52.0792898
+      ]
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 5.91,
+      "depth": 12.31,
+      "eyeHeight": 1.2
+    },
+    "surfaces": [
+      {
+        "surfaceId": "national-pit-straight-1",
+        "boundary": [
+          [
+            -1.0182455,
+            52.0792898
+          ],
+          [
+            -1.0182307,
+            52.0791798
+          ],
+          [
+            -1.0168558,
+            52.0792495
+          ],
+          [
+            -1.0168706,
+            52.0793597
+          ],
+          [
+            -1.0182455,
+            52.0792898
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 5.91,
+        "eyeHeight": 1.2,
+        "rows": 12,
+        "frontReference": [
+          -1.0174703877074553,
+          52.07867255339489
+        ]
+      }
+    ],
+    "source": {
+      "url": "https://www.openstreetmap.org/way/227342452",
+      "checkedAt": "2026-10-23",
+      "method": "extracted",
+      "confidence": "medium",
+      "notes": "OSM建筑平面轮廓；way/227342452。位置未经现场测绘；看台售票分区可能与建筑边界不同。"
+    },
+    "openingSource": {
+      "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+    },
+    "surfaceSource": {
+      "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-23",
+      "issues": [],
+      "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+    }
+  },
+  "zone": {
+    "zoneId": "ga-national-pit-straight",
+    "name": "National Pit Straight · GA",
+    "kind": "general-admission",
+    "availability": "available",
+    "boundary": [
+      [
+        -1.0182269739125684,
+        52.07917728500073
+      ],
+      [
+        -1.0182345572819045,
+        52.07915106298869
+      ],
+      [
+        -1.0182292613370683,
+        52.07912934961487
+      ],
+      [
+        -1.0178448918109182,
+        52.07914468876948
+      ],
+      [
+        -1.0169418829693715,
+        52.07918268493379
+      ],
+      [
+        -1.0168496400732976,
+        52.07918874633346
+      ],
+      [
+        -1.016859704847551,
+        52.079246598153574
+      ],
+      [
+        -1.0182269739125684,
+        52.07917728500073
+      ]
+    ],
+    "surface": {
+      "baseHeight": 0,
+      "rise": 0,
+      "depth": 6.042,
+      "eyeHeight": 1.65
+    },
+    "surfaces": [
+      {
+        "surfaceId": "ga-national-pit-straight-ground",
+        "boundary": [
+          [
+            -1.0182269739125684,
+            52.07917728500073
+          ],
+          [
+            -1.0182345572819045,
+            52.07915106298869
+          ],
+          [
+            -1.0182292613370683,
+            52.07912934961487
+          ],
+          [
+            -1.0178448918109182,
+            52.07914468876948
+          ],
+          [
+            -1.0169418829693715,
+            52.07918268493379
+          ],
+          [
+            -1.0168496400732976,
+            52.07918874633346
+          ],
+          [
+            -1.016859704847551,
+            52.079246598153574
+          ],
+          [
+            -1.0182269739125684,
+            52.07917728500073
+          ]
+        ],
+        "baseHeight": 0,
+        "rise": 0,
+        "rows": 0,
+        "eyeHeight": 1.65,
+        "terrainFollow": true,
+        "fenceMode": "authored",
+        "frontReference": [
+          -1.017517334968408,
+          52.07866973257892
+        ]
+      }
+    ],
+    "requiredBarrierIds": [
+      "nps-ga-catch-fence",
+      "nps-ga-concrete-wall"
+    ],
+    "source": {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.0195,52.0784,-1.0148,52.0802",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Interpreted2026 ordinary-GA band in front of National Pit Straight. Native stand front and fence bound the strip; end cuts at stand endpoints and0.3m standing-body clearance are modeling assumptions, not surveyed ticket boundaries. Terrain follows retained EA DTM."
+    },
+    "boundarySource": {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.0195,52.0784,-1.0148,52.0802",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Interpreted2026 ordinary-GA band in front of National Pit Straight. Native stand front and fence bound the strip; end cuts at stand endpoints and0.3m standing-body clearance are modeling assumptions, not surveyed ticket boundaries. Terrain follows retained EA DTM."
+    },
+    "surfaceSource": {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.0195,52.0784,-1.0148,52.0802",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Interpreted2026 ordinary-GA band in front of National Pit Straight. Native stand front and fence bound the strip; end cuts at stand endpoints and0.3m standing-body clearance are modeling assumptions, not surveyed ticket boundaries. Terrain follows retained EA DTM."
+    },
+    "openingSource": {
+      "url": "https://www.silverstone.co.uk/news/silverstone-f1r-tickets-2026-your-guide",
+      "checkedAt": "2026-10-28",
+      "method": "published",
+      "confidence": "medium",
+      "notes": "2026 ordinary GA is unreserved viewing without grandstand admission. Final2026 organizer map drawing38 marks the strip immediately in front of National Pit Straight; diagram is positive location evidence, not metric geometry."
+    },
+    "admissionNote": "普通GA · 不含看台准入",
+    "geometryReview": {
+      "checkedAt": "2026-10-28",
+      "issues": [],
+      "method": "Native stand front and fence bound an explicitly interpreted approximate GA strip; endpoint cuts and0.3m body clearance estimated.441 actual-ground samples and real road/pit/building/neighbor intersections checked; native barriers retained."
+    }
+  },
+  "barrierLayer": {
+    "circuitId": "silverstone",
+    "availability": "available",
+    "barriers": [
+      {
+        "id": "nps-ga-catch-fence",
+        "kind": "chain-link",
+        "coordinates": [
+          [
+            -1.0183012723112457,
+            52.0791275960318
+          ],
+          [
+            -1.018239,
+            52.0791511
+          ],
+          [
+            -1.018233,
+            52.0791265
+          ],
+          [
+            -1.0178446,
+            52.079142
+          ],
+          [
+            -1.0169415,
+            52.07918
+          ],
+          [
+            -1.01677214982415,
+            52.079191128218476
+          ]
+        ],
+        "heightMetres": 3.5,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/507990933",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Exact excerpt of native plan line, not relocated. Fence3.5m / wall1.0m height and0.25m wall width are estimates; endpoints limit modeled context, not actual barrier termini."
+        }
+      },
+      {
+        "id": "nps-ga-concrete-wall",
+        "kind": "concrete-wall",
+        "coordinates": [
+          [
+            -1.016770282615722,
+            52.07918191177406
+          ],
+          [
+            -1.0168748,
+            52.0791749
+          ],
+          [
+            -1.0175067,
+            52.0791441
+          ],
+          [
+            -1.0180087,
+            52.0791272
+          ],
+          [
+            -1.0182421,
+            52.0791193
+          ],
+          [
+            -1.0182445,
+            52.0791446
+          ]
+        ],
+        "heightMetres": 1.0,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/507977965",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Exact excerpt of native plan line, not relocated. Fence3.5m / wall1.0m height and0.25m wall width are estimates; endpoints limit modeled context, not actual barrier termini."
+        },
+        "widthMetres": 0.25
+      }
+    ],
+    "notes": "Native NPS plan excerpts; source heights estimated. Mandatory for GA and NPS seating views; do not silently omit on resource errors."
+  },
+  "sceneAcceptance": {
+    "accepted": true,
+    "checkedAt": "2026-10-28",
+    "deviceTests": {
+      "candidate": 9,
+      "devices": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ],
+      "actualPhotosReviewed": 3,
+      "mobileSelectionReviewed": true,
+      "formal": 15,
+      "includesShanghaiARegression": true,
+      "formalGroundPhotosReviewed": 3,
+      "seatedDesktopAndMobilePhotosReviewed": true
+    },
+    "modelSha256": "b1674a8ea1bf9a372568b6aea60c60942c944f193b22c5e5b320ac46a66aff0f",
+    "limits": "Approximate native-envelope interpretation, not a surveyed ticket boundary. Other four ordinary-GA band groups and all five GA+ locations remain unmodeled."
+  },
+  "limits": "An interpreted approximate footprint, not an exact2026 ticket boundary. No entire landuse polygon is assumed public. One of five marked ordinary-GA band groups only; GA+ and other GA areas remain separate. Standing eyes1.65m; barriers remain real geometry.",
+  "footprintAudit": {
+    "zoneId": "ga-national-pit-straight",
+    "areaMetres2": 570.2624766480931,
+    "samples": 441,
+    "minEyeAboveFloor": 1.6499999999999986,
+    "minFloorAboveUncutDEM": -0.013445874211875264,
+    "maxFloorMeshMismatch": 9.833995142649599e-07,
+    "groundNote": "Standing follows the actual triangulated public-ground mesh. The coarser terrain is cut within this exact source footprint; uncut bilinear DEM differences are reported, not corrected by lifting visitors.",
+    "barriers": [
+      {
+        "id": "nps-ga-catch-fence",
+        "standingClearanceMetres": 0.29999999966562024,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      },
+      {
+        "id": "nps-ga-concrete-wall",
+        "standingClearanceMetres": 0.7794221746978968,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      }
+    ],
+    "issues": []
+  },
+  "runtimeApplied": true
+}

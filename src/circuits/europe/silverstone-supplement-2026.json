@@ -1,0 +1,783 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "the-loop",
+      "name": "The Loop · BOXPARK",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          -1.0126195244602973,
+          52.07258532040573
+        ],
+        [
+          -1.0123586377898186,
+          52.07202386289518
+        ],
+        [
+          -1.0121337597579727,
+          52.07206332997612
+        ],
+        [
+          -1.0123946464284515,
+          52.07262478748667
+        ],
+        [
+          -1.0126195244602973,
+          52.07258532040573
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 7.2,
+        "depth": 16,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "the-loop-1",
+          "boundary": [
+            [
+              -1.0126195244602973,
+              52.07258532040573
+            ],
+            [
+              -1.0123586377898186,
+              52.07202386289518
+            ],
+            [
+              -1.0121337597579727,
+              52.07206332997612
+            ],
+            [
+              -1.0123946464284515,
+              52.07262478748667
+            ],
+            [
+              -1.0126195244602973,
+              52.07258532040573
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.2,
+          "rows": 18,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -1.0129107274347693,
+            52.0722305908737
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -1.0126195244602973,
+                52.07258532040573
+              ],
+              [
+                -1.0123586377898186,
+                52.07202386289518
+              ]
+            ],
+            "back": [
+              [
+                -1.0123946464284515,
+                52.07262478748667
+              ],
+              [
+                -1.0121337597579727,
+                52.07206332997612
+              ]
+            ],
+            "source": {
+              "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter named viewing product and relative road sector; author approximate 65x16m,front offset30m,base2.2m/rise7.2m. Not surveyed installation, full enclosure boundary or measured terrace. BOXPARK GA standing area distinct from its two grandstands."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter named viewing product and relative road sector; author approximate 65x16m,front offset30m,base2.2m/rise7.2m. Not surveyed installation, full enclosure boundary or measured terrace. BOXPARK GA standing area distinct from its two grandstands."
+      },
+      "openingSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 promoter named viewing product and relative road sector; author approximate 65x16m,front offset30m,base2.2m/rise7.2m. Not surveyed installation, full enclosure boundary or measured terrace. BOXPARK GA standing area distinct from its two grandstands."
+      },
+      "surfaceSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter named viewing product and relative road sector; author approximate 65x16m,front offset30m,base2.2m/rise7.2m. Not surveyed installation, full enclosure boundary or measured terrace. BOXPARK GA standing area distinct from its two grandstands."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Explicit author approximation based on named2026 road sector and actual road front."
+      },
+      "admissionNote": "BOXPARK围场内的The Loop看台，需核对对应观赛选项。",
+      "description": "近似观赛范围与高度；BOXPARK各产品准入独立，非普通GA通票。",
+      "supportToTerrain": true
+    },
+    {
+      "zoneId": "woodcote-c",
+      "name": "Woodcote C",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          -1.019038330025974,
+          52.078805968313986
+        ],
+        [
+          -1.0183251199022325,
+          52.078904018958305
+        ],
+        [
+          -1.018376173216421,
+          52.07904428223092
+        ],
+        [
+          -1.0190893833401624,
+          52.0789462315866
+        ],
+        [
+          -1.019038330025974,
+          52.078805968313986
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 7.2,
+        "depth": 16,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "woodcote-c-1",
+          "boundary": [
+            [
+              -1.019038330025974,
+              52.078805968313986
+            ],
+            [
+              -1.0183251199022325,
+              52.078904018958305
+            ],
+            [
+              -1.018376173216421,
+              52.07904428223092
+            ],
+            [
+              -1.0190893833401624,
+              52.0789462315866
+            ],
+            [
+              -1.019038330025974,
+              52.078805968313986
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.2,
+          "rows": 18,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -1.018586,
+            52.078592
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -1.019038330025974,
+                52.078805968313986
+              ],
+              [
+                -1.0183251199022325,
+                52.078904018958305
+              ]
+            ],
+            "back": [
+              [
+                -1.0190893833401624,
+                52.0789462315866
+              ],
+              [
+                -1.018376173216421,
+                52.07904428223092
+              ]
+            ],
+            "source": {
+              "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 final promoter map places Woodcote C between Woodcote B and National Pit Straight. Author approximate 50x16m bank,30m front offset,18 rows,base2.2m/rise7.2m; not surveyed full enclosure or a promotion of the rejected affine registration."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 final promoter map places Woodcote C between Woodcote B and National Pit Straight. Author approximate 50x16m bank,30m front offset,18 rows,base2.2m/rise7.2m; not surveyed full enclosure or a promotion of the rejected affine registration."
+      },
+      "openingSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 final promoter map places Woodcote C between Woodcote B and National Pit Straight. Author approximate 50x16m bank,30m front offset,18 rows,base2.2m/rise7.2m; not surveyed full enclosure or a promotion of the rejected affine registration."
+      },
+      "surfaceSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 final promoter map places Woodcote C between Woodcote B and National Pit Straight. Author approximate 50x16m bank,30m front offset,18 rows,base2.2m/rise7.2m; not surveyed full enclosure or a promotion of the rejected affine registration."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Explicit author approximation based on named2026 road sector and actual road front."
+      },
+      "description": "近似Woodcote C座席范围与高度。",
+      "supportToTerrain": true
+    },
+    {
+      "zoneId": "boxpark-hangar",
+      "name": "BOXPARK GA · Hangar",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          -1.013752855714392,
+          52.06743966672824
+        ],
+        [
+          -1.0141715042950437,
+          52.06696605555163
+        ],
+        [
+          -1.0143256301320736,
+          52.06701751393153
+        ],
+        [
+          -1.013906981551422,
+          52.06749112510814
+        ],
+        [
+          -1.013752855714392,
+          52.06743966672824
+        ]
+      ],
+      "surface": {
+        "baseHeight": 1.2,
+        "rise": 0,
+        "depth": 12,
+        "eyeHeight": 1.65
+      },
+      "surfaces": [
+        {
+          "surfaceId": "boxpark-hangar-1",
+          "boundary": [
+            [
+              -1.013752855714392,
+              52.06743966672824
+            ],
+            [
+              -1.0141715042950437,
+              52.06696605555163
+            ],
+            [
+              -1.0143256301320736,
+              52.06701751393153
+            ],
+            [
+              -1.013906981551422,
+              52.06749112510814
+            ],
+            [
+              -1.013752855714392,
+              52.06743966672824
+            ]
+          ],
+          "baseHeight": 1.2,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "frontReference": [
+            -1.0135768654121435,
+            52.067074215190175
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter named viewing product and relative road sector; author approximate 60x12m,front offset30m,base1.2m/rise0m. Not surveyed installation, full enclosure boundary or measured terrace. BOXPARK GA standing area distinct from its two grandstands."
+      },
+      "openingSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 promoter named viewing product and relative road sector; author approximate 60x12m,front offset30m,base1.2m/rise0m. Not surveyed installation, full enclosure boundary or measured terrace. BOXPARK GA standing area distinct from its two grandstands."
+      },
+      "surfaceSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter named viewing product and relative road sector; author approximate 60x12m,front offset30m,base1.2m/rise0m. Not surveyed installation, full enclosure boundary or measured terrace. BOXPARK GA standing area distinct from its two grandstands."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Explicit author approximation based on named2026 road sector and actual road front."
+      },
+      "admissionNote": "BOXPARK GA独立站立露台，非预留座席。",
+      "description": "近似观赛范围与高度；BOXPARK各产品准入独立，非普通GA通票。",
+      "supportToTerrain": true
+    },
+    {
+      "zoneId": "international-paddock-grandstand",
+      "name": "International Paddock Grandstand",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          -1.0178902247989057,
+          52.07097564092461
+        ],
+        [
+          -1.0168740589022627,
+          52.07090218314896
+        ],
+        [
+          -1.016904794081383,
+          52.070741594231414
+        ],
+        [
+          -1.0179209599780261,
+          52.07081505200706
+        ],
+        [
+          -1.0178902247989057,
+          52.07097564092461
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 8,
+        "depth": 18,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "international-paddock-grandstand-1",
+          "boundary": [
+            [
+              -1.0178902247989057,
+              52.07097564092461
+            ],
+            [
+              -1.0168740589022627,
+              52.07090218314896
+            ],
+            [
+              -1.016904794081383,
+              52.070741594231414
+            ],
+            [
+              -1.0179209599780261,
+              52.07081505200706
+            ],
+            [
+              -1.0178902247989057,
+              52.07097564092461
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 8,
+          "rows": 18,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -1.01733091655205,
+            52.07120656023268
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -1.0178902247989057,
+                52.07097564092461
+              ],
+              [
+                -1.0168740589022627,
+                52.07090218314896
+              ]
+            ],
+            "back": [
+              [
+                -1.0179209599780261,
+                52.07081505200706
+              ],
+              [
+                -1.016904794081383,
+                52.070741594231414
+              ]
+            ],
+            "source": {
+              "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter named viewing product and relative road sector; author approximate 70x18m,front offset30m,base2.2m/rise8m. Not surveyed installation, full enclosure boundary or measured terrace. BOXPARK GA standing area distinct from its two grandstands. Final2026 spectator map places this bank outside Farm Curve, driver-right/south of T1-T2, separately from the infield Loop bank."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter named viewing product and relative road sector; author approximate 70x18m,front offset30m,base2.2m/rise8m. Not surveyed installation, full enclosure boundary or measured terrace. BOXPARK GA standing area distinct from its two grandstands. Final2026 spectator map places this bank outside Farm Curve, driver-right/south of T1-T2, separately from the infield Loop bank."
+      },
+      "openingSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 promoter named viewing product and relative road sector; author approximate 70x18m,front offset30m,base2.2m/rise8m. Not surveyed installation, full enclosure boundary or measured terrace. BOXPARK GA standing area distinct from its two grandstands. Final2026 spectator map places this bank outside Farm Curve, driver-right/south of T1-T2, separately from the infield Loop bank."
+      },
+      "surfaceSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter named viewing product and relative road sector; author approximate 70x18m,front offset30m,base2.2m/rise8m. Not surveyed installation, full enclosure boundary or measured terrace. BOXPARK GA standing area distinct from its two grandstands. Final2026 spectator map places this bank outside Farm Curve, driver-right/south of T1-T2, separately from the infield Loop bank."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Explicit author approximation based on named2026 road sector and actual road front."
+      },
+      "admissionNote": "BOXPARK International Paddock独立座席产品，非The Loop或普通GA。",
+      "description": "近似观赛范围与高度；BOXPARK各产品准入独立，非普通GA通票。",
+      "supportToTerrain": true
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "the-loop",
+      "name": "The Loop · BOXPARK",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          -1.0125293198023675,
+          52.072599068699276
+        ],
+        [
+          -1.0124401445472255,
+          52.07197264371844
+        ],
+        [
+          -1.0127604890082036,
+          52.071955419263354
+        ],
+        [
+          -1.0128496642633456,
+          52.07258184424418
+        ],
+        [
+          -1.0125293198023675,
+          52.072599068699276
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 10.56,
+        "depth": 22.0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "the-loop-1",
+          "boundary": [
+            [
+              -1.0125293198023675,
+              52.072599068699276
+            ],
+            [
+              -1.0124401445472255,
+              52.07197264371844
+            ],
+            [
+              -1.0127604890082036,
+              52.071955419263354
+            ],
+            [
+              -1.0128496642633456,
+              52.07258184424418
+            ],
+            [
+              -1.0125293198023675,
+              52.072599068699276
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 10.56,
+          "eyeHeight": 1.2,
+          "rows": 21,
+          "frontReference": [
+            -1.0129183755556037,
+            52.07226253983587
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。"
+      },
+      "openingSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+        "checkedAt": "2026-10-28",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter announcement explicitly for July2026: enclosure offers two distinct grandstands and an independent standing GA terrace viewing Hangar. Identity/admission role only, not geographic footprint or height survey."
+      },
+      "surfaceSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-28",
+        "issues": [
+          "the-loop-1: road intersection 85.8467 m2",
+          "Independent map registration fails held-out geographic validation; retain closure until source boundary is recovered."
+        ],
+        "method": "Annual promoter identity review; failed geometry is not moved, cropped or raised to fabricate acceptance."
+      },
+      "admissionNote": "BOXPARK围场内的The Loop看台，需核对对应观赛选项。"
+    },
+    {
+      "zoneId": "woodcote-c",
+      "name": "Woodcote C",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          -1.0199971740125144,
+          52.07843122320478
+        ],
+        [
+          -1.019088600682475,
+          52.078601939705024
+        ],
+        [
+          -1.0190031302999065,
+          52.07843012785523
+        ],
+        [
+          -1.0199117036299459,
+          52.078259411354985
+        ],
+        [
+          -1.0199971740125144,
+          52.07843122320478
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 9.6,
+        "depth": 20.0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "woodcote-c-1",
+          "boundary": [
+            [
+              -1.0199971740125144,
+              52.07843122320478
+            ],
+            [
+              -1.019088600682475,
+              52.078601939705024
+            ],
+            [
+              -1.0190031302999065,
+              52.07843012785523
+            ],
+            [
+              -1.0199117036299459,
+              52.078259411354985
+            ],
+            [
+              -1.0199971740125144,
+              52.07843122320478
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 9.6,
+          "eyeHeight": 1.2,
+          "rows": 19,
+          "frontReference": [
+            -1.0194688927716484,
+            52.078367838176014
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。"
+      },
+      "openingSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "woodcote-c-1: road intersection 562.7452 m2"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "boxpark-hangar",
+      "name": "BOXPARK GA · Hangar",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          -1.0117967895852809,
+          52.06582644257846
+        ],
+        [
+          -1.0110222207485418,
+          52.06658825366017
+        ],
+        [
+          -1.0107743068976311,
+          52.066493047180785
+        ],
+        [
+          -1.0115488757343702,
+          52.06573123609908
+        ],
+        [
+          -1.0117967895852809,
+          52.06582644257846
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 9.6,
+        "depth": 20.0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "boxpark-hangar-1",
+          "boundary": [
+            [
+              -1.0117967895852809,
+              52.06582644257846
+            ],
+            [
+              -1.0110222207485418,
+              52.06658825366017
+            ],
+            [
+              -1.0107743068976311,
+              52.066493047180785
+            ],
+            [
+              -1.0115488757343702,
+              52.06573123609908
+            ],
+            [
+              -1.0117967895852809,
+              52.06582644257846
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 9.6,
+          "eyeHeight": 1.2,
+          "rows": 19,
+          "frontReference": [
+            -1.0135792054789707,
+            52.067040579208516
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。"
+      },
+      "openingSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+        "checkedAt": "2026-10-28",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter announcement explicitly for July2026: enclosure offers two distinct grandstands and an independent standing GA terrace viewing Hangar. Identity/admission role only, not geographic footprint or height survey."
+      },
+      "surfaceSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-28",
+        "issues": [
+          "2026 promoter describes a standing terrace; existing stepped seated prototype and unverified footprint must not be offered as a public simulation."
+        ],
+        "method": "Annual promoter identity review; failed geometry is not moved, cropped or raised to fabricate acceptance."
+      },
+      "admissionNote": "BOXPARK GA独立站立露台，非预留座席。"
+    }
+  ]
+}

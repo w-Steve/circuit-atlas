@@ -1,0 +1,57 @@
+{
+  "circuitId": "melbourne",
+  "season": 2026,
+  "checkedAt": "2026-10-26",
+  "productPage": "https://www.grandprix.com.au/shop/products/prost-grandstand",
+  "productPageCapture": "20260217041309",
+  "pageReplaySha256": "2d40ba6e514a2b752a2c094105f37b179dd42fbc48586877c359053b1b89a0b8",
+  "pageCdxSha1": "XXM5SQHECYDKGRBDSFTOVEVLDMBRV4NS",
+  "pageReplaySha1": "XPLW3QWUPSKNC7X7E6NIPN44XZYZEED4",
+  "pageReplayCdxDigestMatches": false,
+  "images": [
+    {
+      "original": "https://www.grandprix.com.au/uploads/images/FOR-GP26-PRODUCTS-Prost_Grandstand-G1.webp",
+      "capture": "20251124063359",
+      "cdxSha1": "JTXKIWRA7EKM7DARCFZ2BG325J4GZCMC",
+      "responseSha1": "JTXKIWRA7EKM7DARCFZ2BG325J4GZCMC",
+      "digestMatches": true,
+      "sha256": "e1f815db04f88de1522402ebf5058bbb2ab1a1db3131450bfcb309b1e57f3a9c",
+      "bytes": 751336
+    },
+    {
+      "original": "https://www.grandprix.com.au/uploads/images/FOR-GP26-PRODUCTS-Prost_Grandstand-G2.webp",
+      "capture": "20251124063404",
+      "cdxSha1": "LRVIVV5S5T4JABEK276364OKHSSXSBL6",
+      "responseSha1": "LRVIVV5S5T4JABEK276364OKHSSXSBL6",
+      "digestMatches": true,
+      "sha256": "4f33e299858fc691f321bf3e0513e77b1ac178fc3c9a7b71620b85c31440d80c",
+      "bytes": 829556
+    },
+    {
+      "original": "https://www.grandprix.com.au/uploads/images/FOR-GP26-PRODUCTS-Prost_Grandstand-G3.webp",
+      "capture": "20251124063408",
+      "cdxSha1": "JJ7AXJGTEOJG2OVNVOO26YNSJXDGKFOV",
+      "responseSha1": "JJ7AXJGTEOJG2OVNVOO26YNSJXDGKFOV",
+      "digestMatches": true,
+      "sha256": "e3765a7d3cbd5dd3ef3becaabf63225a1c4b435912d958986fa087bd310e9c73",
+      "bytes": 759408
+    },
+    {
+      "original": "https://www.grandprix.com.au/uploads/images/FOR-GP26-PRODUCTS-Prost_Grandstand-G5.webp",
+      "capture": "20251124063412",
+      "cdxSha1": "34MHCODNTGRS6DQU6VS2XGMWTBPNAUGO",
+      "responseSha1": "34MHCODNTGRS6DQU6VS2XGMWTBPNAUGO",
+      "digestMatches": true,
+      "sha256": "9f7f4f268044613b381c83098b9ff46713033060589ffd88ed6a263839782c7b",
+      "bytes": 825568
+    }
+  ],
+  "observation": "Official GP26 Prost product photographs show continuous curved seating around the final corner, adjoining the neighboring banks. This corroborates a curved front/back row model, not one PCA cross-section along the end caps.",
+  "scope": "Front/rear bend pairing is an explicit model interpretation of the verified2026 blue footprint; original boundary/profile/datum retained.",
+  "limits": [
+    "Photograph capture dates unknown; these assets were archived in November2025 for GP26 promotion.",
+    "No surveyed row count, width, riser, foundation or obstruction dimensions derived from photographs.",
+    "HTML replay digest differs from the selected CDX digest; not claimed byte-identical to the captured page. Four image digests match exactly.",
+    "Images remain private research references, not website assets or redistributed source files."
+  ]
+}

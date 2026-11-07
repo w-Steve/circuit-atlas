@@ -1,22 +1,24 @@
+import {useShallow} from 'zustand/react/shallow';
 import {t} from "../i18n";
 import { useEffect, useState } from "react";
 import { useThree } from "@react-three/fiber";
-import { useApp } from "../store";
-import { activeCamera } from "./ObserverCamera";
-import { carObject } from "./Vehicle";
+import {useCircuit,useCircuitStore} from '../app/CircuitContext';
+
 import { projectVehicle } from "./Projection";
-import { simulation } from "./VehicleSimulation";
+
 import { phoneSensor,zoomToFov } from "./PhoneCamera";
-import { prepareLocalPass } from "./PassController";
+
 import { freezeMoment,shutterSpeeds } from "../camera/Exposure";
 import { temporalCapture,type PhotoResult } from "../camera/TemporalCapture";
 import type { PerspectiveCamera } from "three";
-export const shutter: { capture: null | (() => Promise<PhotoResult>);busy:boolean } = { capture: null,busy:false };
+
 export function CaptureBridge() {
+  const useApp=useCircuitStore();
+  const runtime=useCircuit(),{vehicle:carObject,simulation,shutter}=runtime;
   const { gl, scene, camera } = useThree();
   useEffect(() => {
     let alive=true;
-    shutter.capture = async () => {
+    const capture = async () => {
       if(shutter.busy)throw Error(t("照片正在生成"));
       shutter.busy=true;
       try {
@@ -25,21 +27,29 @@ export function CaptureBridge() {
         if(!carObject.current)throw Error(t("赛车尚未就绪"));
         const frozenCamera=(camera as PerspectiveCamera).clone();
         frozenCamera.fov=zoomToFov(settings.zoom);frozenCamera.aspect=4/3;frozenCamera.updateProjectionMatrix();frozenCamera.updateMatrixWorld(true);
-        const moment=freezeMoment(simulation,frozenCamera,settings.shutterSpeed,settings.panMode);
+        const moment=freezeMoment(simulation,frozenCamera,settings.shutterSpeed,settings.panMode,runtime);
         const result=await temporalCapture(gl,scene,camera as PerspectiveCamera,carObject.current,moment,phoneSensor.baseFocal*settings.zoom,()=>alive&&useApp.getState().mode==='phone');
-        if(result.metadata)result.metadata.zoneId=settings.selection.zoneId??'a';
+        if(result.metadata){
+          result.metadata.zoneId=settings.selection.zoneId??'a';
+          result.metadata.observerPosture=runtime.spectators.zoneById(settings.selection.zoneId!)?.kind==='grandstand'?'seated':'standing';
+          result.metadata.eyeHeightMetres=moment.position.y-runtime.observerFloor(settings.selection).y;
+          result.metadata.observerPosition=moment.position.toArray();
+        }
         return result;
       }
       } finally {shutter.busy=false}
     };
+    shutter.capture=capture;
     return () => {
       alive=false;
-      shutter.capture = null;
+      if(shutter.capture===capture)shutter.capture = null;
     };
   }, [gl, scene, camera]);
   return null;
 }
 function FrameStats() {
+  const useApp=useCircuitStore();
+  const {camera:activeCamera,vehicle:carObject}=useCircuit();
   const [tick, update] = useState(0);
   useEffect(() => {
     const id = setInterval(() => update((x) => x + 1), 100);
@@ -60,6 +70,8 @@ function FrameStats() {
   );
 }
 function PhonePlayback() {
+  const useApp=useCircuitStore();
+  const {simulation,preparePass:prepareLocalPass}=useCircuit();
   const [tick, update] = useState(0);
   useEffect(() => {
     const id = setInterval(() => update((x) => x + 1), 150);
@@ -95,11 +107,13 @@ function PhonePlayback() {
   );
 }
 export function PhoneControls() {
+  const useApp=useCircuitStore();
+  const {shutter}=useCircuit();
   const mode = useApp((s) => s.mode),
     setMode = useApp((s) => s.setMode),
     zoom = useApp((s) => s.zoom),
     setZoom = useApp((s) => s.setZoom);
-  const {shutterSpeed,setShutterSpeed,panMode,setPanMode,circuitId}=useApp();
+  const {shutterSpeed,setShutterSpeed,panMode,setPanMode,circuitId}=useApp(useShallow(s=>({shutterSpeed:s.shutterSpeed,setShutterSpeed:s.setShutterSpeed,panMode:s.panMode,setPanMode:s.setPanMode,circuitId:s.circuitId})));
   const [photo, setPhoto] = useState<PhotoResult | null>(null),
     [error, setError] = useState("");
   const [busy,setBusy]=useState(false);
@@ -115,11 +129,12 @@ export function PhoneControls() {
           <label>{t("快门")}<select aria-label={t("快门速度")} value={shutterSpeed} disabled={busy} onChange={e=>setShutterSpeed(+e.target.value)}>{shutterSpeeds.map(s=><option key={s} value={s}>1/{s} s</option>)}</select></label>
           <div role="group" aria-label={t("跟拍方式")}><button aria-label={t("固定镜头")} aria-pressed={panMode==='fixed'} disabled={busy} onClick={()=>setPanMode('fixed')}><span className="pan-full">{t("固定镜头")}</span><span className="pan-compact" aria-hidden="true">{t('固定')}</span></button><button aria-label={t("理想跟拍")} aria-pressed={panMode==='tracking'} disabled={busy} onClick={()=>setPanMode('tracking')}><span className="pan-full">{t("理想跟拍")}</span><span className="pan-compact" aria-hidden="true">{t('跟拍')}</span></button></div>
         </div>
-        <div className="zoom-presets">
-          <label className="zoom-range"><input aria-label={t("连续变焦")} type="range" min="0.5" max="30" step="0.01" value={zoom} onChange={e=>setZoom(+e.target.value)}/><output>{zoom.toFixed(1)}×</output></label>
+        <div className="zoom-presets" role="group" aria-label={t("变焦倍率")}>
+          <label className="zoom-range"><input aria-label={t("连续变焦")} aria-valuetext={`${zoom.toFixed(2)}× · ${(phoneSensor.baseFocal*zoom).toFixed(0)} mm`} type="range" min="0.5" max="30" step="0.01" value={zoom} onChange={e=>setZoom(+e.target.value)}/><output>{zoom.toFixed(1)}×</output></label>
           {[0.5, 1, 2, 3, 5, 10, 20].map((z) => (
             <button
               className={zoom === z ? "active" : ""}
+              aria-pressed={zoom === z}
               key={z}
               onClick={() => setZoom(z)}
             >

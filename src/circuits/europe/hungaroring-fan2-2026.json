@@ -1,0 +1,142 @@
+{
+  "circuitId": "hungaroring",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "zones": [
+    {
+      "zoneId": "fan-2",
+      "name": "Fan 2",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          19.2562789889735,
+          47.580623751054034
+        ],
+        [
+          19.25574765455612,
+          47.58022120267965
+        ],
+        [
+          19.25590679050815,
+          47.58012562528597
+        ],
+        [
+          19.256438124925523,
+          47.580528173660355
+        ],
+        [
+          19.2562789889735,
+          47.580623751054034
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "fan-2-1",
+          "boundary": [
+            [
+              19.2562789889735,
+              47.580623751054034
+            ],
+            [
+              19.25574765455612,
+              47.58022120267965
+            ],
+            [
+              19.25590679050815,
+              47.58012562528597
+            ],
+            [
+              19.256438124925523,
+              47.580528173660355
+            ],
+            [
+              19.2562789889735,
+              47.580623751054034
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.2,
+          "rows": 18,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            19.255714941854762,
+            47.580601684479994
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                19.2562789889735,
+                47.580623751054034
+              ],
+              [
+                19.25574765455612,
+                47.58022120267965
+              ]
+            ],
+            "back": [
+              [
+                19.256438124925523,
+                47.580528173660355
+              ],
+              [
+                19.25590679050815,
+                47.58012562528597
+              ]
+            ],
+            "source": {
+              "url": "https://www.gpticketshop.hu/upload/2026_02/24/177192229252025691/do_hungaroring_map_2026_trib_n_k___fan2_1500px.jpg",
+              "checkedAt": "2026-11-06",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 named Fan2 locator from official Hungarian ticketing company: separate outer T11-T12 bank upstream of Fan. Author approximate60x16m,18rows,base2.2m/rise7.2m,30m road offset. Not surveyed footprint, full enclosure or measured seat geometry."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 7.2,
+        "depth": 16,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.gpticketshop.hu/upload/2026_02/24/177192229252025691/do_hungaroring_map_2026_trib_n_k___fan2_1500px.jpg",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 named Fan2 locator from official Hungarian ticketing company: separate outer T11-T12 bank upstream of Fan. Author approximate60x16m,18rows,base2.2m/rise7.2m,30m road offset. Not surveyed footprint, full enclosure or measured seat geometry."
+      },
+      "surfaceSource": {
+        "url": "https://www.gpticketshop.hu/upload/2026_02/24/177192229252025691/do_hungaroring_map_2026_trib_n_k___fan2_1500px.jpg",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 named Fan2 locator from official Hungarian ticketing company: separate outer T11-T12 bank upstream of Fan. Author approximate60x16m,18rows,base2.2m/rise7.2m,30m road offset. Not surveyed footprint, full enclosure or measured seat geometry."
+      },
+      "openingSource": {
+        "url": "https://www.gpticketshop.hu/upload/2026_02/24/177192229252025691/do_hungaroring_map_2026_trib_n_k___fan2_1500px.jpg",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 named Fan2 locator from official Hungarian ticketing company: separate outer T11-T12 bank upstream of Fan. Author approximate60x16m,18rows,base2.2m/rise7.2m,30m road offset. Not surveyed footprint, full enclosure or measured seat geometry."
+      },
+      "description": "Fan 2独立看台，位置依据2026官方票务定位图；座席范围和高度为近似。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Named2026 ticket locator relative to actual T11-T12 road."
+      }
+    }
+  ],
+  "beforeZones": [],
+  "evidence": {
+    "ticketPage": "https://www.gpticketshop.hu/Formula_1/cikk1966/Fan_2_Hetvege.html",
+    "locator": "https://www.gpticketshop.hu/upload/2026_02/24/177192229252025691/do_hungaroring_map_2026_trib_n_k___fan2_1500px.jpg",
+    "locatorSha256": "95437ae9e481879c3af5657f63381b8f9a0cf96012e4ae843b3a1ad1871960b1",
+    "mapLabel": "Fan 2",
+    "relationship": "Outside T11-T12, upstream of Fan; highlighted separately on2026 named locator."
+  }
+}

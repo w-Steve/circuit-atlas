@@ -24,7 +24,7 @@ it('Zandvoort GA1 and GA2 are source-ground areas, not copied stepped grandstand
    for(const u of [.01,.1,.3,.5,.7,.9,.99])for(const v of [.01,.25,.5,.75,.99]){
     const floor=model.surfacePoint(surface,u,v),selection=model.selectionAt(surface,floor),eye=model.zonePoint(id,selection.u,selection.v);
     expect(Math.abs(floor.y-g.groundAt(floor.x,floor.z)-.04)).toBeLessThan(.2);
-    expect(eye.distanceTo(floor.clone().add(new Vector3(0,1.2,0)))).toBeLessThan(.001);
+    expect(eye.distanceTo(floor.clone().add(new Vector3(0,1.65,0)))).toBeLessThan(.001);
     expect(model.facingTarget(id,selection.u,selection.v).distanceTo(model.nearestTrack(eye).point)).toBeLessThan(.001);
    }mesh.dispose();
   }

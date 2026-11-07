@@ -1,0 +1,1003 @@
+{
+  "circuitId": "spielberg",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "schonberg",
+      "name": "Schönberg A / B",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          14.760967526681457,
+          47.22615583753841
+        ],
+        [
+          14.760111224577841,
+          47.22620848387939
+        ],
+        [
+          14.75884499501101,
+          47.22628633298855
+        ],
+        [
+          14.758861692204313,
+          47.2264115843201
+        ],
+        [
+          14.759717995555285,
+          47.226358937902425
+        ],
+        [
+          14.760984223825917,
+          47.22628108887145
+        ],
+        [
+          14.760967526681457,
+          47.22615583753841
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "schonberg-1",
+          "boundary": [
+            [
+              14.75884499501101,
+              47.22628633298855
+            ],
+            [
+              14.759701298361982,
+              47.22623368657088
+            ],
+            [
+              14.759717995555285,
+              47.226358937902425
+            ],
+            [
+              14.758861692204313,
+              47.2264115843201
+            ],
+            [
+              14.75884499501101,
+              47.22628633298855
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 15,
+          "eyeHeight": 1.2,
+          "rowStrip": {
+            "front": [
+              [
+                14.75884499501101,
+                47.22628633298855
+              ],
+              [
+                14.759701298361982,
+                47.22623368657088
+              ]
+            ],
+            "back": [
+              [
+                14.758861692204313,
+                47.2264115843201
+              ],
+              [
+                14.759717995555285,
+                47.226358937902425
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Annual map-relative authored approximation: 65x14m,offset26m,15rows,base2.2m/rise6.3m; not surveyed seat geography. Valid corresponding stand ticket required; map colors do not prove day-specific roaming access."
+            }
+          },
+          "frontReference": [
+            14.759242137613219,
+            47.22587740016399
+          ],
+          "rowBearing": "local-normal"
+        },
+        {
+          "surfaceId": "schonberg-b-1",
+          "boundary": [
+            [
+              14.760111224577841,
+              47.22620848387939
+            ],
+            [
+              14.760967526681457,
+              47.22615583753841
+            ],
+            [
+              14.760984223825917,
+              47.22628108887145
+            ],
+            [
+              14.7601279217223,
+              47.226333735212435
+            ],
+            [
+              14.760111224577841,
+              47.22620848387939
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 15,
+          "eyeHeight": 1.2,
+          "rowStrip": {
+            "front": [
+              [
+                14.760111224577841,
+                47.22620848387939
+              ],
+              [
+                14.760967526681457,
+                47.22615583753841
+              ]
+            ],
+            "back": [
+              [
+                14.7601279217223,
+                47.226333735212435
+              ],
+              [
+                14.760984223825917,
+                47.22628108887145
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Annual map-relative authored approximation: 65x14m,offset26m,15rows,base2.2m/rise6.3m; not surveyed seat geography. Valid corresponding stand ticket required; map colors do not prove day-specific roaming access."
+            }
+          },
+          "frontReference": [
+            14.760508366647082,
+            47.2257995510904
+          ],
+          "rowBearing": "local-normal"
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 6.3,
+        "depth": 14,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual map-relative authored approximation: 65x14m,offset26m,15rows,base2.2m/rise6.3m; not surveyed seat geography. Valid corresponding stand ticket required; map colors do not prove day-specific roaming access. Geographic north setback refined against actual straight vertices, rather than remote-corner chord."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual map-relative authored approximation: 65x14m,offset26m,15rows,base2.2m/rise6.3m; not surveyed seat geography. Valid corresponding stand ticket required; map colors do not prove day-specific roaming access."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Annual map-relative authored approximation: 65x14m,offset26m,15rows,base2.2m/rise6.3m; not surveyed seat geography. Valid corresponding stand ticket required; map colors do not prove day-specific roaming access."
+      },
+      "description": "近似座席范围及高度；需对应看台有效票，逐日准入未核实。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Explicit author approximation based on2026 map-relative side and location."
+      }
+    },
+    {
+      "zoneId": "t8",
+      "name": "T8",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          14.763865878521342,
+          47.223273206175605
+        ],
+        [
+          14.765320788209772,
+          47.22326365643094
+        ],
+        [
+          14.765323089166285,
+          47.2234253448911
+        ],
+        [
+          14.763868179477855,
+          47.223434894635766
+        ],
+        [
+          14.763865878521342,
+          47.223273206175605
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "t8-1",
+          "boundary": [
+            [
+              14.763865878521342,
+              47.223273206175605
+            ],
+            [
+              14.765320788209772,
+              47.22326365643094
+            ],
+            [
+              14.765323089166285,
+              47.2234253448911
+            ],
+            [
+              14.763868179477855,
+              47.223434894635766
+            ],
+            [
+              14.763865878521342,
+              47.223273206175605
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 9.24,
+          "rows": 22,
+          "eyeHeight": 1.2,
+          "rowStrip": {
+            "front": [
+              [
+                14.763865878521342,
+                47.223273206175605
+              ],
+              [
+                14.765320788209772,
+                47.22326365643094
+              ]
+            ],
+            "back": [
+              [
+                14.763868179477855,
+                47.223434894635766
+              ],
+              [
+                14.765323089166285,
+                47.2234253448911
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Annual map-relative authored approximation: 110x18m,offset24m,22rows,base2.2m/rise9.24m; not surveyed seat geography. Valid corresponding stand ticket required; map colors do not prove day-specific roaming access."
+            }
+          },
+          "frontReference": [
+            14.76459026542354,
+            47.223052846689725
+          ],
+          "rowBearing": "local-normal"
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 9.24,
+        "depth": 18,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual map-relative authored approximation: 110x18m,offset24m,22rows,base2.2m/rise9.24m; not surveyed seat geography. Valid corresponding stand ticket required; map colors do not prove day-specific roaming access."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual map-relative authored approximation: 110x18m,offset24m,22rows,base2.2m/rise9.24m; not surveyed seat geography. Valid corresponding stand ticket required; map colors do not prove day-specific roaming access."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Annual map-relative authored approximation: 110x18m,offset24m,22rows,base2.2m/rise9.24m; not surveyed seat geography. Valid corresponding stand ticket required; map colors do not prove day-specific roaming access."
+      },
+      "description": "近似座席范围及高度；需对应看台有效票，逐日准入未核实。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Explicit author approximation based on2026 map-relative side and location."
+      }
+    },
+    {
+      "zoneId": "general-admission-north",
+      "name": "General Admission · 北侧草地",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          14.764273,
+          47.225832
+        ],
+        [
+          14.761793,
+          47.225903
+        ],
+        [
+          14.760645,
+          47.226006
+        ],
+        [
+          14.7567227,
+          47.2265112
+        ],
+        [
+          14.756877,
+          47.2265932
+        ],
+        [
+          14.7596343,
+          47.2270312
+        ],
+        [
+          14.7598073,
+          47.2270549
+        ],
+        [
+          14.760109,
+          47.2270385
+        ],
+        [
+          14.7603022,
+          47.2270239
+        ],
+        [
+          14.764273,
+          47.226490271654974
+        ],
+        [
+          14.764273,
+          47.225832
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "ga-565072378-0",
+          "boundary": [
+            [
+              14.7602861,
+              47.2261387
+            ],
+            [
+              14.7604215,
+              47.2261177
+            ],
+            [
+              14.7605583,
+              47.2260831
+            ],
+            [
+              14.7607782,
+              47.226054
+            ],
+            [
+              14.761135,
+              47.2260531
+            ],
+            [
+              14.7615011,
+              47.2260303
+            ],
+            [
+              14.7618967,
+              47.2260057
+            ],
+            [
+              14.7622065,
+              47.2259921
+            ],
+            [
+              14.762456,
+              47.2260112
+            ],
+            [
+              14.762696,
+              47.2260531
+            ],
+            [
+              14.7631037,
+              47.2261387
+            ],
+            [
+              14.76349,
+              47.2262061
+            ],
+            [
+              14.7637984,
+              47.2262434
+            ],
+            [
+              14.7639701,
+              47.2262398
+            ],
+            [
+              14.7642463,
+              47.2262125
+            ],
+            [
+              14.764273,
+              47.22620720025126
+            ],
+            [
+              14.764273,
+              47.225832
+            ],
+            [
+              14.761793,
+              47.225903
+            ],
+            [
+              14.760645,
+              47.226006
+            ],
+            [
+              14.759660853616044,
+              47.22613513252752
+            ],
+            [
+              14.75967869665488,
+              47.226195000618354
+            ],
+            [
+              14.760086109088284,
+              47.22616995247872
+            ],
+            [
+              14.7602861,
+              47.2261387
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 2
+        },
+        {
+          "surfaceId": "ga-565072378-1",
+          "boundary": [
+            [
+              14.759413135286728,
+              47.226211327607146
+            ],
+            [
+              14.759628844297056,
+              47.2261980655931
+            ],
+            [
+              14.7596289,
+              47.2261979
+            ],
+            [
+              14.7596154100318,
+              47.22614109530398
+            ],
+            [
+              14.75934515619622,
+              47.22617655604582
+            ],
+            [
+              14.7593835,
+              47.2262043
+            ],
+            [
+              14.759413135286728,
+              47.226211327607146
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 2
+        },
+        {
+          "surfaceId": "ga-565072379-0",
+          "boundary": [
+            [
+              14.7639607,
+              47.2262753
+            ],
+            [
+              14.7636804,
+              47.2262653
+            ],
+            [
+              14.7635221,
+              47.2262462
+            ],
+            [
+              14.763321,
+              47.226217
+            ],
+            [
+              14.7630568,
+              47.2261633
+            ],
+            [
+              14.7627228,
+              47.2260904
+            ],
+            [
+              14.7626947,
+              47.2261487
+            ],
+            [
+              14.7624439,
+              47.2261032
+            ],
+            [
+              14.7624493,
+              47.2260458
+            ],
+            [
+              14.7622682,
+              47.2260285
+            ],
+            [
+              14.7619624,
+              47.2260349
+            ],
+            [
+              14.7616674,
+              47.2260503
+            ],
+            [
+              14.7613938,
+              47.2260758
+            ],
+            [
+              14.7607836,
+              47.2260804
+            ],
+            [
+              14.7605677,
+              47.2261159
+            ],
+            [
+              14.760393191839063,
+              47.226151072712824
+            ],
+            [
+              14.760965072074722,
+              47.22611591292312
+            ],
+            [
+              14.760969069275165,
+              47.22611586729442
+            ],
+            [
+              14.760973051069248,
+              47.22611622086087
+            ],
+            [
+              14.760976977689568,
+              47.22611697009128
+            ],
+            [
+              14.760980809919756,
+              47.226118107502884
+            ],
+            [
+              14.760984509486146,
+              47.22611962173599
+            ],
+            [
+              14.76098803944003,
+              47.22612149766747
+            ],
+            [
+              14.760991364526669,
+              47.22612371656184
+            ],
+            [
+              14.760994451537396,
+              47.226126256258304
+            ],
+            [
+              14.760997269641285,
+              47.22612909139213
+            ],
+            [
+              14.760999790693065,
+              47.22613219364797
+            ],
+            [
+              14.76100198951421,
+              47.22613553204263
+            ],
+            [
+              14.761003844144419,
+              47.22613907323454
+            ],
+            [
+              14.761005336060926,
+              47.22614278185673
+            ],
+            [
+              14.761006450363503,
+              47.226146620870026
+            ],
+            [
+              14.761007175923265,
+              47.22615055193304
+            ],
+            [
+              14.761023873067725,
+              47.226275803266084
+            ],
+            [
+              14.761024197989002,
+              47.226279651413435
+            ],
+            [
+              14.761024150305815,
+              47.22628351295952
+            ],
+            [
+              14.76102373046262,
+              47.22628735191036
+            ],
+            [
+              14.761022942372835,
+              47.22629113248259
+            ],
+            [
+              14.761021793382346,
+              47.22629481943698
+            ],
+            [
+              14.761020294201046,
+              47.22629837840696
+            ],
+            [
+              14.761018458803004,
+              47.22630177621888
+            ],
+            [
+              14.761016304296207,
+              47.22630498120131
+            ],
+            [
+              14.7610138507631,
+              47.22630796348016
+            ],
+            [
+              14.761011121073388,
+              47.226310695257226
+            ],
+            [
+              14.761008140670869,
+              47.22631315106925
+            ],
+            [
+              14.761004937336272,
+              47.22631530802528
+            ],
+            [
+              14.761001540928303,
+              47.22631714602005
+            ],
+            [
+              14.76099798310533,
+              47.22631864792136
+            ],
+            [
+              14.76099429703029,
+              47.226319799729794
+            ],
+            [
+              14.76099051706158,
+              47.22632059070919
+            ],
+            [
+              14.760986678432786,
+              47.22632101348673
+            ],
+            [
+              14.75972045016202,
+              47.22639886251771
+            ],
+            [
+              14.758864146811048,
+              47.226451508935384
+            ],
+            [
+              14.75886014961163,
+              47.22645155456413
+            ],
+            [
+              14.758856167818553,
+              47.22645120099792
+            ],
+            [
+              14.758852241199193,
+              47.226450451767946
+            ],
+            [
+              14.758848408969886,
+              47.22644931435698
+            ],
+            [
+              14.758844709404269,
+              47.226447800124696
+            ],
+            [
+              14.758841179451025,
+              47.22644592419419
+            ],
+            [
+              14.758837854364868,
+              47.226443705300944
+            ],
+            [
+              14.758834767354443,
+              47.22644116560573
+            ],
+            [
+              14.75883194925066,
+              47.226438330473236
+            ],
+            [
+              14.758829428198771,
+              47.22643522821881
+            ],
+            [
+              14.758827229377289,
+              47.2264318898256
+            ],
+            [
+              14.758825374746511,
+              47.22642834863514
+            ],
+            [
+              14.758823882829198,
+              47.226424640014386
+            ],
+            [
+              14.758822768525578,
+              47.226420801002455
+            ],
+            [
+              14.758822042964539,
+              47.22641686994072
+            ],
+            [
+              14.758805889746206,
+              47.22629569915062
+            ],
+            [
+              14.7586459,
+              47.2263081
+            ],
+            [
+              14.758269,
+              47.2263573
+            ],
+            [
+              14.7577433,
+              47.2264274
+            ],
+            [
+              14.7573879,
+              47.2264602
+            ],
+            [
+              14.7570862,
+              47.2264866
+            ],
+            [
+              14.7567227,
+              47.2265112
+            ],
+            [
+              14.756877,
+              47.2265932
+            ],
+            [
+              14.7572136,
+              47.226584
+            ],
+            [
+              14.7575046,
+              47.2266232
+            ],
+            [
+              14.7578707,
+              47.2266842
+            ],
+            [
+              14.7582288,
+              47.2267653
+            ],
+            [
+              14.7584152,
+              47.2268035
+            ],
+            [
+              14.7586325,
+              47.2268336
+            ],
+            [
+              14.7589235,
+              47.2268391
+            ],
+            [
+              14.759122,
+              47.2268682
+            ],
+            [
+              14.7592816,
+              47.2269028
+            ],
+            [
+              14.7594774,
+              47.2269848
+            ],
+            [
+              14.7596343,
+              47.2270312
+            ],
+            [
+              14.7598073,
+              47.2270549
+            ],
+            [
+              14.760109,
+              47.2270385
+            ],
+            [
+              14.7603022,
+              47.2270239
+            ],
+            [
+              14.7604148,
+              47.2269893
+            ],
+            [
+              14.7604797,
+              47.2269415
+            ],
+            [
+              14.7604802,
+              47.2268147
+            ],
+            [
+              14.7612566,
+              47.2266048
+            ],
+            [
+              14.76142,
+              47.2265612
+            ],
+            [
+              14.7614434,
+              47.2264993
+            ],
+            [
+              14.76154,
+              47.2263554
+            ],
+            [
+              14.7616848,
+              47.2263299
+            ],
+            [
+              14.7619906,
+              47.2263509
+            ],
+            [
+              14.7623782,
+              47.2263591
+            ],
+            [
+              14.7628744,
+              47.2263946
+            ],
+            [
+              14.7632244,
+              47.2264028
+            ],
+            [
+              14.7635852,
+              47.226411
+            ],
+            [
+              14.7638333,
+              47.2264456
+            ],
+            [
+              14.7641256,
+              47.2264784
+            ],
+            [
+              14.764273,
+              47.226490271654974
+            ],
+            [
+              14.764273,
+              47.226239501021816
+            ],
+            [
+              14.764245,
+              47.2262452
+            ],
+            [
+              14.7639607,
+              47.2262753
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 2
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 20
+      },
+      "source": {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.7545%2C47.2252%2C14.7648%2C47.229",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Native grass parcels associated with annual northern green GA strip; Schonberg authored exclusion removed with approximate4m margin. Annual exact ticket limits not surveyed. Ground follows existing DEM; local occlusion possible. Only northern portion of actual T3-T4 road retained, with approximate10m road setback; partial GA coverage."
+      },
+      "surfaceSource": {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.7545%2C47.2252%2C14.7648%2C47.229",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Native grass parcels associated with annual northern green GA strip; Schonberg authored exclusion removed with approximate4m margin. Annual exact ticket limits not surveyed. Ground follows existing DEM; local occlusion possible."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Native grass parcels associated with annual northern green GA strip; Schonberg authored exclusion removed with approximate4m margin. Annual exact ticket limits not surveyed. Ground follows existing DEM; local occlusion possible."
+      },
+      "description": "北侧近似草地范围，按地形站立；已排除近似Schönberg座席带，票界未测绘。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Native grass with explicit approximate stand exclusion; not blanket admission to all green land."
+      }
+    }
+  ]
+}

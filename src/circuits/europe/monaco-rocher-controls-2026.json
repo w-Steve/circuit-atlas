@@ -1,0 +1,79 @@
+{
+  "circuitId": "monaco",
+  "season": 2026,
+  "sourceImageSha256": "3d40d544403b11b070e28840079b7117ace6fe6cd2f553ffb8699ac98c3d887d",
+  "referenceReportSha256": "a013cc283b745d13ba517f452436ae36ec013e6b69847a837664ef06f84258ee",
+  "coordinateSpaces": {
+    "source": "2026 public-map original pixels",
+    "reference": "1280x1280 government mosaic pixels, top-left tile from reference report"
+  },
+  "method": "Three schematic road-junction observations matched to named OSM node identities, plus one government-map bend observation. Exact geographic node coordinates do not certify the schematic correspondence; independent residuals remain required.",
+  "sourcePickingUncertaintyPixels": 15,
+  "referencePickingUncertaintyPixels": 3,
+  "controls": [
+    {
+      "name": "Place Armes / Avenue du Port roundabout exit",
+      "sourcePixel": [
+        191,
+        781
+      ],
+      "referencePixel": [
+        297,
+        631
+      ],
+      "osmNodeId": "1866423016",
+      "coordinateSource": {
+        "url": "https://www.openstreetmap.org/node/1866423016",
+        "method": "extracted",
+        "scope": "Node at a named road junction; schematic image correspondence is estimated, not surveyed."
+      }
+    },
+    {
+      "name": "Rue des Remparts / Place du Palais junction",
+      "sourcePixel": [
+        300,
+        1177
+      ],
+      "referencePixel": [
+        540,
+        787
+      ],
+      "osmNodeId": "1868334418",
+      "coordinateSource": {
+        "url": "https://www.openstreetmap.org/node/1868334418",
+        "method": "extracted",
+        "scope": "Node at a named road junction; schematic image correspondence is estimated, not surveyed."
+      }
+    },
+    {
+      "name": "Saint-Martin / Colonel Bellando de Castro",
+      "sourcePixel": [
+        174,
+        1440
+      ],
+      "referencePixel": [
+        626,
+        964
+      ],
+      "osmNodeId": "25181806",
+      "coordinateSource": {
+        "url": "https://www.openstreetmap.org/node/25181806",
+        "method": "extracted",
+        "scope": "Node at a named road junction; schematic image correspondence is estimated, not surveyed."
+      }
+    },
+    {
+      "name": "Saint-Martin / Porte Neuve bend",
+      "sourcePixel": [
+        965,
+        1543
+      ],
+      "referencePixel": [
+        1118,
+        607
+      ]
+    }
+  ],
+  "independentControlCheckAccepted": false,
+  "osmReferenceSha256": "de5ae579284a3351eb1e7691ec7c3aaf0084fa4c8f53bad70ea23b22a5cf5d40"
+}

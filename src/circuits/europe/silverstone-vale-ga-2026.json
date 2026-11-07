@@ -1,0 +1,381 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "geometryFingerprint": "d7ef5dc09484539661b05bbf9b5712883d40fab708740602e0879e82fb698354",
+  "valeSourceFingerprint": "82aa600785c597d22a6a9626952416660947fddec89f18a898be3af8d020aec9",
+  "annualMap": {
+    "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+    "publisher": "Silverstone",
+    "sha256": "3516fbf5bdab374c4a4f53b8a975cbd9ea0714408bd11f6be3c198f05f3e336c",
+    "page": 1
+  },
+  "mapDrawingIndex": 41,
+  "coverage": "stand-front subset of the positive Vale band; not all ordinary GA or the full landuse parcel",
+  "nativeGroundWay": 605892812,
+  "nativeStandWay": 227342453,
+  "nativeFenceWay": 359370784,
+  "nativeSnapshot": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.028,52.0625,-1.017,52.0695",
+    "status": 200,
+    "sha256": "fae7e4355ed199ea7e486e981fbe9fc39b1df9bfe070f238994fe0a4647f55db",
+    "checkedAt": "2026-10-28"
+  },
+  "nativeGroundAreaMetres2": 10346.657505840565,
+  "interpretedEnvelopeAreaMetres2": 9630.23133843758,
+  "selectionAreaMetres2": 9504.470089372748,
+  "bodyClearanceMetres": 0.3,
+  "ticketEnvelopeGeo": [
+    [
+      -1.0207117,
+      52.0650463
+    ],
+    [
+      -1.0207462,
+      52.06508
+    ],
+    [
+      -1.0209017,
+      52.0652322
+    ],
+    [
+      -1.0209576,
+      52.0652106
+    ],
+    [
+      -1.0212538,
+      52.0654672
+    ],
+    [
+      -1.0215604,
+      52.0657053
+    ],
+    [
+      -1.0216192,
+      52.0656814
+    ],
+    [
+      -1.0219571,
+      52.0658432
+    ],
+    [
+      -1.0221862227439926,
+      52.06586453369533
+    ],
+    [
+      -1.022748,
+      52.0654958
+    ],
+    [
+      -1.0211548,
+      52.064579
+    ],
+    [
+      -1.0206354059424612,
+      52.06491991463854
+    ],
+    [
+      -1.0207117,
+      52.0650463
+    ]
+  ],
+  "zone": {
+    "zoneId": "ga-vale",
+    "name": "Vale · GA",
+    "kind": "general-admission",
+    "availability": "available",
+    "boundary": [
+      [
+        -1.020715653007717,
+        52.06504510110967
+      ],
+      [
+        -1.0207499112554486,
+        52.06507856496325
+      ],
+      [
+        -1.020903080348741,
+        52.06522848352065
+      ],
+      [
+        -1.0209587767826016,
+        52.06520696217948
+      ],
+      [
+        -1.0212573096449635,
+        52.065465583153426
+      ],
+      [
+        -1.0215613396059424,
+        52.06570168730772
+      ],
+      [
+        -1.0216194093459705,
+        52.065678084131086
+      ],
+      [
+        -1.02195889042926,
+        52.06584064121684
+      ],
+      [
+        -1.022184598748122,
+        52.0658616569939
+      ],
+      [
+        -1.022741802441289,
+        52.06549592524767
+      ],
+      [
+        -1.0211550037948296,
+        52.06458280887868
+      ],
+      [
+        -1.020640460108953,
+        52.06492053987914
+      ],
+      [
+        -1.020715653007717,
+        52.06504510110967
+      ]
+    ],
+    "surface": {
+      "baseHeight": 0,
+      "rise": 0,
+      "depth": 63.647034541656396,
+      "eyeHeight": 1.65
+    },
+    "surfaces": [
+      {
+        "surfaceId": "ga-vale-ground",
+        "boundary": [
+          [
+            -1.020715653007717,
+            52.06504510110967
+          ],
+          [
+            -1.0207499112554486,
+            52.06507856496325
+          ],
+          [
+            -1.020903080348741,
+            52.06522848352065
+          ],
+          [
+            -1.0209587767826016,
+            52.06520696217948
+          ],
+          [
+            -1.0212573096449635,
+            52.065465583153426
+          ],
+          [
+            -1.0215613396059424,
+            52.06570168730772
+          ],
+          [
+            -1.0216194093459705,
+            52.065678084131086
+          ],
+          [
+            -1.02195889042926,
+            52.06584064121684
+          ],
+          [
+            -1.022184598748122,
+            52.0658616569939
+          ],
+          [
+            -1.022741802441289,
+            52.06549592524767
+          ],
+          [
+            -1.0211550037948296,
+            52.06458280887868
+          ],
+          [
+            -1.020640460108953,
+            52.06492053987914
+          ],
+          [
+            -1.020715653007717,
+            52.06504510110967
+          ]
+        ],
+        "baseHeight": 0,
+        "rise": 0,
+        "rows": 0,
+        "eyeHeight": 1.65,
+        "terrainFollow": true,
+        "fenceMode": "authored",
+        "frontReference": [
+          -1.0211454231404296,
+          52.06590088892068
+        ]
+      }
+    ],
+    "requiredBarrierIds": [
+      "vale-trackside-fence"
+    ],
+    "source": {
+      "url": "https://www.openstreetmap.org/way/605892812",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Approximate interpretation of2026 organizer drawing41 GA band in front of Vale. Native grass parcel605892812 shares the named stand front; select only its stand-span intersection, with0.3m body clearance. Stand-end cuts are assumptions, not surveyed ticket boundaries. The rest of the parcel is not granted GA admission."
+    },
+    "boundarySource": {
+      "url": "https://www.openstreetmap.org/way/605892812",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Approximate interpretation of2026 organizer drawing41 GA band in front of Vale. Native grass parcel605892812 shares the named stand front; select only its stand-span intersection, with0.3m body clearance. Stand-end cuts are assumptions, not surveyed ticket boundaries. The rest of the parcel is not granted GA admission."
+    },
+    "surfaceSource": {
+      "url": "https://www.openstreetmap.org/way/605892812",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Approximate interpretation of2026 organizer drawing41 GA band in front of Vale. Native grass parcel605892812 shares the named stand front; select only its stand-span intersection, with0.3m body clearance. Stand-end cuts are assumptions, not surveyed ticket boundaries. The rest of the parcel is not granted GA admission."
+    },
+    "openingSource": {
+      "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+      "checkedAt": "2026-10-28",
+      "method": "published",
+      "confidence": "medium",
+      "notes": "Silverstone-authored final2026 map drawing41 positively marks ordinary GA in front of the Vale stand. The drawing verifies relative location and product identity, not exact depth or geographic perimeter. Ordinary GA guide excludes grandstand admission."
+    },
+    "admissionNote": "普通GA · 近似范围 · 不含看台准入",
+    "geometryReview": {
+      "checkedAt": "2026-10-28",
+      "issues": [],
+      "method": "Explicitly approximate stand-front subset of positive2026 GA band, retaining native parcel indentations;441 actual-ground samples and complete road/pit/building/neighbor intersections checked. Native fence and standing1.65m retained."
+    }
+  },
+  "barrierLayer": {
+    "circuitId": "silverstone",
+    "availability": "available",
+    "barriers": [
+      {
+        "id": "vale-trackside-fence",
+        "kind": "chain-link",
+        "coordinates": [
+          [
+            -1.0216192,
+            52.0656814
+          ],
+          [
+            -1.0215604,
+            52.0657053
+          ],
+          [
+            -1.0212538,
+            52.0654672
+          ],
+          [
+            -1.0209576,
+            52.0652106
+          ],
+          [
+            -1.0209017,
+            52.0652322
+          ],
+          [
+            -1.0207462,
+            52.06508
+          ],
+          [
+            -1.0207117,
+            52.0650463
+          ],
+          [
+            -1.0206095,
+            52.064877
+          ],
+          [
+            -1.02058,
+            52.0648281
+          ]
+        ],
+        "heightMetres": 3.5,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/359370784",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Native fence plan excerpt along the ground in front of Vale; height3.5m estimated, not measured. Excerpt limits modeled context, not actual fence termini."
+        }
+      }
+    ],
+    "notes": "Native Vale foreground catch fence; height estimated. Required for Vale views."
+  },
+  "sceneAcceptance": {
+    "accepted": true,
+    "checkedAt": "2026-10-28",
+    "candidateDeviceCases": 6,
+    "candidatePhotosReviewed": 3,
+    "limits": "No full GA product or whole parcel admission claim. Heights use retained EA terrain and the existing estimated Vale fence.",
+    "modelSha256": "4e114f946aa653fa9e67661d65b0bc9de5dcabf93738c20bfd3cdf163c11b45b",
+    "formalRelatedDeviceCases": 21,
+    "formalMobilePhotoReviewed": true,
+    "formalMobileSelectionReviewed": true,
+    "shaderLifecycleRegressionCovered": true,
+    "localEmulationPerformance": {
+      "desktop": {
+        "readyMilliseconds": 920,
+        "frameMedianMilliseconds": 8,
+        "frameP95Milliseconds": 8.100000000000136
+      },
+      "mobile": {
+        "readyMilliseconds": 1537,
+        "frameMedianMilliseconds": 7.900000000000091,
+        "frameP95Milliseconds": 8
+      },
+      "tablet": {
+        "readyMilliseconds": 923,
+        "frameMedianMilliseconds": 8,
+        "frameP95Milliseconds": 8.399999999999977
+      }
+    }
+  },
+  "limits": "Approximate public-viewing envelope tied to a confirmed diagram band, native ground and fence; not a ticket GIS or2026 terrain survey. Standing eyes1.65m; true fence occlusion retained. Other GA/GA+ coverage remains incomplete.",
+  "footprintAudit": {
+    "zoneId": "ga-vale",
+    "areaMetres2": 9504.470089344348,
+    "samples": 441,
+    "minEyeAboveFloor": 1.6499999999999986,
+    "minFloorAboveUncutDEM": -0.16168927110236453,
+    "maxFloorMeshMismatch": 5.622338528521453e-06,
+    "groundNote": "Standing follows the actual triangulated public-ground mesh. The coarser terrain is cut within this exact source footprint; uncut bilinear DEM differences are reported, not corrected by lifting visitors.",
+    "barriers": [
+      {
+        "id": "nps-ga-catch-fence",
+        "standingClearanceMetres": 1500.229789534205,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      },
+      {
+        "id": "nps-ga-concrete-wall",
+        "standingClearanceMetres": 1500.0002161671,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      },
+      {
+        "id": "vale-trackside-fence",
+        "standingClearanceMetres": 0.299999876996097,
+        "intersections": {
+          "road": 0.0,
+          "pit": 0.0,
+          "standingGround": 0.0
+        }
+      }
+    ],
+    "issues": []
+  },
+  "runtimeApplied": true,
+  "nativeGroundBoundaryFingerprint": "da114fefe6a18e08261310faff96aba99cb76c9fe03c741165f70d4ea460e0fe"
+}

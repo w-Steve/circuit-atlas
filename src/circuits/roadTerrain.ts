@@ -22,7 +22,7 @@ export function roadTerrain(data:CircuitPackage,g:ReturnType<typeof createCircui
  for(const lane of data.facilities?.pitLanes??[]){
   if(lane.underground)continue;
   const points=lane.coordinates.map(p=>geographicPoint(g,p,terrainHeight(data.elevation,p[0],p[1])));
-  points.slice(0,-1).forEach((p,i)=>{const q=points[i+1],n=Math.max(1,Math.ceil(p.distanceTo(q)/3));for(let j=0;j<=n;j++){const point=p.clone().lerp(q,j/n);add({...point,halfWidth:lane.widthMetres/2})}});
+  points.slice(0,-1).forEach((p,i)=>{const q=points[i+1],n=Math.max(1,Math.ceil(p.distanceTo(q)/3));for(let j=0;j<=n;j++){const point=p.clone().lerp(q,j/n);if(lane.terrainMeshSpacingMetres!==undefined)point.y=g.groundAt(point.x,point.z);add({...point,halfWidth:lane.widthMetres/2})}});
  }
  return (x:number,z:number,raw:number)=>{
   let height=raw,nearest=Infinity;

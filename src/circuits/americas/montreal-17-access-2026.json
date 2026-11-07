@@ -1,0 +1,44 @@
+{
+  "circuitId": "montreal",
+  "season": 2026,
+  "productId": "grandstand-17",
+  "checkedAt": "2026-10-27",
+  "physicalKind": "grandstand",
+  "classification": "reserved-seat-with-confirmed-hospitality-bundle",
+  "hospitalityBundleConfirmed": true,
+  "standalonePublicSaleVerified": false,
+  "hospitalityExclusiveVerified": false,
+  "sourceTenantId": "1ab40d54-ad14-4202-9ed4-10bb76caf8e5",
+  "publicMapSha256": "0112b4db9bf3fc43ce2e531b49a4c0576f9aec72421aded085a340003a349f42",
+  "evidence": [
+    {
+      "url": "https://boutique.grandtouringautos.com/pages/f1-contest-details",
+      "role": "contest-sponsor-primary-rules-not-race-promoter",
+      "observedSeason": 2026,
+      "sha256": "4e2e7b7b139cf445a5c8ff12e531f1b86930baa8434da64d33d43a8fac7dfc8a",
+      "facts": [
+        "2026-05-22 through 2026-05-24 event",
+        "Privilege17 package includes a reserved Grandstand17 seat and a lounge table"
+      ],
+      "limits": "Confirms an offered package, not standalone sale or exclusivity of every seat."
+    },
+    {
+      "url": "https://2026.gpcanada.ca/en/acheter/priv17/",
+      "role": "former-annual-promoter-sales-link",
+      "observedSeason": 2027,
+      "resolvedUrl": "https://gpcanada.ca:443/",
+      "sha256": "cc5f9c10830c32d1970d48e02367cfa066179669d707be884334ca298d2c4481",
+      "limits": "Redirects to the 2027 homepage; not accepted as 2026 sales terms. Search snippets are discovery only."
+    },
+    {
+      "url": "https://gpcanada.ca/en/tickets/privilege-17/",
+      "role": "current-promoter-context",
+      "observedSeason": 2027,
+      "limits": "Current reserved-seat and lounge description cannot establish the full 2026 access policy."
+    }
+  ],
+  "nextAction": "Model the confirmed Grandstand17 seating footprint with the verified 2026 hospitality-bundle admission note; do not label it ordinary standalone admission or hospitality-exclusive. Continue seeking annual standalone terms separately.",
+  "modelRequired": true,
+  "candidateAccepted": false,
+  "limits": "PAM Grandstands category is a physical/map category, not an admission entitlement. Neither bundle evidence nor missing standalone terms removes this product from the missing-model inventory. No scene or admission availability granted by this review."
+}

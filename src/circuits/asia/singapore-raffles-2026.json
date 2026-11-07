@@ -1,0 +1,135 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "zoneId": "raffles",
+  "checkedAt": "2026-11-05",
+  "zone": {
+    "zoneId": "raffles",
+    "name": "Raffles",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        103.86227377607736,
+        1.2911048755539343
+      ],
+      [
+        103.86173558837811,
+        1.2911366207330157
+      ],
+      [
+        103.86172765006748,
+        1.291002107975311
+      ],
+      [
+        103.86226583776673,
+        1.2909703627962295
+      ],
+      [
+        103.86227377607736,
+        1.2911048755539343
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "raffles-1",
+        "boundary": [
+          [
+            103.86227377607736,
+            1.2911048755539343
+          ],
+          [
+            103.86173558837811,
+            1.2911366207330157
+          ],
+          [
+            103.86172765006748,
+            1.291002107975311
+          ],
+          [
+            103.86226583776673,
+            1.2909703627962295
+          ],
+          [
+            103.86227377607736,
+            1.2911048755539343
+          ]
+        ],
+        "baseHeight": 2,
+        "rise": 5.4,
+        "eyeHeight": 1.2,
+        "rows": 12,
+        "frontReference": [
+          103.862373,
+          1.291261
+        ],
+        "rowStrip": {
+          "front": [
+            [
+              103.86227377607736,
+              1.2911048755539343
+            ],
+            [
+              103.86173558837811,
+              1.2911366207330157
+            ]
+          ],
+          "back": [
+            [
+              103.86226583776673,
+              1.2909703627962295
+            ],
+            [
+              103.86172765006748,
+              1.291002107975311
+            ]
+          ],
+          "source": {
+            "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/raffles-grandstand/",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Promoter2026 description locates Raffles along Raffles Boulevard on drivers left withT5 apex views. Estimated60m length,15m depth,18m front offset,12 rows,2m first platform and5.4m rise; practical approximation allowed by user, not survey."
+          }
+        },
+        "rowBearing": "local-normal"
+      }
+    ],
+    "surface": {
+      "baseHeight": 2,
+      "rise": 5.4,
+      "depth": 15,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/raffles-grandstand/",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Promoter2026 description locates Raffles along Raffles Boulevard on drivers left withT5 apex views. Estimated60m length,15m depth,18m front offset,12 rows,2m first platform and5.4m rise; practical approximation allowed by user, not survey."
+    },
+    "openingSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/raffles-grandstand/",
+      "checkedAt": "2026-11-05",
+      "method": "published",
+      "confidence": "medium",
+      "notes": "Explicit named2026 ordinary reserved-seat product; catalogue snapshot retained in annual-access review. No live availability claim."
+    },
+    "surfaceSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/raffles-grandstand/",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Promoter2026 description locates Raffles along Raffles Boulevard on drivers left withT5 apex views. Estimated60m length,15m depth,18m front offset,12 rows,2m first platform and5.4m rise; practical approximation allowed by user, not survey."
+    },
+    "description": "五号弯出弯直道左侧近似看台；范围、排数与高度为估计。",
+    "geometryReview": {
+      "checkedAt": "2026-11-05",
+      "issues": [],
+      "method": "Approximate drivers-left bank afterT5 on Raffles Boulevard; rendered road/neighbor clearance screened."
+    }
+  },
+  "sourceMap": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+  "accuracy": "Practical author approximation permitted by user; no seat survey claim."
+}

@@ -1,0 +1,128 @@
+{
+  "circuitId": "miami",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "sourceUrl": "https://f1miamigp.com/news/press-release/neighborhood-inspired-campus-2026/",
+  "annualEvidence": {
+    "publishedAt": "2026-04-07",
+    "observation": "Primary dated release returned in search cache full text:2026 redesigned campus, CampusPass on saleApril7, new Marina viewing deck, general access excludes premium hospitality. Direct primary request403 and webopen429; present product page is2027, not annual identity evidence.",
+    "officialMediaKitReview": "src/circuits/season-review/miami-marina-platform-2026.json"
+  },
+  "geographicEvidence": {
+    "organizerPage": "https://web.archive.org/web/20260303013006id_/https://f1miamigp.com/experience/campus-map/",
+    "mapUrl": "https://map.concept3d.com/?id=1951",
+    "publicCategoryId": 60317,
+    "private": false,
+    "restricted": false,
+    "versionLimit": "Live public map does not certify exact2026 installation continuity. Some polygons are stale relative to markers; do not import them indiscriminately.",
+    "sourceSnapshotSha256": "e08ff3ef82dd7de73867c23ef009692e8acc7c085b05eff7b86799a0b3617c6d",
+    "locations": [
+      {
+        "locationId": 723281,
+        "zoneId": "campus-t8",
+        "name": "Viewing Platform",
+        "coordinate": [
+          -80.24427,
+          25.955938
+        ],
+        "sourceUrl": "https://map.concept3d.com/?id=1951#!m/723281"
+      },
+      {
+        "locationId": 723287,
+        "zoneId": "campus-east",
+        "name": "Viewing Platform - East Campus",
+        "coordinate": [
+          -80.234756,
+          25.955696
+        ],
+        "sourceUrl": "https://map.concept3d.com/?id=1951#!m/723287"
+      },
+      {
+        "locationId": 723288,
+        "zoneId": "campus-beach",
+        "name": "Viewing Platform - The Beach",
+        "coordinate": [
+          -80.233269,
+          25.956198
+        ],
+        "sourceUrl": "https://map.concept3d.com/?id=1951#!m/723288"
+      },
+      {
+        "locationId": 1032304,
+        "zoneId": "campus-marina",
+        "name": "Viewing Deck Presented by Ticketmaster",
+        "coordinate": [
+          -80.241966,
+          25.956703
+        ],
+        "sourceUrl": "https://map.concept3d.com/?id=1951#!m/1032304"
+      },
+      {
+        "locationId": 609835,
+        "zoneId": "campus-helix-nw",
+        "name": "Helix Track View",
+        "coordinate": [
+          -80.240105,
+          25.9576
+        ],
+        "sourceUrl": "https://map.concept3d.com/?id=1951#!m/609835"
+      },
+      {
+        "locationId": 609839,
+        "zoneId": "campus-helix-se",
+        "name": "Helix Track View",
+        "coordinate": [
+          -80.238136,
+          25.956821
+        ],
+        "sourceUrl": "https://map.concept3d.com/?id=1951#!m/609839"
+      }
+    ]
+  },
+  "confirmedMissingProducts": [],
+  "modeledProducts": [
+    {
+      "productId": "campus-pass",
+      "modelZoneIds": [
+        "campus-t8",
+        "campus-east",
+        "campus-beach",
+        "campus-marina",
+        "campus-helix-nw",
+        "campus-helix-se"
+      ],
+      "representation": "approximate-major-public-platform-locations"
+    },
+    {
+      "productId": "paseo-park",
+      "mapLabel": "Heineken Bar at Paseo Park + Viewing Platform",
+      "modelZoneIds": [
+        "campus-paseo"
+      ],
+      "modelReview": "src/circuits/americas/miami-paseo-2026.json",
+      "accuracy": "approximate",
+      "reason": "Public map actual view photograph disambiguates south/outside road side. Pin not used as deck floor. GeneralCampusPass, not HeinekenHighline premium."
+    }
+  ],
+  "additionalCoverageQuestions": [],
+  "runtimeApplied": true,
+  "geographicBoundaryVerified": false,
+  "inventoryComplete": false,
+  "runtimeCoverage": "Six approximate public standing views; platform floor heights1.2m and helix28m explicitly estimated. No premium suites, yachts or event-stage seats relabelled as track views.",
+  "nextAction": "Resolve Paseo platform geographic association and exact2026 newMarina deck continuity; retain explicitly approximate six public views.",
+  "limitations": "Platform local envelopes and heights estimated, not surveyed. Stadium building envelope and detailed ramps are not fully reconstructed; helix views are platform approximations. Source2023 platform photographs are structural references only, not2026 identity proof.",
+  "geographicRefinements": [
+    {
+      "zoneId": "campus-marina",
+      "completionRequired": false,
+      "sourceReview": "src/circuits/season-review/miami-marina-platform-2026.json",
+      "reason": "2026 official media kit confirms public Marina platform; current organizer map provides approximate Marina GA location. Exact individual installation continuity and dimensions remain refinements, not a missing family."
+    },
+    {
+      "zoneId": "campus-paseo",
+      "completionRequired": false,
+      "sourceReview": "src/circuits/americas/miami-paseo-2026.json",
+      "reason": "Public-map historical photos identify trackside south-side deck.16x4m subset and1.2m floor are estimates; full roof/railings/bar, exact2026 installation continuity not reconstructed."
+    }
+  ]
+}

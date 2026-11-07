@@ -3,7 +3,7 @@ import { PerspectiveCamera, type Object3D, type Scene, Vector4, type WebGLRender
 import { exposureQuaternion, linearByte, sampleCount, sampleDistance, sampleTimes, srgbToLinear, withVehicleSample, type ExposureMoment } from "./Exposure";
 import { focalToFov } from "../systems/PhoneCamera";
 
-export interface PhotoResult { url:string; metadata?:{shutter:number;pan:string;samples:number;distance:number;simulationSeconds:number;velocity:number;focal:number;elapsedMs:number;zoneId?:string} }
+export interface PhotoResult { url:string; metadata?:{shutter:number;pan:string;samples:number;distance:number;simulationSeconds:number;velocity:number;focal:number;elapsedMs:number;zoneId?:string;observerPosture?:string;eyeHeightMetres?:number;observerPosition?:number[]} }
 export async function temporalCapture(gl:WebGLRenderer,scene:Scene,liveCamera:PerspectiveCamera,vehicle:Object3D,moment:ExposureMoment,focal:number,alive:()=>boolean):Promise<PhotoResult>{
   const started=performance.now(),width=1600,height=1200;
   const photo=document.createElement('canvas');photo.width=width;photo.height=height;
@@ -26,7 +26,7 @@ export async function temporalCapture(gl:WebGLRenderer,scene:Scene,liveCamera:Pe
         ctx.drawImage(gl.domElement,0,0,width,height);
         const pixels=ctx.getImageData(0,0,width,height).data;
         for(let i=0;i<pixels.length;i+=4){sum[i]+=srgbToLinear[pixels[i]];sum[i+1]+=srgbToLinear[pixels[i+1]];sum[i+2]+=srgbToLinear[pixels[i+2]]}
-      });
+      },moment.placeVehicle);
     } finally {
       gl.setRenderTarget(target);gl.setViewport(viewport);gl.setScissor(scissor);gl.setScissorTest(scissorTest);
       // The browser only presents this restored live frame, never a sample.

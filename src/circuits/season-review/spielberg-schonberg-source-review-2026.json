@@ -1,0 +1,49 @@
+{
+  "circuitId": "spielberg",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "productId": "schonberg",
+  "annualIdentitySource": "src/circuits/season-review/spielberg-public-map-identity-review.json",
+  "nativeCrosscheck": {
+    "source": "research/season-review/spielberg-2026/north-ground.xml",
+    "result": "No named Schonberg grandstand or bleachers polygon in the inspected northern raw data. Nearby houses, ordinary buildings, stream and cemetery are not substitutes."
+  },
+  "viewerReference": {
+    "originalUrl": "https://sites.3ddigitalvenue.com/3dmap/clients/f1/red-bull-ring/",
+    "resolvedUrl": "https://seatseven.io/f1/red-bull-ring/",
+    "sectionIds": [
+      "S_SCHONBERGA",
+      "S_SCHONBERGB"
+    ],
+    "viewUrl": "https://seatseven.io/f1/red-bull-ring/#section-S_SCHONBERGA",
+    "observedTitle": "Sector SCHONBERGA view – Red Bull Ring | Austrian Grand Prix",
+    "sectionNamesVerified": true,
+    "viewOpened": true,
+    "viewReviewedVisually": true,
+    "sourcePageSha256": "bd41d0b63d45c940e1ea22825594490ba0aae38d521b83bf5832c43d55060cb3",
+    "visualLimit": "Page transition/fade affected screenshot clarity. White seating, front railing and a path/track relationship can be recognized; no measured outline or full structural profile established.",
+    "excludedData": "Public node aabb/anchor are local schematic coordinates, not geographic seat boundaries. No proprietary model meshes or panoramas shipped."
+  },
+  "acceptedBoundary": null,
+  "runtimeApplied": false,
+  "nextAction": "Obtain an event-construction-period aerial or a georeferenced installation plan. Public viewer identity/local boxes and this unoccupied basemap tile do not establish2026 installed boundaries. Do not repeat this tile, reinterpret houses as stands, or invent a footprint from blank grass.",
+  "orthophotoReview": {
+    "url": "https://maps.wien.gv.at/basemap/bmaporthofoto30cm/normal/google3857/17/45980/70909.jpeg",
+    "sha256": "ee4fb55fd44bbe5d7c28d293ed07f2d4328b3b9f5df1eff5834ef6ac0aa37a23",
+    "tile": [
+      70909,
+      45980
+    ],
+    "zoom": 17,
+    "checkedAt": "2026-10-29",
+    "exactAcquisitionDateVerified": false,
+    "capabilitiesUrl": "https://maps.wien.gv.at/basemap/1.0.0/WMTSCapabilities.xml",
+    "capabilitiesSha256": "d80637903857c80722002adcfd165f1e9db6a5ee5566343fb5ec77871357b243",
+    "layer": "bmaporthofoto30cm",
+    "reviewedVisually": true,
+    "visibleYearLikeLabel": "2022",
+    "observation": "Road and unoccupied grass visible at the inspected northern-straight tile. No installed Schonberg seats recognizable in this tile. The year-like label does not independently verify an exact local capture date.",
+    "acceptedFor2026SeatingBoundary": false,
+    "firstAdvertisedHostAttempt": "maps1.wien.gv.at TLS EOF; the separately advertised maps.wien.gv.at resource succeeded without changing TLS settings."
+  }
+}

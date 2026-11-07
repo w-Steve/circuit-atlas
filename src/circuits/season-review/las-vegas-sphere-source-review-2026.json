@@ -1,0 +1,54 @@
+{
+  "circuitId": "las-vegas",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "runtimeApplied": true,
+  "geometryAccepted": false,
+  "zones": [
+    "t-mobile-turn-8",
+    "t-mobile-turn-9"
+  ],
+  "currentPlanarIntersectionsM2": {
+    "turn8Road": 0,
+    "turn9Road": 0,
+    "zonePair": 0
+  },
+  "currentGeometrySource": "https://www.f1lasvegasgp.com/app/uploads/2026/03/TMOGRANDSTAND-1.png",
+  "geometryProblem": "Both zones are hand-estimated schematic rectangles from local two-point registration with unverified bearings. Do not translate or crop merely to remove intersections.",
+  "annualAdmission": {
+    "url": "https://www.f1lasvegasgp.com/tickets/grandstands/",
+    "observed": "Live official page lists T-Mobile Grandstands in the Sphere zone at Turn5 and Turns7–9; this verifies product/location family, not separately named ticket products for every model face."
+  },
+  "transportationReview": {
+    "url": "https://transportation.f1lasvegasgp.com/",
+    "publicOrgId": "sUSceCjnGmbXdnxA",
+    "pdfItemId": "8347bde7e7e6456b9109b1bc65419eee",
+    "pdfUrl": "https://www.arcgis.com/sharing/rest/content/items/8347bde7e7e6456b9109b1bc65419eee/data",
+    "sha256": "a4f85203828a3bda3d1b1a6a8c22a518fe19a45e67a99cfdc3d380e83d139365",
+    "pages": 24,
+    "observed": "Page1 rendered and inspected; all pages text scanned. Annual preliminary installation traffic-impact sheets show roadway, lighting, track barriers and bridge works; no identified seating footprint layer obtained. Do not use map publication year as imagery date or as completed-seating evidence.",
+    "publicSearch": "Org-scoped search for grandstand/sphere/circuit/2026 returned calendar apps and three transport PDF products, not a seating boundary service; does not prove no such data exists elsewhere."
+  },
+  "imageryReview": {
+    "identifyUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/identify?f=json&geometry=-115.1605%2C36.1214&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=-115.162%2C36.1205%2C-115.159%2C36.1225&imageDisplay=1200%2C900%2C96&returnGeometry=false",
+    "captureDate": "2025-09-12",
+    "provider": "Vantor",
+    "resolutionMetres": 0.34,
+    "reportedAccuracyMetres": 8.47,
+    "imageSha256": "a3b3d31813387ea54153389637308bdbefc53fb62f4c461fde26fc895d6cb397",
+    "bboxWgs84": [
+      -115.162,
+      36.1205,
+      -115.159,
+      36.1225
+    ],
+    "observed": "Rendered actual georeferenced image inspected: the Sphere-side chicane and parking are visible, no installed temporary seat blocks. Do not digitize parked cars or parking stripes as seats; off-event absence does not imply ticket cancellation. Raw imagery not distributed."
+  },
+  "nextAction": "Two independent outer-chicane approximate banks now available under user-relaxed accuracy; source is not surveyed. Check full spectator inventory and facility structures separately.",
+  "legacyPlanarIntersectionsM2": {
+    "turn8Road": 183.959,
+    "turn9Road": 43.718,
+    "zonePair": 808.081
+  },
+  "activeApproximation": "src/circuits/americas/las-vegas-sphere-2026.json"
+}

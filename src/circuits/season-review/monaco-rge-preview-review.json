@@ -1,0 +1,38 @@
+{
+  "circuitId": "monaco",
+  "checkedAt": "2026-10-26",
+  "status": "accepted-local-terrain-migration",
+  "candidateGridSha256": "676619e392f439d9a3ab9ac8957c43ade44d011ffac4c1eec287e776f836f248",
+  "sourceCandidateSha256": "f8e617e224eb1c62a79227428b44f716e68d7ea014973d378192e84d77b7fa28",
+  "officialPackageSha256": "16746ba718d1f5f4c0f8f6cb62951079bf66da50a8806bf79726cf95f652ef3a",
+  "zones": [
+    "z-quai-kennedy",
+    "l-piscine",
+    "n-piscine",
+    "o-piscine",
+    "p-piscine"
+  ],
+  "viewports": [
+    "desktop",
+    "tablet",
+    "mobile"
+  ],
+  "geometryTests": 26,
+  "photographyTests": 15,
+  "migrationTests": 2,
+  "evidencePath": "artifacts/goal-review/monaco-rge-preview",
+  "limits": [
+    "Edge with simulated viewport/device settings; no real Safari/device verification.",
+    "Default photographs and sampled eye/ground checks do not certify all seats or obstacle coverage.",
+    "Rocher remains unregistered; no unsupported public boundary or bridge/platform survey claim."
+  ],
+  "finalGeometryFingerprint": "39a7fdee4728c6f89c6f8acf2cb032032062e054405f3fd8648ef14c2cf74de5",
+  "finalBrowserTests": 24,
+  "finalEvidencePath": "artifacts/goal-review/monaco-rge-release",
+  "roadClearanceMetres": 1.35776915431186,
+  "geographicBoundaryRetained": true,
+  "finalUnitTests": 317,
+  "offlineMigrationTests": 4,
+  "productionBuildPassed": true,
+  "replayByteStable": true
+}

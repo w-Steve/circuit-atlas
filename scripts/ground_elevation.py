@@ -72,6 +72,8 @@ def apply(ids=None):
         if ids and cid not in ids:continue
         if len(grid['heights'])!=grid['size']**2 or not all(math.isfinite(v) for v in grid['heights']):raise ValueError(cid)
         path=ROOT/f'src/circuits/generated/{cid}.json';data=json.loads(path.read_text('utf-8'))
+        from uk_ea_elevation import retain_applied_elevation
+        if retain_applied_elevation(cid,data['elevation']):continue
         elevation=data['elevation']
         elevation.update({'status':'partial','samples':[],'grid':grid,
             'source':{'url':SOURCE,'checkedAt':record['checkedAt'],'method':'extracted','confidence':'medium',
@@ -90,6 +92,9 @@ def apply(ids=None):
             'maxMetres':max(grid['heights']),'responseSha256':[hashlib.sha256(raw).hexdigest()],
             'runtimeApplied':True,'source':SOURCE,'checkedAt':record['checkedAt']})
     coverage_path.write_text(json.dumps(coverage,ensure_ascii=False,indent=2)+'\n','utf-8')
+    # Reviewed regional products supersede the coarse global baseline offline.
+    from regional_elevation import apply as apply_regional
+    apply_regional(ids)
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--fetch',nargs='+');parser.add_argument('--apply',action='store_true');parser.add_argument('--mirror',action='store_true',help='Use the official OpenTopography public COG distribution')

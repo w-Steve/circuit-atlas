@@ -1,0 +1,95 @@
+{
+  "circuitId": "mexico",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "runtimeApplied": true,
+  "zoneId": "grada-5a",
+  "currentModeledFaceCount": 1,
+  "sourceAssociatedFaceCount": 2,
+  "nativeSnapshot": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-99.0844,19.4030,-99.0833,19.4045",
+    "sha256": "e95bc996028120d6564cd7fc0431f8a75ce5ac7648441956e45a1e65c908881e"
+  },
+  "faces": [
+    {
+      "nativeId": "1191525031",
+      "coordinates": [
+        [
+          -99.0837866,
+          19.4042721
+        ],
+        [
+          -99.0839206,
+          19.404283
+        ],
+        [
+          -99.0838823,
+          19.4038506
+        ],
+        [
+          -99.0837456,
+          19.4038321
+        ],
+        [
+          -99.0837866,
+          19.4042721
+        ]
+      ]
+    },
+    {
+      "nativeId": "1162963329",
+      "coordinates": [
+        [
+          -99.0834283,
+          19.403096
+        ],
+        [
+          -99.0837387,
+          19.4038039
+        ],
+        [
+          -99.0839161,
+          19.4037748
+        ],
+        [
+          -99.0836044,
+          19.403072
+        ],
+        [
+          -99.0834283,
+          19.403096
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.mexicogp.mx/boleto/grada-5a/",
+      "sha256": "a1a9ad6a4a3ae91708cccb14c56271a15dd5d8e42551bad4d0051e192757701d",
+      "fact": "Promoter names5A at the Moises Solana T1–T3 complex and includes independent named locator and photograph. Annual2026 sale separately confirms the product."
+    },
+    {
+      "url": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2016/01/09081056/5a.png",
+      "sha256": "f575cddbba6e1136c189a5ff73223964805842acd74f71a9b3944c31d420e5d3",
+      "observed": "Actual named locator inspected: the inside Blue-Zone bank has a short upper face and angled longer lower face; not the outside6B block."
+    },
+    {
+      "url": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2021/07/06105546/grada-5a-2025-01.jpg",
+      "sha256": "dfb3692b332e67aa0aec8d3fcfb44e99e91ac5fad0fac29619ef4f168b8ac7bc",
+      "observed": "Actual official photograph inspected: uncovered seating bends around the inside chicane, front walking strip, track fence and different front directions visible. Filename/old upload path is not proof of a2026 capture."
+    }
+  ],
+  "planarReview": {
+    "northAreaM2": 680.5780614555975,
+    "southAreaM2": 1547.6134703032772,
+    "mutualIntersectionM2": 0.0,
+    "southRoadIntersectionM2": 0.0,
+    "southNeighborIntersections": []
+  },
+  "limits": [
+    "Named official spatial association supports physical approximation, not surveyed2026 ticket or row boundaries.",
+    "The current one-face5A representation is incomplete. South native1162963329 was previously mislabeled6B; it must not be counted as a second6B ticket product.",
+    "Two original selectable physical faces are now applied with separate directions and an unfilled aisle; physical/browser regressions passed. Row/base/rise values remain estimates."
+  ],
+  "replacementReview": "src/circuits/americas/mexico-5a-2026.json"
+}

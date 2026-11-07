@@ -1,0 +1,88 @@
+{
+  "circuitId": "lusail",
+  "season": 2026,
+  "inventoryCheckedAt": "2026-10-25",
+  "scope": "Named ordinary public ticket families, separate from hospitality and fan-zone circulation. The 2026 map names six families; several incidental viewing platforms and accessible positions are not delineated.",
+  "inventoryComplete": false,
+  "allNamedPublicFamiliesIdentified": true,
+  "sources": [
+    {
+      "url": "https://www.lcsc.qa/formula-1r-qatar-airways-qatar-grand-prix-2026",
+      "liveCheckedAt": "2026-10-25",
+      "sha256": "ce4756e9f4da495397e51e2271d9eb309ed23be492afa7ac5d3ced1f4d78a7d9",
+      "evidence": "Organizer event page dated27–29Nov2026 links the current Event Map and separates grandstands, ordinary GA Hill and hospitality."
+    },
+    {
+      "url": "https://www.lcsc.qa/event-map",
+      "liveCheckedAt": "2026-10-25",
+      "sha256": "710b7eb4318e37cd2af827d9ddaea34f2d41e1f0baaa7e4cbecd4b3a76452cd6",
+      "evidence": "Organizer map marks Main, North, T2, T3, T16 and Lusail Hill, with separate blue Fan Zone and gold hospitality labels."
+    },
+    {
+      "url": "https://www.lcsc.qa/f1-tickets-2026?type=general&validity=3_day",
+      "liveCheckedAt": "2026-10-25",
+      "sha256": "1c10387f268eaaaf2f6815d0135cb178a037ef6e3e121e4762aa480ca8b4117a",
+      "evidence": "Live2026 public listing currently shows Main, North, T16 and Hill. Absence of T2/T3 is not proof of closure; map and organizer2026 news still name them."
+    },
+    {
+      "url": "https://www.lcsc.qa/sites/default/files/2026-08/eventmap.png",
+      "liveCheckedAt": "2026-10-25",
+      "sha256": "dd7252b59d0c733e65c0a5a7346ecbb1117b4093c269a0d8cec694532f2eb577",
+      "evidence": "Actual2050×1368 organizer image inspected; no source artwork is shipped."
+    },
+    {
+      "url": "https://www.lcsc.qa/faq/formula-1r-qatar-airways-qatar-grand-prix-2026",
+      "liveCheckedAt": "2026-10-25",
+      "evidence": "Official2026 FAQ calls GA an elevated Turn1 area; ordinary Main reserved, other public grandstands free seating within each ticket zone."
+    },
+    {
+      "url": "https://beta.lcsc.qa/news/formula-1r-qatar-airways-qatar-grand-prix-2026-formula-1r-paddock-club-sells-out-ticket-demand",
+      "evidence": "Live organizer release dated30Aug2026 explicitly lists public Main, North, T2, T3, T16 and ordinary Lusail Hill, separately from hospitality. It confirms named2026 ticket families, not present-day stock or surveyed geometry.",
+      "liveCheckedAt": "2026-10-25",
+      "publishedAt": "2026-08-30"
+    }
+  ],
+  "areas": [
+    {
+      "zoneId": "main",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "north",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "t2",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "t3",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "t16",
+      "kind": "grandstand"
+    },
+    {
+      "zoneId": "lusail-hill",
+      "kind": "general-admission"
+    }
+  ],
+  "missingModeledFamilies": [
+    "t2"
+  ],
+  "exclusions": [
+    "Lusail Hill Lounge hospitality",
+    "Premiere Hospitality suites",
+    "F1 Experiences Champions Club",
+    "Paddock Club",
+    "Fan Zone circulation is not treated as an unobstructed viewing platform"
+  ],
+  "unresolved": [
+    "T2 geographic footprint missing from the current model.",
+    "The current T3 OSM polygon is near T4 rather than the T3 bank in the organizer diagram; require independent georeferencing before relocation.",
+    "T16 source polygon has no validated seating face towards its road and remains unavailable.",
+    "The Hill uses regional terrain; constructed terrace geometry and one low modeled terrain sightline remain unresolved.",
+    "Unnamed viewing platforms are mentioned in the GA ticket description but have no validated boundaries."
+  ]
+}

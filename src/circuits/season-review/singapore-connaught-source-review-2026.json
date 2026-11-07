@@ -1,0 +1,583 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "zoneId": "connaught",
+  "checkedAt": "2026-10-30",
+  "beforeZone": {
+    "zoneId": "connaught",
+    "name": "Connaught",
+    "kind": "grandstand",
+    "availability": "preparing",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        103.85484671208005,
+        1.2909818507641453
+      ],
+      [
+        103.85495832377987,
+        1.2909369159096982
+      ],
+      [
+        103.8546160274463,
+        1.2900920119375594
+      ],
+      [
+        103.85456648065335,
+        1.2901118714362083
+      ],
+      [
+        103.85469354270542,
+        1.2904255564470453
+      ],
+      [
+        103.8546315369356,
+        1.2904505188607245
+      ],
+      [
+        103.85484671208005,
+        1.2909818507641453
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "connaught-1",
+        "boundary": [
+          [
+            103.85484671208005,
+            1.2909818507641453
+          ],
+          [
+            103.85495832377987,
+            1.2909369159096982
+          ],
+          [
+            103.8546160274463,
+            1.2900920119375594
+          ],
+          [
+            103.85456648065335,
+            1.2901118714362083
+          ],
+          [
+            103.85469354270542,
+            1.2904255564470453
+          ],
+          [
+            103.8546315369356,
+            1.2904505188607245
+          ],
+          [
+            103.85484671208005,
+            1.2909818507641453
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 6.83,
+        "eyeHeight": 1.2,
+        "rows": 14,
+        "frontReference": [
+          103.85263649318185,
+          1.2912750475034231
+        ]
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 6.83,
+      "depth": 15.19,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "人工读取2027图中已知看台位置；以T13/T14作局部两点配准，保持线路分支；横向示意比例1.213m/px，纵向1.213m/px。临时看台边界存在数十米误差，不用于具体座位保证。 位置图为相邻年份资料，2026名称另行核对；不据此声称当年精确边界或全部票区开放。"
+    },
+    "openingSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+    },
+    "surfaceSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-23",
+      "issues": [
+        "connaught-1: road intersection 762.4437 m2"
+      ],
+      "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+    }
+  },
+  "withheldZone": {
+    "zoneId": "connaught",
+    "name": "Connaught",
+    "kind": "grandstand",
+    "availability": "preparing",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        103.85484671208005,
+        1.2909818507641453
+      ],
+      [
+        103.85495832377987,
+        1.2909369159096982
+      ],
+      [
+        103.8546160274463,
+        1.2900920119375594
+      ],
+      [
+        103.85456648065335,
+        1.2901118714362083
+      ],
+      [
+        103.85469354270542,
+        1.2904255564470453
+      ],
+      [
+        103.8546315369356,
+        1.2904505188607245
+      ],
+      [
+        103.85484671208005,
+        1.2909818507641453
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "connaught-1",
+        "boundary": [
+          [
+            103.85484671208005,
+            1.2909818507641453
+          ],
+          [
+            103.85495832377987,
+            1.2909369159096982
+          ],
+          [
+            103.8546160274463,
+            1.2900920119375594
+          ],
+          [
+            103.85456648065335,
+            1.2901118714362083
+          ],
+          [
+            103.85469354270542,
+            1.2904255564470453
+          ],
+          [
+            103.8546315369356,
+            1.2904505188607245
+          ],
+          [
+            103.85484671208005,
+            1.2909818507641453
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 6.83,
+        "eyeHeight": 1.2,
+        "rows": 14,
+        "frontReference": [
+          103.85263649318185,
+          1.2912750475034231
+        ]
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 6.83,
+      "depth": 15.19,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://storage.singaporegp.sg/web/2026/circuit-park-map/circuit-park-map.pdf?1015=",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "人工读取2027图中已知看台位置；以T13/T14作局部两点配准，保持线路分支；横向示意比例1.213m/px，纵向1.213m/px。临时看台边界存在数十米误差，不用于具体座位保证。 位置图为相邻年份资料，2026名称另行核对；不据此声称当年精确边界或全部票区开放。"
+    },
+    "openingSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+    },
+    "surfaceSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-30",
+      "issues": [
+        "connaught-1: road intersection 762.4437 m2",
+        "source-georeferencing-places-Connaught-on-east-side-instead-of-Esplanade-Park-west-side"
+      ],
+      "method": "Old nonmetric two-corner schematic registration puts the footprint on the Esplanade theatre/east side, whereas the promoter2026 early map places Connaught on the Esplanade Park/west side before T14.2022-08-06 independent georeferenced imagery confirms street/park/theatre correspondence, not a complete installed grandstand. Keep unavailable until positive full seating boundary; no arbitrary mirroring, translation or road clipping."
+    }
+  },
+  "geographicCorrectionApplied": true,
+  "promoterMap": {
+    "publisher": "Singapore GP Pte Ltd",
+    "documentSeason": 2026,
+    "documentDate": "2025-10-13",
+    "eventDates": "2026-10-09/2026-10-11",
+    "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+    "mirror": true,
+    "sha256": "2440589e25f4745098d642a975712202e18a7d5ea40a7c44aaa22ceded277406",
+    "reviewedVisually": true,
+    "notToScale": true,
+    "finding": "Complete red Connaught diagram symbol is on Esplanade Park side of Esplanade Drive, opposite Esplanade theatres, before Turn14. Early2026 plan, not proof of final installed dimensions."
+  },
+  "independentImagery": {
+    "captureDate": "2022-08-06",
+    "source": "Maxar WV02/Vivid Advanced via Esri Wayback58924",
+    "sourceResolutionMetres": 0.5,
+    "sourceAccuracyMetres": 5,
+    "zoom": 19,
+    "georeference": {
+      "z": 19,
+      "tileX": 413392,
+      "tileY": 260263,
+      "source": {
+        "itemID": "925025d364fa4e49958f4f1dd2362beb",
+        "itemTitle": "World Imagery (Wayback 2025-09-25)",
+        "itemURL": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/58924/{level}/{row}/{col}",
+        "metadataLayerUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r09/MapServer",
+        "metadataLayerItemID": "7882c43daf3d4955bed8b5de18bccd82",
+        "layerIdentifier": "WB_2025_R09"
+      },
+      "captureDate": "2022-08-06",
+      "accuracyMetres": 5,
+      "resolutionMetres": 0.5
+    },
+    "sha256": "2dc44683922125d6617efd3823dccc8df6be1ba87f4611246de635cbc7bacbb4",
+    "reviewedVisually": true,
+    "finding": "Retained old polygon lies on east-side theatre verge and registered road; source park is across the road to west. No full installed bank delineated in this image."
+  },
+  "rejectedPaths": [
+    {
+      "source": "Current storage.singaporegp.sg/web/2026/circuit-park-map PDF/JPG",
+      "reason": "Actually titled2027, dated2026-10-15. URL year is not event season."
+    },
+    {
+      "source": "Current individual Connaught product URL",
+      "reason": "HTTP404 in both /en and unprefixed paths; search index preserves2026 description but is not a full geographic footprint."
+    },
+    {
+      "source": "Fresh OSM bbox103.8537,1.2896,103.8554,1.2914",
+      "reason": "No named seating/bleacher polygon; permanent theatre/building data does not identify transient seats."
+    },
+    {
+      "source": "Current World Imagery and five older release metadata checks",
+      "reason": "Current scene2025-05-07; four older releases duplicate2022-08-06 and another2018-06-04. No evidence these are fully assembled2026 seats; only one distinct2022 image downloaded."
+    }
+  ],
+  "nextAction": "Obtain installed-period full Connaught seating image or geolocated installation/site drawing on west park side. Correlate front edge and all bank ends with independent street/park landmarks before restoring shared seated simulation.",
+  "preserved": "Original geographic ring, height and1.2m seated eye remain unchanged; availability stays preparing. Only source-error reason strengthened.",
+  "rejectedRegistrationExperiment": {
+    "sourceDrawingIndex": 180,
+    "sourceRing": [
+      [
+        350.947998046875,
+        290.30804443359375
+      ],
+      [
+        356.45599365234375,
+        296.77203369140625
+      ],
+      [
+        307.38800048828125,
+        338.4140319824219
+      ],
+      [
+        304.94000244140625,
+        335.550048828125
+      ],
+      [
+        323.156005859375,
+        320.08905029296875
+      ],
+      [
+        320.09600830078125,
+        316.498046875
+      ]
+    ],
+    "controls": [
+      [
+        139.73180389404297,
+        530.5980224609375
+      ],
+      [
+        380.14280700683594,
+        293.05401611328125
+      ]
+    ],
+    "worldControls": [
+      [
+        103.85375953870629,
+        1.2865684210541464
+      ],
+      [
+        103.85523463481904,
+        1.291128292144763
+      ]
+    ],
+    "candidateRing": [
+      [
+        103.85484913928595,
+        1.290972201342621
+      ],
+      [
+        103.85496070723313,
+        1.2909268104598395
+      ],
+      [
+        103.85461495483874,
+        1.2900822422763982
+      ],
+      [
+        103.85456542722584,
+        1.2901023039684292
+      ],
+      [
+        103.85469377245684,
+        1.2904158644182
+      ],
+      [
+        103.85463179092842,
+        1.2904410802949164
+      ],
+      [
+        103.85484913928595,
+        1.290972201342621
+      ]
+    ],
+    "scaleMetresPerPoint": 1.5785114285370012,
+    "scope": "Unaccepted diagnostic, no translation or clipping",
+    "result": "Re-extracting the entire real2026 PDF drawing180 and using exact T13/T14 label centers still reproduces almost the same wrong-side footprint. Independent aerial overlay reviewed. No replacement applied; not fixed by switching from2027 to2026 diagram alone."
+  },
+  "interactiveMapReview": {
+    "checkedAt": "2026-10-30",
+    "officialAppListing": "https://play.google.com/store/apps/details?id=com.singaporegp",
+    "webEntry": "https://singaporegp.sg/en/mobileapp/fnb/",
+    "result": "Public app listing confirms interactive wayfinding. Normal public mobileapp page and its linked page/app scripts expose no geographic map layer; no app/login/private API access attempted. This is an unobtained source, not proof no such data exists."
+  },
+  "approximateZone": {
+    "zoneId": "connaught",
+    "name": "Connaught",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        103.85470041554996,
+        1.2909352483212377
+      ],
+      [
+        103.85463028919872,
+        1.2907218942102003
+      ],
+      [
+        103.85456193085362,
+        1.2904962773077027
+      ],
+      [
+        103.85451130426071,
+        1.2902774773199857
+      ],
+      [
+        103.85446411320443,
+        1.2900530541274327
+      ],
+      [
+        103.854331738093,
+        1.2900783995800984
+      ],
+      [
+        103.85437999093436,
+        1.290307845564832
+      ],
+      [
+        103.85443061752727,
+        1.2905266455525493
+      ],
+      [
+        103.85450224422804,
+        1.2907639593400504
+      ],
+      [
+        103.85457237057928,
+        1.2909773134510878
+      ],
+      [
+        103.85470041554996,
+        1.2909352483212377
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "connaught-1",
+        "boundary": [
+          [
+            103.85470041554996,
+            1.2909352483212377
+          ],
+          [
+            103.85463028919872,
+            1.2907218942102003
+          ],
+          [
+            103.85456193085362,
+            1.2904962773077027
+          ],
+          [
+            103.85451130426071,
+            1.2902774773199857
+          ],
+          [
+            103.85446411320443,
+            1.2900530541274327
+          ],
+          [
+            103.854331738093,
+            1.2900783995800984
+          ],
+          [
+            103.85437999093436,
+            1.290307845564832
+          ],
+          [
+            103.85443061752727,
+            1.2905266455525493
+          ],
+          [
+            103.85450224422804,
+            1.2907639593400504
+          ],
+          [
+            103.85457237057928,
+            1.2909773134510878
+          ],
+          [
+            103.85470041554996,
+            1.2909352483212377
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 6.83,
+        "eyeHeight": 1.2,
+        "rows": 14,
+        "frontReference": [
+          103.85477949999999,
+          1.290773
+        ],
+        "rowStrip": {
+          "front": [
+            [
+              103.85470041554996,
+              1.2909352483212377
+            ],
+            [
+              103.85463028919872,
+              1.2907218942102003
+            ],
+            [
+              103.85456193085362,
+              1.2904962773077027
+            ],
+            [
+              103.85451130426071,
+              1.2902774773199857
+            ],
+            [
+              103.85446411320443,
+              1.2900530541274327
+            ]
+          ],
+          "back": [
+            [
+              103.85457237057928,
+              1.2909773134510878
+            ],
+            [
+              103.85450224422804,
+              1.2907639593400504
+            ],
+            [
+              103.85443061752727,
+              1.2905266455525493
+            ],
+            [
+              103.85437999093436,
+              1.290307845564832
+            ],
+            [
+              103.854331738093,
+              1.2900783995800984
+            ]
+          ],
+          "source": {
+            "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "User approved practical approximate reconstruction.2026 promoter diagram locates bank on Esplanade Park side beforeT14; estimated100m length,15m depth and14m front-edge offset from retained14m-wide track centerline. Not a surveyed seating boundary. Height/row count estimates retained."
+          }
+        },
+        "rowBearing": "local-normal"
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 6.83,
+      "depth": 15,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "User approved practical approximate reconstruction.2026 promoter diagram locates bank on Esplanade Park side beforeT14; estimated100m length,15m depth and14m front-edge offset from retained14m-wide track centerline. Not a surveyed seating boundary. Height/row count estimates retained."
+    },
+    "openingSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+    },
+    "surfaceSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/saturday/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-11-05",
+      "issues": [],
+      "method": "Practical approximate reconstruction on promoter-designated west park side; geographic road/neighbor checks and shared seated selection required. Not survey accuracy."
+    },
+    "description": "公园侧近似看台；范围、排数与高度为估计。"
+  },
+  "acceptancePolicy": "2026-11-05 user explicitly accepts reasonable approximation; retain provenance and reject physical road/neighbor overlaps.",
+  "remainingAccuracyLimit": "Installed bank end points, row count and vertical profile are approximate, not held pending survey."
+}

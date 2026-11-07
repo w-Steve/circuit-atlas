@@ -1,0 +1,227 @@
+{
+  "circuitId": "hungaroring",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "fan",
+      "name": "Fan",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          19.255286344001306,
+          47.579922414770664
+        ],
+        [
+          19.254576463801424,
+          47.57938655010175
+        ],
+        [
+          19.254735341552326,
+          47.579290778424195
+        ],
+        [
+          19.255445221752208,
+          47.5798266430931
+        ],
+        [
+          19.255286344001306,
+          47.579922414770664
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "fan-1",
+          "boundary": [
+            [
+              19.255286344001306,
+              47.579922414770664
+            ],
+            [
+              19.254576463801424,
+              47.57938655010175
+            ],
+            [
+              19.254735341552326,
+              47.579290778424195
+            ],
+            [
+              19.255445221752208,
+              47.5798266430931
+            ],
+            [
+              19.255286344001306,
+              47.579922414770664
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.2,
+          "rows": 18,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            19.254633508118424,
+            47.579834054331634
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                19.255286344001306,
+                47.579922414770664
+              ],
+              [
+                19.254576463801424,
+                47.57938655010175
+              ]
+            ],
+            "back": [
+              [
+                19.255445221752208,
+                47.5798266430931
+              ],
+              [
+                19.254735341552326,
+                47.579290778424195
+              ]
+            ],
+            "source": {
+              "url": "https://gpdestinations.com/wp-content/uploads/2025/11/en_8505_F1_HUN_VIP_Fan-Lounge_E.pdf",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Annual supplier map rotated, interpreted against actual corner geography: fan,author approximate 80x16m,front offset30m. Not surveyed ticket boundaries. Fan2 remains unlocated, not invented adjacent to Fan."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 7.2,
+        "depth": 16,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2025/11/en_8505_F1_HUN_VIP_Fan-Lounge_E.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual supplier map rotated, interpreted against actual corner geography: fan,author approximate 80x16m,front offset30m. Not surveyed ticket boundaries. Fan2 remains unlocated, not invented adjacent to Fan."
+      },
+      "surfaceSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2025/11/en_8505_F1_HUN_VIP_Fan-Lounge_E.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual supplier map rotated, interpreted against actual corner geography: fan,author approximate 80x16m,front offset30m. Not surveyed ticket boundaries. Fan2 remains unlocated, not invented adjacent to Fan."
+      },
+      "openingSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2025/11/en_8505_F1_HUN_VIP_Fan-Lounge_E.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Annual supplier map rotated, interpreted against actual corner geography: fan,author approximate 80x16m,front offset30m. Not surveyed ticket boundaries. Fan2 remains unlocated, not invented adjacent to Fan."
+      },
+      "description": "位置、范围与高度为近似；草地仅覆盖已建部分。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Author approximation from positive2026 map region; not full annual GA coverage."
+      }
+    },
+    {
+      "zoneId": "general-admission-east",
+      "name": "东侧草地 · 部分范围",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          19.25621017673358,
+          47.58254529376575
+        ],
+        [
+          19.25669384106884,
+          47.58175672139704
+        ],
+        [
+          19.256939959577767,
+          47.58182540516704
+        ],
+        [
+          19.256456295242504,
+          47.58261397753574
+        ],
+        [
+          19.25621017673358,
+          47.58254529376575
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "general-admission-east-1",
+          "boundary": [
+            [
+              19.25621017673358,
+              47.58254529376575
+            ],
+            [
+              19.25669384106884,
+              47.58175672139704
+            ],
+            [
+              19.256939959577767,
+              47.58182540516704
+            ],
+            [
+              19.256456295242504,
+              47.58261397753574
+            ],
+            [
+              19.25621017673358,
+              47.58254529376575
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 2
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 20,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2025/11/en_8505_F1_HUN_VIP_Fan-Lounge_E.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual supplier map rotated, interpreted against actual corner geography: general-admission-east,author approximate 95x20m,front offset30m. Not surveyed ticket boundaries. Fan2 remains unlocated, not invented adjacent to Fan."
+      },
+      "surfaceSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2025/11/en_8505_F1_HUN_VIP_Fan-Lounge_E.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual supplier map rotated, interpreted against actual corner geography: general-admission-east,author approximate 95x20m,front offset30m. Not surveyed ticket boundaries. Fan2 remains unlocated, not invented adjacent to Fan."
+      },
+      "openingSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2025/11/en_8505_F1_HUN_VIP_Fan-Lounge_E.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Annual supplier map rotated, interpreted against actual corner geography: general-admission-east,author approximate 95x20m,front offset30m. Not surveyed ticket boundaries. Fan2 remains unlocated, not invented adjacent to Fan."
+      },
+      "description": "位置、范围与高度为近似；草地仅覆盖已建部分。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Author approximation from positive2026 map region; not full annual GA coverage."
+      }
+    }
+  ]
+}

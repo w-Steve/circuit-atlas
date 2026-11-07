@@ -5,9 +5,9 @@ import { createCircuitGeometry } from "../src/circuits/geometry";
 for(const id of ['spa','suzuka','austin','interlagos','spielberg','hungaroring','silverstone','zandvoort']) it(`${id}: sourced grid has complete finite heights and preserves true vertical metres`,async()=>{
   const data=await loadCircuit(id),grid=data.elevation.grid!;
   expect(data.elevation.status).toBe('partial');
-  expect(grid.heights.length).toBe(4225);
+  expect(grid.heights.length).toBe(id==='suzuka'?103041:id==='silverstone'?66049:4225);
   expect(grid.heights.every(Number.isFinite)).toBe(true);
-  expect(data.elevation.source?.url).toBe('https://zenodo.org/records/18887460');
+  expect(data.elevation.source?.url).toBe(id==='suzuka'?'https://maps.gsi.go.jp/development/ichiran.html':id==='silverstone'?'https://environment.data.gov.uk/dataset/13787b9a-26a4-4775-8523-806d13af58fc':'https://zenodo.org/records/18887460');
   const geometry=createCircuitGeometry(data.trackGeometry.coordinates,data.lengthMetres,data.elevation);
   expect(geometry.length).toBeCloseTo(data.lengthMetres,3);
 });

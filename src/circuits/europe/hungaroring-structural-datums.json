@@ -1,7 +1,7 @@
 {
   "circuitId": "hungaroring",
-  "checkedAt": "2026-10-24",
-  "scope": "Partial source review of twelve ordinary seating banks. Main ordinary bank separated approximately from OSM roof using designer photographs; numerical risers, treads and inset are estimates. Does not certify complete 2026 inventory, Platinum, accessible platforms, Fan areas or GA.",
+  "checkedAt": "2026-10-25",
+  "scope": "Partial source review of twelve ordinary seating banks. Main ordinary bank separated approximately from OSM roof using designer photographs; numerical risers, treads and inset are estimates. Does not certify complete 2026 inventory, Platinum, accessible platforms, Fan areas or GA. Grid 2/3 footprint identities corrected from the 2025 organizer wayfinding map and separately corroborated visitor locations; this does not certify the whole 2026 inventory.",
   "areas": [
     {
       "zoneId": "hungaroring",
@@ -311,8 +311,49 @@
           "checkedAt": "2026-10-24",
           "method": "estimated",
           "confidence": "low",
-          "notes": "29 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (29-1)*0.40m. Replaces footprint-depth inference. Original ground datum, front floor, footprint and eye height remain unchanged. Not optimized for raycast clearance."
+          "notes": "29 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (29-1)*0.40m. Replaces footprint-depth inference. Front floor and eye height unchanged. Grid2/3 source footprint association corrected separately on 2026-10-25; terrain datum now samples that correct location. Not optimized for raycast clearance."
         }
+      },
+      "seatFootprint": {
+        "boundary": [
+          [
+            19.2499264,
+            47.5777821
+          ],
+          [
+            19.249755,
+            47.5776292
+          ],
+          [
+            19.2502325,
+            47.5773857
+          ],
+          [
+            19.2504039,
+            47.5775386
+          ],
+          [
+            19.2499264,
+            47.5777821
+          ]
+        ],
+        "depthMetres": 21.34,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/230979498",
+          "checkedAt": "2026-10-25",
+          "method": "extracted",
+          "confidence": "medium",
+          "notes": "OSM footprint coordinates retained verbatim. Public Grid 2/3 names reassigned by organizer 2025 wayfinding order Grid1 → Grid3 → Grid2 and independent current visitor location guides, rather than trusting stale OSM name tags. Previous-season map does not certify complete 2026 inventory; no survey precision claim."
+        }
+      },
+      "frontReference": [
+        19.250378571035796,
+        47.5778508265419
+      ],
+      "geometryReview": {
+        "checkedAt": "2026-10-25",
+        "issues": [],
+        "method": "Corrected stale OSM Grid 2/3 identity association from organizer 2025 map ordering and independent location guides; unmodified source footprints and road references exchanged. No obstacle removed and no raycast-based positioning. Vertical rows stay attached to ticket product; ground datum follows corrected footprint."
       }
     },
     {
@@ -337,8 +378,49 @@
           "checkedAt": "2026-10-24",
           "method": "estimated",
           "confidence": "low",
-          "notes": "25 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (25-1)*0.40m. Replaces footprint-depth inference. Original ground datum, front floor, footprint and eye height remain unchanged. Not optimized for raycast clearance."
+          "notes": "25 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (25-1)*0.40m. Replaces footprint-depth inference. Front floor and eye height unchanged. Grid2/3 source footprint association corrected separately on 2026-10-25; terrain datum now samples that correct location. Not optimized for raycast clearance."
         }
+      },
+      "seatFootprint": {
+        "boundary": [
+          [
+            19.2493136,
+            47.5781004
+          ],
+          [
+            19.2491433,
+            47.5779488
+          ],
+          [
+            19.2496259,
+            47.5777027
+          ],
+          [
+            19.2497995,
+            47.5778498
+          ],
+          [
+            19.2493136,
+            47.5781004
+          ]
+        ],
+        "depthMetres": 21.17,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/1085151669",
+          "checkedAt": "2026-10-25",
+          "method": "extracted",
+          "confidence": "medium",
+          "notes": "OSM footprint coordinates retained verbatim. Public Grid 2/3 names reassigned by organizer 2025 wayfinding order Grid1 → Grid3 → Grid2 and independent current visitor location guides, rather than trusting stale OSM name tags. Previous-season map does not certify complete 2026 inventory; no survey precision claim."
+        }
+      },
+      "frontReference": [
+        19.24977376391034,
+        47.5781709692954
+      ],
+      "geometryReview": {
+        "checkedAt": "2026-10-25",
+        "issues": [],
+        "method": "Corrected stale OSM Grid 2/3 identity association from organizer 2025 map ordering and independent location guides; unmodified source footprints and road references exchanged. No obstacle removed and no raycast-based positioning. Vertical rows stay attached to ticket product; ground datum follows corrected footprint."
       }
     },
     {
@@ -394,5 +476,236 @@
       }
     }
   ],
-  "unappliedEvidence": []
+  "unappliedEvidence": [],
+  "gridIdentityReview": {
+    "checkedAt": "2026-10-25",
+    "map": {
+      "url": "https://gpdestinations.com/wp-content/uploads/2025/09/2025_F1-Hungary-Wayfinding-Map_Positive_VISUAL.pdf",
+      "sha256": "1dfef64845db492e74d967619e3a0cdc5140b626108fe1476067a3da97e8b14d",
+      "season": 2025,
+      "publisher": "Hungarian Grand Prix wayfinding graphic, retained by GPDestinations",
+      "observedOrder": "Grid 1, Grid 3, Grid 2 from start/finish towards Turn 14",
+      "limitation": "Previous-season diagram; spatial naming evidence only, not surveyed coordinates or complete 2026 availability. Grand Prix 1/2 labels elsewhere on this sheet conflict with visitor photos and are not used."
+    },
+    "corroboration": [
+      "https://oversteer48.com/hungaroring-grid-3-grandstand/",
+      "https://oversteer48.com/hungaroring-grid-2-grandstand/"
+    ],
+    "originalBindings": {
+      "grid-2": "way/1085151669",
+      "grid-3": "way/230979498"
+    },
+    "correctedBindings": {
+      "grid-2": "way/230979498",
+      "grid-3": "way/1085151669"
+    },
+    "retainedOriginalZones": [
+      {
+        "zoneId": "grid-2",
+        "name": "Grid 2",
+        "kind": "grandstand",
+        "availability": "available",
+        "boundary": [
+          [
+            19.2493136,
+            47.5781004
+          ],
+          [
+            19.2491433,
+            47.5779488
+          ],
+          [
+            19.2496259,
+            47.5777027
+          ],
+          [
+            19.2497995,
+            47.5778498
+          ],
+          [
+            19.2493136,
+            47.5781004
+          ]
+        ],
+        "surface": {
+          "baseHeight": 2.2,
+          "rise": 11.2,
+          "depth": 21.17,
+          "eyeHeight": 1.2
+        },
+        "surfaces": [
+          {
+            "surfaceId": "grid-2-1",
+            "boundary": [
+              [
+                19.2493136,
+                47.5781004
+              ],
+              [
+                19.2491433,
+                47.5779488
+              ],
+              [
+                19.2496259,
+                47.5777027
+              ],
+              [
+                19.2497995,
+                47.5778498
+              ],
+              [
+                19.2493136,
+                47.5781004
+              ]
+            ],
+            "baseHeight": 2.2,
+            "rise": 11.2,
+            "eyeHeight": 1.2,
+            "rows": 29,
+            "frontReference": [
+              19.24977376391034,
+              47.5781709692954
+            ],
+            "rowRiserMetres": 0.4,
+            "rowCountSource": {
+              "url": "https://oversteer48.com/hungaroring-grid-2-grandstand/",
+              "checkedAt": "2026-10-24",
+              "method": "published",
+              "confidence": "medium",
+              "notes": "Independent visitor guide seating chart visibly labels last numbered row 29. Secondary source; not an organizer survey or certification of 2026 public ticket inventory."
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.openstreetmap.org/way/1085151669",
+          "checkedAt": "2026-10-23",
+          "method": "extracted",
+          "confidence": "medium",
+          "notes": "OSM建筑平面轮廓；way/1085151669。位置未经现场测绘；看台售票分区可能与建筑边界不同。"
+        },
+        "openingSource": {
+          "url": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "medium",
+          "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+        },
+        "surfaceSource": {
+          "url": "https://oversteer48.com/hungaroring-grid-2-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "29 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (29-1)*0.40m. Replaces footprint-depth inference. Original ground datum, front floor, footprint and eye height remain unchanged. Not optimized for raycast clearance."
+        },
+        "geometryReview": {
+          "checkedAt": "2026-10-23",
+          "issues": [],
+          "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+        }
+      },
+      {
+        "zoneId": "grid-3",
+        "name": "Grid 3",
+        "kind": "grandstand",
+        "availability": "available",
+        "boundary": [
+          [
+            19.2499264,
+            47.5777821
+          ],
+          [
+            19.249755,
+            47.5776292
+          ],
+          [
+            19.2502325,
+            47.5773857
+          ],
+          [
+            19.2504039,
+            47.5775386
+          ],
+          [
+            19.2499264,
+            47.5777821
+          ]
+        ],
+        "surface": {
+          "baseHeight": 2.2,
+          "rise": 9.6,
+          "depth": 21.34,
+          "eyeHeight": 1.2
+        },
+        "surfaces": [
+          {
+            "surfaceId": "grid-3-1",
+            "boundary": [
+              [
+                19.2499264,
+                47.5777821
+              ],
+              [
+                19.249755,
+                47.5776292
+              ],
+              [
+                19.2502325,
+                47.5773857
+              ],
+              [
+                19.2504039,
+                47.5775386
+              ],
+              [
+                19.2499264,
+                47.5777821
+              ]
+            ],
+            "baseHeight": 2.2,
+            "rise": 9.6,
+            "eyeHeight": 1.2,
+            "rows": 25,
+            "frontReference": [
+              19.250378571035796,
+              47.5778508265419
+            ],
+            "rowRiserMetres": 0.4,
+            "rowCountSource": {
+              "url": "https://oversteer48.com/hungaroring-grid-3-grandstand/",
+              "checkedAt": "2026-10-24",
+              "method": "published",
+              "confidence": "medium",
+              "notes": "Independent visitor guide seating chart visibly labels last numbered row 25. Secondary source; not an organizer survey or certification of 2026 public ticket inventory."
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.openstreetmap.org/way/230979498",
+          "checkedAt": "2026-10-23",
+          "method": "extracted",
+          "confidence": "medium",
+          "notes": "OSM建筑平面轮廓；way/230979498。位置未经现场测绘；看台售票分区可能与建筑边界不同。"
+        },
+        "openingSource": {
+          "url": "https://homewww.gpticketshop.com/en/f1/hungarian-f1-grand-prix/pdfpricelist.html",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "medium",
+          "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+        },
+        "surfaceSource": {
+          "url": "https://oversteer48.com/hungaroring-grid-3-grandstand/",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "25 ordinary rows from the independent seating chart. Riser assumed 0.40m (range 0.30–0.50m), total rise (25-1)*0.40m. Replaces footprint-depth inference. Original ground datum, front floor, footprint and eye height remain unchanged. Not optimized for raycast clearance."
+        },
+        "geometryReview": {
+          "checkedAt": "2026-10-23",
+          "issues": [],
+          "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+        }
+      }
+    ]
+  }
 }

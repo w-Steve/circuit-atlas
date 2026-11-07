@@ -1,0 +1,180 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "luffield-accessible",
+      "name": "Luffield Complex · Accessible Viewing",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          -1.021636330704373,
+          52.07559721397722
+        ],
+        [
+          -1.0217050263546998,
+          52.075655370122156
+        ],
+        [
+          -1.0217759972662803,
+          52.07562370603351
+        ],
+        [
+          -1.0217073016159535,
+          52.07556554988857
+        ],
+        [
+          -1.021636330704373,
+          52.07559721397722
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.15,
+        "rise": 0,
+        "depth": 6,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "luffield-accessible-1",
+          "boundary": [
+            [
+              -1.021636330704373,
+              52.07559721397722
+            ],
+            [
+              -1.0217050263546998,
+              52.075655370122156
+            ],
+            [
+              -1.0217759972662803,
+              52.07562370603351
+            ],
+            [
+              -1.0217073016159535,
+              52.07556554988857
+            ],
+            [
+              -1.021636330704373,
+              52.07559721397722
+            ]
+          ],
+          "baseHeight": 0.15,
+          "rise": 0,
+          "rows": 1,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -1.0212186977351005,
+            52.07582235994319
+          ],
+          "groundReference": {
+            "coordinate": [
+              -1.0217073016159535,
+              52.07556554988857
+            ],
+            "source": {
+              "url": "https://environment.data.gov.uk/dataset/13787b9a-26a4-4775-8523-806d13af58fc",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Highest of41x41 native terrain samples within approximate platform; flat floor0.15m above this datum. Terrain height is source-derived; installed deck/ramps not surveyed. Seated eye remains1.2m."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 Silverstone spectator map orange43 explicitly labelsLuffieldComplexAccessibleViewing; black36 repeats same name elsewhere. Interpret43 as an approximate restricted accessible viewing platform, not sixth ordinary GAPlus. Local affine marker association fromLuffield/LuffieldCorner/WoodcoteB labels to existing banks; not surveyed coordinates. Author8x6m flat seated platform0.15m above highest sampled source-ground datum, eye1.2m; exact36/43 identity relationship, ramp/rail and ticket allocation unverified."
+      },
+      "openingSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Organizer-authored explicit2026 map labels accessible viewing. Restricted eligible-ticket platform; no ordinaryGA/GAPlus inclusion inferred."
+      },
+      "surfaceSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 Silverstone spectator map orange43 explicitly labelsLuffieldComplexAccessibleViewing; black36 repeats same name elsewhere. Interpret43 as an approximate restricted accessible viewing platform, not sixth ordinary GAPlus. Local affine marker association fromLuffield/LuffieldCorner/WoodcoteB labels to existing banks; not surveyed coordinates. Author8x6m flat seated platform0.15m above highest sampled source-ground datum, eye1.2m; exact36/43 identity relationship, ramp/rail and ticket allocation unverified."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Positive2026 accessible marker, local approximate registration; roads, all spectator surfaces, buildings and pit lanes checked."
+      },
+      "supportToTerrain": true,
+      "description": "Luffield无障碍观赛区的近似平层视点，未还原通行坡道与护栏。",
+      "admissionNote": "限适用的无障碍观赛票及核准陪同资格；不表示普通 GA／GA+ 可进入。平台轮廓、高度及36/43对应为近似。"
+    }
+  ],
+  "beforeZones": [],
+  "anchorReview": {
+    "anchorIds": [
+      "luffield",
+      "luffield-corner",
+      "woodcote-b"
+    ],
+    "anchorPixels": [
+      [
+        307.94,
+        495.3
+      ],
+      [
+        377.09,
+        488.66
+      ],
+      [
+        227.94,
+        435.81
+      ]
+    ],
+    "anchorCoordinates": [
+      [
+        -1.0221061919407348,
+        52.07678866210664
+      ],
+      [
+        -1.0220226347074821,
+        52.07546388620638
+      ],
+      [
+        -1.019927109924921,
+        52.078759267720066
+      ]
+    ],
+    "markerPixel": [
+      372.6719,
+      479.5856
+    ],
+    "coordinate": [
+      -1.0217061639853267,
+      52.075610460005365
+    ]
+  },
+  "geographicBoundaryVerified": false,
+  "accessibleRouteModeled": false,
+  "markerRelationshipVerified": false,
+  "terrainDatumReview": {
+    "best": {
+      "coordinate": [
+        -1.0217073016159535,
+        52.07556554988857
+      ],
+      "height": 25.81994030816236
+    },
+    "source": {
+      "url": "https://environment.data.gov.uk/dataset/13787b9a-26a4-4775-8523-806d13af58fc",
+      "checkedAt": "2026-11-07",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Highest of41x41 native terrain samples within approximate platform; flat floor0.15m above this datum. Terrain height is source-derived; installed deck/ramps not surveyed. Seated eye remains1.2m."
+    }
+  }
+}

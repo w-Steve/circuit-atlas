@@ -1,0 +1,65 @@
+{
+  "circuitId": "mexico",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "runtimeReplacementApplied": true,
+  "oldAssociationRejected": true,
+  "zoneId": "grada-6b",
+  "oldNativeId": "1162963329",
+  "reason": "Current model associates an unnamed infield/west-side bleacher to6B. The promoter independent6B locator puts it in the outside east Blue Zone below Grada6. Existing nativeId is not accepted as6B merely because it is a bleacher.",
+  "sourceUrl": "https://www.mexicogp.mx/boleto/generales-grada-6b/",
+  "pageSha256": "9de4713151adbeafc02154f5132e3806a2fac476a287e95b52e7aa7f99f033d3",
+  "locatorUrl": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2016/01/09081105/06b.png",
+  "locatorSha256": "052c0888608d21f1b4209415487103739d73d2bbf3404adfc6676bcfc24b70bb",
+  "yearScope": "Annual2026 sale confirms6B product separately; locator is an older reused asset, not a surveyed2026 seating plan. Current page links2026 ticket campaign; old upload year is not annual precision.",
+  "candidate": {
+    "nativeId": "999257666",
+    "coordinates": [
+      [
+        -99.0829567,
+        19.4031014
+      ],
+      [
+        -99.082855,
+        19.4030625
+      ],
+      [
+        -99.0830393,
+        19.4026566
+      ],
+      [
+        -99.0831387,
+        19.4027046
+      ],
+      [
+        -99.0829567,
+        19.4031014
+      ]
+    ],
+    "identityAccepted": true,
+    "reason": "Accepted unchanged complete native999257666 after fresh source check, independent promoter outside-Blue-Zone locator and georeferenced seating-image relationship; full planar checks and sampled physical/browser regressions passed. See replacementReview for explicit vertical estimates."
+  },
+  "grada6a": {
+    "pageUrl": "https://www.mexicogp.mx/boleto/generales-grada-6a/",
+    "pageSha256": "6e685f252825497ec36f993170e0e30cb262339ac521a8e23aa2dbec7fd110f2",
+    "locatorUrl": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2016/01/09081102/6a.png",
+    "locatorSha256": "739dfc2fe224190d69ff68c1c551968d7081da331bdd0ee996f261821fcbdac9",
+    "photoUrl": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2016/01/12105832/0032-g-6a.jpg",
+    "photoSha256": "467e21cf279e2d0c77e5d7a0b94455c098881552f5c56f85d1f44a2ca336e9e8",
+    "observed": "Official page says uncovered back-straight viewing. Locator places6A farther south than6B. Actual image inspected; no full6A outline accepted. Do not equate tiny native1162963331 or adjacent6B candidate with full6A."
+  },
+  "geographicImage": {
+    "captureDate": "2025-02-24",
+    "reportedAccuracyMetres": 8.47,
+    "resolutionMetres": 0.5,
+    "tileMosaicSha256": "545d9b53694144fbf455990ddbfc772ceab959604475eb1e55681a467f81e23d",
+    "tiles": [
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/116664/58921",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/116665/58921",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/116664/58922",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/116665/58922"
+    ],
+    "observed": "Actual geographic mosaic inspected: outside bleacher banks and bridge landmarks are visible. Need distinguish adjacent6 and6B, not count all dark roofs as6A. Raw imagery is research only."
+  },
+  "replacementReview": "src/circuits/americas/mexico-6b-2026.json"
+}

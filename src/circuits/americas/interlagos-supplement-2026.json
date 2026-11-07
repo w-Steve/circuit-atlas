@@ -1,0 +1,447 @@
+{
+  "circuitId": "interlagos",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "porto-bank",
+      "name": "Porto Bank",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -46.69401424783287,
+          -23.7005011177352
+        ],
+        [
+          -46.69378223153655,
+          -23.699814588840546
+        ],
+        [
+          -46.69361353502251,
+          -23.699862389758664
+        ],
+        [
+          -46.693845551318816,
+          -23.70054891865332
+        ],
+        [
+          -46.69401424783287,
+          -23.7005011177352
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "porto-bank-1",
+          "boundary": [
+            [
+              -46.69401424783287,
+              -23.7005011177352
+            ],
+            [
+              -46.69378223153655,
+              -23.699814588840546
+            ],
+            [
+              -46.69361353502251,
+              -23.699862389758664
+            ],
+            [
+              -46.693845551318816,
+              -23.70054891865332
+            ],
+            [
+              -46.69401424783287,
+              -23.7005011177352
+            ]
+          ],
+          "baseHeight": 2.5,
+          "rise": 9,
+          "rows": 22,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -46.69419814459857,
+            -23.70007287387789
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -46.69401424783287,
+                -23.7005011177352
+              ],
+              [
+                -46.69378223153655,
+                -23.699814588840546
+              ]
+            ],
+            "back": [
+              [
+                -46.693845551318816,
+                -23.70054891865332
+              ],
+              [
+                -46.69361353502251,
+                -23.699862389758664
+              ]
+            ],
+            "source": {
+              "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Promoter2026 named schematic locator; author approximate 80x18m,offset32m,22rows/base2.5m/rise9m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.5,
+        "rise": 9,
+        "depth": 18,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 named schematic locator; author approximate 80x18m,offset32m,22rows/base2.5m/rise9m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "surfaceSource": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 named schematic locator; author approximate 80x18m,offset32m,22rows/base2.5m/rise9m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "openingSource": {
+        "url": "https://atendimento.f1saopaulo.com.br/hc/pt-br/articles/11037154973851-Quais-s%C3%A3o-os-ingressos-dispon%C3%ADveis-e-quanto-custam",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter2026 named schematic locator; author approximate 80x18m,offset32m,22rows/base2.5m/rise9m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "description": "近似观赛区域；范围和高度估计，设施尚待完善。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Independent2026 map-relative authored approximation, not full activity-zone admission."
+      }
+    },
+    {
+      "zoneId": "heineken-gramado-north",
+      "name": "Village Gramado · 部分草地",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          -46.69867172768942,
+          -23.69852704571423
+        ],
+        [
+          -46.69800379129056,
+          -23.69890439216089
+        ],
+        [
+          -46.69787501043569,
+          -23.698713264248944
+        ],
+        [
+          -46.69854294683456,
+          -23.698335917802282
+        ],
+        [
+          -46.69867172768942,
+          -23.69852704571423
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "heineken-gramado-north-1",
+          "boundary": [
+            [
+              -46.69867172768942,
+              -23.69852704571423
+            ],
+            [
+              -46.69800379129056,
+              -23.69890439216089
+            ],
+            [
+              -46.69787501043569,
+              -23.698713264248944
+            ],
+            [
+              -46.69854294683456,
+              -23.698335917802282
+            ],
+            [
+              -46.69867172768942,
+              -23.69852704571423
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 2
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 25,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 named schematic locator; author approximate 80x25m,offset30m,0rows/base0.04m/rise0m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "surfaceSource": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 named schematic locator; author approximate 80x25m,offset30m,0rows/base0.04m/rise0m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "openingSource": {
+        "url": "https://atendimento.f1saopaulo.com.br/hc/pt-br/articles/11037154973851-Quais-s%C3%A3o-os-ingressos-dispon%C3%ADveis-e-quanto-custam",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter2026 named schematic locator; author approximate 80x25m,offset30m,0rows/base0.04m/rise0m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "description": "近似观赛区域；范围和高度估计，设施尚待完善。18岁及以上；Estrela可入Gramado，草地票不反向授予平台准入。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Independent2026 map-relative authored approximation, not full activity-zone admission."
+      }
+    },
+    {
+      "zoneId": "heineken-estrela",
+      "name": "Village Estrela",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -46.698748014046906,
+          -23.697903408797362
+        ],
+        [
+          -46.698539284307785,
+          -23.69802132934414
+        ],
+        [
+          -46.69843626007691,
+          -23.69786842690708
+        ],
+        [
+          -46.698644989816025,
+          -23.6977505063603
+        ],
+        [
+          -46.698748014046906,
+          -23.697903408797362
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "heineken-estrela-1",
+          "boundary": [
+            [
+              -46.698748014046906,
+              -23.697903408797362
+            ],
+            [
+              -46.698539284307785,
+              -23.69802132934414
+            ],
+            [
+              -46.69843626007691,
+              -23.69786842690708
+            ],
+            [
+              -46.698644989816025,
+              -23.6977505063603
+            ],
+            [
+              -46.698748014046906,
+              -23.697903408797362
+            ]
+          ],
+          "baseHeight": 3,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65
+        }
+      ],
+      "surface": {
+        "baseHeight": 3,
+        "rise": 0,
+        "depth": 20,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 named schematic locator; author approximate 25x20m,offset85m,0rows/base3m/rise0m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "surfaceSource": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 named schematic locator; author approximate 25x20m,offset85m,0rows/base3m/rise0m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "openingSource": {
+        "url": "https://atendimento.f1saopaulo.com.br/hc/pt-br/articles/11037154973851-Quais-s%C3%A3o-os-ingressos-dispon%C3%ADveis-e-quanto-custam",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter2026 named schematic locator; author approximate 25x20m,offset85m,0rows/base3m/rise0m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "description": "近似观赛区域；范围和高度估计，设施尚待完善。18岁及以上；Estrela可入Gramado，草地票不反向授予平台准入。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Independent2026 map-relative authored approximation, not full activity-zone admission."
+      }
+    },
+    {
+      "zoneId": "orange-tree-club",
+      "name": "Orange Tree Club",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -46.70003283186293,
+          -23.702107483720468
+        ],
+        [
+          -46.69989668743701,
+          -23.70263185624433
+        ],
+        [
+          -46.699743972583654,
+          -23.702598613568277
+        ],
+        [
+          -46.69988011700958,
+          -23.702074241044414
+        ],
+        [
+          -46.70003283186293,
+          -23.702107483720468
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "orange-tree-club-1",
+          "boundary": [
+            [
+              -46.70003283186293,
+              -23.702107483720468
+            ],
+            [
+              -46.69989668743701,
+              -23.70263185624433
+            ],
+            [
+              -46.699743972583654,
+              -23.702598613568277
+            ],
+            [
+              -46.69988011700958,
+              -23.702074241044414
+            ],
+            [
+              -46.70003283186293,
+              -23.702107483720468
+            ]
+          ],
+          "baseHeight": 2.5,
+          "rise": 6.8,
+          "rows": 16,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -46.7002511,
+            -23.702432
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -46.70003283186293,
+                -23.702107483720468
+              ],
+              [
+                -46.69989668743701,
+                -23.70263185624433
+              ]
+            ],
+            "back": [
+              [
+                -46.69988011700958,
+                -23.702074241044414
+              ],
+              [
+                -46.699743972583654,
+                -23.702598613568277
+              ]
+            ],
+            "source": {
+              "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Promoter2026 named schematic locator; author approximate 60x16m,offset30m,16rows/base2.5m/rise6.8m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.5,
+        "rise": 6.8,
+        "depth": 16,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 named schematic locator; author approximate 60x16m,offset30m,16rows/base2.5m/rise6.8m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "surfaceSource": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter2026 named schematic locator; author approximate 60x16m,offset30m,16rows/base2.5m/rise6.8m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "openingSource": {
+        "url": "https://atendimento.f1saopaulo.com.br/hc/pt-br/articles/11037154973851-Quais-s%C3%A3o-os-ingressos-dispon%C3%ADveis-e-quanto-custam",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter2026 named schematic locator; author approximate 60x16m,offset30m,16rows/base2.5m/rise6.8m. Not survey or full hospitality footprint. Gramado only partial northern viewing band; Estrela approximate deck, not traced star architecture."
+      },
+      "description": "近似观赛区域；范围和高度估计，设施尚待完善。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Independent2026 map-relative authored approximation, not full activity-zone admission."
+      }
+    }
+  ]
+}

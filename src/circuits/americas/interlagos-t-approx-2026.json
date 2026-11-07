@@ -1,0 +1,283 @@
+{
+  "circuitId": "interlagos",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "setor-t",
+      "name": "Arquibancada T",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -46.698998926108565,
+          -23.697245331505755
+        ],
+        [
+          -46.699042088908584,
+          -23.69726667311243
+        ],
+        [
+          -46.6990852517086,
+          -23.697288014719106
+        ],
+        [
+          -46.69912841450863,
+          -23.697309356325786
+        ],
+        [
+          -46.69917157730865,
+          -23.69733069793246
+        ],
+        [
+          -46.69921474010867,
+          -23.69735203953914
+        ],
+        [
+          -46.69925790290869,
+          -23.697373381145816
+        ],
+        [
+          -46.69931557925085,
+          -23.697404553579656
+        ],
+        [
+          -46.699356148498744,
+          -23.6974298029717
+        ],
+        [
+          -46.69939671774664,
+          -23.69745505236375
+        ],
+        [
+          -46.69943743992067,
+          -23.697480397040856
+        ],
+        [
+          -46.69949313976177,
+          -23.69752258572008
+        ],
+        [
+          -46.699529688472026,
+          -23.697552543679308
+        ],
+        [
+          -46.69960821211739,
+          -23.697472226895027
+        ],
+        [
+          -46.69957166340713,
+          -23.6974422689358
+        ],
+        [
+          -46.69950372375958,
+          -23.697391308539206
+        ],
+        [
+          -46.69946289963478,
+          -23.697365900338724
+        ],
+        [
+          -46.69942233038689,
+          -23.69734065094668
+        ],
+        [
+          -46.69938176113899,
+          -23.697315401554633
+        ],
+        [
+          -46.699313841991234,
+          -23.697278529719497
+        ],
+        [
+          -46.699270679191216,
+          -23.69725718811282
+        ],
+        [
+          -46.6992275163912,
+          -23.697235846506143
+        ],
+        [
+          -46.69918435359117,
+          -23.697214504899463
+        ],
+        [
+          -46.69914119079115,
+          -23.697193163292788
+        ],
+        [
+          -46.699098027991134,
+          -23.69717182168611
+        ],
+        [
+          -46.69905486519111,
+          -23.697150480079433
+        ],
+        [
+          -46.698998926108565,
+          -23.697245331505755
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "setor-t-1",
+          "boundary": [
+            [
+              -46.698998926108565,
+              -23.697245331505755
+            ],
+            [
+              -46.699042088908584,
+              -23.69726667311243
+            ],
+            [
+              -46.6990852517086,
+              -23.697288014719106
+            ],
+            [
+              -46.69912841450863,
+              -23.697309356325786
+            ],
+            [
+              -46.69917157730865,
+              -23.69733069793246
+            ],
+            [
+              -46.69921474010867,
+              -23.69735203953914
+            ],
+            [
+              -46.69925790290869,
+              -23.697373381145816
+            ],
+            [
+              -46.69931557925085,
+              -23.697404553579656
+            ],
+            [
+              -46.699356148498744,
+              -23.6974298029717
+            ],
+            [
+              -46.69939671774664,
+              -23.69745505236375
+            ],
+            [
+              -46.69943743992067,
+              -23.697480397040856
+            ],
+            [
+              -46.69949313976177,
+              -23.69752258572008
+            ],
+            [
+              -46.699529688472026,
+              -23.697552543679308
+            ],
+            [
+              -46.69960821211739,
+              -23.697472226895027
+            ],
+            [
+              -46.69957166340713,
+              -23.6974422689358
+            ],
+            [
+              -46.69950372375958,
+              -23.697391308539206
+            ],
+            [
+              -46.69946289963478,
+              -23.697365900338724
+            ],
+            [
+              -46.69942233038689,
+              -23.69734065094668
+            ],
+            [
+              -46.69938176113899,
+              -23.697315401554633
+            ],
+            [
+              -46.699313841991234,
+              -23.697278529719497
+            ],
+            [
+              -46.699270679191216,
+              -23.69725718811282
+            ],
+            [
+              -46.6992275163912,
+              -23.697235846506143
+            ],
+            [
+              -46.69918435359117,
+              -23.697214504899463
+            ],
+            [
+              -46.69914119079115,
+              -23.697193163292788
+            ],
+            [
+              -46.699098027991134,
+              -23.69717182168611
+            ],
+            [
+              -46.69905486519111,
+              -23.697150480079433
+            ],
+            [
+              -46.698998926108565,
+              -23.697245331505755
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 5.2,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -46.69917399428487,
+            -23.697515658285297
+          ],
+          "rowBearing": "local-normal"
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 5.2,
+        "depth": 12,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Explicit2026 official overview separately labels ArquibancadaT immediately before A along outside late uphill sweep. Road-relative approximate60x12m outer bank beforeT14, not a native footprint or exact ticket enclosure. Base2.2m,14 render steps/rise5.2m estimated; does not prove ordinary-ticket eligibility from cashless terms."
+      },
+      "openingSource": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Current official2026 schematic names a separate ArquibancadaT. Eligibility/exact seat allocation unresolved; cashless mention not used as admission proof."
+      },
+      "surfaceSource": {
+        "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Explicit2026 official overview separately labels ArquibancadaT immediately before A along outside late uphill sweep. Road-relative approximate60x12m outer bank beforeT14, not a native footprint or exact ticket enclosure. Base2.2m,14 render steps/rise5.2m estimated; does not prove ordinary-ticket eligibility from cashless terms."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Positive annual-map T area, approximate road-relative seating, no overlap with A/other seats/road/facilities."
+      },
+      "admissionNote": "T 看台的近似视点；票种准入与现场边界待核，不表示普通票可任意进入。"
+    }
+  ],
+  "beforeZones": [],
+  "ordinaryAccessVerified": false,
+  "approximateExperienceAccepted": true
+}

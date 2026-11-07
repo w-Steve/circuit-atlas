@@ -1,0 +1,256 @@
+{
+  "circuitId": "austin",
+  "season": 2026,
+  "checkedAt": "2026-10-30",
+  "sourcePage": "https://circuitoftheamericas.com/ticket/grandstands-and-reserved-seating-f1/",
+  "publicMapUrl": "https://connect.us.app.pam.co/?navmapId=1163fb45-8879-4e4f-807b-2eb2e1b3f98f",
+  "publicLayoutUrl": "https://nodeapi.us.app.pam.co/layout-data-by-navmapId/1163fb45-8879-4e4f-807b-2eb2e1b3f98f/15f9aa18-e61e-4888-8da1-62ebd45646e8",
+  "sourceSnapshotSha256": "771571f0d2e67f3b5e2985c60f9fc638ce639fce986d1166c29f67096e4cc90b",
+  "sourceIdentity": {
+    "locationId": 290683,
+    "featureId": "a2fb3a0e-fbe4-41bd-85e2-55cf9c803074",
+    "displayText": "Turn 4 Grandstand",
+    "featureType": "section",
+    "category": "seating"
+  },
+  "sourceFeature": {
+    "id": "a2fb3a0e-fbe4-41bd-85e2-55cf9c803074",
+    "type": "Feature",
+    "properties": {
+      "category": "seating",
+      "dictionaryItemId": 58915,
+      "displayPoint": {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.63375258896082,
+            30.134190828783655
+          ]
+        },
+        "id": "edaa2192-af73-444a-8073-65d54d74c3e4"
+      },
+      "disabled": false,
+      "labelDisplayType": "icon",
+      "lblZOfst": 8,
+      "locked": true,
+      "sortKeyOverride": 10,
+      "parentId": "91a82c99-563a-45d3-a001-c9269ea1d394",
+      "styleExtrusionHeight": 0,
+      "styleSelectHeight": 5.7,
+      "waypointsEntrances": [
+        "8eee85bb-1a27-4eb8-b4be-ddb063ce4d24",
+        "3e1218b6-6627-4ffd-8966-b6150a9e426d"
+      ],
+      "clientId": "COA222"
+    },
+    "geometry": {
+      "coordinates": [
+        [
+          [
+            -97.63421113676021,
+            30.133807961120773
+          ],
+          [
+            -97.63341961103771,
+            30.13466101489688
+          ],
+          [
+            -97.63341707174924,
+            30.13466324937377
+          ],
+          [
+            -97.63341415814078,
+            30.13466494915678
+          ],
+          [
+            -97.63341097128709,
+            30.134666104713286
+          ],
+          [
+            -97.63340761226296,
+            30.13466670651068
+          ],
+          [
+            -97.63340418214314,
+            30.134666745016293
+          ],
+          [
+            -97.63340078200241,
+            30.134666210697535
+          ],
+          [
+            -97.63339751291554,
+            30.13466509402173
+          ],
+          [
+            -97.63339447595729,
+            30.13466338545623
+          ],
+          [
+            -97.63329678738441,
+            30.134595455255194
+          ],
+          [
+            -97.6332942053038,
+            30.13459325648529
+          ],
+          [
+            -97.63329224079482,
+            30.134590733860605
+          ],
+          [
+            -97.6332909049006,
+            30.134587974876208
+          ],
+          [
+            -97.6332902086643,
+            30.13458506702717
+          ],
+          [
+            -97.6332901631291,
+            30.134582097808554
+          ],
+          [
+            -97.63329077933811,
+            30.134579154715485
+          ],
+          [
+            -97.6332920683345,
+            30.134576325243035
+          ],
+          [
+            -97.63329404116143,
+            30.134573696886335
+          ],
+          [
+            -97.63408556688394,
+            30.133720642355573
+          ],
+          [
+            -97.63408810617243,
+            30.133718407857337
+          ],
+          [
+            -97.63409101978091,
+            30.133716708058042
+          ],
+          [
+            -97.63409420663459,
+            30.13371555249042
+          ],
+          [
+            -97.63409756565872,
+            30.13371495068722
+          ],
+          [
+            -97.63410099577854,
+            30.133714912181226
+          ],
+          [
+            -97.63410439591924,
+            30.133715446505136
+          ],
+          [
+            -97.63410766500613,
+            30.13371656319169
+          ],
+          [
+            -97.63411070196436,
+            30.133718271773603
+          ],
+          [
+            -97.63420839053727,
+            30.133786202578325
+          ],
+          [
+            -97.63421097261785,
+            30.133788401366193
+          ],
+          [
+            -97.63421293712683,
+            30.133790924011382
+          ],
+          [
+            -97.63421427302107,
+            30.133793683018055
+          ],
+          [
+            -97.63421496925734,
+            30.133796590890412
+          ],
+          [
+            -97.63421501479256,
+            30.133799560132655
+          ],
+          [
+            -97.63421439858354,
+            30.13380250324897
+          ],
+          [
+            -97.63421310958715,
+            30.133805332743602
+          ],
+          [
+            -97.63421113676021,
+            30.133807961120773
+          ]
+        ]
+      ],
+      "type": "Polygon"
+    },
+    "feature_type": "section"
+  },
+  "annualEvidence": "Promoter event page explicitlyOct23–25,2026 links this exact map; actual public map welcome graphic explicitly2026. Captured on2026-10-30. Not a randomly matched site label.",
+  "planarScreen": {
+    "roadOverlapM2": 0.0,
+    "otherZoneOverlaps": {},
+    "sourceAreaM2": 1924.682595281893,
+    "sourceOrientedDimensionsMetres": [
+      15.452806281399951,
+      124.73084522981483
+    ],
+    "packageSha256": "b5b597a082d7a9b899f436744dcdc351983800eaf72f4fbdc6c7620d4866ac4b",
+    "facilityBuildingOverlapIds": [],
+    "bufferedPitLaneOverlapIds": [],
+    "facilityCheckScope": "Full candidate plan vs current registered facility building polygons and pit centrelines buffered by each recorded half-width; no implied complete physical facility inventory.",
+    "appliedPackageSha256": "a29afd1232fabff946d3fae5bb98cf1dff7fe1497d18c924655aa50fb2ef33f6"
+  },
+  "sourceHeightCaution": "styleSelectHeight5.7 and neighboring freeForm extrusions are map styling, not accepted as measured seating floor/rise. Geometry supplied by feature is geographic, vertical profile requires independent source or explicit configurable estimate.",
+  "runtimeApplied": true,
+  "nextAction": "Horizontal/source identity repair applied and3 production viewport exports passed. Keep source-estimated vertical profile and missing upper-canopy coverage explicit; whole-scene completion remains false.",
+  "candidate": "src/circuits/americas/austin-t4-candidate-2026.json",
+  "candidateVerification": {
+    "samples": 441,
+    "standing": false,
+    "seatedEyeMetres": 1.2,
+    "groundRayPassed": true,
+    "selectionRoundtripMaxErrorMetres": 0.03,
+    "unitTestsPassed": 2,
+    "sourceOverlayActuallyViewed": true,
+    "limitations": "Vertical profile explicitly estimated: existing2.2m front-floor parameter, new source depth times configurable0.45 grade yields6.95m rise; not a surveyed profile, not map styleSelectHeight. Candidate is not public/accepted yet. Browser/fence/pit/structure scene checks remain.",
+    "browserReview": {
+      "checkedAt": "2026-10-30",
+      "test": "e2e/austin-t4-candidate.spec.ts",
+      "viewports": [
+        "Edge desktop1440x960",
+        "Edge tablet1024x768 emulation",
+        "Edge iPhone13 viewport emulation"
+      ],
+      "actualScreenshotsViewed": [
+        "desktop/t4-eye.png",
+        "mobile/t4-photo.png"
+      ],
+      "finding": "Actual seated candidate frame sees nearby road behind front fence; exported mobile photo includes the passing red car. No eye height, vehicle scale, car position or fence relocated for this frame.",
+      "scope": "One continuous moved-point frame per viewport plus timed pass/export, not every-row visibility proof or real-deviceSafari acceptance.",
+      "productionFlowsPassed": 3,
+      "timedPhotoCarPixelAssertionPassed": true
+    }
+  },
+  "remainingSceneWork": [
+    "Promoter confirms covered T4 upper space; actual canopy extent/support geometry not represented by this candidate. Retain explicit coverage work before full-scene acceptance.",
+    "Height profile remains source-informed configurable approximation, not surveyed."
+  ],
+  "runtimeReview": "src/circuits/americas/austin-t4-2026.json"
+}

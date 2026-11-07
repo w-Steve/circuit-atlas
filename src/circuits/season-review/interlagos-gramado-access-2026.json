@@ -1,0 +1,82 @@
+{
+  "circuitId": "interlagos",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "runtimeApplied": true,
+  "geographicBoundaryVerified": false,
+  "sourceUrl": "https://atendimento.f1saopaulo.com.br/hc/pt-br/articles/37964412611483-Qual-a-diferen%C3%A7a-entre-Estrela-e-Gramado",
+  "sourceApiUrl": "https://atendimento.f1saopaulo.com.br/api/v2/help_center/pt-br/articles/37964412611483.json",
+  "sourceSha256": "9e63e0bc6b56aa756e97e458e68245fadc4e2286e4ff56fa3ee50c5b9db0e1e8",
+  "apiUpdatedAt": "2026-03-31T17:11:10Z",
+  "annualScope": "Current official product-definition article updated2026-03-31, cross-referenced to explicit2026 promoter ticket catalogue11037154973851. Unlike olderVillage landing page, body does not describe2024 event. This is admission evidence, not surveyed2026 geometry.",
+  "admissionFacts": {
+    "gramado": "Trackside grass, amenities and a limited-capacity stand space; food/drink separately paid. No entitlement to the raised Estrela platform is granted by this description.",
+    "estrela": "Distinct raised star-shaped platform; includes access to Gramado. Do not grant reciprocal Gramado-to-Estrela access.",
+    "minimumAgeYears": 18,
+    "observerRule": "Grass standing eye1.65m; limited bench capacity does not make every grass point a seated stand."
+  },
+  "nativeGround": {
+    "url": "https://api.openstreetmap.org/api/0.6/way/1263139998/full",
+    "sha256": "2a95e0cdb874aacd591cad0946ee49a674da6a3f590d2ddea07ab108676a22f8",
+    "wayId": "1263139998",
+    "pointCount": 296,
+    "areaMetres2": 72265.65086904632,
+    "roadIntersectionMetres2": 1227.2433817726837,
+    "observed": "Fresh full native grass ring plus actual geographic plan inspected. Large connected land-cover area contains the T10–T14 inner bank and extends outside the visible Village domain. Grass landuse does not prove annual ticket perimeter.",
+    "runtimeRoadPackageSha256": "7d69dcc281d4681dd3e947349857e6cce64953059af7d45e0966d3b05d61a191",
+    "decision": "Reject whole-way selection: about1227.24m2 intersects current rendered road, in addition to exceeding annual Village scope. Do not mechanically buffer/crop the whole way to declare admission complete."
+  },
+  "geographicImage": {
+    "identifyUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/identify?f=json&geometry=-46.6979%2C-23.6978&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=-46.6996%2C-23.6996%2C-46.6958%2C-23.6968&imageDisplay=1200%2C1200%2C96&returnGeometry=false",
+    "captureDate": "2025-04-08",
+    "resolutionMetres": 0.5,
+    "reportedAccuracyMetres": 8.47,
+    "sha256": "44ef6566fd5fbd828b4662a54070d82bf15c3fbe892a7af4324c7f0fc1e37151",
+    "observed": "Actual full T10–T14 mosaic inspected: ground, paths, paved/staging areas and road-side boundaries visible. No independent exact installed Estrela exclusion boundary or limited-capacity stand perimeter accepted. Not a2026 event capture; raw imagery not shipped."
+  },
+  "nextAction": "Refine event fences, paths, temporary structures and limited-capacity benches; major named Village ground now has continuous native-source-associated coverage.",
+  "approximateSectorModels": [
+    "heineken-gramado-north",
+    "gramado-t12",
+    "gramado-t13-t14",
+    {
+      "zoneId": "gramado-interior",
+      "modelReview": "src/circuits/americas/interlagos-gramado-interior-2026.json",
+      "approximateAreaMetres2": 39640
+    }
+  ],
+  "additionalGeometryReview": "src/circuits/americas/interlagos-gramado-interior-2026.json",
+  "positiveLocationEvidence": {
+    "url": "https://atendimento.f1saopaulo.com.br/hc/pt-br/articles/37964571167387-Onde-est%C3%A1-localizada-a-%C3%A1rea-Heineken-Village",
+    "updatedAt": "2026-03-31T17:11",
+    "observation": "Actual primary body places Village among BicoDePato/Mergulho/Juncao/SubidaDoCafe, minimum18. InnerT10–T14 closure estimated; entire native landuse still not admitted."
+  },
+  "practicalCoverageReview": {
+    "accepted": true,
+    "checkedAt": "2026-11-06",
+    "basis": "Official2026-updated location definition positively associates Village to BicoDePato/Mergulho/Juncao/SubidaDoCafe. New approximate innerT10–T14 domain intersected with native grass complements the three retained trackside groups; this is not whole-way admission from landuse alone.",
+    "sectors": [
+      {
+        "annualMapSector": "Village Gramado · 部分草地",
+        "modelZoneId": "heineken-gramado-north"
+      },
+      {
+        "annualMapSector": "Village Estrela",
+        "modelZoneId": "heineken-estrela"
+      },
+      {
+        "annualMapSector": "Village Gramado · T12 内侧",
+        "modelZoneId": "gramado-t12"
+      },
+      {
+        "annualMapSector": "Village Gramado · T13–T14",
+        "modelZoneId": "gramado-t13-t14"
+      },
+      {
+        "annualMapSector": "Village Gramado · 内场草地",
+        "modelZoneId": "gramado-interior"
+      }
+    ],
+    "limits": "Approximate source-associated Village grounds, not legal2026 perimeter. Estrela remains separately admitted and excluded from Gramado selection. Limited-capacity seats, event tents, paths/fences and exact closure line remain facility refinements; grass uses standing1.65m."
+  }
+}

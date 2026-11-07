@@ -1,0 +1,406 @@
+{
+  "circuitId": "spielberg",
+  "season": 2026,
+  "oldZone": {
+    "zoneId": "ost-t8",
+    "name": "Ost / T8",
+    "kind": "grandstand",
+    "availability": "available",
+    "boundary": [
+      [
+        14.7710343,
+        47.2228188
+      ],
+      [
+        14.7710497,
+        47.2227686
+      ],
+      [
+        14.7710158,
+        47.2227581
+      ],
+      [
+        14.7710405,
+        47.2226472
+      ],
+      [
+        14.7709974,
+        47.2226389
+      ],
+      [
+        14.7710251,
+        47.2225489
+      ],
+      [
+        14.7709789,
+        47.2225447
+      ],
+      [
+        14.7710097,
+        47.2224485
+      ],
+      [
+        14.7709696,
+        47.2224485
+      ],
+      [
+        14.7710004,
+        47.2223104
+      ],
+      [
+        14.7713147,
+        47.2223376
+      ],
+      [
+        14.771287,
+        47.2224589
+      ],
+      [
+        14.7713301,
+        47.2224694
+      ],
+      [
+        14.7712901,
+        47.2226368
+      ],
+      [
+        14.7713332,
+        47.2226431
+      ],
+      [
+        14.7712777,
+        47.2228439
+      ],
+      [
+        14.7710343,
+        47.2228188
+      ]
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 13.64,
+      "depth": 28.42,
+      "eyeHeight": 1.2
+    },
+    "surfaces": [
+      {
+        "surfaceId": "ost-t8-1",
+        "boundary": [
+          [
+            14.7710343,
+            47.2228188
+          ],
+          [
+            14.7710497,
+            47.2227686
+          ],
+          [
+            14.7710158,
+            47.2227581
+          ],
+          [
+            14.7710405,
+            47.2226472
+          ],
+          [
+            14.7709974,
+            47.2226389
+          ],
+          [
+            14.7710251,
+            47.2225489
+          ],
+          [
+            14.7709789,
+            47.2225447
+          ],
+          [
+            14.7710097,
+            47.2224485
+          ],
+          [
+            14.7709696,
+            47.2224485
+          ],
+          [
+            14.7710004,
+            47.2223104
+          ],
+          [
+            14.7713147,
+            47.2223376
+          ],
+          [
+            14.771287,
+            47.2224589
+          ],
+          [
+            14.7713301,
+            47.2224694
+          ],
+          [
+            14.7712901,
+            47.2226368
+          ],
+          [
+            14.7713332,
+            47.2226431
+          ],
+          [
+            14.7712777,
+            47.2228439
+          ],
+          [
+            14.7710343,
+            47.2228188
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 13.64,
+        "eyeHeight": 1.2,
+        "rows": 27,
+        "frontReference": [
+          14.770177339436838,
+          47.222554242921
+        ]
+      }
+    ],
+    "source": {
+      "url": "https://www.openstreetmap.org/way/1077423719",
+      "checkedAt": "2026-10-23",
+      "method": "extracted",
+      "confidence": "medium",
+      "notes": "OSM建筑平面轮廓；way/1077423719。位置未经现场测绘；看台售票分区可能与建筑边界不同。"
+    },
+    "openingSource": {
+      "url": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+    },
+    "surfaceSource": {
+      "url": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-23",
+      "issues": [],
+      "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+    }
+  },
+  "zone": {
+    "zoneId": "t9",
+    "name": "T9",
+    "kind": "grandstand",
+    "availability": "available",
+    "boundary": [
+      [
+        14.7710343,
+        47.2228188
+      ],
+      [
+        14.7710497,
+        47.2227686
+      ],
+      [
+        14.7710158,
+        47.2227581
+      ],
+      [
+        14.7710405,
+        47.2226472
+      ],
+      [
+        14.7709974,
+        47.2226389
+      ],
+      [
+        14.7710251,
+        47.2225489
+      ],
+      [
+        14.7709789,
+        47.2225447
+      ],
+      [
+        14.7710097,
+        47.2224485
+      ],
+      [
+        14.7709696,
+        47.2224485
+      ],
+      [
+        14.7710004,
+        47.2223104
+      ],
+      [
+        14.7713147,
+        47.2223376
+      ],
+      [
+        14.771287,
+        47.2224589
+      ],
+      [
+        14.7713301,
+        47.2224694
+      ],
+      [
+        14.7712901,
+        47.2226368
+      ],
+      [
+        14.7713332,
+        47.2226431
+      ],
+      [
+        14.7712777,
+        47.2228439
+      ],
+      [
+        14.7710343,
+        47.2228188
+      ]
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 13.64,
+      "depth": 28.42,
+      "eyeHeight": 1.2
+    },
+    "surfaces": [
+      {
+        "surfaceId": "ost-t8-1",
+        "boundary": [
+          [
+            14.7710343,
+            47.2228188
+          ],
+          [
+            14.7710497,
+            47.2227686
+          ],
+          [
+            14.7710158,
+            47.2227581
+          ],
+          [
+            14.7710405,
+            47.2226472
+          ],
+          [
+            14.7709974,
+            47.2226389
+          ],
+          [
+            14.7710251,
+            47.2225489
+          ],
+          [
+            14.7709789,
+            47.2225447
+          ],
+          [
+            14.7710097,
+            47.2224485
+          ],
+          [
+            14.7709696,
+            47.2224485
+          ],
+          [
+            14.7710004,
+            47.2223104
+          ],
+          [
+            14.7713147,
+            47.2223376
+          ],
+          [
+            14.771287,
+            47.2224589
+          ],
+          [
+            14.7713301,
+            47.2224694
+          ],
+          [
+            14.7712901,
+            47.2226368
+          ],
+          [
+            14.7713332,
+            47.2226431
+          ],
+          [
+            14.7712777,
+            47.2228439
+          ],
+          [
+            14.7710343,
+            47.2228188
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 13.64,
+        "eyeHeight": 1.2,
+        "rows": 27,
+        "frontReference": [
+          14.770177339436838,
+          47.222554242921
+        ]
+      }
+    ],
+    "source": {
+      "url": "https://www.openstreetmap.org/way/1077423719",
+      "checkedAt": "2026-10-23",
+      "method": "extracted",
+      "confidence": "medium",
+      "notes": "OSM建筑平面轮廓；way/1077423719。位置未经现场测绘；看台售票分区可能与建筑边界不同。 Corrected2026 identity: annual map and namedT9A/B/C viewer place this east-side bank north ofT10; old Ost/T8 label was wrong. Not shared with the distinct inner-trackT8 product."
+    },
+    "openingSource": {
+      "url": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+      "checkedAt": "2026-10-29",
+      "method": "published",
+      "confidence": "medium",
+      "notes": "2026 map and product list identifyT9 east of corner9 and north ofT10. Native object still namedOst; geographic association is interpreted, not a surveyed ticket boundary."
+    },
+    "surfaceSource": {
+      "url": "https://www.redbullring.com/en/events-tickets/formula-1/glossary/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-23",
+      "issues": [],
+      "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+    }
+  },
+  "aliases": {
+    "ost-t8": "t9"
+  },
+  "nativeWay": 1077423719,
+  "nativeSource": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.768%2C47.220%2C14.7725%2C47.2245",
+    "sha256": "cf208e90fee80072ed31731df228e72f8a97a101a426174f43e19ac3b9857f94",
+    "checkedAt": "2026-10-29"
+  },
+  "annualSource": "src/circuits/season-review/spielberg-public-map-identity-review.json",
+  "viewerReference": "https://seatseven.io/f1/red-bull-ring/#section-S_T9A",
+  "physicalParametersChanged": false,
+  "roadIntersectionMetres2": 0.0,
+  "otherIntersections": [],
+  "oldZoneSha256": "514b2dd3b35e98be2a1549ecd2c4dc8c7f0ac1133225712c1f9459541453a592",
+  "zoneSha256": "f9de4d9a43524a90d0f773e7aaaa274e647e8822777e1581a890212cea2e3aed",
+  "neighborFingerprint": "46d2b9f0cf7656fc45ce6b0baa7e0ba28d67dba092c45608726e1d67391786d9",
+  "geometryFingerprint": "872d797b0b67a5d94bdb7aea23922a97c2637f960b6196bfc8c0f0e65230db9c",
+  "runtimeApplied": true,
+  "limitations": "Native boundary/estimated seated profile retained. Internal surfaceId kept for compatibility. Correcting a mislabeled bank does not add new physical capacity;T8 remains independently unmodeled."
+}

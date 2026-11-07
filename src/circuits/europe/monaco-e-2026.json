@@ -1,0 +1,231 @@
+{
+  "circuitId": "monaco",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "e-chicane",
+      "name": "E · Piscine",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          7.422037035448689,
+          43.73517731889267
+        ],
+        [
+          7.422079039317551,
+          43.734927629227755
+        ],
+        [
+          7.421930927115801,
+          43.73491462317678
+        ],
+        [
+          7.4218889232469385,
+          43.73516431284169
+        ],
+        [
+          7.422037035448689,
+          43.73517731889267
+        ]
+      ],
+      "surface": {
+        "baseHeight": 3.2,
+        "rise": 3,
+        "depth": 12,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "e-chicane-1",
+          "boundary": [
+            [
+              7.422037035448689,
+              43.73517731889267
+            ],
+            [
+              7.422079039317551,
+              43.734927629227755
+            ],
+            [
+              7.421930927115801,
+              43.73491462317678
+            ],
+            [
+              7.4218889232469385,
+              43.73516431284169
+            ],
+            [
+              7.422037035448689,
+              43.73517731889267
+            ]
+          ],
+          "baseHeight": 3.2,
+          "rise": 3,
+          "eyeHeight": 1.2,
+          "rows": 6,
+          "frontReference": [
+            7.4222308349518284,
+            43.73506764778635
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                7.422037035448689,
+                43.73517731889267
+              ],
+              [
+                7.422079039317551,
+                43.734927629227755
+              ]
+            ],
+            "back": [
+              [
+                7.4218889232469385,
+                43.73516431284169
+              ],
+              [
+                7.421930927115801,
+                43.73491462317678
+              ]
+            ],
+            "source": {
+              "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+              "checkedAt": "2026-11-06",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Official2026 hospitality venue map places E at first swimming-pool chicane; supplier datedJune4-7 confirms E Sunday. Author approximate28x12m/6rows,base3.2m/rise3m,14m road offset; replaces degenerate2.18m old band. Not surveyed boundaries or measured seat/roof geometry."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 hospitality venue map places E at first swimming-pool chicane; supplier datedJune4-7 confirms E Sunday. Author approximate28x12m/6rows,base3.2m/rise3m,14m road offset; replaces degenerate2.18m old band. Not surveyed boundaries or measured seat/roof geometry."
+      },
+      "openingSource": {
+        "url": "https://www.colomastore.com/colomastore/evento.jsp?lingua=ENG&sid=10",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Live body explicitly2026June4-7 and Grandstand E Sunday; ticket identity only, not surveyed geometry or real-time stock."
+      },
+      "surfaceSource": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 hospitality venue map places E at first swimming-pool chicane; supplier datedJune4-7 confirms E Sunday. Author approximate28x12m/6rows,base3.2m/rise3m,14m road offset; replaces degenerate2.18m old band. Not surveyed boundaries or measured seat/roof geometry."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "2026 named E sector and positive annual ticket; explicit approximate bank with actual road-facing rows."
+      },
+      "description": "泳池区E看台近似座席范围；高度及排数为估计。"
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "e-chicane",
+      "name": "E · Chicane",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          7.422006816687478,
+          43.73494036780392
+        ],
+        [
+          7.4218970428405955,
+          43.73517924670369
+        ],
+        [
+          7.421920701247374,
+          43.73507634264333
+        ],
+        [
+          7.422030475094257,
+          43.73483746374357
+        ],
+        [
+          7.422006816687478,
+          43.73494036780392
+        ]
+      ],
+      "surface": {
+        "baseHeight": 3.2,
+        "rise": 3,
+        "depth": 2.18,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "e-chicane-1",
+          "boundary": [
+            [
+              7.422006816687478,
+              43.73494036780392
+            ],
+            [
+              7.4218970428405955,
+              43.73517924670369
+            ],
+            [
+              7.421920701247374,
+              43.73507634264333
+            ],
+            [
+              7.422030475094257,
+              43.73483746374357
+            ],
+            [
+              7.422006816687478,
+              43.73494036780392
+            ]
+          ],
+          "baseHeight": 3.2,
+          "rise": 3,
+          "eyeHeight": 1.2,
+          "rows": 6,
+          "frontReference": [
+            7.422231144204329,
+            43.73506767494248
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026主办方示意图人工选取边界，以弯道地理控制点作局部仿射配准；临时看台位置与尺寸为近似，不能用于具体座位购票。"
+      },
+      "openingSource": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "e-chicane-1: diagram footprint too shallow for configured rows (2.18m depth)"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "circuitId": "madrid",
+  "season": 2026,
+  "checkedAt": "2026-11-07",
+  "source": "2026 organizer ticket-page retained HTML links to Fever event432252; current request and web-reader both404.",
+  "annualTicketEntry": {
+    "url": "https://feverup.com/m/432252/en?thm=5513",
+    "status": 404,
+    "responseSha256": "3d7bdc583dc3e0dd95eee58340a5356976b8c6994769895a34a08ac64829b8a4",
+    "linkedFromSnapshotSha256": "693a0e3da4f5edd326ad55c0da40d2f16d61151ce23d207e2cb17c2799911316",
+    "scope": "Factual unavailable old event endpoint, not evidence of canceled race, withdrawn grandstands, or changed admission."
+  },
+  "areas": [
+    {
+      "zoneId": "t13t14",
+      "code": "GE23"
+    },
+    {
+      "zoneId": "monumental-12",
+      "code": "GD11"
+    },
+    {
+      "zoneId": "gd12",
+      "code": "GD12"
+    }
+  ],
+  "ordinaryAccessVerified": false,
+  "wholeBankHospitalityExclusiveVerified": false,
+  "viewpointsRemainAvailable": true,
+  "geometryChanged": false,
+  "excludedInference": [
+    "Current2027 hospitality terms establish no2026 ordinary admission.",
+    "Oldticket404 establishes no cancellation or public access prohibition.",
+    "Nearby hospitality map marker does not assign entire grandstand."
+  ],
+  "nextEvidenceNeeded": "A retained2026 ticket category/seat allocation document or organizer clarification linking explicit codes to ticket types; avoid repeating dead old event URL as a source of seat boundaries."
+}

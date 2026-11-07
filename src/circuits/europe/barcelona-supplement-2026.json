@@ -1,0 +1,260 @@
+{
+  "circuitId": "barcelona",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "i",
+      "name": "I",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          2.263971217250049,
+          41.57345945113187
+        ],
+        [
+          2.263971217250049,
+          41.572875548868126
+        ],
+        [
+          2.264151333634003,
+          41.572875548868126
+        ],
+        [
+          2.264151333634003,
+          41.57345945113187
+        ],
+        [
+          2.263971217250049,
+          41.57345945113187
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "i-1",
+          "boundary": [
+            [
+              2.263971217250049,
+              41.57345945113187
+            ],
+            [
+              2.263971217250049,
+              41.572875548868126
+            ],
+            [
+              2.264151333634003,
+              41.572875548868126
+            ],
+            [
+              2.264151333634003,
+              41.57345945113187
+            ],
+            [
+              2.263971217250049,
+              41.57345945113187
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.56,
+          "rows": 18,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            2.263635,
+            41.5731675
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                2.263971217250049,
+                41.57345945113187
+              ],
+              [
+                2.263971217250049,
+                41.572875548868126
+              ]
+            ],
+            "back": [
+              [
+                2.264151333634003,
+                41.57345945113187
+              ],
+              [
+                2.264151333634003,
+                41.572875548868126
+              ]
+            ],
+            "source": {
+              "url": "https://gpdestinations.com/wp-content/uploads/2026/05/2026-Barcelona-Grand-Prix-Spectator-Map.pdf",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter wayfinding named standI; author approximate 65x15m,front offset28m,18rows/base2.2m/rise7.56m. I outside final turn, V in J-Principal gap. No GardenClub or service building substituted; not surveyed installed seats."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 7.56,
+        "depth": 15,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/05/2026-Barcelona-Grand-Prix-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter wayfinding named standI; author approximate 65x15m,front offset28m,18rows/base2.2m/rise7.56m. I outside final turn, V in J-Principal gap. No GardenClub or service building substituted; not surveyed installed seats."
+      },
+      "surfaceSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/05/2026-Barcelona-Grand-Prix-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter wayfinding named standI; author approximate 65x15m,front offset28m,18rows/base2.2m/rise7.56m. I outside final turn, V in J-Principal gap. No GardenClub or service building substituted; not surveyed installed seats."
+      },
+      "openingSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/05/2026-Barcelona-Grand-Prix-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 promoter wayfinding named standI; author approximate 65x15m,front offset28m,18rows/base2.2m/rise7.56m. I outside final turn, V in J-Principal gap. No GardenClub or service building substituted; not surveyed installed seats."
+      },
+      "description": "近似座席范围与高度；顶棚及服务设施尚待完善。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Author approximation tied to named2026 location and actual road branch."
+      }
+    },
+    {
+      "zoneId": "v",
+      "name": "V",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          2.2603603187960624,
+          41.56850569719027
+        ],
+        [
+          2.25991245210758,
+          41.56797359319291
+        ],
+        [
+          2.260054694651764,
+          41.56790657761565
+        ],
+        [
+          2.2605025613402456,
+          41.56843868161301
+        ],
+        [
+          2.2603603187960624,
+          41.56850569719027
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "v-1",
+          "boundary": [
+            [
+              2.2603603187960624,
+              41.56850569719027
+            ],
+            [
+              2.25991245210758,
+              41.56797359319291
+            ],
+            [
+              2.260054694651764,
+              41.56790657761565
+            ],
+            [
+              2.2605025613402456,
+              41.56843868161301
+            ],
+            [
+              2.2603603187960624,
+              41.56850569719027
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.72,
+          "rows": 16,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            2.2598315799999997,
+            41.56838325
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                2.2603603187960624,
+                41.56850569719027
+              ],
+              [
+                2.25991245210758,
+                41.56797359319291
+              ]
+            ],
+            "back": [
+              [
+                2.2605025613402456,
+                41.56843868161301
+              ],
+              [
+                2.260054694651764,
+                41.56790657761565
+              ]
+            ],
+            "source": {
+              "url": "https://gpdestinations.com/wp-content/uploads/2026/05/2026-Barcelona-Grand-Prix-Spectator-Map.pdf",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter wayfinding named standV; author approximate 70x14m,front offset30m,16rows/base2.2m/rise6.72m. I outside final turn, V in J-Principal gap. No GardenClub or service building substituted; not surveyed installed seats."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 6.72,
+        "depth": 14,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/05/2026-Barcelona-Grand-Prix-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter wayfinding named standV; author approximate 70x14m,front offset30m,16rows/base2.2m/rise6.72m. I outside final turn, V in J-Principal gap. No GardenClub or service building substituted; not surveyed installed seats."
+      },
+      "surfaceSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/05/2026-Barcelona-Grand-Prix-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter wayfinding named standV; author approximate 70x14m,front offset30m,16rows/base2.2m/rise6.72m. I outside final turn, V in J-Principal gap. No GardenClub or service building substituted; not surveyed installed seats."
+      },
+      "openingSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/05/2026-Barcelona-Grand-Prix-Spectator-Map.pdf",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 promoter wayfinding named standV; author approximate 70x14m,front offset30m,16rows/base2.2m/rise6.72m. I outside final turn, V in J-Principal gap. No GardenClub or service building substituted; not surveyed installed seats."
+      },
+      "description": "近似座席范围与高度；顶棚及服务设施尚待完善。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Author approximation tied to named2026 location and actual road branch."
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "circuitId": "madrid",
+  "zoneId": "ga-c-straight",
+  "checkedOn": "2026-10-26",
+  "source": {
+    "provider": "IGN/CNIG",
+    "requestUrl": "https://servicios.idee.es/wcs-inspire/mdt?service=WCS&request=GetCoverage&version=2.0.1&coverageId=Elevacion25830_5&subset=x%28446880%2C447480%29&subset=y%284479420%2C4480020%29&format=image%2Ftiff",
+    "coverageId": "Elevacion25830_5",
+    "sha256": "59db4c3a1432aa183319cfdbc5b20e7bc3cd815468339f38a65aacba382f4a3a",
+    "bytes": 29288,
+    "resolutionMetres": 5,
+    "crs": "EPSG:25830",
+    "shape": [
+      120,
+      120
+    ],
+    "acquisitionDate": null,
+    "heightQuantizationMetres": 1
+  },
+  "samples": [
+    {
+      "position": "observerPosition",
+      "longitude": -3.623100618397037,
+      "latitude": 40.46639273620302,
+      "heightMetres": 669.8435625804525
+    },
+    {
+      "position": "cockpitPosition",
+      "longitude": -3.622763940717141,
+      "latitude": 40.466547509561515,
+      "heightMetres": 676.0
+    }
+  ],
+  "groundDifferenceMetres": 6.156437419547501,
+  "regionalFlightEvidence": [
+    {
+      "url": "https://pnoa.ign.es/pnoa-lidar/segunda-cobertura",
+      "madridFlightRange": [
+        "2016-08",
+        "2016-09"
+      ]
+    },
+    {
+      "url": "https://pnoa.ign.es/pnoa-lidar/tercera-cobertura",
+      "madridFlightRange": [
+        "2024-03",
+        "2024-05"
+      ]
+    },
+    {
+      "url": "https://www.madring.com/en/press-releases/circuit-construction",
+      "publishedOn": "2025-04-15",
+      "constructionStarts": "2025-04"
+    }
+  ],
+  "conclusion": "The separate 5m official coverage also places the observer ground below the nearby road location. It does not certify the built 2026 cross-section or prove visibility. Regional flight dates must not be assigned to this undated WCS clip.",
+  "runtimeApplied": false,
+  "nextAction": "Obtain the built C-area road/GA cross-section or dated post-construction elevation before accepting the ground candidate."
+}

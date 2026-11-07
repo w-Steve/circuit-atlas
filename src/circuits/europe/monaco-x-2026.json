@@ -1,0 +1,464 @@
+{
+  "circuitId": "monaco",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "x1-quai-albert",
+      "name": "X1 · Quai Albert",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          7.422325178543736,
+          43.73233596828892
+        ],
+        [
+          7.422239274626817,
+          43.73248527853969
+        ],
+        [
+          7.42212446344788,
+          43.73245079805161
+        ],
+        [
+          7.4222103673648,
+          43.73230148780084
+        ],
+        [
+          7.422325178543736,
+          43.73233596828892
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 2,
+        "depth": 10,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "x1-quai-albert-1",
+          "boundary": [
+            [
+              7.422325178543736,
+              43.73233596828892
+            ],
+            [
+              7.422239274626817,
+              43.73248527853969
+            ],
+            [
+              7.42212446344788,
+              43.73245079805161
+            ],
+            [
+              7.4222103673648,
+              43.73230148780084
+            ],
+            [
+              7.422325178543736,
+              43.73233596828892
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 2,
+          "eyeHeight": 1.2,
+          "rows": 5,
+          "frontReference": [
+            7.42242,
+            43.732452
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                7.422325178543736,
+                43.73233596828892
+              ],
+              [
+                7.422239274626817,
+                43.73248527853969
+              ]
+            ],
+            "back": [
+              [
+                7.4222103673648,
+                43.73230148780084
+              ],
+              [
+                7.42212446344788,
+                43.73245079805161
+              ]
+            ],
+            "source": {
+              "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+              "checkedAt": "2026-11-06",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter map identifies X1/X2 outside start straight; retrieved2026 supplier lists both. Author approximate18x10m/5rows,base2.2m/rise2m,12m front offset from actual road. Not surveyed footprint or measured seats."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter map identifies X1/X2 outside start straight; retrieved2026 supplier lists both. Author approximate18x10m/5rows,base2.2m/rise2m,12m front offset from actual road. Not surveyed footprint or measured seats."
+      },
+      "openingSource": {
+        "url": "https://grandprixexperience.com/f1-race/monaco/race-tickets/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Retrieved body explicitly labels2026Monaco race tickets and lists separate Grandstand X1/X2 reserved seats. Not precise access boundary or current availability."
+      },
+      "surfaceSource": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter map identifies X1/X2 outside start straight; retrieved2026 supplier lists both. Author approximate18x10m/5rows,base2.2m/rise2m,12m front offset from actual road. Not surveyed footprint or measured seats."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Annual named start-straight sector with explicit approximate road-facing bank."
+      },
+      "description": "发车直道外侧近似座席范围；排数及高度为估计。"
+    },
+    {
+      "zoneId": "x2-quai-albert",
+      "name": "X2 · Quai Albert",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          7.4222688851932705,
+          43.73254242071328
+        ],
+        [
+          7.422200461363974,
+          43.7326963743292
+        ],
+        [
+          7.422082079698588,
+          43.73266891007478
+        ],
+        [
+          7.4221505035278845,
+          43.73251495645886
+        ],
+        [
+          7.4222688851932705,
+          43.73254242071328
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 2,
+        "depth": 10,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "x2-quai-albert-1",
+          "boundary": [
+            [
+              7.4222688851932705,
+              43.73254242071328
+            ],
+            [
+              7.422200461363974,
+              43.7326963743292
+            ],
+            [
+              7.422082079698588,
+              43.73266891007478
+            ],
+            [
+              7.4221505035278845,
+              43.73251495645886
+            ],
+            [
+              7.4222688851932705,
+              43.73254242071328
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 2,
+          "eyeHeight": 1.2,
+          "rows": 5,
+          "frontReference": [
+            7.422376731277086,
+            43.73265235462655
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                7.4222688851932705,
+                43.73254242071328
+              ],
+              [
+                7.422200461363974,
+                43.7326963743292
+              ]
+            ],
+            "back": [
+              [
+                7.4221505035278845,
+                43.73251495645886
+              ],
+              [
+                7.422082079698588,
+                43.73266891007478
+              ]
+            ],
+            "source": {
+              "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+              "checkedAt": "2026-11-06",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter map identifies X1/X2 outside start straight; retrieved2026 supplier lists both. Author approximate18x10m/5rows,base2.2m/rise2m,12m front offset from actual road. Not surveyed footprint or measured seats."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter map identifies X1/X2 outside start straight; retrieved2026 supplier lists both. Author approximate18x10m/5rows,base2.2m/rise2m,12m front offset from actual road. Not surveyed footprint or measured seats."
+      },
+      "openingSource": {
+        "url": "https://grandprixexperience.com/f1-race/monaco/race-tickets/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Retrieved body explicitly labels2026Monaco race tickets and lists separate Grandstand X1/X2 reserved seats. Not precise access boundary or current availability."
+      },
+      "surfaceSource": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter map identifies X1/X2 outside start straight; retrieved2026 supplier lists both. Author approximate18x10m/5rows,base2.2m/rise2m,12m front offset from actual road. Not surveyed footprint or measured seats."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Annual named start-straight sector with explicit approximate road-facing bank."
+      },
+      "description": "发车直道外侧近似座席范围；排数及高度为估计。"
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "x1-quai-albert",
+      "name": "X1 · Quai Albert",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          7.422405461756801,
+          43.7322370476906
+        ],
+        [
+          7.422347069095325,
+          43.73236725559197
+        ],
+        [
+          7.422359353982723,
+          43.73265662898061
+        ],
+        [
+          7.422417746644198,
+          43.73252642107924
+        ],
+        [
+          7.422405461756801,
+          43.7322370476906
+        ]
+      ],
+      "surface": {
+        "baseHeight": 3.2,
+        "rise": 3,
+        "depth": 6.21,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "x1-quai-albert-1",
+          "boundary": [
+            [
+              7.422405461756801,
+              43.7322370476906
+            ],
+            [
+              7.422347069095325,
+              43.73236725559197
+            ],
+            [
+              7.422359353982723,
+              43.73265662898061
+            ],
+            [
+              7.422417746644198,
+              43.73252642107924
+            ],
+            [
+              7.422405461756801,
+              43.7322370476906
+            ]
+          ],
+          "baseHeight": 3.2,
+          "rise": 3,
+          "eyeHeight": 1.2,
+          "rows": 6,
+          "frontReference": [
+            7.42341625200925,
+            43.73246892401214
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026主办方示意图人工选取边界，以弯道地理控制点作局部仿射配准；临时看台位置与尺寸为近似，不能用于具体座位购票。"
+      },
+      "openingSource": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "x1-quai-albert-1: road intersection 115.1969 m2"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "x2-quai-albert",
+      "name": "X2 · Quai Albert",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          7.422340928961364,
+          43.73242890948766
+        ],
+        [
+          7.422282536299889,
+          43.73255911738902
+        ],
+        [
+          7.422294821187286,
+          43.73284849077766
+        ],
+        [
+          7.422353213848761,
+          43.7327182828763
+        ],
+        [
+          7.422340928961364,
+          43.73242890948766
+        ]
+      ],
+      "surface": {
+        "baseHeight": 3.2,
+        "rise": 3,
+        "depth": 6.21,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "x2-quai-albert-1",
+          "boundary": [
+            [
+              7.422340928961364,
+              43.73242890948766
+            ],
+            [
+              7.422282536299889,
+              43.73255911738902
+            ],
+            [
+              7.422294821187286,
+              43.73284849077766
+            ],
+            [
+              7.422353213848761,
+              43.7327182828763
+            ],
+            [
+              7.422340928961364,
+              43.73242890948766
+            ]
+          ],
+          "baseHeight": 3.2,
+          "rise": 3,
+          "eyeHeight": 1.2,
+          "rows": 6,
+          "frontReference": [
+            7.423448307098579,
+            43.732662849184806
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026主办方示意图人工选取边界，以弯道地理控制点作局部仿射配准；临时看台位置与尺寸为近似，不能用于具体座位购票。"
+      },
+      "openingSource": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "x2-quai-albert-1: road intersection 123.5379 m2"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    }
+  ],
+  "annualEvidence": {
+    "url": "https://grandprixexperience.com/f1-race/monaco/race-tickets/",
+    "checkedAt": "2026-11-06",
+    "header": "Monaco Grand Prix 2026 RACE TICKETS",
+    "products": [
+      "Grandstand X1",
+      "Grandstand X2"
+    ],
+    "scope": "Retrieved supplier body lists separate reserved-seat products; no surveyed access polygons or live-stock claim."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "circuitId": "spa",
+  "season": 2026,
+  "zoneId": "gold-7-ter-endurance",
+  "zone": {
+    "zoneId": "gold-7-ter-endurance",
+    "name": "Gold 7 Ter Endurance",
+    "kind": "grandstand",
+    "availability": "available",
+    "boundary": [
+      [
+        5.9617,
+        50.4466
+      ],
+      [
+        5.96255,
+        50.4467
+      ],
+      [
+        5.9625,
+        50.44685
+      ],
+      [
+        5.96165,
+        50.44675
+      ],
+      [
+        5.9617,
+        50.4466
+      ]
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 7.5,
+      "depth": 17,
+      "eyeHeight": 1.2
+    },
+    "surfaces": [
+      {
+        "surfaceId": "gold-7-ter-1",
+        "boundary": [
+          [
+            5.9617,
+            50.4466
+          ],
+          [
+            5.96255,
+            50.4467
+          ],
+          [
+            5.9625,
+            50.44685
+          ],
+          [
+            5.96165,
+            50.44675
+          ],
+          [
+            5.9617,
+            50.4466
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 7.5,
+        "eyeHeight": 1.2,
+        "rows": 18,
+        "frontReference": [
+          5.96350733630406,
+          50.446191656067796
+        ],
+        "rowBearing": "local-normal",
+        "rowStrip": {
+          "front": [
+            [
+              5.9617,
+              50.4466
+            ],
+            [
+              5.96255,
+              50.4467
+            ]
+          ],
+          "back": [
+            [
+              5.96165,
+              50.44675
+            ],
+            [
+              5.9625,
+              50.44685
+            ]
+          ],
+          "source": {
+            "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Independent2026 Ter product west of Gold7 and separate official open-seat panorama; author approximate60m-long/17m-deep bank,18rows/base2.2m/rise7.5m. Not surveyed installation, not adjacent houses or full Gold7 roof."
+          }
+        }
+      }
+    ],
+    "source": {
+      "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Independent2026 Ter product west of Gold7 and separate official open-seat panorama; author approximate60m-long/17m-deep bank,18rows/base2.2m/rise7.5m. Not surveyed installation, not adjacent houses or full Gold7 roof."
+    },
+    "openingSource": {
+      "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+      "checkedAt": "2026-11-05",
+      "method": "published",
+      "confidence": "high",
+      "notes": "Independent2026 Ter product west of Gold7 and separate official open-seat panorama; author approximate60m-long/17m-deep bank,18rows/base2.2m/rise7.5m. Not surveyed installation, not adjacent houses or full Gold7 roof."
+    },
+    "surfaceSource": {
+      "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Independent2026 Ter product west of Gold7 and separate official open-seat panorama; author approximate60m-long/17m-deep bank,18rows/base2.2m/rise7.5m. Not surveyed installation, not adjacent houses or full Gold7 roof."
+    },
+    "geometryReview": {
+      "checkedAt": "2026-11-05",
+      "issues": [],
+      "method": "Source-relative independent western bank; not reused Gold7 polygon."
+    },
+    "description": "Gold 7以西独立露天近似看台；座席范围、排数与高度为估计。"
+  }
+}

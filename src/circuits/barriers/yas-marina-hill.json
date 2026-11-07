@@ -1,0 +1,549 @@
+{
+  "circuitId": "yas-marina",
+  "availability": "available",
+  "barriers": [
+    {
+      "id": "yas-hill-188739636",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          54.6028772,
+          24.4721373
+        ],
+        [
+          54.6029419,
+          24.4722487
+        ],
+        [
+          54.603015,
+          24.4723695
+        ],
+        [
+          54.6030705,
+          24.4724497
+        ],
+        [
+          54.603131,
+          24.4725301
+        ],
+        [
+          54.603202,
+          24.4726133
+        ],
+        [
+          54.6032745,
+          24.4726979
+        ],
+        [
+          54.6034042,
+          24.4728428
+        ],
+        [
+          54.603577,
+          24.473036
+        ],
+        [
+          54.6038448,
+          24.4733194
+        ],
+        [
+          54.6038455,
+          24.473353
+        ],
+        [
+          54.6038428,
+          24.4733684
+        ],
+        [
+          54.6038123,
+          24.4737403
+        ],
+        [
+          54.6038026,
+          24.4739209
+        ],
+        [
+          54.6038046,
+          24.4739625
+        ],
+        [
+          54.6038093,
+          24.474004
+        ],
+        [
+          54.6038169,
+          24.474045
+        ],
+        [
+          54.6038272,
+          24.4740856
+        ],
+        [
+          54.6038402,
+          24.4741255
+        ],
+        [
+          54.603863,
+          24.4741651
+        ],
+        [
+          54.6038921,
+          24.474201
+        ],
+        [
+          54.603927,
+          24.4742324
+        ],
+        [
+          54.6039668,
+          24.4742585
+        ],
+        [
+          54.604049,
+          24.4742847
+        ]
+      ],
+      "heightMetres": 3.5,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/188739636",
+        "checkedAt": "2026-10-30",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native fence polyline retained, registered against2025-10-18 imagery. Mesh material and height are configurable estimates: frontage3.5m / public-side1.2m; no surveyed fence specifications."
+      }
+    },
+    {
+      "id": "yas-hill-188739646",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          54.606651,
+          24.4725608
+        ],
+        [
+          54.6068528,
+          24.4724941
+        ],
+        [
+          54.6070274,
+          24.4723968
+        ],
+        [
+          54.6070906,
+          24.4723608
+        ],
+        [
+          54.6071518,
+          24.472322
+        ],
+        [
+          54.6072108,
+          24.4722805
+        ],
+        [
+          54.6072673,
+          24.4722362
+        ],
+        [
+          54.6073203,
+          24.4721845
+        ],
+        [
+          54.6073681,
+          24.4721287
+        ],
+        [
+          54.6074102,
+          24.4720692
+        ],
+        [
+          54.6074463,
+          24.4720065
+        ],
+        [
+          54.6074762,
+          24.4719412
+        ],
+        [
+          54.607504,
+          24.4718555
+        ]
+      ],
+      "heightMetres": 1.2,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/188739646",
+        "checkedAt": "2026-10-30",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native fence polyline retained, registered against2025-10-18 imagery. Mesh material and height are configurable estimates: frontage3.5m / public-side1.2m; no surveyed fence specifications."
+      }
+    },
+    {
+      "id": "yas-hill-188739659",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          54.6040068,
+          24.4732836
+        ],
+        [
+          54.604023,
+          24.4732707
+        ]
+      ],
+      "heightMetres": 1.2,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/188739659",
+        "checkedAt": "2026-10-30",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native fence polyline retained, registered against2025-10-18 imagery. Mesh material and height are configurable estimates: frontage3.5m / public-side1.2m; no surveyed fence specifications."
+      }
+    },
+    {
+      "id": "yas-hill-188858684",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          54.604023,
+          24.4732707
+        ],
+        [
+          54.6044564,
+          24.4729268
+        ]
+      ],
+      "heightMetres": 1.2,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/188858684",
+        "checkedAt": "2026-10-30",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native fence polyline retained, registered against2025-10-18 imagery. Mesh material and height are configurable estimates: frontage3.5m / public-side1.2m; no surveyed fence specifications."
+      }
+    },
+    {
+      "id": "yas-hill-188858698",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          54.6056704,
+          24.4722969
+        ],
+        [
+          54.6056789,
+          24.4723237
+        ],
+        [
+          54.6059256,
+          24.4722691
+        ],
+        [
+          54.6059115,
+          24.4722175
+        ]
+      ],
+      "heightMetres": 1.2,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/188858698",
+        "checkedAt": "2026-10-30",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native fence polyline retained, registered against2025-10-18 imagery. Mesh material and height are configurable estimates: frontage3.5m / public-side1.2m; no surveyed fence specifications."
+      }
+    },
+    {
+      "id": "yas-hill-188858703",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          54.6044564,
+          24.4729268
+        ],
+        [
+          54.6049166,
+          24.4725733
+        ],
+        [
+          54.60503,
+          24.4724971
+        ],
+        [
+          54.6051305,
+          24.4724389
+        ],
+        [
+          54.6052076,
+          24.4724148
+        ],
+        [
+          54.6055304,
+          24.4723326
+        ],
+        [
+          54.6055624,
+          24.4723244
+        ],
+        [
+          54.6055924,
+          24.4723168
+        ],
+        [
+          54.6056704,
+          24.4722969
+        ]
+      ],
+      "heightMetres": 1.2,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/188858703",
+        "checkedAt": "2026-10-30",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native fence polyline retained, registered against2025-10-18 imagery. Mesh material and height are configurable estimates: frontage3.5m / public-side1.2m; no surveyed fence specifications."
+      }
+    },
+    {
+      "id": "yas-hill-188858704",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          54.6059115,
+          24.4722175
+        ],
+        [
+          54.6060436,
+          24.4721863
+        ],
+        [
+          54.6061026,
+          24.4721757
+        ],
+        [
+          54.6061625,
+          24.4721707
+        ],
+        [
+          54.6062226,
+          24.4721715
+        ],
+        [
+          54.6062823,
+          24.4721781
+        ],
+        [
+          54.6063409,
+          24.4721903
+        ],
+        [
+          54.6063978,
+          24.472208
+        ],
+        [
+          54.6066283,
+          24.4723151
+        ],
+        [
+          54.606651,
+          24.4725608
+        ]
+      ],
+      "heightMetres": 1.2,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/188858704",
+        "checkedAt": "2026-10-30",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native fence polyline retained, registered against2025-10-18 imagery. Mesh material and height are configurable estimates: frontage3.5m / public-side1.2m; no surveyed fence specifications."
+      }
+    },
+    {
+      "id": "yas-hill-188862377",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          54.605244,
+          24.4739537
+        ],
+        [
+          54.6052615,
+          24.4737636
+        ],
+        [
+          54.6053095,
+          24.4737673
+        ],
+        [
+          54.605329,
+          24.4737688
+        ],
+        [
+          54.6053115,
+          24.4739589
+        ],
+        [
+          54.6052954,
+          24.4739576
+        ],
+        [
+          54.605244,
+          24.4739537
+        ]
+      ],
+      "heightMetres": 1.2,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/188862377",
+        "checkedAt": "2026-10-30",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native fence polyline retained, registered against2025-10-18 imagery. Mesh material and height are configurable estimates: frontage3.5m / public-side1.2m; no surveyed fence specifications."
+      }
+    },
+    {
+      "id": "yas-hill-189018381",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          54.6063613,
+          24.47281
+        ],
+        [
+          54.6062132,
+          24.4728788
+        ],
+        [
+          54.6060856,
+          24.4729534
+        ],
+        [
+          54.6059974,
+          24.4730193
+        ],
+        [
+          54.6058856,
+          24.4731068
+        ],
+        [
+          54.6057911,
+          24.4731985
+        ],
+        [
+          54.6056603,
+          24.4733505
+        ],
+        [
+          54.6055942,
+          24.4734509
+        ],
+        [
+          54.6055327,
+          24.473557
+        ],
+        [
+          54.6054902,
+          24.4736559
+        ]
+      ],
+      "heightMetres": 3.5,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/189018381",
+        "checkedAt": "2026-10-30",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native fence polyline retained, registered against2025-10-18 imagery. Mesh material and height are configurable estimates: frontage3.5m / public-side1.2m; no surveyed fence specifications."
+      }
+    },
+    {
+      "id": "yas-hill-189018392",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          54.6054336,
+          24.4736744
+        ],
+        [
+          54.605428,
+          24.4738406
+        ],
+        [
+          54.6054057,
+          24.4740606
+        ],
+        [
+          54.6054024,
+          24.4742106
+        ],
+        [
+          54.6054024,
+          24.4744124
+        ],
+        [
+          54.6054057,
+          24.474531
+        ]
+      ],
+      "heightMetres": 3.5,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/189018392",
+        "checkedAt": "2026-10-30",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native fence polyline retained, registered against2025-10-18 imagery. Mesh material and height are configurable estimates: frontage3.5m / public-side1.2m; no surveyed fence specifications."
+      }
+    },
+    {
+      "id": "yas-hill-1083519972",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          54.6053606,
+          24.4742913
+        ],
+        [
+          54.6053223,
+          24.4743351
+        ],
+        [
+          54.6052889,
+          24.4743714
+        ],
+        [
+          54.6052504,
+          24.4744031
+        ],
+        [
+          54.6052074,
+          24.4744296
+        ],
+        [
+          54.6051607,
+          24.4744504
+        ],
+        [
+          54.6051119,
+          24.4744599
+        ],
+        [
+          54.6050624,
+          24.4744645
+        ],
+        [
+          54.6050125,
+          24.4744641
+        ],
+        [
+          54.6039896,
+          24.4743377
+        ]
+      ],
+      "heightMetres": 3.5,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/1083519972",
+        "checkedAt": "2026-10-30",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native fence polyline retained, registered against2025-10-18 imagery. Mesh material and height are configurable estimates: frontage3.5m / public-side1.2m; no surveyed fence specifications."
+      }
+    }
+  ],
+  "notes": "Candidate Hill full native barriers. Heights estimated; never clip for visibility."
+}

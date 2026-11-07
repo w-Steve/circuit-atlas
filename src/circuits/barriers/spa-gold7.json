@@ -1,0 +1,291 @@
+{
+  "circuitId": "spa",
+  "availability": "available",
+  "barriers": [
+    {
+      "id": "spa-gold7-126871627",
+      "kind": "concrete-wall",
+      "coordinates": [
+        [
+          5.9627218,
+          50.4466036
+        ],
+        [
+          5.9631979,
+          50.4466364
+        ],
+        [
+          5.963307,
+          50.446639
+        ],
+        [
+          5.9634125,
+          50.4466375
+        ],
+        [
+          5.9635369,
+          50.4466181
+        ],
+        [
+          5.9636447,
+          50.4465891
+        ],
+        [
+          5.9637722,
+          50.4465447
+        ],
+        [
+          5.9648135,
+          50.4461996
+        ]
+      ],
+      "heightMetres": 1.0,
+      "widthMetres": 0.25,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/126871627",
+        "checkedAt": "2026-10-28",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native plan; trackside wall interpreted from ordered stand/fence/wall/road relationships and organizer panorama. Height1.0m estimated, not measured. Not surveyed2026 barrier geometry."
+      }
+    },
+    {
+      "id": "spa-gold7-175691647",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          5.9624888,
+          50.4466779
+        ],
+        [
+          5.9625254,
+          50.4467117
+        ],
+        [
+          5.9626887,
+          50.4466352
+        ],
+        [
+          5.9627052,
+          50.4466486
+        ],
+        [
+          5.9631844,
+          50.4466801
+        ],
+        [
+          5.9633364,
+          50.4466855
+        ],
+        [
+          5.9634203,
+          50.4466837
+        ],
+        [
+          5.9635164,
+          50.446673
+        ],
+        [
+          5.9636068,
+          50.4466534
+        ],
+        [
+          5.9637439,
+          50.4466089
+        ],
+        [
+          5.9644459,
+          50.4463755
+        ],
+        [
+          5.9645886,
+          50.4463369
+        ],
+        [
+          5.9646958,
+          50.4463138
+        ],
+        [
+          5.9648562,
+          50.4462865
+        ],
+        [
+          5.9649149,
+          50.4462728
+        ],
+        [
+          5.9649807,
+          50.4462418
+        ],
+        [
+          5.9649915,
+          50.4462213
+        ],
+        [
+          5.9649924,
+          50.4462013
+        ],
+        [
+          5.9654466,
+          50.4460414
+        ],
+        [
+          5.9656709,
+          50.4459634
+        ],
+        [
+          5.965731,
+          50.4460176
+        ],
+        [
+          5.9656351,
+          50.4460725
+        ],
+        [
+          5.9655474,
+          50.4461455
+        ],
+        [
+          5.9654011,
+          50.4464228
+        ]
+      ],
+      "heightMetres": 3.5,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/175691647",
+        "checkedAt": "2026-10-28",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native plan; outer trackside fence interpreted from ordered stand/fence/wall/road relationships and organizer panorama. Height3.5m estimated, not measured. Not surveyed2026 barrier geometry."
+      }
+    },
+    {
+      "id": "spa-gold7-1134053911",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          5.9648318,
+          50.4466148
+        ],
+        [
+          5.9645141,
+          50.4468784
+        ],
+        [
+          5.9643908,
+          50.4470403
+        ],
+        [
+          5.9643073,
+          50.4470831
+        ],
+        [
+          5.964174,
+          50.4469869
+        ],
+        [
+          5.9640354,
+          50.4469601
+        ],
+        [
+          5.963207,
+          50.4469051
+        ],
+        [
+          5.9631908,
+          50.4469693
+        ],
+        [
+          5.9625927,
+          50.4468958
+        ],
+        [
+          5.9626252,
+          50.4467964
+        ]
+      ],
+      "heightMetres": 2.0,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/1134053911",
+        "checkedAt": "2026-10-28",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native plan; rear perimeter interpreted from ordered stand/fence/wall/road relationships and organizer panorama. Height2.0m estimated, not measured. Not surveyed2026 barrier geometry."
+      }
+    },
+    {
+      "id": "spa-gold7-1366085142",
+      "kind": "chain-link",
+      "coordinates": [
+        [
+          5.9653418,
+          50.4464182
+        ],
+        [
+          5.9654442,
+          50.446192
+        ],
+        [
+          5.9654531,
+          50.4461413
+        ],
+        [
+          5.965432,
+          50.4461129
+        ],
+        [
+          5.965367,
+          50.4461061
+        ],
+        [
+          5.9651484,
+          50.4461925
+        ],
+        [
+          5.9649924,
+          50.4462769
+        ],
+        [
+          5.9648298,
+          50.446323
+        ],
+        [
+          5.9646819,
+          50.4463421
+        ],
+        [
+          5.9644487,
+          50.4464001
+        ],
+        [
+          5.9637198,
+          50.4466448
+        ],
+        [
+          5.9635012,
+          50.4467012
+        ],
+        [
+          5.9633573,
+          50.4467178
+        ],
+        [
+          5.9627162,
+          50.4466785
+        ],
+        [
+          5.9624651,
+          50.4467941
+        ]
+      ],
+      "heightMetres": 2.0,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/1366085142",
+        "checkedAt": "2026-10-28",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Full native plan; stand-side perimeter interpreted from ordered stand/fence/wall/road relationships and organizer panorama. Height2.0m estimated, not measured. Not surveyed2026 barrier geometry."
+      }
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "circuitId": "baku",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "absheron-c",
+      "name": "Absheron C",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          49.85237405590193,
+          40.372122133727856
+        ],
+        [
+          49.85313006607245,
+          40.37237289288671
+        ],
+        [
+          49.85324661921512,
+          40.37216464742241
+        ],
+        [
+          49.8524906090446,
+          40.371913888263556
+        ],
+        [
+          49.85237405590193,
+          40.372122133727856
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "absheron-c-lower",
+          "boundary": [
+            [
+              49.85237405590193,
+              40.372122133727856
+            ],
+            [
+              49.85313006607245,
+              40.37237289288671
+            ],
+            [
+              49.853185808879815,
+              40.37227329722987
+            ],
+            [
+              49.852429798709295,
+              40.372022538071015
+            ],
+            [
+              49.85237405590193,
+              40.372122133727856
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 5.172727272727274,
+          "eyeHeight": 1.2,
+          "rows": 11,
+          "frontReference": [
+            49.85261405564044,
+            40.372485801682316
+          ],
+          "tier": "lower",
+          "groundReference": {
+            "coordinate": [
+              49.85272308122721,
+              40.37213913920568
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+              "checkedAt": "2026-11-06",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Annual catalog separately sells C Upper/Lower. Approximate split of retained23-row bank into11/12 rows; exact row boundary, access aisle and structural deck not surveyed. Preserve old outer footprint, base2.2m and total rise11.38m; no invented stacked floor."
+            }
+          }
+        },
+        {
+          "surfaceId": "absheron-c-upper",
+          "boundary": [
+            [
+              49.852429798709295,
+              40.372022538071015
+            ],
+            [
+              49.853185808879815,
+              40.37227329722987
+            ],
+            [
+              49.85324661921512,
+              40.37216464742241
+            ],
+            [
+              49.8524906090446,
+              40.371913888263556
+            ],
+            [
+              49.852429798709295,
+              40.372022538071015
+            ]
+          ],
+          "baseHeight": 7.890000000000001,
+          "rise": 5.69,
+          "eyeHeight": 1.2,
+          "rows": 12,
+          "frontReference": [
+            49.85261405564044,
+            40.372485801682316
+          ],
+          "tier": "upper",
+          "groundReference": {
+            "coordinate": [
+              49.85272308122721,
+              40.37213913920568
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+              "checkedAt": "2026-11-06",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Annual catalog separately sells C Upper/Lower. Approximate split of retained23-row bank into11/12 rows; exact row boundary, access aisle and structural deck not surveyed. Preserve old outer footprint, base2.2m and total rise11.38m; no invented stacked floor."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.38,
+        "depth": 25.28,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://f1destinations.com/wp-content/uploads/2025/09/2025_F1-Wayfinding-Map_Positive_Azerbaijan_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "人工读取2025图中已知看台位置；以T1/T20作局部两点配准，保持线路分支；横向示意比例1.400m/px，纵向2.057m/px。临时看台边界存在数十米误差，不用于具体座位保证。 位置图为相邻年份资料，2026名称另行核对；不据此声称当年精确边界或全部票区开放。"
+      },
+      "openingSource": {
+        "url": "https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual catalog separately sells C Upper/Lower. Approximate split of retained23-row bank into11/12 rows; exact row boundary, access aisle and structural deck not surveyed. Preserve old outer footprint, base2.2m and total rise11.38m; no invented stacked floor."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      },
+      "admissionNote": "C Lower 与 C Upper 分别售票；11/12排分界为近似，实际排号及通道尚未测绘。"
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "absheron-c",
+      "name": "Absheron C",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          49.85237405590193,
+          40.372122133727856
+        ],
+        [
+          49.85313006607245,
+          40.37237289288671
+        ],
+        [
+          49.85324661921512,
+          40.37216464742241
+        ],
+        [
+          49.8524906090446,
+          40.371913888263556
+        ],
+        [
+          49.85237405590193,
+          40.372122133727856
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "absheron-c-1",
+          "boundary": [
+            [
+              49.85237405590193,
+              40.372122133727856
+            ],
+            [
+              49.85313006607245,
+              40.37237289288671
+            ],
+            [
+              49.85324661921512,
+              40.37216464742241
+            ],
+            [
+              49.8524906090446,
+              40.371913888263556
+            ],
+            [
+              49.85237405590193,
+              40.372122133727856
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.38,
+          "eyeHeight": 1.2,
+          "rows": 23,
+          "frontReference": [
+            49.85261405564044,
+            40.372485801682316
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.38,
+        "depth": 25.28,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://f1destinations.com/wp-content/uploads/2025/09/2025_F1-Wayfinding-Map_Positive_Azerbaijan_VISUAL.pdf",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "人工读取2025图中已知看台位置；以T1/T20作局部两点配准，保持线路分支；横向示意比例1.400m/px，纵向2.057m/px。临时看台边界存在数十米误差，不用于具体座位保证。 位置图为相邻年份资料，2026名称另行核对；不据此声称当年精确边界或全部票区开放。"
+      },
+      "openingSource": {
+        "url": "https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+      },
+      "surfaceSource": {
+        "url": "https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    }
+  ],
+  "regions": [
+    {
+      "zoneId": "absheron-c",
+      "tier": "lower",
+      "label": "C 下层",
+      "selectionLabel": "C 下层",
+      "surfaceId": "absheron-c-lower",
+      "uRange": [
+        0,
+        1
+      ],
+      "vRange": [
+        0,
+        1
+      ]
+    },
+    {
+      "zoneId": "absheron-c",
+      "tier": "upper",
+      "label": "C 上层",
+      "selectionLabel": "C 上层",
+      "surfaceId": "absheron-c-upper",
+      "uRange": [
+        0,
+        1
+      ],
+      "vRange": [
+        0,
+        1
+      ]
+    }
+  ],
+  "source": {
+    "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+    "checkedAt": "2026-11-06",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "Annual catalog separately sells C Upper/Lower. Approximate split of retained23-row bank into11/12 rows; exact row boundary, access aisle and structural deck not surveyed. Preserve old outer footprint, base2.2m and total rise11.38m; no invented stacked floor."
+  }
+}

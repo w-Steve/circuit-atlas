@@ -2,7 +2,14 @@ import { describe, it, expect } from "vitest";
 import { circuitRegistry, loadCircuit } from "../src/circuits/registry";
 import { createCircuitGeometry } from "../src/circuits/geometry";
 import { Vector3 } from "three";
+import calendarVerification from "../src/circuits/season-review/calendar-verification-2026.json";
 describe("2026 current calendar and independently registered maps",()=>{
+  it("matches the dated official round-order review, without mapping the event name to Sakhir",()=>{
+    expect(circuitRegistry.map(c=>c.circuitId)).toEqual(calendarVerification.orderedCircuitIds);
+    const relocated=circuitRegistry.find(c=>c.circuitId===calendarVerification.relocatedEvent.circuitId);
+    expect(relocated?.round).toBe(calendarVerification.relocatedEvent.round);
+    expect(relocated?.lengthMetres).toBe(calendarVerification.relocatedEvent.lengthMetres);
+  });
   it("uses 23 unique actual venues, including relocated Malaysia event",()=>{
     expect(circuitRegistry).toHaveLength(23);
     expect(new Set(circuitRegistry.map(c=>c.circuitId)).size).toBe(23);

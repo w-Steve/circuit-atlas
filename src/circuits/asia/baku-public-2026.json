@@ -1,0 +1,1125 @@
+{
+  "circuitId": "baku",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "champions",
+      "name": "Champions",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          49.84537273520524,
+          40.370379467629434
+        ],
+        [
+          49.845912696627536,
+          40.37055979245714
+        ],
+        [
+          49.84583695447456,
+          40.37069143024315
+        ],
+        [
+          49.84529699305226,
+          40.37051110541544
+        ],
+        [
+          49.84537273520524,
+          40.370379467629434
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "champions-1",
+          "boundary": [
+            [
+              49.84537273520524,
+              40.370379467629434
+            ],
+            [
+              49.845912696627536,
+              40.37055979245714
+            ],
+            [
+              49.84583695447456,
+              40.37069143024315
+            ],
+            [
+              49.84529699305226,
+              40.37051110541544
+            ],
+            [
+              49.84537273520524,
+              40.370379467629434
+            ]
+          ],
+          "baseHeight": 2.0,
+          "rise": 6.4,
+          "rows": 16,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            49.845761063030416,
+            40.37026394600265
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.0,
+        "rise": 6.4,
+        "eyeHeight": 1.2,
+        "depth": 16
+      },
+      "source": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/AmwGW5LVhHQedVSJSTMA33zLs4uNukeakYWQbKU9.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner20, arc+420m, driver-left. Author 50x16m envelope, near offset25m, 16rows, base2.0m/rise6.4m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Archived August26,2026 organizer buy-now catalog explicitly lists this bank under ordinary Grandstands; Champions Club/Paddock/VIPLANE are separate Premium Hospitality products."
+      },
+      "surfaceSource": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/AmwGW5LVhHQedVSJSTMA33zLs4uNukeakYWQbKU9.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner20, arc+420m, driver-left. Author 50x16m envelope, near offset25m, 16rows, base2.0m/rise6.4m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Source-associated approximate bank screened against actual road, registered seats, buildings and pit lanes."
+      },
+      "admissionNote": "2026普通座席看台；边界、排数与坡面为近似，不含贵宾接待权益。",
+      "description": "按官方具名区域与实际道路关联的近似阶梯看台，坐姿眼高1.2米。"
+    },
+    {
+      "zoneId": "icheri-sheher",
+      "name": "Icheri Sheher",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          49.835567141456714,
+          40.369200970484336
+        ],
+        [
+          49.835123278934766,
+          40.36907945918401
+        ],
+        [
+          49.835171127626154,
+          40.368978012562195
+        ],
+        [
+          49.835614990148095,
+          40.36909952386252
+        ],
+        [
+          49.835567141456714,
+          40.369200970484336
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "icheri-sheher-1",
+          "boundary": [
+            [
+              49.835567141456714,
+              40.369200970484336
+            ],
+            [
+              49.835123278934766,
+              40.36907945918401
+            ],
+            [
+              49.835171127626154,
+              40.368978012562195
+            ],
+            [
+              49.835614990148095,
+              40.36909952386252
+            ],
+            [
+              49.835567141456714,
+              40.369200970484336
+            ]
+          ],
+          "baseHeight": 1.5,
+          "rise": 4.4,
+          "rows": 12,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            49.83526546237677,
+            40.36930929253719
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.5,
+        "rise": 4.4,
+        "eyeHeight": 1.2,
+        "depth": 12
+      },
+      "source": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/64SZts4K9bv2PleEcdRR1MWnM4gxlkuVdUYKg45b.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner12, arc+70m, driver-left. Author 40x12m envelope, near offset20m, 12rows, base1.5m/rise4.4m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Archived August26,2026 organizer buy-now catalog explicitly lists this bank under ordinary Grandstands; Champions Club/Paddock/VIPLANE are separate Premium Hospitality products."
+      },
+      "surfaceSource": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/64SZts4K9bv2PleEcdRR1MWnM4gxlkuVdUYKg45b.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner12, arc+70m, driver-left. Author 40x12m envelope, near offset20m, 12rows, base1.5m/rise4.4m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Source-associated approximate bank screened against actual road, registered seats, buildings and pit lanes."
+      },
+      "admissionNote": "2026普通座席看台；边界、排数与坡面为近似，不含贵宾接待权益。",
+      "description": "按官方具名区域与实际道路关联的近似阶梯看台，坐姿眼高1.2米。"
+    },
+    {
+      "zoneId": "giz-galasi",
+      "name": "Giz Galasi",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          49.83844130494616,
+          40.365828474818535
+        ],
+        [
+          49.83852558585022,
+          40.366227582803376
+        ],
+        [
+          49.83870020879331,
+          40.3662061797473
+        ],
+        [
+          49.83861592788926,
+          40.36580707176247
+        ],
+        [
+          49.83844130494616,
+          40.365828474818535
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "giz-galasi-1",
+          "boundary": [
+            [
+              49.83844130494616,
+              40.365828474818535
+            ],
+            [
+              49.83852558585022,
+              40.366227582803376
+            ],
+            [
+              49.83870020879331,
+              40.3662061797473
+            ],
+            [
+              49.83861592788926,
+              40.36580707176247
+            ],
+            [
+              49.83844130494616,
+              40.365828474818535
+            ]
+          ],
+          "baseHeight": 1.5,
+          "rise": 5.6,
+          "rows": 15,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            49.838192407159696,
+            40.36606370057107
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.5,
+        "rise": 5.6,
+        "eyeHeight": 1.2,
+        "depth": 15
+      },
+      "source": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/5fwmatmtyLnUppZnkZ3HDEUpJzpUDt92mptAbJto.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner18, arc+65m, driver-right. Author 45x15m envelope, near offset25m, 15rows, base1.5m/rise5.6m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Archived August26,2026 organizer buy-now catalog explicitly lists this bank under ordinary Grandstands; Champions Club/Paddock/VIPLANE are separate Premium Hospitality products."
+      },
+      "surfaceSource": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/5fwmatmtyLnUppZnkZ3HDEUpJzpUDt92mptAbJto.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner18, arc+65m, driver-right. Author 45x15m envelope, near offset25m, 15rows, base1.5m/rise5.6m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Source-associated approximate bank screened against actual road, registered seats, buildings and pit lanes."
+      },
+      "admissionNote": "2026普通座席看台；边界、排数与坡面为近似，不含贵宾接待权益。",
+      "description": "按官方具名区域与实际道路关联的近似阶梯看台，坐姿眼高1.2米。"
+    },
+    {
+      "zoneId": "filarmoniya",
+      "name": "Filarmoniya",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          49.833930191947296,
+          40.363042184150586
+        ],
+        [
+          49.83431002029397,
+          40.362897800157036
+        ],
+        [
+          49.83438372186177,
+          40.36301033338237
+        ],
+        [
+          49.834003893515096,
+          40.36315471737592
+        ],
+        [
+          49.833930191947296,
+          40.363042184150586
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "filarmoniya-1",
+          "boundary": [
+            [
+              49.833930191947296,
+              40.363042184150586
+            ],
+            [
+              49.83431002029397,
+              40.362897800157036
+            ],
+            [
+              49.83438372186177,
+              40.36301033338237
+            ],
+            [
+              49.834003893515096,
+              40.36315471737592
+            ],
+            [
+              49.833930191947296,
+              40.363042184150586
+            ]
+          ],
+          "baseHeight": 1.5,
+          "rise": 5.2,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            49.83399376057583,
+            40.36277707805325
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.5,
+        "rise": 5.2,
+        "eyeHeight": 1.2,
+        "depth": 14
+      },
+      "source": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/hqD52LqcdW8jh8nZLOWvmHPhiV8iy8Pj7FDlKrxA.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner16, arc-75m, driver-left. Author 36x14m envelope, near offset24m, 14rows, base1.5m/rise5.2m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Archived August26,2026 organizer buy-now catalog explicitly lists this bank under ordinary Grandstands; Champions Club/Paddock/VIPLANE are separate Premium Hospitality products."
+      },
+      "surfaceSource": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/hqD52LqcdW8jh8nZLOWvmHPhiV8iy8Pj7FDlKrxA.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner16, arc-75m, driver-left. Author 36x14m envelope, near offset24m, 14rows, base1.5m/rise5.2m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Source-associated approximate bank screened against actual road, registered seats, buildings and pit lanes."
+      },
+      "admissionNote": "2026普通座席看台；边界、排数与坡面为近似，不含贵宾接待权益。",
+      "description": "按官方具名区域与实际道路关联的近似阶梯看台，坐姿眼高1.2米。"
+    },
+    {
+      "zoneId": "zafar",
+      "name": "Zafar",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          49.84698929625966,
+          40.3704203515596
+        ],
+        [
+          49.84753149460646,
+          40.37059673760407
+        ],
+        [
+          49.8476102128291,
+          40.370456293030266
+        ],
+        [
+          49.8470680144823,
+          40.3702799069858
+        ],
+        [
+          49.84698929625966,
+          40.3704203515596
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "zafar-1",
+          "boundary": [
+            [
+              49.84698929625966,
+              40.3704203515596
+            ],
+            [
+              49.84753149460646,
+              40.37059673760407
+            ],
+            [
+              49.8476102128291,
+              40.370456293030266
+            ],
+            [
+              49.8470680144823,
+              40.3702799069858
+            ],
+            [
+              49.84698929625966,
+              40.3704203515596
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.0,
+          "rows": 17,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            49.84714463334093,
+            40.37071508071977
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 7.0,
+        "eyeHeight": 1.2,
+        "depth": 17
+      },
+      "source": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/SkSOchkxaXMemVOgqiOejAwuUYdaUy9zjecCkItI.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner1, arc-740m, driver-right. Author 50x17m envelope, near offset25m, 17rows, base2.2m/rise7.0m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Archived August26,2026 organizer buy-now catalog explicitly lists this bank under ordinary Grandstands; Champions Club/Paddock/VIPLANE are separate Premium Hospitality products."
+      },
+      "surfaceSource": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/SkSOchkxaXMemVOgqiOejAwuUYdaUy9zjecCkItI.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner1, arc-740m, driver-right. Author 50x17m envelope, near offset25m, 17rows, base2.2m/rise7.0m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Source-associated approximate bank screened against actual road, registered seats, buildings and pit lanes."
+      },
+      "admissionNote": "2026普通座席看台；边界、排数与坡面为近似，不含贵宾接待权益。",
+      "description": "按官方具名区域与实际道路关联的近似阶梯看台，坐姿眼高1.2米。"
+    },
+    {
+      "zoneId": "city",
+      "name": "City",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          49.84072335590261,
+          40.36874047907971
+        ],
+        [
+          49.84032939473215,
+          40.368511862967615
+        ],
+        [
+          49.84022936762207,
+          40.36861190903517
+        ],
+        [
+          49.84062332879253,
+          40.36884052514726
+        ],
+        [
+          49.84072335590261,
+          40.36874047907971
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "city-1",
+          "boundary": [
+            [
+              49.84072335590261,
+              40.36874047907971
+            ],
+            [
+              49.84032939473215,
+              40.368511862967615
+            ],
+            [
+              49.84022936762207,
+              40.36861190903517
+            ],
+            [
+              49.84062332879253,
+              40.36884052514726
+            ],
+            [
+              49.84072335590261,
+              40.36874047907971
+            ]
+          ],
+          "baseHeight": 1.8,
+          "rise": 5.5,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            49.840697850363235,
+            40.36845466347929
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.8,
+        "rise": 5.5,
+        "eyeHeight": 1.2,
+        "depth": 14
+      },
+      "source": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/0ztZYfx71mOUCrU33Iqwpb2CkcQ4vvbtRkjBJl77.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner6, arc+120m, driver-right. Author 42x14m envelope, near offset24m, 14rows, base1.8m/rise5.5m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Archived August26,2026 organizer buy-now catalog explicitly lists this bank under ordinary Grandstands; Champions Club/Paddock/VIPLANE are separate Premium Hospitality products."
+      },
+      "surfaceSource": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/0ztZYfx71mOUCrU33Iqwpb2CkcQ4vvbtRkjBJl77.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner6, arc+120m, driver-right. Author 42x14m envelope, near offset24m, 14rows, base1.8m/rise5.5m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Source-associated approximate bank screened against actual road, registered seats, buildings and pit lanes."
+      },
+      "admissionNote": "2026普通座席看台；边界、排数与坡面为近似，不含贵宾接待权益。",
+      "description": "按官方具名区域与实际道路关联的近似阶梯看台，坐姿眼高1.2米。"
+    },
+    {
+      "zoneId": "marine",
+      "name": "MARINE",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          49.83617068009403,
+          40.36396517913168
+        ],
+        [
+          49.83651942971174,
+          40.364207089903196
+        ],
+        [
+          49.83663850417042,
+          40.364107454687264
+        ],
+        [
+          49.83628975455271,
+          40.36386554391575
+        ],
+        [
+          49.83617068009403,
+          40.36396517913168
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "marine-1",
+          "boundary": [
+            [
+              49.83617068009403,
+              40.36396517913168
+            ],
+            [
+              49.83651942971174,
+              40.364207089903196
+            ],
+            [
+              49.83663850417042,
+              40.364107454687264
+            ],
+            [
+              49.83628975455271,
+              40.36386554391575
+            ],
+            [
+              49.83617068009403,
+              40.36396517913168
+            ]
+          ],
+          "baseHeight": 1.8,
+          "rise": 5.8,
+          "rows": 15,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            49.83613072087726,
+            40.364265477906116
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.8,
+        "rise": 5.8,
+        "eyeHeight": 1.2,
+        "depth": 15
+      },
+      "source": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/IHLdukiwWk1mj53nJ7AL4lcJia5gYikQm4I4Yy75.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner17, arc+30m, driver-right. Author 40x15m envelope, near offset27m, 15rows, base1.8m/rise5.8m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Archived August26,2026 organizer buy-now catalog explicitly lists this bank under ordinary Grandstands; Champions Club/Paddock/VIPLANE are separate Premium Hospitality products."
+      },
+      "surfaceSource": {
+        "url": "https://cdn.bakucitycircuit.com/sectors/IHLdukiwWk1mj53nJ7AL4lcJia5gYikQm4I4Yy75.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Archived2026 organizer catalog ordinary Grandstands product, not hospitality. Schematic/landmark association: corner17, arc+30m, driver-right. Author 40x15m envelope, near offset27m, 15rows, base1.8m/rise5.8m estimates. Seated eye1.2m; not surveyed location/profile."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Source-associated approximate bank screened against actual road, registered seats, buildings and pit lanes."
+      },
+      "admissionNote": "2026普通座席看台；边界、排数与坡面为近似，不含贵宾接待权益。",
+      "description": "按官方具名区域与实际道路关联的近似阶梯看台，坐姿眼高1.2米。"
+    },
+    {
+      "zoneId": "roaming-boulevard",
+      "name": "Roaming · Boulevard",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          49.83947136380987,
+          40.36731957726103
+        ],
+        [
+          49.83960115426692,
+          40.367191638805636
+        ],
+        [
+          49.839194515890455,
+          40.36695220485126
+        ],
+        [
+          49.83914246071335,
+          40.36707901787768
+        ],
+        [
+          49.83914205265265,
+          40.367079861289795
+        ],
+        [
+          49.83914153599694,
+          40.367080669410676
+        ],
+        [
+          49.83914091591933,
+          40.36708143414881
+        ],
+        [
+          49.83914019862851,
+          40.36708214784709
+        ],
+        [
+          49.83913939130652,
+          40.367082803359445
+        ],
+        [
+          49.839138502036846,
+          40.36708339412241
+        ],
+        [
+          49.83913753972352,
+          40.36708391422083
+        ],
+        [
+          49.83913651400191,
+          40.367084358447094
+        ],
+        [
+          49.839135435142296,
+          40.3670847223533
+        ],
+        [
+          49.83913431394702,
+          40.36708500229573
+        ],
+        [
+          49.839133161642295,
+          40.36708519547142
+        ],
+        [
+          49.839131989765846,
+          40.36708529994614
+        ],
+        [
+          49.83913081005135,
+          40.36708531467382
+        ],
+        [
+          49.83912963431098,
+          40.367085239506984
+        ],
+        [
+          49.8391284743171,
+          40.367085075198275
+        ],
+        [
+          49.83912734168442,
+          40.36708482339285
+        ],
+        [
+          49.83912624775368,
+          40.36708448661199
+        ],
+        [
+          49.839125203478126,
+          40.367084068227776
+        ],
+        [
+          49.8391242193138,
+          40.36708357242939
+        ],
+        [
+          49.839123305114875,
+          40.36708300418111
+        ],
+        [
+          49.838943020808735,
+          40.36695899404617
+        ],
+        [
+          49.83891159075434,
+          40.36698997561988
+        ],
+        [
+          49.83947136380987,
+          40.36731957726103
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "roaming-boulevard-1",
+          "boundary": [
+            [
+              49.83947136380987,
+              40.36731957726103
+            ],
+            [
+              49.83960115426692,
+              40.367191638805636
+            ],
+            [
+              49.839194515890455,
+              40.36695220485126
+            ],
+            [
+              49.83914246071335,
+              40.36707901787768
+            ],
+            [
+              49.83914205265265,
+              40.367079861289795
+            ],
+            [
+              49.83914153599694,
+              40.367080669410676
+            ],
+            [
+              49.83914091591933,
+              40.36708143414881
+            ],
+            [
+              49.83914019862851,
+              40.36708214784709
+            ],
+            [
+              49.83913939130652,
+              40.367082803359445
+            ],
+            [
+              49.839138502036846,
+              40.36708339412241
+            ],
+            [
+              49.83913753972352,
+              40.36708391422083
+            ],
+            [
+              49.83913651400191,
+              40.367084358447094
+            ],
+            [
+              49.839135435142296,
+              40.3670847223533
+            ],
+            [
+              49.83913431394702,
+              40.36708500229573
+            ],
+            [
+              49.839133161642295,
+              40.36708519547142
+            ],
+            [
+              49.839131989765846,
+              40.36708529994614
+            ],
+            [
+              49.83913081005135,
+              40.36708531467382
+            ],
+            [
+              49.83912963431098,
+              40.367085239506984
+            ],
+            [
+              49.8391284743171,
+              40.367085075198275
+            ],
+            [
+              49.83912734168442,
+              40.36708482339285
+            ],
+            [
+              49.83912624775368,
+              40.36708448661199
+            ],
+            [
+              49.839125203478126,
+              40.367084068227776
+            ],
+            [
+              49.8391242193138,
+              40.36708357242939
+            ],
+            [
+              49.839123305114875,
+              40.36708300418111
+            ],
+            [
+              49.838943020808735,
+              40.36695899404617
+            ],
+            [
+              49.83891159075434,
+              40.36698997561988
+            ],
+            [
+              49.83947136380987,
+              40.36731957726103
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "rowDirection": [
+            0.7912282696797388,
+            -0.6115209115472723
+          ],
+          "frontReference": [
+            49.83900400217748,
+            40.367339576431576
+          ]
+        },
+        {
+          "surfaceId": "roaming-boulevard-2",
+          "boundary": [
+            [
+              49.844043519378424,
+              40.36943889267731
+            ],
+            [
+              49.844126603470876,
+              40.36929010073621
+            ],
+            [
+              49.843475589518505,
+              40.36907910946731
+            ],
+            [
+              49.84339250542606,
+              40.3692279014084
+            ],
+            [
+              49.844043519378424,
+              40.36943889267731
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "rowDirection": [
+            0.9201954934811407,
+            -0.3914591342362571
+          ],
+          "frontReference": [
+            49.843598002046484,
+            40.369548318735546
+          ]
+        },
+        {
+          "surfaceId": "roaming-boulevard-3",
+          "boundary": [
+            [
+              49.85086870326146,
+              40.37167309283829
+            ],
+            [
+              49.850887789713184,
+              40.371638955304626
+            ],
+            [
+              49.85074615075942,
+              40.37159197542751
+            ],
+            [
+              49.85074511862812,
+              40.371591586357646
+            ],
+            [
+              49.850744141235296,
+              40.37159112243998
+            ],
+            [
+              49.85074322790338,
+              40.37159058809937
+            ],
+            [
+              49.85074238734376,
+              40.37158998843239
+            ],
+            [
+              49.85074162757372,
+              40.37158932915869
+            ],
+            [
+              49.850740955839974,
+              40.371588616566434
+            ],
+            [
+              49.85074037854956,
+              40.37158785745236
+            ],
+            [
+              49.850739901208684,
+              40.371587059056935
+            ],
+            [
+              49.85073952837024,
+              40.37158622899528
+            ],
+            [
+              49.85073926359039,
+              40.37158537518455
+            ],
+            [
+              49.8507391093946,
+              40.37158450576844
+            ],
+            [
+              49.850739067253606,
+              40.37158362903946
+            ],
+            [
+              49.85073913756934,
+              40.371582753359895
+            ],
+            [
+              49.850739319671135,
+              40.37158188708201
+            ],
+            [
+              49.8507396118221,
+              40.371581038468385
+            ],
+            [
+              49.85074001123568,
+              40.37158021561314
+            ],
+            [
+              49.850799047664744,
+              40.37147473524342
+            ],
+            [
+              49.85030099078998,
+              40.37131311055055
+            ],
+            [
+              49.85021781682804,
+              40.37146187334667
+            ],
+            [
+              49.85086870326146,
+              40.37167309283829
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "rowDirection": [
+            0.9200152479439206,
+            -0.3918825634685553
+          ],
+          "frontReference": [
+            49.850423119877505,
+            40.371782362686865
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 18
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual GA ticket confirmed in2026 archived catalog. Approximate Boulevard-side standing ground groups alongT19/main straight, excluding registered reserved seats/facilities/road. Prior promoter wayfinding and2026 ticket descriptions associate roaming with Boulevard, not every street or castle balcony. Exact installation and complete viewing perimeter unverified. Standing1.65m on source terrain."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual GA ticket confirmed in2026 archived catalog. Approximate Boulevard-side standing ground groups alongT19/main straight, excluding registered reserved seats/facilities/road. Prior promoter wayfinding and2026 ticket descriptions associate roaming with Boulevard, not every street or castle balcony. Exact installation and complete viewing perimeter unverified. Standing1.65m on source terrain."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "General Admission Ticket is a separate Thursday–Saturday product in archived2026 catalog; not an assigned grandstand seat. Do not import current2027 product dates."
+      },
+      "description": "滨海Boulevard一侧的近似站立地面，眼高1.65米。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Approximate source-associated Boulevard ground; reserved footprints removed, no forced visibility."
+      },
+      "admissionNote": "2026 Roaming自由观赛近似范围，周四至周六，不含编号看台及演唱会；不保证每点无遮挡。"
+    }
+  ],
+  "beforeZones": [],
+  "sourceUrl": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+  "sourceSha256": "97161653781870de21ba49bf65cbc466b163ff8addbd1ff60efe3774901dfa0e",
+  "scope": "Ordinary banks named in archived2026 catalog; local footprint/profile estimates associated to organizer schematic and independent landmark/turn descriptions. Not surveyed structures."
+}

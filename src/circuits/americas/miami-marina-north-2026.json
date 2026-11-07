@@ -1,0 +1,230 @@
+{
+  "circuitId": "miami",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "marina-north",
+      "name": "Marina North",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -80.24483860472552,
+          25.957270742785237
+        ],
+        [
+          -80.24510735668959,
+          25.95689212366603
+        ],
+        [
+          -80.24524211055582,
+          25.956969447416363
+        ],
+        [
+          -80.24497335859175,
+          25.95734806653557
+        ],
+        [
+          -80.24483860472552,
+          25.957270742785237
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "marina-north-1",
+          "boundary": [
+            [
+              -80.24483860472552,
+              25.957270742785237
+            ],
+            [
+              -80.24510735668959,
+              25.95689212366603
+            ],
+            [
+              -80.24524211055582,
+              25.956969447416363
+            ],
+            [
+              -80.24497335859175,
+              25.95734806653557
+            ],
+            [
+              -80.24483860472552,
+              25.957270742785237
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.63,
+          "eyeHeight": 1.2,
+          "rows": 15,
+          "frontReference": [
+            -80.24467820662517,
+            25.956912287521785
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -80.24483860472552,
+                25.957270742785237
+              ],
+              [
+                -80.24510735668959,
+                25.95689212366603
+              ]
+            ],
+            "back": [
+              [
+                -80.24497335859175,
+                25.95734806653557
+              ],
+              [
+                -80.24524211055582,
+                25.956969447416363
+              ]
+            ],
+            "source": {
+              "url": "https://s40320.pcdn.co/wp-content/uploads/2026/07/260503_F1MGP_AS2100-11-1200x800.webp",
+              "checkedAt": "2026-11-06",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter photo shows Marina outer T6-T7 seating banks. Author approximate50x16m north band,35m road offset,15rows/base2.2m/rise7.63m. Actual road tangent defines front, original map sector defines outer side. Not a photo homography, surveyed full footprint or measured roof/seat heights."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 7.63,
+        "depth": 16,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://s40320.pcdn.co/wp-content/uploads/2026/07/260503_F1MGP_AS2100-11-1200x800.webp",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter photo shows Marina outer T6-T7 seating banks. Author approximate50x16m north band,35m road offset,15rows/base2.2m/rise7.63m. Actual road tangent defines front, original map sector defines outer side. Not a photo homography, surveyed full footprint or measured roof/seat heights."
+      },
+      "openingSource": {
+        "url": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+      },
+      "surfaceSource": {
+        "url": "https://s40320.pcdn.co/wp-content/uploads/2026/07/260503_F1MGP_AS2100-11-1200x800.webp",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter photo shows Marina outer T6-T7 seating banks. Author approximate50x16m north band,35m road offset,15rows/base2.2m/rise7.63m. Actual road tangent defines front, original map sector defines outer side. Not a photo homography, surveyed full footprint or measured roof/seat heights."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "2026 named outer seating sector with explicit approximate road-facing bank; no fitted photo coordinates."
+      },
+      "description": "Marina North近似座席范围与高度；未完整还原顶棚。"
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "marina-north",
+      "name": "Marina North",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -80.2454009299305,
+          25.957368975108423
+        ],
+        [
+          -80.24501963200407,
+          25.957242658805793
+        ],
+        [
+          -80.24507816986906,
+          25.95709981398895
+        ],
+        [
+          -80.24545946779548,
+          25.957226130291577
+        ],
+        [
+          -80.2454009299305,
+          25.957368975108423
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "marina-north-1",
+          "boundary": [
+            [
+              -80.2454009299305,
+              25.957368975108423
+            ],
+            [
+              -80.24501963200407,
+              25.957242658805793
+            ],
+            [
+              -80.24507816986906,
+              25.95709981398895
+            ],
+            [
+              -80.24545946779548,
+              25.957226130291577
+            ],
+            [
+              -80.2454009299305,
+              25.957368975108423
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.63,
+          "eyeHeight": 1.2,
+          "rows": 15
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 7.63,
+        "depth": 16.95,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://s40320.pcdn.co/wp-content/uploads/2025/10/F1_-Interactive-Map_Updated_Discovery_2-scaled-e1779901726996.jpg",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "人工读取undated current organizer diagram; 2026 names checked separately图面位置；T6/T7局部两点配准，沿线0.565m/px、横向0.565m/px。示意矩形非工程尺寸；可能有数十米误差。"
+      },
+      "openingSource": {
+        "url": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+      },
+      "surfaceSource": {
+        "url": "https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "座席带、高度、坡度、阶梯行数和围网均为估计；不能保证真实座位的遮挡和距离。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "marina-north-1: unresolved diagram bearing (79.7 degrees)",
+          "marina-north-1: no road across either seating face"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    }
+  ]
+}

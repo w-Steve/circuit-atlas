@@ -1,0 +1,182 @@
+{
+  "generatedSha256": "79b324ff178a6cf06e01ad2aac45bef4020e0a68b9014a3e296a10563134b5a6",
+  "circuitId": "madrid",
+  "season": 2026,
+  "status": "candidate-not-applied",
+  "source": {
+    "url": "https://web.archive.org/web/20260607132314id_/https://www.madring.com/img/mapa-recta-principal/mapa-_1.svg",
+    "cdx": {
+      "urlkey": "com,madring)/img/mapa-recta-principal/mapa-_1.svg",
+      "timestamp": "20260607132314",
+      "original": "https://www.madring.com/img/mapa-recta-principal/mapa-_1.svg",
+      "mimetype": "image/svg+xml",
+      "statuscode": "200",
+      "digest": "FXU6R575KQGRUQ7XOW7PFCL6RGH7F76O",
+      "length": "62722"
+    },
+    "sha256": "d38ea7265618c3ed0dd4ffee4ab1c523326394d7998e749bc003a550b6136700",
+    "cdxSha1Matches": false
+  },
+  "sourcePage": {
+    "cdx": {
+      "urlkey": "com,madring)/en/tickets",
+      "timestamp": "20260607132312",
+      "original": "https://www.madring.com/en/tickets",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "G2CHVNKDMUN6SEPDSPWHLDGT5WGXOBV4",
+      "length": "29258"
+    },
+    "url": "https://web.archive.org/web/20260607132312id_/https://www.madring.com/en/tickets",
+    "sha256": "693a0e3da4f5edd326ad55c0da40d2f16d61151ce23d207e2cb17c2799911316"
+  },
+  "registration": {
+    "method": "Orientation-preserving similarity fit of full authored SVG road and current GIS,1000 normalized arc-length samples, both traversal directions. No clearance or visibility optimization.",
+    "rmsMetres": 7.816807416412886,
+    "scaleMetresPerPixel": 2.1801633800350406,
+    "rotation": [
+      [
+        -0.01181498933095422,
+        -0.9999302005775745
+      ],
+      [
+        0.9999302005775741,
+        -0.011814989330953596
+      ]
+    ],
+    "translation": [
+      -874.6382890893707,
+      386.7276190122601
+    ],
+    "reverse": true,
+    "offset": 449
+  },
+  "areas": [
+    {
+      "zoneId": "stand-2",
+      "sourceElementIndex": 662,
+      "sourcePath": "M167.201 406.911L155.559 408.799L160.159 437.172L171.802 435.285L167.201 406.911Z",
+      "sourcePixelBoundary": [
+        [
+          167.201,
+          406.911
+        ],
+        [
+          155.559,
+          408.799
+        ],
+        [
+          160.159,
+          437.172
+        ],
+        [
+          171.802,
+          435.285
+        ],
+        [
+          167.201,
+          406.911
+        ]
+      ],
+      "candidateBoundary": [
+        [
+          -3.6167903029200934,
+          40.46507165084447
+        ],
+        [
+          -3.616737752869162,
+          40.46484230361045
+        ],
+        [
+          -3.616003068845706,
+          40.4649397146247
+        ],
+        [
+          -3.616055593259709,
+          40.465169081829735
+        ],
+        [
+          -3.6167903029200934,
+          40.46507165084447
+        ]
+      ],
+      "areaMetres2": 1611.40926761616,
+      "roadIntersectionMetres2": 0.0,
+      "roadClearanceMetres": 5.957124044776076,
+      "otherZoneIntersections": []
+    },
+    {
+      "zoneId": "stand-1",
+      "sourceElementIndex": 666,
+      "sourcePath": "M172.341 437.172L160.698 439.06L185.965 594.886L197.607 592.998L172.341 437.172Z",
+      "sourcePixelBoundary": [
+        [
+          172.341,
+          437.172
+        ],
+        [
+          160.698,
+          439.06
+        ],
+        [
+          185.965,
+          594.886
+        ],
+        [
+          197.607,
+          592.998
+        ],
+        [
+          172.341,
+          437.172
+        ]
+      ],
+      "candidateBoundary": [
+        [
+          -3.6160068031554293,
+          40.46518016059061
+        ],
+        [
+          -3.615954252797955,
+          40.46495079361879
+        ],
+        [
+          -3.611919330805886,
+          40.46548585025879
+        ],
+        [
+          -3.6119718808568173,
+          40.4657151974928
+        ],
+        [
+          -3.6160068031554293,
+          40.46518016059061
+        ]
+      ],
+      "areaMetres2": 8849.854878519773,
+      "roadIntersectionMetres2": 0.0,
+      "roadClearanceMetres": 5.253962928943196,
+      "otherZoneIntersections": []
+    }
+  ],
+  "nextAction": "Review local road residual and source bank identity, then resolve genuine bank conflicts. Do not apply if roads or other banks intersect.",
+  "limitations": [
+    "SVG replay bytes do not match CDX SHA1; source response hash retained without original-capture certification.",
+    "June2026 ticket diagram may predate September layout revisions. Cross-check against dated final venue map before promotion.",
+    "Similarity residual is internal agreement, not survey precision. No height or row-count evidence is derived from diagram."
+  ],
+  "scenePreview": {
+    "checkedAt": "2026-10-26",
+    "photoCases": 6,
+    "seatedEyeMetres": 1.2,
+    "viewports": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "evidence": "artifacts/goal-review/madrid-main",
+    "result": "Six real-pass saved photographs and continuous keyboard selection cases passed after normalizing the source closing vertex.",
+    "productionApplied": false,
+    "remaining": "Cross-check June vector boundaries/product identities against final2026 source before production migration; mouse/touch drag and all-position visibility not certified."
+  }
+}

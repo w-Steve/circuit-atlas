@@ -1,0 +1,41 @@
+{
+  "circuitId": "austin",
+  "season": 2026,
+  "checkedAt": "2026-10-26",
+  "status": "accepted-local-approximate-ground",
+  "inventoryComplete": false,
+  "groundSource": "src/circuits/americas/austin-ground-2026.json",
+  "sources": {
+    "groundOutline": "https://circuitoftheamericas.com/wp-content/uploads/2026-COTA-Map_Seating_GA.jpg",
+    "annualFanGuide": "https://circuitoftheamericas.com/wp-content/uploads/2026-USGP-Fan-Guide_r6_B.jpg",
+    "annualTicketMap": {
+      "url": "https://gdx-assets.costco.com/adobe/assets/urn%3Aaaid%3Aaem%3A1d892b91-5580-4fc9-8a35-50f6d964af74/original/as/4201013765-SeatMap.pdf",
+      "sha256": "d0b0dec41b783446b938d38a9de6a470ba160a2aaa7799eb08c4e7ed6b1ac0f7",
+      "ticketProduct": "https://www.costco.com/p/-/f1-circuit-of-the-americas---one-3-day-ga-pass-evoucher/4201013765",
+      "ticketDates": "2026-10-23/2026-10-25",
+      "checkedAt": "2026-10-26"
+    },
+    "concertAccess": "https://circuitoftheamericas.com/event/f1/know-before-you-go/"
+  },
+  "scope": "Eight patches of one GA product, excluding overlapping concert-only land. Existing eight stand records unchanged; Turn4 remains unavailable.",
+  "precision": "Schematic registration about17m global affine residual; computed T2-T3 road clearance0.09m is not surveyed accuracy or a safety claim. Regional DEM retained, no visibility-driven relocation.",
+  "validation": {
+    "unitTests": 325,
+    "standingSamples": 72,
+    "photoCases": 24,
+    "settledMouseTouchCases": 3,
+    "referenceCompatibility": "Eight meshes and72 eyes/bearings unchanged after metadata-only reference addition.",
+    "sourceApplyReplay": "byte-stable",
+    "productionBuild": "passed"
+  },
+  "remaining": [
+    "Complete annual public-ticket inventory, grandstand cross-sections and physical obstructions are not certified.",
+    "Real mobile hardware/Safari validation remains outstanding."
+  ],
+  "excludedSources": [
+    {
+      "url": "https://pam.co/terms/",
+      "reason": "Clause4(b)(iv) restricts copying/export/extraction for other uses. No PAM coordinates, map features, tiles, POIs or client code are used in this model."
+    }
+  ]
+}

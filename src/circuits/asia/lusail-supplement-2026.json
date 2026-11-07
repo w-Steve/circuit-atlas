@@ -1,0 +1,882 @@
+{
+  "circuitId": "lusail",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "t16",
+      "name": "T16",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          51.454647126319834,
+          25.485132144390583
+        ],
+        [
+          51.45419207519964,
+          25.484333252990677
+        ],
+        [
+          51.45435137572562,
+          25.48425931362265
+        ],
+        [
+          51.45480642684581,
+          25.48505820502256
+        ],
+        [
+          51.454647126319834,
+          25.485132144390583
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "t16-1",
+          "boundary": [
+            [
+              51.454647126319834,
+              25.485132144390583
+            ],
+            [
+              51.45419207519964,
+              25.484333252990677
+            ],
+            [
+              51.45435137572562,
+              25.48425931362265
+            ],
+            [
+              51.45480642684581,
+              25.48505820502256
+            ],
+            [
+              51.454647126319834,
+              25.485132144390583
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 9.2,
+          "eyeHeight": 1.2,
+          "rows": 22,
+          "frontReference": [
+            51.4541895,
+            25.4848395
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                51.454647126319834,
+                25.485132144390583
+              ],
+              [
+                51.45419207519964,
+                25.484333252990677
+              ]
+            ],
+            "back": [
+              [
+                51.45480642684581,
+                25.48505820502256
+              ],
+              [
+                51.45435137572562,
+                25.48425931362265
+              ]
+            ],
+            "source": {
+              "url": "https://www.lcsc.qa/sites/default/files/2026-08/eventmap.png",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer named T16 location outside entry to final turn; author approximation100x18m,26m front offset,22rows/base2.2m/rise9.2m. Replaces unidentified entire apron/building envelope, not surveyed installed seats."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 9.2,
+        "depth": 18,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.lcsc.qa/sites/default/files/2026-08/eventmap.png",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer named T16 location outside entry to final turn; author approximation100x18m,26m front offset,22rows/base2.2m/rise9.2m. Replaces unidentified entire apron/building envelope, not surveyed installed seats."
+      },
+      "openingSource": {
+        "url": "https://www.lcsc.qa/faq/formula-1r-qatar-airways-qatar-grand-prix-2026",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+      },
+      "surfaceSource": {
+        "url": "https://www.lcsc.qa/sites/default/files/2026-08/eventmap.png",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer named T16 location outside entry to final turn; author approximation100x18m,26m front offset,22rows/base2.2m/rise9.2m. Replaces unidentified entire apron/building envelope, not surveyed installed seats."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Explicit independent author approximation tied to actual last-turn approach and named event map."
+      },
+      "description": "T16入弯外侧近似座席；范围、排数和高度估计。"
+    },
+    {
+      "zoneId": "lusail-hill",
+      "name": "Lusail Hill 普通观赛区",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          51.44706893753678,
+          25.494900787520816
+        ],
+        [
+          51.44734447412125,
+          25.49448196172714
+        ],
+        [
+          51.447685077663984,
+          25.49448196172714
+        ],
+        [
+          51.447685077663984,
+          25.49506242679971
+        ],
+        [
+          51.4476305213393,
+          25.49505737815552
+        ],
+        [
+          51.44706893753678,
+          25.494900787520816
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 0,
+        "eyeHeight": 1.65
+      },
+      "surfaces": [
+        {
+          "surfaceId": "lusail-hill-1",
+          "boundary": [
+            [
+              51.44706893753678,
+              25.494900787520816
+            ],
+            [
+              51.44734447412125,
+              25.49448196172714
+            ],
+            [
+              51.447685077663984,
+              25.49448196172714
+            ],
+            [
+              51.447685077663984,
+              25.49506242679971
+            ],
+            [
+              51.4476305213393,
+              25.49505737815552
+            ],
+            [
+              51.44706893753678,
+              25.494900787520816
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "terrainFollow": true,
+          "frontReference": [
+            51.447875684643506,
+            25.493332928923156
+          ],
+          "terrainMeshSpacingMetres": 2
+        },
+        {
+          "surfaceId": "lusail-hill-2",
+          "boundary": [
+            [
+              51.44741087253106,
+              25.494381033689802
+            ],
+            [
+              51.447685077663984,
+              25.49444071066088
+            ],
+            [
+              51.447685077663984,
+              25.49448196172714
+            ],
+            [
+              51.44734447412125,
+              25.49448196172714
+            ],
+            [
+              51.44741087253106,
+              25.494381033689802
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "terrainFollow": true,
+          "frontReference": [
+            51.447875684643506,
+            25.493332928923156
+          ],
+          "terrainMeshSpacingMetres": 2
+        },
+        {
+          "surfaceId": "lusail-hill-3",
+          "boundary": [
+            [
+              51.447995944312055,
+              25.494508366505855
+            ],
+            [
+              51.44804175537789,
+              25.49448196172714
+            ],
+            [
+              51.44866652163934,
+              25.49448196172714
+            ],
+            [
+              51.44824399483465,
+              25.495114149014203
+            ],
+            [
+              51.447685077663984,
+              25.49506242679971
+            ],
+            [
+              51.447685077663984,
+              25.49448196172714
+            ],
+            [
+              51.44787461902146,
+              25.49448196172714
+            ],
+            [
+              51.447995944312055,
+              25.494508366505855
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "terrainFollow": true,
+          "frontReference": [
+            51.447875684643506,
+            25.493332928923156
+          ],
+          "terrainMeshSpacingMetres": 2
+        },
+        {
+          "surfaceId": "lusail-hill-4",
+          "boundary": [
+            [
+              51.44787461902146,
+              25.49448196172714
+            ],
+            [
+              51.447685077663984,
+              25.49448196172714
+            ],
+            [
+              51.447685077663984,
+              25.49444071066088
+            ],
+            [
+              51.44787461902146,
+              25.49448196172714
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "terrainFollow": true,
+          "frontReference": [
+            51.447875684643506,
+            25.493332928923156
+          ],
+          "terrainMeshSpacingMetres": 2
+        },
+        {
+          "surfaceId": "lusail-hill-5",
+          "boundary": [
+            [
+              51.448661830990154,
+              25.494124559884852
+            ],
+            [
+              51.448683038831994,
+              25.494133365227682
+            ],
+            [
+              51.448683038831994,
+              25.494457248598657
+            ],
+            [
+              51.44866652163934,
+              25.49448196172714
+            ],
+            [
+              51.44804175537789,
+              25.49448196172714
+            ],
+            [
+              51.448661830990154,
+              25.494124559884852
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "terrainFollow": true,
+          "frontReference": [
+            51.447875684643506,
+            25.493332928923156
+          ],
+          "terrainMeshSpacingMetres": 2
+        },
+        {
+          "surfaceId": "lusail-hill-6",
+          "boundary": [
+            [
+              51.448852487151925,
+              25.494203718946842
+            ],
+            [
+              51.448683038831994,
+              25.494457248598657
+            ],
+            [
+              51.448683038831994,
+              25.494133365227682
+            ],
+            [
+              51.448852487151925,
+              25.494203718946842
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "terrainFollow": true,
+          "frontReference": [
+            51.447875684643506,
+            25.493332928923156
+          ],
+          "terrainMeshSpacingMetres": 2
+        }
+      ],
+      "source": {
+        "url": "https://www.lcsc.qa/sites/default/files/2026-08/eventmap.png",
+        "checkedAt": "2026-10-25",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official event map linked from the organizer 2026 Grand Prix page. Hill viewing footprint manually traced separately from the surrounding blue Fan Zone and gold Hill Lounge. Piecewise-affine registration to 16 sourced turn coordinates, with affine continuation outside the hull. Schematic 3D artwork is not a survey; local placement may differ by tens of metres. Known road+0.75m and structure/pit+0.5m exclusions. 100m patches are computational partitions, not ticket sectors."
+      },
+      "openingSource": {
+        "url": "https://www.lcsc.qa/faq/formula-1r-qatar-airways-qatar-grand-prix-2026",
+        "checkedAt": "2026-10-25",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Organizer explicitly identifies General Admission Lusail Hill as the elevated Turn1 viewing area for 27–29 November2026. Ordinary public GA, not the separately sold Hill Lounge hospitality product."
+      },
+      "surfaceSource": {
+        "url": "https://www.lcsc.qa/sites/default/files/2026-08/eventmap.png",
+        "checkedAt": "2026-10-25",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Source GEDTM30 true-scale terrain with standing-eye1.65m and0.04m clearance. Approximate mapped Hill footprint;30m terrain does not resolve local terraces. Ground may occlude track, no eye/ground raised to force visibility."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "User-approved approximate existing source map patches and source DEM, uncertainty retained in description/source. No sightline-driven changes."
+      },
+      "description": "近似Hill普通观赛范围，站姿1.65m；粗地形和土坡可能遮挡，非Hill Lounge。"
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "t16",
+      "name": "T16",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          51.4533499,
+          25.4826532
+        ],
+        [
+          51.4532368,
+          25.4826266
+        ],
+        [
+          51.4532715,
+          25.4825105
+        ],
+        [
+          51.4534982,
+          25.4825626
+        ],
+        [
+          51.4536016,
+          25.4827445
+        ],
+        [
+          51.4536747,
+          25.4827095
+        ],
+        [
+          51.4541226,
+          25.4834718
+        ],
+        [
+          51.4539978,
+          25.4835316
+        ],
+        [
+          51.4540057,
+          25.483545
+        ],
+        [
+          51.4539364,
+          25.4835751
+        ],
+        [
+          51.4534303,
+          25.4827133
+        ],
+        [
+          51.4534184,
+          25.4826909
+        ],
+        [
+          51.4534,
+          25.4826725
+        ],
+        [
+          51.4533765,
+          25.4826595
+        ],
+        [
+          51.4533499,
+          25.4826532
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "t16-1",
+          "boundary": [
+            [
+              51.4533499,
+              25.4826532
+            ],
+            [
+              51.4532368,
+              25.4826266
+            ],
+            [
+              51.4532715,
+              25.4825105
+            ],
+            [
+              51.4534982,
+              25.4825626
+            ],
+            [
+              51.4536016,
+              25.4827445
+            ],
+            [
+              51.4536747,
+              25.4827095
+            ],
+            [
+              51.4541226,
+              25.4834718
+            ],
+            [
+              51.4539978,
+              25.4835316
+            ],
+            [
+              51.4540057,
+              25.483545
+            ],
+            [
+              51.4539364,
+              25.4835751
+            ],
+            [
+              51.4534303,
+              25.4827133
+            ],
+            [
+              51.4534184,
+              25.4826909
+            ],
+            [
+              51.4534,
+              25.4826725
+            ],
+            [
+              51.4533765,
+              25.4826595
+            ],
+            [
+              51.4533499,
+              25.4826532
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 14.49,
+          "eyeHeight": 1.2,
+          "rows": 29
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 14.49,
+        "depth": 32.2,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.openstreetmap.org/way/1568200891",
+        "checkedAt": "2026-10-23",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "具名/对照场馆图确认的OSM看台建筑轮廓；way/1568200891。非精确售票边界。"
+      },
+      "openingSource": {
+        "url": "https://www.lcsc.qa/faq/formula-1r-qatar-airways-qatar-grand-prix-2026",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+      },
+      "surfaceSource": {
+        "url": "https://www.lcsc.qa/faq/formula-1r-qatar-airways-qatar-grand-prix-2026",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "t16-1: no road across either seating face"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "lusail-hill",
+      "name": "Lusail Hill 普通观赛区",
+      "kind": "general-admission",
+      "availability": "preparing",
+      "boundary": [
+        [
+          51.44706893753678,
+          25.494900787520816
+        ],
+        [
+          51.44734447412125,
+          25.49448196172714
+        ],
+        [
+          51.447685077663984,
+          25.49448196172714
+        ],
+        [
+          51.447685077663984,
+          25.49506242679971
+        ],
+        [
+          51.4476305213393,
+          25.49505737815552
+        ],
+        [
+          51.44706893753678,
+          25.494900787520816
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "lusail-hill-1",
+          "boundary": [
+            [
+              51.44706893753678,
+              25.494900787520816
+            ],
+            [
+              51.44734447412125,
+              25.49448196172714
+            ],
+            [
+              51.447685077663984,
+              25.49448196172714
+            ],
+            [
+              51.447685077663984,
+              25.49506242679971
+            ],
+            [
+              51.4476305213393,
+              25.49505737815552
+            ],
+            [
+              51.44706893753678,
+              25.494900787520816
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "eyeHeight": 1.2,
+          "rows": 0,
+          "terrainFollow": true,
+          "frontReference": [
+            51.447875684643506,
+            25.493332928923156
+          ]
+        },
+        {
+          "surfaceId": "lusail-hill-2",
+          "boundary": [
+            [
+              51.44741087253106,
+              25.494381033689802
+            ],
+            [
+              51.447685077663984,
+              25.49444071066088
+            ],
+            [
+              51.447685077663984,
+              25.49448196172714
+            ],
+            [
+              51.44734447412125,
+              25.49448196172714
+            ],
+            [
+              51.44741087253106,
+              25.494381033689802
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "eyeHeight": 1.2,
+          "rows": 0,
+          "terrainFollow": true,
+          "frontReference": [
+            51.447875684643506,
+            25.493332928923156
+          ]
+        },
+        {
+          "surfaceId": "lusail-hill-3",
+          "boundary": [
+            [
+              51.447995944312055,
+              25.494508366505855
+            ],
+            [
+              51.44804175537789,
+              25.49448196172714
+            ],
+            [
+              51.44866652163934,
+              25.49448196172714
+            ],
+            [
+              51.44824399483465,
+              25.495114149014203
+            ],
+            [
+              51.447685077663984,
+              25.49506242679971
+            ],
+            [
+              51.447685077663984,
+              25.49448196172714
+            ],
+            [
+              51.44787461902146,
+              25.49448196172714
+            ],
+            [
+              51.447995944312055,
+              25.494508366505855
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "eyeHeight": 1.2,
+          "rows": 0,
+          "terrainFollow": true,
+          "frontReference": [
+            51.447875684643506,
+            25.493332928923156
+          ]
+        },
+        {
+          "surfaceId": "lusail-hill-4",
+          "boundary": [
+            [
+              51.44787461902146,
+              25.49448196172714
+            ],
+            [
+              51.447685077663984,
+              25.49448196172714
+            ],
+            [
+              51.447685077663984,
+              25.49444071066088
+            ],
+            [
+              51.44787461902146,
+              25.49448196172714
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "eyeHeight": 1.2,
+          "rows": 0,
+          "terrainFollow": true,
+          "frontReference": [
+            51.447875684643506,
+            25.493332928923156
+          ]
+        },
+        {
+          "surfaceId": "lusail-hill-5",
+          "boundary": [
+            [
+              51.448661830990154,
+              25.494124559884852
+            ],
+            [
+              51.448683038831994,
+              25.494133365227682
+            ],
+            [
+              51.448683038831994,
+              25.494457248598657
+            ],
+            [
+              51.44866652163934,
+              25.49448196172714
+            ],
+            [
+              51.44804175537789,
+              25.49448196172714
+            ],
+            [
+              51.448661830990154,
+              25.494124559884852
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "eyeHeight": 1.2,
+          "rows": 0,
+          "terrainFollow": true,
+          "frontReference": [
+            51.447875684643506,
+            25.493332928923156
+          ]
+        },
+        {
+          "surfaceId": "lusail-hill-6",
+          "boundary": [
+            [
+              51.448852487151925,
+              25.494203718946842
+            ],
+            [
+              51.448683038831994,
+              25.494457248598657
+            ],
+            [
+              51.448683038831994,
+              25.494133365227682
+            ],
+            [
+              51.448852487151925,
+              25.494203718946842
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "eyeHeight": 1.2,
+          "rows": 0,
+          "terrainFollow": true,
+          "frontReference": [
+            51.447875684643506,
+            25.493332928923156
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.lcsc.qa/sites/default/files/2026-08/eventmap.png",
+        "checkedAt": "2026-10-25",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official event map linked from the organizer 2026 Grand Prix page. Hill viewing footprint manually traced separately from the surrounding blue Fan Zone and gold Hill Lounge. Piecewise-affine registration to 16 sourced turn coordinates, with affine continuation outside the hull. Schematic 3D artwork is not a survey; local placement may differ by tens of metres. Known road+0.75m and structure/pit+0.5m exclusions. 100m patches are computational partitions, not ticket sectors."
+      },
+      "openingSource": {
+        "url": "https://www.lcsc.qa/faq/formula-1r-qatar-airways-qatar-grand-prix-2026",
+        "checkedAt": "2026-10-25",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Organizer explicitly identifies General Admission Lusail Hill as the elevated Turn1 viewing area for 27–29 November2026. Ordinary public GA, not the separately sold Hill Lounge hospitality product."
+      },
+      "surfaceSource": {
+        "url": "https://www.lcsc.qa/sites/default/files/2026-08/eventmap.png",
+        "checkedAt": "2026-10-25",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Regional GEDTM30 v1.2 terrain at true vertical scale; no invented hill height or exaggerated grade. 0.04m mesh clearance and seated eye1.2m. The ~30m predicted terrain cannot resolve constructed terraces or individual viewing platforms; their precise geometry remains unavailable."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-25",
+        "issues": [
+          "Source-map registration has unresolved tens-of-metres uncertainty; constructed Hill terraces and retaining-wall elevations are not independently validated. Standing-eye photos retain partial ground occlusion, which alone does not prove a model error."
+        ],
+        "method": "Candidate only: source-ground patches exclude known roads, pit lanes and recorded structures. Planar clearance does not certify a usable viewing elevation. No terrain flattened, eye raised or boundary trimmed to pass sightline tests."
+      }
+    }
+  ]
+}

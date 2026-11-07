@@ -1,0 +1,149 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "zoneId": "woodcote-c",
+  "checkedAt": "2026-10-28",
+  "annualIdentityVerified": true,
+  "annualMap": {
+    "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+    "publisher": "Silverstone",
+    "title": "2026_F1_GB_WayfindingMap_Positive_AWVI",
+    "sha256": "3516fbf5bdab374c4a4f53b8a975cbd9ea0714408bd11f6be3c198f05f3e336c",
+    "drawingIndex": 197,
+    "mapPolygon": [
+      [
+        201.34689331054688,
+        413.5636291503906
+      ],
+      [
+        197.49288940429688,
+        384.5576171875
+      ],
+      [
+        210.11090087890625,
+        382.6866149902344
+      ],
+      [
+        213.9648895263672,
+        411.692626953125
+      ]
+    ]
+  },
+  "osmSnapshot": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.022,52.0770,-1.017,52.0805",
+    "status": 200,
+    "sha256": "4cf97cd152609aeea604537a2b109454f82eb4e4efe1d1b36ca8f1972998a3a9",
+    "checkedAt": "2026-10-28"
+  },
+  "namedNativeFootprintFound": false,
+  "registration": {
+    "controlWays": [
+      227342452,
+      227342459
+    ],
+    "mapControls": [
+      [
+        195.95849609375,
+        369.45452880859375
+      ],
+      [
+        191.0435028076172,
+        322.3725280761719
+      ],
+      [
+        203.73049926757812,
+        321.04852294921875
+      ],
+      [
+        208.64549255371094,
+        368.1305236816406
+      ],
+      [
+        230.83489990234375,
+        452.3677062988281
+      ],
+      [
+        204.45089721679688,
+        422.1357116699219
+      ],
+      [
+        214.06190490722656,
+        413.7477111816406
+      ],
+      [
+        240.44589233398438,
+        443.980712890625
+      ]
+    ],
+    "metricControls": [
+      [
+        -198.15681811893594,
+        -55.635916782559036
+      ],
+      [
+        -104.09646623503887,
+        -63.41693035415906
+      ],
+      [
+        -103.0839611743944,
+        -51.14986747072953
+      ],
+      [
+        -197.14431305829146,
+        -43.39111717062056
+      ],
+      [
+        -353.7678999395322,
+        23.32077744251806
+      ],
+      [
+        -284.52076329186133,
+        -31.246502283160137
+      ],
+      [
+        -273.1437638604119,
+        -16.196530396118515
+      ],
+      [
+        -340.92003166998956,
+        37.60266644453111
+      ]
+    ],
+    "mapToMetric": [
+      [
+        -0.3383946615494618,
+        1.7235617014479936
+      ],
+      [
+        -1.7975663686234644,
+        0.18184568742698848
+      ],
+      [
+        539.1280572424628,
+        -459.70422076588795
+      ]
+    ],
+    "internalRmsMetres": 6.185971304458215,
+    "heldOutWay": 227342450,
+    "heldOutMapCentroid": [
+      253.9439061060627,
+      464.2431222103283
+    ],
+    "heldOutActualMetricCentroid": [
+      -383.70036816328064,
+      84.29852414534126
+    ],
+    "externalErrorMetres": 22.02391763795412,
+    "projectedWidthMetres": 21.426850200090293,
+    "outsideControlHullMapUnits": [
+      1.7002029761799713,
+      0.8888058151514346,
+      0.0,
+      0.0
+    ]
+  },
+  "geometryAccepted": false,
+  "runtimeBoundaryPromoted": false,
+  "requiredWork": "Obtain an independent geographic footprint or reliable registration controls with external accuracy. The annual name and approximate icon do not certify a selectable seating plane.",
+  "limits": "OSM supplies exact coordinates for named A/B/National stands, not a currently named C footprint in this bbox. Nearby anonymous buildings and bleachers are not silently renamed. No guessed position is shifted, cropped or raised to pass geometry tests. Existing C road intersection remains unresolved."
+}

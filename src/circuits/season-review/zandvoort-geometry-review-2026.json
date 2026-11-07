@@ -1,0 +1,208 @@
+{
+  "circuitId": "zandvoort",
+  "season": 2026,
+  "checkedAt": "2026-10-28",
+  "generatedSha256": "3fb37fe84ace5632b241b5b6394735dd0420005f802b1b4e406a3d65ccdff450",
+  "nativeSnapshot": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=4.535,52.382,4.552,52.395",
+    "status": 200,
+    "sha256": "f784669841057cf1d2fdfdadf2e8fc288a1d99ba9eabd66dc443353075060976",
+    "checkedAt": "2026-10-28"
+  },
+  "nativeGrandstandObjects": [
+    {
+      "way": 52473180,
+      "tags": {
+        "building": "grandstand",
+        "building:use": "main_viewing_box",
+        "name": "Hoofdtribune",
+        "ref:bag": "0473100000001448",
+        "source": "BAG",
+        "source:date": "2021-09-05",
+        "start_date": "2002"
+      }
+    }
+  ],
+  "heldAreas": [],
+  "runtimeApplied": false,
+  "scope": "Current rendered road against four retained schematic footprints. Native bbox query is not evidence that temporary stands do not exist.",
+  "requiredEvidence": "Recover independently tied temporary stand boundaries/fronts from annual organizer geography or licensed orthophotos. Do not treat the named permanent main stand as a template for the four temporary products.",
+  "orthophotoReview": {
+    "url": "https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=2026_orthoHR&STYLES=&SRS=EPSG%3A4326&BBOX=4.5375%2C52.3855%2C4.5425%2C52.3910&WIDTH=1000&HEIGHT=1400&FORMAT=image%2Fpng",
+    "status": 200,
+    "sha256": "249e6a73d3ca8a38514be3b402395f258bb61d7eed758101a8f5d6f93909802f",
+    "bbox": [
+      4.5375,
+      52.3855,
+      4.5425,
+      52.391
+    ],
+    "width": 1000,
+    "height": 1400,
+    "layer": "2026_orthoHR",
+    "checkedAt": "2026-10-28",
+    "publisher": "PDOK / Beeldmateriaal Nederland",
+    "sourcePage": "https://www.pdok.nl/-/luchtfoto-2025-nu-beschikbaar-bij-pdok?redirect=%2Fnieuws",
+    "licenceScope": "PDOK states aerial services are freely usable with CC BY attribution; original imagery remains research-only.",
+    "capabilitiesUrl": "https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0?service=WMS&request=GetCapabilities",
+    "capabilitiesSha256": "30e411329dc093e2a06868bdd617517fcdcfb21c51483d6d5d10191488ec0aa6",
+    "reviewedVisually": true,
+    "exactAcquisitionDateVerified": false,
+    "finding": "Main-straight request shows the permanent roofed grandstand and broad unoccupied temporary-event surfaces. This crop provides no installed Ben Pon seating outline to digitize.",
+    "limits": "Layer2026 is not a verified local acquisition date or proof of August2026 event setup. Absence of installed seating in this crop does not cancel any annual ticket product. Arena lies outside this crop and was not checked.",
+    "candidateBoundaryAccepted": false
+  },
+  "arenaOrthophotoReview": {
+    "url": "https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=2026_orthoHR&STYLES=&SRS=EPSG%3A4326&BBOX=4.5405%2C52.3850%2C4.5465%2C52.3885&WIDTH=1400&HEIGHT=1300&FORMAT=image%2Fpng",
+    "status": 200,
+    "sha256": "c5542ebbd1c3cbfa872f98811f8a4b44abb96c3c2fc8e941ff01eae63c249d01",
+    "bbox": [
+      4.5405,
+      52.385,
+      4.5465,
+      52.3885
+    ],
+    "width": 1400,
+    "height": 1300,
+    "layer": "2026_orthoHR",
+    "checkedAt": "2026-10-28",
+    "reviewedVisually": true,
+    "exactAcquisitionDateVerified": false,
+    "targetAreas": [
+      "arena-gold-silver",
+      "arena-gold-silver-nord",
+      "arena-in"
+    ],
+    "finding": "The crop shows circuit pavement, prepared event surfaces and temporary/event structures, but no independently identifiable complete seating boundaries for the three retained Arena products.",
+    "candidateBoundaryAccepted": false,
+    "limits": "Do not infer event cancellation from absent/unassembled seating. This closes the prior crop-coverage gap, not the geometry gap."
+  },
+  "excludedPermitLead": {
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-93866.html",
+    "publicationDate": "2026-03-02",
+    "reason": "Application concerns Strandafgang De Favauge16 beachfront event, not Circuit Zandvoort grandstand construction. Publication says application is not digitally viewable; no circuit seating evidence acquired."
+  },
+  "legacyHeldAreas": [
+    {
+      "zoneId": "ben-pon",
+      "currentBoundary": [
+        [
+          4.53981275688649,
+          52.3873398737553
+        ],
+        [
+          4.540487315630159,
+          52.3884224136096
+        ],
+        [
+          4.540627614980621,
+          52.38836265914608
+        ],
+        [
+          4.5399530562369526,
+          52.38728011929179
+        ],
+        [
+          4.53981275688649,
+          52.3873398737553
+        ]
+      ],
+      "areaMetres2": 1446.7805513301664,
+      "renderedRoadOverlapMetres2": 690.0485134950467,
+      "recordedIssues": [
+        "ben-pon-1: road intersection 690.1339 m2"
+      ]
+    },
+    {
+      "zoneId": "arena-gold-silver",
+      "currentBoundary": [
+        [
+          4.541610276792541,
+          52.38695162840815
+        ],
+        [
+          4.542101012922834,
+          52.38631776749211
+        ],
+        [
+          4.541683536526766,
+          52.38625232191906
+        ],
+        [
+          4.541192800396473,
+          52.3868861828351
+        ],
+        [
+          4.541610276792541,
+          52.38695162840815
+        ]
+      ],
+      "areaMetres2": 2233.836136331326,
+      "renderedRoadOverlapMetres2": 2.3901437615372987,
+      "recordedIssues": [
+        "arena-gold-silver-1: road intersection 2.3859 m2"
+      ]
+    },
+    {
+      "zoneId": "arena-gold-silver-nord",
+      "currentBoundary": [
+        [
+          4.542069007650151,
+          52.38780955462691
+        ],
+        [
+          4.542935216754986,
+          52.38756081118057
+        ],
+        [
+          4.542809427154291,
+          52.38742228832855
+        ],
+        [
+          4.541943218049455,
+          52.38767103177489
+        ],
+        [
+          4.542069007650151,
+          52.38780955462691
+        ]
+      ],
+      "areaMetres2": 1138.823350415947,
+      "renderedRoadOverlapMetres2": 146.8843614341709,
+      "recordedIssues": [
+        "arena-gold-silver-nord-1: road intersection 146.9043 m2"
+      ]
+    },
+    {
+      "zoneId": "arena-in",
+      "currentBoundary": [
+        [
+          4.543794149822464,
+          52.387476513618516
+        ],
+        [
+          4.545305328026539,
+          52.38773369904195
+        ],
+        [
+          4.545317159269948,
+          52.38759177951975
+        ],
+        [
+          4.543805981065873,
+          52.387334594096316
+        ],
+        [
+          4.543794149822464,
+          52.387476513618516
+        ]
+      ],
+      "areaMetres2": 1637.3959226230008,
+      "renderedRoadOverlapMetres2": 972.8189830510983,
+      "recordedIssues": [
+        "arena-in-1: road intersection 973.0240 m2"
+      ]
+    }
+  ],
+  "activeApproximation": "src/circuits/europe/zandvoort-repairs-2026.json"
+}

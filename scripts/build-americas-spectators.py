@@ -2,12 +2,18 @@
 No automatic stand placement/translation. Failed polygons remain withheld.
 Reference artwork is research only; coordinates and assumptions are reproducible.
 """
-import json,math,re,subprocess,sys
+import json,math,re,subprocess,sys,hashlib
 from pathlib import Path
 import numpy as np
 from shapely.geometry import Polygon,box
 root=Path(__file__).resolve().parents[1]
 read=lambda p:json.loads((root/p).read_text(encoding='utf8'))
+# Refuse before any batch writes while a known rejected native association remains.
+identity_path=root/'src/circuits/season-review/mexico-6b-identity-2026.json'
+if identity_path.exists():
+ identity=json.loads(identity_path.read_text('utf8'))
+ if identity['oldAssociationRejected'] and not identity['runtimeReplacementApplied']:
+  raise RuntimeError('Mexico6B old native association rejected; apply accepted replacement before regenerating this batch.')
 sources={
  'miami':'https://f1miamigp.com/news/press-release/tickets-on-sale-now-for-the-return-of-formula-1-to-miami-in-2026/',
  'montreal':'https://gpcanada.ca/wp-content/uploads/2026/05/guide-du-visiteur-2026-en-1.pdf',
@@ -91,11 +97,108 @@ for cid,url in sources.items():
     elif name=='Turn 3':source_url='https://www.f1lasvegasgp.com/app/uploads/2026/07/Website-Maps_2_TURN3GRANDSTAND-1-scaled.jpg'
     elif name=='Lewis Hamilton':source_url='https://www.f1lasvegasgp.com/app/uploads/2026/07/Website-Maps_WH-ZONE_Lewis-Hamilton-Grandstand-Package-2-scaled.jpg'
    add(name,[boundary],source(source_url,'estimated','low',notes))
+ if cid=='montreal':
+  for number in ['1','16','10','21','34','47','31','32','33','17','21a','41a']:
+   path=f'src/circuits/americas/montreal-{number}-2026.json'
+   if not (root/path).exists():continue
+   reviewed=read(path)
+   assert reviewed['circuitId']==data['circuitId']=='montreal' and reviewed['season']==data['season']==2026
+   fingerprint=hashlib.sha256(json.dumps({k:data[k] for k in ['trackGeometry','corners','elevation']},sort_keys=True,separators=(',',':')).encode()).hexdigest()
+   assert fingerprint==reviewed['geometryFingerprint'],'Rebuild sourced Montreal stand after road/terrain changes'
+   assert reviewed['zone']['availability']=='available' and reviewed.get('sceneAcceptance',{}).get('accepted'),'Do not regenerate an unaccepted scene'
+   assert not reviewed.get('profileReview',{}).get('unresolved',False),'Do not regenerate a rejected section profile'
+   assert not reviewed.get('blockingReview',{}).get('unresolved',False),'Do not regenerate conflicting boundaries'
+   index=next((i for i,z in enumerate(zones) if z['zoneId']==f'grandstand-{number}'),None)
+   if index is None:
+    assert reviewed.get('addition') and reviewed['oldZone'] is None,'Only an explicit accepted addition can add a missing product'
+    zones.append(reviewed['zone'])
+   else:zones[index]=reviewed['zone']
  data['dataSources']=[s for s in data['dataSources'] if s.get('notes','')!='2026 spectator references; boundaries, heights and fences remain approximate.']+[source(url,'published','medium','2026 spectator references; boundaries, heights and fences remain approximate.')]
  data['spectatorZones']=zones;data['spectatorZoneIds']=[];data['simulationAvailability']='preparing'
+ if cid=='austin':
+  import importlib.util
+  spec=importlib.util.spec_from_file_location('austin_rows',root/'scripts/apply-austin-row-facts.py')
+  module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+  data=module.apply_facts(data,read('src/circuits/americas/austin-row-facts-2026.json'))
+ if cid=='mexico':
+  import importlib.util
+  spec=importlib.util.spec_from_file_location('mexico_5a',root/'scripts/apply-mexico-5a.py')
+  module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+  data=module.apply(data,read('src/circuits/americas/mexico-5a-2026.json'))
+  spec=importlib.util.spec_from_file_location('mexico_6b',root/'scripts/apply-mexico-6b.py')
+  module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+  data=module.apply(data,read('src/circuits/americas/mexico-6b-2026.json'))
  (root/f'src/circuits/generated/{cid}.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf8')
  review[cid]=dict(openingReference=url,osm=osm.get(cid,{}),diagram=diagrams.get(cid),candidateZones=len(zones),notes='Interlagos temporary sector GIS picks are explicit in build-americas-spectators.py; no automatic shifts or surveyed dimensions claimed.' if cid=='interlagos' else '')
 (root/'src/circuits/americas/review.json').write_text(json.dumps(review,ensure_ascii=False,indent=2),encoding='utf8')
 subprocess.run(['node','node_modules/vite-node/vite-node.mjs','scripts/export-spectator-audit.ts','americas'],cwd=root,check=True)
 subprocess.run([sys.executable,'scripts/audit-europe-spectators.py','americas'],cwd=root,check=True)
 subprocess.run([sys.executable,'scripts/constrain-spectator-footprints.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-austin-t4.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-mexico-supplement.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-interlagos-supplement.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-las-vegas-sphere.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-miami-marina-north.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-montreal-ga-bands.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-montreal-t6-ground.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-interlagos-gramado-bands.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-las-vegas-tmobile-ga.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-las-vegas-flamingo-ga.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-miami-campus.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-mexico-accessible.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-interlagos-gramado-interior.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-montreal-ga-remaining.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-interlagos-t-approx.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-interlagos-grand-prix-club.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-austin-main-tiers.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-austin-t12-rows.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-austin-front-ada.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-austin-t15-ada.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-miami-paseo.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-austin-club-si.py'],cwd=root,check=True)
+subprocess.run([sys.executable,'scripts/sync-circuit-summaries.py','--write'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-mexico-sky-boxes.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-mexico-oro-boxes.py'],cwd=root,check=True)
+
+subprocess.run([sys.executable,'scripts/apply-interlagos-n-k.py'],cwd=root,check=True)

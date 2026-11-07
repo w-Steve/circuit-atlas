@@ -1,0 +1,51 @@
+{
+  "circuitId": "lusail",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "zoneId": "t16",
+  "runtimeApplied": false,
+  "imagery": {
+    "requestUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=51.4515%2C25.4815%2C51.4555%2C25.486&bboxSR=4326&imageSR=4326&size=1200%2C1200&format=png&f=json",
+    "extent": {
+      "xmin": 51.45125000000001,
+      "ymin": 25.481500000000008,
+      "xmax": 51.45575000000001,
+      "ymax": 25.486000000000008,
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      }
+    },
+    "size": [
+      1200,
+      1200
+    ],
+    "sha256": "41c246ee7b02abcbd6cf6064c522a1fad544178a9197c03d96f9eadec80e72b7",
+    "metadataUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/identify?f=json&geometry=51.4536%2C25.483&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=51.4515%2C25.4815%2C51.4555%2C25.486&imageDisplay=1200%2C1200%2C96&returnGeometry=false",
+    "captureDate": "20250924",
+    "resolutionMetres": 0.34,
+    "reportedAccuracyMetres": 8.47,
+    "provider": "Vantor",
+    "observation": "Native1568200891 overlay spans part of the southern approach/access area and only part of the distinguishable dark northern structure. Image alone does not distinguish installed seating floor, incomplete event construction, canopy shadow and access apron with sufficient confidence. No shifted replacement polygon accepted."
+  },
+  "nativeSource": {
+    "url": "https://www.openstreetmap.org/way/1568200891",
+    "tag": "leisure=bleachers",
+    "name": null,
+    "limitation": "Unnamed geographic feature is not independently identified as the full2026 T16 seating area."
+  },
+  "relativeLocationEvidence": {
+    "url": "https://www.fia.com/sites/default/files/media_kit_-_2025_qatar_grand_prix_2.pdf",
+    "sha256": "a87144b3f75ff8950c72ddb5d3decb605ac65a773ee1cd1048216fe144942aa9",
+    "pageOneBased": 17,
+    "visuallyReviewed": true,
+    "fact": "T16 GS is drawn on the outside of the entry to the last turn; map is2025 and schematic, not a2026 construction plan."
+  },
+  "excludedStructuralProof": {
+    "page": "https://www.thef1spectator.com/qatar-grand-prix/where-to-watch/",
+    "asset": "https://cms.thef1spectator.com/wp-content/uploads/2023/06/t16-grandstand-qatar-1024x576.jpg",
+    "sha256": "651db64892a9d7af2f1555057a2e98859df32c03d68d457a94e738dc33f71a4e",
+    "observation": "Illustrative crowd/stand rendering credited to the circuit, not a georeferenced photograph of completed2026 seating. Not used for numerical geometry."
+  },
+  "nextAction": "Obtain a locatable image of installed T16 seating or a construction/installation plan. Do not repeat this same2025 image, treat the illustrative render as a survey, or rotate/translate the native feature merely to obtain a PCA road intersection."
+}

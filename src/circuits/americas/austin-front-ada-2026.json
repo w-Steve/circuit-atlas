@@ -1,0 +1,226 @@
+{
+  "circuitId": "austin",
+  "season": 2026,
+  "source": {
+    "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+    "checkedAt": "2026-11-07",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "2026 organizer explicitly places T9/T12 ADA platform below row1. Author approximation:20x2.5m flat seated platform centered2m forward of the existing first-row front. Deck1m above the center source-terrain sample; exact width, floor, access ramps and railings not surveyed. Not an ordinary GA viewing terrace."
+  },
+  "beforeZones": [],
+  "zones": [
+    {
+      "zoneId": "turn-9-ada",
+      "name": "Turn 9 ADA",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -97.62780827063195,
+          30.13616900155918
+        ],
+        [
+          -97.62800687638767,
+          30.13611633284638
+        ],
+        [
+          -97.62801448858839,
+          30.136137803948102
+        ],
+        [
+          -97.62781588283268,
+          30.136190472660896
+        ],
+        [
+          -97.62780827063195,
+          30.13616900155918
+        ]
+      ],
+      "surface": {
+        "baseHeight": 1,
+        "rise": 0,
+        "depth": 2.5,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "turn-9-ada-1",
+          "boundary": [
+            [
+              -97.62780827063195,
+              30.13616900155918
+            ],
+            [
+              -97.62800687638767,
+              30.13611633284638
+            ],
+            [
+              -97.62801448858839,
+              30.136137803948102
+            ],
+            [
+              -97.62781588283268,
+              30.136190472660896
+            ],
+            [
+              -97.62780827063195,
+              30.13616900155918
+            ]
+          ],
+          "baseHeight": 1,
+          "rise": 0,
+          "rows": 1,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -97.62797612561738,
+            30.136336026433288
+          ],
+          "groundReference": {
+            "coordinate": [
+              -97.62791137961017,
+              30.13615340275364
+            ],
+            "source": {
+              "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 organizer explicitly places T9/T12 ADA platform below row1. Author approximation:20x2.5m flat seated platform centered2m forward of the existing first-row front. Deck1m above the center source-terrain sample; exact width, floor, access ramps and railings not surveyed. Not an ordinary GA viewing terrace."
+            }
+          },
+          "fenceMode": "authored"
+        }
+      ],
+      "source": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 organizer explicitly places T9/T12 ADA platform below row1. Author approximation:20x2.5m flat seated platform centered2m forward of the existing first-row front. Deck1m above the center source-terrain sample; exact width, floor, access ramps and railings not surveyed. Not an ordinary GA viewing terrace."
+      },
+      "openingSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 organizer explicitly places T9/T12 ADA platform below row1. Author approximation:20x2.5m flat seated platform centered2m forward of the existing first-row front. Deck1m above the center source-terrain sample; exact width, floor, access ramps and railings not surveyed. Not an ordinary GA viewing terrace."
+      },
+      "surfaceSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 organizer explicitly places T9/T12 ADA platform below row1. Author approximation:20x2.5m flat seated platform centered2m forward of the existing first-row front. Deck1m above the center source-terrain sample; exact width, floor, access ramps and railings not surveyed. Not an ordinary GA viewing terrace."
+      },
+      "admissionNote": "无障碍席及核准陪同按票入场；平台位置和尺寸为近似。"
+    },
+    {
+      "zoneId": "turn-12-ada",
+      "name": "Turn 12 ADA",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -97.63551762904028,
+          30.137765763559216
+        ],
+        [
+          -97.63572441541488,
+          30.13774863645017
+        ],
+        [
+          -97.63572194003652,
+          30.137726280948602
+        ],
+        [
+          -97.63551515366191,
+          30.13774340805765
+        ],
+        [
+          -97.63551762904028,
+          30.137765763559216
+        ]
+      ],
+      "surface": {
+        "baseHeight": 1,
+        "rise": 0,
+        "depth": 2.5,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "turn-12-ada-1",
+          "boundary": [
+            [
+              -97.63551762904028,
+              30.137765763559216
+            ],
+            [
+              -97.63572441541488,
+              30.13774863645017
+            ],
+            [
+              -97.63572194003652,
+              30.137726280948602
+            ],
+            [
+              -97.63551515366191,
+              30.13774340805765
+            ],
+            [
+              -97.63551762904028,
+              30.137765763559216
+            ]
+          ],
+          "baseHeight": 1,
+          "rise": 0,
+          "rows": 1,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -97.63559033466764,
+            30.137480056192857
+          ],
+          "groundReference": {
+            "coordinate": [
+              -97.6356197845384,
+              30.137746022253907
+            ],
+            "source": {
+              "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 organizer explicitly places T9/T12 ADA platform below row1. Author approximation:20x2.5m flat seated platform centered2m forward of the existing first-row front. Deck1m above the center source-terrain sample; exact width, floor, access ramps and railings not surveyed. Not an ordinary GA viewing terrace."
+            }
+          },
+          "fenceMode": "authored"
+        }
+      ],
+      "source": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 organizer explicitly places T9/T12 ADA platform below row1. Author approximation:20x2.5m flat seated platform centered2m forward of the existing first-row front. Deck1m above the center source-terrain sample; exact width, floor, access ramps and railings not surveyed. Not an ordinary GA viewing terrace."
+      },
+      "openingSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 organizer explicitly places T9/T12 ADA platform below row1. Author approximation:20x2.5m flat seated platform centered2m forward of the existing first-row front. Deck1m above the center source-terrain sample; exact width, floor, access ramps and railings not surveyed. Not an ordinary GA viewing terrace."
+      },
+      "surfaceSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 organizer explicitly places T9/T12 ADA platform below row1. Author approximation:20x2.5m flat seated platform centered2m forward of the existing first-row front. Deck1m above the center source-terrain sample; exact width, floor, access ramps and railings not surveyed. Not an ordinary GA viewing terrace."
+      },
+      "admissionNote": "无障碍席及核准陪同按票入场；平台位置和尺寸为近似。"
+    }
+  ]
+}

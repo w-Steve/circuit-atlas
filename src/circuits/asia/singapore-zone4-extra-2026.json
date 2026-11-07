@@ -1,0 +1,204 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "walkabout-stamford",
+      "name": "Zone 4 Walkabout · Stamford",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.85642255709473,
+          1.2930127880995412
+        ],
+        [
+          103.85629811894827,
+          1.2930847691308072
+        ],
+        [
+          103.85632061873832,
+          1.2931236461694093
+        ],
+        [
+          103.85644505688478,
+          1.2930516651381432
+        ],
+        [
+          103.85642255709473,
+          1.2930127880995412
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-stamford-1",
+          "boundary": [
+            [
+              103.85642255709473,
+              1.2930127880995412
+            ],
+            [
+              103.85629811894827,
+              1.2930847691308072
+            ],
+            [
+              103.85632061873832,
+              1.2931236461694093
+            ],
+            [
+              103.85644505688478,
+              1.2930516651381432
+            ],
+            [
+              103.85642255709473,
+              1.2930127880995412
+            ]
+          ],
+          "baseHeight": 0.8,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.85627933877734,
+            1.2929088212762068
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.8,
+        "rise": 0,
+        "depth": 5,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon in Zone4 at Zone 4 Walkabout · Stamford. Author16x5m, deck0.8m road-relative approximation; not surveyed event installation. Standing eye1.65m retained."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Explicit named2026 ordinary reserved-seat product; catalogue snapshot retained in annual-access review. No live availability claim."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon in Zone4 at Zone 4 Walkabout · Stamford. Author16x5m, deck0.8m road-relative approximation; not surveyed event installation. Standing eye1.65m retained."
+      },
+      "description": "独立近似站立平台，保留现场几何遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Discrete illustrative-map platform; registered roads/neighbor seats/water/facilities checked."
+      },
+      "admissionNote": "Zone 4 Walkabout及Premier Walkabout可使用此区；平台范围与高度为近似。"
+    },
+    {
+      "zoneId": "walkabout-empress",
+      "name": "Zone 4 Walkabout · Empress",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.85251741707852,
+          1.2881938358438878
+        ],
+        [
+          103.85256825570721,
+          1.2880215126998844
+        ],
+        [
+          103.85261996579126,
+          1.2880367604126726
+        ],
+        [
+          103.85256912716257,
+          1.2882090835566762
+        ],
+        [
+          103.85251741707852,
+          1.2881938358438878
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-empress-1",
+          "boundary": [
+            [
+              103.85251741707852,
+              1.2881938358438878
+            ],
+            [
+              103.85256825570721,
+              1.2880215126998844
+            ],
+            [
+              103.85261996579126,
+              1.2880367604126726
+            ],
+            [
+              103.85256912716257,
+              1.2882090835566762
+            ],
+            [
+              103.85251741707852,
+              1.2881938358438878
+            ]
+          ],
+          "baseHeight": 0.6,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.85238770614068,
+            1.288061931133521
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.6,
+        "rise": 0,
+        "depth": 6,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon in Zone4 at Zone 4 Walkabout · Empress. Author20x6m, deck0.6m road-relative approximation; not surveyed event installation. Standing eye1.65m retained."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Explicit named2026 ordinary reserved-seat product; catalogue snapshot retained in annual-access review. No live availability claim."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 illustrative promoter map viewing-platform icon in Zone4 at Zone 4 Walkabout · Empress. Author20x6m, deck0.6m road-relative approximation; not surveyed event installation. Standing eye1.65m retained."
+      },
+      "description": "独立近似站立平台，保留现场几何遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Discrete illustrative-map platform; registered roads/neighbor seats/water/facilities checked."
+      },
+      "admissionNote": "Zone 4 Walkabout及Premier Walkabout可使用此区；平台范围与高度为近似。"
+    }
+  ],
+  "beforeZones": [],
+  "scope": "Two explicit approximate Zone4 platform icons, not surveyed installation footprints."
+}

@@ -16,7 +16,7 @@ export default function VenueAbout({circuitId}:{circuitId:string}){
    <p>{sourceSummary(data.elevation.notes,'elevation')}</p>
    {data.facilities&&<p>{sourceSummary(data.facilities.notes,'facilities')}</p>}
    <TimingReference source={data.timing}/>
-   {data.dataSources.map((source,i)=><p key={`${source.url}-${i}`}><a href={source.url} target="_blank" rel="noreferrer">{i===0?t('赛事资料'):t('中心线来源')} ↗</a></p>)}
+   {data.dataSources.map((source,i)=><p key={`${source.url}-${i}`}><a href={source.url} target="_blank" rel="noreferrer">{source.url===data.elevation.source?.url?t('地形来源'):i===0?t('赛事资料'):i===1?t('中心线来源'):t('补充资料')} ↗</a></p>)}
    <p><a href={`${import.meta.env.BASE_URL}licenses/THIRD_PARTY_NOTICES.txt`} target="_blank" rel="noreferrer">{t('组件与字体许可 ↗')}</a></p>
   </div>}
  </details>;

@@ -1,0 +1,119 @@
+{
+  "circuitId": "austin",
+  "season": 2026,
+  "source": {
+    "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+    "checkedAt": "2026-11-07",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "2026 organizer identifies ADA at row36 of T15 sections8–25, the long bank nearer the tower. Approximate2m-deep deck along90% of existing long south-bank rear;0.4m above its top floor. Precise end extents, aisle/gap, structure, ramp and railings are not surveyed. No ADA inferred for sections1–7."
+  },
+  "beforeZones": [],
+  "zones": [
+    {
+      "zoneId": "turn-15-ada",
+      "name": "Turn 15 ADA · 8–25",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -97.63750862921438,
+          30.134951964563605
+        ],
+        [
+          -97.63844558884541,
+          30.136102845880952
+        ],
+        [
+          -97.63842860363205,
+          30.136113189352354
+        ],
+        [
+          -97.63749164400102,
+          30.134962308035007
+        ],
+        [
+          -97.63750862921438,
+          30.134951964563605
+        ]
+      ],
+      "surface": {
+        "baseHeight": 16.41,
+        "rise": 0,
+        "depth": 2,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "turn-15-ada-1",
+          "boundary": [
+            [
+              -97.63750862921438,
+              30.134951964563605
+            ],
+            [
+              -97.63844558884541,
+              30.136102845880952
+            ],
+            [
+              -97.63842860363205,
+              30.136113189352354
+            ],
+            [
+              -97.63749164400102,
+              30.134962308035007
+            ],
+            [
+              -97.63750862921438,
+              30.134951964563605
+            ]
+          ],
+          "baseHeight": 16.41,
+          "baseReference": {
+            "zoneId": "turn-15-south",
+            "surfaceId": "turn-15-south-1",
+            "offsetMetres": 0.4,
+            "source": {
+              "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 organizer identifies ADA at row36 of T15 sections8–25, the long bank nearer the tower. Approximate2m-deep deck along90% of existing long south-bank rear;0.4m above its top floor. Precise end extents, aisle/gap, structure, ramp and railings are not surveyed. No ADA inferred for sections1–7."
+            }
+          },
+          "rise": 0,
+          "rows": 1,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -97.63740874507674,
+            30.13587352135115
+          ],
+          "fenceMode": "authored"
+        }
+      ],
+      "source": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 organizer identifies ADA at row36 of T15 sections8–25, the long bank nearer the tower. Approximate2m-deep deck along90% of existing long south-bank rear;0.4m above its top floor. Precise end extents, aisle/gap, structure, ramp and railings are not surveyed. No ADA inferred for sections1–7."
+      },
+      "openingSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 organizer identifies ADA at row36 of T15 sections8–25, the long bank nearer the tower. Approximate2m-deep deck along90% of existing long south-bank rear;0.4m above its top floor. Precise end extents, aisle/gap, structure, ramp and railings are not surveyed. No ADA inferred for sections1–7."
+      },
+      "surfaceSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 organizer identifies ADA at row36 of T15 sections8–25, the long bank nearer the tower. Approximate2m-deep deck along90% of existing long south-bank rear;0.4m above its top floor. Precise end extents, aisle/gap, structure, ramp and railings are not surveyed. No ADA inferred for sections1–7."
+      },
+      "admissionNote": "8–25区第36排无障碍平台；按票及陪同资格入场，范围与高度为近似。"
+    }
+  ]
+}

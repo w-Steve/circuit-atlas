@@ -1,0 +1,143 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "zoneId": "pit-exit",
+  "checkedAt": "2026-11-05",
+  "zone": {
+    "zoneId": "pit-exit",
+    "name": "Pit Exit",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        103.863642663359,
+        1.2933855495583972
+      ],
+      [
+        103.86359140692535,
+        1.2940122759517028
+      ],
+      [
+        103.8634570741459,
+        1.2940012952319626
+      ],
+      [
+        103.86350833057956,
+        1.2933745688386569
+      ],
+      [
+        103.863642663359,
+        1.2933855495583972
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "pit-exit-1",
+        "boundary": [
+          [
+            103.863642663359,
+            1.2933855495583972
+          ],
+          [
+            103.86359140692535,
+            1.2940122759517028
+          ],
+          [
+            103.8634570741459,
+            1.2940012952319626
+          ],
+          [
+            103.86350833057956,
+            1.2933745688386569
+          ],
+          [
+            103.863642663359,
+            1.2933855495583972
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 6.5,
+        "eyeHeight": 1.2,
+        "rows": 14,
+        "frontReference": [
+          103.863867,
+          1.29417
+        ],
+        "rowStrip": {
+          "front": [
+            [
+              103.863642663359,
+              1.2933855495583972
+            ],
+            [
+              103.86359140692535,
+              1.2940122759517028
+            ]
+          ],
+          "back": [
+            [
+              103.86350833057956,
+              1.2933745688386569
+            ],
+            [
+              103.8634570741459,
+              1.2940012952319626
+            ]
+          ],
+          "source": {
+            "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/pit-exit-grandstand/",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Promoter2026 locates PitExit on drivers left along PitStraight, observingT1 and pit-exit rejoin. Approximate70m length,15m depth,32m front offset clears retained pit lane. Estimated14 rows,2.2m front platform,6.5m rise; user permits practical approximation, not seat survey."
+          }
+        },
+        "rowBearing": "local-normal"
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 6.5,
+      "depth": 15,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/pit-exit-grandstand/",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Promoter2026 locates PitExit on drivers left along PitStraight, observingT1 and pit-exit rejoin. Approximate70m length,15m depth,32m front offset clears retained pit lane. Estimated14 rows,2.2m front platform,6.5m rise; user permits practical approximation, not seat survey."
+    },
+    "openingSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/pit-exit-grandstand/",
+      "checkedAt": "2026-11-05",
+      "method": "published",
+      "confidence": "medium",
+      "notes": "Explicit named2026 ordinary reserved-seat product; catalogue snapshot retained in annual-access review. No live availability claim."
+    },
+    "surfaceSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/pit-exit-grandstand/",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Promoter2026 locates PitExit on drivers left along PitStraight, observingT1 and pit-exit rejoin. Approximate70m length,15m depth,32m front offset clears retained pit lane. Estimated14 rows,2.2m front platform,6.5m rise; user permits practical approximation, not seat survey."
+    },
+    "description": "维修区出口旁近似看台；范围、排数与高度为估计。",
+    "geometryReview": {
+      "checkedAt": "2026-11-05",
+      "issues": [],
+      "method": "Approximate drivers-left bank beforeT1; racing road, registered pit lane/building and neighboring zone clearance screened."
+    }
+  },
+  "sourceMap": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+  "accuracy": "Practical author approximation permitted by user; no seat survey claim.",
+  "registeredFacilityOverlapM2": {
+    "pitLanes": {
+      "100484287": 0.0
+    },
+    "buildings": {
+      "49890775": 0.0
+    }
+  }
+}

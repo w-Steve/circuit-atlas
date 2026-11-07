@@ -1,0 +1,581 @@
+{
+  "circuitId": "spa",
+  "season": 2026,
+  "nativeStandWay": 1366085153,
+  "oldZone": {
+    "zoneId": "gold-8-source-start",
+    "name": "Gold 8 · Source Start",
+    "kind": "grandstand",
+    "availability": "preparing",
+    "boundary": [
+      [
+        5.963420740099722,
+        50.44686972533502
+      ],
+      [
+        5.963969335115944,
+        50.44652036427712
+      ],
+      [
+        5.963769846019137,
+        50.44639332389243
+      ],
+      [
+        5.963221251002914,
+        50.44674268495033
+      ],
+      [
+        5.963420740099722,
+        50.44686972533502
+      ]
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 9.6,
+      "depth": 20.0,
+      "eyeHeight": 1.2
+    },
+    "surfaces": [
+      {
+        "surfaceId": "gold-8-source-start-1",
+        "boundary": [
+          [
+            5.963420740099722,
+            50.44686972533502
+          ],
+          [
+            5.963969335115944,
+            50.44652036427712
+          ],
+          [
+            5.963769846019137,
+            50.44639332389243
+          ],
+          [
+            5.963221251002914,
+            50.44674268495033
+          ],
+          [
+            5.963420740099722,
+            50.44686972533502
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 9.6,
+        "eyeHeight": 1.2,
+        "rows": 19
+      }
+    ],
+    "source": {
+      "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。"
+    },
+    "openingSource": {
+      "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+    },
+    "surfaceSource": {
+      "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-23",
+      "issues": [
+        "gold-8-source-start-1: no road across either seating face"
+      ],
+      "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+    }
+  },
+  "zone": {
+    "zoneId": "gold-8-source-start",
+    "name": "Gold 8 · Source Start",
+    "kind": "grandstand",
+    "availability": "available",
+    "boundary": [
+      [
+        5.9636435,
+        50.4468875
+      ],
+      [
+        5.963899,
+        50.4468203
+      ],
+      [
+        5.9637989,
+        50.4466658
+      ],
+      [
+        5.9635434,
+        50.446733
+      ],
+      [
+        5.9636435,
+        50.4468875
+      ]
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 9.6,
+      "depth": 20.0,
+      "eyeHeight": 1.2
+    },
+    "surfaces": [
+      {
+        "surfaceId": "gold-8-source-start-1",
+        "boundary": [
+          [
+            5.9636435,
+            50.4468875
+          ],
+          [
+            5.963899,
+            50.4468203
+          ],
+          [
+            5.9637989,
+            50.4466658
+          ],
+          [
+            5.9635434,
+            50.446733
+          ],
+          [
+            5.9636435,
+            50.4468875
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 9.6,
+        "eyeHeight": 1.2,
+        "rows": 19,
+        "rowFrontEdge": {
+          "coordinates": [
+            [
+              5.9637989,
+              50.4466658
+            ],
+            [
+              5.9635434,
+              50.446733
+            ]
+          ]
+        },
+        "groundReference": [
+          5.96367115,
+          50.4466994
+        ],
+        "frontReference": [
+          5.963689104853091,
+          50.446274679188924
+        ],
+        "fenceMode": "authored",
+        "canopy": {
+          "rearClearanceMetres": 3,
+          "crownMetres": 0.6,
+          "postWidthMetres": 0.12,
+          "supportU": [
+            0,
+            0.5,
+            1
+          ],
+          "supportEdges": [
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "source": {
+            "url": "https://www.spagrandprix.com/assets/111596ef-8ecc-4dd8-8896-ed0586531074/360-gold-8.jpg",
+            "checkedAt": "2026-10-28",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Official Gold8 panorama confirms a covered stand; clearance3m, crown0.6m, square posts0.12m and three stations are estimates. Native plan, retained seating profile and estimated roof are separate evidence levels."
+          }
+        }
+      }
+    ],
+    "source": {
+      "url": "https://www.openstreetmap.org/way/1366085153",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "Gold8 physical association supported by two separately named organizer panoramas: neighboring uncovered bank lies left of Gold8 and right of Gold7. No named native ticket boundary or2026 survey. Native plan approximates seat footprint."
+    },
+    "openingSource": {
+      "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+      "checkedAt": "2026-10-28",
+      "method": "published",
+      "confidence": "medium",
+      "notes": "January2026 organizer map lists Gold8 separately from Gold7/Bis/Ter; schematic product identity is not surveyed ticket geography."
+    },
+    "surfaceSource": {
+      "url": "https://www.spagrandprix.com/assets/111596ef-8ecc-4dd8-8896-ed0586531074/360-gold-8.jpg",
+      "checkedAt": "2026-10-28",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Official Gold8 panorama confirms a covered stand; clearance3m, crown0.6m, square posts0.12m and three stations are estimates. Native plan, retained seating profile and estimated roof are separate evidence levels."
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-28",
+      "issues": [],
+      "method": "Native east-roof footprint associated by the official Gold8 panorama and paired Gold7 view, with SPW2023 aerial ordering. Road, neighboring zones, current pit and building overlap zero; vertical dimensions estimated."
+    },
+    "requiredBarrierIds": [
+      "spa-gold7-126871627",
+      "spa-gold7-175691647",
+      "spa-gold7-1134053911",
+      "spa-gold7-1366085142"
+    ]
+  },
+  "barrierLayer": {
+    "circuitId": "spa",
+    "availability": "available",
+    "barriers": [
+      {
+        "id": "spa-gold7-126871627",
+        "kind": "concrete-wall",
+        "coordinates": [
+          [
+            5.9627218,
+            50.4466036
+          ],
+          [
+            5.9631979,
+            50.4466364
+          ],
+          [
+            5.963307,
+            50.446639
+          ],
+          [
+            5.9634125,
+            50.4466375
+          ],
+          [
+            5.9635369,
+            50.4466181
+          ],
+          [
+            5.9636447,
+            50.4465891
+          ],
+          [
+            5.9637722,
+            50.4465447
+          ],
+          [
+            5.9648135,
+            50.4461996
+          ]
+        ],
+        "heightMetres": 1.0,
+        "widthMetres": 0.25,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/126871627",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Full native plan; trackside wall interpreted from ordered stand/fence/wall/road relationships and organizer panorama. Height1.0m estimated, not measured. Not surveyed2026 barrier geometry."
+        }
+      },
+      {
+        "id": "spa-gold7-175691647",
+        "kind": "chain-link",
+        "coordinates": [
+          [
+            5.9624888,
+            50.4466779
+          ],
+          [
+            5.9625254,
+            50.4467117
+          ],
+          [
+            5.9626887,
+            50.4466352
+          ],
+          [
+            5.9627052,
+            50.4466486
+          ],
+          [
+            5.9631844,
+            50.4466801
+          ],
+          [
+            5.9633364,
+            50.4466855
+          ],
+          [
+            5.9634203,
+            50.4466837
+          ],
+          [
+            5.9635164,
+            50.446673
+          ],
+          [
+            5.9636068,
+            50.4466534
+          ],
+          [
+            5.9637439,
+            50.4466089
+          ],
+          [
+            5.9644459,
+            50.4463755
+          ],
+          [
+            5.9645886,
+            50.4463369
+          ],
+          [
+            5.9646958,
+            50.4463138
+          ],
+          [
+            5.9648562,
+            50.4462865
+          ],
+          [
+            5.9649149,
+            50.4462728
+          ],
+          [
+            5.9649807,
+            50.4462418
+          ],
+          [
+            5.9649915,
+            50.4462213
+          ],
+          [
+            5.9649924,
+            50.4462013
+          ],
+          [
+            5.9654466,
+            50.4460414
+          ],
+          [
+            5.9656709,
+            50.4459634
+          ],
+          [
+            5.965731,
+            50.4460176
+          ],
+          [
+            5.9656351,
+            50.4460725
+          ],
+          [
+            5.9655474,
+            50.4461455
+          ],
+          [
+            5.9654011,
+            50.4464228
+          ]
+        ],
+        "heightMetres": 3.5,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/175691647",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Full native plan; outer trackside fence interpreted from ordered stand/fence/wall/road relationships and organizer panorama. Height3.5m estimated, not measured. Not surveyed2026 barrier geometry."
+        }
+      },
+      {
+        "id": "spa-gold7-1134053911",
+        "kind": "chain-link",
+        "coordinates": [
+          [
+            5.9648318,
+            50.4466148
+          ],
+          [
+            5.9645141,
+            50.4468784
+          ],
+          [
+            5.9643908,
+            50.4470403
+          ],
+          [
+            5.9643073,
+            50.4470831
+          ],
+          [
+            5.964174,
+            50.4469869
+          ],
+          [
+            5.9640354,
+            50.4469601
+          ],
+          [
+            5.963207,
+            50.4469051
+          ],
+          [
+            5.9631908,
+            50.4469693
+          ],
+          [
+            5.9625927,
+            50.4468958
+          ],
+          [
+            5.9626252,
+            50.4467964
+          ]
+        ],
+        "heightMetres": 2.0,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/1134053911",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Full native plan; rear perimeter interpreted from ordered stand/fence/wall/road relationships and organizer panorama. Height2.0m estimated, not measured. Not surveyed2026 barrier geometry."
+        }
+      },
+      {
+        "id": "spa-gold7-1366085142",
+        "kind": "chain-link",
+        "coordinates": [
+          [
+            5.9653418,
+            50.4464182
+          ],
+          [
+            5.9654442,
+            50.446192
+          ],
+          [
+            5.9654531,
+            50.4461413
+          ],
+          [
+            5.965432,
+            50.4461129
+          ],
+          [
+            5.965367,
+            50.4461061
+          ],
+          [
+            5.9651484,
+            50.4461925
+          ],
+          [
+            5.9649924,
+            50.4462769
+          ],
+          [
+            5.9648298,
+            50.446323
+          ],
+          [
+            5.9646819,
+            50.4463421
+          ],
+          [
+            5.9644487,
+            50.4464001
+          ],
+          [
+            5.9637198,
+            50.4466448
+          ],
+          [
+            5.9635012,
+            50.4467012
+          ],
+          [
+            5.9633573,
+            50.4467178
+          ],
+          [
+            5.9627162,
+            50.4466785
+          ],
+          [
+            5.9624651,
+            50.4467941
+          ]
+        ],
+        "heightMetres": 2.0,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/1366085142",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Full native plan; stand-side perimeter interpreted from ordered stand/fence/wall/road relationships and organizer panorama. Height2.0m estimated, not measured. Not surveyed2026 barrier geometry."
+        }
+      }
+    ]
+  },
+  "identityAccepted": true,
+  "runtimeApplied": true,
+  "sceneAcceptance": {
+    "accepted": true,
+    "accuracy": "Source-associated approximate model; not surveyed2026 ticket or structural geometry",
+    "modelSha256": "d170ef5c2e28c628a4a7614045091b0ddacef1829c7eaec742fa808d9bf8964d",
+    "evidence": [
+      "441 actual step/roof ray samples plus18 endpoint sidewall rays passed",
+      "Zero current road/pit/building/neighbor plane overlap",
+      "Six explicit three-device preview flows passed, including car PNG and English controls"
+    ],
+    "limitations": [
+      "Retained19-row profile and canopy/barrier dimensions are estimates.",
+      "Official panorama date and2026 structural continuity unverified.",
+      "Real occlusion retained; sampled photo not a full-seat guarantee."
+    ]
+  },
+  "geometryFingerprint": "a8e03883bb88db12632578eb1214d87f2a237c3e64e0ed7093893fdfbadfaea8",
+  "neighborFingerprint": "601918945ca637a15bec65d88226363156e7bbbd48dd6da4c5e657bceb1bed55",
+  "facilitiesFingerprint": "97090e5de908ede91cc5c9a1070a28b5725692f2220c47a79db75ef9053cb226",
+  "physicalReference": {
+    "page": "https://www.spagrandprix.com/en/gold-8-source-start",
+    "pageSha256": "78e952c301bd7edf18b1a990843a47452a365eb21ab08c51dd3c668ced7fe99d",
+    "url": "https://www.spagrandprix.com/assets/111596ef-8ecc-4dd8-8896-ed0586531074/360-gold-8.jpg",
+    "sha256": "5b287b021fca3942586bcb5567b13f62d74a854ede205994a37cd062dc2a7a5c",
+    "checkedAt": "2026-10-28",
+    "dimensions": [
+      8192,
+      4096
+    ],
+    "reviewedVisually": true,
+    "captureDateVerified": false,
+    "shipped": false,
+    "observation": "Official Gold8 panorama shows the neighboring open seating bank to the left; Gold7 panorama shows that bank to the right. Both show the same La Source infield buildings. In conjunction with the SPW2023 aerial this supports the western roof as Gold7 and eastern roof as Gold8. Relative visual association only, not georeferenced camera coordinates or2026 ticket edges."
+  },
+  "sourceReview": "src/circuits/season-review/spa-la-source-2026.json",
+  "roadIntersectionMetres2": 0,
+  "otherZoneIntersections": [],
+  "facilityReview": {
+    "renderedPitOverlapMetres2": 0.0,
+    "buildingPlanOverlapMetres2": 0.0
+  },
+  "limits": "Source-associated approximate footprint; original19 rows/9.6m rise/2.2m base and1.2m seated eyes retained. Roof and barrier heights estimated, panorama date and2026 construction continuity unverified. Bis/Ter not included.",
+  "neighborHistory": [
+    "febf99fcf21ecf0759959feeab92c782efc23027e7ee6393719c294673764109"
+  ],
+  "neighborReview": "Bis added through separate reviewed migration; existing physical regions preserved."
+}

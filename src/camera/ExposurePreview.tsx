@@ -1,16 +1,16 @@
 import {useEffect,useMemo} from 'react';
 import {useFrame,useThree} from '@react-three/fiber';
 import {AdditiveBlending,Color,FramebufferTexture,HalfFloatType,Mesh,OrthographicCamera,PerspectiveCamera,PlaneGeometry,Scene,ShaderMaterial,Vector2,WebGLRenderTarget} from 'three';
-import {useApp} from '../store';
-import {simulation} from '../systems/VehicleSimulation';
-import {carObject} from '../systems/Vehicle';
-import {shutter} from '../systems/PhoneControls';
+import {useCircuit,useCircuitStore} from '../app/CircuitContext';
+
 import {exposureQuaternion,freezeMoment,sampleCount,sampleDistance,sampleTimes,withVehicleSample} from './Exposure';
 
 const vertex=`varying vec2 uvOut;void main(){uvOut=uv;gl_Position=vec4(position.xy,0.,1.);}`;
 // Read the exact display pipeline on the GPU, decode sRGB and accumulate in
 // linear light, matching photo export without a second tone-mapping pass.
 export function ExposurePreview({active}:{active:boolean}){
+  const useApp=useCircuitStore();
+  const runtime=useCircuit(),{simulation,shutter,vehicle:carObject}=runtime;
   const {gl}=useThree();
   const resources=useMemo(()=>{
     const sample=new FramebufferTexture(1,1),sum=new WebGLRenderTarget(1,1,{type:HalfFloatType,depthBuffer:false});
@@ -30,10 +30,11 @@ export function ExposurePreview({active}:{active:boolean}){
       gl.domElement.dataset.exposurePreviewSamples='1';
       if(simulation.status!=='running')gl.domElement.dataset.exposurePreviewTime='0';
       gl.render(scene,camera);
+      gl.domElement.dataset.sceneDrawCalls=String(gl.info.render.calls);
       gl.domElement.dataset.renderedCamera=JSON.stringify({position:camera.position.toArray(),aspect:(camera as PerspectiveCamera).aspect});
       return;
     }
-    const r=resources,live=camera as PerspectiveCamera,exposureCamera=live.clone(),moment=freezeMoment(simulation,live,settings.shutterSpeed,settings.panMode);
+    const r=resources,live=camera as PerspectiveCamera,exposureCamera=live.clone(),moment=freezeMoment(simulation,live,settings.shutterSpeed,settings.panMode,runtime);
     gl.getDrawingBufferSize(r.size);
     if(r.sample.image.width!==r.size.x||r.sample.image.height!==r.size.y){r.sample.dispose();r.sample.image.width=r.size.x;r.sample.image.height=r.size.y;r.sample.needsUpdate=true;r.sum.setSize(r.size.x,r.size.y)}
     const count=sampleCount(moment,live,r.size.y,matchMedia('(pointer:coarse)').matches?4:8);
@@ -42,7 +43,7 @@ export function ExposurePreview({active}:{active:boolean}){
       gl.setRenderTarget(r.sum);gl.setClearColor(0,0);gl.clear();gl.setClearColor(clear,alpha);r.accumulate.uniforms.weight.value=1/count;
       for(const time of sampleTimes(moment.seconds,count)){
         exposureCamera.quaternion.copy(exposureQuaternion(moment,time));exposureCamera.updateMatrixWorld(true);
-        withVehicleSample(vehicle,sampleDistance(moment,time),()=>{gl.autoClear=true;gl.setRenderTarget(null);gl.render(scene,exposureCamera);gl.copyFramebufferToTexture(r.sample)});
+        withVehicleSample(vehicle,sampleDistance(moment,time),()=>{gl.autoClear=true;gl.setRenderTarget(null);gl.render(scene,exposureCamera);gl.copyFramebufferToTexture(r.sample)},moment.placeVehicle);
         gl.shadowMap.autoUpdate=false;r.quad.material=r.accumulate;gl.autoClear=false;gl.setRenderTarget(r.sum);gl.render(r.scene,r.camera);
       }
       gl.autoClear=true;gl.setRenderTarget(target);r.quad.material=r.display;gl.render(r.scene,r.camera);

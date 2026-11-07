@@ -51,7 +51,7 @@ test('browser Back cancels arrival and a scene error remains reachable',async({p
  await expect(page.locator('.world-flight')).toHaveCount(0);await expect(page.locator('.world-map')).toBeVisible();
  // A fresh context isn't required: reloading clears React's successfully loaded
  // lazy module, then deliberately fail its next request.
- await page.route('**/assets/ShanghaiExperience-*.js',route=>route.abort());
+ await page.route('**/assets/CircuitExperience-*.js',route=>route.abort());
  await page.reload();await page.locator('.world-destination').click();
  await expect(page.getByRole('alert')).toBeVisible();await expect(page.locator('.world-flight')).toHaveCount(0);
  await expect(page.getByRole('button',{name:'重新加载场景',exact:true})).toBeVisible();

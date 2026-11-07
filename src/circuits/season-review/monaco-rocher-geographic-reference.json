@@ -1,0 +1,159 @@
+{
+  "circuitId": "monaco",
+  "season": 2026,
+  "checkedAt": "2026-10-27",
+  "sourceUrl": "https://tiles.arcgis.com/tiles/DkYiS0lDHb5soLgl/arcgis/rest/services/SIGM_Topographie_OGC_2/MapServer",
+  "sourceVersion": "April 2023, per government service metadata",
+  "credit": "Gouvernement de Monaco",
+  "sourceMetadataSha256": "8b0ca6a5ae938b707559cc4e8f02ffa9ce13f1067d8405904062faf825848429",
+  "sourceCrs": "EPSG:3857",
+  "outputCoordinates": "EPSG:4326 longitude/latitude",
+  "zoom": 17,
+  "tileSize": 256,
+  "topLeftTile": [
+    68236,
+    47793
+  ],
+  "mosaicPixels": [
+    1280,
+    1280
+  ],
+  "geographicBounds": [
+    7.415771484375,
+    43.72744458647465,
+    7.42950439453125,
+    43.73736766145915
+  ],
+  "tiles": [
+    {
+      "x": 68236,
+      "y": 47793,
+      "sha256": "0c48dbfcb39cbadf02a7cd047e6e55d17f775db2333c645cf8c7a8528d7a07b3"
+    },
+    {
+      "x": 68237,
+      "y": 47793,
+      "sha256": "72d0abef8aedd22d0209962f00b1014aefcf994a942ddd7d61b001bfd1c5cc13"
+    },
+    {
+      "x": 68238,
+      "y": 47793,
+      "sha256": "3fcca1816cec7536cb156190ec0f0935ebbd5fe6fe95e259363b9fdf962bff2c"
+    },
+    {
+      "x": 68239,
+      "y": 47793,
+      "sha256": "3f80b39996b6937c4cada0586c0d917e04b461ee1d50cee667cade5767d82aa9"
+    },
+    {
+      "x": 68240,
+      "y": 47793,
+      "sha256": "4327a34cb764b41f234f289462bae0cde5d0aa2bcd6b54dece5703075f14a58a"
+    },
+    {
+      "x": 68236,
+      "y": 47794,
+      "sha256": "d2c45b29e0b40560b93d6806f060feb60a44ce5c0e4e4fecf09f78fcfee1a7e1"
+    },
+    {
+      "x": 68237,
+      "y": 47794,
+      "sha256": "fad81f463dc9aa4d73ba369348f298e2908437b0bf13c0ce7e283e464683d158"
+    },
+    {
+      "x": 68238,
+      "y": 47794,
+      "sha256": "cddd84ebe40c816c009d9b36c0939831e704f6b4ea837e968ac5a1f06e4b475c"
+    },
+    {
+      "x": 68239,
+      "y": 47794,
+      "sha256": "4bdcde91fe0a5ffef919a4806a046d0b2f806a37930eb9c59aea44c4687694c4"
+    },
+    {
+      "x": 68240,
+      "y": 47794,
+      "sha256": "2aab896316c45d6b816792bb7ff6a73cd8d91ed7702788a696b3f196d769c8ab"
+    },
+    {
+      "x": 68236,
+      "y": 47795,
+      "sha256": "27baa8097434f4316547a833409b8a599678e0c86cefa3dfa672e36fce66a500"
+    },
+    {
+      "x": 68237,
+      "y": 47795,
+      "sha256": "4ac075e0265385cd9517298a929704a30df639bcfe36c519d38f4cf2359bd9dd"
+    },
+    {
+      "x": 68238,
+      "y": 47795,
+      "sha256": "07ef732f5674664bf775bfd7a867529af187442a4d590990ad8383ea181e4578"
+    },
+    {
+      "x": 68239,
+      "y": 47795,
+      "sha256": "ad98c8b7d2d697a7723d1fe125df6ff1fd439e34c7f4d2220913b25f4123ba78"
+    },
+    {
+      "x": 68240,
+      "y": 47795,
+      "sha256": "656e766b5adba127ad78f5edcebcb418e7f9c94df38053c33c10405005989dee"
+    },
+    {
+      "x": 68236,
+      "y": 47796,
+      "sha256": "ab77afb0f5173e3a4a515a85ca0c2252597b37196021c09512fd583f59ef03bb"
+    },
+    {
+      "x": 68237,
+      "y": 47796,
+      "sha256": "c3cbbe740f9e0ab1f173c99fbc0706d652566a7ed468cb0d236cebe05fd667b5"
+    },
+    {
+      "x": 68238,
+      "y": 47796,
+      "sha256": "424d7b8836384f19cc73926c0727bfdd4eae24bf150a53b57309cd3933a1a620"
+    },
+    {
+      "x": 68239,
+      "y": 47796,
+      "sha256": "470b2893dca9678bab6fd4c771244fe7dda9728e0ab099d4eb5fb7190aa63845"
+    },
+    {
+      "x": 68240,
+      "y": 47796,
+      "sha256": "21cbf31c97d9de33b6d9a2983eaec5548fb2b86e10f4d184445e528f2a32f38a"
+    },
+    {
+      "x": 68236,
+      "y": 47797,
+      "sha256": "dc22d164da97afe76a879f10b3942c385c3e05ec21740170c56095f2e2a27b8b"
+    },
+    {
+      "x": 68237,
+      "y": 47797,
+      "sha256": "48613a8b312ccca00470546221a592db064b176560795c58159f8246ca762fa0"
+    },
+    {
+      "x": 68238,
+      "y": 47797,
+      "sha256": "dd1f4378b669b2a947f6265b6ac30963f252e06b60efe38638ab8e060867a0ac"
+    },
+    {
+      "x": 68239,
+      "y": 47797,
+      "sha256": "f27f6c652c86c9dbfb1076b6aef7b18de83bed497d978d000fbeec6415f0f460"
+    },
+    {
+      "x": 68240,
+      "y": 47797,
+      "sha256": "73f043068d80dd19969d38fbf817a5c6660b1475ca435e62bac4bf2665243f2c"
+    }
+  ],
+  "pixelToGeographic": "For local pixel u,v: global x=256*tileX+u, y=256*tileY+v; Web Mercator XYZ inverse at zoom 17.",
+  "registrationReady": false,
+  "runtimeGeometryChanged": false,
+  "nextAction": "Match identifiable street junctions or persistent landmark vertices in both the 2026 public artwork and this georeferenced reference. Surround all four Rocher pieces; check non-folding and independent residuals before generating world polygons.",
+  "limits": "Reference roads/buildings are from a 2023 base map, not evidence of 2026 admission, temporary platforms or barriers. No source tile is bundled into the app. Display resolution is not survey accuracy; this source does not supply heights or certify control correspondences."
+}

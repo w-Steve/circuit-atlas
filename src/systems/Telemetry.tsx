@@ -1,19 +1,17 @@
 import {t} from "../i18n";
-import {circuitRuntime} from "../circuits/runtime";
+
 import { useEffect, useState, useMemo } from "react";
 import {buildingReference} from '../circuits/facilityGeometry';
 import { Vector3 } from "three";
-import { observer } from "./GrandstandGeometry";
-import { at } from "./CircuitGeometry";
-import { simulation, cockpitAt } from "./VehicleSimulation";
-import { useApp } from "../store";
-import { facilities as f, local } from "../data/config";
-import { carObject } from "./Vehicle";
-import { activeCamera } from "./ObserverCamera";
+
+import {useCircuit,useCircuitStore} from '../app/CircuitContext';
+
 import { projectVehicle } from "./Projection";
 import { angularVelocity } from "./MeasurementSystem";
-import { prepareLocalPass } from "./PassController";
+
 export function Telemetry() {
+  const useApp=useCircuitStore();
+  const runtime=useCircuit(),{observer,simulation,cockpitAt,camera:activeCamera,vehicle:carObject,preparePass:prepareLocalPass}=runtime;
   const [tick, setTick] = useState(0);
   useEffect(() => {
     const id = setInterval(() => setTick((x) => x + 1), 100);
@@ -36,9 +34,9 @@ export function Telemetry() {
           simulation.status === "running" ? simulation.speed / 3.6 / 0.1 : 0,
         ),
     );
-  const runtime=circuitRuntime.current;
-  const facilityPit=useMemo(()=>{const building=runtime?.data.facilities?.buildings[0];return runtime&&building?buildingReference(runtime.data,runtime.geometry,building):null},[runtime]);
-  const pit = facilityPit??new Vector3(...local(0, 3, f.pit.offset + f.pit.width / 2));
+
+  const facilityPit=useMemo(()=>{const building=runtime?.data.facilities?.buildings[0];return building?buildingReference(runtime.data,runtime.geometry,building):runtime.data.scene?.landmarks?.find(l=>l.role==='pit')?new Vector3(...runtime.data.scene.landmarks.find(l=>l.role==='pit')!.position):null},[runtime]);
+  const pit=facilityPit??new Vector3();
   return (
     <section className="telemetry" data-tick={tick} aria-label={t("赛车控制")}>
       <div className="readings">
@@ -123,19 +121,9 @@ export function Telemetry() {
                 <dt>{t("视线角速度")}</dt>
                 <dd>{omega.toFixed(1)} °/s</dd>
               </div>
-              {facilityPit&&<div><dt>{t("P 房 · 建筑中心")}</dt><dd>{t("约")} {eye.distanceTo(pit).toFixed(0)} m</dd></div>}
-              {!circuitRuntime.current&&<><div>
-                <dt>{t("P 房 · 建筑前沿中心")}</dt>
-                <dd>{t("约")} {eye.distanceTo(pit).toFixed(0)} m</dd>
-              </div>
-              <div>
-                <dt>{t("发车线中心")}</dt>
-                <dd>{t("约")} {eye.distanceTo(at(f.start.distance)).toFixed(0)} m</dd>
-              </div>
-              <div>
-                <dt>{t("计时线中心")}</dt>
-                <dd>{t("约")} {eye.distanceTo(at(f.finish.distance)).toFixed(0)} m</dd>
-              </div></>}
+              {facilityPit&&<div><dt>{t(runtime.data.scene?.landmarks?.find(l=>l.role==='pit')?.measurementLabel??'P 房 · 建筑中心')}</dt><dd>{t("约")} {eye.distanceTo(pit).toFixed(0)} m</dd></div>}
+
+              {runtime.timing&&<><div><dt>{t("发车线中心")}</dt><dd>{t("约")} {eye.distanceTo(runtime.geometry.at(runtime.timing.start)).toFixed(0)} m</dd></div><div><dt>{t("计时线中心")}</dt><dd>{t("约")} {eye.distanceTo(runtime.geometry.at(runtime.timing.control)).toFixed(0)} m</dd></div></>}
             </dl>
           </div>
         </details>

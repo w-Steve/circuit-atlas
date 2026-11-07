@@ -1,0 +1,29 @@
+{
+  "circuitId": "spielberg",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "productId": "t8",
+  "annualIdentitySource": "src/circuits/season-review/spielberg-public-map-identity-review.json",
+  "nativeCrosscheck": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.759%2C47.222%2C14.766%2C47.2257",
+    "sha256": "7d73ad9929318794b5e7ed7389310cbc86a97e72c889cc1312b4157cb790731e",
+    "bytes": 423636,
+    "namedGrandstands": [{"wayId": 1077517159, "name": "Tribüne Mitte"}],
+    "result": "No separately identified T8 footprint in inspected inner circuit area. Mitte is already independently represented; it must not be duplicated as T8. Absence in OSM does not establish absence at the event."
+  },
+  "fiaCrosscheck": {
+    "url": "https://www.fia.com/system/files/decision-document/2026_austrian_grand_prix_-_competition_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_and_red_zone.pdf",
+    "sha256": "00e1595eb783c7edd279ad9e3dd1030c909c9c9edf0e7e423b7eb220db064a90",
+    "bytes": 7784168,
+    "pageCount": 5,
+    "visuallyReviewedPagesOneBased": [2, 4],
+    "result": "Circuit map and emergency exit map identify track, timing and refuge locations, but provide no T8 seating footprint or construction boundary. Pit lane drawing is not an inner-stand plan.",
+    "timingMetadataCheck": "Existing timing mapPage=2 is correctly one-based, as defined in extract-circuit-timing.py; no timing correction required."
+  },
+  "ticketPdfCrosscheck": {
+    "source": "src/circuits/season-review/spielberg-public-map-identity-review.json",
+    "result": "T8 is shown on the annual map; extracted price-list text does not independently specify a standalone T8 admission product. Corner-hopping product names alone do not establish daily stand access."
+  },
+  "runtimeApplied": false,
+  "nextAction": "Obtain event-period georeferenced imagery or a locatable installation plan for the inner T8. Resolve access by day separately. Do not repeat the same inner OSM bbox or FIA circuit/emergency diagrams as boundary sources."
+}

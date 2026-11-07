@@ -1,0 +1,22 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "checkedAt": "2026-11-07",
+  "aliasAccepted": true,
+  "currentName": "Inside Nine",
+  "formerName": "Copse Yard",
+  "primaryIndexedEvidence": {
+    "url": "https://help.silverstone.co.uk/hc/en-gb/articles/36222133546653--What-Is-Inside-Nine",
+    "displayedUpdatedAt": "2026-06-15T17:07",
+    "relatedTag": "F1 2026",
+    "facts": "Organizer help body explicitly rebrands formerCopseYard asInsideNine, T9Copse trackside experience with included food/soft drinks, two-day ticket.",
+    "retrieval": "Search index returned full primary article body; liveHTML andpublicAPI returned404. No independently authenticated archived capture claimed."
+  },
+  "annualMap": {
+    "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+    "sha256": "3516fbf5bdab374c4a4f53b8a975cbd9ea0714408bd11f6be3c198f05f3e336c",
+    "mapNumber": 60
+  },
+  "modelReview": "src/circuits/europe/silverstone-inside-nine-2026.json",
+  "geographicBoundaryVerified": false
+}

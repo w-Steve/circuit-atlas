@@ -1,9 +1,10 @@
 import {t} from "../i18n";
 import {useEffect,useRef} from 'react';
 import {Vector3} from 'three';
-import {activeMapControls} from '../systems/ObserverCamera';
+import {useCircuit} from '../app/CircuitContext';
 /** Geographic north and a scale at the orbit target; camera changes keep zoom. */
 export function MapOrientation(){
+ const {controls:activeMapControls}=useCircuit();
  const needle=useRef<HTMLElement>(null),scale=useRef<HTMLDivElement>(null),label=useRef<HTMLSpanElement>(null);
  useEffect(()=>{
   let frame=0,last=0;const north=new Vector3(0,0,-1);

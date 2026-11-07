@@ -1,0 +1,74 @@
+{
+  "circuitId": "interlagos",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "sources": {
+    "news": {
+      "url": "https://f1saopaulo.com.br/noticias/gp-sao-paulo-de-f1-amplia-experiencia-do-publico-com-shows-e-diversidade-musical/",
+      "sha256": "7a3c5add41faa8b7d28f8b94612392351e2af18428e7e2e8714575710fb36cb0",
+      "checkedAt": "2026-11-06"
+    },
+    "stands": {
+      "url": "https://f1saopaulo.com.br/en/stands/",
+      "sha256": "5d20db6512ceb624206a3f35f84de6c7b2d1faf9ab08a766be61a96a9309b507",
+      "checkedAt": "2026-11-06"
+    }
+  },
+  "annualEvent": {
+    "publishedAt": "2026-11-02",
+    "eventDates": [
+      "2026-11-06",
+      "2026-11-08"
+    ]
+  },
+  "fanzone": {
+    "productId": "f1-fanzone",
+    "classification": "non-track-viewing-entertainment-area",
+    "location": "Kartódromo Ayrton Senna",
+    "directTrackView": false,
+    "grandstandAdmissionIncluded": false,
+    "viewingMethod": "Large LED screen at event stage",
+    "runtimeViewpointAllowed": false,
+    "sourceKey": "news"
+  },
+  "grandPrixClub": {
+    "productId": "grand-prix-club",
+    "classification": "vip-track-viewing-product",
+    "annualPresenceConfirmed": true,
+    "directTrackView": true,
+    "viewNames": [
+      "Pinheirinho",
+      "Bico de Pato",
+      "Laranjinha"
+    ],
+    "geographicBoundaryVerified": false,
+    "viewpointModeled": true,
+    "annualSourceKey": "news",
+    "viewDescriptionSourceKey": "stands",
+    "notes": "2026 presence from dated annual news; generic current stands description supplies viewing directions, not measured footprint or edition-specific deck height.",
+    "approximateModelReview": "src/circuits/americas/interlagos-grand-prix-club-2026.json",
+    "completeLoungeModeled": false,
+    "defaultCaptureLimitation": "Browser capture from default approximate front shows strong fence/terrain occlusion. Approximate location/2m deck does not reproduce a guaranteed full Club panorama; do not raise eyes or remove obstructions to force a photo."
+  },
+  "unlocatedSectorNames": {
+    "names": [
+      "N",
+      "K"
+    ],
+    "annualPublicMentionConfirmed": true,
+    "sourceKey": "news",
+    "fact": "News lists G/H/K/N/R/Porto ticket holders as eligible for Fanzone access, subject to capacity.",
+    "doesNotEstablish": "Race-view geometry, independent seating product, exact location or alias. Do not infer a new race stand from eligibility alone.",
+    "resolution": {
+      "checkedAt": "2026-11-07",
+      "approximateViewpointsModeled": true,
+      "modelZoneIds": [
+        "setor-n",
+        "setor-k"
+      ],
+      "sourceReview": "src/circuits/americas/interlagos-n-k-2026.json",
+      "final2026InstallationVerified": false,
+      "reason": "Annual news alone remains insufficient for geography; now separately associated with actually viewed2025 organizer wayfinding and2026 transport gate groups. Explicit approximation, no cross-sector access claim."
+    }
+  }
+}

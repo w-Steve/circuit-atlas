@@ -240,6 +240,33 @@
       "surfaceId": "r-1",
       "rowBearing": "local-normal",
       "notes": "Curved permanent R seating follows its source OSM polygon. Default gaze uses the local modeled row tangent, without changing any floor, eye or obstacle geometry."
+    },
+    {
+      "zoneId": "r",
+      "surfaceId": "r-1",
+      "rowBearing": "local-normal",
+      "rowProfile": {
+        "rows": 19,
+        "riserMetres": 0.4,
+        "riserRangeMetres": [
+          0.3,
+          0.5
+        ],
+        "rowCountSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_r.pdf",
+          "checkedAt": "2026-10-24",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Organizer permanent R/R-BOX seating chart page 1: maximum numbered row 19 in blocks G-K; A 12, B-D 16, E 17, F 18, L 11. Uses maximum for the current combined footprint, not exact block-by-block seating. Source PDF SHA256 0da5d60f9ade8679fc9beaee48d0981474818f979e99d9bbd08be74870dffd79. Live 2027 page links an undated structural diagram; this does not certify complete 2026 ticket inventory."
+        },
+        "riseSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/seat_r.html",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Permanent seating chart has maximum 19 numbered rows, replacing the former 30-row/15.02m footprint-depth guess. Riser estimated 0.40m (range 0.30-0.50m), giving 7.2m total rise. No surveyed riser, exact block divisions, R-BOX landing geometry or all railings are available. Source independently fixes row count; height is never tuned to clear a sightline. Lower-row outlet/super-outlet obstructions described by organizer remain a real limitation."
+        }
+      }
     }
   ]
 }

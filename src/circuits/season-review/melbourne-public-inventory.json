@@ -1,0 +1,265 @@
+{
+  "circuitId": "melbourne",
+  "season": 2026,
+  "inventoryCheckedAt": "2026-10-26",
+  "inventoryComplete": false,
+  "scope": "All19 named ordinary blue2026 visitor-map grandstands now have available approximate models, plus5 mapped viewing-mound areas. Full Park Pass access, accessible platforms, independent built profiles and full facility geometry remain incomplete.",
+  "sources": [
+    {
+      "url": "https://www.grandprix.com.au/uploads/images/GP26-Consumer-Promotion-Terms-and-Conditions-Last-Tickets-In-Town-Promotion-FINAL-05.02.26.pdf",
+      "access": "Direct URL404; official document indexed text inspected, not a newly downloaded PDF.",
+      "evidence": "Indexed organiser promotion explicitly names Sunday8March2026 Park Pass(GA). Supports product existence only, not area boundaries."
+    },
+    {
+      "url": "https://program.grandprix.com.au/issue-0-formula-1/event-map/",
+      "access": "HTTP200",
+      "sha256": "48467614996fb603e29519bf44ee0fb0ac61668b270fc93338b6e25d5ae0fa0b",
+      "evidence": "Official2026 program map page embeds /event/map#/, which now returns404. The parent page alone contains no usable mound boundaries."
+    },
+    {
+      "url": "https://web.archive.org/web/20260304152734id_/https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+      "access": "Archived official2026 PDF recovered HTTP200; SHA1 exactly matches CDX capture digest.",
+      "sha256": "737e51a321b548123485a32e68ce7c4c2978ba378cbf170cb7593b144f274c41",
+      "archiveSha1": "RVQKIRTHOR3XN5VW54Z6CIEUHBK7GEZF",
+      "evidence": "2026 header and viewing-mound legend visually inspected. Four closed fill paths and the fifth lakeside pattern stroke at its authored2.432-point width recovered; no arbitrary centerline closure."
+    },
+    {
+      "url": "https://web.archive.org/web/20260301161848id_/https://www.grandprix.com.au/uploads/images/F126_Accessibility-Flyer-A3_FA_Digital.pdf",
+      "original": "https://www.grandprix.com.au/uploads/images/F126_Accessibility-Flyer-A3_FA_Digital.pdf",
+      "access": "Archived2026 accessibility flyer recovered HTTP200; SHA1 matches CDX exactly.",
+      "sha256": "1c777a7fc5d29e5d2f55b3de7b0c9dc5006da5428f946db3471a3777b66f4e94",
+      "evidence": "Page1 distinguishes accessible/reserved-accessible areas from ordinary grass; page2 names unreserved trackside platforms at Turns3,4,12 for spectators with accessibility needs. Does not delineate all ordinary Park Pass land."
+    }
+  ],
+  "sourceFailures": [
+    {
+      "url": "https://www.grandprix.com.au/uploads/images/F126_009_Visitor-Map_A3_V9-Digi-3.pdf",
+      "status": 404
+    },
+    {
+      "url": "https://www.grandprix.com.au/uploads/images/Visitor-Map_A3_2-1.pdf",
+      "status": 404
+    }
+  ],
+  "rejectedReplacements": [
+    {
+      "url": "https://travel.grandprix.com.au/park-pass",
+      "reason": "Live page is2027 despite indexed2026 title."
+    },
+    {
+      "url": "https://www.ticketmaster.com.au/australiangp/",
+      "reason": "Live ticket page is2027; not2026 boundary or inventory evidence."
+    }
+  ],
+  "missingPublicProducts": [
+    {
+      "productId": "park-pass",
+      "name": "Park Pass (GA)",
+      "kind": "general-admission",
+      "existenceEvidence": "indexed official2026 promotion",
+      "modelZoneIds": [
+        "park-pass-t8",
+        "park-pass-t9",
+        "park-pass-t12",
+        "park-pass-t2",
+        "park-pass-lakeside"
+      ],
+      "boundaryStatus": "partial",
+      "requiredWork": "Complete public non-mound viewing/access boundaries; all five depicted mound symbols now have approximate models, not surveyed profiles."
+    }
+  ],
+  "classificationNotes": [
+    "Existing hill is a named reserved grandstand candidate, not a GA viewing mound; do not rename it to fill the Park Pass gap.",
+    "One Park Pass product may include several public viewing locations; product count is not region count.",
+    "Verified2026 accessibility flyer supplies three qualified trackside platform outlines, now approximated as flat seated decks. Source-colored accessibility footprints must not be relabeled ordinary GA grass; Melbourne Walk/Main Stage platforms are off-track and excluded from spectator simulation."
+  ],
+  "areas": [
+    {
+      "zoneId": "fangio",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "piastri",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "jones",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "brabham",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "hill",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "ricciardo",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "american-express",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "stewart",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "button",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "clark",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "waite",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "vettel",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "webber",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "schumacher",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "lauda",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "senna",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "prost",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "park-pass-t8",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "park-pass-t9",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "park-pass-t12",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "park-pass-t2",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "park-pass-lakeside",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "engineers-australia",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "mercedes-amg",
+      "modelPresent": true,
+      "annualBoundaryVerified": false
+    },
+    {
+      "zoneId": "accessible-platform-t3",
+      "modelPresent": true,
+      "annualBoundaryVerified": false,
+      "sourceOutlineVerified": true,
+      "classification": "qualified accessible platform; not unrestricted grass",
+      "deckHeightEstimated": true
+    },
+    {
+      "zoneId": "accessible-platform-t4",
+      "modelPresent": true,
+      "annualBoundaryVerified": false,
+      "sourceOutlineVerified": true,
+      "classification": "qualified accessible platform; not unrestricted grass",
+      "deckHeightEstimated": true
+    },
+    {
+      "zoneId": "accessible-platform-t12",
+      "modelPresent": true,
+      "annualBoundaryVerified": false,
+      "sourceOutlineVerified": true,
+      "classification": "qualified accessible platform; not unrestricted grass",
+      "deckHeightEstimated": true
+    }
+  ],
+  "unmatchedOfficialGrandstandNames": [],
+  "unmatchedModeledGrandstandNames": [],
+  "excludedHistoricalAreas": [
+    {
+      "zoneId": "moss",
+      "name": "Moss",
+      "reason": "Historical geometry retained in melbourne-season-2026.json; unsupported2026 public eligibility is no longer advertised. No asserted dismantling date."
+    }
+  ],
+  "accessiblePublicFamilies": [
+    {
+      "name": "Jones Grandstand reserved accessible platform",
+      "modeled": false
+    },
+    {
+      "name": "ParkPass unreserved accessible platforms",
+      "turnGroups": [
+        "2–3",
+        "4–5",
+        "12"
+      ],
+      "modeled": true,
+      "modelZoneIds": [
+        "accessible-platform-t3",
+        "accessible-platform-t4",
+        "accessible-platform-t12"
+      ],
+      "officialFlyerTurns": [
+        3,
+        4,
+        12
+      ],
+      "deckHeightEstimated": true,
+      "eligibility": "Patrons with accessibility needs; no advance reservation. Ordinary Park Pass non-mound boundaries remain partial."
+    },
+    {
+      "name": "Turn12 reserved accessible platform (official2026 map label)",
+      "modeled": false,
+      "source": "F126_Accessibility-Flyer-A3_FA_Digital.pdf page1",
+      "requiredWork": "Reconcile reserved platform geometry/admission separately from the three pink unreserved platforms and Jones reserved seating; do not merge by turn number."
+    }
+  ],
+  "allNamedMapRegionsModeled": true
+}

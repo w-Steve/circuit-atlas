@@ -2,33 +2,19 @@ import {zoneName} from '../i18n/data';
 import { useEffect, useMemo, useState } from "react";
 import { Html } from "@react-three/drei";
 import { BufferGeometry,Float32BufferAttribute,Vector3 } from "three";
-import * as shanghaiSpectators from "../circuits/shanghai/spectators";
-import {circuitRuntime} from "../circuits/runtime";
-import type { SpectatorSurface } from "../circuits/shanghai/spectators";
-import { useApp } from "../store";
-import { SelectionPoint } from "./SelectionPoint";
-import {roadClearance,spectatorFence} from '../circuits/fenceGeometry';
-import {deckRailing} from '../circuits/deckRailing';
-import * as shanghaiGeometry from './CircuitGeometry';
-import shanghaiData from '../circuits/generated/shanghai.json';
-import type {CircuitPackage} from '../circuits/types';
 
-const fenceClearanceCache=new WeakMap<NonNullable<typeof circuitRuntime.current>,ReturnType<typeof roadClearance>>();
-let shanghaiClearance:ReturnType<typeof roadClearance>|undefined;
+import type { SpectatorSurface } from "../circuits/spectators";
+import {useCircuit,useCircuitStore} from '../app/CircuitContext';
+import { SelectionPoint } from "./SelectionPoint";
+import {spectatorFence} from '../circuits/fenceGeometry';
+import {deckRailing} from '../circuits/deckRailing';
+import {spectatorCanopy} from '../circuits/spectatorCanopy';
 
 function Fence({surface}:{surface:SpectatorSurface}){
+  const runtime=useCircuit();
   const geometry=useMemo(()=>{
     const points:number[]=[];
-    const runtime=circuitRuntime.current;
-    let segments:[Vector3,Vector3][];
-    if(runtime){
-      let clearance=fenceClearanceCache.get(runtime);
-      if(!clearance){clearance=roadClearance(runtime.data,runtime.geometry);fenceClearanceCache.set(runtime,clearance)}
-      segments=spectatorFence(surface,runtime.spectators,runtime.data,runtime.geometry,clearance);
-    }else{
-    shanghaiClearance??=roadClearance(shanghaiData as unknown as CircuitPackage,shanghaiGeometry);
-    segments=spectatorFence(surface,shanghaiSpectators,shanghaiData as unknown as CircuitPackage,shanghaiGeometry,shanghaiClearance);
-    }
+    const segments=surface.definition.fenceMode==='authored'?[]:spectatorFence(surface,runtime.spectators,runtime.data,runtime.geometry,runtime.clearance());
     for(const [a,b] of segments){
       for(const h of [0,.55,1.1,1.65,2.2,2.75,3.3])points.push(a.x,a.y+h,a.z,b.x,b.y+h,b.z);
       points.push(a.x,a.y,a.z,a.x,a.y+3.5,a.z);
@@ -45,14 +31,22 @@ function Fence({surface}:{surface:SpectatorSurface}){
   return <lineSegments geometry={geometry}><lineBasicMaterial color="#263b32" transparent opacity={.92}/></lineSegments>;
 }
 function AreaSurface({surface,highlight,onHover}:{surface:SpectatorSurface;highlight:boolean;onHover:(zone:string)=>void}){
-  const {surfaceGeometry,selectionAt}=circuitRuntime.current?.spectators??shanghaiSpectators;
+  const useApp=useCircuitStore();
+  const runtime=useCircuit(),{surfaceGeometry}=runtime.spectators,selectionAt=runtime.selectAt;
+  const rows=useMemo(()=>{
+    if(!surface.definition.visualRows)return null;const vertices:number[]=[];
+    for(let i=0;i<=surface.definition.visualRows;i++)for(const u of [0,1]){const p=runtime.spectators.surfacePoint(surface,u,i/surface.definition.visualRows);vertices.push(p.x,p.y+.05,p.z)}
+    const g=new BufferGeometry();g.setAttribute('position',new Float32BufferAttribute(vertices,3));return g;
+  },[runtime,surface]);
+  useEffect(()=>()=>rows?.dispose(),[rows]);
   const mode=useApp(s=>s.mode);
-  const railing=useMemo(()=>surface.definition.frontRailing?deckRailing(surface,circuitRuntime.current?.spectators??shanghaiSpectators):null,[surface]);
+  const canopy=useMemo(()=>spectatorCanopy(surface,runtime.spectators),[surface,runtime]);
+  useEffect(()=>()=>{canopy?.roof.dispose();canopy?.posts.dispose()},[canopy]);
+  const railing=useMemo(()=>surface.definition.frontRailing?deckRailing(surface,runtime.spectators):null,[surface]);
   useEffect(()=>()=>railing?.dispose(),[railing]);
   const geometry=useMemo(()=>{
-    const runtime=circuitRuntime.current;
     if(surface.zone.kind!=='grandstand'||surface.zone.supportToTerrain===false)return surfaceGeometry(surface);
-    const g=runtime?.geometry??shanghaiGeometry;
+    const g=runtime.geometry;
     return surfaceGeometry(surface,p=>g.groundAt(p.x,p.y)-.15);
   },[surface]);
   useEffect(()=>()=>geometry.dispose(),[geometry]);
@@ -70,21 +64,26 @@ function AreaSurface({surface,highlight,onHover}:{surface:SpectatorSurface;highl
 >
       <meshStandardMaterial color={highlight?'#d46750':surface.zone.kind!=='grandstand'?'#607854':'#8d9690'} roughness={.95} side={2}/>
     </mesh>
-    <Fence surface={surface}/>
+    {rows&&<lineSegments geometry={rows}><lineBasicMaterial color="#d4d7d0"/></lineSegments>}<Fence surface={surface}/>
     {railing&&<mesh geometry={railing} name={`deck-railing-${surface.definition.surfaceId}`}><meshStandardMaterial color="#426c60" roughness={.55} metalness={.35}/></mesh>}
+    {canopy&&<group name={`spectator-canopy-${surface.definition.surfaceId}`}>
+      {/* Open the roof only in the overhead picker; every physical view keeps it. */}
+      <mesh geometry={canopy.roof} visible={mode!=='select'} name="spectator-canopy-roof" castShadow receiveShadow><meshStandardMaterial color="#d9d6c8" roughness={.9} side={2}/></mesh>
+      <mesh geometry={canopy.posts} name="spectator-canopy-posts" castShadow receiveShadow><meshStandardMaterial color="#59615c" roughness={.65} metalness={.35}/></mesh>
+    </group>}
   </>;
 }
 export function SpectatorAreas({active=true}:{active?:boolean}){
-  const runtime=circuitRuntime.current;
-  const {zoneSurfaces,spectatorZones,zonePoint}=runtime?.spectators??shanghaiSpectators;
+  const useApp=useCircuitStore();
+  const runtime=useCircuit();
+  const {zoneSurfaces,spectatorZones,zonePoint}=runtime.spectators;
   const mode=useApp(s=>s.mode),zone=useApp(s=>s.selection.zoneId??'a');
-
 
   const [hover,setHover]=useState('');
   return <>
     {active&&mode==='select'&&<SelectionPoint/>}
-    {[...zoneSurfaces].filter(([id])=>runtime||id!=='a').flatMap(([id,surfaces])=>surfaces.map(s=><AreaSurface key={s.definition.surfaceId} surface={s} highlight={hover===id||(mode==='select'&&zone===id)} onHover={setHover}/>))}
-    {active&&mode==='overview'&&spectatorZones.filter(z=>runtime||z.zoneId!=='a').map(z=><Html key={z.zoneId} portal={{current:document.getElementById('scene-labels')!}} position={zonePoint(z.zoneId,.5,.5).add(new Vector3(0,25,0))} center>
+    {[...zoneSurfaces].flatMap(([id,surfaces])=>surfaces.map(s=><AreaSurface key={s.definition.surfaceId} surface={s} highlight={hover===id||(mode==='select'&&zone===id)} onHover={setHover}/>))}
+    {active&&mode==='overview'&&spectatorZones.map(z=><Html key={z.zoneId} portal={{current:document.getElementById('scene-labels')!}} position={z.mapLabelPosition?new Vector3(...z.mapLabelPosition):zonePoint(z.zoneId,.5,.5).add(new Vector3(0,25,0))} center>
       <button className="marker zone-marker" data-zone={z.zoneId} onMouseEnter={()=>setHover(z.zoneId)} onMouseLeave={()=>setHover('')} onClick={()=>{const app=useApp.getState();app.chooseZone(z.zoneId);app.setMode('select')}}>{zoneName(z.name)} ↗</button>
     </Html>)}
   </>;

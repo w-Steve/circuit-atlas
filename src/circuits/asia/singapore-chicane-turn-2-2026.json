@@ -1,0 +1,138 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "zoneId": "chicane-turn-2",
+  "checkedAt": "2026-11-05",
+  "zone": {
+    "zoneId": "chicane-turn-2",
+    "name": "Chicane @ Turn 2",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        103.86331286969968,
+        1.294084886293186
+      ],
+      [
+        103.862879784331,
+        1.294204358119039
+      ],
+      [
+        103.86285110377413,
+        1.2941004441539656
+      ],
+      [
+        103.86328418914282,
+        1.2939809723281126
+      ],
+      [
+        103.86331286969968,
+        1.294084886293186
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "chicane-turn-2-1",
+        "boundary": [
+          [
+            103.86331286969968,
+            1.294084886293186
+          ],
+          [
+            103.862879784331,
+            1.294204358119039
+          ],
+          [
+            103.86285110377413,
+            1.2941004441539656
+          ],
+          [
+            103.86328418914282,
+            1.2939809723281126
+          ],
+          [
+            103.86331286969968,
+            1.294084886293186
+          ]
+        ],
+        "baseHeight": 2,
+        "rise": 5.5,
+        "eyeHeight": 1.2,
+        "rows": 12,
+        "frontReference": [
+          103.863447,
+          1.294402
+        ],
+        "rowStrip": {
+          "front": [
+            [
+              103.86331286969968,
+              1.294084886293186
+            ],
+            [
+              103.862879784331,
+              1.294204358119039
+            ]
+          ],
+          "back": [
+            [
+              103.86328418914282,
+              1.2939809723281126
+            ],
+            [
+              103.86285110377413,
+              1.2941004441539656
+            ]
+          ],
+          "source": {
+            "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/chicane-grandstand-turn-2/",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Promoter2026 offers separate ChicaneTurn2 product withT1/T2/T3-approach views. Early2026 map shows inner chicane bank distinct from outside Turn2. Estimated50m length/12m depth,38m front offset clears retained pit route;12rows,2m platform/5.5m rise. User-approved practical approximation, not survey."
+          }
+        },
+        "rowBearing": "local-normal"
+      }
+    ],
+    "surface": {
+      "baseHeight": 2,
+      "rise": 5.5,
+      "depth": 12,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/chicane-grandstand-turn-2/",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Promoter2026 offers separate ChicaneTurn2 product withT1/T2/T3-approach views. Early2026 map shows inner chicane bank distinct from outside Turn2. Estimated50m length/12m depth,38m front offset clears retained pit route;12rows,2m platform/5.5m rise. User-approved practical approximation, not survey."
+    },
+    "openingSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/chicane-grandstand-turn-2/",
+      "checkedAt": "2026-11-05",
+      "method": "published",
+      "confidence": "medium",
+      "notes": "Explicit named2026 ordinary reserved-seat product; catalogue snapshot retained in annual-access review. No live availability claim."
+    },
+    "surfaceSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/chicane-grandstand-turn-2/",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Promoter2026 offers separate ChicaneTurn2 product withT1/T2/T3-approach views. Early2026 map shows inner chicane bank distinct from outside Turn2. Estimated50m length/12m depth,38m front offset clears retained pit route;12rows,2m platform/5.5m rise. User-approved practical approximation, not survey."
+    },
+    "description": "二号弯内侧近似看台；范围、排数与高度为估计。",
+    "geometryReview": {
+      "checkedAt": "2026-11-05",
+      "issues": [],
+      "method": "Approximate infield chicane bank distinct from outside Turn2; pit route and road/neighbor clearance screened."
+    }
+  },
+  "sourceMap": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+  "accuracy": "Practical author approximation permitted by user; no seat survey claim.",
+  "pitOverlapM2": {
+    "100484287": 0.0
+  }
+}

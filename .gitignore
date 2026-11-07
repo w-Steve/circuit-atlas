@@ -1,12 +1,21 @@
 node_modules/
 dist/
 .tools/
-*.tsbuildinfo
-.env
-.env.*
-test-results/
 playwright-report/
-research/
-artifacts/goal-review/
-artifacts/local-polish/
-artifacts/selection-facing-review/
+test-results/
+*.tsbuildinfo
+__pycache__/
+
+# Local reference maps and downloaded XML; derived factual coordinates are in src/circuits/europe/.
+research/europe/
+
+research/asia/
+
+research/americas/
+
+# Local audit evidence; never part of the public product.
+research/local-polish/
+
+# Raw audit PDFs and elevation API responses are local evidence only.
+research/season-review/
+research/elevation/

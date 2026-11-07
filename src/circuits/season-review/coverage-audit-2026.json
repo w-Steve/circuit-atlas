@@ -1,0 +1,529 @@
+{
+  "season": 2026,
+  "checkedAt": "2026-11-07",
+  "scope": "Compare2026 named public grandstand/grass families and separately named publicly ticketed Box views with current model groups. Does not claim surveyed individual seats, all hospitality interiors, final boundaries, or future unpublished products.",
+  "totalCircuits": 23,
+  "totalModelZones": 470,
+  "confirmedMissingGroupCount": 0,
+  "associationFollowupCount": 0,
+  "completionProven": true,
+  "countMeaning": "470 available approximate model zones across23 venues; not ticket-product count. Fixed12 missing named groups and4 Spa associations resolved. Exact source/height/boundary uncertainties remain explicit.",
+  "rows": [
+    {
+      "circuitId": "melbourne",
+      "modelCount": 27,
+      "modelSnapshotSha256": "5285091aabd0f483bcd5b4f40832e72ee14af9c2b2720c1e8a6e818cf5e6185b",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://program.grandprix.com.au/issue-0-formula-1/event-map/",
+      "existingSourceReviews": [
+        "src/circuits/season-review/melbourne-public-inventory.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "19 named ordinary stand families and five depicted ParkPass mounds represented; non-mound/full legal perimeter remains approximate."
+    },
+    {
+      "circuitId": "shanghai",
+      "modelCount": 8,
+      "modelSnapshotSha256": "cb9b954adcaa2026e089178d1aa8928ba670d1efb5ecf0c7afdf44bda14425ee",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://english.shanghai.gov.cn/en-SportsEvents/20260311/933bcc13c7c44363a04a036b4888a7de.html",
+      "existingSourceReviews": [
+        "src/circuits/season-review/shanghai-public-inventory.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Eight public stand/grass families represented; A tiers share one family."
+    },
+    {
+      "circuitId": "suzuka",
+      "modelCount": 31,
+      "modelSnapshotSha256": "8fe9cf2f94f65ad863f12f07059720796e5871832f2f92f6c1ac9962bfcb9084",
+      "reviewStatus": "source-associated-approximate-models-regression-passed",
+      "sourceUrl": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+      "existingSourceReviews": [
+        "src/circuits/asia/suzuka-annual-supplement-2026.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Six named annual groups modeled approximately. VIPSuite/PaddockClub interiors and detailed G3–G5 sub-block geometry not independently reconstructed; no ordinary V2 ticket access inferred.",
+      "annualMapProof": {
+        "url": "https://www.coloma.it/images/F1E-Japan-2026-Circuit-Map.pdf",
+        "sha256": "67961c12903c56f65fbaddfd737b0606b060f957f2673ed91ce5be38eb9abca9",
+        "mapPrintedSeason": 2026
+      },
+      "resolvedGroups": [
+        {
+          "productId": "a2",
+          "name": "A2",
+          "expectedZoneIds": [
+            "a2"
+          ],
+          "modelZoneId": null,
+          "sourceUrl": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+          "evidence": "Annual2026 map separately names this family. Current authored package matches the explicit modelReview; geometry and observer regressions passed. Dimensions remain author estimates.",
+          "modelReview": "src/circuits/asia/suzuka-annual-supplement-2026.json"
+        },
+        {
+          "productId": "h",
+          "name": "H",
+          "expectedZoneIds": [
+            "h"
+          ],
+          "modelZoneId": null,
+          "sourceUrl": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+          "evidence": "Annual2026 map separately names this family. Current authored package matches the explicit modelReview; geometry and observer regressions passed. Dimensions remain author estimates.",
+          "modelReview": "src/circuits/asia/suzuka-annual-supplement-2026.json"
+        },
+        {
+          "productId": "i",
+          "name": "I",
+          "expectedZoneIds": [
+            "i"
+          ],
+          "modelZoneId": null,
+          "sourceUrl": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+          "evidence": "Annual2026 map separately names this family. Current authored package matches the explicit modelReview; geometry and observer regressions passed. Dimensions remain author estimates.",
+          "modelReview": "src/circuits/asia/suzuka-annual-supplement-2026.json"
+        },
+        {
+          "productId": "r-box",
+          "name": "R-BOX",
+          "expectedZoneIds": [
+            "r-box"
+          ],
+          "modelZoneId": null,
+          "sourceUrl": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+          "evidence": "Annual2026 map separately names this family. Current authored package matches the explicit modelReview; geometry and observer regressions passed. Dimensions remain author estimates.",
+          "modelReview": "src/circuits/asia/suzuka-annual-supplement-2026.json"
+        },
+        {
+          "productId": "s-box",
+          "name": "S-BOX",
+          "expectedZoneIds": [
+            "s-box"
+          ],
+          "modelZoneId": null,
+          "sourceUrl": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+          "evidence": "Annual2026 map separately names this family. Current authored package matches the explicit modelReview; geometry and observer regressions passed. Dimensions remain author estimates.",
+          "modelReview": "src/circuits/asia/suzuka-annual-supplement-2026.json"
+        },
+        {
+          "productId": "gran-view",
+          "name": "GRAN VIEW",
+          "expectedZoneIds": [
+            "gran-view"
+          ],
+          "modelZoneId": null,
+          "sourceUrl": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+          "evidence": "Annual2026 map separately names this family. Current authored package matches the explicit modelReview; geometry and observer regressions passed. Dimensions remain author estimates.",
+          "modelReview": "src/circuits/asia/suzuka-annual-supplement-2026.json"
+        }
+      ]
+    },
+    {
+      "circuitId": "miami",
+      "modelCount": 17,
+      "modelSnapshotSha256": "1814ab86d0c855ff2725e33da9416378383a794341c1b37fae3f0df797272f0d",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://www.fia.com/sites/default/files/final_2026_media_kit.pdf",
+      "existingSourceReviews": [
+        "src/circuits/season-review/miami-annual-access-2026.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Ordinary stand groups and seven CampusPass viewing groups represented; preserved source photos/currentsite installation continuity uncertain."
+    },
+    {
+      "circuitId": "montreal",
+      "modelCount": 23,
+      "modelSnapshotSha256": "b46e41e04489858760147058a7c0ae9002cfeaa33e837bf07e3f6d41ae436259",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://gpcanada.ca/en/event/site-map/",
+      "existingSourceReviews": [
+        "src/circuits/season-review/montreal-public-map-identity-review.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Source-identified ordinary/accessible stand families and major GA sectors represented."
+    },
+    {
+      "circuitId": "monaco",
+      "modelCount": 14,
+      "modelSnapshotSha256": "573df80ca334efd5da34a855df715898e96507d83be7a37dd47ba58733a524d1",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://acm.mc/wp-content/uploads/2025/05/Plan_Circuit_GPF12026_1920x1800-4-scaled.jpg",
+      "existingSourceReviews": [
+        "src/circuits/season-review/monaco-public-map-identity-review.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Current modeled public families matched to annual review; withdrawn historicalM is not treated as an available2026 product or aliased toE."
+    },
+    {
+      "circuitId": "barcelona",
+      "modelCount": 24,
+      "modelSnapshotSha256": "153d3d46b8cfac4443e830c3608cadda889e2ce56d0fb678d9049f8c6667039c",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://gpdestinations.com/wp-content/uploads/2026/05/2026-Barcelona-Grand-Prix-Spectator-Map.pdf",
+      "existingSourceReviews": [
+        "src/circuits/season-review/barcelona-public-map-identity-review.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Annual map named ordinary stand groups, Pelouse sectors, Privilege and AlonsoLand represented."
+    },
+    {
+      "circuitId": "spielberg",
+      "modelCount": 12,
+      "modelSnapshotSha256": "15a03f6b7a5015cd5b66b5eefadcecd4f4f06fdc692e051792bea9246a6bc432",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://web.archive.org/web/20260306001316id_/https://tickets.redbullring.com/en/f1/f1-grand-prix-austria/pdfpricelist.html",
+      "existingSourceReviews": [
+        "src/circuits/season-review/spielberg-public-map-identity-review.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Ten ordinary stand groups including T3/T8/Schonberg and two GA ground groups represented."
+    },
+    {
+      "circuitId": "silverstone",
+      "modelCount": 40,
+      "modelSnapshotSha256": "f116dadcd9da51c1556b22153a14b5e1276720e1d1073c9be82dcf93a0dc9de6",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://www.silverstone.co.uk/events/formula-1-british-grand-prix",
+      "existingSourceReviews": [
+        "src/circuits/season-review/silverstone-ga-access-2026.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Named ordinary stand families and five GA+ families represented; full ordinary-GA perimeter and WoodcoteC alignment remain refinements."
+    },
+    {
+      "circuitId": "spa",
+      "modelCount": 27,
+      "modelSnapshotSha256": "81151b045179520ab9750ef587a4a0cc834c096d79bc99df73dfd14aaeb51f56",
+      "reviewStatus": "source-associated-approximate-models-regression-passed",
+      "sourceUrl": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+      "existingSourceReviews": [
+        "src/circuits/season-review/spa-bronze-access-2026.json",
+        "src/circuits/europe/spa-annual-supplement-2026.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "January2026 distinct labels represented with approximate road-side banks; G2Premium/G9Bis separate surfaces, Verstappen standing subset, Espace17–27 associated with existing Bronze5 source district. Exact footprints/ticket boundaries/annual final installation not certified. Silver7 not imported from newer map.",
+      "annualMapProof": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "sha256": "8604073825aa6a7242aaff3622f7a5d5620e97d1c3c8a2eb48a2491d6de33e2b",
+        "capturedAt": "2026-01-14",
+        "eventDates": [
+          "2026-07-16",
+          "2026-07-19"
+        ],
+        "distinctGroupIds": [
+          "G4",
+          "S5",
+          "S6",
+          "grandstand-double-gauche",
+          "fanzone"
+        ],
+        "otherNamedGroup": "gold-5"
+      },
+      "resolvedGroups": [
+        {
+          "productId": "gold-4-eau-rouge",
+          "name": "Gold 4 Eau Rouge",
+          "expectedZoneIds": [
+            "gold-4-eau-rouge"
+          ],
+          "modelZoneId": null,
+          "sourceUrl": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+          "evidence": "Annual2026 map separately names this family. Current authored package matches the explicit modelReview; geometry and observer regressions passed. Dimensions remain author estimates.",
+          "modelReview": "src/circuits/europe/spa-annual-supplement-2026.json"
+        },
+        {
+          "productId": "gold-5",
+          "name": "Gold 5",
+          "expectedZoneIds": [
+            "gold-5"
+          ],
+          "modelZoneId": null,
+          "sourceUrl": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+          "evidence": "Annual2026 map separately names this family. Current authored package matches the explicit modelReview; geometry and observer regressions passed. Dimensions remain author estimates.",
+          "modelReview": "src/circuits/europe/spa-annual-supplement-2026.json"
+        },
+        {
+          "productId": "silver-5",
+          "name": "Silver 5",
+          "expectedZoneIds": [
+            "silver-5"
+          ],
+          "modelZoneId": null,
+          "sourceUrl": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+          "evidence": "Annual2026 map separately names this family. Current authored package matches the explicit modelReview; geometry and observer regressions passed. Dimensions remain author estimates.",
+          "modelReview": "src/circuits/europe/spa-annual-supplement-2026.json"
+        },
+        {
+          "productId": "silver-6",
+          "name": "Silver 6",
+          "expectedZoneIds": [
+            "silver-6"
+          ],
+          "modelZoneId": null,
+          "sourceUrl": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+          "evidence": "Annual2026 map separately names this family. Current authored package matches the explicit modelReview; geometry and observer regressions passed. Dimensions remain author estimates.",
+          "modelReview": "src/circuits/europe/spa-annual-supplement-2026.json"
+        },
+        {
+          "productId": "fanzone-grandstand",
+          "name": "Fanzone Grandstand",
+          "expectedZoneIds": [
+            "fanzone-grandstand"
+          ],
+          "modelZoneId": null,
+          "sourceUrl": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+          "evidence": "Annual2026 map separately names this family. Current authored package matches the explicit modelReview; geometry and observer regressions passed. Dimensions remain author estimates.",
+          "modelReview": "src/circuits/europe/spa-annual-supplement-2026.json"
+        },
+        {
+          "productId": "fan-area-double-gauche",
+          "name": "Fan Area Grandstand Double Gauche",
+          "expectedZoneIds": [
+            "fan-area-double-gauche"
+          ],
+          "modelZoneId": null,
+          "sourceUrl": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+          "evidence": "Annual2026 map separately names this family. Current authored package matches the explicit modelReview; geometry and observer regressions passed. Dimensions remain author estimates.",
+          "modelReview": "src/circuits/europe/spa-annual-supplement-2026.json"
+        }
+      ],
+      "resolvedAssociations": [
+        {
+          "productId": "gold-2-premium",
+          "zoneId": "gold-2-gp2",
+          "surfaceIds": [
+            "gold-2-premium-approx"
+          ],
+          "relation": "Separate approximate rear bank; distinct ticket product; not ordinary G2 access."
+        },
+        {
+          "productId": "gold-9-bis",
+          "zoneId": "gold-9-pole-position",
+          "surfaceIds": [
+            "gold-9-bis-approx"
+          ],
+          "relation": "Adjacent main-straight approximate bank between G9 and G1; distinct ticket code."
+        },
+        {
+          "productId": "zone-verstappen",
+          "zoneId": "bronze-4-pouhon",
+          "surfaceIds": [
+            "verstappen-ground-approx"
+          ],
+          "relation": "Separate standing subset after DoubleGauche, before FanAreaGrandstand; eye1.65m; not the seated grandstand."
+        },
+        {
+          "productId": "espace-17-27",
+          "zoneId": "bronze-5-stavelot",
+          "surfaceIds": [
+            "bronze-5-stavelot-1"
+          ],
+          "relation": "Annual youth map label lies outside Campus/Stavelot (T14–T15) along Bronze5, not Bronze6. Representative existing standing surface only; exact youth ticket subset/age enforcement/camp interior not reconstructed."
+        }
+      ]
+    },
+    {
+      "circuitId": "hungaroring",
+      "modelCount": 20,
+      "modelSnapshotSha256": "cbbcd37eda422da9c64170879e6462f8eb1844a524df2f0fe480855dca20add7",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://www.gpticketshop.hu/upload/2026_02/24/177192229252025691/do_hungaroring_map_2026_trib_n_k___fan2_1500px.jpg",
+      "existingSourceReviews": [
+        "src/circuits/season-review/hungaroring-ga-access-2026.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Named ordinary stand groups including Fan2 and major GA sectors represented."
+    },
+    {
+      "circuitId": "zandvoort",
+      "modelCount": 16,
+      "modelSnapshotSha256": "3fb37fe84ace5632b241b5b6394735dd0420005f802b1b4e406a3d65ccdff450",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://www.dutchgp.com/app/uploads/2026/07/2026_F1_Netherlands_WayfindingMap_Negative_VISUAL.pdf",
+      "existingSourceReviews": [
+        "src/circuits/season-review/zandvoort-geometry-review-2026.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Annual map ordinary grandstand groups and GA1/GA2 represented. Amex/Gold+deck/private lounges are not certified as independently modeled public stand families."
+    },
+    {
+      "circuitId": "monza",
+      "modelCount": 38,
+      "modelSnapshotSha256": "1ad5f3b2223f30ce07f342c9ef32b5552992bb32337309dc36be589aa95f99a0",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://www.monzanet.it/wp-content/uploads/2026/06/GP_F1_2026_LISTINO_PREZZI_6_17.pdf",
+      "existingSourceReviews": [
+        "src/circuits/season-review/monza-public-inventory.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "All50 ordinary catalog entries now have explicit approximate associations; exact block and25/26 rights unverified."
+    },
+    {
+      "circuitId": "madrid",
+      "modelCount": 17,
+      "modelSnapshotSha256": "294755d8286a2a93715536055d96ba178dacf1223f7227f8a14c0de26c53ca66",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://www.madring.com/img/xl/mapa-madring/mapa_web_11_8_26_ing.webp",
+      "existingSourceReviews": [
+        "src/circuits/season-review/madrid-map-coverage-2026.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "All46 printed stand codes map to16 approximate groups, plus ground area. GE23/GD11/GD12 precise ordinary/hospitality allocation remains unknown, not a newly missing footprint."
+    },
+    {
+      "circuitId": "baku",
+      "modelCount": 18,
+      "modelSnapshotSha256": "d41a4b10e14cb85e7e405b61e8f5982a46962b4011900952a2c4d998c7217ae9",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://www.bakucitycircuit.com/",
+      "existingSourceReviews": [
+        "src/circuits/season-review/baku-annual-access-2026.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Published18 seated products (C has two layers) and roaming have approximations; full roaming enclosure/platform continuity uncertain."
+    },
+    {
+      "circuitId": "sepang",
+      "modelCount": 8,
+      "modelSnapshotSha256": "6033614f9625f2b511c5188a6bcca76f73b5e19a8e2d8248665e823d7bb7cccd",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://web.archive.org/web/20260917211949id_/https://www.bahraingp.com/blog/events/event-overview-2026/",
+      "existingSourceReviews": [
+        "src/circuits/season-review/sepang-public-inventory.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Seven published ordinary families map to eight zones; source replay digest limitation retained."
+    },
+    {
+      "circuitId": "singapore",
+      "modelCount": 38,
+      "modelSnapshotSha256": "afd5d6d880aefddc0b17bcc83c5f179cf13d35a11d144407b9f3e1b9d685a4f0",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+      "existingSourceReviews": [
+        "src/circuits/season-review/singapore-annual-access-2026.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "All named early2026 grandstand families incl SuperPit/Pit shared tiers, PadangA/B, ChicaneTurn1/2 and two wheelchair platforms have approximate views; final ticket allocations and full Walkabout perimeters unverified."
+    },
+    {
+      "circuitId": "austin",
+      "modelCount": 20,
+      "modelSnapshotSha256": "a7b23a2d7baa20817fdf7f3ac244ddfdc7ed311c5ffba040bcc420cfb326c2e0",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://circuitoftheamericas.com/wp-content/uploads/2026-COTA-Map_Seating_GA.jpg",
+      "existingSourceReviews": [
+        "src/circuits/season-review/austin-ground-review.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Named ordinary stand families, independent ClubSI, source-named ADA subsets and major GA sectors represented."
+    },
+    {
+      "circuitId": "mexico",
+      "modelCount": 24,
+      "modelSnapshotSha256": "12d20008c32f08119618b5690eec25cf06b44cde9e1ed80b7bacaa87360f98b8",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://www.mexicogp.mx/mediacenter/arranca-la-venta-general-para-el-mexico-gp-2026/",
+      "existingSourceReviews": [
+        "src/circuits/season-review/mexico-public-map-identity-review.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "18 ordinary stands, two accessible platforms and four Box families represented; upgrades/Tours use source named areas rather than duplicate stands. No ordinary grass/GA product in retained2026 public table."
+    },
+    {
+      "circuitId": "interlagos",
+      "modelCount": 19,
+      "modelSnapshotSha256": "3ea93a4032938c40618d11dffa52288ba577d29470e041417b57a903fdfea9d6",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://help.eventim.com.br/hc/pt-br/articles/36202193725463",
+      "existingSourceReviews": [
+        "src/circuits/season-review/interlagos-public-map-identity-review.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Annual named ordinary sectors plus major Village ground represented; N/K geography explicitly carries over2025 map association, not a final2026 survey. Fanzone remains LED-only."
+    },
+    {
+      "circuitId": "las-vegas",
+      "modelCount": 12,
+      "modelSnapshotSha256": "c89980be7b3269bb610a4aa856bc2182012df2d20eb3537328b46b4a84c358fe",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://www.f1lasvegasgp.com/2026/08/single-day-tickets-on-sale-now-for-formula-1-heineken-las-vegas-grand-prix-2026-set-for-november-19-21/",
+      "existingSourceReviews": [
+        "src/circuits/season-review/las-vegas-annual-access-2026.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Modeled ordinary stand families plus independently named TMobile/Flamingo GA represented; full installation limits not certified."
+    },
+    {
+      "circuitId": "lusail",
+      "modelCount": 6,
+      "modelSnapshotSha256": "d60c3d38f7e32f68825c6817bf5c1fe21acd1355a765c220caf4abae776f0d5a",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://www.lcsc.qa/formula-1r-qatar-airways-qatar-grand-prix-2026",
+      "existingSourceReviews": [
+        "src/circuits/season-review/lusail-public-inventory.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "All six ordinary families in organizer2026 map represented; fan-zone circulation/hospitality not automatically another race-view area."
+    },
+    {
+      "circuitId": "yas-marina",
+      "modelCount": 11,
+      "modelSnapshotSha256": "675f0c76f9ea2c19e2f050a9dc5f356321fbeaff2a9c8bf04cc258e92ff94a4f",
+      "reviewStatus": "no-new-named-family-gap-found-in-reviewed-sources",
+      "sourceUrl": "https://www.abudhabigp.com/en/formula1/tickets-2026",
+      "existingSourceReviews": [
+        "src/circuits/season-review/yas-marina-annual-access-2026.json"
+      ],
+      "confirmedMissingGroups": [],
+      "associationFollowups": [],
+      "limitations": "Known2026 ordinary families plus Hill/WestPavilion represented; catalog snapshots are not a complete final installation map; rear hospitality layers not asserted ordinary seats."
+    }
+  ],
+  "verification": {
+    "status": "passed",
+    "newGroups": 12,
+    "desktopMobileFlowsPassed": 30,
+    "freshSpatialScreen": {
+      "circuits": 23,
+      "zones": 470,
+      "roadCandidates": 0,
+      "interZoneCandidates": 0
+    },
+    "limitations": "Approximate named-family and representative standing coverage, not surveyed ticket boundaries, interiors, complete access engineering or every-seat unobstructed view.",
+    "desktopExportPhotosInspected": 15,
+    "fullVitest": {
+      "files": 228,
+      "tests": 704,
+      "passed": 704,
+      "command": "node node_modules/vitest/vitest.mjs run --maxWorkers=2"
+    },
+    "productionBuild": "passed",
+    "migrationReplayAndEditProtection": "Suzuka annual supplement, Spa annual supplement, legacy Spa Bronze passed",
+    "sameZoneBankScreen": "No positive-area overlapping authored banks; shared boundary edges allowed",
+    "cloudSynced": false
+  },
+  "completionScope": "User-authorized approximate2026 named stand/standing-family data coverage across23 current venues, including source-associated shared products. Not surveyed footprints, ticket entitlement certification, every-seat visibility, complete room interiors or future/unpublished offerings."
+}

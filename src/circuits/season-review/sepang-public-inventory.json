@@ -1,0 +1,171 @@
+{
+  "circuitId": "sepang",
+  "season": 2026,
+  "inventoryCheckedAt": "2026-11-06",
+  "inventoryComplete": true,
+  "scope": "All seven ordinary public ticket families in recovered2026 co-promoter catalog have approximate models: Main maps to two banks, K1/F to one each, K2/B/C/G to four independent ground groups. Completeness means named ordinary product coverage, not surveyed ticket enclosures or every accessible reservation detail.",
+  "sources": [
+    {
+      "url": "https://web.archive.org/web/20260917211949id_/https://www.bahraingp.com/blog/events/event-overview-2026/",
+      "originalUrl": "https://www.bahraingp.com/blog/events/event-overview-2026/",
+      "capturedAt": "20260917211949",
+      "retrievedSha256": "9237d81b48bdda0ba60a2433e4bbd2b868a0bc0d0d7872d2e8fd48c755c7a347",
+      "cdxSha1Matches": false,
+      "limitation": "Replay HTML SHA1 differs from CDX; do not certify original capture bytes. Annual event branding and explicit product table are readable; event asset separately retrieved."
+    },
+    {
+      "url": "https://www.formula1.com/en/latest/article/tickets-launched-for-2026-bahrain-grand-prix-in-malaysia.6ZRHjZRSy27CeInt4lgGax.6ZRHjZRSy27CeInt4lgGax",
+      "publishedAt": "2026-08-15",
+      "evidence": "Live F1 announcement identifies BIC and SIC as co-promoters and confirms grandstand/GA sales for02–04 October2026. This establishes the co-promoter relationship, not individual polygon boundaries."
+    }
+  ],
+  "ticketProducts": [
+    {
+      "name": "Main Grandstand",
+      "kind": "grandstand",
+      "modelZoneIds": [
+        "main-north",
+        "main-south"
+      ],
+      "eligibility": "Public; split into north/south modeled banks, not two ticket products."
+    },
+    {
+      "name": "K1 Grandstand",
+      "kind": "grandstand",
+      "modelZoneIds": [
+        "k1"
+      ],
+      "eligibility": "Public"
+    },
+    {
+      "name": "F Grandstand",
+      "kind": "grandstand",
+      "modelZoneIds": [
+        "f"
+      ],
+      "eligibility": "Public"
+    },
+    {
+      "name": "K2 Hillstand",
+      "kind": "general-admission",
+      "modelZoneIds": [
+        "hill-k2"
+      ],
+      "eligibility": "Public"
+    },
+    {
+      "name": "B General Admission",
+      "kind": "general-admission",
+      "modelZoneIds": [
+        "hill-b"
+      ],
+      "eligibility": "Public"
+    },
+    {
+      "name": "C Hillstand",
+      "kind": "general-admission",
+      "modelZoneIds": [
+        "hill-c"
+      ],
+      "eligibility": "Public"
+    },
+    {
+      "name": "G Hillstand",
+      "kind": "general-admission",
+      "modelZoneIds": [
+        "hill-g"
+      ],
+      "eligibility": "MyKad holders only; do not present as unrestricted international admission."
+    }
+  ],
+  "missingPublicProducts": [],
+  "areas": [
+    {
+      "zoneId": "k1",
+      "name": "K1",
+      "source": "https://web.archive.org/web/20260917211949id_/https://www.bahraingp.com/blog/events/event-overview-2026/"
+    },
+    {
+      "zoneId": "f",
+      "name": "F",
+      "source": "https://web.archive.org/web/20260917211949id_/https://www.bahraingp.com/blog/events/event-overview-2026/"
+    },
+    {
+      "zoneId": "main-north",
+      "name": "Main North",
+      "source": "https://web.archive.org/web/20260917211949id_/https://www.bahraingp.com/blog/events/event-overview-2026/"
+    },
+    {
+      "zoneId": "main-south",
+      "name": "Main South",
+      "source": "https://web.archive.org/web/20260917211949id_/https://www.bahraingp.com/blog/events/event-overview-2026/"
+    },
+    {
+      "zoneId": "hill-k2",
+      "name": "K2 Hillstand",
+      "source": "https://web.archive.org/web/20260917211949id_/https://www.bahraingp.com/blog/events/event-overview-2026/"
+    },
+    {
+      "zoneId": "hill-b",
+      "name": "B Hillstand",
+      "source": "https://web.archive.org/web/20260917211949id_/https://www.bahraingp.com/blog/events/event-overview-2026/"
+    },
+    {
+      "zoneId": "hill-c",
+      "name": "C Hillstand",
+      "source": "https://web.archive.org/web/20260917211949id_/https://www.bahraingp.com/blog/events/event-overview-2026/"
+    },
+    {
+      "zoneId": "hill-g",
+      "name": "G Hillstand",
+      "source": "https://web.archive.org/web/20260917211949id_/https://www.bahraingp.com/blog/events/event-overview-2026/"
+    }
+  ],
+  "openingSource": {
+    "url": "https://web.archive.org/web/20260917211949id_/https://www.bahraingp.com/blog/events/event-overview-2026/",
+    "checkedAt": "2026-10-26",
+    "method": "published",
+    "confidence": "medium",
+    "notes": "2026联合主办方活动页存档明确Main/K1/F产品；Main南北是同一票种两侧模型。售罄不等于当年未开放。重放HTML摘要不符CDX，不作原捕获字节认证；不证明座席边界或高度。"
+  },
+  "excludedOpeningSource": "https://www.bahraingp.com/blog/events/venue-map/",
+  "eventAsset": {
+    "url": "https://d3ie7ogstrup9y.cloudfront.net/wp-content/uploads/2026/08/05115809/bahrain-malaysia-gp2026-overview-2.png",
+    "sha256": "8400ba38dba25e59a62438adde3c1d205c919bbafc67fa3bdae28056aa0be3c2",
+    "scope": "Visible2026 event branding only; no geometry derived and not shipped as web asset."
+  },
+  "groundCoverageReview": {
+    "checkedAt": "2026-11-06",
+    "accepted": true,
+    "sourceReview": "src/circuits/asia/sepang-hillstands-2026.json",
+    "geographicBoundaryVerified": false,
+    "modeledProducts": [
+      {
+        "productName": "K2 Hillstand",
+        "modelZoneIds": [
+          "hill-k2"
+        ]
+      },
+      {
+        "productName": "B General Admission",
+        "modelZoneIds": [
+          "hill-b"
+        ]
+      },
+      {
+        "productName": "C Hillstand",
+        "modelZoneIds": [
+          "hill-c"
+        ]
+      },
+      {
+        "productName": "G Hillstand",
+        "modelZoneIds": [
+          "hill-g"
+        ]
+      }
+    ],
+    "basis": "Independent native named hill parcels cover the major physical grounds for each annual hill family. Full parcel extents retained except road/registered facility buffers and sub-metre tips; standing1.65m on source terrain. No historicalD/E admission inferred.",
+    "limitations": "Exact2026 fences, access paths and G eligibility enforcement are not reconstructed. C2 partial canopy not modeled. Additional-needs seating is bookable by phone within organizer allocation; exact ramps/companion positions not provided."
+  }
+}

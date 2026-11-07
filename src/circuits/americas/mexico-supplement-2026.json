@@ -1,0 +1,906 @@
+{
+  "circuitId": "mexico",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "grada-6a",
+      "name": "Grada 6A",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -99.08425636470321,
+          19.40077661913675
+        ],
+        [
+          -99.08467685659454,
+          19.400020986222543
+        ],
+        [
+          -99.08455036325009,
+          19.399958362897323
+        ],
+        [
+          -99.08412987135875,
+          19.40071399581153
+        ],
+        [
+          -99.08425636470321,
+          19.40077661913675
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "grada-6a-1",
+          "boundary": [
+            [
+              -99.08425636470321,
+              19.40077661913675
+            ],
+            [
+              -99.08467685659454,
+              19.400020986222543
+            ],
+            [
+              -99.08455036325009,
+              19.399958362897323
+            ],
+            [
+              -99.08412987135875,
+              19.40071399581153
+            ],
+            [
+              -99.08425636470321,
+              19.40077661913675
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7,
+          "rows": 16,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -99.084669,
+            19.400499
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -99.08425636470321,
+                19.40077661913675
+              ],
+              [
+                -99.08467685659454,
+                19.400020986222543
+              ]
+            ],
+            "back": [
+              [
+                -99.08412987135875,
+                19.40071399581153
+              ],
+              [
+                -99.08455036325009,
+                19.399958362897323
+              ]
+            ],
+            "source": {
+              "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 95x15m, front offset24m,16rows,first floor2.2m/rise7m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 7,
+        "depth": 15,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 95x15m, front offset24m,16rows,first floor2.2m/rise7m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "surfaceSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 95x15m, front offset24m,16rows,first floor2.2m/rise7m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "openingSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Explicit ordinary stand in promoter2026 price table, not a live stock claim."
+      },
+      "description": "近似普通看台；范围、排数及高度为估计。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Named locator relative placement with authored road-referenced dimensions; not survey. 6A anchor uses actual back-straight centerline vertex23, not interpolation between remote corner labels."
+      }
+    },
+    {
+      "zoneId": "grada-7",
+      "name": "Grada 7",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -99.08596997963159,
+          19.398288318717167
+        ],
+        [
+          -99.08554270731183,
+          19.3978658044651
+        ],
+        [
+          -99.08543933612303,
+          19.397958808633856
+        ],
+        [
+          -99.08586660844279,
+          19.398381322885925
+        ],
+        [
+          -99.08596997963159,
+          19.398288318717167
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "grada-7-1",
+          "boundary": [
+            [
+              -99.08596997963159,
+              19.398288318717167
+            ],
+            [
+              -99.08554270731183,
+              19.3978658044651
+            ],
+            [
+              -99.08543933612303,
+              19.397958808633856
+            ],
+            [
+              -99.08586660844279,
+              19.398381322885925
+            ],
+            [
+              -99.08596997963159,
+              19.398288318717167
+            ]
+          ],
+          "baseHeight": 2.5,
+          "rise": 8,
+          "rows": 18,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -99.0859217373738,
+            19.397928254921123
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -99.08596997963159,
+                19.398288318717167
+              ],
+              [
+                -99.08554270731183,
+                19.3978658044651
+              ]
+            ],
+            "back": [
+              [
+                -99.08586660844279,
+                19.398381322885925
+              ],
+              [
+                -99.08543933612303,
+                19.397958808633856
+              ]
+            ],
+            "source": {
+              "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 65x15m, front offset24m,18rows,first floor2.5m/rise8m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.5,
+        "rise": 8,
+        "depth": 15,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 65x15m, front offset24m,18rows,first floor2.5m/rise8m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "surfaceSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 65x15m, front offset24m,18rows,first floor2.5m/rise8m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "openingSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Explicit ordinary stand in promoter2026 price table, not a live stock claim."
+      },
+      "description": "近似普通看台；范围、排数及高度为估计。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Named locator relative placement with authored road-referenced dimensions; not survey."
+      }
+    },
+    {
+      "zoneId": "grada-8",
+      "name": "Grada 8",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -99.08557771362706,
+          19.399592881931707
+        ],
+        [
+          -99.08586541783247,
+          19.399075871326648
+        ],
+        [
+          -99.08597504373971,
+          19.399130145404385
+        ],
+        [
+          -99.0856873395343,
+          19.399647156009447
+        ],
+        [
+          -99.08557771362706,
+          19.399592881931707
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "grada-8-1",
+          "boundary": [
+            [
+              -99.08557771362706,
+              19.399592881931707
+            ],
+            [
+              -99.08586541783247,
+              19.399075871326648
+            ],
+            [
+              -99.08597504373971,
+              19.399130145404385
+            ],
+            [
+              -99.0856873395343,
+              19.399647156009447
+            ],
+            [
+              -99.08557771362706,
+              19.399592881931707
+            ]
+          ],
+          "baseHeight": 2,
+          "rise": 6.5,
+          "rows": 15,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -99.08553604496363,
+            19.399242528189927
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -99.08557771362706,
+                19.399592881931707
+              ],
+              [
+                -99.08586541783247,
+                19.399075871326648
+              ]
+            ],
+            "back": [
+              [
+                -99.0856873395343,
+                19.399647156009447
+              ],
+              [
+                -99.08597504373971,
+                19.399130145404385
+              ]
+            ],
+            "source": {
+              "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 65x13m, front offset22m,15rows,first floor2m/rise6.5m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2,
+        "rise": 6.5,
+        "depth": 13,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 65x13m, front offset22m,15rows,first floor2m/rise6.5m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "surfaceSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 65x13m, front offset22m,15rows,first floor2m/rise6.5m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "openingSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Explicit ordinary stand in promoter2026 price table, not a live stock claim."
+      },
+      "description": "近似普通看台；范围、排数及高度为估计。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Named locator relative placement with authored road-referenced dimensions; not survey."
+      }
+    },
+    {
+      "zoneId": "grada-9",
+      "name": "Grada 9",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -99.08640918682212,
+          19.398741598439187
+        ],
+        [
+          -99.08637489128337,
+          19.399234609463708
+        ],
+        [
+          -99.08625134764064,
+          19.399226963448044
+        ],
+        [
+          -99.0862856431794,
+          19.39873395242352
+        ],
+        [
+          -99.08640918682212,
+          19.398741598439187
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "grada-9-1",
+          "boundary": [
+            [
+              -99.08640918682212,
+              19.398741598439187
+            ],
+            [
+              -99.08637489128337,
+              19.399234609463708
+            ],
+            [
+              -99.08625134764064,
+              19.399226963448044
+            ],
+            [
+              -99.0862856431794,
+              19.39873395242352
+            ],
+            [
+              -99.08640918682212,
+              19.398741598439187
+            ]
+          ],
+          "baseHeight": 2,
+          "rise": 6.5,
+          "rows": 15,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -99.08660111290968,
+            19.399001043362578
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -99.08640918682212,
+                19.398741598439187
+              ],
+              [
+                -99.08637489128337,
+                19.399234609463708
+              ]
+            ],
+            "back": [
+              [
+                -99.0862856431794,
+                19.39873395242352
+              ],
+              [
+                -99.08625134764064,
+                19.399226963448044
+              ]
+            ],
+            "source": {
+              "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 55x13m, front offset22m,15rows,first floor2m/rise6.5m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2,
+        "rise": 6.5,
+        "depth": 13,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 55x13m, front offset22m,15rows,first floor2m/rise6.5m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "surfaceSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 55x13m, front offset22m,15rows,first floor2m/rise6.5m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "openingSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Explicit ordinary stand in promoter2026 price table, not a live stock claim."
+      },
+      "description": "近似普通看台；范围、排数及高度为估计。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Named locator relative placement with authored road-referenced dimensions; not survey."
+      }
+    },
+    {
+      "zoneId": "grada-10",
+      "name": "Grada 10",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -99.08632931967827,
+          19.396972660227092
+        ],
+        [
+          -99.08669379702506,
+          19.39676001297951
+        ],
+        [
+          -99.08661864917246,
+          19.39664541651411
+        ],
+        [
+          -99.08625417182567,
+          19.396858063761695
+        ],
+        [
+          -99.08632931967827,
+          19.396972660227092
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "grada-10-1",
+          "boundary": [
+            [
+              -99.08632931967827,
+              19.396972660227092
+            ],
+            [
+              -99.08669379702506,
+              19.39676001297951
+            ],
+            [
+              -99.08661864917246,
+              19.39664541651411
+            ],
+            [
+              -99.08625417182567,
+              19.396858063761695
+            ],
+            [
+              -99.08632931967827,
+              19.396972660227092
+            ]
+          ],
+          "baseHeight": 2.5,
+          "rise": 8,
+          "rows": 18,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -99.08667187377053,
+            19.397110809062816
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -99.08632931967827,
+                19.396972660227092
+              ],
+              [
+                -99.08669379702506,
+                19.39676001297951
+              ]
+            ],
+            "back": [
+              [
+                -99.08625417182567,
+                19.396858063761695
+              ],
+              [
+                -99.08661864917246,
+                19.39664541651411
+              ]
+            ],
+            "source": {
+              "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 45x15m, front offset32m,18rows,first floor2.5m/rise8m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.5,
+        "rise": 8,
+        "depth": 15,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 45x15m, front offset32m,18rows,first floor2.5m/rise8m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "surfaceSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 45x15m, front offset32m,18rows,first floor2.5m/rise8m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "openingSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Explicit ordinary stand in promoter2026 price table, not a live stock claim."
+      },
+      "description": "近似普通看台；范围、排数及高度为估计。后部顶棚尚待完善。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Named locator relative placement with authored road-referenced dimensions; not survey."
+      }
+    },
+    {
+      "zoneId": "grada-11",
+      "name": "Grada 11",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -99.08694677508868,
+          19.397462055537467
+        ],
+        [
+          -99.08690936177494,
+          19.39799988572783
+        ],
+        [
+          -99.08708042084689,
+          19.39801047260199
+        ],
+        [
+          -99.08711783416062,
+          19.397472642411625
+        ],
+        [
+          -99.08694677508868,
+          19.397462055537467
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "grada-11-1",
+          "boundary": [
+            [
+              -99.08694677508868,
+              19.397462055537467
+            ],
+            [
+              -99.08690936177494,
+              19.39799988572783
+            ],
+            [
+              -99.08708042084689,
+              19.39801047260199
+            ],
+            [
+              -99.08711783416062,
+              19.397472642411625
+            ],
+            [
+              -99.08694677508868,
+              19.397462055537467
+            ]
+          ],
+          "baseHeight": 2.5,
+          "rise": 10,
+          "rows": 22,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -99.08669048638745,
+            19.397716266640764
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -99.08694677508868,
+                19.397462055537467
+              ],
+              [
+                -99.08690936177494,
+                19.39799988572783
+              ]
+            ],
+            "back": [
+              [
+                -99.08711783416062,
+                19.397472642411625
+              ],
+              [
+                -99.08708042084689,
+                19.39801047260199
+              ]
+            ],
+            "source": {
+              "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 60x18m, front offset25m,22rows,first floor2.5m/rise10m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.5,
+        "rise": 10,
+        "depth": 18,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 60x18m, front offset25m,22rows,first floor2.5m/rise10m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "surfaceSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 60x18m, front offset25m,22rows,first floor2.5m/rise10m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "openingSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Explicit ordinary stand in promoter2026 price table, not a live stock claim."
+      },
+      "description": "近似普通看台；范围、排数及高度为估计。后部顶棚尚待完善。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Named locator relative placement with authored road-referenced dimensions; not survey."
+      }
+    },
+    {
+      "zoneId": "grada-12",
+      "name": "Grada 12",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -99.08689349231732,
+          19.39822803158487
+        ],
+        [
+          -99.0868529612266,
+          19.39881068096987
+        ],
+        [
+          -99.08702402113089,
+          19.39882126779295
+        ],
+        [
+          -99.0870645522216,
+          19.398238618407955
+        ],
+        [
+          -99.08689349231732,
+          19.39822803158487
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "grada-12-1",
+          "boundary": [
+            [
+              -99.08689349231732,
+              19.39822803158487
+            ],
+            [
+              -99.0868529612266,
+              19.39881068096987
+            ],
+            [
+              -99.08702402113089,
+              19.39882126779295
+            ],
+            [
+              -99.0870645522216,
+              19.398238618407955
+            ],
+            [
+              -99.08689349231732,
+              19.39822803158487
+            ]
+          ],
+          "baseHeight": 2.5,
+          "rise": 10,
+          "rows": 22,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -99.08663564357154,
+            19.398504652356422
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                -99.08689349231732,
+                19.39822803158487
+              ],
+              [
+                -99.0868529612266,
+                19.39881068096987
+              ]
+            ],
+            "back": [
+              [
+                -99.0870645522216,
+                19.398238618407955
+              ],
+              [
+                -99.08702402113089,
+                19.39882126779295
+              ]
+            ],
+            "source": {
+              "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 65x18m, front offset25m,22rows,first floor2.5m/rise10m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.5,
+        "rise": 10,
+        "depth": 18,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 65x18m, front offset25m,22rows,first floor2.5m/rise10m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "surfaceSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official2026 reserved-seat product; individually named promoter locator establishes road side and relative location. Author approximate bank 65x18m, front offset25m,22rows,first floor2.5m/rise10m. Not georeferenced ticket limits or installation survey. No adjacent Box building substituted."
+      },
+      "openingSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Explicit ordinary stand in promoter2026 price table, not a live stock claim."
+      },
+      "description": "近似普通看台；范围、排数及高度为估计。后部顶棚尚待完善。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Named locator relative placement with authored road-referenced dimensions; not survey."
+      }
+    }
+  ],
+  "accuracy": "All dimensions and geography approximate; no survey claim.",
+  "sourceLocators": {
+    "6a": "https://www.mexicogp.mx/boleto/generales-grada-6a/",
+    "7": "https://www.mexicogp.mx/boleto/generales-grada-7/",
+    "8": "https://www.mexicogp.mx/boleto/grada-8/",
+    "9": "https://www.mexicogp.mx/boleto/grada-9/",
+    "10": "https://www.mexicogp.mx/boleto/generales-grada-10/",
+    "11": "https://www.mexicogp.mx/boleto/generales-grada-11/",
+    "12": "https://www.mexicogp.mx/boleto/d_grada-12-general/"
+  },
+  "sourceLimitations": "Named locator artwork is reused and schematic; official2026 price table proves annual identities. Current product pages may change year; not used as2026 inventory proof. Partial rear roofs10/11/12 not modeled yet."
+}

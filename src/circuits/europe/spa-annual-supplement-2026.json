@@ -1,0 +1,2712 @@
+{
+  "circuitId": "spa",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "gold-4-eau-rouge",
+      "name": "Gold 4 · Eau Rouge",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          5.971647875252524,
+          50.44256580123854
+        ],
+        [
+          5.971907169910217,
+          50.44242654363188
+        ],
+        [
+          5.972144974636471,
+          50.44225915842668
+        ],
+        [
+          5.972248060165573,
+          50.44215448696921
+        ],
+        [
+          5.972395634865514,
+          50.441991843899395
+        ],
+        [
+          5.972576245459505,
+          50.442042709713654
+        ],
+        [
+          5.972415362264997,
+          50.44222130844824
+        ],
+        [
+          5.9723122681241545,
+          50.44232598864915
+        ],
+        [
+          5.97204628368154,
+          50.44251580725711
+        ],
+        [
+          5.971755103514295,
+          50.44267141133018
+        ],
+        [
+          5.971647875252524,
+          50.44256580123854
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "gold-4-eau-rouge-approx-1",
+          "boundary": [
+            [
+              5.971647875252524,
+              50.44256580123854
+            ],
+            [
+              5.971907169910217,
+              50.44242654363188
+            ],
+            [
+              5.97204628368154,
+              50.44251580725711
+            ],
+            [
+              5.971755103514295,
+              50.44267141133018
+            ],
+            [
+              5.971647875252524,
+              50.44256580123854
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.971315,
+            50.442168
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.971647875252524,
+                50.44256580123854
+              ],
+              [
+                5.971907169910217,
+                50.44242654363188
+              ]
+            ],
+            "back": [
+              [
+                5.971755103514295,
+                50.44267141133018
+              ],
+              [
+                5.97204628368154,
+                50.44251580725711
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1000m, length55m, depth14m, roadside offset50m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              5.971907049697445,
+              50.44242677216946
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1000m, length55m, depth14m, roadside offset50m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            0.7644459218445576,
+            0.6446878566990576
+          ]
+        },
+        {
+          "surfaceId": "gold-4-eau-rouge-approx-2",
+          "boundary": [
+            [
+              5.971907169910217,
+              50.44242654363188
+            ],
+            [
+              5.972144974636471,
+              50.44225915842668
+            ],
+            [
+              5.9723122681241545,
+              50.44232598864915
+            ],
+            [
+              5.97204628368154,
+              50.44251580725711
+            ],
+            [
+              5.971907169910217,
+              50.44242654363188
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.971535944004429,
+            50.44202835573746
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.971907169910217,
+                50.44242654363188
+              ],
+              [
+                5.972144974636471,
+                50.44225915842668
+              ]
+            ],
+            "back": [
+              [
+                5.97204628368154,
+                50.44251580725711
+              ],
+              [
+                5.9723122681241545,
+                50.44232598864915
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1000m, length55m, depth14m, roadside offset50m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              5.972144904097053,
+              50.44225939266454
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1000m, length55m, depth14m, roadside offset50m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            0.6709063095643164,
+            0.741542125429695
+          ]
+        },
+        {
+          "surfaceId": "gold-4-eau-rouge-approx-3",
+          "boundary": [
+            [
+              5.972144974636471,
+              50.44225915842668
+            ],
+            [
+              5.972248060165573,
+              50.44215448696921
+            ],
+            [
+              5.972415362264997,
+              50.44222130844824
+            ],
+            [
+              5.9723122681241545,
+              50.44232598864915
+            ],
+            [
+              5.972144974636471,
+              50.44225915842668
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.971599009904085,
+            50.44196817455893
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.972144974636471,
+                50.44225915842668
+              ],
+              [
+                5.972248060165573,
+                50.44215448696921
+              ]
+            ],
+            "back": [
+              [
+                5.9723122681241545,
+                50.44232598864915
+              ],
+              [
+                5.972415362264997,
+                50.44222130844824
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1000m, length55m, depth14m, roadside offset50m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              5.972415091868766,
+              50.44222134630695
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1000m, length55m, depth14m, roadside offset50m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            0.5313262279812143,
+            0.8471673031103448
+          ]
+        },
+        {
+          "surfaceId": "gold-4-eau-rouge-approx-4",
+          "boundary": [
+            [
+              5.972248060165573,
+              50.44215448696921
+            ],
+            [
+              5.972395634865514,
+              50.441991843899395
+            ],
+            [
+              5.972576245459505,
+              50.442042709713654
+            ],
+            [
+              5.972415362264997,
+              50.44222130844824
+            ],
+            [
+              5.972248060165573,
+              50.44215448696921
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.971728862944464,
+            50.44183632377946
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.972248060165573,
+                50.44215448696921
+              ],
+              [
+                5.972395634865514,
+                50.441991843899395
+              ]
+            ],
+            "back": [
+              [
+                5.972415362264997,
+                50.44222130844824
+              ],
+              [
+                5.972576245459505,
+                50.442042709713654
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1000m, length55m, depth14m, roadside offset50m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              5.972575903979025,
+              50.44204283743062
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1000m, length55m, depth14m, roadside offset50m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            0.5003105439136286,
+            0.8658460369192951
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 6.3,
+        "depth": 14,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1000m, length55m, depth14m, roadside offset50m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1000m, length55m, depth14m, roadside offset50m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter January2026 ticket map distinct named product, not later2027 Silver7."
+      },
+      "admissionNote": "2026具名看台的近似视点；请按实际票区入场，边界与高度为估计。",
+      "description": "坐姿眼高1.2米；保留地形与场景遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Source-map district and road-side estimate; explicit floor/road/neighbor checks."
+      }
+    },
+    {
+      "zoneId": "gold-5",
+      "name": "Gold 5",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          5.971370386276526,
+          50.441580321087784
+        ],
+        [
+          5.9714143396978665,
+          50.441501207140185
+        ],
+        [
+          5.971467902546931,
+          50.44137084936295
+        ],
+        [
+          5.971482691343871,
+          50.44127905801205
+        ],
+        [
+          5.971508153782849,
+          50.441145290550935
+        ],
+        [
+          5.971312104785829,
+          50.441130156352855
+        ],
+        [
+          5.971286642346851,
+          50.44126392381396
+        ],
+        [
+          5.971276850767457,
+          50.441339013026756
+        ],
+        [
+          5.971223287918392,
+          50.44146937080399
+        ],
+        [
+          5.971189775682534,
+          50.441529455273525
+        ],
+        [
+          5.971370386276526,
+          50.441580321087784
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "gold-5-approx-1",
+          "boundary": [
+            [
+              5.971370386276526,
+              50.441580321087784
+            ],
+            [
+              5.9714143396978665,
+              50.441501207140185
+            ],
+            [
+              5.971223287918392,
+              50.44146937080399
+            ],
+            [
+              5.971189775682534,
+              50.441529455273525
+            ],
+            [
+              5.971370386276526,
+              50.441580321087784
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.971848484245103,
+            50.44166922268705
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.971370386276526,
+                50.441580321087784
+              ],
+              [
+                5.9714143396978665,
+                50.441501207140185
+              ]
+            ],
+            "back": [
+              [
+                5.971189775682534,
+                50.441529455273525
+              ],
+              [
+                5.971223287918392,
+                50.44146937080399
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1070m, length60m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              5.971414104703107,
+              50.441501254398766
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1070m, length60m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            0.3335430104955413,
+            0.9427348832782052
+          ]
+        },
+        {
+          "surfaceId": "gold-5-approx-2",
+          "boundary": [
+            [
+              5.9714143396978665,
+              50.441501207140185
+            ],
+            [
+              5.971467902546931,
+              50.44137084936295
+            ],
+            [
+              5.971276850767457,
+              50.441339013026756
+            ],
+            [
+              5.971223287918392,
+              50.44146937080399
+            ],
+            [
+              5.9714143396978665,
+              50.441501207140185
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.971918750571086,
+            50.44151561909206
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.9714143396978665,
+                50.441501207140185
+              ],
+              [
+                5.971467902546931,
+                50.44137084936295
+              ]
+            ],
+            "back": [
+              [
+                5.971223287918392,
+                50.44146937080399
+              ],
+              [
+                5.971276850767457,
+                50.441339013026756
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1070m, length60m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              5.971467657932303,
+              50.44137094788439
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1070m, length60m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            0.2531443532452555,
+            0.967428517473018
+          ]
+        },
+        {
+          "surfaceId": "gold-5-approx-3",
+          "boundary": [
+            [
+              5.971467902546931,
+              50.44137084936295
+            ],
+            [
+              5.971482691343871,
+              50.44127905801205
+            ],
+            [
+              5.971286642346851,
+              50.44126392381396
+            ],
+            [
+              5.971276850767457,
+              50.441339013026756
+            ],
+            [
+              5.971467902546931,
+              50.44137084936295
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.971964097093001,
+            50.44136268710297
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.971467902546931,
+                50.44137084936295
+              ],
+              [
+                5.971482691343871,
+                50.44127905801205
+              ]
+            ],
+            "back": [
+              [
+                5.971276850767457,
+                50.441339013026756
+              ],
+              [
+                5.971286642346851,
+                50.44126392381396
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1070m, length60m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              5.971482480511074,
+              50.441279134652504
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1070m, length60m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            0.10206568272185343,
+            0.9947776617971082
+          ]
+        },
+        {
+          "surfaceId": "gold-5-approx-4",
+          "boundary": [
+            [
+              5.971482691343871,
+              50.44127905801205
+            ],
+            [
+              5.971508153782849,
+              50.441145290550935
+            ],
+            [
+              5.971312104785829,
+              50.441130156352855
+            ],
+            [
+              5.971286642346851,
+              50.44126392381396
+            ],
+            [
+              5.971482691343871,
+              50.44127905801205
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.971985545055909,
+            50.4412500097767
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.971482691343871,
+                50.44127905801205
+              ],
+              [
+                5.971508153782849,
+                50.441145290550935
+              ]
+            ],
+            "back": [
+              [
+                5.971286642346851,
+                50.44126392381396
+              ],
+              [
+                5.971312104785829,
+                50.441130156352855
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1070m, length60m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              5.971507932271413,
+              50.441145409184195
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1070m, length60m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            0.12033849504788972,
+            0.9927329180648785
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 6.3,
+        "depth": 14,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1070m, length60m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc1070m, length60m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter January2026 ticket map distinct named product, not later2027 Silver7."
+      },
+      "admissionNote": "2026具名看台的近似视点；请按实际票区入场，边界与高度为估计。",
+      "description": "坐姿眼高1.2米；保留地形与场景遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Source-map district and road-side estimate; explicit floor/road/neighbor checks."
+      }
+    },
+    {
+      "zoneId": "fanzone-grandstand",
+      "name": "Fanzone Grandstand",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          5.969287388406825,
+          50.44388038515997
+        ],
+        [
+          5.969491310382465,
+          50.44372550454289
+        ],
+        [
+          5.969695232358106,
+          50.44357062392581
+        ],
+        [
+          5.969899154333746,
+          50.44341574330873
+        ],
+        [
+          5.970103076309386,
+          50.443260862691645
+        ],
+        [
+          5.970254404539158,
+          50.44334166656582
+        ],
+        [
+          5.970050482563518,
+          50.4434965471829
+        ],
+        [
+          5.969846560587877,
+          50.443651427799985
+        ],
+        [
+          5.969642638612237,
+          50.44380630841707
+        ],
+        [
+          5.9694387166365965,
+          50.44396118903415
+        ],
+        [
+          5.969287388406825,
+          50.44388038515997
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "fanzone-grandstand-approx-1",
+          "boundary": [
+            [
+              5.969287388406825,
+              50.44388038515997
+            ],
+            [
+              5.969491310382465,
+              50.44372550454289
+            ],
+            [
+              5.969642638612237,
+              50.44380630841707
+            ],
+            [
+              5.9694387166365965,
+              50.44396118903415
+            ],
+            [
+              5.969287388406825,
+              50.44388038515997
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.969011028820217,
+            50.443600935165996
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.969287388406825,
+                50.44388038515997
+              ],
+              [
+                5.969491310382465,
+                50.44372550454289
+              ]
+            ],
+            "back": [
+              [
+                5.9694387166365965,
+                50.44396118903415
+              ],
+              [
+                5.969642638612237,
+                50.44380630841707
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc780m, length90m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              5.969287743657031,
+              50.44388031108323
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc780m, length90m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            0.6425062337967418,
+            0.7662804574908111
+          ]
+        },
+        {
+          "surfaceId": "fanzone-grandstand-approx-2",
+          "boundary": [
+            [
+              5.969491310382465,
+              50.44372550454289
+            ],
+            [
+              5.969695232358106,
+              50.44357062392581
+            ],
+            [
+              5.969846560587877,
+              50.443651427799985
+            ],
+            [
+              5.969642638612237,
+              50.44380630841707
+            ],
+            [
+              5.969491310382465,
+              50.44372550454289
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.969214950795857,
+            50.443446054548915
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.969491310382465,
+                50.44372550454289
+              ],
+              [
+                5.969695232358106,
+                50.44357062392581
+              ]
+            ],
+            "back": [
+              [
+                5.969642638612237,
+                50.44380630841707
+              ],
+              [
+                5.969846560587877,
+                50.443651427799985
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc780m, length90m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              5.96949166563267,
+              50.443725430466145
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc780m, length90m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            0.642506233798385,
+            0.7662804574894332
+          ]
+        },
+        {
+          "surfaceId": "fanzone-grandstand-approx-3",
+          "boundary": [
+            [
+              5.969695232358106,
+              50.44357062392581
+            ],
+            [
+              5.969899154333746,
+              50.44341574330873
+            ],
+            [
+              5.970050482563518,
+              50.4434965471829
+            ],
+            [
+              5.969846560587877,
+              50.443651427799985
+            ],
+            [
+              5.969695232358106,
+              50.44357062392581
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.969418872771498,
+            50.44329117393183
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.969695232358106,
+                50.44357062392581
+              ],
+              [
+                5.969899154333746,
+                50.44341574330873
+              ]
+            ],
+            "back": [
+              [
+                5.969846560587877,
+                50.443651427799985
+              ],
+              [
+                5.970050482563518,
+                50.4434965471829
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc780m, length90m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              5.969695587608311,
+              50.44357054984906
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc780m, length90m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            0.6425062337967418,
+            0.7662804574908111
+          ]
+        },
+        {
+          "surfaceId": "fanzone-grandstand-approx-4",
+          "boundary": [
+            [
+              5.969899154333746,
+              50.44341574330873
+            ],
+            [
+              5.970103076309386,
+              50.443260862691645
+            ],
+            [
+              5.970254404539158,
+              50.44334166656582
+            ],
+            [
+              5.970050482563518,
+              50.4434965471829
+            ],
+            [
+              5.969899154333746,
+              50.44341574330873
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.9696227947471385,
+            50.44313629331475
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.969899154333746,
+                50.44341574330873
+              ],
+              [
+                5.970103076309386,
+                50.443260862691645
+              ]
+            ],
+            "back": [
+              [
+                5.970050482563518,
+                50.4434965471829
+              ],
+              [
+                5.970254404539158,
+                50.44334166656582
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc780m, length90m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              5.969899509583951,
+              50.44341566923198
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc780m, length90m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            0.642506233798385,
+            0.7662804574894332
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 6.3,
+        "depth": 14,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc780m, length90m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc780m, length90m, depth14m, roadside offset35m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter January2026 ticket map distinct named product, not later2027 Silver7."
+      },
+      "admissionNote": "2026具名看台的近似视点；请按实际票区入场，边界与高度为估计。",
+      "description": "坐姿眼高1.2米；保留地形与场景遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Source-map district and road-side estimate; explicit floor/road/neighbor checks."
+      }
+    },
+    {
+      "zoneId": "fan-area-double-gauche",
+      "name": "Fan Area Grandstand · Double Gauche",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          5.967678509336806,
+          50.43220589213926
+        ],
+        [
+          5.967626141990724,
+          50.43212248067783
+        ],
+        [
+          5.967573801635068,
+          50.43203946100594
+        ],
+        [
+          5.967521234501976,
+          50.43195610052545
+        ],
+        [
+          5.967468667368883,
+          50.43187274004496
+        ],
+        [
+          5.967285408243799,
+          50.43191960680852
+        ],
+        [
+          5.967337975376892,
+          50.432002967289016
+        ],
+        [
+          5.9673905425099845,
+          50.43208632776951
+        ],
+        [
+          5.967442770789505,
+          50.43216916931925
+        ],
+        [
+          5.967495138135587,
+          50.43225258078068
+        ],
+        [
+          5.967678509336806,
+          50.43220589213926
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "fan-area-double-gauche-approx",
+          "boundary": [
+            [
+              5.967678509336806,
+              50.43220589213926
+            ],
+            [
+              5.967626141990724,
+              50.43212248067783
+            ],
+            [
+              5.967573801635068,
+              50.43203946100594
+            ],
+            [
+              5.967521234501976,
+              50.43195610052545
+            ],
+            [
+              5.967468667368883,
+              50.43187274004496
+            ],
+            [
+              5.967285408243799,
+              50.43191960680852
+            ],
+            [
+              5.967337975376892,
+              50.432002967289016
+            ],
+            [
+              5.9673905425099845,
+              50.43208632776951
+            ],
+            [
+              5.967442770789505,
+              50.43216916931925
+            ],
+            [
+              5.967495138135587,
+              50.43225258078068
+            ],
+            [
+              5.967678509336806,
+              50.43220589213926
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.967927143310896,
+            50.43194893771688
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.967678509336806,
+                50.43220589213926
+              ],
+              [
+                5.967626141990724,
+                50.43212248067783
+              ],
+              [
+                5.967573801635068,
+                50.43203946100594
+              ],
+              [
+                5.967521234501976,
+                50.43195610052545
+              ],
+              [
+                5.967468667368883,
+                50.43187274004496
+              ]
+            ],
+            "back": [
+              [
+                5.967495138135587,
+                50.43225258078068
+              ],
+              [
+                5.967442770789505,
+                50.43216916931925
+              ],
+              [
+                5.9673905425099845,
+                50.43208632776951
+              ],
+              [
+                5.967337975376892,
+                50.432002967289016
+              ],
+              [
+                5.967285408243799,
+                50.43191960680852
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc4160m, length40m, depth14m, roadside offset27m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            -0.37228523056939195,
+            0.9281183691210376
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 6.3,
+        "depth": 14,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc4160m, length40m, depth14m, roadside offset27m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc4160m, length40m, depth14m, roadside offset27m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter January2026 ticket map distinct named product, not later2027 Silver7."
+      },
+      "admissionNote": "2026具名看台的近似视点；请按实际票区入场，边界与高度为估计。",
+      "description": "坐姿眼高1.2米；保留地形与场景遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Source-map district and road-side estimate; explicit floor/road/neighbor checks."
+      }
+    },
+    {
+      "zoneId": "silver-5",
+      "name": "Silver 5",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          5.967310965969605,
+          50.43162265860347
+        ],
+        [
+          5.967258398836512,
+          50.43153929812298
+        ],
+        [
+          5.967205831703419,
+          50.43145593764248
+        ],
+        [
+          5.967153264570326,
+          50.43137257716199
+        ],
+        [
+          5.967100697437234,
+          50.43128921668149
+        ],
+        [
+          5.96691743831215,
+          50.43133608344506
+        ],
+        [
+          5.966970005445242,
+          50.431419443925556
+        ],
+        [
+          5.967022572578335,
+          50.43150280440605
+        ],
+        [
+          5.9670751397114286,
+          50.431586164886546
+        ],
+        [
+          5.967127706844521,
+          50.43166952536704
+        ],
+        [
+          5.967310965969605,
+          50.43162265860347
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "silver-5-approx",
+          "boundary": [
+            [
+              5.967310965969605,
+              50.43162265860347
+            ],
+            [
+              5.967258398836512,
+              50.43153929812298
+            ],
+            [
+              5.967205831703419,
+              50.43145593764248
+            ],
+            [
+              5.967153264570326,
+              50.43137257716199
+            ],
+            [
+              5.967100697437234,
+              50.43128921668149
+            ],
+            [
+              5.96691743831215,
+              50.43133608344506
+            ],
+            [
+              5.966970005445242,
+              50.431419443925556
+            ],
+            [
+              5.967022572578335,
+              50.43150280440605
+            ],
+            [
+              5.9670751397114286,
+              50.431586164886546
+            ],
+            [
+              5.967127706844521,
+              50.43166952536704
+            ],
+            [
+              5.967310965969605,
+              50.43162265860347
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.967559260016081,
+            50.431365551741315
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.967310965969605,
+                50.43162265860347
+              ],
+              [
+                5.967258398836512,
+                50.43153929812298
+              ],
+              [
+                5.967205831703419,
+                50.43145593764248
+              ],
+              [
+                5.967153264570326,
+                50.43137257716199
+              ],
+              [
+                5.967100697437234,
+                50.43128921668149
+              ]
+            ],
+            "back": [
+              [
+                5.967127706844521,
+                50.43166952536704
+              ],
+              [
+                5.9670751397114286,
+                50.431586164886546
+              ],
+              [
+                5.967022572578335,
+                50.43150280440605
+              ],
+              [
+                5.966970005445242,
+                50.431419443925556
+              ],
+              [
+                5.96691743831215,
+                50.43133608344506
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc4230m, length40m, depth14m, roadside offset27m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            -0.3726577228722881,
+            0.9279688688655675
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 6.3,
+        "depth": 14,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc4230m, length40m, depth14m, roadside offset27m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc4230m, length40m, depth14m, roadside offset27m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter January2026 ticket map distinct named product, not later2027 Silver7."
+      },
+      "admissionNote": "2026具名看台的近似视点；请按实际票区入场，边界与高度为估计。",
+      "description": "坐姿眼高1.2米；保留地形与场景遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Source-map district and road-side estimate; explicit floor/road/neighbor checks."
+      }
+    },
+    {
+      "zoneId": "silver-6",
+      "name": "Silver 6",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          5.966995563171048,
+          50.43112249572051
+        ],
+        [
+          5.966956137821229,
+          50.431059975360135
+        ],
+        [
+          5.966916712471409,
+          50.43099745499976
+        ],
+        [
+          5.966889455961422,
+          50.430952378005166
+        ],
+        [
+          5.966846191598525,
+          50.430903134130155
+        ],
+        [
+          5.966673428180233,
+          50.43096405964675
+        ],
+        [
+          5.966712550866905,
+          50.431008276075865
+        ],
+        [
+          5.966733453346325,
+          50.43104432176333
+        ],
+        [
+          5.966772878696145,
+          50.431106842123704
+        ],
+        [
+          5.966812304045964,
+          50.43116936248407
+        ],
+        [
+          5.966995563171048,
+          50.43112249572051
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "silver-6-approx",
+          "boundary": [
+            [
+              5.966995563171048,
+              50.43112249572051
+            ],
+            [
+              5.966956137821229,
+              50.431059975360135
+            ],
+            [
+              5.966916712471409,
+              50.43099745499976
+            ],
+            [
+              5.966889455961422,
+              50.430952378005166
+            ],
+            [
+              5.966846191598525,
+              50.430903134130155
+            ],
+            [
+              5.966673428180233,
+              50.43096405964675
+            ],
+            [
+              5.966712550866905,
+              50.431008276075865
+            ],
+            [
+              5.966733453346325,
+              50.43104432176333
+            ],
+            [
+              5.966772878696145,
+              50.431106842123704
+            ],
+            [
+              5.966812304045964,
+              50.43116936248407
+            ],
+            [
+              5.966995563171048,
+              50.43112249572051
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.3,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.967275940908617,
+            50.43091626688323
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.966995563171048,
+                50.43112249572051
+              ],
+              [
+                5.966956137821229,
+                50.431059975360135
+              ],
+              [
+                5.966916712471409,
+                50.43099745499976
+              ],
+              [
+                5.966889455961422,
+                50.430952378005166
+              ],
+              [
+                5.966846191598525,
+                50.430903134130155
+              ]
+            ],
+            "back": [
+              [
+                5.966812304045964,
+                50.43116936248407
+              ],
+              [
+                5.966772878696145,
+                50.431106842123704
+              ],
+              [
+                5.966733453346325,
+                50.43104432176333
+              ],
+              [
+                5.966712550866905,
+                50.431008276075865
+              ],
+              [
+                5.966673428180233,
+                50.43096405964675
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc4285m, length30m, depth14m, roadside offset27m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+            }
+          },
+          "rowDirection": [
+            -0.397844811795463,
+            0.9174527266990015
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 6.3,
+        "depth": 14,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc4285m, length30m, depth14m, roadside offset27m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Retained January2026 promoter SVG independently names this stand. Source district/order/road-side association; representative arc4285m, length30m, depth14m, roadside offset27m, base2.2m/rise6.3m/14rows author estimates. Not surveyed annual footprint or guaranteed unobstructed view."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Promoter January2026 ticket map distinct named product, not later2027 Silver7."
+      },
+      "admissionNote": "2026具名看台的近似视点；请按实际票区入场，边界与高度为估计。",
+      "description": "坐姿眼高1.2米；保留地形与场景遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Source-map district and road-side estimate; explicit floor/road/neighbor checks."
+      }
+    },
+    {
+      "zoneId": "gold-2-gp2",
+      "name": "Gold 2 · GP2",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          5.9685605,
+          50.4444646
+        ],
+        [
+          5.9681847,
+          50.444676
+        ],
+        [
+          5.9674939,
+          50.4450648
+        ],
+        [
+          5.9677642,
+          50.4452629
+        ],
+        [
+          5.9688477,
+          50.4446735
+        ],
+        [
+          5.9685605,
+          50.4444646
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 15.36,
+        "depth": 32.0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "gold-2-gp2-1",
+          "boundary": [
+            [
+              5.9685605,
+              50.4444646
+            ],
+            [
+              5.9681847,
+              50.444676
+            ],
+            [
+              5.9674939,
+              50.4450648
+            ],
+            [
+              5.9677642,
+              50.4452629
+            ],
+            [
+              5.9688477,
+              50.4446735
+            ],
+            [
+              5.9685605,
+              50.4444646
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 15.36,
+          "eyeHeight": 1.2,
+          "rows": 31,
+          "frontReference": [
+            5.967765939233503,
+            50.444543298962394
+          ]
+        },
+        {
+          "surfaceId": "gold-2-premium-approx",
+          "boundary": [
+            [
+              5.968394312766632,
+              50.44511320487639
+            ],
+            [
+              5.968756270053255,
+              50.4448570102477
+            ],
+            [
+              5.968842743327411,
+              50.444903183890084
+            ],
+            [
+              5.968477487339053,
+              50.44516177398839
+            ],
+            [
+              5.968394312766632,
+              50.44511320487639
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 3.6,
+          "rows": 8,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.967787015452465,
+            50.44452480025719
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.968394312766632,
+                50.44511320487639
+              ],
+              [
+                5.968756270053255,
+                50.4448570102477
+              ]
+            ],
+            "back": [
+              [
+                5.968477487339053,
+                50.44516177398839
+              ],
+              [
+                5.968842743327411,
+                50.444903183890084
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "January2026 promoter SVG separately positions gold-2-premium-approx. Approximate shared family surface at road arc610m/length35m/offset76m/depth8m. No identical ticket rights or precise subsection perimeter asserted."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              5.96847776941717,
+              50.44516146683157
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "January2026 promoter SVG separately positions gold-2-premium-approx. Approximate shared family surface at road arc610m/length35m/offset76m/depth8m. No identical ticket rights or precise subsection perimeter asserted."
+            }
+          },
+          "rowDirection": [
+            0.6688519061836956,
+            0.7433956736452243
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.openstreetmap.org/way/1353159436",
+        "checkedAt": "2026-10-23",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM建筑平面轮廓；way/1353159436。位置未经现场测绘；看台售票分区可能与建筑边界不同。"
+      },
+      "openingSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "gold-9-pole-position",
+      "name": "Gold 9 · Pole Position",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          5.96427309508362,
+          50.44427221460771
+        ],
+        [
+          5.963679010451512,
+          50.44494147042154
+        ],
+        [
+          5.963950310451511,
+          50.44503917042154
+        ],
+        [
+          5.964544395083619,
+          50.444369914607705
+        ],
+        [
+          5.96427309508362,
+          50.44427221460771
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.52,
+        "depth": 22.0955,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "gold-9-pole-position-1",
+          "boundary": [
+            [
+              5.96427309508362,
+              50.44427221460771
+            ],
+            [
+              5.963679010451512,
+              50.44494147042154
+            ],
+            [
+              5.963950310451511,
+              50.44503917042154
+            ],
+            [
+              5.964544395083619,
+              50.444369914607705
+            ],
+            [
+              5.96427309508362,
+              50.44427221460771
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.52,
+          "eyeHeight": 1.2,
+          "rows": 23,
+          "frontReference": [
+            5.964522462738094,
+            50.44480478600919
+          ],
+          "rowFrontEdge": {
+            "coordinates": [
+              [
+                5.963950310451511,
+                50.44503917042154
+              ],
+              [
+                5.964544395083619,
+                50.444369914607705
+              ]
+            ],
+            "source": {
+              "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+              "checkedAt": "2026-10-24",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Registered road-facing straight edge of SVG G9; straight rows corroborated by organizer panorama. Not chosen using raycasting."
+            }
+          }
+        },
+        {
+          "surfaceId": "gold-9-bis-approx",
+          "boundary": [
+            [
+              5.9649105195662555,
+              50.443919600138535
+            ],
+            [
+              5.964736011624916,
+              50.444114753764936
+            ],
+            [
+              5.964564401851944,
+              50.44405252003107
+            ],
+            [
+              5.964738909793284,
+              50.44385736640467
+            ],
+            [
+              5.9649105195662555,
+              50.443919600138535
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 3.6,
+          "rows": 8,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            5.96512971161875,
+            50.44412830861935
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.9649105195662555,
+                50.443919600138535
+              ],
+              [
+                5.964736011624916,
+                50.444114753764936
+              ]
+            ],
+            "back": [
+              [
+                5.964738909793284,
+                50.44385736640467
+              ],
+              [
+                5.964564401851944,
+                50.44405252003107
+              ]
+            ],
+            "source": {
+              "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "January2026 promoter SVG separately positions gold-9-bis-approx. Approximate shared family surface at road arc6970m/length25m/offset25m/depth14m. No identical ticket rights or precise subsection perimeter asserted."
+            }
+          },
+          "rowDirection": [
+            -0.49484708955788265,
+            -0.8689800676402726
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-24",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Independent registration of organizer SVG G9 (Vector_3712), using G1 (Vector_3676) and the retained OSM way/174882363 rectangle as the four controls. The organizer explicitly draws Gold 9 Bis between Gold 1 and Gold 9; replace the former manually guessed/overlap-trimmed Gold 9 footprint. Current schematic is undated and has mixed 2026/2027 site metadata; it is not a 2026 seating survey. Single-rectangle affine fit has no external accuracy estimate; position/extent may be wrong by tens of metres. Original base 2.2m, rise 11.52m, 23 rows and eye 1.2m unchanged. No visibility-driven translation or height tuning."
+      },
+      "openingSource": {
+        "url": "https://www.spagrandprix.com/en/news/21_new-covered-grandstands-at-the-moet-chandon-formula-1-belgian-grand-prix-2026",
+        "checkedAt": "2026-10-24",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Organizer news dated 2026-04-09 explicitly names Gold 9 among covered grandstands for the 2026 event. Confirms this stand exists in 2026, not its mapped boundary, structural dimensions, current availability or a complete season inventory."
+      },
+      "surfaceSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-24",
+        "issues": [],
+        "method": "Independent organizer-diagram registration replaces old manual Gold 9 estimate. Retain the complete OSM Gold 1 footprint and all vertical/eye parameters. Schematic, not surveyed; annual inventory remains incomplete."
+      }
+    },
+    {
+      "zoneId": "bronze-4-pouhon",
+      "name": "Bronze 4 · Double Gauche",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          5.968127441245652,
+          50.43289675984067
+        ],
+        [
+          5.9678916782726565,
+          50.432956788093925
+        ],
+        [
+          5.968415351733476,
+          50.43379090270816
+        ],
+        [
+          5.968651114706472,
+          50.43373087445491
+        ],
+        [
+          5.968127441245652,
+          50.43289675984067
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "bronze-4-pouhon-1",
+          "boundary": [
+            [
+              5.968127441245652,
+              50.43289675984067
+            ],
+            [
+              5.9678916782726565,
+              50.432956788093925
+            ],
+            [
+              5.968415351733476,
+              50.43379090270816
+            ],
+            [
+              5.968651114706472,
+              50.43373087445491
+            ],
+            [
+              5.968127441245652,
+              50.43289675984067
+            ]
+          ],
+          "rowDirection": [
+            -0.3712413973469435,
+            0.9285363885685305
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "frontReference": [
+            5.968729824492612,
+            50.43322710967087
+          ]
+        },
+        {
+          "surfaceId": "verstappen-ground-approx",
+          "boundary": [
+            [
+              5.967979621576777,
+              50.43268550804245
+            ],
+            [
+              5.96779633586549,
+              50.43239356792746
+            ],
+            [
+              5.967612964664271,
+              50.43244025656888
+            ],
+            [
+              5.967796250375558,
+              50.432732196683865
+            ],
+            [
+              5.967979621576777,
+              50.43268550804245
+            ]
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "frontReference": [
+            5.968241623180628,
+            50.43244949560507
+          ],
+          "rowBearing": "local-normal",
+          "terrainFollow": true
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 18
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 100m x 18m ground band at corner11 arc+90m, driver-right. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 100m x 18m ground band at corner11 arc+90m, driver-right. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "January14 archive explicitly names BelgianGP2026 July16–19; SVG has five shared zone-bronze groups and separately ticketed zone-bronze-bruxelles. No assigned seat."
+      },
+      "description": "沿源地形站立观赛，眼高1.65米，保留坡面与围网遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Named annual schematic sector associated to actual roadway; approximate ground envelope excludes registered reserved structures and road."
+      },
+      "admissionNote": "普通Bronze近似草地范围；不含编号看台或独立Bruxelles票区。"
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "gold-2-gp2",
+      "name": "Gold 2 · GP2",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          5.9685605,
+          50.4444646
+        ],
+        [
+          5.9681847,
+          50.444676
+        ],
+        [
+          5.9674939,
+          50.4450648
+        ],
+        [
+          5.9677642,
+          50.4452629
+        ],
+        [
+          5.9688477,
+          50.4446735
+        ],
+        [
+          5.9685605,
+          50.4444646
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 15.36,
+        "depth": 32.0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "gold-2-gp2-1",
+          "boundary": [
+            [
+              5.9685605,
+              50.4444646
+            ],
+            [
+              5.9681847,
+              50.444676
+            ],
+            [
+              5.9674939,
+              50.4450648
+            ],
+            [
+              5.9677642,
+              50.4452629
+            ],
+            [
+              5.9688477,
+              50.4446735
+            ],
+            [
+              5.9685605,
+              50.4444646
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 15.36,
+          "eyeHeight": 1.2,
+          "rows": 31,
+          "frontReference": [
+            5.967765939233503,
+            50.444543298962394
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.openstreetmap.org/way/1353159436",
+        "checkedAt": "2026-10-23",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM建筑平面轮廓；way/1353159436。位置未经现场测绘；看台售票分区可能与建筑边界不同。"
+      },
+      "openingSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "gold-9-pole-position",
+      "name": "Gold 9 · Pole Position",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          5.96427309508362,
+          50.44427221460771
+        ],
+        [
+          5.963679010451512,
+          50.44494147042154
+        ],
+        [
+          5.963950310451511,
+          50.44503917042154
+        ],
+        [
+          5.964544395083619,
+          50.444369914607705
+        ],
+        [
+          5.96427309508362,
+          50.44427221460771
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.52,
+        "depth": 22.0955,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "gold-9-pole-position-1",
+          "boundary": [
+            [
+              5.96427309508362,
+              50.44427221460771
+            ],
+            [
+              5.963679010451512,
+              50.44494147042154
+            ],
+            [
+              5.963950310451511,
+              50.44503917042154
+            ],
+            [
+              5.964544395083619,
+              50.444369914607705
+            ],
+            [
+              5.96427309508362,
+              50.44427221460771
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.52,
+          "eyeHeight": 1.2,
+          "rows": 23,
+          "frontReference": [
+            5.964522462738094,
+            50.44480478600919
+          ],
+          "rowFrontEdge": {
+            "coordinates": [
+              [
+                5.963950310451511,
+                50.44503917042154
+              ],
+              [
+                5.964544395083619,
+                50.444369914607705
+              ]
+            ],
+            "source": {
+              "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+              "checkedAt": "2026-10-24",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Registered road-facing straight edge of SVG G9; straight rows corroborated by organizer panorama. Not chosen using raycasting."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-24",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Independent registration of organizer SVG G9 (Vector_3712), using G1 (Vector_3676) and the retained OSM way/174882363 rectangle as the four controls. The organizer explicitly draws Gold 9 Bis between Gold 1 and Gold 9; replace the former manually guessed/overlap-trimmed Gold 9 footprint. Current schematic is undated and has mixed 2026/2027 site metadata; it is not a 2026 seating survey. Single-rectangle affine fit has no external accuracy estimate; position/extent may be wrong by tens of metres. Original base 2.2m, rise 11.52m, 23 rows and eye 1.2m unchanged. No visibility-driven translation or height tuning."
+      },
+      "openingSource": {
+        "url": "https://www.spagrandprix.com/en/news/21_new-covered-grandstands-at-the-moet-chandon-formula-1-belgian-grand-prix-2026",
+        "checkedAt": "2026-10-24",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Organizer news dated 2026-04-09 explicitly names Gold 9 among covered grandstands for the 2026 event. Confirms this stand exists in 2026, not its mapped boundary, structural dimensions, current availability or a complete season inventory."
+      },
+      "surfaceSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-24",
+        "issues": [],
+        "method": "Independent organizer-diagram registration replaces old manual Gold 9 estimate. Retain the complete OSM Gold 1 footprint and all vertical/eye parameters. Schematic, not surveyed; annual inventory remains incomplete."
+      }
+    },
+    {
+      "zoneId": "bronze-4-pouhon",
+      "name": "Bronze 4 · Double Gauche",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          5.968127441245652,
+          50.43289675984067
+        ],
+        [
+          5.9678916782726565,
+          50.432956788093925
+        ],
+        [
+          5.968415351733476,
+          50.43379090270816
+        ],
+        [
+          5.968651114706472,
+          50.43373087445491
+        ],
+        [
+          5.968127441245652,
+          50.43289675984067
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "bronze-4-pouhon-1",
+          "boundary": [
+            [
+              5.968127441245652,
+              50.43289675984067
+            ],
+            [
+              5.9678916782726565,
+              50.432956788093925
+            ],
+            [
+              5.968415351733476,
+              50.43379090270816
+            ],
+            [
+              5.968651114706472,
+              50.43373087445491
+            ],
+            [
+              5.968127441245652,
+              50.43289675984067
+            ]
+          ],
+          "rowDirection": [
+            -0.3712413973469435,
+            0.9285363885685305
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4,
+          "frontReference": [
+            5.968729824492612,
+            50.43322710967087
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 18
+      },
+      "source": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 100m x 18m ground band at corner11 arc+90m, driver-right. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "surfaceSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Annual organizer SVG identifies this named Bronze sector. Approximate road-relative 100m x 18m ground band at corner11 arc+90m, driver-right. Position and extent estimated from schematic, reserved stands/buildings/pits/road excluded; source terrain retained, standing eye1.65m. Not surveyed footprint."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "January14 archive explicitly names BelgianGP2026 July16–19; SVG has five shared zone-bronze groups and separately ticketed zone-bronze-bruxelles. No assigned seat."
+      },
+      "description": "沿源地形站立观赛，眼高1.65米，保留坡面与围网遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Named annual schematic sector associated to actual roadway; approximate ground envelope excludes registered reserved structures and road."
+      },
+      "admissionNote": "普通Bronze近似草地范围；不含编号看台或独立Bruxelles票区。"
+    }
+  ],
+  "sourceMap": {
+    "url": "https://web.archive.org/web/20260114004529id_/https://www.spagrandprix.com/en/ticketing/ticket/map",
+    "sha256": "8604073825aa6a7242aaff3622f7a5d5620e97d1c3c8a2eb48a2491d6de33e2b",
+    "checkedAt": "2026-11-07",
+    "snapshotDate": "2026-01-14"
+  },
+  "geographicBoundaryVerified": false,
+  "approximationAccepted": true,
+  "terrainCorrection": "EauRouge district modeled as four short local support banks each, using highest21x21 existing source ground sample per bank plus estimated2.2m support floor. Fixed seated eye1.2m; no source terrain changes or visibility-based eye changes. Block IDs approximate, not ticket-section identities.",
+  "productAssociations": [
+    {
+      "productId": "gold-2-premium",
+      "zoneId": "gold-2-gp2",
+      "surfaceIds": [
+        "gold-2-premium-approx"
+      ],
+      "relation": "Separate approximate rear bank; distinct ticket product; not ordinary G2 access."
+    },
+    {
+      "productId": "gold-9-bis",
+      "zoneId": "gold-9-pole-position",
+      "surfaceIds": [
+        "gold-9-bis-approx"
+      ],
+      "relation": "Adjacent main-straight approximate bank between G9 and G1; distinct ticket code."
+    },
+    {
+      "productId": "zone-verstappen",
+      "zoneId": "bronze-4-pouhon",
+      "surfaceIds": [
+        "verstappen-ground-approx"
+      ],
+      "relation": "Separate standing subset after DoubleGauche, before FanAreaGrandstand; eye1.65m; not the seated grandstand."
+    },
+    {
+      "productId": "espace-17-27",
+      "zoneId": "bronze-5-stavelot",
+      "surfaceIds": [
+        "bronze-5-stavelot-1"
+      ],
+      "relation": "Annual youth map label lies outside Campus/Stavelot (T14–T15) along Bronze5, not Bronze6. Representative existing standing surface only; exact youth ticket subset/age enforcement/camp interior not reconstructed."
+    }
+  ]
+}

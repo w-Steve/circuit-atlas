@@ -42,3 +42,23 @@ test('failed American footprint remains disabled and its direct link cannot crea
  await page.getByRole('link',{name:'返回地图'}).click();
  await expect(page.locator('canvas:visible')).toHaveAttribute('data-map-ready','montreal');
 });
+
+ test('Mexico corrected6B provides the outside observer',async({page},info)=>{
+  await page.goto('/#/circuits/mexico/zones/grada-6b/select');
+  const canvas=page.locator('canvas:visible');
+  await expect(canvas).toHaveAttribute('data-camera-ready','true');
+  const point=page.locator('.world-pick-point');await point.focus();await page.keyboard.press('ArrowRight');
+  await expect(point).toHaveAttribute('data-u','0.52');
+  await page.getByRole('button',{name:'进入此处视野 ↗',exact:true}).click();
+  await expect(canvas).toHaveAttribute('data-camera-mode','eye');
+  await expect(canvas).toHaveAttribute('data-camera-ready','true');
+  await page.screenshot({path:info.outputPath('mexico6b-corrected-eye.png')});
+  await page.getByRole('button',{name:'打开手机相机',exact:true}).click();
+  await page.getByRole('button',{name:'播放赛车',exact:true}).click();
+  await page.getByRole('button',{name:'暂停赛车',exact:true}).click();
+  await page.getByRole('button',{name:'拍照',exact:true}).click();
+  await expect(page.getByRole('img',{name:'赛道模拟照片',exact:true})).toBeVisible();
+  const download=page.waitForEvent('download');
+  await page.getByRole('link',{name:'保存 PNG ↓',exact:true}).click();
+  await(await download).saveAs(info.outputPath('mexico6b-photo.png'));
+ });

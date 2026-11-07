@@ -1,0 +1,206 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "checkedAt": "2026-11-05",
+  "zones": [
+    {
+      "zoneId": "walkabout-pit-exit",
+      "name": "Premier Walkabout · Pit Exit",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.86373098020624,
+          1.2930773106976232
+        ],
+        [
+          103.86371633551092,
+          1.2932563753814248
+        ],
+        [
+          103.86367155791775,
+          1.2932527151415114
+        ],
+        [
+          103.8636862026131,
+          1.2930736504577098
+        ],
+        [
+          103.86373098020624,
+          1.2930773106976232
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-pit-exit-1",
+          "boundary": [
+            [
+              103.86373098020624,
+              1.2930773106976232
+            ],
+            [
+              103.86371633551092,
+              1.2932563753814248
+            ],
+            [
+              103.86367155791775,
+              1.2932527151415114
+            ],
+            [
+              103.8636862026131,
+              1.2930736504577098
+            ],
+            [
+              103.86373098020624,
+              1.2930773106976232
+            ]
+          ],
+          "baseHeight": 1.3,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.863867,
+            1.29417
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.3,
+        "rise": 0,
+        "depth": 5,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter confirms Premier standing platforms at opening/final sequences and pit-entry/exit. Specific20x5m footprint,1.3m deck and centerline offset are practical author estimates permitted by user; not an installation survey or all public ground."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Explicit named2026 ordinary reserved-seat product; catalogue snapshot retained in annual-access review. No live availability claim."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter confirms Premier standing platforms at opening/final sequences and pit-entry/exit. Specific20x5m footprint,1.3m deck and centerline offset are practical author estimates permitted by user; not an installation survey or all public ground."
+      },
+      "description": "独立近似站立平台，范围与平台高度为估计。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Discrete approximate Premier standing platform; road/water/facility/neighbor clearance screened."
+      },
+      "admissionNote": "Premier Walkabout可进入；Zone 4单区票不含此处。范围和平台高度为估计。"
+    },
+    {
+      "zoneId": "walkabout-final",
+      "name": "Premier Walkabout · T19",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.86419568978427,
+          1.2893745777332473
+        ],
+        [
+          103.86428428994805,
+          1.2895098536930747
+        ],
+        [
+          103.86423918654279,
+          1.2895393796041572
+        ],
+        [
+          103.86415058637903,
+          1.2894041036443298
+        ],
+        [
+          103.86419568978427,
+          1.2893745777332473
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "walkabout-final-1",
+          "boundary": [
+            [
+              103.86419568978427,
+              1.2893745777332473
+            ],
+            [
+              103.86428428994805,
+              1.2895098536930747
+            ],
+            [
+              103.86423918654279,
+              1.2895393796041572
+            ],
+            [
+              103.86415058637903,
+              1.2894041036443298
+            ],
+            [
+              103.86419568978427,
+              1.2893745777332473
+            ]
+          ],
+          "baseHeight": 1.1,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "rows": 0,
+          "frontReference": [
+            103.864331,
+            1.289286
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 1.1,
+        "rise": 0,
+        "depth": 6,
+        "eyeHeight": 1.65
+      },
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter confirms Premier standing platforms at opening/final sequences and pit-entry/exit. Specific18x6m footprint,1.1m deck and centerline offset are practical author estimates permitted by user; not an installation survey or all public ground."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Explicit named2026 ordinary reserved-seat product; catalogue snapshot retained in annual-access review. No live availability claim."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/premier-walkabout/",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Promoter confirms Premier standing platforms at opening/final sequences and pit-entry/exit. Specific18x6m footprint,1.1m deck and centerline offset are practical author estimates permitted by user; not an installation survey or all public ground."
+      },
+      "description": "独立近似站立平台，范围与平台高度为估计。",
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Discrete approximate Premier standing platform; road/water/facility/neighbor clearance screened."
+      },
+      "admissionNote": "Premier Walkabout可进入；Zone 4单区票不含此处。范围和平台高度为估计。"
+    }
+  ],
+  "accuracy": "User-approved author approximation, no installation survey claim.",
+  "remaining": "Full platform inventory and other public standing locations not claimed complete.",
+  "registeredWaterPitBuildingOverlapM2": 0
+}

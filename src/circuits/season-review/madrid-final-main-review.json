@@ -1,0 +1,163 @@
+{
+  "generatedSha256": "79b324ff178a6cf06e01ad2aac45bef4020e0a68b9014a3e296a10563134b5a6",
+  "circuitId": "madrid",
+  "checkedAt": "2026-10-26",
+  "status": "rejected-label-control-registration",
+  "sourceUrl": "https://www.madring.com/img/xl/mapa-madring/mapa_web_11_8_26_ing.webp",
+  "sourceSha256": "99ac1e3d5f822f0b650da0f727956c7f8c7d64c9616327f4cfc0cedebacaf241",
+  "sourceLabel": "GA1",
+  "sourceBoundaryPixels": [
+    [
+      184,
+      543
+    ],
+    [
+      180,
+      545
+    ],
+    [
+      179,
+      551
+    ],
+    [
+      197,
+      658
+    ],
+    [
+      196,
+      659
+    ],
+    [
+      198,
+      663
+    ],
+    [
+      185,
+      663
+    ],
+    [
+      178,
+      671
+    ],
+    [
+      182,
+      669
+    ],
+    [
+      186,
+      664
+    ],
+    [
+      196,
+      664
+    ],
+    [
+      198,
+      667
+    ],
+    [
+      204,
+      709
+    ],
+    [
+      206,
+      714
+    ],
+    [
+      212,
+      715
+    ],
+    [
+      217,
+      712
+    ],
+    [
+      224,
+      713
+    ],
+    [
+      228,
+      709
+    ],
+    [
+      223,
+      680
+    ],
+    [
+      214,
+      679
+    ],
+    [
+      214,
+      666
+    ],
+    [
+      221,
+      664
+    ],
+    [
+      208,
+      590
+    ],
+    [
+      196,
+      589
+    ],
+    [
+      196,
+      577
+    ],
+    [
+      206,
+      576
+    ],
+    [
+      202,
+      552
+    ],
+    [
+      189,
+      552
+    ],
+    [
+      188,
+      543
+    ],
+    [
+      184,
+      543
+    ]
+  ],
+  "method": "Exact connected authored green component at seed210,650; external outline simplified1px. Printed lettering/icons are not physical holes. No dilation, clearance trimming or polygon translation.",
+  "controlNumbers": [
+    1,
+    2,
+    22
+  ],
+  "controlPixels": [
+    [
+      187,
+      423
+    ],
+    [
+      163,
+      417
+    ],
+    [
+      244,
+      731
+    ]
+  ],
+  "internalFitRmsMetres": 0.8202313184662583,
+  "roadIntersectionMetres2": 2514.2049413206637,
+  "otherZoneIntersections": [
+    {
+      "zoneId": "stand-2",
+      "areaMetres2": 1886.8424027270084
+    }
+  ],
+  "productionApplied": false,
+  "conclusion": "Low internal residual does not validate label centers as road controls. Diagnostic inverse overlay places current GIS near the edge of the schematic black road along the main straight. Rebuild independent source road medial controls and verify final bank IDs before migration.",
+  "sourceIdentityLimitation": "GA1 text and green fill alone do not establish a grass/general-admission ticket class. Do not equate June numbered banks with final lettered zones without evidence.",
+  "evidence": "artifacts/goal-review/madrid-main-final"
+}

@@ -1,0 +1,53 @@
+{
+  "circuitId": "miami",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "runtimeApplied": true,
+  "geometryAccepted": false,
+  "zoneId": "marina-north",
+  "oldIssues": [
+    "unresolved diagram bearing (79.7 degrees)",
+    "no road across either seating face"
+  ],
+  "officialPhoto": {
+    "url": "https://s40320.pcdn.co/wp-content/uploads/2026/07/260503_F1MGP_AS2100-11-1200x800.webp",
+    "sha256": "e2c5750986ac214d479c2118f969f5d91428d8a33abfe3c85d8e286c4483a0de",
+    "linkedFrom": "https://f1miamigp.com/tickets/grandstand/",
+    "pageSha256": "e025490fcbb38fe0e35f1067a8363d47838b64809abcd45d76f074fbbbd70894",
+    "yearEvidence": "Official image title uses 260503_F1MGP_AS2100; current live catalogue is explicitly2027, so only the photograph dated2026 is used, not current ticket eligibility.",
+    "observed": "Photo actually inspected: three adjacent roofed seating blocks outside T6–T7 sweep, their front walkways, stair aisles and track fence visible. Image crops the outer blocks; center block is substantially visible. Roof/back-edge parallax precludes treating photo pixels as ground coordinates.",
+    "limitations": "Image is not georeferenced; camera pose and common ground controls remain to be independently established. Do not redistribute the photograph."
+  },
+  "geographicImage": {
+    "identifyUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/identify?f=json&geometry=-80.2452%2C25.9572&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=-80.247%2C25.956%2C-80.244%2C25.959&imageDisplay=1200%2C1200%2C96&returnGeometry=false",
+    "captureDate": "2025-01-08",
+    "source": "State of Florida / Miami-Dade County Orthos",
+    "resolutionMetres": 0.0762,
+    "reportedAccuracyMetres": 0.1,
+    "imageSha256": "ebaff530b02b961fe1be1fe777ade3cd8cf3552e9959002f03541e00e7afa763",
+    "observed": "Actual geographic image inspected; race kerbs and drainage/paths visible, temporary seats absent. High imagery resolution does not make the missing seats measurable."
+  },
+  "nativeReview": "Cached OSM bleachers in this package are primarily southeast tennis facilities, not Marina F1 seating; do not borrow them.",
+  "nextAction": "North approximate road-facing50x16m bank implemented; geographic photo homography and full installation footprint remain unverified. Refine roof/seat boundaries when evidence improves.",
+  "calibrationFollowup": {
+    "checkedAt": "2026-10-29",
+    "fullGroundImage": {
+      "bboxWgs84": [
+        -80.2465,
+        25.9557,
+        -80.2428,
+        25.9585
+      ],
+      "sha256": "b4995e629e465afa7468b27d7782c21fb0f92c944f5efed40da2b4f3da51907b",
+      "observed": "Full enlarged geographic image actually inspected: T7 curve, both pedestrian bridges and permanent outer barrier joints visible; temporary seat blocks absent."
+    },
+    "result": "No homography accepted. The supplied oblique 2026 photo crops outer seating blocks, obscures several ground joints and has roof-height parallax. No reliable complete north footprint can be obtained from this photograph alone. Do not publish fitted coordinates without independent withheld controls.",
+    "newLead": {
+      "url": "https://f1miamigp.com/tickets/grandstand/marina/",
+      "observed": "Public page references 240505-F1AerialPhotography-CG1326 4; image asset not yet retrieved. Current live ticket page is2027. An older aerial could only support geometry after continuity with2026 is independently checked.",
+      "accessResult": "Direct request403; later web retrieval429. Stop repeated requests this session."
+    }
+  },
+  "approximateGeometryAccepted": true,
+  "activeApproximation": "src/circuits/americas/miami-marina-north-2026.json"
+}

@@ -1,0 +1,185 @@
+{
+  "circuitId": "mexico",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "nativeSnapshot": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-99.0835,19.4024,-99.0823,19.4033",
+    "sha256": "2de48e71e51af1093c5de5e355968d8be9912b4cd9dce2e6027c4f249f2f1da9",
+    "coordinates": [
+      [
+        -99.0829567,
+        19.4031014
+      ],
+      [
+        -99.082855,
+        19.4030625
+      ],
+      [
+        -99.0830393,
+        19.4026566
+      ],
+      [
+        -99.0831387,
+        19.4027046
+      ],
+      [
+        -99.0829567,
+        19.4031014
+      ]
+    ]
+  },
+  "oldBoundary": [
+    [
+      -99.0834283,
+      19.403096
+    ],
+    [
+      -99.0837387,
+      19.4038039
+    ],
+    [
+      -99.0839161,
+      19.4037748
+    ],
+    [
+      -99.0836044,
+      19.403072
+    ],
+    [
+      -99.0834283,
+      19.403096
+    ]
+  ],
+  "neighborFingerprint": "6f735e71ffae9ba141b091a1c94af10f0d3dfbe55b8c4443c76c8aafaef7d26d",
+  "zone": {
+    "zoneId": "grada-6b",
+    "name": "Grada 6B",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        -99.0829567,
+        19.4031014
+      ],
+      [
+        -99.082855,
+        19.4030625
+      ],
+      [
+        -99.0830393,
+        19.4026566
+      ],
+      [
+        -99.0831387,
+        19.4027046
+      ],
+      [
+        -99.0829567,
+        19.4031014
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "grada-6b-1",
+        "boundary": [
+          [
+            -99.0829567,
+            19.4031014
+          ],
+          [
+            -99.082855,
+            19.4030625
+          ],
+          [
+            -99.0830393,
+            19.4026566
+          ],
+          [
+            -99.0831387,
+            19.4027046
+          ],
+          [
+            -99.0829567,
+            19.4031014
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 5.265,
+        "eyeHeight": 1.2,
+        "rows": 17,
+        "frontReference": [
+          -99.08317125690091,
+          19.4029332485485
+        ],
+        "rowBearing": "local-normal",
+        "rowStrip": {
+          "front": [
+            [
+              -99.0831387,
+              19.4027046
+            ],
+            [
+              -99.0829567,
+              19.4031014
+            ]
+          ],
+          "back": [
+            [
+              -99.0830393,
+              19.4026566
+            ],
+            [
+              -99.082855,
+              19.4030625
+            ]
+          ]
+        }
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 5.265,
+      "depth": 11.7,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://www.openstreetmap.org/way/999257666",
+      "checkedAt": "2026-10-29",
+      "method": "extracted",
+      "confidence": "medium",
+      "notes": "完整原生座席边界；独立主办方6B位置图与地理影像对应外侧Grada6南端，替换错误内场1162963329。约49×11.7m；物理近似而非年度票界测绘。"
+    },
+    "openingSource": {
+      "url": "https://www.mexicogp.mx/boletos-generales/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+    },
+    "surfaceSource": {
+      "url": "https://www.mexicogp.mx/boletos-generales/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "基底2.2m与17排保留估计；按新实物深度11.7m和估计坡比0.45得总高差5.265m，未宣称实测。坐姿眼高1.2m；前/后沿配对朝向赛道。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-29",
+      "issues": [],
+      "method": "Full native polygon unchanged; zero rendered-road, neighbor, building and buffered-pit planar overlap. Road clearance11.88m. Paired outer/back and trackside/front rows; profile estimates remain explicit."
+    }
+  },
+  "runtimeApplied": true,
+  "planarReview": {
+    "roadIntersectionM2": 0,
+    "neighborIntersectionM2": 0,
+    "buildingIntersectionM2": 0,
+    "bufferedPitIntersectionM2": 0,
+    "roadClearanceMetres": 11.8816
+  },
+  "limits": [
+    "Native boundary and independent promoter locator support approximate physical association, not surveyed ticket enclosure.",
+    "Base datum, row count, slope and proxy fence height remain estimates. Existing terrain and obstacles are retained."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "circuitId": "monaco",
+  "zoneId": "v-anthony-noghes",
+  "coreInputsSha256": "7e92f389b8798528ed9b9595fd52282e5c968a67a63c534055e8fe12d9923a18",
+  "candidateGeometrySha256": "6e00fb2d30994b8d57e53e6896cf2e5fe560fcc8dfc6d4c27c79af18b6a57305",
+  "exposure": {
+    "shutter": 1000,
+    "pan": "fixed",
+    "samples": 1,
+    "distance": 2137.631666669455,
+    "simulationSeconds": 6.306800000004469,
+    "velocity": 0,
+    "focal": 72,
+    "elapsedMs": 121.5,
+    "zoneId": "v-anthony-noghes",
+    "observerPosture": "seated",
+    "eyeHeightMetres": 1.1999999999999993,
+    "observerPosition": [
+      -373.6917843764327,
+      15.566588316927364,
+      791.9531080917375
+    ]
+  },
+  "observerPosition": [
+    -373.6917843764327,
+    15.566588316927364,
+    791.9531080917375
+  ],
+  "cockpitPosition": [
+    -377.2035286015887,
+    6.38439667327148,
+    766.9905271605378
+  ],
+  "distanceMetres": 26.828630930974366,
+  "groundAtEye": 7.999181230303009,
+  "roadCentre": [
+    -377.4777295524413,
+    5.3963849552493635,
+    766.7507943101975
+  ],
+  "intersections": [],
+  "scope": "Saved model ray through road/verge/stand meshes; intersections do not certify the estimated stand profile or actual venue visibility.",
+  "wheelReferenceRays": [
+    {
+      "side": -1,
+      "axle": -1,
+      "target": [
+        -375.6921105930839,
+        6.056074268620152,
+        767.2625933329505
+      ],
+      "distanceMetres": 26.534368307724037,
+      "intersections": []
+    },
+    {
+      "side": -1,
+      "axle": 1,
+      "target": [
+        -378.2489218095072,
+        5.895896190603848,
+        765.0271829932376
+      ],
+      "distanceMetres": 28.97059250681784,
+      "intersections": []
+    },
+    {
+      "side": 1,
+      "axle": -1,
+      "target": [
+        -376.73207364935297,
+        6.056074268620152,
+        768.4520792898223
+      ],
+      "distanceMetres": 25.534126009607768,
+      "intersections": [
+        {
+          "object": "v-anthony-noghes-1",
+          "distanceMetres": 11.813256566796118
+        },
+        {
+          "object": "v-anthony-noghes-1",
+          "distanceMetres": 12.03932814355743
+        },
+        {
+          "object": "v-anthony-noghes-1",
+          "distanceMetres": 12.8871906320536
+        }
+      ]
+    },
+    {
+      "side": 1,
+      "axle": 1,
+      "target": [
+        -379.28888486577625,
+        5.895896190603848,
+        766.2166689501095
+      ],
+      "distanceMetres": 28.057336291613076,
+      "intersections": []
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "zoneId": "republic",
+  "checkedAt": "2026-11-05",
+  "zone": {
+    "zoneId": "republic",
+    "name": "Republic",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        103.86271121017306,
+        1.2922954550849715
+      ],
+      [
+        103.86275489397593,
+        1.2916681556755396
+      ],
+      [
+        103.86262043850317,
+        1.291658797239612
+      ],
+      [
+        103.86257675470029,
+        1.292286096649044
+      ],
+      [
+        103.86271121017306,
+        1.2922954550849715
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "republic-1",
+        "boundary": [
+          [
+            103.86271121017306,
+            1.2922954550849715
+          ],
+          [
+            103.86275489397593,
+            1.2916681556755396
+          ],
+          [
+            103.86262043850317,
+            1.291658797239612
+          ],
+          [
+            103.86257675470029,
+            1.292286096649044
+          ],
+          [
+            103.86271121017306,
+            1.2922954550849715
+          ]
+        ],
+        "baseHeight": 1.5,
+        "rise": 6,
+        "eyeHeight": 1.2,
+        "rows": 15,
+        "frontReference": [
+          103.86291,
+          1.291769
+        ],
+        "rowStrip": {
+          "front": [
+            [
+              103.86271121017306,
+              1.2922954550849715
+            ],
+            [
+              103.86275489397593,
+              1.2916681556755396
+            ]
+          ],
+          "back": [
+            [
+              103.86257675470029,
+              1.292286096649044
+            ],
+            [
+              103.86262043850317,
+              1.291658797239612
+            ]
+          ],
+          "source": {
+            "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/republic-grandstand/",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Promoter2026 description places Republic on drivers right atT5, with views ofT4 kink. Early2026 map places a separate bank outsideT5 approach. User-approved approximate70m length,15m depth,18m front offset,15 rows,1.5m front platform and6m rise; not surveyed seat dimensions."
+          }
+        },
+        "rowBearing": "local-normal"
+      }
+    ],
+    "surface": {
+      "baseHeight": 1.5,
+      "rise": 6,
+      "depth": 15,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/republic-grandstand/",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Promoter2026 description places Republic on drivers right atT5, with views ofT4 kink. Early2026 map places a separate bank outsideT5 approach. User-approved approximate70m length,15m depth,18m front offset,15 rows,1.5m front platform and6m rise; not surveyed seat dimensions."
+    },
+    "openingSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/republic-grandstand/",
+      "checkedAt": "2026-11-05",
+      "method": "published",
+      "confidence": "medium",
+      "notes": "Explicit named2026 ordinary reserved-seat product; catalogue snapshot retained in annual-access review. No live availability claim."
+    },
+    "surfaceSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/grandstands/republic-grandstand/",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Promoter2026 description places Republic on drivers right atT5, with views ofT4 kink. Early2026 map places a separate bank outsideT5 approach. User-approved approximate70m length,15m depth,18m front offset,15 rows,1.5m front platform and6m rise; not surveyed seat dimensions."
+    },
+    "description": "五号弯外侧近似看台；范围、排数与高度为估计。",
+    "geometryReview": {
+      "checkedAt": "2026-11-05",
+      "issues": [],
+      "method": "Approximate bank on promoter-designated drivers-right side; rendered road and neighbor checks required."
+    }
+  },
+  "sourceMap": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+  "accuracy": "Practical author approximation permitted by user; no seat survey claim."
+}

@@ -1,0 +1,322 @@
+{
+  "circuitId": "madrid",
+  "checkedAt": "2026-10-26",
+  "sourceUrl": "https://www.madring.com/img/xl/mapa-madring/mapa_web_11_8_26_ing.webp",
+  "sourceSha256": "99ac1e3d5f822f0b650da0f727956c7f8c7d64c9616327f4cfc0cedebacaf241",
+  "sourceDimensions": [
+    1200,
+    847
+  ],
+  "annualEvidence": "2026 event dates printed on map; live dated2026-09-03 mobility article embeds this asset. Current standalone facilities page has switched to2027 and is not used as2026 boundary evidence.",
+  "articleUrl": "https://www.madring.com/en/press-releases/mobility-plan",
+  "generatedSha256": "79b324ff178a6cf06e01ad2aac45bef4020e0a68b9014a3e296a10563134b5a6",
+  "scope": "Replay of prior rectangle construction and its recorded conflicts. Does not certify any physical polygon or independently re-run mesh collision detection.",
+  "areas": [
+    {
+      "zoneId": "stand-1",
+      "availability": "preparing",
+      "pixelRectangle": [
+        213,
+        662,
+        90,
+        18,
+        80
+      ],
+      "centerOutsideControlHull": true,
+      "affineSingularScalesMetresPerPixel": [
+        1.9748867434609827,
+        1.8678359790079957
+      ],
+      "anisotropyRatio": 1.057312722131973,
+      "existingGeometryIssues": [
+        "stand-1-1: road intersection 2447.2286 m2"
+      ]
+    },
+    {
+      "zoneId": "stand-2",
+      "availability": "preparing",
+      "pixelRectangle": [
+        193,
+        541,
+        80,
+        20,
+        80
+      ],
+      "centerOutsideControlHull": true,
+      "affineSingularScalesMetresPerPixel": [
+        2.026044826604201,
+        1.9343360980920619
+      ],
+      "anisotropyRatio": 1.0474109585209086,
+      "existingGeometryIssues": [
+        "stand-2-1: road intersection 1294.0869 m2"
+      ]
+    },
+    {
+      "zoneId": "stand-3",
+      "availability": "preparing",
+      "pixelRectangle": [
+        180,
+        455,
+        57,
+        20,
+        80
+      ],
+      "centerOutsideControlHull": false,
+      "affineSingularScalesMetresPerPixel": [
+        2.026044826604201,
+        1.9343360980920619
+      ],
+      "anisotropyRatio": 1.0474109585209086,
+      "existingGeometryIssues": [
+        "stand-3-1: road intersection 302.2644 m2"
+      ]
+    },
+    {
+      "zoneId": "t1t3",
+      "availability": "preparing",
+      "pixelRectangle": [
+        143,
+        392,
+        48,
+        16,
+        -80
+      ],
+      "centerOutsideControlHull": true,
+      "affineSingularScalesMetresPerPixel": [
+        2.2363298180171998,
+        2.0134872996737956
+      ],
+      "anisotropyRatio": 1.1106749063574957,
+      "existingGeometryIssues": [
+        "t1t3-1: road intersection 367.2324 m2"
+      ]
+    },
+    {
+      "zoneId": "stand-5",
+      "availability": "preparing",
+      "pixelRectangle": [
+        269,
+        270,
+        150,
+        20,
+        -28
+      ],
+      "centerOutsideControlHull": true,
+      "affineSingularScalesMetresPerPixel": [
+        2.101695338449187,
+        2.062366060494935
+      ],
+      "anisotropyRatio": 1.0190699792377371,
+      "existingGeometryIssues": [
+        "stand-5-1: road intersection 4096.0387 m2",
+        "stand-5-1: no road across either seating face"
+      ]
+    },
+    {
+      "zoneId": "t4t5",
+      "availability": "preparing",
+      "pixelRectangle": [
+        525,
+        183,
+        94,
+        17,
+        17
+      ],
+      "centerOutsideControlHull": false,
+      "affineSingularScalesMetresPerPixel": [
+        2.36648720882609,
+        1.3659945786235606
+      ],
+      "anisotropyRatio": 1.73242796557119,
+      "existingGeometryIssues": [
+        "t4t5-1: road intersection 402.8182 m2"
+      ]
+    },
+    {
+      "zoneId": "stand-7",
+      "availability": "preparing",
+      "pixelRectangle": [
+        689,
+        214,
+        115,
+        18,
+        -40
+      ],
+      "centerOutsideControlHull": false,
+      "affineSingularScalesMetresPerPixel": [
+        2.3412398680659923,
+        1.761936643305334
+      ],
+      "anisotropyRatio": 1.3287877727963615,
+      "existingGeometryIssues": [
+        "stand-7-1: road intersection 97.0749 m2"
+      ]
+    },
+    {
+      "zoneId": "stand-8",
+      "availability": "preparing",
+      "pixelRectangle": [
+        777,
+        151,
+        74,
+        16,
+        -23
+      ],
+      "centerOutsideControlHull": true,
+      "affineSingularScalesMetresPerPixel": [
+        2.049876195853783,
+        2.03344755340679
+      ],
+      "anisotropyRatio": 1.0080792063800557,
+      "existingGeometryIssues": [
+        "stand-8-1: road intersection 788.1877 m2",
+        "stand-8-1: unresolved diagram bearing (78.4 degrees)"
+      ]
+    },
+    {
+      "zoneId": "t9t10",
+      "availability": "preparing",
+      "pixelRectangle": [
+        874,
+        151,
+        78,
+        17,
+        7
+      ],
+      "centerOutsideControlHull": true,
+      "affineSingularScalesMetresPerPixel": [
+        1.549339354352446,
+        1.5141405255057896
+      ],
+      "anisotropyRatio": 1.0232467384986599,
+      "existingGeometryIssues": [
+        "t9t10-1: road intersection 769.2338 m2"
+      ]
+    },
+    {
+      "zoneId": "t11",
+      "availability": "available",
+      "pixelRectangle": [
+        926,
+        205,
+        55,
+        17,
+        30
+      ],
+      "centerOutsideControlHull": false,
+      "affineSingularScalesMetresPerPixel": [
+        2.3956019937368414,
+        1.8733331951774381
+      ],
+      "anisotropyRatio": 1.27879119416871,
+      "existingGeometryIssues": []
+    },
+    {
+      "zoneId": "monumental",
+      "availability": "preparing",
+      "pixelRectangle": [
+        1107,
+        228,
+        100,
+        20,
+        85
+      ],
+      "centerOutsideControlHull": true,
+      "affineSingularScalesMetresPerPixel": [
+        2.6698056083246495,
+        1.1873202454778036
+      ],
+      "anisotropyRatio": 2.248597729629601,
+      "existingGeometryIssues": [
+        "monumental-1: road intersection 1152.0422 m2"
+      ]
+    },
+    {
+      "zoneId": "monumental-12",
+      "availability": "available",
+      "pixelRectangle": [
+        1048,
+        231,
+        86,
+        18,
+        80
+      ],
+      "centerOutsideControlHull": false,
+      "affineSingularScalesMetresPerPixel": [
+        2.1152746123854156,
+        1.829929168387786
+      ],
+      "anisotropyRatio": 1.1559325076221536,
+      "existingGeometryIssues": []
+    },
+    {
+      "zoneId": "t13t14",
+      "availability": "preparing",
+      "pixelRectangle": [
+        807,
+        239,
+        75,
+        19,
+        -62
+      ],
+      "centerOutsideControlHull": false,
+      "affineSingularScalesMetresPerPixel": [
+        2.3956019937368414,
+        1.8733331951774381
+      ],
+      "anisotropyRatio": 1.27879119416871,
+      "existingGeometryIssues": [
+        "t13t14-1: road intersection 1631.8348 m2"
+      ]
+    },
+    {
+      "zoneId": "t14t15",
+      "availability": "available",
+      "pixelRectangle": [
+        742,
+        281,
+        75,
+        19,
+        -7
+      ],
+      "centerOutsideControlHull": false,
+      "affineSingularScalesMetresPerPixel": [
+        2.2435422127282996,
+        1.482915015736834
+      ],
+      "anisotropyRatio": 1.512927031501885,
+      "existingGeometryIssues": []
+    },
+    {
+      "zoneId": "t15t16",
+      "availability": "available",
+      "pixelRectangle": [
+        680,
+        347,
+        99,
+        20,
+        93
+      ],
+      "centerOutsideControlHull": false,
+      "affineSingularScalesMetresPerPixel": [
+        2.2435422127282996,
+        1.482915015736834
+      ],
+      "anisotropyRatio": 1.512927031501885,
+      "existingGeometryIssues": []
+    }
+  ],
+  "findings": {
+    "rectangles": 15,
+    "centersOutsideControlHull": 7,
+    "withheldRoadIntersections": 11
+  },
+  "nextAction": "Trace actual source seating-bank outlines and associate printed grandstand IDs; register North and South locally with independent geographic anchors. Preserve source outlines; do not shift/trim to pass clearance. Cross-check every previously available bank too.",
+  "limitations": [
+    "Delaunay control-hull inclusion is not a positional accuracy certificate.",
+    "Single-triangle extrapolation and artificial rectangles cannot establish the authored bank boundary.",
+    "17 mobility sections are not automatically17 ticket products; do not invent missing seats or GA from fan-zone color fills.",
+    "Heights and local banking/retaining walls require separate evidence."
+  ]
+}

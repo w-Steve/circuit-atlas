@@ -1,0 +1,214 @@
+{
+  "circuitId": "mexico",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "zona-accesible-azul",
+      "name": "Zona Accesible Azul",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          -99.08331105347618,
+          19.40235434817506
+        ],
+        [
+          -99.08343192075856,
+          19.40216085632733
+        ],
+        [
+          -99.08336627373387,
+          19.402124376200586
+        ],
+        [
+          -99.0832454064515,
+          19.402317868048314
+        ],
+        [
+          -99.08331105347618,
+          19.40235434817506
+        ]
+      ],
+      "supportToTerrain": true,
+      "surfaces": [
+        {
+          "surfaceId": "zona-accesible-azul-1",
+          "boundary": [
+            [
+              -99.08331105347618,
+              19.40235434817506
+            ],
+            [
+              -99.08343192075856,
+              19.40216085632733
+            ],
+            [
+              -99.08336627373387,
+              19.402124376200586
+            ],
+            [
+              -99.0832454064515,
+              19.402317868048314
+            ],
+            [
+              -99.08331105347618,
+              19.40235434817506
+            ]
+          ],
+          "baseHeight": 0.2,
+          "rise": 0,
+          "eyeHeight": 1.2,
+          "rows": 1,
+          "frontReference": [
+            -99.08351919292289,
+            19.402339682536372
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.2,
+        "rise": 0,
+        "eyeHeight": 1.2,
+        "depth": 8
+      },
+      "source": {
+        "url": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2016/01/09081135/accesible-azul.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer accessible-blue locator marks a separate small platform on the outside/left of the back straight afterT3, between theT3 seating and6A. Approximate25x8m level platform150m afterT3,18–26m driver-left, floor0.2m estimate, seated eye1.2m. Diagram upload year is not annual identity proof; separate2026 sale table names ZonaAccesible."
+      },
+      "surfaceSource": {
+        "url": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2016/01/09081135/accesible-azul.png",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer accessible-blue locator marks a separate small platform on the outside/left of the back straight afterT3, between theT3 seating and6A. Approximate25x8m level platform150m afterT3,18–26m driver-left, floor0.2m estimate, seated eye1.2m. Diagram upload year is not annual identity proof; separate2026 sale table names ZonaAccesible."
+      },
+      "openingSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Primary annual2026 sale table explicitly lists ZonaAccesible for persons with disabilities; product page separately identifies blue platform and restricts use to eligible persons, tickets not transferable. Do not interpret ordinary BoletosGenerales as standing GA."
+      },
+      "admissionNote": "无障碍专属区域，需符合官方入场资格，票不可转让；范围与平台高度为近似。",
+      "description": "T3之后蓝区的近似平层平台，坐姿眼高1.2米，保留几何遮挡。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Explicit source-associated approximate platform; registered neighboring seats/facilities screened."
+      }
+    },
+    {
+      "zoneId": "zona-accesible-verde",
+      "name": "Zona Accesible Verde",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          -99.09178074544451,
+          19.40625132411067
+        ],
+        [
+          -99.09166771205858,
+          19.406235370104202
+        ],
+        [
+          -99.09165925455548,
+          19.40628867588933
+        ],
+        [
+          -99.09177228794141,
+          19.406304629895796
+        ],
+        [
+          -99.09178074544451,
+          19.40625132411067
+        ]
+      ],
+      "supportToTerrain": true,
+      "surfaces": [
+        {
+          "surfaceId": "zona-accesible-verde-1",
+          "boundary": [
+            [
+              -99.09178074544451,
+              19.40625132411067
+            ],
+            [
+              -99.09166771205858,
+              19.406235370104202
+            ],
+            [
+              -99.09165925455548,
+              19.40628867588933
+            ],
+            [
+              -99.09177228794141,
+              19.406304629895796
+            ],
+            [
+              -99.09178074544451,
+              19.40625132411067
+            ]
+          ],
+          "baseHeight": 0.2,
+          "rise": 0,
+          "eyeHeight": 1.2,
+          "rows": 1,
+          "frontReference": [
+            -99.09177588006634,
+            19.40589043961021
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.2,
+        "rise": 0,
+        "eyeHeight": 1.2,
+        "depth": 6
+      },
+      "source": {
+        "url": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2016/01/09081141/accesible-verde.png",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually inspected organizer locator: small accessible block immediately beyond the east end of green main seating, before the access path and orange2A district. Author-estimated12x6m platform centered[-99.09172,19.40627], floor0.2m, seated eye1.2m. Exact floor/ramps/installation extent unverified;2016 upload is not annual proof."
+      },
+      "surfaceSource": {
+        "url": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2016/01/09081141/accesible-verde.png",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Actually inspected organizer locator: small accessible block immediately beyond the east end of green main seating, before the access path and orange2A district. Author-estimated12x6m platform centered[-99.09172,19.40627], floor0.2m, seated eye1.2m. Exact floor/ramps/installation extent unverified;2016 upload is not annual proof."
+      },
+      "openingSource": {
+        "url": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+        "checkedAt": "2026-11-07",
+        "method": "published",
+        "confidence": "high",
+        "notes": "2026 sale announcement names accessible viewing; retained organizer ticket-list HTML modified2026-07-31 separately links green accessible product. Current product page and locator establish location and disability-only/nontransferable conditions; current price is not imported as2026 pricing."
+      },
+      "admissionNote": "无障碍专属区域，需符合官方入场资格，票不可转让；范围与平台高度为近似。",
+      "description": "主直道绿区东端的近似无障碍平层平台，坐姿眼高1.2米。",
+      "geometryReview": {
+        "checkedAt": "2026-11-07",
+        "issues": [],
+        "method": "Explicit source-associated approximate platform; registered neighboring seats/facilities screened."
+      }
+    }
+  ],
+  "beforeZones": [],
+  "sourceMapSha256": "0a37e988d3c1e193fdac567dbe457a5e840cb55e8d6e0abcacc8c22b8c9b95c0",
+  "coverage": "Separate source-associated blue and green accessible viewing platforms; exact installation footprints and detailed ramps unverified.",
+  "greenEvidence": {
+    "ticketListUrl": "https://www.mexicogp.mx/boletos-generales/",
+    "ticketListSha256": "d920b1e0effb5bc05f875dfe6b0fb6c1b8e86aa8a4e82d04370d3b85c4d35cbf",
+    "ticketListModifiedAt": "2026-07-31T19:28:12+00:00",
+    "productUrl": "https://www.mexicogp.mx/boleto/generales-grada-para-discapacitados-zona-verde/",
+    "locatorSha256": "1e0b39c6c9fc321bab66f9be0c73d169d10d049f13b1c87a1a188d5e849cc493",
+    "relationship": "Green main-straight accessible platform is physically separate from blue back-straight platform; the2026 retained ticket listing links both.",
+    "accuracy": "Source-associated approximation, not surveyed annual installation."
+  }
+}

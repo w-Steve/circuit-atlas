@@ -1,7 +1,7 @@
 {
   "circuitId": "monaco",
   "season": 2026,
-  "checkedAt": "2026-10-24",
+  "checkedAt": "2026-10-25",
   "source": "https://acm.mc/epreuves/formula-1-grand-prix-de-monaco/infos-pratiques/informations-liees-a-lachat-de-billet-ou-de-package/",
   "evidence": "Organizer explicitly distinguishes seated tickets from standing places in sectors Z and Rocher.",
   "confirmedStandingAreas": [
@@ -9,13 +9,20 @@
       "name": "Z",
       "zoneId": "z-quai-kennedy",
       "modelClassification": "general-admission",
-      "geometryResolved": false
+      "geometryResolved": true,
+      "sourceBoundaryParts": 1,
+      "geometryPrecision": "Approximate source-map registration and regional terrain; default/sampled acceptance, not surveyed access or every-point visibility."
     },
     {
       "name": "Secteur Rocher",
       "zoneId": null,
-      "modelPresent": false
+      "modelPresent": false,
+      "sourceBoundaryParts": 4,
+      "geometryResolved": false
     }
   ],
-  "scope": "Confirms ticket class and season, not geographic boundaries. Hospitality map alone is not a complete public ticket inventory."
+  "scope": "Z has reviewed approximate registration and three-viewport default simulation. Rocher has no accepted runtime geometry. Local slopes/obstacles and complete public inventory are not certified.",
+  "sourceMap": "https://acm.mc/wp-content/uploads/2025/05/Plan_Circuit_GPF12026_1920x1800-4-scaled.jpg",
+  "sourceMapSha256": "3d40d544403b11b070e28840079b7117ace6fe6cd2f553ffb8699ac98c3d887d",
+  "sourceMapPublishedAt": "2026-05-27T15:36:42"
 }

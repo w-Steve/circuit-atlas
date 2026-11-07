@@ -1,0 +1,380 @@
+{
+  "circuitId": "mexico",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "sourceUrl": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+  "sourceSha256": "a0730de2efa888d07d3d19902bc879768030999c5ba72e9023f8404570329ab1",
+  "annualEvidence": {
+    "publishedAt": "2025-10-28",
+    "eventDates": "2026-10-30/2026-11-01",
+    "method": "Article body explicitly names 2026 event, dates and complete published price table; not inferred from footer or upload year."
+  },
+  "method": "Exact ordinary grandstand names in the annual organizer sale table; identity comparison only, not acceptance of current model geometry. Upgrades and multi-day stand tours are not additional independent grandstands.",
+  "confirmedIdentities": [
+    {
+      "zoneId": "grada-1",
+      "mapLabel": "Grada 1",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-2",
+      "mapLabel": "Grada 2",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-2a",
+      "mapLabel": "Grada 2A",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-3a",
+      "mapLabel": "Grada 3A",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-4",
+      "mapLabel": "Grada 4",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-5",
+      "mapLabel": "Grada 5",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-5a",
+      "mapLabel": "Grada 5A",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-6",
+      "mapLabel": "Grada 6",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-14-sur",
+      "mapLabel": "Grada 14 Sur",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-15-norte",
+      "mapLabel": "Grada 15 Norte",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-6b",
+      "mapLabel": "Grada 6B",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-6a",
+      "mapLabel": "Grada 6A",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-7",
+      "mapLabel": "Grada 7",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-8",
+      "mapLabel": "Grada 8",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-9",
+      "mapLabel": "Grada 9",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-10",
+      "mapLabel": "Grada 10",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-11",
+      "mapLabel": "Grada 11",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "grada-12",
+      "mapLabel": "Grada 12",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "zona-accesible-azul",
+      "mapLabel": "Zona Accesible Azul",
+      "ticketClass": "accessible-platform"
+    },
+    {
+      "zoneId": "zona-accesible-verde",
+      "mapLabel": "Zona Accesible Verde",
+      "ticketClass": "accessible-platform"
+    },
+    {
+      "zoneId": "sky-boxes-grada-1",
+      "mapLabel": "Sky Boxes Grada 1",
+      "ticketClass": "hospitality"
+    },
+    {
+      "zoneId": "sky-boxes-grada-11",
+      "mapLabel": "Sky Boxes Grada 11",
+      "ticketClass": "hospitality"
+    },
+    {
+      "zoneId": "box-oro-norte",
+      "mapLabel": "Box Oro Norte",
+      "ticketClass": "hospitality"
+    },
+    {
+      "zoneId": "box-oro-sur",
+      "mapLabel": "Box Oro Sur",
+      "ticketClass": "hospitality"
+    }
+  ],
+  "unresolvedIdentities": [],
+  "publishedOrdinaryGrandstandCount": 18,
+  "modeledOrdinaryGrandstandCount": 18,
+  "inventoryComplete": false,
+  "standingScope": "Boletos Generales means ordinary ticket sales, not a positive grass/general-admission viewing polygon. Published standard table contains named grandstands; absence of a grass row alone is not proof no other public standing product exists.",
+  "additionalCoverageQuestions": [],
+  "excludedEvidence": [
+    {
+      "url": "https://www.mexicogp.mx/informacion/boletos/",
+      "reason": "Generic FAQ says all locations are numbered, but public-sale date13 November differs from explicit2026 release12 November. Not accepted as annual proof of no standing inventory."
+    }
+  ],
+  "modeledProducts": [
+    {
+      "productId": "grada-6a",
+      "mapLabel": "Grada 6A",
+      "modelZoneId": "grada-6a",
+      "ticketClass": "grandstand",
+      "reason": "Explicit separate ordinary grandstand in official2026 price table, absent from current model IDs.",
+      "modelReview": "src/circuits/americas/mexico-supplement-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "grada-7",
+      "mapLabel": "Grada 7",
+      "modelZoneId": "grada-7",
+      "ticketClass": "grandstand",
+      "reason": "Explicit separate ordinary grandstand in official2026 price table, absent from current model IDs.",
+      "modelReview": "src/circuits/americas/mexico-supplement-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "grada-8",
+      "mapLabel": "Grada 8",
+      "modelZoneId": "grada-8",
+      "ticketClass": "grandstand",
+      "reason": "Explicit separate ordinary grandstand in official2026 price table, absent from current model IDs.",
+      "modelReview": "src/circuits/americas/mexico-supplement-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "grada-9",
+      "mapLabel": "Grada 9",
+      "modelZoneId": "grada-9",
+      "ticketClass": "grandstand",
+      "reason": "Explicit separate ordinary grandstand in official2026 price table, absent from current model IDs.",
+      "modelReview": "src/circuits/americas/mexico-supplement-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "grada-10",
+      "mapLabel": "Grada 10",
+      "modelZoneId": "grada-10",
+      "ticketClass": "grandstand",
+      "reason": "Explicit separate ordinary grandstand in official2026 price table, absent from current model IDs.",
+      "modelReview": "src/circuits/americas/mexico-supplement-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "grada-11",
+      "mapLabel": "Grada 11",
+      "modelZoneId": "grada-11",
+      "ticketClass": "grandstand",
+      "reason": "Explicit separate ordinary grandstand in official2026 price table, absent from current model IDs.",
+      "modelReview": "src/circuits/americas/mexico-supplement-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "grada-12",
+      "mapLabel": "Grada 12",
+      "modelZoneId": "grada-12",
+      "ticketClass": "grandstand",
+      "reason": "Explicit separate ordinary grandstand in official2026 price table, absent from current model IDs.",
+      "modelReview": "src/circuits/americas/mexico-supplement-2026.json",
+      "accuracy": "approximate"
+    },
+    {
+      "productId": "zona-accesible",
+      "mapLabel": "Zona Accesible",
+      "modelZoneId": "zona-accesible-azul",
+      "ticketClass": "accessible-platform",
+      "modelReview": "src/circuits/americas/mexico-accessible-2026.json",
+      "accuracy": "approximate",
+      "reason": "Annual2026 sale table separately names accessible viewing; product page locates it in blue zone. Dedicated eligibility, no standing GA reinterpretation."
+    },
+    {
+      "productId": "zona-accesible-verde",
+      "mapLabel": "Zona Accesible Verde",
+      "modelZoneId": "zona-accesible-verde",
+      "ticketClass": "accessible-platform",
+      "modelReview": "src/circuits/americas/mexico-accessible-2026.json",
+      "accuracy": "approximate",
+      "reason": "Green main-straight accessible platform is physically separate from blue back-straight platform; the2026 retained ticket listing links both."
+    },
+    {
+      "productId": "sky-boxes-grada-1",
+      "mapLabel": "Sky Boxes Grada 1",
+      "modelZoneId": "sky-boxes-grada-1",
+      "ticketClass": "hospitality",
+      "modelReview": "src/circuits/americas/mexico-sky-boxes-2026.json",
+      "accuracy": "approximate",
+      "reason": "Annual2026 Box product matched to organizer upper roofed seated SkyBoxes product, modeled as explicit approximate upper subset."
+    },
+    {
+      "productId": "sky-boxes-grada-11",
+      "mapLabel": "Sky Boxes Grada 11",
+      "modelZoneId": "sky-boxes-grada-11",
+      "ticketClass": "hospitality",
+      "modelReview": "src/circuits/americas/mexico-sky-boxes-2026.json",
+      "accuracy": "approximate",
+      "reason": "Annual2026 Box product matched to organizer upper roofed seated SkyBoxes product, modeled as explicit approximate upper subset."
+    },
+    {
+      "productId": "box-oro-norte",
+      "mapLabel": "Box Oro Norte",
+      "modelZoneId": "box-oro-norte",
+      "ticketClass": "hospitality",
+      "modelReview": "src/circuits/americas/mexico-oro-boxes-2026.json",
+      "accuracy": "approximate",
+      "reason": "Organizer2026 marker/district correspondence accepted as explicit representative approximation, not exact Box seat reconstruction."
+    },
+    {
+      "productId": "box-oro-sur",
+      "mapLabel": "Box Oro Sur",
+      "modelZoneId": "box-oro-sur",
+      "ticketClass": "hospitality",
+      "modelReview": "src/circuits/americas/mexico-oro-boxes-2026.json",
+      "accuracy": "approximate",
+      "reason": "Organizer2026 marker/district correspondence accepted as explicit representative approximation, not exact Box seat reconstruction."
+    }
+  ],
+  "confirmedMissingProducts": [],
+  "generalAdmissionReview": {
+    "checkedAt": "2026-11-06",
+    "status": "not-listed-in-2026-public-sale-table",
+    "sourceUrl": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+    "ordinaryGrandstandCount": 18,
+    "accessiblePlatformCount": 2,
+    "unpublishedAbsenceProven": false,
+    "terminology": "BoletosGenerales denotes ordinary ticket products, not evidence of a grass/standing GA product. The actual2026 table lists grandstands, accessible space, upgrades and stand tours; no GA/grass category. Historical2015/2016 General references and generic reseller GrandstandsAndGA boilerplate are excluded.",
+    "scope": "Reconciles published ordinary inventory only; do not fabricate a GA polygon or assert that no late/unpublished product could ever exist.",
+    "modeledHospitalityCount": 4
+  },
+  "resolvedCoverageQuestions": [
+    {
+      "product": "Zona Accesible / Personas con discapacidad",
+      "question": "Annual table separately sells accessible admission; locate the platform and determine whether an existing stand includes its physical area before declaring it modeled.",
+      "status": "modeled-as-explicit-approximation",
+      "modelZoneId": "zona-accesible-azul",
+      "modelReview": "src/circuits/americas/mexico-accessible-2026.json",
+      "limits": "Exact platform perimeter, ramps and companion placements unverified; shared seated eye1.2m, no posture-control expansion."
+    }
+  ],
+  "annualProductRelations": {
+    "checkedAt": "2026-11-07",
+    "sourceUrl": "https://www.mexicogp.mx/mediacenter/arranca-la-venta-general-para-el-mexico-gp-2026/",
+    "publishedAt": "2025-11-11",
+    "season": 2026,
+    "tourAssignments": [
+      {
+        "product": "Grandstand Tour Gold",
+        "friday": "Box Oro Sur",
+        "saturday": "Grada 7",
+        "sunday": "Grada 4"
+      },
+      {
+        "product": "Grandstand Tour Platinum",
+        "friday": "Grada 4",
+        "saturday": "Box Oro Sur",
+        "sunday": "Grada 7"
+      },
+      {
+        "product": "Grandstand Tour Diamond",
+        "friday": "Grada 7",
+        "saturday": "Grada 4",
+        "sunday": "Box Oro Sur"
+      }
+    ],
+    "loungeSeatPackages": [
+      {
+        "product": "Grada 1 + Speed Lounge Banamex Verde",
+        "seatZoneId": "grada-1"
+      },
+      {
+        "product": "Grada 11 + Speed Lounge Banamex Amarillo",
+        "seatZoneId": "grada-11"
+      }
+    ],
+    "plusSeatPackages": [
+      {
+        "product": "Grada 3A Zona Plus Banamex",
+        "seatZoneId": "grada-3a"
+      },
+      {
+        "product": "Grada 4 Zona Plus Banamex",
+        "seatZoneId": "grada-4"
+      },
+      {
+        "product": "Grada 5 Zona Plus Banamex",
+        "seatZoneId": "grada-5"
+      },
+      {
+        "product": "Grada 6 Zona Plus Banamex",
+        "seatZoneId": "grada-6"
+      }
+    ],
+    "notAdmissionTicket": "Derecho de Primera Opcion (DPO)",
+    "remainingBoxLocations": [],
+    "interpretation": "Tours are day-specific use of named destinations, not additional physical stands. Seat+lounge/Plus packages retain their named stand association, without asserting equal sub-seat entitlement. The physical Box areas remain unlocated; do not alias them to ordinary stands or claim modeled from the package name.",
+    "modeledBoxLocations": [
+      {
+        "product": "Box Main Grandstand",
+        "modelZoneId": "sky-boxes-grada-1",
+        "sourceUrl": "https://www.mexicogp.mx/boleto/sky-box-mgs1/"
+      },
+      {
+        "product": "Box Grada 11",
+        "modelZoneId": "sky-boxes-grada-11",
+        "sourceUrl": "https://www.mexicogp.mx/boleto/corporativos-sky-boxes-11/"
+      },
+      {
+        "product": "Box Oro Norte",
+        "modelZoneId": "box-oro-norte",
+        "sourceUrl": "https://www.mexicogp.mx/boleto/boxes-oro-norte/",
+        "accuracy": "district-associated-approximation"
+      },
+      {
+        "product": "Box Oro Sur",
+        "modelZoneId": "box-oro-sur",
+        "sourceUrl": "https://www.mexicogp.mx/boleto/boxes-oro-sur/",
+        "accuracy": "district-associated-approximation"
+      }
+    ]
+  },
+  "geographicRefinements": [
+    {
+      "products": [
+        "Box Oro Norte",
+        "Box Oro Sur"
+      ],
+      "completionRequired": false,
+      "reason": "Representative source-district approximations accepted under user scope; exact Box footprint, height and seat-specific entitlement remain unverified.",
+      "modelReview": "src/circuits/americas/mexico-oro-boxes-2026.json"
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "circuitId": "silverstone",
+  "checkedAt": "2026-10-24",
+  "scope": "Abbey A/B boundary-name association and straight row fronts. Original OSM geometry is retained as B; A is a low-confidence diagram registration. No base/row rise/eye-height changes are used to clear sightlines. Not an exact seating survey. Copse D uses source west front-edge midpoint for its existing estimated first-row base; no relative base/rise/eye changes.",
+  "evidenceSources": [
+    "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+    "https://www.silverstone.co.uk/node/3218",
+    "https://www.silverstone.co.uk/sites/default/files/inline-images/Abbey%20B.jpg",
+    "https://www.embracebuildingwraps.co.uk/portfolio-items/silverstone-2025/"
+  ],
+  "registration": {
+    "sourcePdf": {
+      "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+      "publisher": "Silverstone",
+      "title": "2026_F1_GB_WayfindingMap_Positive_AWVI",
+      "sha256": "3516fbf5bdab374c4a4f53b8a975cbd9ea0714408bd11f6be3c198f05f3e336c",
+      "page": 1
+    },
+    "originalOsmWay": 227342458,
+    "originalOsmAbbeyBoundary": [
+      [
+        -1.0201195,
+        52.0715863
+      ],
+      [
+        -1.0199478,
+        52.0715005
+      ],
+      [
+        -1.021275,
+        52.0705314
+      ],
+      [
+        -1.0214606,
+        52.0706435
+      ],
+      [
+        -1.0212064,
+        52.0708222
+      ],
+      [
+        -1.0201195,
+        52.0715863
+      ]
+    ],
+    "mapAbbeyA": [
+      [
+        609.2279052734375,
+        480.7319030761719
+      ],
+      [
+        593.575927734375,
+        469.09490966796875
+      ],
+      [
+        601.1868896484375,
+        458.85791015625
+      ],
+      [
+        616.8389282226562,
+        470.4949035644531
+      ]
+    ],
+    "mapAbbeyB": [
+      [
+        591.8452758789062,
+        467.8815002441406
+      ],
+      [
+        548.0672607421875,
+        435.0484924316406
+      ],
+      [
+        555.6782836914062,
+        424.8125
+      ],
+      [
+        599.456298828125,
+        457.6445007324219
+      ]
+    ],
+    "geographicControls": [
+      [
+        -1.0214606,
+        52.0706435
+      ],
+      [
+        -1.0201195,
+        52.0715863
+      ],
+      [
+        -1.0199478,
+        52.0715005
+      ],
+      [
+        -1.021275,
+        52.0705314
+      ]
+    ],
+    "mapToMetricMatrix": [
+      [
+        -0.7637843714330899,
+        -2.0787094405765143
+      ],
+      [
+        -1.762073787245895,
+        -0.46949122366459406
+      ],
+      [
+        1184.9554107983577,
+        1344.2561043439687
+      ]
+    ],
+    "registrationRmsMetres": 0.7695592660491232,
+    "abbeyA": [
+      [
+        -1.0219820790499,
+        52.07025813701724
+      ],
+      [
+        -1.0215076967894785,
+        52.07059948969196
+      ],
+      [
+        -1.0213290329221492,
+        52.07050054254
+      ],
+      [
+        -1.0218034158638591,
+        52.07015918872557
+      ],
+      [
+        -1.0219820790499,
+        52.07025813701724
+      ]
+    ],
+    "abbeyAFrontReference": [
+      -1.021131714528947,
+      52.070132466320125
+    ],
+    "abbeyAFrontEdge": [
+      [
+        -1.0213290329221492,
+        52.07050054254
+      ],
+      [
+        -1.0218034158638591,
+        52.07015918872557
+      ]
+    ],
+    "abbeyBFrontReference": [
+      -1.0203395251322216,
+      52.070766117664235
+    ],
+    "abbeyBFrontEdge": [
+      [
+        -1.0199478,
+        52.0715005
+      ],
+      [
+        -1.021275,
+        52.0705314
+      ]
+    ]
+  },
+  "areas": [
+    {
+      "zoneId": "abbey-a",
+      "surfaceId": "abbey-a-1",
+      "seatFootprint": {
+        "boundary": [
+          [
+            -1.0219820790499,
+            52.07025813701724
+          ],
+          [
+            -1.0215076967894785,
+            52.07059948969196
+          ],
+          [
+            -1.0213290329221492,
+            52.07050054254
+          ],
+          [
+            -1.0218034158638591,
+            52.07015918872557
+          ],
+          [
+            -1.0219820790499,
+            52.07025813701724
+          ]
+        ],
+        "depthMetres": 18.4,
+        "source": {
+          "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Reconcile two separate 2026 zones instead of calling the entire OSM Abbey building Abbey A and inventing Abbey B behind it. The OSM long Abbey footprint is associated with B using the 2026 organizer map and promoter B photo; contractor 2025 first-party record reports a 156m B rear/side wrap and 55m A wrap, corroborating the large-B/small-A relation but not surveying seat dimensions. A is extracted from the labeled 2026 magenta polygon and locally affine-registered against four B/OSM corners; internal fit RMS 0.77m is not external survey accuracy. A front edge is about50m. Diagram depth remains approximate. https://www.silverstone.co.uk/news/silverstones-guide-grandstands https://www.embracebuildingwraps.co.uk/portfolio-items/silverstone-2025/"
+        }
+      },
+      "rowFrontEdge": {
+        "coordinates": [
+          [
+            -1.0213290329221492,
+            52.07050054254
+          ],
+          [
+            -1.0218034158638591,
+            52.07015918872557
+          ]
+        ],
+        "source": {
+          "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Track-facing straight edge of the retained or independently map-registered footprint. Seating rows follow this edge; no raycast-defined alignment."
+        }
+      },
+      "frontReference": [
+        -1.021131714528947,
+        52.070132466320125
+      ],
+      "openingSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-24",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Organizer guide explicitly concerns the 2026 British GP and separately names Abbey A and covered Abbey B. Does not verify precise boundaries, row counts, roof height or complete annual ticket inventory."
+      }
+    },
+    {
+      "zoneId": "abbey-b",
+      "surfaceId": "abbey-b-1",
+      "seatFootprint": {
+        "boundary": [
+          [
+            -1.0201195,
+            52.0715863
+          ],
+          [
+            -1.0199478,
+            52.0715005
+          ],
+          [
+            -1.021275,
+            52.0705314
+          ],
+          [
+            -1.0214606,
+            52.0706435
+          ],
+          [
+            -1.0212064,
+            52.0708222
+          ],
+          [
+            -1.0201195,
+            52.0715863
+          ]
+        ],
+        "depthMetres": 18.4,
+        "source": {
+          "url": "https://www.openstreetmap.org/way/227342458",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Reconcile two separate 2026 zones instead of calling the entire OSM Abbey building Abbey A and inventing Abbey B behind it. The OSM long Abbey footprint is associated with B using the 2026 organizer map and promoter B photo; contractor 2025 first-party record reports a 156m B rear/side wrap and 55m A wrap, corroborating the large-B/small-A relation but not surveying seat dimensions. Exact original OSM Abbey outline retained; label association is inferred, not an OSM A/B label. Former B manual rectangle is replaced from source evidence, never translated to optimize rays. https://www.silverstone.co.uk/news/silverstones-guide-grandstands https://www.embracebuildingwraps.co.uk/portfolio-items/silverstone-2025/"
+        }
+      },
+      "rowFrontEdge": {
+        "coordinates": [
+          [
+            -1.0199478,
+            52.0715005
+          ],
+          [
+            -1.021275,
+            52.0705314
+          ]
+        ],
+        "source": {
+          "url": "https://www.openstreetmap.org/way/227342458",
+          "checkedAt": "2026-10-24",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "Track-facing straight edge of the retained or independently map-registered footprint. Seating rows follow this edge; no raycast-defined alignment."
+        }
+      },
+      "frontReference": [
+        -1.0203395251322216,
+        52.070766117664235
+      ],
+      "openingSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-24",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Organizer guide explicitly concerns the 2026 British GP and separately names Abbey A and covered Abbey B. Does not verify precise boundaries, row counts, roof height or complete annual ticket inventory."
+      }
+    },
+    {
+      "zoneId": "copse-d",
+      "surfaceId": "copse-d-1",
+      "groundReference": {
+        "coordinate": [
+          -1.00979825,
+          52.077765549999995
+        ],
+        "source": {
+          "url": "https://www.openstreetmap.org/way/1560504713",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "原生OSM西侧赛道向长边0–1中点作为首排地面参考；中心地面不是首排基准。2.2m基座、15排及7.39m升高保留估计，不是基础测绘。EA候选为2019裸地，不证明2026地面未改。"
+        }
+      },
+      "previousSurface": {
+        "surfaceId": "copse-d-1",
+        "boundary": [
+          [
+            -1.0097725,
+            52.0779347
+          ],
+          [
+            -1.009824,
+            52.0775964
+          ],
+          [
+            -1.0096,
+            52.0775835
+          ],
+          [
+            -1.0095484,
+            52.0779218
+          ],
+          [
+            -1.0097725,
+            52.0779347
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 7.39,
+        "eyeHeight": 1.2,
+        "rows": 15,
+        "frontReference": [
+          -1.0108219845289108,
+          52.077824463192044
+        ]
+      },
+      "rowStrip": {
+        "front": [
+          [
+            -1.0097725,
+            52.0779347
+          ],
+          [
+            -1.009824,
+            52.0775964
+          ]
+        ],
+        "back": [
+          [
+            -1.0095484,
+            52.0779218
+          ],
+          [
+            -1.0096,
+            52.0775835
+          ]
+        ],
+        "source": {
+          "url": "https://www.openstreetmap.org/way/1560504713",
+          "checkedAt": "2026-10-28",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "由原生四边形0–1前沿及3–2后沿配对定义直排；不使用PCA切片把斜端点收缩为零深度。轮廓/排数/升高/眼高不变，非测绘座席图。"
+        }
+      },
+      "rowBearing": "local-normal",
+      "previousSurfaces": [
+        {
+          "surfaceId": "copse-d-1",
+          "boundary": [
+            [
+              -1.0097725,
+              52.0779347
+            ],
+            [
+              -1.009824,
+              52.0775964
+            ],
+            [
+              -1.0096,
+              52.0775835
+            ],
+            [
+              -1.0095484,
+              52.0779218
+            ],
+            [
+              -1.0097725,
+              52.0779347
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.39,
+          "eyeHeight": 1.2,
+          "rows": 15,
+          "frontReference": [
+            -1.0108219845289108,
+            52.077824463192044
+          ]
+        },
+        {
+          "surfaceId": "copse-d-1",
+          "boundary": [
+            [
+              -1.0097725,
+              52.0779347
+            ],
+            [
+              -1.009824,
+              52.0775964
+            ],
+            [
+              -1.0096,
+              52.0775835
+            ],
+            [
+              -1.0095484,
+              52.0779218
+            ],
+            [
+              -1.0097725,
+              52.0779347
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 7.39,
+          "eyeHeight": 1.2,
+          "rows": 15,
+          "frontReference": [
+            -1.0108219845289108,
+            52.077824463192044
+          ],
+          "groundReference": {
+            "coordinate": [
+              -1.00979825,
+              52.077765549999995
+            ],
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1560504713",
+              "checkedAt": "2026-10-28",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "原生OSM西侧赛道向长边0–1中点作为首排地面参考；中心地面不是首排基准。2.2m基座、15排及7.39m升高保留估计，不是基础测绘。EA候选为2019裸地，不证明2026地面未改。"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "circuitId": "mexico",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "oldZone": {
+    "zoneId": "grada-5a",
+    "name": "Grada 5A",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        -99.0837866,
+        19.4042721
+      ],
+      [
+        -99.0839206,
+        19.404283
+      ],
+      [
+        -99.0838823,
+        19.4038506
+      ],
+      [
+        -99.0837456,
+        19.4038321
+      ],
+      [
+        -99.0837866,
+        19.4042721
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "grada-5a-1",
+        "boundary": [
+          [
+            -99.0837866,
+            19.4042721
+          ],
+          [
+            -99.0839206,
+            19.404283
+          ],
+          [
+            -99.0838823,
+            19.4038506
+          ],
+          [
+            -99.0837456,
+            19.4038321
+          ],
+          [
+            -99.0837866,
+            19.4042721
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 6.68,
+        "eyeHeight": 1.2,
+        "rows": 13,
+        "frontReference": [
+          -99.08351898484511,
+          19.40409037158847
+        ]
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 6.68,
+      "depth": 14.85,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://www.openstreetmap.org/way/1191525031",
+      "checkedAt": "2026-10-23",
+      "method": "extracted",
+      "confidence": "medium",
+      "notes": "OSM看台建筑与公开场馆图匹配；way/1191525031。非座椅测绘/票务边界。"
+    },
+    "openingSource": {
+      "url": "https://www.mexicogp.mx/boletos-generales/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+    },
+    "surfaceSource": {
+      "url": "https://www.mexicogp.mx/boletos-generales/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "座席带、高度、坡度、阶梯行数和围网均为估计；不能保证真实座位的遮挡和距离。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-23",
+      "issues": [],
+      "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+    }
+  },
+  "zone": {
+    "zoneId": "grada-5a",
+    "name": "Grada 5A",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        -99.0836044,
+        19.403072
+      ],
+      [
+        -99.0839161,
+        19.4037748
+      ],
+      [
+        -99.0839206,
+        19.404283
+      ],
+      [
+        -99.0837866,
+        19.4042721
+      ],
+      [
+        -99.0834283,
+        19.403096
+      ],
+      [
+        -99.0836044,
+        19.403072
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "grada-5a-1",
+        "boundary": [
+          [
+            -99.0837866,
+            19.4042721
+          ],
+          [
+            -99.0839206,
+            19.404283
+          ],
+          [
+            -99.0838823,
+            19.4038506
+          ],
+          [
+            -99.0837456,
+            19.4038321
+          ],
+          [
+            -99.0837866,
+            19.4042721
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 6.68,
+        "eyeHeight": 1.2,
+        "rows": 13,
+        "frontReference": [
+          -99.08351898484511,
+          19.40409037158847
+        ]
+      },
+      {
+        "surfaceId": "grada-5a-south",
+        "boundary": [
+          [
+            -99.0834283,
+            19.403096
+          ],
+          [
+            -99.0837387,
+            19.4038039
+          ],
+          [
+            -99.0839161,
+            19.4037748
+          ],
+          [
+            -99.0836044,
+            19.403072
+          ],
+          [
+            -99.0834283,
+            19.403096
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 8.64,
+        "eyeHeight": 1.2,
+        "rows": 17,
+        "frontReference": [
+          -99.08309425773176,
+          19.40367072984216
+        ]
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 6.68,
+      "depth": 14.85,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://www.openstreetmap.org/way/1191525031",
+      "checkedAt": "2026-10-23",
+      "method": "extracted",
+      "confidence": "medium",
+      "notes": "5A完整北/南两个原生座席面：way1191525031与1162963329；主办方具名定位与现场照片关联。外包络仅用于区域定位，实际选点严格使用两片独立原生面，保留中间通道。非2026票界测绘。"
+    },
+    "openingSource": {
+      "url": "https://www.mexicogp.mx/boletos-generales/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+    },
+    "surfaceSource": {
+      "url": "https://www.mexicogp.mx/boletos-generales/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "北段原13排/2.2m基底/6.68m高差保持；南段原17排/2.2m基底/8.64m高差保持，均为明确估计。两段独立朝向与坐姿眼高1.2m，不填通道。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-29",
+      "issues": [],
+      "method": "Two independently associated full native surfaces; no road, mutual or neighboring footprint intersection. Separate continuous selections preserve the aisle; vertical profiles remain estimates."
+    }
+  },
+  "neighborFingerprint": "6fb4d02a86b8e069b79d9257f8027951a2762b2e602669e472cbab6d8d85f1ea",
+  "sourcesReview": "src/circuits/season-review/mexico-5a-face-review-2026.json",
+  "runtimeApplied": true,
+  "limits": [
+    "Both original physical rings retained; top-level convex envelope is not a selectable bridge across the aisle.",
+    "Row counts, base elevations, total rises and proxy fences are retained estimates, not structural measurements."
+  ]
+}

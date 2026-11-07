@@ -1,0 +1,283 @@
+{
+  "circuitId": "interlagos",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "sourceUrl": "https://atendimento.f1saopaulo.com.br/hc/pt-br/articles/11037154973851-Quais-s%C3%A3o-os-ingressos-dispon%C3%ADveis-e-quanto-custam",
+  "sourceSha256": "b5db380228a23a65be760256561d554616e97d263066efaedbdefcd72c5aa5c6",
+  "annualEvidence": {
+    "apiUrl": "https://atendimento.f1saopaulo.com.br/api/v2/help_center/pt-br/articles/11037154973851.json",
+    "actualApiUpdatedAt": "2026-10-13T16:10:40Z",
+    "method": "Article body explicitly names Formula1 MSC Cruises Grande Premio de Sao Paulo2026 and its three-day tickets; not footer or upload year."
+  },
+  "method": "Exact named product identity from promoter2026 catalogue; ordinary and premium grandstands separately classified. No geometry acceptance inferred from a ticket name. Later annual terms and current map add questions not answered by the price table.",
+  "confirmedIdentities": [
+    {
+      "zoneId": "setor-m",
+      "mapLabel": "Setor M",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "setor-b",
+      "mapLabel": "Setor B",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "pit-stop-club",
+      "mapLabel": "Pit Stop Club",
+      "ticketClass": "premium-grandstand"
+    },
+    {
+      "zoneId": "setor-a",
+      "mapLabel": "Setor A",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "setor-d",
+      "mapLabel": "Setor D",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "setor-h",
+      "mapLabel": "Setor H",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "setor-r",
+      "mapLabel": "Setor R",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "setor-g",
+      "mapLabel": "Setor G",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "porto-bank",
+      "mapLabel": "Arquibancada Porto Bank",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "heineken-estrela",
+      "mapLabel": "Heineken Village Estrela",
+      "ticketClass": "platform"
+    },
+    {
+      "zoneId": "orange-tree-club",
+      "mapLabel": "Orange Tree Club",
+      "ticketClass": "premium-grandstand"
+    },
+    {
+      "zoneId": "heineken-gramado-north",
+      "mapLabel": "Village Gramado partial",
+      "ticketClass": "grass"
+    },
+    {
+      "zoneId": "gramado-t12",
+      "mapLabel": "Village Gramado · T12 内侧",
+      "ticketClass": "grass",
+      "geographicBoundaryVerified": false,
+      "sourceReview": "src/circuits/americas/interlagos-gramado-bands-2026.json"
+    },
+    {
+      "zoneId": "gramado-t13-t14",
+      "mapLabel": "Village Gramado · T13–T14",
+      "ticketClass": "grass",
+      "geographicBoundaryVerified": false,
+      "sourceReview": "src/circuits/americas/interlagos-gramado-bands-2026.json"
+    },
+    {
+      "zoneId": "gramado-interior",
+      "mapLabel": "Heineken Village Gramado · Interior",
+      "ticketClass": "grass"
+    },
+    {
+      "zoneId": "setor-t",
+      "mapLabel": "Arquibancada T",
+      "geographicBoundaryVerified": false,
+      "ordinaryAccessVerified": false,
+      "physicalApproximationAccepted": true,
+      "notes": "Separate T marker on2026 official overview; approximate outer late-sweep seat bank, no ordinary eligibility inferred from cashless."
+    },
+    {
+      "zoneId": "grand-prix-club",
+      "mapLabel": "Grand Prix Club",
+      "ticketClass": "hospitality-standing",
+      "annualPresenceConfirmed": true,
+      "geographicBoundaryVerified": false,
+      "notes": "VIP annual product and circuit-view description verified; approximate viewing-front platform, independent of ordinary/Village/Fanzone admission."
+    },
+    {
+      "zoneId": "setor-n",
+      "mapLabel": "Setor N",
+      "ticketClass": "grandstand",
+      "annualPresenceConfirmed": true,
+      "geographicBoundaryVerified": false,
+      "physicalApproximationAccepted": true
+    },
+    {
+      "zoneId": "setor-k",
+      "mapLabel": "Setor K",
+      "ticketClass": "grandstand",
+      "annualPresenceConfirmed": true,
+      "geographicBoundaryVerified": false,
+      "physicalApproximationAccepted": true
+    }
+  ],
+  "unresolvedIdentities": [],
+  "confirmedMissingProducts": [],
+  "mapSource": {
+    "url": "https://f1saopaulo.com.br/wp-content/uploads/2026/10/Mapa-completo-v2.webp",
+    "sha256": "168ae150c6cb23387e8c9b7ad0de2c3c20d8558856dd377c18a7ad4723055e2b",
+    "observed": "Actual current official schematic inspected: separate Porto, Gramado, Estrela, Orange Tree and Arquibancada T labels; not a surveyed ground polygon. Different product locations must remain independent."
+  },
+  "supplementaryAnnualSource": {
+    "url": "https://atendimento.f1saopaulo.com.br/hc/pt-br/articles/19556943307035-Termos-e-Condi%C3%A7%C3%B5es-de-Uso-Cart%C3%B5es-de-Consumo-Cashless-2026",
+    "apiUrl": "https://atendimento.f1saopaulo.com.br/api/v2/help_center/pt-br/articles/19556943307035.json",
+    "sha256": "54701a28486f317832dd62876c394849ff1a02a0cfbc3eae46fa16e1ec54dcad",
+    "actualApiUpdatedAt": "2026-10-28T20:21:48Z",
+    "annualEvidence": "Body explicitly dates event6–8 November2026 and mentions sectors N and T with other cashless areas."
+  },
+  "additionalCoverageQuestions": [],
+  "standingAccess": {
+    "admissionConfirmed2026": true,
+    "minimumAgeYears": 18,
+    "scope": "2026 Gramado grass represented by three trackside groups plus source-associated interior; Estrela remains a separately admitted raised platform with one-way inclusion of Gramado. Limited-capacity benches not separately modeled; user grass stance stays standing.",
+    "currentDefinitionReview": "src/circuits/season-review/interlagos-gramado-access-2026.json"
+  },
+  "excludedSource": {
+    "url": "https://f1saopaulo.com.br/heinekenvillage/",
+    "reason": "Live body explicitly describes1–3 November2024, despite current2026 navigation. Its30m distance/30000m2 area/raised-platform and cross-access descriptions are not accepted as measured or annual2026 facts."
+  },
+  "inventoryComplete": false,
+  "additionalIdentitySourceReview": "src/circuits/season-review/interlagos-t-n-source-review-2026.json",
+  "modeledProducts": [
+    {
+      "productId": "porto-bank",
+      "mapLabel": "Arquibancada Porto Bank",
+      "modelZoneId": "porto-bank",
+      "ticketClass": "grandstand",
+      "reason": "Separately sold covered bank in explicit2026 promoter table, now represented by a source-associated approximate model.",
+      "accuracy": "approximate",
+      "modelReview": "src/circuits/americas/interlagos-supplement-2026.json"
+    },
+    {
+      "productId": "heineken-estrela",
+      "mapLabel": "Heineken Village Estrela",
+      "modelZoneId": "heineken-estrela",
+      "ticketClass": "platform",
+      "reason": "Separate2026 promoter product with mapped star-shaped raised platform, now modeled with estimated3m deck. Estrela includes Gramado; reverse access is not granted.",
+      "accuracy": "approximate",
+      "modelReview": "src/circuits/americas/interlagos-supplement-2026.json"
+    },
+    {
+      "productId": "orange-tree-club",
+      "mapLabel": "Orange Tree Club",
+      "modelZoneId": "orange-tree-club",
+      "ticketClass": "premium-grandstand",
+      "reason": "Published2026 premium grandstand, independently modeled and distinct from PitStopClub.",
+      "accuracy": "approximate",
+      "modelReview": "src/circuits/americas/interlagos-supplement-2026.json"
+    },
+    {
+      "productId": "heineken-gramado",
+      "mapLabel": "Heineken Village Gramado",
+      "modelZoneIds": [
+        "heineken-gramado-north",
+        "gramado-t12",
+        "gramado-t13-t14",
+        "gramado-interior"
+      ],
+      "ticketClass": "grass",
+      "representation": "approximate-source-associated-Village-ground",
+      "modelReview": "src/circuits/americas/interlagos-gramado-interior-2026.json"
+    },
+    {
+      "productId": "arquibancada-t",
+      "mapLabel": "Arquibancada T",
+      "modelZoneId": "setor-t",
+      "accuracy": "approximate",
+      "modelReview": "src/circuits/americas/interlagos-t-approx-2026.json",
+      "admissionLimitation": "Exact public-ticket eligibility and event boundary remain unverified."
+    },
+    {
+      "productId": "grand-prix-club",
+      "mapLabel": "Grand Prix Club",
+      "modelZoneIds": [
+        "grand-prix-club"
+      ],
+      "accuracy": "approximate",
+      "admission": "VIP only; no ordinary/Village/Fanzone cross-access.",
+      "modelReview": "src/circuits/americas/interlagos-grand-prix-club-2026.json"
+    },
+    {
+      "productId": "setor-n",
+      "modelZoneIds": [
+        "setor-n"
+      ],
+      "modelReview": "src/circuits/americas/interlagos-n-k-2026.json",
+      "accuracy": "approximate",
+      "reason": "2026 named tickets plus actually viewed2025 organizer wayfinding supplies explicit representative geographic association."
+    },
+    {
+      "productId": "setor-k",
+      "modelZoneIds": [
+        "setor-k"
+      ],
+      "modelReview": "src/circuits/americas/interlagos-n-k-2026.json",
+      "accuracy": "approximate",
+      "reason": "2026 named tickets plus actually viewed2025 organizer wayfinding supplies explicit representative geographic association."
+    }
+  ],
+  "practicalCoverageReview": {
+    "accepted": true,
+    "checkedAt": "2026-11-06",
+    "basis": "Official2026-updated location definition positively associates Village to BicoDePato/Mergulho/Juncao/SubidaDoCafe. New approximate innerT10–T14 domain intersected with native grass complements the three retained trackside groups; this is not whole-way admission from landuse alone.",
+    "sectors": [
+      {
+        "annualMapSector": "Village Gramado · 部分草地",
+        "modelZoneId": "heineken-gramado-north"
+      },
+      {
+        "annualMapSector": "Village Estrela",
+        "modelZoneId": "heineken-estrela"
+      },
+      {
+        "annualMapSector": "Village Gramado · T12 内侧",
+        "modelZoneId": "gramado-t12"
+      },
+      {
+        "annualMapSector": "Village Gramado · T13–T14",
+        "modelZoneId": "gramado-t13-t14"
+      },
+      {
+        "annualMapSector": "Village Gramado · 内场草地",
+        "modelZoneId": "gramado-interior"
+      },
+      {
+        "modelZoneId": "grand-prix-club",
+        "annualMapSector": "Grand Prix Club VIP viewing front, separate from Gramado/Estrela",
+        "modelReview": "src/circuits/americas/interlagos-grand-prix-club-2026.json"
+      }
+    ],
+    "limits": "Approximate source-associated Village grounds, not legal2026 perimeter. Estrela remains separately admitted and excluded from Gramado selection. Limited-capacity seats, event tents, paths/fences and exact closure line remain facility refinements; grass uses standing1.65m."
+  },
+  "excludedNonViewingProducts": [
+    {
+      "productId": "f1-fanzone",
+      "classification": "non-track-viewing-entertainment-area",
+      "sourceReview": "src/circuits/season-review/interlagos-club-fanzone-access-2026.json",
+      "runtimeViewpointAllowed": false
+    }
+  ],
+  "geographicRefinements": [
+    {
+      "products": [
+        "Setor N",
+        "Setor K"
+      ],
+      "completionRequired": false,
+      "reason": "Prior-year organizer map geography accepted as explicitly estimated2026 experience; final installation, footprint, heights and ordinary/partner allocation remain unverified.",
+      "modelReview": "src/circuits/americas/interlagos-n-k-2026.json"
+    }
+  ]
+}

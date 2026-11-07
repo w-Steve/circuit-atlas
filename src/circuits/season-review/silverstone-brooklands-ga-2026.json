@@ -1,0 +1,283 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "checkedAt": "2026-10-28",
+  "annualMap": {
+    "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+    "publisher": "Silverstone",
+    "sha256": "3516fbf5bdab374c4a4f53b8a975cbd9ea0714408bd11f6be3c198f05f3e336c",
+    "page": 1
+  },
+  "ordinaryGA": {
+    "drawingIndex": 39,
+    "sourcePathSha256": "63953dd2696b8295eb7ad47d7e0c827b1db534ec42dfef090106ca10f7130ac9",
+    "admissionCategory": "General Admission Viewing",
+    "positiveLocationVerified": true,
+    "geographicTicketBoundaryVerified": false,
+    "notes": "Relative position follows the outside peninsula between Brooklands and Luffield, not an automatic grant of every inner-curve grass polygon. Being inside/outside the GP polygon alone does not establish ticket rights."
+  },
+  "nativeSnapshot": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.0215,52.0744,-1.0145,52.0785",
+    "status": 200,
+    "sha256": "f6e149595fec2bcce6948f816d0f1f0d2fdea0baba46663850f2557564378b36",
+    "checkedAt": "2026-10-28"
+  },
+  "bankCandidate": {
+    "way": 1430385977,
+    "tags": {
+      "landuse": "grass"
+    },
+    "boundary": [
+      [
+        -1.0208069,
+        52.0752864
+      ],
+      [
+        -1.0211093,
+        52.0753716
+      ],
+      [
+        -1.0210713,
+        52.0754022
+      ],
+      [
+        -1.020777,
+        52.0757179
+      ],
+      [
+        -1.0206645,
+        52.075743
+      ],
+      [
+        -1.0205566,
+        52.0757668
+      ],
+      [
+        -1.0204502,
+        52.0757986
+      ],
+      [
+        -1.0203453,
+        52.0758411
+      ],
+      [
+        -1.0202461,
+        52.0758967
+      ],
+      [
+        -1.0201612,
+        52.0759621
+      ],
+      [
+        -1.0201037,
+        52.0760204
+      ],
+      [
+        -1.0200448,
+        52.0761123
+      ],
+      [
+        -1.0200146,
+        52.0762007
+      ],
+      [
+        -1.0199844,
+        52.0763545
+      ],
+      [
+        -1.0199542,
+        52.0765498
+      ],
+      [
+        -1.0199283,
+        52.0767106
+      ],
+      [
+        -1.0199024,
+        52.0768211
+      ],
+      [
+        -1.0198464,
+        52.0768935
+      ],
+      [
+        -1.0198305,
+        52.07689
+      ],
+      [
+        -1.0197989,
+        52.0769306
+      ],
+      [
+        -1.0197313,
+        52.0769616
+      ],
+      [
+        -1.0196566,
+        52.0769987
+      ],
+      [
+        -1.0195818,
+        52.0770172
+      ],
+      [
+        -1.019474,
+        52.0770243
+      ],
+      [
+        -1.0194495,
+        52.0770243
+      ],
+      [
+        -1.0194107,
+        52.0770402
+      ],
+      [
+        -1.0193287,
+        52.0770305
+      ],
+      [
+        -1.019241,
+        52.0770031
+      ],
+      [
+        -1.0191806,
+        52.0769748
+      ],
+      [
+        -1.0191231,
+        52.0769351
+      ],
+      [
+        -1.0187737,
+        52.0766275
+      ],
+      [
+        -1.0186238,
+        52.0764968
+      ],
+      [
+        -1.018644,
+        52.0764883
+      ],
+      [
+        -1.0186974,
+        52.0765058
+      ],
+      [
+        -1.0188048,
+        52.0766173
+      ],
+      [
+        -1.0193774,
+        52.0768065
+      ],
+      [
+        -1.0195065,
+        52.0766567
+      ],
+      [
+        -1.0195442,
+        52.0766008
+      ],
+      [
+        -1.0196508,
+        52.0761909
+      ],
+      [
+        -1.0197534,
+        52.0759737
+      ],
+      [
+        -1.0198131,
+        52.075899
+      ],
+      [
+        -1.0198248,
+        52.0758844
+      ],
+      [
+        -1.0199086,
+        52.0758064
+      ],
+      [
+        -1.0199071,
+        52.0757582
+      ],
+      [
+        -1.0208069,
+        52.0752864
+      ]
+    ],
+    "areaMetres2": 6837.384659830226,
+    "representativePointInsideGP": false,
+    "gpPolygonOverlapMetres2": 0.0,
+    "admissionNotInferredFromLanduse": true
+  },
+  "fenceConflict": {
+    "way": 804928144,
+    "sharedBankBoundaryMetres": 136.9908574224066,
+    "interiorCrossingMetres": 87.74481167091699,
+    "publicSideIdentified": false,
+    "notes": "The native fence crosses the landuse polygon. Do not enable the whole parcel or choose a side merely because it is grass."
+  },
+  "platform65": {
+    "mapNumber": 65,
+    "mapLabel": "Mainstage Accessible Viewing Platform",
+    "role": "accessibility platform, not ordinary GA ground or GA Plus",
+    "geographicBoundaryVerified": false,
+    "heightVerified": false,
+    "raceViewingRoleVerified": false,
+    "notes": "Annual F1 access terms are now independently sourced; do not classify this platform as always forbidden to GA. Native footprint, height, Sunday terms and race-viewing role remain unverified.",
+    "annualAccessEvidence": {
+      "url": "https://help.silverstone.co.uk/hc/en-gb/articles/34891537071005--Wheelchair-seating-areas",
+      "publisher": "Silverstone",
+      "articleUpdatedAt": "2026-03-25",
+      "checkedAt": "2026-10-28",
+      "season": 2026,
+      "facts": [
+        "The F1 wheelchair platforms require booking through the organizer; the article states2026 platforms are sold out.",
+        "Main Stage AVP permits General Admission holders on Friday and Saturday, subject to available space and arrival order."
+      ],
+      "ordinaryGAAccessDays": [
+        "Friday",
+        "Saturday"
+      ],
+      "sundayOrdinaryGAAccessVerified": false,
+      "geographicFootprintProvided": false,
+      "platformHeightProvided": false,
+      "mapAssociation": "Annual map names Mainstage Accessible Viewing Platform; the article names Main Stage AVP. This supports the facility/access association, not a surveyed footprint or race-viewing claim."
+    }
+  },
+  "unacceptedAlternative": {
+    "way": 606064746,
+    "tags": {
+      "leisure": "bleachers"
+    },
+    "reason": "Unnamed bleachers are not proof of platform65 identity or2026 ordinary GA admission."
+  },
+  "excludedAdmissionInferences": [
+    {
+      "way": 605869303,
+      "representativePointInsideGP": true,
+      "reason": "Different native island/road-side relation from band39. No positive association with this ordinary-GA band; GP containment alone is not proof of restricted access either."
+    },
+    {
+      "way": 605869304,
+      "representativePointInsideGP": true,
+      "reason": "Different native island/road-side relation from band39. No positive association with this ordinary-GA band; GP containment alone is not proof of restricted access either."
+    }
+  ],
+  "queryCoverageCorrection": {
+    "firstSnapshot": "research/season-review/silverstone-ga/luffield-osm-20261028.xml",
+    "expandedSnapshot": "research/season-review/silverstone-ga/brooklands-east-osm-20261028.xml",
+    "method": "Named stand labels only guided query coverage; no map-label affine was promoted to runtime geometry or claimed as survey accuracy."
+  },
+  "requiredEvidence": [
+    "Identify the spectator side/extent of fence804928144 with2026 organizer geography or independently tied site evidence.",
+    "Locate platform65 footprint and height, or demonstrate it lies outside the selectable ordinary-GA envelope."
+  ],
+  "runtimeApplied": false,
+  "sceneAccepted": false,
+  "limits": "A positive2026 GA map band and a plausible native bank have been identified; physical subdivision and accessible-platform clearance remain unresolved. No synthetic blanket grass zone is published."
+}

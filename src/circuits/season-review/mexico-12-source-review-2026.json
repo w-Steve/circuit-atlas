@@ -1,0 +1,46 @@
+{
+  "circuitId": "mexico",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "zoneId": "grada-12",
+  "runtimeApplied": false,
+  "geometryAccepted": false,
+  "annualSource": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+  "namedPage": {
+    "url": "https://www.mexicogp.mx/boleto/d_grada-12-general/",
+    "sha256": "c7d72540c24c930b6f95b10c19fcf8420c62946aecab9df889f29a2b41cc56e3",
+    "fact": "Official12 product text describes frontal back-straight and T4–T8 views; dedicated ordinary ticket price12800 matches annual2026 list. No capacity, row count or structure dimensions derived from price."
+  },
+  "locator": {
+    "url": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2016/01/09081125/12.png",
+    "sha256": "3396aae9f76ca9f19c624aebb983d23177795794a25ac2a4a750ca6c46d320a6",
+    "observed": "Actual official named locator inspected: marker points to middle portion of the Yellow-Zone west bank along T6-exit/T7 straight. Do not merge12 with11 merely because older overview omits12 label. Old upload date does not establish current exact partition."
+  },
+  "photo": {
+    "url": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2025/10/06111256/grada-12-2025-01.jpg",
+    "sha256": "d0ae786df29b1f567b1520433cb43c7ffc33260795bf0672881a611034610f2a",
+    "observed": "Official photograph actually inspected: rows in foreground/right, canopy/supports over rear portion and opposite two-level structure visible. Image does not expose the complete12 footprint or exact ordinary/VIP partition. Do not mark the whole stand uncovered or infer the entire stand covered.",
+    "captureYearIndependentlyVerified": false
+  },
+  "groundReview": {
+    "sourceReview": "src/circuits/season-review/mexico-7-source-review-2026.json",
+    "observed": "Already inspected February2025 geographic mosaic shows west-bank platforms, stored components and nearby support structures. It does not establish complete installed12 seating. February2024 metadata is likewise not event-installation evidence; not downloaded again.",
+    "excludedNativeWays": [
+      {
+        "nativeId": "999250498",
+        "reason": "Unidentified building at geographic center[-99.087630,19.399031], outside the identified middle seating partition; no named12 association."
+      },
+      {
+        "nativeIds": [
+          "1164917107",
+          "1164917108",
+          "1191967000",
+          "1191967001",
+          "1191967002"
+        ],
+        "reason": "Other support buildings around the complex; no independent12 seating association. Roof/building tag alone is not public-seat proof."
+      }
+    ]
+  },
+  "nextAction": "Obtain event-installation geography identifying the middle west-bank12 seating boundaries and distinguish adjacent11/other blocks; preserve the real canopy as an occluder once modeled. Do not reuse whole adjacent hospitality or support-building rings."
+}

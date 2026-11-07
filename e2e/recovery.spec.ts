@@ -1,11 +1,11 @@
 import { test, expect } from "@playwright/test";
 test("scene chunk failure offers a recoverable reload", async ({ page }) => {
-  await page.route(/\/assets\/World-.*\.js/, (route) => route.abort());
+  await page.route(/\/assets\/CircuitExperience-.*\.js/, (route) => route.abort());
   await page.goto("/#/circuits/shanghai/map");
   await expect(
     page.getByRole("heading", { name: "场景加载失败" }),
   ).toBeVisible();
-  await page.unroute(/\/assets\/World-.*\.js/);
+  await page.unroute(/\/assets\/CircuitExperience-.*\.js/);
   await page.getByRole("button", { name: "重新加载场景" }).click();
   await expect(page.getByRole("button", { name: "A 主看台 ↗" })).toBeVisible();
 });

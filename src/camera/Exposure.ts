@@ -1,5 +1,5 @@
 import { Object3D, PerspectiveCamera, Quaternion, Vector3 } from "three";
-import { cockpitAt, placeVehicle, type VehicleSimulation } from "../systems/VehicleSimulation";
+import type {VehicleSimulation} from "../systems/VehicleDynamics";
 
 export const shutterSpeeds = [60,125,250,500,1000,2000,4000] as const;
 export type PanMode = "fixed" | "tracking";
@@ -8,10 +8,11 @@ export interface ExposureMoment {
   rangeStart:number; rangeEnd:number;
   position:Vector3; quaternion:Quaternion;
   seconds:number; pan:PanMode;
+  cockpitAt:(distance:number)=>Vector3;placeVehicle:(vehicle:Object3D,distance:number)=>void;
 }
-export function freezeMoment(simulation:VehicleSimulation,camera:PerspectiveCamera,denominator:number,pan:PanMode):ExposureMoment {
+export function freezeMoment(simulation:VehicleSimulation,camera:PerspectiveCamera,denominator:number,pan:PanMode,path:Pick<ExposureMoment,"cockpitAt"|"placeVehicle">):ExposureMoment {
   if(!shutterSpeeds.includes(denominator as typeof shutterSpeeds[number]))throw Error('Invalid shutter speed');
-  return {distance:simulation.distance,velocity:simulation.status==='running'?simulation.speed/3.6:0,
+  return {cockpitAt:path.cockpitAt,placeVehicle:path.placeVehicle,distance:simulation.distance,velocity:simulation.status==='running'?simulation.speed/3.6:0,
     simulationSeconds:simulation.elapsedSeconds,rangeStart:simulation.rangeStart,rangeEnd:simulation.rangeEnd,
     position:camera.getWorldPosition(new Vector3()),quaternion:camera.getWorldQuaternion(new Quaternion()),seconds:1/denominator,pan};
 }
@@ -24,22 +25,22 @@ export function sampleDistance(moment:ExposureMoment,time:number){
 }
 export function exposureQuaternion(moment:ExposureMoment,time:number){
   if(moment.pan==='fixed'||moment.velocity===0)return moment.quaternion.clone();
-  const initial=cockpitAt(moment.distance).sub(moment.position).normalize();
-  const sampled=cockpitAt(sampleDistance(moment,time)).sub(moment.position).normalize();
+  const initial=moment.cockpitAt(moment.distance).sub(moment.position).normalize();
+  const sampled=moment.cockpitAt(sampleDistance(moment,time)).sub(moment.position).normalize();
   return new Quaternion().setFromUnitVectors(initial,sampled).multiply(moment.quaternion);
 }
 export function sampleCount(moment:ExposureMoment,camera:PerspectiveCamera,outputHeight:number,maxSamples:number){
   if(moment.velocity===0)return 1;
-  const first=cockpitAt(sampleDistance(moment,-moment.seconds/2)).sub(moment.position).normalize();
-  const last=cockpitAt(sampleDistance(moment,moment.seconds/2)).sub(moment.position).normalize();
+  const first=moment.cockpitAt(sampleDistance(moment,-moment.seconds/2)).sub(moment.position).normalize();
+  const last=moment.cockpitAt(sampleDistance(moment,moment.seconds/2)).sub(moment.position).normalize();
   const pixels=first.angleTo(last)*outputHeight/(2*Math.tan(camera.fov*Math.PI/360));
   return Math.max(4,Math.min(maxSamples,Math.ceil(pixels/1.5)+1));
 }
 // Each sample borrows the actual mesh; no simulation variables or scale change.
 // Restoration also occurs if rendering/readback fails.
-export function withVehicleSample<T>(vehicle:Object3D,distance:number,render:()=>T):T {
+export function withVehicleSample<T>(vehicle:Object3D,distance:number,render:()=>T,place:(vehicle:Object3D,distance:number)=>void):T {
   const position=vehicle.position.clone(),quaternion=vehicle.quaternion.clone();
-  try {placeVehicle(vehicle,distance);return render()}
+  try {place(vehicle,distance);return render()}
   finally {vehicle.position.copy(position);vehicle.quaternion.copy(quaternion);vehicle.updateMatrixWorld(true)}
 }
 export const srgbToLinear=Float32Array.from({length:256},(_,i)=>{

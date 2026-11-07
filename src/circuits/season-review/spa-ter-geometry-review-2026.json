@@ -1,0 +1,67 @@
+{
+  "circuitId": "spa",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "productId": "gold-7-ter-endurance",
+  "sourceReview": "src/circuits/season-review/spa-la-source-2026.json",
+  "nativeSnapshot": "research/season-review/spa/la-source-20261028.xml",
+  "nativeResult": "No separate grandstand/bleachers footprint identified west of Gold7; nearby tagged houses, ordinary buildings, grass and forest are not substitutes.",
+  "orthophotos": [
+    {
+      "url": "https://geoservices.wallonie.be/arcgis/services/IMAGERIE/ORTHO_2026_PRINTEMPS/MapServer/WMSServer?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=0&STYLES=&SRS=EPSG%3A4326&BBOX=5.9613%2C50.4464%2C5.9635%2C50.4475&WIDTH=1400&HEIGHT=1100&FORMAT=image%2Fpng",
+      "sha256": "07cd24d4c2147e47f2f620a90313d9ac768d620cfea77eb1ff94e5d3e89a5902",
+      "bbox": [
+        5.9613,
+        50.4464,
+        5.9635,
+        50.4475
+      ],
+      "width": 1400,
+      "height": 1100,
+      "layer": "ORTHO_2026_PRINTEMPS",
+      "checkedAt": "2026-10-29",
+      "exactLocalAcquisitionDateVerified": false,
+      "reviewedVisually": true,
+      "acceptedForTerBoundary": false,
+      "observation": "Actual imagery: Gold7 event plot unoccupied or dismantled; no complete installed Ter seating boundary recognized."
+    },
+    {
+      "url": "https://geoservices.wallonie.be/arcgis/services/IMAGERIE/ORTHO_2025_ETE/MapServer/WMSServer?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=0&STYLES=&SRS=EPSG%3A4326&BBOX=5.9613%2C50.4464%2C5.9635%2C50.4475&WIDTH=1400&HEIGHT=1100&FORMAT=image%2Fpng",
+      "sha256": "4ffebf04edd897c0514f99e84b9d53e86bfecef1f821fba57d42cd2efa84979f",
+      "bbox": [
+        5.9613,
+        50.4464,
+        5.9635,
+        50.4475
+      ],
+      "width": 1400,
+      "height": 1100,
+      "layer": "ORTHO_2025_ETE",
+      "checkedAt": "2026-10-29",
+      "exactLocalAcquisitionDateVerified": false,
+      "reviewedVisually": true,
+      "acceptedForTerBoundary": false,
+      "observation": "Uniform white response in this bbox; no usable local image coverage. Not evidence that any stand is absent."
+    },
+    {
+      "url": "https://geoservices.wallonie.be/arcgis/services/IMAGERIE/ORTHO_2024/MapServer/WMSServer?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=0&STYLES=&SRS=EPSG%3A4326&BBOX=5.9613%2C50.4464%2C5.9635%2C50.4475&WIDTH=1400&HEIGHT=1100&FORMAT=image%2Fpng",
+      "sha256": "56a6f2dc9afa28a9f593d700f1ba2330c99f39d3f0113192b3152c1d5851068e",
+      "bbox": [
+        5.9613,
+        50.4464,
+        5.9635,
+        50.4475
+      ],
+      "layer": "ORTHO_2024",
+      "checkedAt": "2026-10-29",
+      "exactLocalAcquisitionDateVerified": false,
+      "reviewedVisually": true,
+      "acceptedForTerBoundary": false,
+      "observation": "Existing covered Gold7 roof and surroundings visible; no independently recognizable complete Ter bank. Do not digitize a roof or empty ground as Ter."
+    }
+  ],
+  "acceptedBoundary": null,
+  "runtimeApplied": false,
+  "nextAction": "Recover an event-construction-period georeferenced stand layer or structural plan; do not repeat these off-event/blank crops or assign native houses/grass by proximity.",
+  "limits": "Layer year is not a verified local acquisition day. Missing installed seating in an image does not cancel a documented2026 ticket product."
+}

@@ -1,0 +1,379 @@
+{
+  "checkedAt": "2026-10-29",
+  "scope": "30 currently withheld regions across13 venues; source lookup only, no assignments or runtime activation.",
+  "liveAttempts": [
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "status": 406
+    },
+    {
+      "endpoint": "https://overpass.kumi.systems/api/interpreter",
+      "status": 429
+    }
+  ],
+  "cachedQuery": {
+    "checkedAt": "2026-10-29",
+    "mode": "retained snapshots; freshness unverified",
+    "endpoint": "https://overpass-api.de/api/interpreter",
+    "querySha256": "34c50fba945a9252fbb764d6c53a57793e2cdb3b129e69e15d335894f1ec7c2f",
+    "responseSha256": "e9706381dd8c92e0b50dd15005a7f7ad79e6bae73a72d34c87ef1f1634e5599b",
+    "osmTimestamp": null,
+    "areas": [
+      {
+        "circuitId": "austin",
+        "zoneId": "turn-4",
+        "bbox": [
+          30.131514436340343,
+          -97.63730195417745,
+          30.13672375195074,
+          -97.6315189304235
+        ]
+      },
+      {
+        "circuitId": "baku",
+        "zoneId": "khazar",
+        "bbox": [
+          40.36625761076302,
+          49.837763366309495,
+          40.37111044474277,
+          49.84422014735558
+        ]
+      },
+      {
+        "circuitId": "las-vegas",
+        "zoneId": "t-mobile-turn-8",
+        "bbox": [
+          36.11867074631931,
+          -115.16339625300414,
+          36.123927513520634,
+          -115.1568818526614
+        ]
+      },
+      {
+        "circuitId": "las-vegas",
+        "zoneId": "t-mobile-turn-9",
+        "bbox": [
+          36.11907000399986,
+          -115.16331407656547,
+          36.12388055722088,
+          -115.15726440842587
+        ]
+      },
+      {
+        "circuitId": "lusail",
+        "zoneId": "t16",
+        "bbox": [
+          25.480264722062522,
+          51.45074899280647,
+          25.485820877937478,
+          51.45661040719353
+        ]
+      },
+      {
+        "circuitId": "lusail",
+        "zoneId": "lusail-hill",
+        "bbox": [
+          25.49223618378966,
+          51.444580883456695,
+          25.497308204737188,
+          51.450173131744066
+        ]
+      },
+      {
+        "circuitId": "madrid",
+        "zoneId": "monumental-12",
+        "bbox": [
+          40.47726080562164,
+          -3.627604769163726,
+          40.482193846566666,
+          -3.619513952069591
+        ]
+      },
+      {
+        "circuitId": "madrid",
+        "zoneId": "t13t14",
+        "bbox": [
+          40.472995015679246,
+          -3.627629750144209,
+          40.47802193277857,
+          -3.620462017536874
+        ]
+      },
+      {
+        "circuitId": "madrid",
+        "zoneId": "ga-c-straight",
+        "bbox": [
+          40.462893487355,
+          -3.6269652947682216,
+          40.46985375127367,
+          -3.6189203578578732
+        ]
+      },
+      {
+        "circuitId": "miami",
+        "zoneId": "marina-north",
+        "bbox": [
+          25.954854036051472,
+          -80.24795721666361,
+          25.9596147530459,
+          -80.24252188313595
+        ]
+      },
+      {
+        "circuitId": "monaco",
+        "zoneId": "b-casino",
+        "bbox": [
+          43.73730884522517,
+          7.423748875523769,
+          43.74212830222534,
+          7.430416403745434
+        ]
+      },
+      {
+        "circuitId": "monaco",
+        "zoneId": "e-chicane",
+        "bbox": [
+          43.73259168580609,
+          7.418788893426245,
+          43.73742502464116,
+          7.425138624508607
+        ]
+      },
+      {
+        "circuitId": "monaco",
+        "zoneId": "m-piscine",
+        "bbox": [
+          43.73266647966776,
+          7.418826936079993,
+          43.7378017535964,
+          7.425556052779174
+        ]
+      },
+      {
+        "circuitId": "monaco",
+        "zoneId": "x1-quai-albert",
+        "bbox": [
+          43.72999126975313,
+          7.419239054095457,
+          43.73490240691808,
+          7.425525761644066
+        ]
+      },
+      {
+        "circuitId": "monaco",
+        "zoneId": "x2-quai-albert",
+        "bbox": [
+          43.730183131550184,
+          7.419174511343022,
+          43.73509426871514,
+          7.425461238805628
+        ]
+      },
+      {
+        "circuitId": "silverstone",
+        "zoneId": "the-loop",
+        "bbox": [
+          52.06970964132588,
+          -1.0165033197122197,
+          52.07484484663675,
+          -1.0087864890983513
+        ]
+      },
+      {
+        "circuitId": "silverstone",
+        "zoneId": "woodcote-c",
+        "bbox": [
+          52.07601363341751,
+          -1.0236513278424015,
+          52.0808477176425,
+          -1.0153489764700194
+        ]
+      },
+      {
+        "circuitId": "silverstone",
+        "zoneId": "boxpark-hangar",
+        "bbox": [
+          52.06348545816161,
+          -1.0154499337951486,
+          52.068834031597646,
+          -1.0071211626877634
+        ]
+      },
+      {
+        "circuitId": "singapore",
+        "zoneId": "turn-1",
+        "bbox": [
+          1.2917933058785065,
+          103.86156153794553,
+          1.2970909073051662,
+          103.86628691724027
+        ]
+      },
+      {
+        "circuitId": "singapore",
+        "zoneId": "connaught",
+        "bbox": [
+          1.2878462340000818,
+          103.8523201328855,
+          1.2932276287016229,
+          103.85720467154772
+        ]
+      },
+      {
+        "circuitId": "spa",
+        "zoneId": "gold-6-chicane",
+        "bbox": [
+          50.43947818440102,
+          5.962603473328452,
+          50.44438852993603,
+          5.970793756887943
+        ]
+      },
+      {
+        "circuitId": "spa",
+        "zoneId": "gold-11-chicane",
+        "bbox": [
+          50.439022828961555,
+          5.96204384461801,
+          50.4437299795185,
+          5.970083844760252
+        ]
+      },
+      {
+        "circuitId": "spa",
+        "zoneId": "silver-3-double-gauche",
+        "bbox": [
+          50.42880184598531,
+          5.96403734674736,
+          50.43400845440995,
+          5.972350357443302
+        ]
+      },
+      {
+        "circuitId": "spa",
+        "zoneId": "silver-4-bruxelles",
+        "bbox": [
+          50.42623666889096,
+          5.969374890589387,
+          50.43136342668936,
+          5.977423048473961
+        ]
+      },
+      {
+        "circuitId": "spielberg",
+        "zoneId": "t3",
+        "bbox": [
+          47.224323648796776,
+          14.749630582796755,
+          47.22919701882809,
+          14.75785815792459
+        ]
+      },
+      {
+        "circuitId": "suzuka",
+        "zoneId": "west-j",
+        "bbox": [
+          34.84265323178227,
+          136.5252868709382,
+          34.84743935189915,
+          136.53158183577406
+        ]
+      },
+      {
+        "circuitId": "zandvoort",
+        "zoneId": "ben-pon",
+        "bbox": [
+          52.38503434135431,
+          4.536133051218196,
+          52.39066819154707,
+          4.544307320648914
+        ]
+      },
+      {
+        "circuitId": "zandvoort",
+        "zoneId": "arena-gold-silver",
+        "bbox": [
+          52.384006543981585,
+          4.537513184509138,
+          52.38919740634562,
+          4.545780628810169
+        ]
+      },
+      {
+        "circuitId": "zandvoort",
+        "zoneId": "arena-gold-silver-nord",
+        "bbox": [
+          52.38517651039108,
+          4.538263520245151,
+          52.39005533256439,
+          4.5466149145592905
+        ]
+      },
+      {
+        "circuitId": "zandvoort",
+        "zoneId": "arena-in",
+        "bbox": [
+          52.38508881615884,
+          4.540114463023705,
+          52.38997947697943,
+          4.548996846068707
+        ]
+      }
+    ],
+    "objectCount": 1,
+    "runtimeApplied": false,
+    "scope": "250m vicinity of30 withheld records. Native presence does not establish2026 admission, name association, seating elevations or public access."
+  },
+  "candidates": [
+    {
+      "type": "way",
+      "id": 1228485529,
+      "bounds": {
+        "minlat": 47.2269532,
+        "minlon": 14.7535559,
+        "maxlat": 47.2274972,
+        "maxlon": 14.7547934
+      },
+      "geometry": [
+        {
+          "lat": 47.2274155,
+          "lon": 14.7535559
+        },
+        {
+          "lat": 47.2269532,
+          "lon": 14.7536261
+        },
+        {
+          "lat": 47.2270349,
+          "lon": 14.7547934
+        },
+        {
+          "lat": 47.2274972,
+          "lon": 14.7547232
+        },
+        {
+          "lat": 47.2274155,
+          "lon": 14.7535559
+        }
+      ],
+      "tags": {
+        "building": "grandstand",
+        "name": "Tribüne 13"
+      },
+      "retainedSourceFile": "src/circuits/europe/osm/spielberg-osm.json",
+      "retainedSourceSha256": "1f3124eaa132a4daa94731b091fb86e8375a12e97a6b1bef047eaba6be02e1b0",
+      "nearbyReviewAreas": [
+        {
+          "circuitId": "spielberg",
+          "zoneId": "t3"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Retained snapshots are not freshly downloaded2026 field surveys.",
+    "Nearby named Tribune13 is not automatically the2026 T3 ticket area.",
+    "Query failure does not prove absent structures."
+  ],
+  "nextAction": "Independently associate the named Spielberg candidate with the promoter map before replacing the legacy T3 rectangle. Use bounded primary native API queries for other unresolved regions instead of repeating blocked Overpass requests."
+}

@@ -1,0 +1,547 @@
+{
+  "circuitId": "austin",
+  "season": 2026,
+  "checkedAt": "2026-11-07",
+  "source": {
+    "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+    "checkedAt": "2026-11-07",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "2026 promoter confirms Trackside end sections, central Lower, Mezzanine above Lower and Club. Retained OSM outer footprint. Section-count longitudinal ratios, tier depths, floor heights, rows and roof dimensions are author estimates, not measured seat boundaries. Permanent upper decks do not form solid walls down through lower seats."
+  },
+  "sourceMapUrl": "https://help.thecircuit.com/hc/article_attachments/45478005187604",
+  "sourceMapSha256": "8ef948d928492b0c2a1ff83bf187f0a3975ac1f16e722c6fc7304bf7243fe479",
+  "beforeZones": [
+    {
+      "zoneId": "main",
+      "name": "Main",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          -97.6424515,
+          30.1334388
+        ],
+        [
+          -97.6399132,
+          30.1316997
+        ],
+        [
+          -97.6400121,
+          30.1315934
+        ],
+        [
+          -97.6425414,
+          30.1333403
+        ],
+        [
+          -97.642488,
+          30.1333988
+        ],
+        [
+          -97.6424515,
+          30.1334388
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "main-1",
+          "boundary": [
+            [
+              -97.6424515,
+              30.1334388
+            ],
+            [
+              -97.6399132,
+              30.1316997
+            ],
+            [
+              -97.6400121,
+              30.1315934
+            ],
+            [
+              -97.6425414,
+              30.1333403
+            ],
+            [
+              -97.642488,
+              30.1333988
+            ],
+            [
+              -97.6424515,
+              30.1334388
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.83,
+          "eyeHeight": 1.2,
+          "rows": 14,
+          "frontReference": [
+            -97.64130962295854,
+            30.13288027567984
+          ]
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 6.83,
+        "depth": 15.19,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.openstreetmap.org/way/460658889",
+        "checkedAt": "2026-10-23",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM看台建筑与公开场馆图匹配；way/460658889。非座椅测绘/票务边界。"
+      },
+      "openingSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+      },
+      "surfaceSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "座席带、高度、坡度、阶梯行数和围网均为估计；不能保证真实座位的遮挡和距离。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    }
+  ],
+  "zones": [
+    {
+      "zoneId": "main",
+      "name": "Main",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": false,
+      "boundary": [
+        [
+          -97.6424515,
+          30.1334388
+        ],
+        [
+          -97.6399132,
+          30.1316997
+        ],
+        [
+          -97.6400121,
+          30.1315934
+        ],
+        [
+          -97.6425414,
+          30.1333403
+        ],
+        [
+          -97.642488,
+          30.1333988
+        ],
+        [
+          -97.6424515,
+          30.1334388
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "main-lower",
+          "tier": "lower",
+          "boundary": [
+            [
+              -97.64212041739131,
+              30.133211960869566
+            ],
+            [
+              -97.64217846500613,
+              30.133149024920833
+            ],
+            [
+              -97.64063754084127,
+              30.13208596667318
+            ],
+            [
+              -97.64057536521739,
+              30.13215337826087
+            ],
+            [
+              -97.64212041739131,
+              30.133211960869566
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.83,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -97.64130962295854,
+            30.13288027567984
+          ],
+          "groundReference": {
+            "coordinate": [
+              -97.64148124,
+              30.1326942
+            ],
+            "source": {
+              "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter confirms Trackside end sections, central Lower, Mezzanine above Lower and Club. Retained OSM outer footprint. Section-count longitudinal ratios, tier depths, floor heights, rows and roof dimensions are author estimates, not measured seat boundaries. Permanent upper decks do not form solid walls down through lower seats."
+            }
+          }
+        },
+        {
+          "surfaceId": "main-mezzanine",
+          "tier": "upper",
+          "boundary": [
+            [
+              -97.6421637085206,
+              30.13316502408668
+            ],
+            [
+              -97.64219322149165,
+              30.133133025754987
+            ],
+            [
+              -97.64065229732678,
+              30.132069967507338
+            ],
+            [
+              -97.64062278435574,
+              30.132101965839027
+            ],
+            [
+              -97.6421637085206,
+              30.13316502408668
+            ]
+          ],
+          "baseHeight": 10.2,
+          "rise": 1.2,
+          "rows": 4,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -97.64130962295854,
+            30.13288027567984
+          ],
+          "groundReference": {
+            "coordinate": [
+              -97.64148124,
+              30.1326942
+            ],
+            "source": {
+              "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter confirms Trackside end sections, central Lower, Mezzanine above Lower and Club. Retained OSM outer footprint. Section-count longitudinal ratios, tier depths, floor heights, rows and roof dimensions are author estimates, not measured seat boundaries. Permanent upper decks do not form solid walls down through lower seats."
+            }
+          },
+          "canopy": {
+            "rearClearanceMetres": 3.0,
+            "crownMetres": 0.12,
+            "postWidthMetres": 0.12,
+            "supportU": [
+              0.025,
+              0.975
+            ],
+            "supportEdges": [],
+            "source": {
+              "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter confirms Trackside end sections, central Lower, Mezzanine above Lower and Club. Retained OSM outer footprint. Section-count longitudinal ratios, tier depths, floor heights, rows and roof dimensions are author estimates, not measured seat boundaries. Permanent upper decks do not form solid walls down through lower seats."
+            }
+          }
+        },
+        {
+          "surfaceId": "main-club",
+          "tier": "platinum",
+          "boundary": [
+            [
+              -97.64067168196381,
+              30.132048950441852
+            ],
+            [
+              -97.64062278435574,
+              30.132101965839027
+            ],
+            [
+              -97.6421637085206,
+              30.13316502408668
+            ],
+            [
+              -97.64221192734432,
+              30.133112744635984
+            ],
+            [
+              -97.64067168196381,
+              30.132048950441852
+            ]
+          ],
+          "baseHeight": 15,
+          "rise": 4.5,
+          "rows": 10,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -97.64130962295854,
+            30.13288027567984
+          ],
+          "groundReference": {
+            "coordinate": [
+              -97.64148124,
+              30.1326942
+            ],
+            "source": {
+              "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter confirms Trackside end sections, central Lower, Mezzanine above Lower and Club. Retained OSM outer footprint. Section-count longitudinal ratios, tier depths, floor heights, rows and roof dimensions are author estimates, not measured seat boundaries. Permanent upper decks do not form solid walls down through lower seats."
+            }
+          },
+          "canopy": {
+            "rearClearanceMetres": 3.0,
+            "crownMetres": 0.12,
+            "postWidthMetres": 0.12,
+            "supportU": [
+              0.025,
+              0.975
+            ],
+            "supportEdges": [],
+            "source": {
+              "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter confirms Trackside end sections, central Lower, Mezzanine above Lower and Club. Retained OSM outer footprint. Section-count longitudinal ratios, tier depths, floor heights, rows and roof dimensions are author estimates, not measured seat boundaries. Permanent upper decks do not form solid walls down through lower seats."
+            }
+          }
+        },
+        {
+          "surfaceId": "main-trackside-t20",
+          "tier": "trackside-t20",
+          "boundary": [
+            [
+              -97.6424515,
+              30.1334388
+            ],
+            [
+              -97.642488,
+              30.1333988
+            ],
+            [
+              -97.6425414,
+              30.1333403
+            ],
+            [
+              -97.64221192734432,
+              30.133112744635984
+            ],
+            [
+              -97.64212041739131,
+              30.133211960869566
+            ],
+            [
+              -97.6424515,
+              30.1334388
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.83,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -97.64130962295854,
+            30.13288027567984
+          ],
+          "groundReference": {
+            "coordinate": [
+              -97.64148124,
+              30.1326942
+            ],
+            "source": {
+              "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter confirms Trackside end sections, central Lower, Mezzanine above Lower and Club. Retained OSM outer footprint. Section-count longitudinal ratios, tier depths, floor heights, rows and roof dimensions are author estimates, not measured seat boundaries. Permanent upper decks do not form solid walls down through lower seats."
+            }
+          }
+        },
+        {
+          "surfaceId": "main-trackside-t1",
+          "tier": "trackside-t1",
+          "boundary": [
+            [
+              -97.64057536521739,
+              30.13215337826087
+            ],
+            [
+              -97.64067168196381,
+              30.132048950441852
+            ],
+            [
+              -97.6400121,
+              30.1315934
+            ],
+            [
+              -97.6399132,
+              30.1316997
+            ],
+            [
+              -97.64057536521739,
+              30.13215337826087
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 6.83,
+          "rows": 14,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            -97.64130962295854,
+            30.13288027567984
+          ],
+          "groundReference": {
+            "coordinate": [
+              -97.64148124,
+              30.1326942
+            ],
+            "source": {
+              "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter confirms Trackside end sections, central Lower, Mezzanine above Lower and Club. Retained OSM outer footprint. Section-count longitudinal ratios, tier depths, floor heights, rows and roof dimensions are author estimates, not measured seat boundaries. Permanent upper decks do not form solid walls down through lower seats."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 6.83,
+        "depth": 15.19,
+        "eyeHeight": 1.2
+      },
+      "source": {
+        "url": "https://www.openstreetmap.org/way/460658889",
+        "checkedAt": "2026-10-23",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "OSM看台建筑与公开场馆图匹配；way/460658889。非座椅测绘/票务边界。"
+      },
+      "openingSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026公开票区名称核对，不表示实时售票/余票；分面后缀为模型方位，不是座位分区。"
+      },
+      "surfaceSource": {
+        "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter confirms Trackside end sections, central Lower, Mezzanine above Lower and Club. Retained OSM outer footprint. Section-count longitudinal ratios, tier depths, floor heights, rows and roof dimensions are author estimates, not measured seat boundaries. Permanent upper decks do not form solid walls down through lower seats."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      },
+      "admissionNote": "分层按票入座；高度与座席范围为近似。"
+    }
+  ],
+  "regions": [
+    {
+      "zoneId": "main",
+      "tier": "lower",
+      "label": "Lower 下层",
+      "selectionLabel": "Lower 下层",
+      "surfaceId": "main-lower",
+      "uRange": [
+        0,
+        1
+      ],
+      "vRange": [
+        0,
+        1
+      ]
+    },
+    {
+      "zoneId": "main",
+      "tier": "upper",
+      "label": "Mezzanine 中层",
+      "selectionLabel": "Mezzanine 中层",
+      "surfaceId": "main-mezzanine",
+      "uRange": [
+        0,
+        1
+      ],
+      "vRange": [
+        0,
+        1
+      ]
+    },
+    {
+      "zoneId": "main",
+      "tier": "platinum",
+      "label": "Club 上层",
+      "selectionLabel": "Club 上层",
+      "surfaceId": "main-club",
+      "uRange": [
+        0,
+        1
+      ],
+      "vRange": [
+        0,
+        1
+      ]
+    },
+    {
+      "zoneId": "main",
+      "tier": "trackside-t20",
+      "label": "Trackside · T20 端",
+      "selectionLabel": "Trackside · T20 端",
+      "surfaceId": "main-trackside-t20",
+      "uRange": [
+        0,
+        1
+      ],
+      "vRange": [
+        0,
+        1
+      ]
+    },
+    {
+      "zoneId": "main",
+      "tier": "trackside-t1",
+      "label": "Trackside · T1 端",
+      "selectionLabel": "Trackside · T1 端",
+      "surfaceId": "main-trackside-t1",
+      "uRange": [
+        0,
+        1
+      ],
+      "vRange": [
+        0,
+        1
+      ]
+    }
+  ],
+  "limitations": [
+    "Four promoter products represented by five selectable surfaces: two Trackside ends and three central tiers.",
+    "Upper decks intentionally overlap lower seating in plan at different heights; no invented admission across ticket levels.",
+    "Ratios use 3/14/6 section-count proxy, not measured section width or verified individual section order.",
+    "Actual ADA allocation, aisles, building facade and structural posts remain approximate/unmodeled."
+  ],
+  "estimatedGeometry": true
+}

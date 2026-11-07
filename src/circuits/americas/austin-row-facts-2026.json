@@ -1,0 +1,169 @@
+{
+  "circuitId": "austin",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "source": {
+    "url": "https://help.thecircuit.com/hc/en-us/articles/40009157954324-Grandstand-Seating",
+    "checkedAt": "2026-10-29",
+    "method": "published",
+    "confidence": "high",
+    "notes": "Promoter article explicitly addresses2026 United States Grand Prix, updated2026-10-07. Published maximum numbered rows; not a measured riser or proof of every block having the same extent."
+  },
+  "sourceSha256": "d8bc29b2af3ca4ce4e6bc1008dde729a865e9c17c18898f1467a28162d47d782",
+  "articleUpdatedAt": "2026-10-07",
+  "areas": [
+    {
+      "zoneId": "turn-1",
+      "surfaceId": "turn-1-1",
+      "oldRows": 24,
+      "rows": 30,
+      "oldRiserMetres": null,
+      "oldRowCountSource": null,
+      "physicalFingerprint": "be431d688a15d6847ac85b3a6d989a52c44f40de0189bc731c55b8b992c7aab1",
+      "retainedRiseMetres": 11.81,
+      "retainedBaseHeightMetres": 2.2,
+      "rowRiserMetres": 0.4072413793103448
+    },
+    {
+      "zoneId": "turn-15-north",
+      "surfaceId": "turn-15-north-1",
+      "oldRows": 25,
+      "rows": 35,
+      "oldRiserMetres": null,
+      "oldRowCountSource": null,
+      "physicalFingerprint": "25411b31f6690ee0b48951adda1058e790818ccd223df5a5cc5d332bf864eca4",
+      "retainedRiseMetres": 12.38,
+      "retainedBaseHeightMetres": 2.2,
+      "rowRiserMetres": 0.36411764705882355
+    },
+    {
+      "zoneId": "turn-15-south",
+      "surfaceId": "turn-15-south-1",
+      "oldRows": 28,
+      "rows": 35,
+      "oldRiserMetres": null,
+      "oldRowCountSource": null,
+      "physicalFingerprint": "0e7443aae853deebd325c5c323bfcef687fa79cb7a48de68e115a4a10521e81f",
+      "retainedRiseMetres": 13.81,
+      "retainedBaseHeightMetres": 2.2,
+      "rowRiserMetres": 0.4061764705882353
+    },
+    {
+      "zoneId": "turn-19",
+      "surfaceId": "turn-19-1",
+      "oldRows": 23,
+      "rows": 21,
+      "oldRiserMetres": null,
+      "oldRowCountSource": null,
+      "physicalFingerprint": "c4a47cca9270f3e02e52f5f6769cc3b40dd4e1fd4075576fd9c9f5adab33576f",
+      "retainedRiseMetres": 11.48,
+      "retainedBaseHeightMetres": 2.2,
+      "rowRiserMetres": 0.5740000000000001
+    },
+    {
+      "zoneId": "turn-4",
+      "surfaceId": "turn-4-1",
+      "oldRows": 22,
+      "rows": 21,
+      "oldRiserMetres": null,
+      "oldRowCountSource": null,
+      "physicalFingerprint": "8f007a27d0907c760ff82f00f810ff2d924cf3a958cb0881f11fc44bfff5e386",
+      "retainedRiseMetres": 10.96,
+      "retainedBaseHeightMetres": 2.2,
+      "rowRiserMetres": 0.548
+    },
+    {
+      "zoneId": "turn-9",
+      "surfaceId": "turn-9-1",
+      "oldRows": 29,
+      "rows": 35,
+      "oldRiserMetres": null,
+      "oldRowCountSource": null,
+      "physicalFingerprint": "d7eb7d17f8ff84d57e9ba9d506662ac1f3b94af79165bab4d8ed745b7af3fea5",
+      "retainedRiseMetres": 14.49,
+      "retainedBaseHeightMetres": 2.2,
+      "rowRiserMetres": 0.4261764705882353
+    }
+  ],
+  "publishedCoverage": {
+    "turn-4": {
+      "coveredRows": [
+        12,
+        21
+      ]
+    },
+    "turn-19": {
+      "coveredRows": [
+        15,
+        21
+      ]
+    }
+  },
+  "unresolvedProfiles": [],
+  "limitations": "Updates numbered step counts only, retaining all physical footprints, base heights and total rises. Riser heights remain estimated from retained total rise divided by row intervals. Published upper-row canopy coverage is recorded but no roof boundary, height or support arrangement is invented. Existing withheld Turn4 remains withheld.",
+  "accessibilityPlatforms": [
+    {
+      "zoneId": "turn-15",
+      "sections": "8–25",
+      "row": 36,
+      "modelZoneId": "turn-15-ada",
+      "modelStatus": "approximate-available",
+      "review": "src/circuits/americas/austin-t15-ada-2026.json"
+    },
+    {
+      "zoneId": "turn-9",
+      "location": "Below row1",
+      "modelZoneId": "turn-9-ada",
+      "modelStatus": "approximate-available",
+      "review": "src/circuits/americas/austin-front-ada-2026.json"
+    },
+    {
+      "zoneId": "turn-12",
+      "location": "Below row1",
+      "modelZoneId": "turn-12-ada",
+      "modelStatus": "approximate-available",
+      "review": "src/circuits/americas/austin-front-ada-2026.json"
+    }
+  ],
+  "validation": {
+    "unitTests": 471,
+    "seatedSurfaceSamples": 605,
+    "deviceFlows": 6,
+    "replayAssertions": 7,
+    "buildPassed": true,
+    "runtimeHeightAndBoundsRetained": true,
+    "screenshotsReviewed": [
+      "Desktop Turn1 seated",
+      "Mobile Turn19 seated"
+    ],
+    "limits": "Device viewport emulation in local Edge; no physical-device/Safari certification. Counts do not resolve missing tiers, ADA geometry or canopy structure."
+  },
+  "modeledProfiles": [
+    {
+      "zoneId": "main",
+      "status": "approximate-available",
+      "products": [
+        "Trackside",
+        "Lower",
+        "Mezzanine",
+        "Club"
+      ],
+      "modelReview": "src/circuits/americas/austin-main-tiers-2026.json",
+      "actualFloorHeightsVerified": false,
+      "preciseSeatingBoundariesVerified": false,
+      "remaining": "ADA allocations, actual risers, aisles, building and precise structural geometry remain refinements."
+    },
+    {
+      "zoneId": "turn-15-ada",
+      "status": "approximate-available",
+      "modelReview": "src/circuits/americas/austin-t15-ada-2026.json",
+      "remaining": "Actual36th-row end extents, ramps and railings not surveyed."
+    },
+    {
+      "zoneId": "turn-12",
+      "status": "approximate-available",
+      "modelReview": "src/circuits/americas/austin-club-si-2026.json",
+      "remaining": "Main37-row approximation retained. Western18-step strip identified asClubSI, separately modeled; fullClubSI building/tiers remain scene refinements."
+    }
+  ]
+}

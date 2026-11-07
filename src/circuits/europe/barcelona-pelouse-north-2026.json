@@ -1,0 +1,510 @@
+{
+  "circuitId": "barcelona",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "pelouse-back-straight",
+      "name": "Pelouse · T9–T10",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          2.2576365,
+          41.5722228
+        ],
+        [
+          2.2577357,
+          41.5722814
+        ],
+        [
+          2.2579725,
+          41.5723437
+        ],
+        [
+          2.2581917,
+          41.5723628
+        ],
+        [
+          2.2582877,
+          41.5723485
+        ],
+        [
+          2.2583981,
+          41.5723102
+        ],
+        [
+          2.2585452,
+          41.5722348
+        ],
+        [
+          2.2587116,
+          41.5721378
+        ],
+        [
+          2.258886,
+          41.5721163
+        ],
+        [
+          2.2591212,
+          41.5721175
+        ],
+        [
+          2.2595324,
+          41.5721761
+        ],
+        [
+          2.2598907,
+          41.5722611
+        ],
+        [
+          2.2601515,
+          41.5723533
+        ],
+        [
+          2.260152991967653,
+          41.572347203016804
+        ],
+        [
+          2.260166597393719,
+          41.57226622744873
+        ],
+        [
+          2.2598955,
+          41.5721677
+        ],
+        [
+          2.2594236,
+          41.572054
+        ],
+        [
+          2.2589804,
+          41.5719738
+        ],
+        [
+          2.2587788,
+          41.5719511
+        ],
+        [
+          2.2581837,
+          41.5720145
+        ],
+        [
+          2.2580093,
+          41.5720397
+        ],
+        [
+          2.2578493,
+          41.5720074
+        ],
+        [
+          2.2577901,
+          41.5719487
+        ],
+        [
+          2.2577309,
+          41.5718709
+        ],
+        [
+          2.2576109,
+          41.5717644
+        ],
+        [
+          2.2574221,
+          41.5716938
+        ],
+        [
+          2.2573197517131143,
+          41.571917063778635
+        ],
+        [
+          2.257315641544851,
+          41.57194152631354
+        ],
+        [
+          2.2575725,
+          41.5721127
+        ],
+        [
+          2.2576365,
+          41.5722228
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 20,
+        "eyeHeight": 1.65
+      },
+      "surfaces": [
+        {
+          "surfaceId": "pelouse-back-straight-1",
+          "boundary": [
+            [
+              2.2576365,
+              41.5722228
+            ],
+            [
+              2.2577357,
+              41.5722814
+            ],
+            [
+              2.2579725,
+              41.5723437
+            ],
+            [
+              2.2581917,
+              41.5723628
+            ],
+            [
+              2.2582877,
+              41.5723485
+            ],
+            [
+              2.2583981,
+              41.5723102
+            ],
+            [
+              2.2585452,
+              41.5722348
+            ],
+            [
+              2.2587116,
+              41.5721378
+            ],
+            [
+              2.258886,
+              41.5721163
+            ],
+            [
+              2.2591212,
+              41.5721175
+            ],
+            [
+              2.2595324,
+              41.5721761
+            ],
+            [
+              2.2598907,
+              41.5722611
+            ],
+            [
+              2.2601515,
+              41.5723533
+            ],
+            [
+              2.260152991967653,
+              41.572347203016804
+            ],
+            [
+              2.260166597393719,
+              41.57226622744873
+            ],
+            [
+              2.2598955,
+              41.5721677
+            ],
+            [
+              2.2594236,
+              41.572054
+            ],
+            [
+              2.2589804,
+              41.5719738
+            ],
+            [
+              2.2587788,
+              41.5719511
+            ],
+            [
+              2.2581837,
+              41.5720145
+            ],
+            [
+              2.2580093,
+              41.5720397
+            ],
+            [
+              2.2578493,
+              41.5720074
+            ],
+            [
+              2.2577901,
+              41.5719487
+            ],
+            [
+              2.2577309,
+              41.5718709
+            ],
+            [
+              2.2576109,
+              41.5717644
+            ],
+            [
+              2.2574221,
+              41.5716938
+            ],
+            [
+              2.2573197517131143,
+              41.571917063778635
+            ],
+            [
+              2.257315641544851,
+              41.57194152631354
+            ],
+            [
+              2.2575725,
+              41.5721127
+            ],
+            [
+              2.2576365,
+              41.5722228
+            ]
+          ],
+          "rowDirection": [
+            -0.9921918480950573,
+            0.12472103500899352
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4
+        }
+      ],
+      "source": {
+        "url": "https://www.openstreetmap.org/way/1427286511",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Native named Pelouse parcel interpreted as approximate public ground; exclude registered seats/AlonsoLand/other ground/buildings/pits and16m road band. Promoter defines common Pelouse separately fromT1/T2 Privilege. Exact2026 ticket enclosure unverified; source terrain standing1.65m."
+      },
+      "surfaceSource": {
+        "url": "https://www.openstreetmap.org/way/1427286511",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Native named Pelouse parcel interpreted as approximate public ground; exclude registered seats/AlonsoLand/other ground/buildings/pits and16m road band. Promoter defines common Pelouse separately fromT1/T2 Privilege. Exact2026 ticket enclosure unverified; source terrain standing1.65m."
+      },
+      "openingSource": {
+        "url": "https://www.circuitcat.com/en/membership-modalities/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Promoter2026 membership defines common Pelouse shared with public; Privilege excluded. Physical extent remains estimated."
+      },
+      "description": "原生Pelouse地块的近似观赛地面，地形及围网可能遮挡。",
+      "admissionNote": "普通Pelouse近似范围，年度现场围界尚未测绘；不含相邻N看台或专属Alonso Land。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Independent named grass parcel minus registered reserved areas/facilities and actual road band."
+      }
+    },
+    {
+      "zoneId": "pelouse-north-n",
+      "name": "Pelouse · N 北侧",
+      "kind": "general-admission",
+      "availability": "available",
+      "boundary": [
+        [
+          2.2564654,
+          41.5712677
+        ],
+        [
+          2.2565198,
+          41.5713191
+        ],
+        [
+          2.2565406,
+          41.5713802
+        ],
+        [
+          2.2565342,
+          41.5714508
+        ],
+        [
+          2.2564782,
+          41.5716052
+        ],
+        [
+          2.256574447782758,
+          41.571629170801955
+        ],
+        [
+          2.2565873016785205,
+          41.5716258387385
+        ],
+        [
+          2.2566926,
+          41.5714556
+        ],
+        [
+          2.2566937,
+          41.5714522
+        ],
+        [
+          2.2567118,
+          41.5713981
+        ],
+        [
+          2.256707,
+          41.5713251
+        ],
+        [
+          2.2566862,
+          41.5712521
+        ],
+        [
+          2.2565982,
+          41.5711576
+        ],
+        [
+          2.256386992589293,
+          41.571055296410435
+        ],
+        [
+          2.2563763943845387,
+          41.57105804374023
+        ],
+        [
+          2.256291,
+          41.5711767
+        ],
+        [
+          2.2564046,
+          41.5712342
+        ],
+        [
+          2.2564654,
+          41.5712677
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "depth": 20,
+        "eyeHeight": 1.65
+      },
+      "surfaces": [
+        {
+          "surfaceId": "pelouse-north-n-1",
+          "boundary": [
+            [
+              2.2564654,
+              41.5712677
+            ],
+            [
+              2.2565198,
+              41.5713191
+            ],
+            [
+              2.2565406,
+              41.5713802
+            ],
+            [
+              2.2565342,
+              41.5714508
+            ],
+            [
+              2.2564782,
+              41.5716052
+            ],
+            [
+              2.256574447782758,
+              41.571629170801955
+            ],
+            [
+              2.2565873016785205,
+              41.5716258387385
+            ],
+            [
+              2.2566926,
+              41.5714556
+            ],
+            [
+              2.2566937,
+              41.5714522
+            ],
+            [
+              2.2567118,
+              41.5713981
+            ],
+            [
+              2.256707,
+              41.5713251
+            ],
+            [
+              2.2566862,
+              41.5712521
+            ],
+            [
+              2.2565982,
+              41.5711576
+            ],
+            [
+              2.256386992589293,
+              41.571055296410435
+            ],
+            [
+              2.2563763943845387,
+              41.57105804374023
+            ],
+            [
+              2.256291,
+              41.5711767
+            ],
+            [
+              2.2564046,
+              41.5712342
+            ],
+            [
+              2.2564654,
+              41.5712677
+            ]
+          ],
+          "rowDirection": [
+            0.3273954534887782,
+            -0.9448874097133887
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4
+        }
+      ],
+      "source": {
+        "url": "https://www.openstreetmap.org/way/1427286512",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Native named Pelouse parcel interpreted as approximate public ground; exclude registered seats/AlonsoLand/other ground/buildings/pits and16m road band. Promoter defines common Pelouse separately fromT1/T2 Privilege. Exact2026 ticket enclosure unverified; source terrain standing1.65m."
+      },
+      "surfaceSource": {
+        "url": "https://www.openstreetmap.org/way/1427286512",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Native named Pelouse parcel interpreted as approximate public ground; exclude registered seats/AlonsoLand/other ground/buildings/pits and16m road band. Promoter defines common Pelouse separately fromT1/T2 Privilege. Exact2026 ticket enclosure unverified; source terrain standing1.65m."
+      },
+      "openingSource": {
+        "url": "https://www.circuitcat.com/en/membership-modalities/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Promoter2026 membership defines common Pelouse shared with public; Privilege excluded. Physical extent remains estimated."
+      },
+      "description": "原生Pelouse地块的近似观赛地面，地形及围网可能遮挡。",
+      "admissionNote": "普通Pelouse近似范围，年度现场围界尚未测绘；不含相邻N看台或专属Alonso Land。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Independent named grass parcel minus registered reserved areas/facilities and actual road band."
+      }
+    }
+  ],
+  "beforeZones": [],
+  "scope": "Remaining physical named Pelouse parcels interpreted as approximate common viewing ground; precise annual access enclosure unverified."
+}

@@ -1,0 +1,110 @@
+{
+  "circuitId": "monaco",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "withdrawn": [
+    {
+      "zoneId": "m-piscine",
+      "reason": "No positive2026 independent product identity; withheld legacy shape intersects road. Withdraw candidate from current runtime, not a cancellation or accepted E alias.",
+      "sourceReview": "src/circuits/season-review/monaco-m-name-review-2026.json",
+      "zone": {
+        "zoneId": "m-piscine",
+        "name": "M · Piscine",
+        "kind": "grandstand",
+        "availability": "preparing",
+        "boundary": [
+          [
+            7.422240895766288,
+            43.73491225760524
+          ],
+          [
+            7.42193509457681,
+            43.7355444714009
+          ],
+          [
+            7.42214209309288,
+            43.735555975658926
+          ],
+          [
+            7.4224478942823575,
+            43.734923761863264
+          ],
+          [
+            7.422240895766288,
+            43.73491225760524
+          ]
+        ],
+        "surface": {
+          "baseHeight": 3.2,
+          "rise": 8.18,
+          "depth": 17.05,
+          "eyeHeight": 1.2
+        },
+        "surfaces": [
+          {
+            "surfaceId": "m-piscine-1",
+            "boundary": [
+              [
+                7.422240895766288,
+                43.73491225760524
+              ],
+              [
+                7.42193509457681,
+                43.7355444714009
+              ],
+              [
+                7.42214209309288,
+                43.735555975658926
+              ],
+              [
+                7.4224478942823575,
+                43.734923761863264
+              ],
+              [
+                7.422240895766288,
+                43.73491225760524
+              ]
+            ],
+            "baseHeight": 3.2,
+            "rise": 8.18,
+            "eyeHeight": 1.2,
+            "rows": 16,
+            "frontReference": [
+              7.421267708757423,
+              43.734991089354395
+            ]
+          }
+        ],
+        "source": {
+          "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "2026主办方示意图人工选取边界，以弯道地理控制点作局部仿射配准；临时看台位置与尺寸为近似，不能用于具体座位购票。"
+        },
+        "openingSource": {
+          "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "medium",
+          "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+        },
+        "surfaceSource": {
+          "url": "https://acm.mc/wp-content/uploads/2025/05/Hospitalites_ACM_F12026_F-3.pdf",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "low",
+          "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+        },
+        "geometryReview": {
+          "checkedAt": "2026-10-23",
+          "issues": [
+            "m-piscine-1: road intersection 578.0105 m2"
+          ],
+          "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+        }
+      },
+      "classification": "unverified-legacy-candidate-not-confirmed-2026-product"
+    }
+  ]
+}

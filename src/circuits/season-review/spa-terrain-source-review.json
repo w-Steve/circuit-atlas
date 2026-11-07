@@ -1,0 +1,154 @@
+{
+  "circuitId": "spa",
+  "checkedAt": "2026-10-28",
+  "catalogue": "https://geoportail.wallonie.be/catalogue/a004e570-99d6-4fe5-b83d-49b774409278.html",
+  "dataset": "RELIEF_WALLONIE_MNT_50CM_2021_2022",
+  "publisher": "Service public de Wallonie",
+  "nativeResolutionMetres": 0.5,
+  "horizontalCRS": "EPSG:3812",
+  "verticalCRS": "EPSG:5710",
+  "verticalDatum": "Deuxième Nivellement Général (DNG)",
+  "licence": "CC BY 4.0",
+  "observationWindow": [
+    "2021-02-19",
+    "2022-03-05"
+  ],
+  "updateDate": "2024-01-23",
+  "sourceType": "bare-earth LiDAR DTM",
+  "metadataOnly": true,
+  "numericRasterAcquired": false,
+  "runtimeApplied": false,
+  "sceneAccepted": false,
+  "retrievedMetadata": [
+    {
+      "file": "feed.xml",
+      "sha256": "7be3ea451d9f1bbb9adb81df5159fe7eeaf8bfe102ff4419a92c3f2e84989145"
+    },
+    {
+      "file": "dataset.xml",
+      "sha256": "dd9251ce5c4361249b1d7b0ba88a88948bb03972ea6b0cc40a7ebb8eb3ef2bae"
+    },
+    {
+      "file": "service.txt",
+      "sha256": "6b6e91aebfe73d6291a4f1b8b18e65916cabf9ddef577ec85c90580acbbd1fcd"
+    },
+    {
+      "file": "services.json",
+      "sha256": "6d352c36c5d2b8a16c3d240b35dc1fb02da2351db3d9499a5ad9992a7de4f292"
+    }
+  ],
+  "downloadFindings": {
+    "atomDataset": "https://geoservices.wallonie.be/geotraitement/spwdatadownload/results/a004e570-99d6-4fe5-b83d-49b774409278/atom_dataset.xml",
+    "scope": "Atom feed lists province/full-region archives, not individual Spa tiles. Liege EPSG3812 download is advertised at45.2GB.",
+    "rangeRequest": "bytes=-131072",
+    "responseStatus": 200,
+    "contentRange": null,
+    "bodyDownloaded": false,
+    "reason": "Stream closed without reading the archive when the server ignored Range. No numeric elevation was inferred from map colors.",
+    "serviceTypes": [
+      "MapServer"
+    ],
+    "nextAction": "Validate the official identify Stretch.Pixel Value semantics and sampling resolution against native numeric data/documentation before using it for a terrain candidate; otherwise seek official bounded download.",
+    "wcsProbe": "WCSServer GetCapabilities returned HTTP400; no bounded WCS extraction established.",
+    "absoluteRangeProbe": {
+      "range": "bytes=0-63",
+      "status": 200,
+      "contentType": "application/zip",
+      "contentRange": null,
+      "acceptRanges": null,
+      "bytesRead": 64,
+      "zipSignatureVerified": true,
+      "wholeArchiveDownloaded": false,
+      "conclusion": "Actual ZIP stream, not an HTML error. Absolute and suffix Range both ignored; do not repeat these requests."
+    }
+  },
+  "limits": "Regional metadata does not establish the exact Spa flight date. Bare-earth data excludes bridges/buildings; later circuit reconstruction needs independent checks. DNG must not be silently treated as EGM2008. No output grid or higher runtime accuracy is claimed.",
+  "pointQueryEvidence": {
+    "checkedAt": "2026-10-28",
+    "endpoint": "https://geoservices.wallonie.be/arcgis/rest/services/RELIEF/WALLONIE_MNT_2021_2022/MapServer/identify",
+    "samples": [
+      {
+        "cornerNumber": 1,
+        "coordinate": [
+          5.96350733630406,
+          50.446191656067796
+        ],
+        "serviceValue": 423.253754,
+        "field": "Stretch.Pixel Value",
+        "scaleDifference": 0.0,
+        "queries": [
+          {
+            "displaySize": 2048,
+            "url": "https://geoservices.wallonie.be/arcgis/rest/services/RELIEF/WALLONIE_MNT_2021_2022/MapServer/identify?f=json&geometry=5.96350733630406%2C50.446191656067796&geometryType=esriGeometryPoint&sr=4326&tolerance=0&mapExtent=5.96290733630406%2C50.4455916560678%2C5.96410733630406%2C50.446791656067795&imageDisplay=2048%2C2048%2C96&returnGeometry=true&layers=all%3A0&returnPixelValues=true",
+            "responseSha256": "6a436ac81c373cf294841138358c95724b079ca851e4e947e00f822bda5f5077"
+          },
+          {
+            "displaySize": 4096,
+            "url": "https://geoservices.wallonie.be/arcgis/rest/services/RELIEF/WALLONIE_MNT_2021_2022/MapServer/identify?f=json&geometry=5.96350733630406%2C50.446191656067796&geometryType=esriGeometryPoint&sr=4326&tolerance=0&mapExtent=5.96290733630406%2C50.4455916560678%2C5.96410733630406%2C50.446791656067795&imageDisplay=4096%2C4096%2C96&returnGeometry=true&layers=all%3A0&returnPixelValues=true",
+            "responseSha256": "8d742a898310ba2df2c39722860e7f0ac03901e6aa9045b952ae106106ba9d4a"
+          }
+        ],
+        "existingGridAbsoluteInterpolated": 420.049065211125,
+        "serviceMinusExistingMetres": 3.2046887888749893
+      },
+      {
+        "cornerNumber": 3,
+        "coordinate": [
+          5.97181720888897,
+          50.44171425919988
+        ],
+        "serviceValue": 402.776245,
+        "field": "Stretch.Pixel Value",
+        "scaleDifference": 0.0,
+        "queries": [
+          {
+            "displaySize": 2048,
+            "url": "https://geoservices.wallonie.be/arcgis/rest/services/RELIEF/WALLONIE_MNT_2021_2022/MapServer/identify?f=json&geometry=5.97181720888897%2C50.44171425919988&geometryType=esriGeometryPoint&sr=4326&tolerance=0&mapExtent=5.9712172088889695%2C50.44111425919988%2C5.97241720888897%2C50.442314259199875&imageDisplay=2048%2C2048%2C96&returnGeometry=true&layers=all%3A0&returnPixelValues=true",
+            "responseSha256": "04989faa2a98f7614d3278fe48d2c290fbc32cd7327c11631c35f65509d7b04b"
+          },
+          {
+            "displaySize": 4096,
+            "url": "https://geoservices.wallonie.be/arcgis/rest/services/RELIEF/WALLONIE_MNT_2021_2022/MapServer/identify?f=json&geometry=5.97181720888897%2C50.44171425919988&geometryType=esriGeometryPoint&sr=4326&tolerance=0&mapExtent=5.9712172088889695%2C50.44111425919988%2C5.97241720888897%2C50.442314259199875&imageDisplay=4096%2C4096%2C96&returnGeometry=true&layers=all%3A0&returnPixelValues=true",
+            "responseSha256": "e6c406687f0ba326d1c7b7c0b710cc215798d8dbe629fdec65e907d840634935"
+          }
+        ],
+        "existingGridAbsoluteInterpolated": 399.07885969320506,
+        "serviceMinusExistingMetres": 3.6973853067949563
+      },
+      {
+        "cornerNumber": 10,
+        "coordinate": [
+          5.972557836164489,
+          50.4338819747713
+        ],
+        "serviceValue": 397.483124,
+        "field": "Stretch.Pixel Value",
+        "scaleDifference": 0.0,
+        "queries": [
+          {
+            "displaySize": 2048,
+            "url": "https://geoservices.wallonie.be/arcgis/rest/services/RELIEF/WALLONIE_MNT_2021_2022/MapServer/identify?f=json&geometry=5.972557836164489%2C50.4338819747713&geometryType=esriGeometryPoint&sr=4326&tolerance=0&mapExtent=5.9719578361644885%2C50.433281974771305%2C5.973157836164489%2C50.4344819747713&imageDisplay=2048%2C2048%2C96&returnGeometry=true&layers=all%3A0&returnPixelValues=true",
+            "responseSha256": "6fd5c99d66d73daf2ac89cf8e7083e78fafe035357617ca2ee3b5d66de1f48ec"
+          },
+          {
+            "displaySize": 4096,
+            "url": "https://geoservices.wallonie.be/arcgis/rest/services/RELIEF/WALLONIE_MNT_2021_2022/MapServer/identify?f=json&geometry=5.972557836164489%2C50.4338819747713&geometryType=esriGeometryPoint&sr=4326&tolerance=0&mapExtent=5.9719578361644885%2C50.433281974771305%2C5.973157836164489%2C50.4344819747713&imageDisplay=4096%2C4096%2C96&returnGeometry=true&layers=all%3A0&returnPixelValues=true",
+            "responseSha256": "ac324fa7d6484be524c36f62ba0fe0d7b6115ba65867226880502fb7e761349e"
+          }
+        ],
+        "existingGridAbsoluteInterpolated": 395.65881364653706,
+        "serviceMinusExistingMetres": 1.82431035346292
+      }
+    ],
+    "scope": "Three diagnostic service samples, stable across two imageDisplay sizes. Not a native raster, spatial-accuracy certification or proof that the Stretch field is unprocessed DTM.",
+    "nativePixelSemanticsVerified": false,
+    "runtimeApplied": false,
+    "comparisonLimit": "Service is DNG; existing grid is GEDTM30 with a different vertical datum/resolution. Differences combine datum, acquisition, sampling and terrain effects; not a correction offset or validation of service pixel semantics.",
+    "semanticsDocumentation": "https://developers.arcgis.com/rest/services-reference/enterprise/identify-map-service-.htm",
+    "semanticsConclusion": "Generic MapServer identify documentation does not establish this publisher-specific Stretch processing chain as raw native DTM. Keep source acquisition unaccepted."
+  },
+  "oneMetreDataset": {
+    "catalogue": "https://geoportail.wallonie.be/catalogue/fe13bc84-e371-46ca-9632-8ad4139f1ee5.html",
+    "note": "Official catalogue describes a separately produced1m dataset, not a downsample of0.5m. Not acquired."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "checkedAt": "2026-10-28",
+  "evidence": {
+    "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+    "status": 200,
+    "sha256": "ed63d9701218c67abf8505a2b4f245dadd2a528525f92ca20dad1d839d7bfc40",
+    "checkedAt": "2026-10-28",
+    "publisher": "Silverstone",
+    "eventYear": 2026
+  },
+  "scope": "Partial BOXPark family review only, not complete Silverstone ticket inventory.",
+  "products": [
+    {
+      "name": "The Loop Grandstand",
+      "zoneId": "the-loop",
+      "role": "grandstand-in-enclosure"
+    },
+    {
+      "name": "International Paddock Grandstand",
+      "zoneId": "international-paddock-grandstand",
+      "role": "separate-grandstand-in-enclosure"
+    },
+    {
+      "name": "BOXPARK General Admission",
+      "zoneId": "boxpark-hangar",
+      "role": "dedicated-standing-terrace"
+    }
+  ],
+  "areas": [
+    {
+      "zoneId": "the-loop",
+      "expectedKind": "grandstand",
+      "physicalFingerprint": "522127adca5067c8aab329d629c177775495d60013d30edacbcbcbfbe3baa8b0",
+      "oldMetadata": {
+        "name": "The Loop",
+        "availability": "preparing",
+        "openingSource": {
+          "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "medium",
+          "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+        },
+        "geometryReview": {
+          "checkedAt": "2026-10-23",
+          "issues": [
+            "the-loop-1: road intersection 85.8467 m2"
+          ],
+          "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+        }
+      },
+      "newMetadata": {
+        "name": "The Loop · BOXPARK",
+        "availability": "preparing",
+        "openingSource": {
+          "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+          "checkedAt": "2026-10-28",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Promoter announcement explicitly for July2026: enclosure offers two distinct grandstands and an independent standing GA terrace viewing Hangar. Identity/admission role only, not geographic footprint or height survey."
+        },
+        "geometryReview": {
+          "checkedAt": "2026-10-28",
+          "issues": [
+            "the-loop-1: road intersection 85.8467 m2",
+            "Independent map registration fails held-out geographic validation; retain closure until source boundary is recovered."
+          ],
+          "method": "Annual promoter identity review; failed geometry is not moved, cropped or raised to fabricate acceptance."
+        },
+        "admissionNote": "BOXPARK围场内的The Loop看台，需核对对应观赛选项。"
+      },
+      "geometryAccepted": false
+    },
+    {
+      "zoneId": "boxpark-hangar",
+      "expectedKind": "general-admission",
+      "physicalFingerprint": "5be2a53659d6c1cce147856982849e808aec85ec7617735d407f6eff6ac3c1fd",
+      "oldMetadata": {
+        "name": "Boxpark · Hangar",
+        "availability": "available",
+        "openingSource": {
+          "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+          "checkedAt": "2026-10-23",
+          "method": "estimated",
+          "confidence": "medium",
+          "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+        },
+        "geometryReview": {
+          "checkedAt": "2026-10-23",
+          "issues": [],
+          "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+        }
+      },
+      "newMetadata": {
+        "name": "BOXPARK GA · Hangar",
+        "availability": "preparing",
+        "openingSource": {
+          "url": "https://www.silverstone.co.uk/news/silverstone-partners-boxpark-brand-new-festival-experience-2026-british-grand-prix",
+          "checkedAt": "2026-10-28",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Promoter announcement explicitly for July2026: enclosure offers two distinct grandstands and an independent standing GA terrace viewing Hangar. Identity/admission role only, not geographic footprint or height survey."
+        },
+        "geometryReview": {
+          "checkedAt": "2026-10-28",
+          "issues": [
+            "2026 promoter describes a standing terrace; existing stepped seated prototype and unverified footprint must not be offered as a public simulation."
+          ],
+          "method": "Annual promoter identity review; failed geometry is not moved, cropped or raised to fabricate acceptance."
+        },
+        "admissionNote": "BOXPARK GA独立站立露台，非预留座席。"
+      },
+      "geometryAccepted": false
+    }
+  ],
+  "rejectedRegistration": {
+    "sourceMapSha256": "3516fbf5bdab374c4a4f53b8a975cbd9ea0714408bd11f6be3c198f05f3e336c",
+    "controlMethod": "Eight matched corners from the named VillageA/B footprints; FarmCurve centroid deliberately held out.",
+    "fitRmsMetres": 3.5362928686358632,
+    "heldOutErrorMetres": 31.745417099048264,
+    "projectedStandSidesMetres": [
+      36.1,
+      27.2
+    ],
+    "accepted": false,
+    "reason": "Low internal fit does not prove external location or dimensions. Held-out error is comparable to the projected stand size; no boundary promoted."
+  },
+  "confirmedMissingProducts": [],
+  "inventoryComplete": false,
+  "nextAction": "Seek independent geographic boundaries for the BOXPark products. Correct GA to standing1.65m only with validated ground/terrace; the seated prototype remains closed. Meanwhile progress the next independent Silverstone footprint (Woodcote C).",
+  "modeledProducts": [
+    {
+      "productId": "international-paddock-grandstand",
+      "mapLabel": "International Paddock Grandstand",
+      "modelZoneId": "international-paddock-grandstand",
+      "candidateAccepted": true,
+      "nextAction": "Approximate selectable bank implemented; refine full enclosure/roof geometry when available.",
+      "modelReview": "src/circuits/europe/silverstone-supplement-2026.json",
+      "accuracy": "approximate"
+    }
+  ],
+  "activeApproximation": "src/circuits/europe/silverstone-supplement-2026.json"
+}

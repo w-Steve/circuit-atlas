@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef } from "react";
 import { useFrame, useThree } from "@react-three/fiber";
 import { Group,Mesh } from "three";
-import { at, tangent } from "./CircuitGeometry";
-import { simulation, SimulationClock,placeVehicle } from "./VehicleSimulation";
-import { facilities as f } from "../data/config";
+
+import { SimulationClock } from "./VehicleDynamics";
+import {carDimensions} from "./VehicleDynamics";
 import { bodyPartGeometry } from "./VehicleGeometry";
-export const carObject: { current: Group | null } = { current: null };
+import {useCircuit} from '../app/CircuitContext';
 function Part({
   position,
   size,
@@ -24,6 +24,7 @@ function Part({
   );
 }
 export function Vehicle({ active = true }: { active?: boolean }) {
+  const {simulation,placeVehicle,vehicle:carObject}=useCircuit();
   const ref = useRef<Group>(null);
   const {gl}=useThree();
   const clock = useRef(new SimulationClock());
@@ -31,13 +32,14 @@ export function Vehicle({ active = true }: { active?: boolean }) {
     clock.current.reset();
   }, [active]);
   useEffect(() => {
-    carObject.current = ref.current;
+    const mountedVehicle=ref.current;
+    carObject.current = mountedVehicle;
     ref.current?.traverse(object=>{if(object instanceof Mesh){object.castShadow=true;object.receiveShadow=true}});
     const reset = () => clock.current.reset();
     document.addEventListener("visibilitychange", reset);
     window.addEventListener("pageshow", reset);
     return () => {
-      carObject.current = null;
+      if(carObject.current===mountedVehicle)carObject.current = null;
       document.removeEventListener("visibilitychange", reset);
       window.removeEventListener("pageshow", reset);
     };
@@ -52,16 +54,16 @@ export function Vehicle({ active = true }: { active?: boolean }) {
   // The detailed silhouette is authored in a 5.2 × 1.9 × .95 m reference frame.
   // Apply configurable dimensions once; keep wheelbase and cockpit anchors in metres.
   const scale: [number, number, number] = [
-    f.car.width / 1.9,
-    f.car.height / 0.95,
-    f.car.length / 5.2,
+    carDimensions.width / 1.9,
+    carDimensions.height / 0.95,
+    carDimensions.length / 5.2,
   ];
   const car = {
     width: 1.9,
     length: 5.2,
-    wheelbase: f.car.wheelbase / scale[2],
-    cockpitHeight: f.car.cockpitHeight / scale[1],
-    cockpitOffset: f.car.cockpitOffset / scale[2],
+    wheelbase: carDimensions.wheelbase / scale[2],
+    cockpitHeight: carDimensions.cockpitHeight / scale[1],
+    cockpitOffset: carDimensions.cockpitOffset / scale[2],
   };
   return (
     <group ref={ref} name="f1-car">

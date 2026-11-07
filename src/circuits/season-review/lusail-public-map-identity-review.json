@@ -1,0 +1,135 @@
+{
+  "circuitId": "lusail",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "sourceUrl": "https://www.lcsc.qa/formula-1r-qatar-airways-qatar-grand-prix-2026",
+  "sourceSha256": "234728a627001a10c5373d7d6d5cbdc8792862bfd17c3ec7afa6a5f2bf0c7c89",
+  "annualEvidence": {
+    "eventDates": "27–29 November 2026",
+    "ordinaryProducts": [
+      "Main Grandstand",
+      "North Grandstand",
+      "T2 Grandstand",
+      "T3 Grandstand",
+      "T16 Grandstand",
+      "General Admission Lusail Hill"
+    ],
+    "launchSource": {
+      "url": "https://www.lcsc.qa/news/formula-1r-qatar-airways-qatar-grand-prix-2026-show-car-revealed-ticket-sales-launch",
+      "sha256": "a18bc0371b3f584573145eae7211fbe395a8f842ec362cf53a27601470382ba8",
+      "fact": "2026 launch lists T2, T3 and T16 separately."
+    },
+    "hospitalityExcluded": [
+      "Premiere Hospitality",
+      "Lusail Hill Lounge",
+      "F1 Experiences Champions Club"
+    ],
+    "limits": "Current event cards include T2, not T3; annual launch and annual map independently list T3. Card absence does not establish cancellation or permission to merge T2/T3."
+  },
+  "confirmedIdentities": [
+    {
+      "zoneId": "main",
+      "mapLabel": "Main Grandstand",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual product identity, not proof that the existing physical footprint is correctly assigned."
+    },
+    {
+      "zoneId": "north",
+      "mapLabel": "North Grandstand",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual product identity, not proof that the existing physical footprint is correctly assigned."
+    },
+    {
+      "zoneId": "t3",
+      "mapLabel": "T3 Grandstand",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual product identity, not proof that the existing physical footprint is correctly assigned."
+    },
+    {
+      "zoneId": "t16",
+      "mapLabel": "T16 Grandstand",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual product identity, not proof that the existing physical footprint is correctly assigned."
+    },
+    {
+      "zoneId": "lusail-hill",
+      "mapLabel": "General Admission Lusail Hill",
+      "geographicBoundaryVerified": false,
+      "notes": "Annual product identity, not proof that the existing physical footprint is correctly assigned."
+    },
+    {
+      "zoneId": "t2",
+      "mapLabel": "T2 Grandstand",
+      "geographicBoundaryVerified": false,
+      "physicalApproximationAccepted": true,
+      "notes": "Independent approximate physical seating now applied; source and precision in lusail-t2-t3-2026.json."
+    }
+  ],
+  "unresolvedIdentities": [],
+  "confirmedMissingProducts": [],
+  "inventoryComplete": false,
+  "limits": "Six ordinary product families identified, not all physical subblocks or entitlements verified. T16 unnamed native bleachers association and seating front remain unverified; official product image is schematic, not a photograph.",
+  "geographicRegistrationCheck": {
+    "method": "Diagnostic only: manually picked visible top-face outlines at width1500, transformed with existing 16-apex piecewise-affine hill registration; compare to currently associated native polygons. No physical boundary accepted.",
+    "sourceUrl": "https://www.lcsc.qa/sites/default/files/2026-08/eventmap.png",
+    "sourceSha256": "dd7252b59d0c733e65c0a5a7346ecbb1117b4093c269a0d8cec694532f2eb577",
+    "probes": [
+      {
+        "zoneId": "t3",
+        "topFacePixels": [
+          [
+            421,
+            609
+          ],
+          [
+            492,
+            610
+          ],
+          [
+            491,
+            627
+          ],
+          [
+            421,
+            626
+          ]
+        ],
+        "centroidDifferenceMetres": 231.53,
+        "hausdorffMetres": 238.13
+      },
+      {
+        "zoneId": "t16",
+        "topFacePixels": [
+          [
+            1103,
+            431
+          ],
+          [
+            1175,
+            467
+          ],
+          [
+            1164,
+            482
+          ],
+          [
+            1093,
+            446
+          ]
+        ],
+        "centroidDifferenceMetres": 102.38,
+        "hausdorffMetres": 115.58
+      }
+    ],
+    "conclusion": "Reject using this diagram registration alone to create T2 geography. This does not prove either native stand is misplaced: schematic perspective and native-to-product associations remain independent uncertainties."
+  },
+  "resolvedMissingProducts": [
+    {
+      "productId": "t2",
+      "modelZoneId": "t2",
+      "physicalReview": "src/circuits/asia/lusail-t2-t3-2026.json",
+      "precision": "Approximate physical seating, not surveyed2026 ticket limits."
+    }
+  ],
+  "physicalGeometryReview": "src/circuits/asia/lusail-t2-t3-2026.json"
+}

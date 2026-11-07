@@ -1,0 +1,25 @@
+{
+  "circuitId": "monaco",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "legacyZoneId": "m-piscine",
+  "possibleCurrentZoneId": "e-chicane",
+  "status": "unverified-legacy-candidate-withdrawn",
+  "aliasAccepted": false,
+  "runtimeApplied": true,
+  "evidence": {
+    "url": "https://oversteer48.com/grandstand-e-monaco-grand-prix/",
+    "author": "Alex Gassman",
+    "displayedUpdatedAt": "2026-10-02",
+    "observation": "Opened body explicitly describes E as formerly M and says an older M viewing video shows the same location. This is a travel guide, not annual promoter inventory.",
+    "limitations": "The same page describes rows A–K and seats1–30, then later mentions row M and seats40; internal inconsistencies preclude using it as a measured seat plan or sole identity authority. Publication update does not establish when any renaming occurred."
+  },
+  "officialEvidenceAlreadyHeld": {
+    "finalMap": "https://acm.mc/wp-content/uploads/2025/05/Plan_Circuit_GPF12026_1920x1800-4-scaled.jpg",
+    "observation": "Final2026 public legend names E but not M. Absence alone does not establish renaming, cancellation or exclusivity.",
+    "annualEProductReview": "src/circuits/season-review/monaco-annual-ticket-source-review.json"
+  },
+  "decision": "Withdraw unverified legacy shape from current runtime; retain complete candidate off-runtime. No positive independent2026M product found. Does not prove cancellation or accept M-to-E alias.",
+  "nextAction": "If a positive2026M ticket/organizer crosswalk appears, re-evaluate archived candidate; do not render a known conflicting unknown polygon meanwhile.",
+  "withdrawalReview": "src/circuits/season-review/monaco-withdrawn-public-models.json"
+}

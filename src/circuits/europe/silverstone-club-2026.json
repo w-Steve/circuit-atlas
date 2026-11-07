@@ -1,0 +1,760 @@
+{
+  "circuitId": "silverstone",
+  "season": 2026,
+  "geometryFingerprint": "d7ef5dc09484539661b05bbf9b5712883d40fab708740602e0879e82fb698354",
+  "osmSnapshot": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-1.028,52.0625,-1.017,52.0695",
+    "status": 200,
+    "sha256": "fae7e4355ed199ea7e486e981fbe9fc39b1df9bfe070f238994fe0a4647f55db",
+    "checkedAt": "2026-10-28"
+  },
+  "sourceWays": [
+    {
+      "id": "227342445",
+      "tags": {
+        "building": "yes",
+        "name": "Club A"
+      }
+    },
+    {
+      "id": "227342448",
+      "tags": {
+        "building": "yes",
+        "name": "Club B"
+      }
+    }
+  ],
+  "annualMap": {
+    "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+    "sha256": "3516fbf5bdab374c4a4f53b8a975cbd9ea0714408bd11f6be3c198f05f3e336c",
+    "page": 1,
+    "labels": [
+      "Club A",
+      "Club Corner"
+    ]
+  },
+  "oldZones": [
+    {
+      "zoneId": "club-corner-a",
+      "name": "Club Corner A",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          -1.0237219433961502,
+          52.06647517178336
+        ],
+        [
+          -1.0231769955125827,
+          52.066953476516375
+        ],
+        [
+          -1.022937528979138,
+          52.066850426491875
+        ],
+        [
+          -1.0234824768627055,
+          52.06637212175887
+        ],
+        [
+          -1.0237219433961502,
+          52.06647517178336
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 9.6,
+        "depth": 20.0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "club-corner-a-1",
+          "boundary": [
+            [
+              -1.0237219433961502,
+              52.06647517178336
+            ],
+            [
+              -1.0231769955125827,
+              52.066953476516375
+            ],
+            [
+              -1.022937528979138,
+              52.066850426491875
+            ],
+            [
+              -1.0234824768627055,
+              52.06637212175887
+            ],
+            [
+              -1.0237219433961502,
+              52.06647517178336
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 9.6,
+          "eyeHeight": 1.2,
+          "rows": 19,
+          "frontReference": [
+            -1.0226176503786966,
+            52.066356366088286
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。"
+      },
+      "openingSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "club-corner-a-1: road intersection 236.8163 m2",
+          "club-corner-a-1: unresolved diagram bearing (75.4 degrees)"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "club-corner-b",
+      "name": "Club Corner B",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          -1.0231552253924996,
+          52.06623573564627
+        ],
+        [
+          -1.0222691330489866,
+          52.066550144557525
+        ],
+        [
+          -1.0221010406201259,
+          52.066371213688974
+        ],
+        [
+          -1.0229871329636389,
+          52.06605680477772
+        ],
+        [
+          -1.0231552253924996,
+          52.06623573564627
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.04,
+        "depth": 23.0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "club-corner-b-1",
+          "boundary": [
+            [
+              -1.0231552253924996,
+              52.06623573564627
+            ],
+            [
+              -1.0222691330489866,
+              52.066550144557525
+            ],
+            [
+              -1.0221010406201259,
+              52.066371213688974
+            ],
+            [
+              -1.0229871329636389,
+              52.06605680477772
+            ],
+            [
+              -1.0231552253924996,
+              52.06623573564627
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.04,
+          "eyeHeight": 1.2,
+          "rows": 22,
+          "frontReference": [
+            -1.0240324988571647,
+            52.06779839269073
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。"
+      },
+      "openingSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "club-corner-b-1: road intersection 856.5018 m2"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "club-corner-c",
+      "name": "Club Corner C",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          -1.0220414834631317,
+          52.06637989121473
+        ],
+        [
+          -1.021022205632747,
+          52.06632508613036
+        ],
+        [
+          -1.0210515060737222,
+          52.066119260779516
+        ],
+        [
+          -1.0220707839041068,
+          52.06617406586388
+        ],
+        [
+          -1.0220414834631317,
+          52.06637989121473
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.04,
+        "depth": 23.0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "club-corner-c-1",
+          "boundary": [
+            [
+              -1.0220414834631317,
+              52.06637989121473
+            ],
+            [
+              -1.021022205632747,
+              52.06632508613036
+            ],
+            [
+              -1.0210515060737222,
+              52.066119260779516
+            ],
+            [
+              -1.0220707839041068,
+              52.06617406586388
+            ],
+            [
+              -1.0220414834631317,
+              52.06637989121473
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.04,
+          "eyeHeight": 1.2,
+          "rows": 22,
+          "frontReference": [
+            -1.0209755973535715,
+            52.07025993068155
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。"
+      },
+      "openingSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "club-corner-c-1: road intersection 449.5877 m2"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    }
+  ],
+  "zones": [
+    {
+      "zoneId": "club-corner-a",
+      "name": "Club A",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          -1.0241881,
+          52.0660864
+        ],
+        [
+          -1.0237619,
+          52.0658222
+        ],
+        [
+          -1.0237237,
+          52.0658427
+        ],
+        [
+          -1.0236117,
+          52.0659146
+        ],
+        [
+          -1.0240408,
+          52.0661718
+        ],
+        [
+          -1.0241881,
+          52.0660864
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 9.6,
+        "depth": 14.539,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "club-corner-a-1",
+          "boundary": [
+            [
+              -1.0241881,
+              52.0660864
+            ],
+            [
+              -1.0237619,
+              52.0658222
+            ],
+            [
+              -1.0237237,
+              52.0658427
+            ],
+            [
+              -1.0236117,
+              52.0659146
+            ],
+            [
+              -1.0240408,
+              52.0661718
+            ],
+            [
+              -1.0241881,
+              52.0660864
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 9.6,
+          "eyeHeight": 1.2,
+          "rows": 19,
+          "frontReference": [
+            -1.0233501304572699,
+            52.06632433679571
+          ],
+          "rowFrontEdge": {
+            "coordinates": [
+              [
+                -1.0236117,
+                52.0659146
+              ],
+              [
+                -1.0240408,
+                52.0661718
+              ]
+            ],
+            "source": {
+              "url": "https://www.openstreetmap.org/way/227342445",
+              "checkedAt": "2026-10-28",
+              "method": "extracted",
+              "confidence": "medium",
+              "notes": "Named native OSM Club A full footprint, building=yes.2026 organizer map separately labels Club A and continuous Club Corner. Not a seat/height survey; OSM contributors, ODbL."
+            }
+          },
+          "rowPitch": {
+            "treadMetres": 0.7652857919596275,
+            "riserMetres": 0.5333333333333333,
+            "source": {
+              "url": "https://www.openstreetmap.org/way/227342445",
+              "checkedAt": "2026-10-28",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Original19 rows and9.6m rise retained; constant metric rows clipped to full native footprint, not tapered PCA rows. Not measured seating."
+            }
+          },
+          "groundReference": {
+            "coordinate": [
+              -1.02382625,
+              52.0660432
+            ],
+            "source": {
+              "url": "https://www.openstreetmap.org/way/227342445",
+              "checkedAt": "2026-10-28",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Native track-facing front midpoint defines first-row ground datum. Relative2.2m base retained as estimate, not a surveyed platform elevation."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.openstreetmap.org/way/227342445",
+        "checkedAt": "2026-10-28",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "Named native OSM Club A full footprint, building=yes.2026 organizer map separately labels Club A and continuous Club Corner. Not a seat/height survey; OSM contributors, ODbL."
+      },
+      "openingSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-10-28",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Silverstone-authored2026 spectator map labels Club A and one curved Club Corner. Internal B/C geographic division not verified; do not duplicate the physical bank."
+      },
+      "surfaceSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-28",
+        "issues": [],
+        "method": "Full named native footprint and source front geometry; no road-avoiding translation or clipping."
+      },
+      "boundarySource": {
+        "url": "https://www.openstreetmap.org/way/227342445",
+        "checkedAt": "2026-10-28",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "Named native OSM Club A full footprint, building=yes.2026 organizer map separately labels Club A and continuous Club Corner. Not a seat/height survey; OSM contributors, ODbL."
+      }
+    },
+    {
+      "zoneId": "club-corner",
+      "name": "Club Corner",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          -1.025221,
+          52.0675799
+        ],
+        [
+          -1.0253015,
+          52.0673656
+        ],
+        [
+          -1.02525,
+          52.0670373
+        ],
+        [
+          -1.0252317,
+          52.0669204
+        ],
+        [
+          -1.0249152,
+          52.0664884
+        ],
+        [
+          -1.0243573,
+          52.0661388
+        ],
+        [
+          -1.0241696,
+          52.0662641
+        ],
+        [
+          -1.0246685,
+          52.0665873
+        ],
+        [
+          -1.0249635,
+          52.0669534
+        ],
+        [
+          -1.0250086,
+          52.0672532
+        ],
+        [
+          -1.0250225,
+          52.0673458
+        ],
+        [
+          -1.0249528,
+          52.0675404
+        ],
+        [
+          -1.025221,
+          52.0675799
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.04,
+        "depth": 20.846,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "club-corner-1",
+          "boundary": [
+            [
+              -1.025221,
+              52.0675799
+            ],
+            [
+              -1.0253015,
+              52.0673656
+            ],
+            [
+              -1.02525,
+              52.0670373
+            ],
+            [
+              -1.0252317,
+              52.0669204
+            ],
+            [
+              -1.0249152,
+              52.0664884
+            ],
+            [
+              -1.0243573,
+              52.0661388
+            ],
+            [
+              -1.0241696,
+              52.0662641
+            ],
+            [
+              -1.0246685,
+              52.0665873
+            ],
+            [
+              -1.0249635,
+              52.0669534
+            ],
+            [
+              -1.0250086,
+              52.0672532
+            ],
+            [
+              -1.0250225,
+              52.0673458
+            ],
+            [
+              -1.0249528,
+              52.0675404
+            ],
+            [
+              -1.025221,
+              52.0675799
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.04,
+          "eyeHeight": 1.2,
+          "rows": 22,
+          "frontReference": [
+            -1.0241031887667187,
+            52.06700202906044
+          ],
+          "rowStrip": {
+            "front": [
+              [
+                -1.0249528,
+                52.0675404
+              ],
+              [
+                -1.0250225,
+                52.0673458
+              ],
+              [
+                -1.0250086,
+                52.0672532
+              ],
+              [
+                -1.0249635,
+                52.0669534
+              ],
+              [
+                -1.0246685,
+                52.0665873
+              ],
+              [
+                -1.0241696,
+                52.0662641
+              ]
+            ],
+            "back": [
+              [
+                -1.025221,
+                52.0675799
+              ],
+              [
+                -1.0253015,
+                52.0673656
+              ],
+              [
+                -1.02525,
+                52.0670373
+              ],
+              [
+                -1.0252317,
+                52.0669204
+              ],
+              [
+                -1.0249152,
+                52.0664884
+              ],
+              [
+                -1.0243573,
+                52.0661388
+              ]
+            ],
+            "source": {
+              "url": "https://www.openstreetmap.org/way/227342448",
+              "checkedAt": "2026-10-28",
+              "method": "extracted",
+              "confidence": "medium",
+              "notes": "Named native OSM Club B full footprint, building=yes.2026 organizer map separately labels Club A and continuous Club Corner. Not a seat/height survey; OSM contributors, ODbL."
+            }
+          },
+          "rowBearing": "local-normal",
+          "groundReference": {
+            "coordinate": [
+              -1.0248693742620332,
+              52.066836588363834
+            ],
+            "source": {
+              "url": "https://www.openstreetmap.org/way/227342448",
+              "checkedAt": "2026-10-28",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Native track-facing front midpoint defines first-row ground datum. Relative2.2m base retained as estimate, not a surveyed platform elevation."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.openstreetmap.org/way/227342448",
+        "checkedAt": "2026-10-28",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "Named native OSM Club B full footprint, building=yes.2026 organizer map separately labels Club A and continuous Club Corner. Not a seat/height survey; OSM contributors, ODbL."
+      },
+      "openingSource": {
+        "url": "https://gpdestinations.com/wp-content/uploads/2026/06/2026-British-GP-Silverstone-Spectator-Map.pdf",
+        "checkedAt": "2026-10-28",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Silverstone-authored2026 spectator map labels Club A and one curved Club Corner. Internal B/C geographic division not verified; do not duplicate the physical bank."
+      },
+      "surfaceSource": {
+        "url": "https://www.silverstone.co.uk/news/silverstones-guide-grandstands",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-28",
+        "issues": [],
+        "method": "Full named native footprint and source front geometry; no road-avoiding translation or clipping."
+      },
+      "boundarySource": {
+        "url": "https://www.openstreetmap.org/way/227342448",
+        "checkedAt": "2026-10-28",
+        "method": "extracted",
+        "confidence": "medium",
+        "notes": "Named native OSM Club B full footprint, building=yes.2026 organizer map separately labels Club A and continuous Club Corner. Not a seat/height survey; OSM contributors, ODbL."
+      }
+    }
+  ],
+  "aliases": {
+    "club-corner-b": "club-corner",
+    "club-corner-c": "club-corner"
+  },
+  "sceneAcceptance": {
+    "accepted": true,
+    "candidateBrowserCasesPassed": 9,
+    "candidatePhotosInspected": 6,
+    "relatedUnitCasesPassed": 2,
+    "artifactRoot": "artifacts/goal-review/silverstone-club-candidate",
+    "scope": "Two source-backed full public banks, not invented separate internal B/C footprints.",
+    "releaseBrowserCasesPassed": 12,
+    "releasePhotosInspected": 6,
+    "releaseMobileSelectionImagesInspected": 2,
+    "fullUnitTestsPassed": 437,
+    "isolatedMigrationCasesPassed": 4,
+    "existingZonesUnchanged": 279,
+    "releaseArtifactRoot": "artifacts/goal-review/silverstone-club-release"
+  },
+  "limits": "One full Club Corner public bank is exposed without inventing separate internal B/C geographic boundaries. The official2026 guide still mentions B&C under covered stands; this does not prove separate source polygons. No claim that B/C names ceased to exist. Relative base,rows,rise and seated eyes retained as estimates; native shapes replace erroneous manual road-overlapping rectangles.",
+  "footprintAudit": [
+    {
+      "zoneId": "club-corner-a",
+      "areaMetres2": 586.6822906172978,
+      "issues": []
+    },
+    {
+      "zoneId": "club-corner",
+      "areaMetres2": 3262.8406145767635,
+      "issues": []
+    }
+  ],
+  "candidateRuntimePackageSha256": "6e6d0ed4c5c78ef576e395355bda3bf8bd8fc3a1140340d443c36f23377b71b7",
+  "runtimePackageSha256After": "3e8e7a4010a53f3cc2f5cb11be389b3915d534c649d8b1f9ca7b586a87a37dfa"
+}

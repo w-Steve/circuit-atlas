@@ -1,0 +1,978 @@
+{
+  "circuitId": "suzuka",
+  "checkedAt": "2026-10-25",
+  "scope": "Permanent G-1/130R and G-2/Overpass only, not a complete2026 G inventory or temporary G-3/G-4/G-5 geometry.",
+  "sourcePdf": {
+    "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_g.pdf",
+    "sha256": "97d8f3662289a3a8735b2d66dc5ac3a2551662faeca8f6994c4e12219c234d97",
+    "notes": "Official undated structural chart currently linked from2027 page; permanent G1 blocksA-M max9rows, G2 blocksN-Y max10rows. Only permanent structure facts used, not proof of complete2026 sales.",
+    "liveCheckedAt": "2026-10-25",
+    "liveSha256": "97d8f3662289a3a8735b2d66dc5ac3a2551662faeca8f6994c4e12219c234d97"
+  },
+  "aerial": {
+    "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/g/img_seat_g.jpg",
+    "sha256": "d0e37d1f3007318474e66c0915c1dfad0d79106c5e7ce55c4e47c68c8e0b862e",
+    "notes": "Organizer seat-view aerial shows one continuous seating bank on each of the two road-facing sides; a walkway separates front and rear strips. The OSM building/bleacher tags do not denote independent banks.",
+    "liveCheckedAt": "2026-10-25",
+    "liveSha256": "d0e37d1f3007318474e66c0915c1dfad0d79106c5e7ce55c4e47c68c8e0b862e"
+  },
+  "annualExistence": {
+    "url": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+    "publishedAt": "2025-08-28",
+    "notes": "Organizer2026 sales announcement distinguishes G4 expansion/newG5 from the existing G family. Does not provide surveyed seating boundaries or elevations."
+  },
+  "originalZone": {
+    "zoneId": "g",
+    "name": "G",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        136.5305439,
+        34.8452702
+      ],
+      [
+        136.5308394,
+        34.8443106
+      ],
+      [
+        136.5309575,
+        34.844338
+      ],
+      [
+        136.5306586,
+        34.8452942
+      ],
+      [
+        136.5305439,
+        34.8452702
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "g-1",
+        "boundary": [
+          [
+            136.5305439,
+            34.8452702
+          ],
+          [
+            136.5308394,
+            34.8443106
+          ],
+          [
+            136.5309575,
+            34.844338
+          ],
+          [
+            136.5306586,
+            34.8452942
+          ],
+          [
+            136.5305439,
+            34.8452702
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 5.04,
+        "eyeHeight": 1.2,
+        "rows": 10,
+        "frontReference": [
+          136.5304244167531,
+          34.844735278643
+        ]
+      },
+      {
+        "surfaceId": "g-2",
+        "boundary": [
+          [
+            136.5307993,
+            34.8451566
+          ],
+          [
+            136.5310424,
+            34.8444339
+          ],
+          [
+            136.5309229,
+            34.8444149
+          ],
+          [
+            136.5306957,
+            34.8451605
+          ],
+          [
+            136.5307993,
+            34.8451566
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 4.99,
+        "eyeHeight": 1.2,
+        "rows": 10,
+        "frontReference": [
+          136.53043227247863,
+          34.84469719043633
+        ]
+      },
+      {
+        "surfaceId": "g-3",
+        "boundary": [
+          [
+            136.5312706,
+            34.8441802
+          ],
+          [
+            136.5325037,
+            34.8445825
+          ],
+          [
+            136.5324665,
+            34.8446593
+          ],
+          [
+            136.5312334,
+            34.8442569
+          ],
+          [
+            136.5312706,
+            34.8441802
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 4.14,
+        "eyeHeight": 1.2,
+        "rows": 8,
+        "frontReference": [
+          136.5320416733899,
+          34.844062338152256
+        ]
+      },
+      {
+        "surfaceId": "g-4",
+        "boundary": [
+          [
+            136.5311353,
+            34.8443669
+          ],
+          [
+            136.5323684,
+            34.8447373
+          ],
+          [
+            136.5324119,
+            34.8446629
+          ],
+          [
+            136.5311842,
+            34.8442697
+          ],
+          [
+            136.5311353,
+            34.8443669
+          ]
+        ],
+        "baseHeight": 2.2,
+        "rise": 5.27,
+        "eyeHeight": 1.2,
+        "rows": 11,
+        "frontReference": [
+          136.5319891561756,
+          34.84404366864837
+        ]
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 5.04,
+      "depth": 11.21,
+      "eyeHeight": 1.2
+    },
+    "source": {
+      "url": "https://www.openstreetmap.org/way/184102012",
+      "checkedAt": "2026-10-23",
+      "method": "extracted",
+      "confidence": "medium",
+      "notes": "具名/对照场馆图确认的OSM看台建筑轮廓；way/184102012,184102013,184102361,184102368。非精确售票边界。"
+    },
+    "openingSource": {
+      "url": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "medium",
+      "notes": "2026公开场馆/票区名称交叉核对；不表示实时售票状态。图面细分不等于逐票区或座位复原。"
+    },
+    "surfaceSource": {
+      "url": "https://www.suzukacircuit.jp/eng/f1/ticket/",
+      "checkedAt": "2026-10-23",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "看台高度、阶梯坡度、围网与有效座席边界为简化估计；OSM建筑不等于座椅测绘，地形DEM不能分辨座席。"
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-23",
+      "issues": [],
+      "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+    }
+  },
+  "banks": [
+    {
+      "surfaceId": "g-overpass",
+      "label": "G-2 Overpass",
+      "osmWays": [
+        184102012,
+        184102013
+      ],
+      "sourceSurfaceIds": [
+        "g-1",
+        "g-2"
+      ],
+      "sourceAreaMetres2": 2004.8441672274744,
+      "outerEnvelopeAreaMetres2": 2117.2052729842626,
+      "connectorAndEnvelopeAreaMetres2": 112.36110575678822,
+      "method": "Original full source strips enclosed without shrinking; straight front and rear source edges retained. Earth-bank grade now follows the independently sampled GSI anchors in terrainProfileReview rather than the former fixed-riser estimate.",
+      "surface": {
+        "surfaceId": "g-overpass",
+        "boundary": [
+          [
+            136.5308394,
+            34.8443106
+          ],
+          [
+            136.5305439,
+            34.8452702
+          ],
+          [
+            136.5306586,
+            34.8452942
+          ],
+          [
+            136.5307993,
+            34.8451566
+          ],
+          [
+            136.5310424,
+            34.8444339
+          ],
+          [
+            136.5309575,
+            34.844338
+          ],
+          [
+            136.5308394,
+            34.8443106
+          ]
+        ],
+        "baseHeight": 0.1,
+        "rise": 8.614453956406933,
+        "eyeHeight": 1.2,
+        "rows": 10,
+        "frontReference": [
+          136.5304244167531,
+          34.844735278643
+        ],
+        "rowCountSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_g.pdf",
+          "checkedAt": "2026-10-25",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Organizer permanent G-2 Overpass chart maximum 10 numbered rows across its blocks. Gap between lower and upper printed rows denotes a walkway, not an independent bank starting at ground. Undated diagram is not complete2026 inventory certification."
+        },
+        "rowRiserMetres": 0.9571615507118815,
+        "rowFrontEdge": {
+          "coordinates": [
+            [
+              136.5305439,
+              34.8452702
+            ],
+            [
+              136.5308394,
+              34.8443106
+            ]
+          ],
+          "source": {
+            "url": "https://www.openstreetmap.org/way/184102012",
+            "checkedAt": "2026-10-25",
+            "method": "extracted",
+            "confidence": "medium",
+            "notes": "Unmodified original front strip long road-side edge. Rows follow this source seating front, not the PCA of the rear platform/envelope. Organizer aerial corroborates straight permanent seating. Not chosen by ray visibility."
+          }
+        },
+        "rowBearing": "local-normal",
+        "groundReference": {
+          "coordinate": [
+            136.53069165,
+            34.8447904
+          ],
+          "source": {
+            "url": "https://maps.gsi.go.jp/development/ichiran.html",
+            "checkedAt": "2026-10-25",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Earth-bank grade from GSI elevation at unchanged OSM front/rear strip edge midpoints. Organizer aerial corroborates ground-supported permanent terraces;0.1m floor slab allowance and uniform numbered-row interpolation are estimates, not engineering levels. Not fitted from occlusion tests."
+          }
+        },
+        "terrainRiseReference": {
+          "coordinate": [
+            136.53092085,
+            34.844795250000004
+          ],
+          "source": {
+            "url": "https://maps.gsi.go.jp/development/ichiran.html",
+            "checkedAt": "2026-10-25",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Earth-bank grade from GSI elevation at unchanged OSM front/rear strip edge midpoints. Organizer aerial corroborates ground-supported permanent terraces;0.1m floor slab allowance and uniform numbered-row interpolation are estimates, not engineering levels. Not fitted from occlusion tests."
+          }
+        }
+      },
+      "depthMetres": 21.34,
+      "rearGroundEdge": {
+        "coordinates": [
+          [
+            136.5307993,
+            34.8451566
+          ],
+          [
+            136.5310424,
+            34.8444339
+          ]
+        ],
+        "osmWay": 184102013
+      }
+    },
+    {
+      "surfaceId": "g-130r",
+      "label": "G-1 130R",
+      "osmWays": [
+        184102361,
+        184102368
+      ],
+      "sourceSurfaceIds": [
+        "g-3",
+        "g-4"
+      ],
+      "sourceAreaMetres2": 2367.779997207388,
+      "outerEnvelopeAreaMetres2": 2716.9909295808475,
+      "connectorAndEnvelopeAreaMetres2": 349.2109323734594,
+      "method": "Original full source strips enclosed without shrinking; straight front and rear source edges retained. Earth-bank grade now follows the independently sampled GSI anchors in terrainProfileReview rather than the former fixed-riser estimate.",
+      "surface": {
+        "surfaceId": "g-130r",
+        "boundary": [
+          [
+            136.5312706,
+            34.8441802
+          ],
+          [
+            136.5311842,
+            34.8442697
+          ],
+          [
+            136.5311353,
+            34.8443669
+          ],
+          [
+            136.5323684,
+            34.8447373
+          ],
+          [
+            136.5324665,
+            34.8446593
+          ],
+          [
+            136.5325037,
+            34.8445825
+          ],
+          [
+            136.5312706,
+            34.8441802
+          ]
+        ],
+        "baseHeight": 0.1,
+        "rise": 8.310759684133998,
+        "eyeHeight": 1.2,
+        "rows": 9,
+        "frontReference": [
+          136.5320416733899,
+          34.844062338152256
+        ],
+        "rowCountSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_g.pdf",
+          "checkedAt": "2026-10-25",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Organizer permanent G-1 130R chart maximum 9 numbered rows across its blocks. Gap between lower and upper printed rows denotes a walkway, not an independent bank starting at ground. Undated diagram is not complete2026 inventory certification."
+        },
+        "rowRiserMetres": 1.0388449605167498,
+        "rowFrontEdge": {
+          "coordinates": [
+            [
+              136.5312706,
+              34.8441802
+            ],
+            [
+              136.5325037,
+              34.8445825
+            ]
+          ],
+          "source": {
+            "url": "https://www.openstreetmap.org/way/184102361",
+            "checkedAt": "2026-10-25",
+            "method": "extracted",
+            "confidence": "medium",
+            "notes": "Unmodified original front strip long road-side edge. Rows follow this source seating front, not the PCA of the rear platform/envelope. Organizer aerial corroborates straight permanent seating. Not chosen by ray visibility."
+          }
+        },
+        "rowBearing": "local-normal",
+        "groundReference": {
+          "coordinate": [
+            136.53188715,
+            34.84438135
+          ],
+          "source": {
+            "url": "https://maps.gsi.go.jp/development/ichiran.html",
+            "checkedAt": "2026-10-25",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Earth-bank grade from GSI elevation at unchanged OSM front/rear strip edge midpoints. Organizer aerial corroborates ground-supported permanent terraces;0.1m floor slab allowance and uniform numbered-row interpolation are estimates, not engineering levels. Not fitted from occlusion tests."
+          }
+        },
+        "terrainRiseReference": {
+          "coordinate": [
+            136.53175184999998,
+            34.8445521
+          ],
+          "source": {
+            "url": "https://maps.gsi.go.jp/development/ichiran.html",
+            "checkedAt": "2026-10-25",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Earth-bank grade from GSI elevation at unchanged OSM front/rear strip edge midpoints. Organizer aerial corroborates ground-supported permanent terraces;0.1m floor slab allowance and uniform numbered-row interpolation are estimates, not engineering levels. Not fitted from occlusion tests."
+          }
+        }
+      },
+      "depthMetres": 23.88,
+      "rearGroundEdge": {
+        "coordinates": [
+          [
+            136.5311353,
+            34.8443669
+          ],
+          [
+            136.5323684,
+            34.8447373
+          ]
+        ],
+        "osmWay": 184102368
+      }
+    }
+  ],
+  "zone": {
+    "zoneId": "g",
+    "name": "G",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        136.5308394,
+        34.8443106
+      ],
+      [
+        136.5305439,
+        34.8452702
+      ],
+      [
+        136.5306586,
+        34.8452942
+      ],
+      [
+        136.5307993,
+        34.8451566
+      ],
+      [
+        136.5310424,
+        34.8444339
+      ],
+      [
+        136.5309575,
+        34.844338
+      ],
+      [
+        136.5308394,
+        34.8443106
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "g-overpass",
+        "boundary": [
+          [
+            136.5308394,
+            34.8443106
+          ],
+          [
+            136.5305439,
+            34.8452702
+          ],
+          [
+            136.5306586,
+            34.8452942
+          ],
+          [
+            136.5307993,
+            34.8451566
+          ],
+          [
+            136.5310424,
+            34.8444339
+          ],
+          [
+            136.5309575,
+            34.844338
+          ],
+          [
+            136.5308394,
+            34.8443106
+          ]
+        ],
+        "baseHeight": 0.1,
+        "rise": 8.614453956406933,
+        "eyeHeight": 1.2,
+        "rows": 10,
+        "frontReference": [
+          136.5304244167531,
+          34.844735278643
+        ],
+        "rowCountSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_g.pdf",
+          "checkedAt": "2026-10-25",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Organizer permanent G-2 Overpass chart maximum 10 numbered rows across its blocks. Gap between lower and upper printed rows denotes a walkway, not an independent bank starting at ground. Undated diagram is not complete2026 inventory certification."
+        },
+        "rowRiserMetres": 0.9571615507118815,
+        "rowFrontEdge": {
+          "coordinates": [
+            [
+              136.5305439,
+              34.8452702
+            ],
+            [
+              136.5308394,
+              34.8443106
+            ]
+          ],
+          "source": {
+            "url": "https://www.openstreetmap.org/way/184102012",
+            "checkedAt": "2026-10-25",
+            "method": "extracted",
+            "confidence": "medium",
+            "notes": "Unmodified original front strip long road-side edge. Rows follow this source seating front, not the PCA of the rear platform/envelope. Organizer aerial corroborates straight permanent seating. Not chosen by ray visibility."
+          }
+        },
+        "rowBearing": "local-normal",
+        "groundReference": {
+          "coordinate": [
+            136.53069165,
+            34.8447904
+          ],
+          "source": {
+            "url": "https://maps.gsi.go.jp/development/ichiran.html",
+            "checkedAt": "2026-10-25",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Earth-bank grade from GSI elevation at unchanged OSM front/rear strip edge midpoints. Organizer aerial corroborates ground-supported permanent terraces;0.1m floor slab allowance and uniform numbered-row interpolation are estimates, not engineering levels. Not fitted from occlusion tests."
+          }
+        },
+        "terrainRiseReference": {
+          "coordinate": [
+            136.53092085,
+            34.844795250000004
+          ],
+          "source": {
+            "url": "https://maps.gsi.go.jp/development/ichiran.html",
+            "checkedAt": "2026-10-25",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Earth-bank grade from GSI elevation at unchanged OSM front/rear strip edge midpoints. Organizer aerial corroborates ground-supported permanent terraces;0.1m floor slab allowance and uniform numbered-row interpolation are estimates, not engineering levels. Not fitted from occlusion tests."
+          }
+        }
+      },
+      {
+        "surfaceId": "g-130r",
+        "boundary": [
+          [
+            136.5312706,
+            34.8441802
+          ],
+          [
+            136.5311842,
+            34.8442697
+          ],
+          [
+            136.5311353,
+            34.8443669
+          ],
+          [
+            136.5323684,
+            34.8447373
+          ],
+          [
+            136.5324665,
+            34.8446593
+          ],
+          [
+            136.5325037,
+            34.8445825
+          ],
+          [
+            136.5312706,
+            34.8441802
+          ]
+        ],
+        "baseHeight": 0.1,
+        "rise": 8.310759684133998,
+        "eyeHeight": 1.2,
+        "rows": 9,
+        "frontReference": [
+          136.5320416733899,
+          34.844062338152256
+        ],
+        "rowCountSource": {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_g.pdf",
+          "checkedAt": "2026-10-25",
+          "method": "published",
+          "confidence": "high",
+          "notes": "Organizer permanent G-1 130R chart maximum 9 numbered rows across its blocks. Gap between lower and upper printed rows denotes a walkway, not an independent bank starting at ground. Undated diagram is not complete2026 inventory certification."
+        },
+        "rowRiserMetres": 1.0388449605167498,
+        "rowFrontEdge": {
+          "coordinates": [
+            [
+              136.5312706,
+              34.8441802
+            ],
+            [
+              136.5325037,
+              34.8445825
+            ]
+          ],
+          "source": {
+            "url": "https://www.openstreetmap.org/way/184102361",
+            "checkedAt": "2026-10-25",
+            "method": "extracted",
+            "confidence": "medium",
+            "notes": "Unmodified original front strip long road-side edge. Rows follow this source seating front, not the PCA of the rear platform/envelope. Organizer aerial corroborates straight permanent seating. Not chosen by ray visibility."
+          }
+        },
+        "rowBearing": "local-normal",
+        "groundReference": {
+          "coordinate": [
+            136.53188715,
+            34.84438135
+          ],
+          "source": {
+            "url": "https://maps.gsi.go.jp/development/ichiran.html",
+            "checkedAt": "2026-10-25",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Earth-bank grade from GSI elevation at unchanged OSM front/rear strip edge midpoints. Organizer aerial corroborates ground-supported permanent terraces;0.1m floor slab allowance and uniform numbered-row interpolation are estimates, not engineering levels. Not fitted from occlusion tests."
+          }
+        },
+        "terrainRiseReference": {
+          "coordinate": [
+            136.53175184999998,
+            34.8445521
+          ],
+          "source": {
+            "url": "https://maps.gsi.go.jp/development/ichiran.html",
+            "checkedAt": "2026-10-25",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Earth-bank grade from GSI elevation at unchanged OSM front/rear strip edge midpoints. Organizer aerial corroborates ground-supported permanent terraces;0.1m floor slab allowance and uniform numbered-row interpolation are estimates, not engineering levels. Not fitted from occlusion tests."
+          }
+        }
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.2,
+      "rise": 3.6,
+      "eyeHeight": 1.2,
+      "depth": 21.34
+    },
+    "source": {
+      "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_g.pdf",
+      "checkedAt": "2026-10-25",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Official permanent G1/G2 chart and organizer seat-view aerial identify two continuous banks, not four independent ground-based ramps. Outer envelopes retain all four original OSM building/bleacher outlines and connect their aisle. Source way IDs/profiles retained in asia/suzuka-g-permanent.json. Temporary G3/G4/G5 and exact walkway/seat boundaries are not fully modeled."
+    },
+    "openingSource": {
+      "url": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+      "checkedAt": "2026-10-25",
+      "method": "published",
+      "confidence": "medium",
+      "notes": "Organizer2026 sales announcement confirms existing G family and distinguishes G4 expansion/newG5. Permanent G1/G2 are interpreted separately from the organizer structural diagram and aerial. This is not complete2026 public inventory certification or live ticket stock."
+    },
+    "surfaceSource": {
+      "url": "https://maps.gsi.go.jp/development/ichiran.html",
+      "checkedAt": "2026-10-25",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Permanent G front and rear ground anchors use GSI regional elevations. Organizer numbered-row maxima retained; earth-bank row levels interpolate source grade with0.1m schematic slab clearance, not a surveyed2026 foundation/seat height."
+    },
+    "geometryReview": {
+      "checkedAt": "2026-10-25",
+      "issues": [],
+      "method": "Two permanent source banks reconstructed from paired OSM strips plus interposed aisle; complete outer envelope retains source points. Must pass full rendered road and other-object clearance. No visibility-based boundary reduction."
+    }
+  },
+  "terrainProfileReview": {
+    "checkedAt": "2026-10-25",
+    "previousPermanentZone": {
+      "zoneId": "g",
+      "name": "G",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          136.5308394,
+          34.8443106
+        ],
+        [
+          136.5305439,
+          34.8452702
+        ],
+        [
+          136.5306586,
+          34.8452942
+        ],
+        [
+          136.5307993,
+          34.8451566
+        ],
+        [
+          136.5310424,
+          34.8444339
+        ],
+        [
+          136.5309575,
+          34.844338
+        ],
+        [
+          136.5308394,
+          34.8443106
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "g-overpass",
+          "boundary": [
+            [
+              136.5308394,
+              34.8443106
+            ],
+            [
+              136.5305439,
+              34.8452702
+            ],
+            [
+              136.5306586,
+              34.8452942
+            ],
+            [
+              136.5307993,
+              34.8451566
+            ],
+            [
+              136.5310424,
+              34.8444339
+            ],
+            [
+              136.5309575,
+              34.844338
+            ],
+            [
+              136.5308394,
+              34.8443106
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 3.6,
+          "eyeHeight": 1.2,
+          "rows": 10,
+          "frontReference": [
+            136.5304244167531,
+            34.844735278643
+          ],
+          "rowCountSource": {
+            "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_g.pdf",
+            "checkedAt": "2026-10-25",
+            "method": "published",
+            "confidence": "high",
+            "notes": "Organizer permanent G-2 Overpass chart maximum 10 numbered rows across its blocks. Gap between lower and upper printed rows denotes a walkway, not an independent bank starting at ground. Undated diagram is not complete2026 inventory certification."
+          },
+          "rowRiserMetres": 0.4,
+          "rowFrontEdge": {
+            "coordinates": [
+              [
+                136.5305439,
+                34.8452702
+              ],
+              [
+                136.5308394,
+                34.8443106
+              ]
+            ],
+            "source": {
+              "url": "https://www.openstreetmap.org/way/184102012",
+              "checkedAt": "2026-10-25",
+              "method": "extracted",
+              "confidence": "medium",
+              "notes": "Unmodified original front strip long road-side edge. Rows follow this source seating front, not the PCA of the rear platform/envelope. Organizer aerial corroborates straight permanent seating. Not chosen by ray visibility."
+            }
+          },
+          "rowBearing": "local-normal",
+          "groundReference": {
+            "coordinate": [
+              136.53069165,
+              34.8447904
+            ],
+            "source": {
+              "url": "https://www.openstreetmap.org/way/184102012",
+              "checkedAt": "2026-10-25",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Front seating floor datum samples the existing GEDTM30 at the midpoint of the original road-side front edge, rather than the uphill roof/rear platform centroid. Source front-edge anchor is geometric, not optimized from raycasts. Not a surveyed construction elevation; regional DEM uncertainty remains."
+            }
+          }
+        },
+        {
+          "surfaceId": "g-130r",
+          "boundary": [
+            [
+              136.5312706,
+              34.8441802
+            ],
+            [
+              136.5311842,
+              34.8442697
+            ],
+            [
+              136.5311353,
+              34.8443669
+            ],
+            [
+              136.5323684,
+              34.8447373
+            ],
+            [
+              136.5324665,
+              34.8446593
+            ],
+            [
+              136.5325037,
+              34.8445825
+            ],
+            [
+              136.5312706,
+              34.8441802
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 3.2,
+          "eyeHeight": 1.2,
+          "rows": 9,
+          "frontReference": [
+            136.5320416733899,
+            34.844062338152256
+          ],
+          "rowCountSource": {
+            "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_g.pdf",
+            "checkedAt": "2026-10-25",
+            "method": "published",
+            "confidence": "high",
+            "notes": "Organizer permanent G-1 130R chart maximum 9 numbered rows across its blocks. Gap between lower and upper printed rows denotes a walkway, not an independent bank starting at ground. Undated diagram is not complete2026 inventory certification."
+          },
+          "rowRiserMetres": 0.4,
+          "rowFrontEdge": {
+            "coordinates": [
+              [
+                136.5312706,
+                34.8441802
+              ],
+              [
+                136.5325037,
+                34.8445825
+              ]
+            ],
+            "source": {
+              "url": "https://www.openstreetmap.org/way/184102361",
+              "checkedAt": "2026-10-25",
+              "method": "extracted",
+              "confidence": "medium",
+              "notes": "Unmodified original front strip long road-side edge. Rows follow this source seating front, not the PCA of the rear platform/envelope. Organizer aerial corroborates straight permanent seating. Not chosen by ray visibility."
+            }
+          },
+          "rowBearing": "local-normal",
+          "groundReference": {
+            "coordinate": [
+              136.53188715,
+              34.84438135
+            ],
+            "source": {
+              "url": "https://www.openstreetmap.org/way/184102361",
+              "checkedAt": "2026-10-25",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Front seating floor datum samples the existing GEDTM30 at the midpoint of the original road-side front edge, rather than the uphill roof/rear platform centroid. Source front-edge anchor is geometric, not optimized from raycasts. Not a surveyed construction elevation; regional DEM uncertainty remains."
+            }
+          }
+        }
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 3.6,
+        "eyeHeight": 1.2,
+        "depth": 21.34
+      },
+      "source": {
+        "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_g.pdf",
+        "checkedAt": "2026-10-25",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Official permanent G1/G2 chart and organizer seat-view aerial identify two continuous banks, not four independent ground-based ramps. Outer envelopes retain all four original OSM building/bleacher outlines and connect their aisle. Source way IDs/profiles retained in asia/suzuka-g-permanent.json. Temporary G3/G4/G5 and exact walkway/seat boundaries are not fully modeled."
+      },
+      "openingSource": {
+        "url": "https://www.honda-ml.co.jp/newsrelease/suzuka/2025/08/0828_f1.pdf",
+        "checkedAt": "2026-10-25",
+        "method": "published",
+        "confidence": "medium",
+        "notes": "Organizer2026 sales announcement confirms existing G family and distinguishes G4 expansion/newG5. Permanent G1/G2 are interpreted separately from the organizer structural diagram and aerial. This is not complete2026 public inventory certification or live ticket stock."
+      },
+      "surfaceSource": {
+        "url": "https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_g.pdf",
+        "checkedAt": "2026-10-25",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Permanent G1 max9 rows, G2 max10 rows. One continuous bank each with 0.4m estimated riser (0.3–0.5m plausible range); front base2.2m and eye1.2m retained. Existing coarse terrain datum sampled at each complete bank. Source-driven reduction of former separately guessed ramps, not height optimized for sightline clearance."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-25",
+        "issues": [],
+        "method": "Two permanent source banks reconstructed from paired OSM strips plus interposed aisle; complete outer envelope retains source points. Must pass full rendered road and other-object clearance. No visibility-based boundary reduction."
+      }
+    },
+    "method": "Organizer aerial shows unroofed, ground-supported terraces rather than a2.2m elevated box. Use original front-strip road-side edge and rear-strip uphill edge midpoints as independent GSI terrain anchors. Retain all footprint vertices and row counts. Uniform row levels interpolate the sampled bank relief, not a fixed0.4m per-row guess. No eye, car or sightline result is used to fit these anchors.",
+    "floorClearanceMetres": 0.1,
+    "floorClearanceEstimated": true,
+    "limitation": "0.1m floor clearance is a schematic slab allowance, not a measured bench/foundation. GSI5m/10m interpolation cannot resolve individual steps or the precise walkway. Full2026 inventory and exact row floors remain uncertified.",
+    "previousBankMethods": {
+      "g-overpass": "Conservative outer convex envelope of both unmodified adjacent OSM strips, including the intervening aisle and end taper. All source vertices retained inside; no shift, rotation or raycast-based clipping. Usable-seat boundary remains approximate, with aisle/platform space included.",
+      "g-130r": "Conservative outer convex envelope of both unmodified adjacent OSM strips, including the intervening aisle and end taper. All source vertices retained inside; no shift, rotation or raycast-based clipping. Usable-seat boundary remains approximate, with aisle/platform space included."
+    }
+  }
+}

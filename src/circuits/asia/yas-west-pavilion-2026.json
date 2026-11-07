@@ -1,0 +1,121 @@
+{
+  "circuitId": "yas-marina",
+  "season": 2026,
+  "source": {
+    "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-pavilion-4day",
+    "checkedAt": "2026-11-07",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "2026 promoter product independently offers unreserved seating/standing tables on elevated terrace, overlookingT7/T15/T16. Actual publisher product-map PNG labels WestPavilion outsideT7 exit beforeMarina stand. Approximate20x8m deck centered45m afterT7,35m driver-right,4m above center terrain; not measured perimeter/floor or complete venue construction. No West/WestClub seat alias."
+  },
+  "sourceMapSha256": "fd76b279b5b01240278021d2b2d7f94b9062e74821424fdae7142d5e3a58113f",
+  "beforeZones": [],
+  "zones": [
+    {
+      "zoneId": "west-pavilion",
+      "name": "West Pavilion",
+      "kind": "general-admission",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          54.602024771581355,
+          24.46811063741577
+        ],
+        [
+          54.60207501657854,
+          24.46793689303299
+        ],
+        [
+          54.601998660398486,
+          24.467918600266607
+        ],
+        [
+          54.6019484154013,
+          24.468092344649385
+        ],
+        [
+          54.602024771581355,
+          24.46811063741577
+        ]
+      ],
+      "surface": {
+        "baseHeight": 4,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 8
+      },
+      "surfaces": [
+        {
+          "surfaceId": "west-pavilion-1",
+          "boundary": [
+            [
+              54.602024771581355,
+              24.46811063741577
+            ],
+            [
+              54.60207501657854,
+              24.46793689303299
+            ],
+            [
+              54.601998660398486,
+              24.467918600266607
+            ],
+            [
+              54.6019484154013,
+              24.468092344649385
+            ],
+            [
+              54.602024771581355,
+              24.46811063741577
+            ]
+          ],
+          "rows": 0,
+          "baseHeight": 4,
+          "rise": 0,
+          "eyeHeight": 1.65,
+          "frontReference": [
+            54.60234577427765,
+            24.46809464969412
+          ],
+          "fenceMode": "authored",
+          "groundReference": {
+            "coordinate": [
+              54.602011715989924,
+              24.468014618841188
+            ],
+            "source": {
+              "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-pavilion-4day",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 promoter product independently offers unreserved seating/standing tables on elevated terrace, overlookingT7/T15/T16. Actual publisher product-map PNG labels WestPavilion outsideT7 exit beforeMarina stand. Approximate20x8m deck centered45m afterT7,35m driver-right,4m above center terrain; not measured perimeter/floor or complete venue construction. No West/WestClub seat alias."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-pavilion-4day",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter product independently offers unreserved seating/standing tables on elevated terrace, overlookingT7/T15/T16. Actual publisher product-map PNG labels WestPavilion outsideT7 exit beforeMarina stand. Approximate20x8m deck centered45m afterT7,35m driver-right,4m above center terrain; not measured perimeter/floor or complete venue construction. No West/WestClub seat alias."
+      },
+      "openingSource": {
+        "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-pavilion-4day",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter product independently offers unreserved seating/standing tables on elevated terrace, overlookingT7/T15/T16. Actual publisher product-map PNG labels WestPavilion outsideT7 exit beforeMarina stand. Approximate20x8m deck centered45m afterT7,35m driver-right,4m above center terrain; not measured perimeter/floor or complete venue construction. No West/WestClub seat alias."
+      },
+      "surfaceSource": {
+        "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-pavilion-4day",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 promoter product independently offers unreserved seating/standing tables on elevated terrace, overlookingT7/T15/T16. Actual publisher product-map PNG labels WestPavilion outsideT7 exit beforeMarina stand. Approximate20x8m deck centered45m afterT7,35m driver-right,4m above center terrain; not measured perimeter/floor or complete venue construction. No West/WestClub seat alias."
+      },
+      "admissionNote": "West Pavilion 专属露台票；周四露台不开放，尺寸与高度为近似。"
+    }
+  ]
+}

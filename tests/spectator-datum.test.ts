@@ -7,6 +7,22 @@ import {createSpectators} from '../src/circuits/spectators';
 import {DoubleSide,Mesh,MeshBasicMaterial,Raycaster,Vector3} from 'three';
 import {deckRailing} from '../src/circuits/deckRailing';
 
+it('Suzuka R uses the organizer maximum 19 rows with an estimated riser, keeping the source footprint and normal eye height',async()=>{
+ const d=await loadCircuit('suzuka'),snapshot=JSON.stringify(d),raw=d.spectatorZones.find(z=>z.zoneId==='r')!,source=raw.surfaces![0];
+ expect(source.rows).toBe(19);expect(source.rise).toBeCloseTo(7.2,8);expect(raw.surface.rise).toBe(source.rise);
+ expect(source.rowCountSource?.url).toBe('https://www.suzukacircuit.jp/eng/f1/ticket/images/seat/pdf/f1_r.pdf');
+ expect(source.rowCountSource?.method).toBe('published');expect(source.rowCountSource?.notes).toContain('A 12, B-D 16, E 17, F 18, L 11');
+ expect(source.rowCountSource?.notes).toContain('does not certify complete 2026');
+ expect(raw.surfaceSource?.method).toBe('estimated');expect(source.baseHeight).toBe(2.2);expect(source.baseReference).toBeUndefined();
+ const zones=terrainSpectatorZones(d),g=createCircuitGeometry(d.trackGeometry.coordinates,d.lengthMetres,d.elevation),m=createSpectators(zones,g);
+ expect(zones.find(z=>z.zoneId==='r')!.surfaces![0].boundary).toEqual(raw.boundary);
+ for(const u of [.05,.5,.95])for(const v of [.05,.5,.95]){
+  const eye=m.zonePoint('r',u,v),floor=m.zonePoint('r',u,v,false),look=m.facingTarget('r',u,v);
+  expect(eye.y-floor.y).toBeCloseTo(1.2,8);expect(look.toArray().every(Number.isFinite)).toBe(true);
+ }
+ expect(JSON.stringify(d)).toBe(snapshot);
+});
+
 it('Hungaroring reviewed seating counts replace footprint-derived rows without moving ground or footprints',async()=>{
  const d=await loadCircuit('hungaroring'),zones=terrainSpectatorZones(d);
  for(const [id,rows] of [['grand-prix-2',16],['podium',16],['chicane-3',17],['t1',26],['grand-prix-1',29],['apex-2',33],['grid-1',25],['grid-2',29],['grid-3',25],['pit-exit-1',12],['pit-exit-2',13]] as const){

@@ -1,0 +1,71 @@
+{
+  "circuitId": "monaco",
+  "zoneId": "b-casino",
+  "coreInputsSha256": "7e92f389b8798528ed9b9595fd52282e5c968a67a63c534055e8fe12d9923a18",
+  "candidateGeometrySha256": "6f0ae6a9d9d1b890b165f6ea62ed34cc8ae081af03b17cf5ca17ba3dab8480c4",
+  "exposure": {
+    "shutter": 1000,
+    "pan": "fixed",
+    "samples": 1,
+    "distance": 34.58777777814852,
+    "simulationSeconds": 6.305900000005963,
+    "velocity": 0,
+    "focal": 72,
+    "elapsedMs": 110.30000000447035,
+    "zoneId": "b-casino",
+    "observerPosture": "seated",
+    "eyeHeightMetres": 1.2000000000000028,
+    "observerPosition": [
+      -4.071227232206965,
+      51.79054574659197,
+      -39.78052703147836
+    ]
+  },
+  "observerPosition": [
+    -4.071227232206965,
+    51.79054574659197,
+    -39.78052703147836
+  ],
+  "cockpitPosition": [
+    7.037832359247415,
+    43.89840458133174,
+    -32.24545574801654
+  ],
+  "distanceMetres": 15.571589399471415,
+  "groundAtEye": 44.21281362492931,
+  "roadCentre": [
+    7.225735217928127,
+    42.91799025907295,
+    -32.5755505438
+  ],
+  "intersections": [
+    {
+      "object": "b-casino-1",
+      "distanceMetres": 7.892198815330395,
+      "point": [
+        1.5592132255980156,
+        47.79054641723633,
+        -35.961502580526286
+      ]
+    },
+    {
+      "object": "b-casino-1",
+      "distanceMetres": 7.963814210332977,
+      "point": [
+        1.610304971619538,
+        47.754249621034816,
+        -35.926847986669856
+      ]
+    },
+    {
+      "object": "b-casino-1",
+      "distanceMetres": 8.681421839820352,
+      "point": [
+        2.1222595136220503,
+        47.39054489135742,
+        -35.57959861455843
+      ]
+    }
+  ],
+  "scope": "Model road/verge/stand ray only; confirms this saved ray hits own seating, not whether this estimated section matches real Casino grandstand."
+}

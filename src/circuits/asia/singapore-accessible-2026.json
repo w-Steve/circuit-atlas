@@ -1,0 +1,475 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "source": {
+    "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+    "checkedAt": "2026-11-07",
+    "method": "estimated",
+    "confidence": "low",
+    "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+  },
+  "beforeZones": [
+    {
+      "zoneId": "empress-accessible",
+      "name": "Empress Accessible Platform",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.85241405848255,
+          1.2872230506647502
+        ],
+        [
+          103.85248594151746,
+          1.2872230506647502
+        ],
+        [
+          103.85248594151746,
+          1.2872769493352498
+        ],
+        [
+          103.85241405848255,
+          1.2872769493352498
+        ],
+        [
+          103.85241405848255,
+          1.2872230506647502
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.5,
+        "rise": 0,
+        "depth": 6,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "empress-accessible-1",
+          "boundary": [
+            [
+              103.85241405848255,
+              1.2872230506647502
+            ],
+            [
+              103.85248594151746,
+              1.2872230506647502
+            ],
+            [
+              103.85248594151746,
+              1.2872769493352498
+            ],
+            [
+              103.85241405848255,
+              1.2872769493352498
+            ],
+            [
+              103.85241405848255,
+              1.2872230506647502
+            ]
+          ],
+          "baseHeight": 0.5,
+          "rise": 0,
+          "rows": 1,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            103.852672265874,
+            1.2875983533549795
+          ],
+          "fenceMode": "authored",
+          "groundReference": {
+            "coordinate": [
+              103.85245,
+              1.28725
+            ],
+            "source": {
+              "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+      },
+      "admissionNote": "无障碍平台及核准陪同按票入场；Zone 4，平台范围与高度为近似。"
+    },
+    {
+      "zoneId": "empress-accessible",
+      "name": "Empress Accessible Platform",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.85241405848255,
+          1.2872230506647502
+        ],
+        [
+          103.85248594151746,
+          1.2872230506647502
+        ],
+        [
+          103.85248594151746,
+          1.2872769493352498
+        ],
+        [
+          103.85241405848255,
+          1.2872769493352498
+        ],
+        [
+          103.85241405848255,
+          1.2872230506647502
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.5,
+        "rise": 0,
+        "depth": 6,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "empress-accessible-1",
+          "boundary": [
+            [
+              103.85241405848255,
+              1.2872230506647502
+            ],
+            [
+              103.85248594151746,
+              1.2872230506647502
+            ],
+            [
+              103.85248594151746,
+              1.2872769493352498
+            ],
+            [
+              103.85241405848255,
+              1.2872769493352498
+            ],
+            [
+              103.85241405848255,
+              1.2872230506647502
+            ]
+          ],
+          "baseHeight": 0.5,
+          "rise": 0,
+          "rows": 1,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            103.852672265874,
+            1.2875983533549795
+          ],
+          "fenceMode": "authored",
+          "groundReference": {
+            "coordinate": [
+              103.85245,
+              1.28725
+            ],
+            "source": {
+              "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+            }
+          },
+          "viewRoadReference": {
+            "coordinate": [
+              103.852672265874,
+              1.2875983533549795
+            ],
+            "source": {
+              "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+      },
+      "admissionNote": "无障碍平台及核准陪同按票入场；Zone 4，平台范围与高度为近似。"
+    }
+  ],
+  "zones": [
+    {
+      "zoneId": "empress-accessible",
+      "name": "Empress Accessible Platform",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.85281824786426,
+          1.287264181189571
+        ],
+        [
+          103.85287435978398,
+          1.287219263314448
+        ],
+        [
+          103.85284066281437,
+          1.287177190069271
+        ],
+        [
+          103.85278455089465,
+          1.2872221079443942
+        ],
+        [
+          103.85281824786426,
+          1.287264181189571
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.5,
+        "rise": 0,
+        "depth": 6,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "empress-accessible-1",
+          "boundary": [
+            [
+              103.85281824786426,
+              1.287264181189571
+            ],
+            [
+              103.85287435978398,
+              1.287219263314448
+            ],
+            [
+              103.85284066281437,
+              1.287177190069271
+            ],
+            [
+              103.85278455089465,
+              1.2872221079443942
+            ],
+            [
+              103.85281824786426,
+              1.287264181189571
+            ]
+          ],
+          "baseHeight": 0.5,
+          "rise": 0,
+          "rows": 1,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            103.85294177857133,
+            1.2873609297800108
+          ],
+          "fenceMode": "authored",
+          "groundReference": {
+            "coordinate": [
+              103.85282945533932,
+              1.287220685629421
+            ],
+            "source": {
+              "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "2026 primary Empress platform photograph shows trackside seating beside catch fence; official map places it atT12 beforeAndersonBridge. Approximate8x6m floor, center20m outside actualT12 exit road40m downstream.0.5m deck estimate,1.2m seated eye; position/height not surveyed. Explicit view road independent of flat floor axes."
+            }
+          },
+          "viewRoadReference": {
+            "coordinate": [
+              103.85294177857133,
+              1.2873609297800108
+            ],
+            "source": {
+              "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 primary Empress platform photograph shows trackside seating beside catch fence; official map places it atT12 beforeAndersonBridge. Approximate8x6m floor, center20m outside actualT12 exit road40m downstream.0.5m deck estimate,1.2m seated eye; position/height not surveyed. Explicit view road independent of flat floor axes."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 primary Empress platform photograph shows trackside seating beside catch fence; official map places it atT12 beforeAndersonBridge. Approximate8x6m floor, center20m outside actualT12 exit road40m downstream.0.5m deck estimate,1.2m seated eye; position/height not surveyed. Explicit view road independent of flat floor axes."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/empress-wheelchair-accessible-platform/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "2026 primary Empress platform photograph shows trackside seating beside catch fence; official map places it atT12 beforeAndersonBridge. Approximate8x6m floor, center20m outside actualT12 exit road40m downstream.0.5m deck estimate,1.2m seated eye; position/height not surveyed. Explicit view road independent of flat floor axes."
+      },
+      "admissionNote": "无障碍平台及核准陪同按票入场；Zone 4，平台范围与高度为近似。"
+    },
+    {
+      "zoneId": "turn-1-accessible",
+      "name": "Turn 1 Accessible Platform",
+      "kind": "grandstand",
+      "availability": "available",
+      "supportToTerrain": true,
+      "boundary": [
+        [
+          103.86416405839637,
+          1.2933230506647502
+        ],
+        [
+          103.86423594160362,
+          1.2933230506647502
+        ],
+        [
+          103.86423594160362,
+          1.2933769493352498
+        ],
+        [
+          103.86416405839637,
+          1.2933769493352498
+        ],
+        [
+          103.86416405839637,
+          1.2933230506647502
+        ]
+      ],
+      "surface": {
+        "baseHeight": 0.5,
+        "rise": 0,
+        "depth": 6,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "turn-1-accessible-1",
+          "boundary": [
+            [
+              103.86416405839637,
+              1.2933230506647502
+            ],
+            [
+              103.86423594160362,
+              1.2933230506647502
+            ],
+            [
+              103.86423594160362,
+              1.2933769493352498
+            ],
+            [
+              103.86416405839637,
+              1.2933769493352498
+            ],
+            [
+              103.86416405839637,
+              1.2933230506647502
+            ]
+          ],
+          "baseHeight": 0.5,
+          "rise": 0,
+          "rows": 1,
+          "eyeHeight": 1.2,
+          "frontReference": [
+            103.86373687529066,
+            1.2943941215350052
+          ],
+          "fenceMode": "authored",
+          "groundReference": {
+            "coordinate": [
+              103.8642,
+              1.29335
+            ],
+            "source": {
+              "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/turn-1-wheelchair-accessible-platform/",
+              "checkedAt": "2026-11-07",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/turn-1-wheelchair-accessible-platform/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+      },
+      "openingSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/turn-1-wheelchair-accessible-platform/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+      },
+      "surfaceSource": {
+        "url": "https://singaporegp.sg/en/tickets/general-tickets/wheelchair-accessible-platforms/turn-1-wheelchair-accessible-platform/",
+        "checkedAt": "2026-11-07",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Organizer platform page location/circuit map dated05Oct2026 and early2026 promoter diagram confirm independent wheelchair platform. Approximate8x6m footprint:Empress southwest of retained Empress stand nearT12;Turn1 at southern approach end between retained Pit andTurn1 banks. Platform deck0.5m above sampled center terrain, precise ramp/railings/seat layout not surveyed. Live sale values not imported."
+      },
+      "admissionNote": "无障碍平台及核准陪同按票入场；Zones 1–4，平台范围与高度为近似。"
+    }
+  ],
+  "visualReview": {
+    "empress": "Corrected to source-informed T12 exit trackside bank and explicit road-facing reference. Desktop/mobile capture works and car visible; coarse local water shoreline, bridge body and incomplete catch fencing remain scene limitations, not a precise panorama restoration.",
+    "turn1": "Car visible through pronounced existing fence occlusion.",
+    "physicalEyeHeightMetres": 1.2
+  },
+  "orientationReview": {
+    "sourceImage": "https://storage.singaporegp.sg/web/2026/tickets/empress-wheelchair-platform/empress-wheelchair-platform-1.jpg",
+    "method": "Flat platform uses explicit authoredT12 road-view reference independently from the rectangular floor axes. No visibility search, geometry/height or position adjustment.",
+    "positionBasis": "2026 promoter photograph shows seats directly trackside beside catch fencing; existing point45m from nearest road faced through neighboring stand. Replacement20m centerline offset atT12 exit+40m is an explicit approximate source relationship, not visibility optimization."
+  }
+}

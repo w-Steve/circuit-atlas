@@ -1,0 +1,120 @@
+{
+  "circuitId": "montreal",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "ga-t6-family",
+      "name": "GA · T6 Family 区域",
+      "kind": "grass",
+      "availability": "available",
+      "boundary": [
+        [
+          -73.5284563435425,
+          45.50350508444125
+        ],
+        [
+          -73.5279436564575,
+          45.50350508444125
+        ],
+        [
+          -73.5279436564575,
+          45.50359491555874
+        ],
+        [
+          -73.5284563435425,
+          45.50359491555874
+        ],
+        [
+          -73.5284563435425,
+          45.50350508444125
+        ]
+      ],
+      "surfaces": [
+        {
+          "surfaceId": "ga-t6-family-1",
+          "boundary": [
+            [
+              -73.5284563435425,
+              45.50350508444125
+            ],
+            [
+              -73.5279436564575,
+              45.50350508444125
+            ],
+            [
+              -73.5279436564575,
+              45.50359491555874
+            ],
+            [
+              -73.5284563435425,
+              45.50359491555874
+            ],
+            [
+              -73.5284563435425,
+              45.50350508444125
+            ]
+          ],
+          "rowDirection": [
+            1,
+            0
+          ],
+          "baseHeight": 0.04,
+          "rise": 0,
+          "rows": 0,
+          "eyeHeight": 1.65,
+          "terrainFollow": true,
+          "terrainMeshSpacingMetres": 4
+        }
+      ],
+      "surface": {
+        "baseHeight": 0.04,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "depth": 10
+      },
+      "source": {
+        "url": "https://gpcanada.ca/en/event/site-map/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "T6 inside/family sector named by2026 GA supplier; supporting schematic depicts GA behind family stand33. Author40x10m subset north of registered33 footprint; not exact event ticket boundary. Terrain-standing1.65m; seat bank may block cars and is not removed."
+      },
+      "surfaceSource": {
+        "url": "https://gpcanada.ca/en/event/site-map/",
+        "checkedAt": "2026-11-06",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "T6 inside/family sector named by2026 GA supplier; supporting schematic depicts GA behind family stand33. Author40x10m subset north of registered33 footprint; not exact event ticket boundary. Terrain-standing1.65m; seat bank may block cars and is not removed."
+      },
+      "openingSource": {
+        "url": "https://web.archive.org/web/20260413110837id_/https://gpcanada.ca/en/tickets/general-admission/",
+        "checkedAt": "2026-11-06",
+        "method": "published",
+        "confidence": "high",
+        "notes": "Annual2026 organizer GA rights, excluding Blue/Senna and VIP; no reserved seating."
+      },
+      "description": "T6 Family区后侧近似GA地面，邻近看台可能遮挡赛车。",
+      "geometryReview": {
+        "checkedAt": "2026-11-06",
+        "issues": [],
+        "method": "Explicit estimated T6-family ground subset, registered seats/buildings/pits/water excluded. Natural occlusion retained."
+      },
+      "admissionNote": "普通GA近似观赛范围，不含Family编号座席；当年实际围界未测绘。"
+    }
+  ],
+  "beforeZones": [],
+  "sourceEvidence": {
+    "organizer": {
+      "url": "https://web.archive.org/web/20260413110837id_/https://gpcanada.ca/en/tickets/general-admission/",
+      "originalUrl": "https://gpcanada.ca/en/tickets/general-admission/",
+      "archiveTimestamp": "20260413110837",
+      "observedSeason": 2026,
+      "annualHeader": "May 22-23-24 2026",
+      "sha256": "e993a1d3949b6586556fdcce35fa32d1d3458c95d802cbf652a9e31f563faea0"
+    },
+    "sectorReport": "https://www.reddit.com/r/GrandPrixTravel/comments/1to7dgt/thoughts_on_montreal_general_admission/",
+    "supplier2026": "https://graandprix-events.com/product/general-admission-sunday-only/",
+    "notes": "Organizer archive confirms2026 GA rights. First-person report names green Casino Straight and yellow hairpin approach;2026 supplier also namesT10/T11 andT6. Exact report timestamp remains index-only; no annual footprint certification."
+  },
+  "accuracy": "Approximate location and extent; source year/rights separate from geometry precision."
+}

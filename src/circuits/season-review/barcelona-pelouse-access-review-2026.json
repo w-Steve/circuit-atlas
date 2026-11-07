@@ -1,0 +1,97 @@
+{
+  "circuitId": "barcelona",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "runtimeApplied": true,
+  "currentPartialModel": "src/circuits/europe/barcelona-n-bank-2026.json",
+  "annualTicketEntry": {
+    "url": "https://tickets.oneboxtds.com/tickets/events/44705?hl=es-ES",
+    "normalBrowserStatus": 403,
+    "title": "Attention Required! | Cloudflare",
+    "responseRecordSha256": "56355e0ea5cac7be3dac9fb70c846a6ca3e146672ab64b70601cc798f3e208e8",
+    "result": "Normal logged-out Edge page also receives Cloudflare blocked response. No seat map obtained, no challenge bypass attempted. Stop repeating this route."
+  },
+  "marshalManual": {
+    "url": "https://www.circuitcat.com/wp-content/uploads/2026/02/2026-Manual-del-Oficial-de-Carrera-febrero.pdf",
+    "sha256": "787cab917a10b470d4004653894383c0bbdf9a8996fa2174f84239ebc6c82644",
+    "edition": "February2026",
+    "pageCount": 45,
+    "relevantPageOneBased": 6,
+    "fact": "Venue facility description gives30000 Pelouse capacity, alongside permanent/temporary grandstand facility counts.",
+    "limitation": "Facility capacity is not an annual F1 ticket inventory or positive geographic access boundary. No grass polygon accepted from it."
+  },
+  "supplierSearchResultCheck": {
+    "url": "https://prix.gpticketshop.com/es/f1/gran-premio-f1-de-espana/pdfpricelist.html",
+    "livePdfSha256": "c59ad7d8afa2eb013fbf96ea3b59b11800bd92abc6f6c0e13c3cd33545ca2374",
+    "livePageCount": 3,
+    "result": "Live PDF contains a generic ticket catalogue, with no Barcelona, Pelouse or price-list heading anywhere. Indexed2026 snippet not accepted as the retrieved annual price list.",
+    "archiveChecks": [
+      {
+        "scope": "Broad domain CDX returned unrelated country URLs",
+        "result": "Excluded; not Barcelona evidence and not evidence of archive absence."
+      },
+      {
+        "scope": "Path-filtered domain and exact indexed URL prefix in2026",
+        "result": "Both requests timed out; no usable archived document obtained. Not proof that no archive exists."
+      }
+    ]
+  },
+  "unresolvedGroundCandidates": [
+    {
+      "nativeWayId": 1427286510,
+      "name": "Pelouse",
+      "status": "Independent approximate ground model applied; annual exact enclosure remains unverified.",
+      "modelZoneId": "pelouse-t8"
+    },
+    {
+      "nativeWayId": 1427286511,
+      "name": "Pelouse",
+      "status": "Explicit approximate physical ground subset modeled; precise annual ticket perimeter remains unverified.",
+      "modelZoneId": "pelouse-back-straight"
+    },
+    {
+      "nativeWayId": 1427286512,
+      "name": "Pelouse",
+      "status": "Explicit approximate physical ground subset modeled; precise annual ticket perimeter remains unverified.",
+      "modelZoneId": "pelouse-north-n"
+    },
+    {
+      "nativeWayId": 1427286513,
+      "name": "Pelouse",
+      "status": "Only the interpreted T8/T9 N-adjacent portion is modeled; remainder and complete event enclosure remain unresolved."
+    }
+  ],
+  "nextAction": "Refine exact annual fences and internal facilities if available; all positively identified major Pelouse families now have approximate geography. Do not reopen whole-family missing solely due to survey precision.",
+  "physicalRemainderCandidate": "src/circuits/europe/barcelona-pelouse-remainder-candidate-2026.json",
+  "commonPelouseModel": "src/circuits/europe/barcelona-common-pelouse-2026.json",
+  "northernGroundModels": "src/circuits/europe/barcelona-pelouse-north-2026.json",
+  "smallT8ParcelReview": {
+    "nativeWayId": 1427286510,
+    "areaM2": 434.6,
+    "existingGroundOrSeatIntersectionM2": 0,
+    "decision": "Independent source-ground subset modeled with explicit annual enclosure uncertainty; not merged into AlonsoLand.",
+    "modelZoneId": "pelouse-t8",
+    "modelReview": "src/circuits/europe/barcelona-pelouse-t8-2026.json"
+  },
+  "privilegeModel": {
+    "modelReview": "src/circuits/europe/barcelona-pelouse-privilege-2026.json",
+    "nativeWay": "1530387870",
+    "annualMap": "research/season-review/barcelona-2026/wayfinding-2026.png",
+    "membershipSource": "https://www.circuitcat.com/en/frequently-asked-questions-membership/",
+    "admission": "Season ticket holders only; ordinary Pelouse excluded.",
+    "geographicBoundaryVerified": false
+  },
+  "practicalCoverageReview": {
+    "accepted": true,
+    "checkedAt": "2026-11-06",
+    "modelZoneIds": [
+      "alonso-land-pelouse",
+      "pelouse-jove",
+      "pelouse-t5-t8",
+      "pelouse-back-straight",
+      "pelouse-north-n",
+      "pelouse-t8",
+      "pelouse-privilege"
+    ]
+  }
+}

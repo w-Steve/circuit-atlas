@@ -24,7 +24,7 @@ for r in rows:
         coords = list(reversed(coords))
     available = True
     official = source('https://www.formula1.com/en/racing/2026/' + r['slug'], 'published', 'high',
-                      '2026赛历及赛道事实；雪邦赛事名称保留巴林大奖赛，举办国为马来西亚')
+                      '对应赛季官方赛事页面参考；几何、高程及观众区另列来源。')
     gis = source('https://github.com/bacinger/f1-circuits/blob/master/circuits/' + r['geoId'] + '.geojson',
                  'extracted', 'medium', 'MIT地理中心线；水平投影后按公布圈长校准，不代表测绘精度')
     summary = dict(circuitId=r['id'], name=r['name'], country=r['country'], location=r['location'],
@@ -52,6 +52,13 @@ for r in rows:
         widthSource=source(official['url'],'estimated','low','统一14m示意路宽；尚无全圈逐段宽度测绘')),
         corners=corners, elevation=dict(status='unavailable',samples=[],notes='无可靠逐点高程；水平参考面，不表示真实场地平坦'),
         pitLocation=None,spectatorZones=zones,validation=dict(layout='verified' if available else 'pending',corners='verified' if corners else 'pending'))
+    if r['id']=='monaco':
+        width=read('src/circuits/europe/monaco-width-reference.json')
+        package['trackGeometry'].update(widthMetres=width['widthMetres'],widthSource=width['source'])
+    if r['id']=='montreal':
+        width=read('src/circuits/americas/montreal-width-reference-2026.json')
+        assert width['circuitId']==r['id'] and width['season']==2026
+        package['trackGeometry'].update(widthMetres=width['widthMetres'],widthSource=width['source'])
     requests_file=root/'research/elevation-requests.json'
     if requests_file.exists():
         requests=[q for q in json.loads(requests_file.read_text()) if q['id']==r['id']]

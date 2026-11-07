@@ -1,0 +1,107 @@
+{
+  "circuitId": "singapore",
+  "season": 2026,
+  "zoneId": "walkabout-padang",
+  "checkedAt": "2026-11-05",
+  "zone": {
+    "zoneId": "walkabout-padang",
+    "name": "Zone 4 Walkabout · Padang",
+    "kind": "general-admission",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        103.85322861408486,
+        1.2920254778959945
+      ],
+      [
+        103.85314994742303,
+        1.291884196958359
+      ],
+      [
+        103.85319705304728,
+        1.2918579814057332
+      ],
+      [
+        103.85327571970909,
+        1.2919992623433687
+      ],
+      [
+        103.85322861408486,
+        1.2920254778959945
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "walkabout-padang-1",
+        "boundary": [
+          [
+            103.85322861408486,
+            1.2920254778959945
+          ],
+          [
+            103.85314994742303,
+            1.291884196958359
+          ],
+          [
+            103.85319705304728,
+            1.2918579814057332
+          ],
+          [
+            103.85327571970909,
+            1.2919992623433687
+          ],
+          [
+            103.85322861408486,
+            1.2920254778959945
+          ]
+        ],
+        "baseHeight": 1.2,
+        "rise": 0,
+        "eyeHeight": 1.65,
+        "rows": 0,
+        "frontReference": [
+          103.853117,
+          1.292139
+        ]
+      }
+    ],
+    "surface": {
+      "baseHeight": 1.2,
+      "rise": 0,
+      "depth": 6,
+      "eyeHeight": 1.65
+    },
+    "source": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Promoter confirms Zone4 trackside standing viewing platforms; early2026 map supplies Padang-side public viewing context. Approximate18x6m platform nearT9 Padang side,17m front offset,1.2m deck. Exact installation extent/height not surveyed. User-approved practical approximation; not all colored public ground."
+    },
+    "openingSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+      "checkedAt": "2026-11-05",
+      "method": "published",
+      "confidence": "medium",
+      "notes": "Explicit named2026 ordinary reserved-seat product; catalogue snapshot retained in annual-access review. No live availability claim."
+    },
+    "surfaceSource": {
+      "url": "https://singaporegp.sg/en/tickets/general-tickets/walkabouts/zone-4-walkabout/",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Promoter confirms Zone4 trackside standing viewing platforms; early2026 map supplies Padang-side public viewing context. Approximate18x6m platform nearT9 Padang side,17m front offset,1.2m deck. Exact installation extent/height not surveyed. User-approved practical approximation; not all colored public ground."
+    },
+    "description": "Padang侧近似站立观赛平台。",
+    "geometryReview": {
+      "checkedAt": "2026-11-05",
+      "issues": [],
+      "method": "Discrete approximate standing platform near Padang, not a whole-zone admission polygon; road/neighbor screening."
+    },
+    "admissionNote": "Zone 4 Walkabout与Premier Walkabout可进入；范围与平台高度为估计。"
+  },
+  "sourceMap": "https://boys-trip.co.nz/assets/Packages/Singapore-F1/2026/2026-Formula-1-Singapore-Grand-Prix-Track-Map.pdf",
+  "accuracy": "Practical author approximation permitted by user; no seat survey claim.",
+  "coverage": "First partial platform only; additional Zone4/Premier platforms remain missing."
+}

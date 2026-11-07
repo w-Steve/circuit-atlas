@@ -1,0 +1,871 @@
+{
+  "circuitId": "spa",
+  "season": 2026,
+  "zones": [
+    {
+      "zoneId": "gold-6-chicane",
+      "name": "Gold 6 · Chicane",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          5.966852426269468,
+          50.44170897624782
+        ],
+        [
+          5.966455363482447,
+          50.44212294692824
+        ],
+        [
+          5.966262755993234,
+          50.44204802515536
+        ],
+        [
+          5.966659818780254,
+          50.44163405447494
+        ],
+        [
+          5.966852426269468,
+          50.44170897624782
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 8,
+        "depth": 16,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "gold-6-chicane-1",
+          "boundary": [
+            [
+              5.966852426269468,
+              50.44170897624782
+            ],
+            [
+              5.966455363482447,
+              50.44212294692824
+            ],
+            [
+              5.966262755993234,
+              50.44204802515536
+            ],
+            [
+              5.966659818780254,
+              50.44163405447494
+            ],
+            [
+              5.966852426269468,
+              50.44170897624782
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 8,
+          "eyeHeight": 1.2,
+          "rows": 20,
+          "frontReference": [
+            5.967015033918232,
+            50.44205643991217
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.966852426269468,
+                50.44170897624782
+              ],
+              [
+                5.966455363482447,
+                50.44212294692824
+              ]
+            ],
+            "back": [
+              [
+                5.966659818780254,
+                50.44163405447494
+              ],
+              [
+                5.966262755993234,
+                50.44204802515536
+              ]
+            ],
+            "source": {
+              "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Preserve annual named approximate stand sector, reconstruct paired rows against actual nearest road branch and source-sector side. Author dimensions54x16m/front offset30m,20rows/base2.2m/rise8m. Not surveyed installation or exact ticket boundary. Approximate54m bank limited by neighboring actual chicane road; no measured total-seat coverage claimed."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Preserve annual named approximate stand sector, reconstruct paired rows against actual nearest road branch and source-sector side. Author dimensions54x16m/front offset30m,20rows/base2.2m/rise8m. Not surveyed installation or exact ticket boundary. Approximate54m bank limited by neighboring actual chicane road; no measured total-seat coverage claimed."
+      },
+      "openingSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Preserve annual named approximate stand sector, reconstruct paired rows against actual nearest road branch and source-sector side. Author dimensions54x16m/front offset30m,20rows/base2.2m/rise8m. Not surveyed installation or exact ticket boundary. Approximate54m bank limited by neighboring actual chicane road; no measured total-seat coverage claimed."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Author approximation in existing named map sector, real-road front/back alignment; old crossing schematic rectangle replaced."
+      },
+      "description": "近似座席范围与高度；场景设施仍待完善。"
+    },
+    {
+      "zoneId": "gold-11-chicane",
+      "name": "Gold 11 · Chicane",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          5.966007721077,
+          50.44107922811019
+        ],
+        [
+          5.9660124077205,
+          50.44170803884969
+        ],
+        [
+          5.965786714113736,
+          50.44170872104149
+        ],
+        [
+          5.965782027470236,
+          50.441079910301994
+        ],
+        [
+          5.966007721077,
+          50.44107922811019
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 8,
+        "depth": 16,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "gold-11-chicane-1",
+          "boundary": [
+            [
+              5.966007721077,
+              50.44107922811019
+            ],
+            [
+              5.9660124077205,
+              50.44170803884969
+            ],
+            [
+              5.965786714113736,
+              50.44170872104149
+            ],
+            [
+              5.965782027470236,
+              50.441079910301994
+            ],
+            [
+              5.966007721077,
+              50.44107922811019
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 8,
+          "eyeHeight": 1.2,
+          "rows": 20,
+          "frontReference": [
+            5.966433239911433,
+            50.44139235437031
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.966007721077,
+                50.44107922811019
+              ],
+              [
+                5.9660124077205,
+                50.44170803884969
+              ]
+            ],
+            "back": [
+              [
+                5.965782027470236,
+                50.441079910301994
+              ],
+              [
+                5.965786714113736,
+                50.44170872104149
+              ]
+            ],
+            "source": {
+              "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Preserve annual named approximate stand sector, reconstruct paired rows against actual nearest road branch and source-sector side. Author dimensions70x16m/front offset30m,20rows/base2.2m/rise8m. Not surveyed installation or exact ticket boundary."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Preserve annual named approximate stand sector, reconstruct paired rows against actual nearest road branch and source-sector side. Author dimensions70x16m/front offset30m,20rows/base2.2m/rise8m. Not surveyed installation or exact ticket boundary."
+      },
+      "openingSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Preserve annual named approximate stand sector, reconstruct paired rows against actual nearest road branch and source-sector side. Author dimensions70x16m/front offset30m,20rows/base2.2m/rise8m. Not surveyed installation or exact ticket boundary."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Author approximation in existing named map sector, real-road front/back alignment; old crossing schematic rectangle replaced."
+      },
+      "description": "近似座席范围与高度；场景设施仍待完善。"
+    },
+    {
+      "zoneId": "silver-3-double-gauche",
+      "name": "Silver 3 · Double Gauche",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          5.967562888912824,
+          50.43118525317954
+        ],
+        [
+          5.968643471917673,
+          50.431762676472474
+        ],
+        [
+          5.968824815277838,
+          50.43162504721571
+        ],
+        [
+          5.967744232272989,
+          50.43104762392279
+        ],
+        [
+          5.967562888912824,
+          50.43118525317954
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 9.6,
+        "depth": 20.0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "silver-3-double-gauche-1",
+          "boundary": [
+            [
+              5.967562888912824,
+              50.43118525317954
+            ],
+            [
+              5.968643471917673,
+              50.431762676472474
+            ],
+            [
+              5.968824815277838,
+              50.43162504721571
+            ],
+            [
+              5.967744232272989,
+              50.43104762392279
+            ],
+            [
+              5.967562888912824,
+              50.43118525317954
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 9.6,
+          "eyeHeight": 1.2,
+          "rows": 19,
+          "frontReference": [
+            5.967783990843651,
+            50.43171621148706
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。"
+      },
+      "openingSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Retain existing approximate geometry; legacy0.0013m2 numerical road sliver below0.1m2 planar screening tolerance. Not evidence of material road occupation."
+      }
+    },
+    {
+      "zoneId": "silver-4-bruxelles",
+      "name": "Silver 4 · Bruxelles",
+      "kind": "grandstand",
+      "availability": "available",
+      "boundary": [
+        [
+          5.973201621331521,
+          50.42844802563297
+        ],
+        [
+          5.973981626923189,
+          50.42875494777894
+        ],
+        [
+          5.974100261754206,
+          50.42863267578959
+        ],
+        [
+          5.973320256162538,
+          50.42832575364361
+        ],
+        [
+          5.973201621331521,
+          50.42844802563297
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 8,
+        "depth": 16,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "silver-4-bruxelles-1",
+          "boundary": [
+            [
+              5.973201621331521,
+              50.42844802563297
+            ],
+            [
+              5.973981626923189,
+              50.42875494777894
+            ],
+            [
+              5.974100261754206,
+              50.42863267578959
+            ],
+            [
+              5.973320256162538,
+              50.42832575364361
+            ],
+            [
+              5.973201621331521,
+              50.42844802563297
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 8,
+          "eyeHeight": 1.2,
+          "rows": 20,
+          "frontReference": [
+            5.973369183819198,
+            50.42883074668598
+          ],
+          "rowBearing": "local-normal",
+          "rowStrip": {
+            "front": [
+              [
+                5.973201621331521,
+                50.42844802563297
+              ],
+              [
+                5.973981626923189,
+                50.42875494777894
+              ]
+            ],
+            "back": [
+              [
+                5.973320256162538,
+                50.42832575364361
+              ],
+              [
+                5.974100261754206,
+                50.42863267578959
+              ]
+            ],
+            "source": {
+              "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+              "checkedAt": "2026-11-05",
+              "method": "estimated",
+              "confidence": "low",
+              "notes": "Preserve annual named approximate stand sector, reconstruct paired rows against actual nearest road branch and source-sector side. Author dimensions65x16m/front offset30m,20rows/base2.2m/rise8m. Not surveyed installation or exact ticket boundary."
+            }
+          }
+        }
+      ],
+      "source": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Preserve annual named approximate stand sector, reconstruct paired rows against actual nearest road branch and source-sector side. Author dimensions65x16m/front offset30m,20rows/base2.2m/rise8m. Not surveyed installation or exact ticket boundary."
+      },
+      "openingSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-11-05",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "Preserve annual named approximate stand sector, reconstruct paired rows against actual nearest road branch and source-sector side. Author dimensions65x16m/front offset30m,20rows/base2.2m/rise8m. Not surveyed installation or exact ticket boundary."
+      },
+      "geometryReview": {
+        "checkedAt": "2026-11-05",
+        "issues": [],
+        "method": "Author approximation in existing named map sector, real-road front/back alignment; old crossing schematic rectangle replaced."
+      },
+      "description": "近似座席范围与高度；场景设施仍待完善。"
+    }
+  ],
+  "beforeZones": [
+    {
+      "zoneId": "gold-6-chicane",
+      "name": "Gold 6 · Chicane",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          5.96623442200249,
+          50.44214275199855
+        ],
+        [
+          5.967267424132315,
+          50.44192900506569
+        ],
+        [
+          5.967162808213905,
+          50.44172396233849
+        ],
+        [
+          5.96612980608408,
+          50.441937709271365
+        ],
+        [
+          5.96623442200249,
+          50.44214275199855
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.52,
+        "depth": 24.0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "gold-6-chicane-1",
+          "boundary": [
+            [
+              5.96623442200249,
+              50.44214275199855
+            ],
+            [
+              5.967267424132315,
+              50.44192900506569
+            ],
+            [
+              5.967162808213905,
+              50.44172396233849
+            ],
+            [
+              5.96612980608408,
+              50.441937709271365
+            ],
+            [
+              5.96623442200249,
+              50.44214275199855
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.52,
+          "eyeHeight": 1.2,
+          "rows": 23,
+          "frontReference": [
+            5.966850214918008,
+            50.44223048631405
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。"
+      },
+      "openingSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "gold-6-chicane-1: road intersection 210.5617 m2"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "gold-11-chicane",
+      "name": "Gold 11 · Chicane",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          5.96557013436319,
+          50.44148420158103
+        ],
+        [
+          5.966557555015071,
+          50.44148420158103
+        ],
+        [
+          5.966557555015071,
+          50.44126860689903
+        ],
+        [
+          5.96557013436319,
+          50.44126860689903
+        ],
+        [
+          5.96557013436319,
+          50.44148420158103
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 11.52,
+        "depth": 24.0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "gold-11-chicane-1",
+          "boundary": [
+            [
+              5.96557013436319,
+              50.44148420158103
+            ],
+            [
+              5.966557555015071,
+              50.44148420158103
+            ],
+            [
+              5.966557555015071,
+              50.44126860689903
+            ],
+            [
+              5.96557013436319,
+              50.44126860689903
+            ],
+            [
+              5.96557013436319,
+              50.44148420158103
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 11.52,
+          "eyeHeight": 1.2,
+          "rows": 23,
+          "frontReference": [
+            5.966063844689131,
+            50.44307675318084
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。"
+      },
+      "openingSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "gold-11-chicane-1: road intersection 338.8055 m2",
+          "gold-11-chicane-1: unresolved diagram bearing (89.7 degrees)"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "silver-3-double-gauche",
+      "name": "Silver 3 · Double Gauche",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          5.967562888912824,
+          50.43118525317954
+        ],
+        [
+          5.968643471917673,
+          50.431762676472474
+        ],
+        [
+          5.968824815277838,
+          50.43162504721571
+        ],
+        [
+          5.967744232272989,
+          50.43104762392279
+        ],
+        [
+          5.967562888912824,
+          50.43118525317954
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 9.6,
+        "depth": 20.0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "silver-3-double-gauche-1",
+          "boundary": [
+            [
+              5.967562888912824,
+              50.43118525317954
+            ],
+            [
+              5.968643471917673,
+              50.431762676472474
+            ],
+            [
+              5.968824815277838,
+              50.43162504721571
+            ],
+            [
+              5.967744232272989,
+              50.43104762392279
+            ],
+            [
+              5.967562888912824,
+              50.43118525317954
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 9.6,
+          "eyeHeight": 1.2,
+          "rows": 19,
+          "frontReference": [
+            5.967783990843651,
+            50.43171621148706
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。"
+      },
+      "openingSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "silver-3-double-gauche-1: road intersection 0.0013 m2"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    },
+    {
+      "zoneId": "silver-4-bruxelles",
+      "name": "Silver 4 · Bruxelles",
+      "kind": "grandstand",
+      "availability": "preparing",
+      "boundary": [
+        [
+          5.9730997358864615,
+          50.429117648751884
+        ],
+        [
+          5.973897692273694,
+          50.42860948721312
+        ],
+        [
+          5.973698203176886,
+          50.42848244682843
+        ],
+        [
+          5.972900246789654,
+          50.428990608367194
+        ],
+        [
+          5.9730997358864615,
+          50.429117648751884
+        ]
+      ],
+      "surface": {
+        "baseHeight": 2.2,
+        "rise": 9.6,
+        "depth": 20.0,
+        "eyeHeight": 1.2
+      },
+      "surfaces": [
+        {
+          "surfaceId": "silver-4-bruxelles-1",
+          "boundary": [
+            [
+              5.9730997358864615,
+              50.429117648751884
+            ],
+            [
+              5.973897692273694,
+              50.42860948721312
+            ],
+            [
+              5.973698203176886,
+              50.42848244682843
+            ],
+            [
+              5.972900246789654,
+              50.428990608367194
+            ],
+            [
+              5.9730997358864615,
+              50.429117648751884
+            ]
+          ],
+          "baseHeight": 2.2,
+          "rise": 9.6,
+          "eyeHeight": 1.2,
+          "rows": 19,
+          "frontReference": [
+            5.9735397721994845,
+            50.428889714971824
+          ]
+        }
+      ],
+      "source": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "根据主办方看台说明与GIS弯道相对关系人工估计平面边界；存在数十米位置误差，非测绘。"
+      },
+      "openingSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "medium",
+        "notes": "2026场馆看台资料与名称/位置匹配；多个分区可能合并为看台家族，不表示实时售票或每个座位均已还原"
+      },
+      "surfaceSource": {
+        "url": "https://www.spagrandprix.com/en/ticketing/access-tickets",
+        "checkedAt": "2026-10-23",
+        "method": "estimated",
+        "confidence": "low",
+        "notes": "高度、阶梯与围网为估计；按边界深度配置坡面，非现场测量。未还原屋顶、城市建筑或植被遮挡。"
+      },
+      "geometryReview": {
+        "checkedAt": "2026-10-23",
+        "issues": [
+          "silver-4-bruxelles-1: road intersection 289.0097 m2",
+          "silver-4-bruxelles-1: unresolved diagram bearing (75.6 degrees)"
+        ],
+        "method": "Rendered road triangle / full footprint intersection; broad-face road reference. Bearings and heights remain estimates."
+      }
+    }
+  ]
+}

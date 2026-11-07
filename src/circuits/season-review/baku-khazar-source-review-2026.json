@@ -1,0 +1,121 @@
+{
+  "circuitId": "baku",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "zoneId": "khazar",
+  "runtimeApplied": false,
+  "currentGeometryReview": {
+    "source": "src/circuits/season-review/spatial-screen-2026-10-29.json",
+    "roadIntersectionMetres2": 0,
+    "availability": "preparing",
+    "reason": "Author approximate inland bank replaces disproven two-point registration;2026 admission still unverified."
+  },
+  "currentImage": {
+    "requestUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=49.839%2C40.3675%2C49.843%2C40.3705&bboxSR=4326&imageSR=4326&size=1200%2C1000&format=png&f=json",
+    "extent": {
+      "xmin": 49.83899999999999,
+      "ymin": 40.367333333333335,
+      "xmax": 49.842999999999996,
+      "ymax": 40.37066666666667,
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      }
+    },
+    "sha256": "4762f8e867121814e42cafd8ee51791639eb4c72b4ad5d6252c6848d885077fa",
+    "metadataUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/identify?f=json&geometry=49.841%2C40.3687&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=49.839%2C40.3675%2C49.843%2C40.3705&imageDisplay=1200%2C1000%2C96&returnGeometry=false",
+    "captureDate": "20251012",
+    "resolutionMetres": 0.5,
+    "accuracyMetres": 8.47,
+    "observation": "Ordinary streets, parked vehicles and public-space landscaping visible; no identifiable installed Khazar seating footprint. Post-event image not used to infer cancellation or absence of annual grandstand."
+  },
+  "olderMetadataChecks": [
+    {
+      "releaseTitle": "World Imagery (Wayback 2017-09-13)",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2017_r16/MapServer/identify?f=json&geometry=49.841%2C40.3687&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=49.839%2C40.3675%2C49.843%2C40.3705&imageDisplay=1200%2C1000%2C96&returnGeometry=false",
+      "metadataSha256": "db55e0d979884251ea50de59de0b56987313c606b556728c713b5e20405820f8",
+      "captures": [
+        {
+          "SRC_DATE": "20160318",
+          "SRC_RES": "0.31",
+          "SRC_ACC": "4.23"
+        }
+      ],
+      "imageDownloaded": false
+    },
+    {
+      "releaseTitle": "World Imagery (Wayback 2024-09-19)",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r10/MapServer/identify?f=json&geometry=49.841%2C40.3687&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=49.839%2C40.3675%2C49.843%2C40.3705&imageDisplay=1200%2C1000%2C96&returnGeometry=false",
+      "metadataSha256": "d01fcc95ef30e374dbc19fefc90b3ec92b128e84a621f6c9d69907dd2c622425",
+      "captures": [
+        {
+          "SRC_DATE": "20240131",
+          "SRC_RES": "0.5",
+          "SRC_ACC": "5"
+        }
+      ],
+      "imageDownloaded": false
+    },
+    {
+      "releaseTitle": "World Imagery (Wayback 2021-09-28)",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r13/MapServer/identify?f=json&geometry=49.841%2C40.3687&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=49.839%2C40.3675%2C49.843%2C40.3705&imageDisplay=1200%2C1000%2C96&returnGeometry=false",
+      "metadataSha256": "be551d7ad04161abd0cc8fa3f87c25861a4f742b2bd34fbe67b86c87ec725774",
+      "captures": [
+        {
+          "SRC_DATE": "20200614",
+          "SRC_RES": "0.5",
+          "SRC_ACC": "4.23"
+        }
+      ],
+      "imageDownloaded": false
+    },
+    {
+      "releaseTitle": "World Imagery (Wayback 2023-12-07)",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r11/MapServer/identify?f=json&geometry=49.841%2C40.3687&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=49.839%2C40.3675%2C49.843%2C40.3705&imageDisplay=1200%2C1000%2C96&returnGeometry=false",
+      "metadataSha256": "adb522e9dc5ba58ff585a0e0a5fc24943aa370b0982193286143880a9bb10699",
+      "captures": [
+        {
+          "SRC_DATE": "20230321",
+          "SRC_RES": "0.5",
+          "SRC_ACC": "5"
+        }
+      ],
+      "imageDownloaded": false
+    },
+    {
+      "releaseTitle": "World Imagery (Wayback 2025-09-25)",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r09/MapServer/identify?f=json&geometry=49.841%2C40.3687&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=49.839%2C40.3675%2C49.843%2C40.3705&imageDisplay=1200%2C1000%2C96&returnGeometry=false",
+      "metadataSha256": "91784e57e9b7d8fb37be2f902bb562008e7eb283f6292129d7f48289aaf49670",
+      "captures": [
+        {
+          "SRC_DATE": "20250330",
+          "SRC_RES": "0.34",
+          "SRC_ACC": "8.47"
+        }
+      ],
+      "imageDownloaded": false
+    },
+    {
+      "releaseTitle": "World Imagery (Wayback 2019-09-18)",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2019_r12/MapServer/identify?f=json&geometry=49.841%2C40.3687&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=49.839%2C40.3675%2C49.843%2C40.3705&imageDisplay=1200%2C1000%2C96&returnGeometry=false",
+      "metadataSha256": "17f08262855e1493ff1cb471d3db6b9fe51d0d26253ba50661127288b3f89ae5",
+      "captures": [
+        {
+          "SRC_DATE": "20160318",
+          "SRC_RES": "0.31",
+          "SRC_ACC": "4.23"
+        }
+      ],
+      "imageDownloaded": false
+    }
+  ],
+  "excludedAnnualEvidence": {
+    "promoterNewsUrl": "https://www.bakucitycircuit.com/news/three-grandstands-sold-out",
+    "sha256": "fa859f62a6c4581450d30947f6d28a3090f911c081c2e4af618ce8208bbe0abb",
+    "bodyEventDates": "April28–30",
+    "reason": "Body event dates differ from2026 September event; current footer and search result season are not proof of article year. Not accepted as2026 Khazar admission evidence.",
+    "liveTicketPages": "Current promoter and F1 ticket pages resolve to2027. Previous checkedAt2026-10-23 citations are historical notes, not revalidated by current pages."
+  },
+  "nextAction": "Obtain dated2026 product evidence and an installed-seat georeferenced image or independently registered physical plan. Do not redownload listed off-event snapshots, infer cancellation from them, or trim/move the estimated polygon just to remove its road intersection.",
+  "activeApproximation": "src/circuits/asia/baku-khazar-2026.json"
+}

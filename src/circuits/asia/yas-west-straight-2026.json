@@ -1,0 +1,135 @@
+{
+  "circuitId": "yas-marina",
+  "season": 2026,
+  "zoneId": "west-straight",
+  "checkedAt": "2026-11-05",
+  "zone": {
+    "zoneId": "west-straight",
+    "name": "West Straight",
+    "kind": "grandstand",
+    "availability": "available",
+    "supportToTerrain": true,
+    "boundary": [
+      [
+        54.601886138008915,
+        24.470071302269712
+      ],
+      [
+        54.6015139254581,
+        24.469047948656062
+      ],
+      [
+        54.60134527553843,
+        24.469098766135502
+      ],
+      [
+        54.60171748808924,
+        24.470122119749153
+      ],
+      [
+        54.601886138008915,
+        24.470071302269712
+      ]
+    ],
+    "surfaces": [
+      {
+        "surfaceId": "west-straight-1",
+        "boundary": [
+          [
+            54.601886138008915,
+            24.470071302269712
+          ],
+          [
+            54.6015139254581,
+            24.469047948656062
+          ],
+          [
+            54.60134527553843,
+            24.469098766135502
+          ],
+          [
+            54.60171748808924,
+            24.470122119749153
+          ],
+          [
+            54.601886138008915,
+            24.470071302269712
+          ]
+        ],
+        "baseHeight": 2.4,
+        "rise": 9,
+        "rows": 20,
+        "eyeHeight": 1.2,
+        "frontReference": [
+          54.601627,
+          24.46873
+        ],
+        "rowStrip": {
+          "front": [
+            [
+              54.601886138008915,
+              24.470071302269712
+            ],
+            [
+              54.6015139254581,
+              24.469047948656062
+            ]
+          ],
+          "back": [
+            [
+              54.60171748808924,
+              24.470122119749153
+            ],
+            [
+              54.60134527553843,
+              24.469098766135502
+            ]
+          ],
+          "source": {
+            "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-straight-grandstand-4day",
+            "checkedAt": "2026-11-05",
+            "method": "estimated",
+            "confidence": "low",
+            "notes": "Explicit2026 WestStraight product and independently colored locator place a separate bank outside the long straight beforeT6/T7, not NorthStraight or West. User-approved author estimates120m length/18m depth,22m front offset,20rows,2.4m platform/9m rise; not surveyed installation."
+          }
+        },
+        "rowBearing": "local-normal"
+      }
+    ],
+    "surface": {
+      "baseHeight": 2.4,
+      "rise": 9,
+      "eyeHeight": 1.2,
+      "depth": 18
+    },
+    "source": {
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-straight-grandstand-4day",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Explicit2026 WestStraight product and independently colored locator place a separate bank outside the long straight beforeT6/T7, not NorthStraight or West. User-approved author estimates120m length/18m depth,22m front offset,20rows,2.4m platform/9m rise; not surveyed installation."
+    },
+    "openingSource": {
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-straight-grandstand-4day",
+      "checkedAt": "2026-11-05",
+      "method": "published",
+      "confidence": "high",
+      "notes": "Separate2026 ordinary WestStraight product confirmed in annual source review, not live availability."
+    },
+    "surfaceSource": {
+      "url": "https://www.abudhabigp.com/en/formula1/tickets-2026/west-straight-grandstand-4day",
+      "checkedAt": "2026-11-05",
+      "method": "estimated",
+      "confidence": "low",
+      "notes": "Explicit2026 WestStraight product and independently colored locator place a separate bank outside the long straight beforeT6/T7, not NorthStraight or West. User-approved author estimates120m length/18m depth,22m front offset,20rows,2.4m platform/9m rise; not surveyed installation."
+    },
+    "description": "六号弯前长直道外侧近似看台；范围、排数与高度为估计。",
+    "geometryReview": {
+      "checkedAt": "2026-11-05",
+      "issues": [],
+      "method": "Independent approximate outer bank beforeT6 on long straight; road/neighbor clearance screened."
+    }
+  },
+  "sourceReview": "src/circuits/season-review/yas-marina-west-product-families-2026.json",
+  "accuracy": "User-approved approximate seat boundary and structural heights; not survey."
+}

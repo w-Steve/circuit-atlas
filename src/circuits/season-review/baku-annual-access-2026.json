@@ -1,0 +1,325 @@
+{
+  "circuitId": "baku",
+  "season": 2026,
+  "checkedAt": "2026-11-06",
+  "sourceUrl": "https://web.archive.org/web/20260826083329id_/https://www.bakucitycircuit.com/buy-now",
+  "annualEvidence": {
+    "capturedAt": "2026-08-26T08:33:29Z",
+    "sourceSha256": "97161653781870de21ba49bf65cbc466b163ff8addbd1ff60efe3774901dfa0e",
+    "method": "Parsed actual archived organizer Nuxt catalog, not current2027 header or a generic reseller season badge.",
+    "categories": [
+      {
+        "category": "Main Grandstand",
+        "products": [
+          {
+            "name": "Absheron A",
+            "slug": "absheron-a",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "Absheron B",
+            "slug": "absheron-b",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "Absheron C Upper",
+            "slug": "absheron-c-upper",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "Absheron C Lower",
+            "slug": "absheron-c-lower",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "Absheron D",
+            "slug": "absheron-d",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "Absheron E",
+            "slug": "absheron-e",
+            "validDays": "Wednesday - Saturday"
+          }
+        ]
+      },
+      {
+        "category": "Grandstands",
+        "products": [
+          {
+            "name": "Champions",
+            "slug": null,
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "PASHA Real Estate (Azneft)",
+            "slug": "azneft",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "Mugham",
+            "slug": "mugham",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "Icheri Sheher",
+            "slug": "icheri-sheher",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "Sahil",
+            "slug": "sahil",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "Khazar",
+            "slug": "khazar",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "Bulvar",
+            "slug": "bulvar",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "Giz Galasi",
+            "slug": "giz-galasi",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "Filarmoniya",
+            "slug": "filarmoniya",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "Zafar",
+            "slug": "zafar",
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "City",
+            "slug": null,
+            "validDays": "Wednesday - Saturday"
+          },
+          {
+            "name": "MARINE",
+            "slug": null,
+            "validDays": "Wednesday - Saturday"
+          }
+        ]
+      },
+      {
+        "category": "Premium Hospitality",
+        "products": [
+          {
+            "name": "Paddock Club",
+            "slug": "paddock-club",
+            "validDays": "Thursday - Saturday"
+          },
+          {
+            "name": "Champions Club",
+            "slug": null,
+            "validDays": "Thursday - Saturday"
+          },
+          {
+            "name": "VIPLANE Lounge",
+            "slug": null,
+            "validDays": "Thursday - Saturday"
+          }
+        ]
+      },
+      {
+        "category": "General admission",
+        "products": [
+          {
+            "name": "General Admission Ticket",
+            "slug": "roaming",
+            "validDays": "Thursday - Saturday"
+          }
+        ]
+      }
+    ],
+    "corroboration": "https://tickets.formula1.com/en/f1-10851-azerbaijan/29339-no-slug"
+  },
+  "confirmedMissingProducts": [],
+  "modeledProducts": [
+    {
+      "productId": "absheron-a",
+      "mapLabel": "Absheron A",
+      "modelZoneIds": [
+        "absheron-a"
+      ],
+      "representation": "approximate-public-viewing-area"
+    },
+    {
+      "productId": "absheron-b",
+      "mapLabel": "Absheron B",
+      "modelZoneIds": [
+        "absheron-b"
+      ],
+      "representation": "approximate-public-viewing-area"
+    },
+    {
+      "productId": "absheron-c-upper",
+      "mapLabel": "Absheron C Upper",
+      "modelZoneIds": [
+        "absheron-c"
+      ],
+      "representation": "approximate-separate-tier-on-retained-bank",
+      "surfaceId": "absheron-c-upper"
+    },
+    {
+      "productId": "absheron-c-lower",
+      "mapLabel": "Absheron C Lower",
+      "modelZoneIds": [
+        "absheron-c"
+      ],
+      "representation": "approximate-separate-tier-on-retained-bank",
+      "surfaceId": "absheron-c-lower"
+    },
+    {
+      "productId": "absheron-d",
+      "mapLabel": "Absheron D",
+      "modelZoneIds": [
+        "absheron-d"
+      ],
+      "representation": "approximate-public-viewing-area"
+    },
+    {
+      "productId": "absheron-e",
+      "mapLabel": "Absheron E",
+      "modelZoneIds": [
+        "absheron-e"
+      ],
+      "representation": "approximate-public-viewing-area"
+    },
+    {
+      "productId": "champions",
+      "mapLabel": "Champions",
+      "modelZoneIds": [
+        "champions"
+      ],
+      "representation": "approximate-public-viewing-area",
+      "idNote": "Stable local ID derived from unique annual product name; publisher slug is null."
+    },
+    {
+      "productId": "azneft",
+      "mapLabel": "PASHA Real Estate (Azneft)",
+      "modelZoneIds": [
+        "azneft"
+      ],
+      "representation": "approximate-public-viewing-area"
+    },
+    {
+      "productId": "mugham",
+      "mapLabel": "Mugham",
+      "modelZoneIds": [
+        "mugham"
+      ],
+      "representation": "approximate-public-viewing-area"
+    },
+    {
+      "productId": "icheri-sheher",
+      "mapLabel": "Icheri Sheher",
+      "modelZoneIds": [
+        "icheri-sheher"
+      ],
+      "representation": "approximate-public-viewing-area"
+    },
+    {
+      "productId": "sahil",
+      "mapLabel": "Sahil",
+      "modelZoneIds": [
+        "sahil"
+      ],
+      "representation": "approximate-public-viewing-area"
+    },
+    {
+      "productId": "khazar",
+      "mapLabel": "Khazar",
+      "modelZoneIds": [
+        "khazar"
+      ],
+      "representation": "approximate-public-viewing-area"
+    },
+    {
+      "productId": "bulvar",
+      "mapLabel": "Bulvar",
+      "modelZoneIds": [
+        "bulvar"
+      ],
+      "representation": "approximate-public-viewing-area"
+    },
+    {
+      "productId": "giz-galasi",
+      "mapLabel": "Giz Galasi",
+      "modelZoneIds": [
+        "giz-galasi"
+      ],
+      "representation": "approximate-public-viewing-area"
+    },
+    {
+      "productId": "filarmoniya",
+      "mapLabel": "Filarmoniya",
+      "modelZoneIds": [
+        "filarmoniya"
+      ],
+      "representation": "approximate-public-viewing-area"
+    },
+    {
+      "productId": "zafar",
+      "mapLabel": "Zafar",
+      "modelZoneIds": [
+        "zafar"
+      ],
+      "representation": "approximate-public-viewing-area"
+    },
+    {
+      "productId": "city",
+      "mapLabel": "City",
+      "modelZoneIds": [
+        "city"
+      ],
+      "representation": "approximate-public-viewing-area",
+      "idNote": "Stable local ID derived from unique annual product name; publisher slug is null."
+    },
+    {
+      "productId": "marine",
+      "mapLabel": "MARINE",
+      "modelZoneIds": [
+        "marine"
+      ],
+      "representation": "approximate-public-viewing-area",
+      "idNote": "Stable local ID derived from unique annual product name; publisher slug is null."
+    },
+    {
+      "productId": "roaming",
+      "mapLabel": "General Admission Ticket",
+      "modelZoneIds": [
+        "roaming-boulevard"
+      ],
+      "representation": "approximate-public-viewing-area"
+    }
+  ],
+  "additionalCoverageQuestions": [
+    {
+      "productId": "general-admission",
+      "question": "Three approximate Boulevard ground patches represent roaming; exact2026 standing platforms, enclosing perimeter and continuity with prior wayfinding remain unverified.",
+      "completionRequired": true
+    }
+  ],
+  "layerCoverageQuestions": [],
+  "runtimeApplied": true,
+  "geographicBoundaryVerified": false,
+  "inventoryComplete": false,
+  "runtimeCoverage": "17 ordinary physical banks representing18 seat products plus three roaming ground patches. Seven previously missing named ordinary banks added; no premium hospitality product becomes a public ground area.",
+  "nextAction": "Resolve C upper/lower tier relationship and remaining roaming installation extent; preserve named approximate public banks.",
+  "limitations": "All newly authored footprints, rows and vertical profiles estimated; no claim of surveyed or obstruction-free views. Existing source-confirmed10 banks preserved. January/2025 wayfinding supplies only geographic context, not2026 annual identity; dated2026 archive supplies identities and Wednesday–Saturday seat / Thursday–Saturday GA dates.",
+  "layerApproximationReview": {
+    "checkedAt": "2026-11-06",
+    "modelReview": "src/circuits/asia/baku-c-tiers-2026.json",
+    "accepted": true,
+    "actualTierBoundaryVerified": false,
+    "notes": "Distinct selectable CUpper/CLower on retained bank; approximate11/12 row division, no fabricated independent stacked deck."
+  }
+}

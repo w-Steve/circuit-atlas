@@ -1,0 +1,75 @@
+{
+  "circuitId": "mexico",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "zoneId": "grada-7",
+  "runtimeApplied": false,
+  "geometryAccepted": false,
+  "productSource": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+  "namedSource": {
+    "url": "https://www.mexicogp.mx/boleto/generales-grada-7/",
+    "sha256": "e31c4755ee5d83251689f82a61a65b95d3c224864456a48d1f554032df98abcb",
+    "observed": "Official named page places7 at braking into T4, with T4–T8/back-straight views, and explicitly describes an uncovered grandstand. Current page references annual2026 ticket campaign; this is not a surveyed boundary."
+  },
+  "locator": {
+    "url": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2016/01/09081108/07.png",
+    "sha256": "97461a9ce60fca7bf86665f8b5d258fa7bbe4ea725f6e2cfb4a30cf35c6e2aab",
+    "observed": "Named official schematic actually inspected,7 in Yellow Zone outside the T4 approach/entry sector; artwork reused from older upload, not a2026 survey."
+  },
+  "photo": {
+    "url": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2021/07/06110407/grada-7-2025-01.jpg",
+    "sha256": "b613eeb646b661cc1ba3e714295bc1bf84e61b9c8a452c8e737569d2c9707ead",
+    "observed": "Official view photograph inspected; foreground7 seating and trackside fence visible, opposite roofed stands are different structures. It does not expose the complete footprint of7. Filename and upload path do not independently date capture2026."
+  },
+  "geographicImage": {
+    "captureDate": "2025-02-24",
+    "resolutionMetres": 0.5,
+    "reportedAccuracyMetres": 8.47,
+    "identifyUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/identify?f=json&geometry=-99.0855%2C19.3986&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=-99.0875%2C19.3965%2C-99.0845%2C19.3992&imageDisplay=1200%2C1200%2C96&returnGeometry=false",
+    "tileUrls": [
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/116668/58918",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/116669/58918",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/116670/58918",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/116668/58919",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/116669/58919",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/116670/58919",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/116668/58920",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/116669/58920",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/116670/58920"
+    ],
+    "sha256": "75021c6f33628169a54f4536243892d5369742cfb0c7c46eb43eb9355dab6ffa",
+    "observed": "Actual source mosaic inspected; structures/platforms and storage at the T4–T6 complex visible, but no independently identified complete7 seating polygon. Do not borrow adjacent roofed hospitality or stored components."
+  },
+  "historicalMetadata": {
+    "release": "2025-01-30",
+    "captureDate": "2024-02-21",
+    "reportedAccuracyMetres": 5,
+    "resolutionMetres": 0.46,
+    "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r01/MapServer/identify?f=json&geometry=-99.0855%2C19.3986&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=-99.0875%2C19.3965%2C-99.0845%2C19.3992&imageDisplay=1200%2C1200%2C96&returnGeometry=false",
+    "decision": "Not an event-installation-period capture; metadata only checked, no duplicate historical image download."
+  },
+  "registrationDiagnostic": {
+    "scope": "Rough manual schematic control diagnostic only, using the2048x1233 displayed resize of research/americas/mexico-2026.png; not independently surveyed control. No runtime geometry generated.",
+    "controls": {
+      "T4": [
+        1590,
+        747
+      ],
+      "T5": [
+        1640,
+        775
+      ],
+      "T6": [
+        1545,
+        844
+      ]
+    },
+    "withheldPickT7": [
+      1516,
+      646
+    ],
+    "withheldT7ErrorMetres": 54.0,
+    "decision": "Do not promote local three-turn affine transform to7 footprint; reconcile scale/bearing against independently located installed seats first."
+  },
+  "nextAction": "Obtain an installed-period identifiable7 aerial or geographic seating plan. Stop reusing the February2025/February2024 images and do not infer7 from generic nearby buildings, stockpiles, or roofed stands."
+}

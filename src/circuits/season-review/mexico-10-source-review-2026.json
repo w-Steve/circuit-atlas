@@ -1,0 +1,40 @@
+{
+  "circuitId": "mexico",
+  "season": 2026,
+  "checkedAt": "2026-10-29",
+  "zoneId": "grada-10",
+  "runtimeApplied": false,
+  "geometryAccepted": false,
+  "annualProductSource": "https://www.mexicogp.mx/mediacenter/arranca-la-cuenta-regresiva-para-el-mexico-gp-2026/",
+  "namedPage": {
+    "url": "https://www.mexicogp.mx/boleto/generales-grada-10/",
+    "sha256": "fb92f3447d86dda9dc0e65466bc37061125d291e103bb338bb94e17fac2e9230",
+    "observed": "Official ordinary10 page matches annual19900 product and explicitly says Grada semitechada. Back-straight/T4–T8 views do not establish geographic seat extent or row elevations."
+  },
+  "locator": {
+    "url": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2016/01/09081117/10.png",
+    "sha256": "3b57182601a64e719f1d84892a58b6884329ce502ad0287e05542fb7763790c7",
+    "observed": "Actual named locator inspected: short angled Yellow-Zone seating face outside T6, separate from the longer opposite diagonal structure. Old graphic is not surveyed2026 partition."
+  },
+  "photo": {
+    "url": "https://mexicogp.s3.us-west-2.amazonaws.com/wp-content/uploads/2016/01/06111010/grada-10-2025-01.jpg",
+    "sha256": "0e67d4914772db68984eaed277fb54dcd1545b34dc358c95ffcab1a030d1c550",
+    "observed": "Actual official view photo inspected:10 foreground seating, fenced curve, opposite stands and right-hand two-level structure clearly marked Trackside Box B. They are distinct products/structures; no whole-building10 association accepted. Photo does not show full10 rear/side limits or canopy extent.",
+    "captureYearIndependentlyVerified": false
+  },
+  "excludedNativeCandidate": {
+    "nativeId": "1309442839",
+    "tags": {
+      "building": "yes"
+    },
+    "bboxWgs84": [
+      -99.0864543,
+      19.3967832,
+      -99.0852709,
+      19.397653
+    ],
+    "reason": "Long diagonal building around T5–T6 matches the separate right-hand covered structure relationship rather than the short named10 seating face. Do not use a generic building tag and nearby location as10 identity or ordinary-seat eligibility."
+  },
+  "geographicReview": "Reuse already inspected2025-02-24 T4–T6 mosaic only as ground context; no independently identified complete10 seat footprint. Do not repeat February metadata or whole-complex queries as installation evidence.",
+  "nextAction": "Find installed10 seating geometry with its partial canopy and exact ordinary/Trackside Box separation; preserve named structures as distinct, never substitute adjacent VIP roof for public-seat footprint."
+}

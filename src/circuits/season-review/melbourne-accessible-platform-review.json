@@ -1,0 +1,49 @@
+{
+  "circuitId": "melbourne",
+  "season": 2026,
+  "checkedAt": "2026-10-26",
+  "sourceRecord": "src/circuits/asia/melbourne-accessible-platforms-2026.json",
+  "documentManifest": [
+    {
+      "name": "F126_Accessibility-Flyer-A3_FA_Digital.pdf",
+      "original": "https://www.grandprix.com.au/uploads/images/F126_Accessibility-Flyer-A3_FA_Digital.pdf",
+      "archiveUrl": "https://web.archive.org/web/20260301161848id_/https://www.grandprix.com.au/uploads/images/F126_Accessibility-Flyer-A3_FA_Digital.pdf",
+      "capture": "20260301161848",
+      "cdxSha1": "RGYY6B2SFQJVKO5CO7ITABBF75TVJDMO",
+      "responseSha1": "RGYY6B2SFQJVKO5CO7ITABBF75TVJDMO",
+      "digestMatches": true,
+      "sha256": "1c777a7fc5d29e5d2f55b3de7b0c9dc5006da5428f946db3471a3777b66f4e94",
+      "bytes": 3514354,
+      "pages": 2
+    },
+    {
+      "name": "GP26_029_Social-Story_V3.pdf",
+      "original": "https://www.grandprix.com.au/uploads/images/GP26_029_Social-Story_V3.pdf",
+      "archiveUrl": "https://web.archive.org/web/20250901124452id_/https://www.grandprix.com.au/uploads/images/GP26_029_Social-Story_V3.pdf",
+      "capture": "20250901124452",
+      "cdxSha1": "ZXQ67ZRTS2LET2AXCSWORCYV6GBLRW2V",
+      "responseSha1": "ZXQ67ZRTS2LET2AXCSWORCYV6GBLRW2V",
+      "digestMatches": true,
+      "sha256": "c42a7c272c9e483c5c1453c91b822011b0e8e4afb657388265929c95685b2261",
+      "bytes": 16579905,
+      "pages": 12
+    }
+  ],
+  "generatedSha256": "5285091aabd0f483bcd5b4f40832e72ee14af9c2b2720c1e8a6e818cf5e6185b",
+  "scope": "Three unreserved trackside accessible platforms, not complete ordinary Park Pass land.",
+  "qualification": "For spectators with accessibility needs; no advance reservation. Shown in Chinese/English selection UI.",
+  "profile": "Single flat seated level,1m provisional deck,1.2m seated eye; ramps, railings and dimensions not surveyed.",
+  "geometry": "No known overlap with existing24 zones or rendered racing surface. Three T3 self-deck ray hits match the analytic horizontal-plane intersection; not hidden or height-fitted.",
+  "browserCases": 18,
+  "photographs": 9,
+  "englishEntryCases": 9,
+  "unitTests": 322,
+  "productionBuildPassed": true,
+  "sourceApplyReplayByteStable": true,
+  "evidence": "artifacts/goal-review/melbourne-accessible-platforms",
+  "remaining": [
+    "Complete ordinary Park Pass non-mound viewing/access boundaries.",
+    "Reserved accessibility platform/seating identities and geometry.",
+    "Independent actual deck height, ramps, guardrails and local earthwork; no all-point visibility certification."
+  ]
+}

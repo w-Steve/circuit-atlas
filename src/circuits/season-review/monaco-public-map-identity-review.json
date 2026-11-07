@@ -1,0 +1,135 @@
+{
+  "circuitId": "monaco",
+  "season": 2026,
+  "checkedAt": "2026-10-27",
+  "sourceUrl": "https://acm.mc/wp-content/uploads/2025/05/Plan_Circuit_GPF12026_1920x1800-4-scaled.jpg",
+  "sourceSha256": "3d40d544403b11b070e28840079b7117ace6fe6cd2f553ffb8699ac98c3d887d",
+  "sourcePublishedAt": "2026-05-27T15:36:42",
+  "method": "Manually read the TRIBUNES / GRANDSTANDS and Zones debout / Standing areas legends of the fixed 2026 public map. Source image is retained locally, not redistributed.",
+  "confirmedIdentities": [
+    {
+      "zoneId": "a-sainte-devote",
+      "mapLabel": "A",
+      "officialPlaceName": "Avenue J.-F. Kennedy",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "b-casino",
+      "mapLabel": "B",
+      "officialPlaceName": "Casino",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "k-tabac",
+      "mapLabel": "K1–K6",
+      "officialPlaceName": "Quai Albert Ier",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "l-piscine",
+      "mapLabel": "L",
+      "officialPlaceName": "Piscine Rainier III",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "n-piscine",
+      "mapLabel": "N",
+      "officialPlaceName": "Virage Panne Nord",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "o-piscine",
+      "mapLabel": "O",
+      "officialPlaceName": "Piscine Plongeur",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "p-piscine",
+      "mapLabel": "P",
+      "officialPlaceName": "Piscine Panne Sud",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "t-rascasse",
+      "mapLabel": "T",
+      "officialPlaceName": "Cale de Halage",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "v-anthony-noghes",
+      "mapLabel": "V",
+      "officialPlaceName": "Virage Antony Noghès",
+      "ticketClass": "grandstand"
+    },
+    {
+      "zoneId": "z-quai-kennedy",
+      "mapLabel": "Z",
+      "officialPlaceName": "Avenue J.-F. Kennedy",
+      "ticketClass": "standing"
+    },
+    {
+      "zoneId": "rocher",
+      "mapLabel": "Secteur Rocher",
+      "ticketClass": "standing"
+    },
+    {
+      "zoneId": "e-chicane",
+      "mapLabel": "E",
+      "geographicBoundaryVerified": false,
+      "source": "https://www.colomastore.com/colomastore/evento.jsp?lingua=ENG&sid=10",
+      "notes": "Annual2026 supplier lists E Sunday;28x12m/6row approximate Piscine bank now implemented. Geographic boundaries remain estimated.",
+      "modelReview": "src/circuits/europe/monaco-e-2026.json"
+    },
+    {
+      "zoneId": "x1-quai-albert",
+      "mapLabel": "X1",
+      "geographicBoundaryVerified": false,
+      "source": "https://grandprixexperience.com/f1-race/monaco/race-tickets/",
+      "notes": "Retrieved2026 supplier lists separate reserved seats; official2026 ACM map places outside start straight. Approximate18x10m/5rows, not measured boundaries.",
+      "modelReview": "src/circuits/europe/monaco-x-2026.json"
+    },
+    {
+      "zoneId": "x2-quai-albert",
+      "mapLabel": "X2",
+      "geographicBoundaryVerified": false,
+      "source": "https://grandprixexperience.com/f1-race/monaco/race-tickets/",
+      "notes": "Retrieved2026 supplier lists separate reserved seats; official2026 ACM map places outside start straight. Approximate18x10m/5rows, not measured boundaries.",
+      "modelReview": "src/circuits/europe/monaco-x-2026.json"
+    }
+  ],
+  "unresolvedIdentities": [],
+  "confirmedMissingProducts": [],
+  "inventoryComplete": false,
+  "limits": "Legend confirms labels/classes, not surveyed boundaries, row profiles, single-ticket cross-access or all-seat visibility. No runtime geometry or availability changed.",
+  "modeledProducts": [
+    {
+      "productId": "rocher",
+      "mapLabel": "Secteur Rocher",
+      "ticketClass": "standing",
+      "modelZoneId": "rocher",
+      "sourceBoundaryParts": 4,
+      "nextAction": "Resolve candidate street-centreline intersections and independently verify the control correspondences/grades before terrain and scene acceptance.",
+      "worldCandidate": "src/circuits/europe/monaco-rocher-world-candidate-2026.json",
+      "candidateAccepted": false,
+      "accuracy": "approximate",
+      "modelReview": "src/circuits/europe/monaco-rocher-2026.json"
+    }
+  ],
+  "annualSupplierEvidence": {
+    "url": "https://www.colomastore.com/colomastore/evento.jsp?lingua=ENG&sid=10",
+    "sha256": "396933351a3750c51cfe02d5fcfb2c435315afec1b9dbda89f87c889fe2b1ec5",
+    "checkedAt": "2026-11-06",
+    "eventDates": [
+      "2026-06-04",
+      "2026-06-07"
+    ],
+    "products": [
+      "Grandstand E - Sunday",
+      "Grandstand T Covered - Sunday",
+      "Grandstand T Inferiore - Sunday",
+      "Grandstand T Superiore - Sunday"
+    ],
+    "scope": "Retrieved supplier live2026 catalogue. Confirms named ordinary ticket products, not measured boundaries or current availability. Absence of M/X1/X2 does not prove cancellation."
+  },
+  "legacyCandidateReview": "src/circuits/season-review/monaco-m-name-review-2026.json"
+}
